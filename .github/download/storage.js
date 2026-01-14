@@ -151,7 +151,7 @@ class CrawlQueue {
     return true;
   }
 
-  // 随机深度优先选择
+  // 随机深度优先选择（支持优先级）
   pickNext(visited) {
     // 过滤已访问的
     const available = this.items.filter(item => {
@@ -160,6 +160,14 @@ class CrawlQueue {
     });
 
     if (available.length === 0) return null;
+
+    // 优先处理高优先级项目（priority > 10）
+    const highPriority = available.filter(item => (item.priority || 0) > 10);
+    if (highPriority.length > 0) {
+      // 按优先级排序，取最高的
+      highPriority.sort((a, b) => (b.priority || 0) - (a.priority || 0));
+      return highPriority[0];
+    }
 
     // 70% 深度优先（选最近的），30% 随机跳转
     if (Math.random() < 0.7) {
