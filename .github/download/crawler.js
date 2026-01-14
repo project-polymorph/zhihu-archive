@@ -21,6 +21,34 @@ const {
   showStatus,
 } = require('./storage');
 
+// 加载爬取配置
+const CRAWL_CONFIG_PATH = path.join(__dirname, 'crawl-config.json');
+function loadCrawlConfig() {
+  try {
+    if (fs.existsSync(CRAWL_CONFIG_PATH)) {
+      return JSON.parse(fs.readFileSync(CRAWL_CONFIG_PATH, 'utf-8'));
+    }
+  } catch (e) {
+    logger.warn(`加载 crawl-config.json 失败: ${e.message}`);
+  }
+  return { topics: [], discovery: {} };
+}
+
+// 检查问题的 topics 是否匹配配置
+function matchesTopicFilter(questionTopics, configTopics) {
+  if (!configTopics || configTopics.length === 0) return false;
+  if (!questionTopics || questionTopics.length === 0) return false;
+
+  for (const qt of questionTopics) {
+    for (const ct of configTopics) {
+      if (qt.includes(ct) || ct.includes(qt)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
 // ============ 爬虫配置 ============
 const CRAWLER_CONFIG = {
   // 延迟配置（模拟真实用户）
@@ -131,7 +159,7 @@ class HumanBehavior {
 }
 
 // ============ 问题页面爬取 ============
-async function crawlQuestion(page, questionId, visited, queue, human) {
+async function crawlQuestion(page, questionId, visited, queue, human, crawlConfig) {
   const url = `https://www.zhihu.com/question/${questionId}`;
   logger.step(`爬取问题: ${questionId}`);
 
@@ -140,6 +168,7 @@ async function crawlQuestion(page, questionId, visited, queue, human) {
   let questionInfo = null;
   let totalCollected = 0;
   let newSaved = 0;
+  let addedToQueue = 0;
 
   // 设置 API 拦截 - 立刻保存
   const apiHandler = async (response) => {
@@ -221,15 +250,37 @@ async function crawlQuestion(page, questionId, visited, queue, human) {
         if (body && body.data && Array.isArray(body.data)) {
           for (const q of body.data) {
             if (q.id) {
+              const qId = String(q.id);
+              const qTopics = q.topics?.map(t => t.name || t) || [];
               relatedQuestions.push({
-                id: String(q.id),
+                id: qId,
                 title: q.title || '',
                 answerCount: q.answer_count || 0,
+                topics: qTopics,
               });
+
+              // 检查是否匹配 topic 过滤器，加入队列
+              if (crawlConfig?.discovery?.fromRelatedQuestions !== false) {
+                if (matchesTopicFilter(qTopics, crawlConfig?.topics)) {
+                  const visitKey = `question:${qId}`;
+                  if (!visited.has(visitKey)) {
+                    queue.add({
+                      type: 'question',
+                      id: qId,
+                      priority: 3,
+                      source: `related:${questionId}`,
+                      matchedTopics: qTopics.filter(t =>
+                        crawlConfig.topics.some(ct => t.includes(ct) || ct.includes(t))
+                      ),
+                    });
+                    addedToQueue++;
+                  }
+                }
+              }
             }
           }
           if (relatedQuestions.length > 0) {
-            logger.info(`  [API] 发现 ${relatedQuestions.length} 个相关问题`);
+            logger.info(`  [API] 发现 ${relatedQuestions.length} 个相关问题, ${addedToQueue} 个匹配加入队列`);
             // 立刻保存相关问题到问题 meta
             Storage.saveQuestion(questionId, { relatedQuestions });
           }
@@ -304,12 +355,13 @@ async function crawlQuestion(page, questionId, visited, queue, human) {
 }
 
 // ============ 文章页面爬取 ============
-async function crawlArticle(page, articleId, visited, queue, human) {
+async function crawlArticle(page, articleId, visited, queue, human, crawlConfig) {
   const url = `https://zhuanlan.zhihu.com/p/${articleId}`;
   logger.step(`爬取文章: ${articleId}`);
 
   const recommendations = [];
   const articleComments = [];
+  let addedToQueue = 0;
 
   // 设置 API 拦截
   const apiHandler = async (response) => {
@@ -326,15 +378,37 @@ async function crawlArticle(page, articleId, visited, queue, human) {
           for (const item of body.data) {
             const article = item.article || item;
             if (article.id) {
+              const aId = String(article.id);
+              const aTopics = article.topics?.map(t => t.name || t) || [];
               recommendations.push({
-                id: String(article.id),
+                id: aId,
                 title: article.title || '',
                 voteupCount: article.voteup_count || 0,
+                topics: aTopics,
               });
+
+              // 检查是否匹配 topic 过滤器，加入队列
+              if (crawlConfig?.discovery?.fromRecommendations !== false) {
+                if (matchesTopicFilter(aTopics, crawlConfig?.topics)) {
+                  const visitKey = `article:${aId}`;
+                  if (!visited.has(visitKey)) {
+                    queue.add({
+                      type: 'article',
+                      id: aId,
+                      priority: 4,
+                      source: `recommend:${articleId}`,
+                      matchedTopics: aTopics.filter(t =>
+                        crawlConfig.topics.some(ct => t.includes(ct) || ct.includes(t))
+                      ),
+                    });
+                    addedToQueue++;
+                  }
+                }
+              }
             }
           }
           if (recommendations.length > 0) {
-            logger.info(`  [API] 发现 ${recommendations.length} 篇推荐文章`);
+            logger.info(`  [API] 发现 ${recommendations.length} 篇推荐文章, ${addedToQueue} 个匹配加入队列`);
           }
         }
       }
@@ -432,12 +506,21 @@ async function crawl(options = {}) {
 
   ensureDataDirs();
 
+  // 加载爬取配置
+  const crawlConfig = loadCrawlConfig();
+  if (crawlConfig.topics && crawlConfig.topics.length > 0) {
+    logger.info(`Topic 过滤器: ${crawlConfig.topics.join(', ')}`);
+  }
+
   // 加载状态
   const visited = new VisitedSet();
   const queue = new CrawlQueue();
 
   logger.info(`已访问: ${visited.size()} 项`);
   logger.info(`队列: ${queue.size()} 项`);
+
+  // 开始前先清理队列
+  queue.compact(visited);
 
   if (queue.size() === 0) {
     logger.warn('队列为空，请先添加种子或运行 init');
@@ -455,6 +538,7 @@ async function crawl(options = {}) {
     shouldStop = true;
     logger.warn('正在安全退出...');
     visited.save();
+    queue.compact(visited);  // 自动清理队列
     Storage.saveStats();
     await browser.close();
     showStatus();
@@ -501,9 +585,9 @@ async function crawl(options = {}) {
 
       try {
         if (next.type === 'question') {
-          await crawlQuestion(page, next.id, visited, queue, human);
+          await crawlQuestion(page, next.id, visited, queue, human, crawlConfig);
         } else if (next.type === 'article') {
-          await crawlArticle(page, next.id, visited, queue, human);
+          await crawlArticle(page, next.id, visited, queue, human, crawlConfig);
         } else {
           logger.warn(`未知类型: ${next.type}`);
           visited.add(itemKey);
@@ -517,6 +601,9 @@ async function crawl(options = {}) {
         logger.error(`爬取失败: ${err.message}`);
         // 不标记为已访问，以便重试
       }
+
+      // 每次爬取后更新队列
+      queue.compact(visited);
 
       // 定期保存状态
       if (crawledCount % 5 === 0) {

@@ -171,6 +171,7 @@ class CrawlQueue {
 
   // 重写队列文件（清理已访问的）
   compact(visited) {
+    const originalCount = this.items.length;
     const remaining = this.items.filter(item => {
       const key = `${item.type}:${item.id}`;
       return !visited.has(key);
@@ -181,7 +182,15 @@ class CrawlQueue {
     if (fs.existsSync(PATHS.queue)) {
       fs.unlinkSync(PATHS.queue);
     }
-    remaining.forEach(item => appendJsonl(PATHS.queue, item));
+    if (remaining.length > 0) {
+      const content = remaining.map(item => JSON.stringify(item)).join('\n') + '\n';
+      fs.writeFileSync(PATHS.queue, content, 'utf-8');
+    }
+
+    const removed = originalCount - remaining.length;
+    if (removed > 0) {
+      logger.info(`队列清理: 移除 ${removed} 项, 剩余 ${remaining.length} 项`);
+    }
 
     return remaining.length;
   }
