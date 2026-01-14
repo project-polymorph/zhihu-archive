@@ -3,8 +3,8 @@
  *
  * 使用方法:
  *   node index.js login             扫码登录
- *   node index.js topic <url>       爬取话题 Feed
  *   node index.js crawl [--max n]   随机深度优先爬取
+ *   node index.js topic <url>       收集话题问题加入队列
  *   node index.js init <file>       从 result.json 初始化数据
  *   node index.js status            查看数据状态
  *   node index.js download <url>    下载单个页面
@@ -13,7 +13,7 @@
 
 const { downloadPage } = require('./download');
 const { extractFromFile } = require('./extract');
-const { crawlTopic } = require('./topic');
+const { seedTopic } = require('./topic');
 const { login } = require('./login');
 const { initFromResult } = require('./init');
 const { showStatus } = require('./storage');
@@ -25,8 +25,8 @@ function printUsage() {
   console.log('');
   console.log('用法:');
   console.log('  node index.js login              扫码登录知乎');
-  console.log('  node index.js topic <url> [n]    爬取话题 Feed (n=滚动次数)');
   console.log('  node index.js crawl [--max n]    随机深度优先爬取队列');
+  console.log('  node index.js topic <url>        收集话题所有标签页问题加入队列');
   console.log('  node index.js init <file>        从 result.json 初始化数据结构');
   console.log('  node index.js status             查看数据状态');
   console.log('  node index.js download <url>     下载单个页面');
@@ -34,8 +34,8 @@ function printUsage() {
   console.log('');
   console.log('示例:');
   console.log('  node index.js login');
-  console.log('  node index.js topic "https://www.zhihu.com/topic/27814732" 500');
   console.log('  node index.js crawl --max 10');
+  console.log('  node index.js topic https://www.zhihu.com/topic/20075371');
   console.log('  node index.js init output/topic_xxx/result.json');
   console.log('  node index.js status');
 }
@@ -77,8 +77,7 @@ async function main() {
           logger.error('请提供话题 URL');
           process.exit(1);
         }
-        const maxScrolls = parseInt(args[2]) || 2000;
-        await crawlTopic(target, maxScrolls);
+        await seedTopic(target);
         break;
 
       case 'init':
@@ -120,7 +119,7 @@ if (require.main === module) {
 module.exports = {
   downloadPage,
   extractFromFile,
-  crawlTopic,
+  seedTopic,
   login,
   initFromResult,
   showStatus,

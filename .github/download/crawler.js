@@ -20,6 +20,7 @@ const {
   Storage,
   showStatus,
 } = require('./storage');
+const { seedTopic } = require('./topic');
 
 // 加载爬取配置
 const CRAWL_CONFIG_PATH = path.join(__dirname, 'crawl-config.json');
@@ -625,12 +626,15 @@ function printUsage() {
   console.log('随机深度优先爬虫');
   console.log('');
   console.log('用法:');
-  console.log('  node crawler.js                 从队列继续爬取');
-  console.log('  node crawler.js --max <n>       最多爬取 n 个');
-  console.log('  node crawler.js --status        查看状态');
+  console.log('  node crawler.js                      从队列继续爬取');
+  console.log('  node crawler.js --max <n>            最多爬取 n 个');
+  console.log('  node crawler.js --status             查看状态');
+  console.log('  node crawler.js topic <url>          从话题收集问题加入队列');
   console.log('');
   console.log('示例:');
   console.log('  node crawler.js --max 10');
+  console.log('  node crawler.js topic https://www.zhihu.com/topic/20075371');
+  console.log('  node crawler.js topic https://www.zhihu.com/topic/19586124/hot');
 }
 
 if (require.main === module) {
@@ -646,14 +650,29 @@ if (require.main === module) {
     process.exit(0);
   }
 
-  const options = {};
+  // topic 子命令
+  if (args[0] === 'topic') {
+    const topicUrl = args[1];
+    if (!topicUrl) {
+      console.error('请提供话题 URL');
+      console.error('示例: node crawler.js topic https://www.zhihu.com/topic/20075371');
+      process.exit(1);
+    }
+    seedTopic(topicUrl).catch(err => {
+      console.error('话题爬取失败:', err.message);
+      process.exit(1);
+    });
+  } else {
+    // 默认爬取队列
+    const options = {};
 
-  const maxIdx = args.indexOf('--max');
-  if (maxIdx !== -1 && args[maxIdx + 1]) {
-    options.max = parseInt(args[maxIdx + 1]);
+    const maxIdx = args.indexOf('--max');
+    if (maxIdx !== -1 && args[maxIdx + 1]) {
+      options.max = parseInt(args[maxIdx + 1]);
+    }
+
+    crawl(options);
   }
-
-  crawl(options);
 }
 
 module.exports = { crawl, crawlQuestion, crawlArticle };
