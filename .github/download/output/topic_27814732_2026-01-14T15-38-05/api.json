@@ -1,0 +1,676 @@
+[
+  {
+    "timestamp": "2026-01-14T15:38:09.865Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://www.zhihu.com/api/account/prod/token/refresh",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:09.865Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me?include=is_realname",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/search/preset_words",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/creator/apply",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/creators/analysis/card",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/search/hot_search",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/moments/recommend_follow_people?rec_type=PC_HOME_FEED",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/home/sidebar",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/creators/extra_card",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me/switches?include=oppose_right",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.447Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me?include=ad_type%2Cemail%2Caccount_status%2Cis_bind_phone%2Cavailable_message_types%2Cdefault_notifications_count%2Cfollow_notifications_count%2Cvote_thank_notifications_count%2Cmessages_count%2Cis_org%2Cavatar_url%2Cname%2Curl_token%2Cdraft_count%2Cfollowing_question_count%2Cis_realname%2Cis_force_renamed%2Crenamed_fullname%2Cis_destroy_waiting",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:10.448Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me?include=email%2Cis_active%2Cis_bind_phone",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:12.301Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v3/feed/topstory/recommend?action=down&ad_interval=-10&after_id=5&desktop=true&end_offset=5&page_number=2&session_token=99a6a44068fa8981235aff5e80f084c8",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:12.953Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://www.zhihu.com/api/v3/oauth/sign_in",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:13.187Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/content/drafts/count?action=pin",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:14.294Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:14.565Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:14.603Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:14.612Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:14.878Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:14.985Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:15.220Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:15.268Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:15.611Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:19.119Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:19.182Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:19.594Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:19.640Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.127Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me?include=is_realname",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.307Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/topics/27814732/wiki/edit_info",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/topics/27814732/intro?include=content.meta.content.photos",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/sticky/v2",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/topics/27814732/creator_wall?limit=5&offset=0",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v3/topics/27814732/parent",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v3/topics/27814732/children",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/topics/27814732/best_answerers?limit=3",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me/switches?include=is_creator",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me?include=email%2Caccount_status%2Cis_bind_phone%2Cavailable_message_types%2Cdefault_notifications_count%2Cfollow_notifications_count%2Cvote_thank_notifications_count%2Cmessages_count%2Cis_org%2Cis_realname%2Cis_destroy_waiting",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.308Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me?include=email%2Cis_active%2Cis_bind_phone",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.640Z",
+    "type": "response",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/sticky/v2",
+    "status": 200,
+    "paging": null,
+    "dataCount": 0
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.697Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.711Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.715Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.722Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.971Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:24.974Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:26.139Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v4/me/switches?include=oppose_right",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:26.195Z",
+    "type": "response",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2",
+    "status": 200,
+    "paging": {
+      "totals": 3771,
+      "is_start": true,
+      "is_end": false,
+      "previous": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=-20&limit=20&",
+      "next": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=20&limit=20&"
+    },
+    "dataCount": 17
+  },
+  {
+    "timestamp": "2026-01-14T15:38:26.561Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:26.577Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:26.989Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:27.097Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "type": "topic_info",
+    "topicId": "27814732",
+    "topicUrl": "https://www.zhihu.com/topic/27814732/hot",
+    "name": "变性人生",
+    "description": "暂无话题描述",
+    "timestamp": "2026-01-14T15:38:32.376Z"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:32.627Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:32.643Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:33.122Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:33.127Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:34.890Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:34.896Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:35.411Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:38.587Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:38.591Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:39.032Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:39.056Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:41.206Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:41.271Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:41.648Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=20&limit=20&",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:41.822Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:41.822Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:42.228Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:43.986Z",
+    "type": "response",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=20&limit=20&",
+    "status": 200,
+    "paging": {
+      "totals": 3771,
+      "is_start": false,
+      "is_end": false,
+      "previous": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=0&limit=20&",
+      "next": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=40&limit=20&"
+    },
+    "dataCount": 14
+  },
+  {
+    "timestamp": "2026-01-14T15:38:59.815Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:38:59.876Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:00.219Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:00.339Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:03.820Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=40&limit=20&",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:03.848Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:03.880Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:03.988Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:05.376Z",
+    "type": "response",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=40&limit=20&",
+    "status": 200,
+    "paging": {
+      "totals": 3771,
+      "is_start": false,
+      "is_end": false,
+      "previous": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=20&limit=20&",
+      "next": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=60&limit=20&"
+    },
+    "dataCount": 15
+  },
+  {
+    "timestamp": "2026-01-14T15:39:05.441Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:06.977Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:39:07.487Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:45.239Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:45.323Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:45.595Z",
+    "type": "request",
+    "method": "GET",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=60&limit=20&",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:45.731Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:45.798Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:46.173Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:46.303Z",
+    "type": "request",
+    "method": "POST",
+    "url": "https://zhihu-web-analytics.zhihu.com/api/v3inv2/za/logs/batch",
+    "resourceType": "fetch"
+  },
+  {
+    "timestamp": "2026-01-14T15:40:46.760Z",
+    "type": "response",
+    "url": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=60&limit=20&",
+    "status": 200,
+    "paging": {
+      "totals": 3771,
+      "is_start": false,
+      "is_end": false,
+      "previous": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=40&limit=20&",
+      "next": "https://www.zhihu.com/api/v5.1/topics/27814732/feeds/essence/v2?offset=80&limit=20&"
+    },
+    "dataCount": 2
+  }
+]

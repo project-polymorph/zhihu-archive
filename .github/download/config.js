@@ -1,8 +1,11 @@
 const path = require('path');
 
 module.exports = {
-  // 输出目录
+  // 输出目录（调试用）
   outputDir: path.join(__dirname, 'output'),
+
+  // 数据目录（结构化存储）
+  dataDir: path.join(__dirname, 'data'),
 
   // 超时设置
   timeout: 60000,

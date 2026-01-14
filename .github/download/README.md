@@ -6,10 +6,11 @@
 
 - 扫码登录知乎
 - 下载单个问答/文章页面
-- 爬取话题（讨论 + 精华两个 Tab）
-- 深度滚动加载更多内容
-- 模拟真实用户行为（随机延迟、鼠标移动）
+- 爬取话题（持续滚动，收集所有数据）
+- 拦截 API 响应，直接获取结构化数据
+- 模拟真实用户行为（随机延迟、鼠标移动、阅读暂停）
 - 输出 JSON 格式，包含完整元数据
+- 自动去重（基于 ID）
 
 ## 安装
 
@@ -23,116 +24,145 @@ npm install
 
 ```bash
 node index.js login
-# 或
-node login.js
 ```
 
-运行后会显示二维码截图，使用知乎 App 扫码登录。登录状态会保存到 `cookies.json`。
+运行后会显示二维码截图，使用知乎 App 扫码登录。
 
 ### 2. 爬取话题
 
 ```bash
-node index.js topic "https://www.zhihu.com/topic/27814732"
-# 或
-node topic.js "https://www.zhihu.com/topic/27814732/hot"
+node topic.js "https://www.zhihu.com/topic/27814732/hot" 500
 ```
 
-会自动爬取「讨论」和「精华」两个 Tab，深度滚动加载更多内容。
+参数：
+- 第一个参数：话题 URL
+- 第二个参数：最大滚动次数（默认 2000）
 
-### 3. 下载单个页面
+### 3. 调试模式
 
 ```bash
-node index.js download "https://www.zhihu.com/question/xxx/answer/xxx"
-# 或
-node download.js "url"
+node debug.js "https://www.zhihu.com/topic/27814732/hot"
 ```
 
-### 4. 提取文本
-
-```bash
-node index.js extract output/xxx.html
-# 或
-node extract.js output/xxx.html --json
-```
+捕获所有网络流量，用于分析 API。
 
 ## 输出结构
 
 ```
 output/
-├── topic_27814732_2026-01-14/     # 话题输出目录
-│   ├── result.json                # 完整 JSON 结果
-│   ├── discussion.html            # 讨论 Tab HTML
-│   ├── featured.html              # 精华 Tab HTML
-│   ├── topic_overview.png         # 话题概览截图
-│   ├── discussion_initial.png     # 讨论初始截图
-│   ├── discussion_final.png       # 讨论最终截图
-│   ├── scroll_0.png               # 滚动过程截图（调试用）
-│   ├── scroll_5.png
-│   └── ...
-├── login-page.png                 # 登录页截图
-├── qrcode.png                     # 二维码
-└── ...
+├── topic_27814732_2026-01-14T15-38-05/
+│   ├── api.json           # 所有 API 请求/响应日志
+│   ├── result.json        # 解析后的结构化数据（去重）
+│   ├── initial.png        # 初始截图
+│   ├── scroll_50.png      # 滚动过程截图
+│   └── final.png          # 最终截图
+└── debug_xxx/             # 调试输出
+    ├── api_10.json
+    ├── network_10.json
+    └── *.png
 ```
 
-## JSON 输出格式
+## API 分析
 
+### 话题 Feed API
+
+通过网络流量分析，发现知乎话题页面使用以下 API 加载数据：
+
+```
+GET https://www.zhihu.com/api/v5.1/topics/{topicId}/feeds/essence/v2?offset=X&limit=20
+```
+
+**响应结构：**
 ```json
 {
-  "meta": {
-    "topicId": "27814732",
-    "topicUrl": "https://www.zhihu.com/topic/27814732",
-    "crawledAt": "2026-01-14T15:00:00.000Z",
-    "outputDir": "output/topic_27814732_2026-01-14"
+  "paging": {
+    "totals": 3771,
+    "is_start": false,
+    "is_end": false,
+    "previous": "...?offset=0&limit=20",
+    "next": "...?offset=40&limit=20"
   },
-  "topic": {
-    "name": "变性人生",
-    "description": "...",
-    "followersCount": "805 万",
-    "questionsCount": "3771"
-  },
-  "tabs": {
-    "discussion": {
-      "tab": "discussion",
-      "name": "讨论",
-      "url": "https://www.zhihu.com/topic/27814732/hot",
-      "itemCount": 50,
-      "items": [
-        {
-          "id": "1890708654895895137",
-          "type": "article",
-          "title": "中国性别重置先驱张克莎的传奇人生",
-          "authorName": "扯会闲白",
-          "url": "https://zhuanlan.zhihu.com/p/xxx",
-          "excerpt": "...",
-          "voteCount": "1234",
-          "commentCount": "56",
-          "createdTime": "2026-01-10"
+  "data": [
+    {
+      "type": "topic_feed",
+      "target": {
+        "id": "1890708654895895137",
+        "type": "article",
+        "url": "https://zhuanlan.zhihu.com/p/xxx",
+        "excerpt_title": "标题",
+        "excerpt": "摘要...",
+        "voteup_count": 108,
+        "comment_count": 15,
+        "author": {
+          "id": "xxx",
+          "name": "作者名",
+          "avatar_url": "..."
         }
-      ]
-    },
-    "featured": {
-      // 同上结构
+      }
     }
-  }
+  ]
 }
+```
+
+**关键字段：**
+- `paging.totals`: 总条目数
+- `paging.is_end`: 是否到底
+- `paging.next`: 下一页 URL
+- `data[].target.type`: 内容类型（article/answer/pin/zvideo）
+
+### 其他重要 API
+
+| API | 说明 |
+|-----|------|
+| `/api/v4/topics/{id}/intro` | 话题介绍 |
+| `/api/v4/topics/{id}/creator_wall` | 话题创作者 |
+| `/api/v3/topics/{id}/parent` | 父话题 |
+| `/api/v5.1/topics/{id}/feeds/essence/sticky/v2` | 置顶内容 |
+
+## 爬取策略
+
+### 为什么不用高度判断？
+
+最初尝试通过 `document.body.scrollHeight` 判断是否到底，但发现：
+1. 页面高度变化滞后于 API 加载
+2. 有时高度不变但 API 仍在返回新数据
+3. 会导致过早停止
+
+### 当前策略
+
+1. **持续滚动**：不依赖高度判断，持续滚动指定次数
+2. **拦截 API**：监听所有 `/feeds/` API 响应
+3. **实时解析**：每次 API 返回数据立即解析并保存
+4. **ID 去重**：用 Set 记录已见 ID，避免重复
+
+### 模拟真实用户
+
+```javascript
+// 随机滚动方式
+- 60% 平滑滚动 (smooth)
+- 30% 直接滚动
+- 10% 滚动到随机元素
+
+// 随机延迟
+- 基础延迟: 2-4 秒
+- 10% 概率长暂停: 3-8 秒（模拟阅读）
+- 30% 概率移动鼠标
 ```
 
 ## 文件结构
 
 ```
-├── config.js      # 配置文件
-├── utils.js       # 工具函数（延迟、日志等）
-├── browser.js     # 浏览器配置和反检测
+├── config.js      # 配置
+├── utils.js       # 工具函数
+├── browser.js     # 浏览器反检测
 ├── login.js       # 扫码登录
 ├── download.js    # 单页面下载
 ├── extract.js     # 文本提取
 ├── topic.js       # 话题爬取（核心）
+├── debug.js       # 调试/网络分析
 ├── index.js       # 统一入口
-├── cookies.json   # 登录状态（gitignore）
-├── package.json
-├── README.md
-├── .gitignore
-└── output/        # 输出目录（gitignore）
+├── cookies.json   # 登录状态
+└── output/        # 输出目录
 ```
 
 ## 反检测特性
@@ -142,30 +172,27 @@ output/
 - WebDriver 特征隐藏
 - Chrome 对象伪装
 - WebGL 渲染器伪装
-- 模拟真实用户行为：
-  - 随机延迟（1.5-3.5秒）
-  - 随机滚动距离
-  - 随机鼠标移动
-  - 偶尔暂停（模拟阅读）
+- navigator 属性伪装（plugins, languages, platform）
 
-## 配置
+## 配置调整
 
-在 `config.js` 中可以调整：
+在 `topic.js` 的 `TOPIC_CONFIG` 中可调整：
 
-- `timeout`: 页面加载超时
-- `viewport`: 浏览器窗口大小
-- `userAgents`: User-Agent 列表
-- `delay`: 延迟配置
-
-在 `topic.js` 中可以调整：
-
-- `maxScrolls`: 最大滚动次数（默认 20）
-- `minDelay/maxDelay`: 滚动延迟范围
-- `scrollDistance`: 滚动距离范围
+```javascript
+scrollConfig: {
+  minDelay: 2000,              // 最小延迟 (ms)
+  maxDelay: 4000,              // 最大延迟 (ms)
+  scrollDistance: { min: 300, max: 700 },  // 滚动距离
+  mouseMoveProbability: 0.3,   // 移动鼠标概率
+  pauseProbability: 0.1,       // 长暂停概率
+  pauseDuration: { min: 3000, max: 8000 }, // 暂停时长
+}
+```
 
 ## 注意事项
 
 - 首次使用需要登录才能访问完整内容
-- 话题页面需要登录才能查看
 - 爬取速度故意放慢以模拟真实用户
-- 截图文件主要用于调试，可以删除节省空间
+- 每次有新数据会自动保存，中断后数据不丢失
+- 截图文件用于调试，可删除节省空间
+- Ctrl+C 可安全停止，会保存已收集的数据
