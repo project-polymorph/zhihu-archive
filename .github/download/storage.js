@@ -108,6 +108,14 @@ class VisitedSet {
   size() {
     return this.set.size;
   }
+
+  remove(key) {
+    if (this.set.has(key)) {
+      this.set.delete(key);
+      return true;
+    }
+    return false;
+  }
 }
 
 // ============ 队列管理 ============

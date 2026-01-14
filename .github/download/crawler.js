@@ -165,11 +165,45 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
   logger.step(`爬取问题: ${questionId}`);
 
   const savedAnswerIds = new Set();  // 已保存的回答 ID
+  const answerList = [];  // 回答列表 (id + voteup)
   const relatedQuestions = [];
   let questionInfo = null;
   let totalCollected = 0;
   let newSaved = 0;
   let addedToQueue = 0;
+
+  // 保存单个回答的辅助函数
+  const saveAnswer = (answerId, answerData) => {
+    if (savedAnswerIds.has(answerId)) return false;
+    const visitKey = `answer:${answerId}`;
+    if (visited.has(visitKey)) {
+      savedAnswerIds.add(answerId);
+      // 仍然记录到 answerList
+      answerList.push({
+        id: answerId,
+        voteupCount: answerData.voteupCount || 0,
+        author: answerData.author?.name || '',
+      });
+      return false;
+    }
+
+    Storage.saveAnswer(questionId, answerId, answerData);
+    visited.add(visitKey);
+    savedAnswerIds.add(answerId);
+    answerList.push({
+      id: answerId,
+      voteupCount: answerData.voteupCount || 0,
+      author: answerData.author?.name || '',
+    });
+    newSaved++;
+
+    // 保存作者
+    if (answerData.author && answerData.author.id) {
+      Storage.saveAuthor(answerData.author.id, answerData.author);
+    }
+
+    return true;
+  };
 
   // 设置 API 拦截 - 立刻保存
   const apiHandler = async (response) => {
@@ -190,15 +224,6 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
               const answerId = String(target.id);
               totalCollected++;
 
-              // 检查是否已保存
-              if (savedAnswerIds.has(answerId)) continue;
-              const visitKey = `answer:${answerId}`;
-              if (visited.has(visitKey)) {
-                savedAnswerIds.add(answerId);
-                continue;
-              }
-
-              // 立刻保存回答
               const hotComment = target.hot_comment;
               const answerData = {
                 id: answerId,
@@ -222,25 +247,10 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
                 } : null,
               };
 
-              // 立刻保存到文件
-              Storage.saveAnswer(questionId, answerId, answerData);
-              visited.add(visitKey);
-              savedAnswerIds.add(answerId);
-              newSaved++;
-
-              // 保存作者
-              if (target.author && target.author.id) {
-                Storage.saveAuthor(target.author.id, {
-                  id: target.author.id,
-                  name: target.author.name,
-                  headline: target.author.headline || '',
-                  avatarUrl: target.author.avatar_url || '',
-                });
-              }
+              saveAnswer(answerId, answerData);
             }
           }
           logger.info(`  [API] 收集 ${totalCollected} 回答, 新保存 ${newSaved}`);
-          // 立刻持久化 visited
           visited.save();
         }
       }
@@ -282,8 +292,6 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
           }
           if (relatedQuestions.length > 0) {
             logger.info(`  [API] 发现 ${relatedQuestions.length} 个相关问题, ${addedToQueue} 个匹配加入队列`);
-            // 立刻保存相关问题到问题 meta
-            Storage.saveQuestion(questionId, { relatedQuestions });
           }
         }
       }
@@ -314,10 +322,70 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
         topics: Array.from(document.querySelectorAll('.QuestionHeader-topics .TopicLink')).map(
           el => el.innerText?.trim()
         ),
+        answerCount: parseInt(
+          document.querySelector('.List-headerText span')?.innerText?.replace(/[^\d]/g, '') || '0'
+        ),
       };
     });
 
     logger.info(`  标题: ${questionInfo.title.slice(0, 40)}...`);
+
+    // ========== 先从 DOM 提取 SSR 渲染的回答 ==========
+    const ssrAnswers = await page.evaluate(() => {
+      const answers = [];
+      document.querySelectorAll('.AnswerItem').forEach(el => {
+        const dataZop = el.getAttribute('data-zop');
+        let answerId = '';
+        if (dataZop) {
+          try {
+            const zop = JSON.parse(dataZop);
+            answerId = String(zop.itemId || '');
+          } catch(e) {}
+        }
+        if (!answerId) return;
+
+        const authorEl = el.querySelector('.AuthorInfo-name a, .AuthorInfo-name span');
+        const authorLink = el.querySelector('.AuthorInfo-name a');
+        const contentEl = el.querySelector('.RichContent-inner');
+        const voteEl = el.querySelector('.VoteButton--up');
+
+        // 提取作者 ID
+        let authorId = '';
+        if (authorLink) {
+          const href = authorLink.getAttribute('href') || '';
+          const match = href.match(/people\/([^/?]+)/);
+          if (match) authorId = match[1];
+        }
+
+        answers.push({
+          id: answerId,
+          author: {
+            id: authorId,
+            name: authorEl?.innerText?.trim() || '',
+          },
+          content: contentEl?.innerHTML || '',
+          excerpt: contentEl?.innerText?.slice(0, 300) || '',
+          voteupCount: parseInt(voteEl?.innerText?.replace(/[^\d]/g, '') || '0'),
+        });
+      });
+      return answers;
+    });
+
+    if (ssrAnswers.length > 0) {
+      logger.info(`  [DOM] 提取到 ${ssrAnswers.length} 个 SSR 回答`);
+      for (const ans of ssrAnswers) {
+        totalCollected++;
+        saveAnswer(ans.id, {
+          id: ans.id,
+          content: ans.content,
+          excerpt: ans.excerpt,
+          voteupCount: ans.voteupCount,
+          author: ans.author,
+          source: 'ssr',
+        });
+      }
+      visited.save();
+    }
 
     // 滚动加载更多回答
     const maxScrolls = CRAWLER_CONFIG.scroll.maxScrolls;
@@ -336,14 +404,18 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
     page.off('response', apiHandler);
   }
 
-  // 保存问题元数据（回答已在 API handler 中立刻保存）
+  // 保存问题元数据，包含回答列表
   Storage.saveQuestion(questionId, {
     title: questionInfo?.title || '',
     detail: questionInfo?.detail || '',
     followerCount: questionInfo?.followerCount || 0,
+    answerCount: questionInfo?.answerCount || 0,
     topics: questionInfo?.topics || [],
     url: url,
-    needsFetch: false,
+    relatedQuestions: relatedQuestions.length > 0 ? relatedQuestions : undefined,
+    // 回答列表，包含 ID 和点赞数
+    answers: answerList,
+    crawledAt: new Date().toISOString(),
   });
 
   // 标记问题为已访问

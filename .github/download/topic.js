@@ -65,13 +65,14 @@ async function humanScroll(page) {
 }
 
 /**
- * 爬取单个标签页，收集问题 ID
+ * 爬取单个标签页，收集问题和文章
  */
-async function crawlTab(page, topicId, tabPath, tabName, collectedQuestions) {
+async function crawlTab(page, topicId, tabPath, tabName, collectedQuestions, collectedArticles) {
   const url = `https://www.zhihu.com/topic/${topicId}${tabPath}`;
   logger.step(`爬取标签: ${tabName} (${url})`);
 
   const questionsInTab = new Set();
+  const articlesInTab = new Set();
 
   // 设置 API 拦截
   const apiHandler = async (response) => {
@@ -114,8 +115,21 @@ async function crawlTab(page, topicId, tabPath, tabName, collectedQuestions) {
                 });
               }
             }
+
+            // 文章
+            if (target.type === 'article' && target.id) {
+              const aId = String(target.id);
+              if (!articlesInTab.has(aId)) {
+                articlesInTab.add(aId);
+                collectedArticles.set(aId, {
+                  id: aId,
+                  title: target.title || '',
+                  source: `topic:${topicId}:${tabPath}`,
+                });
+              }
+            }
           }
-          logger.info(`  [API] 本标签收集 ${questionsInTab.size} 问题, 总计 ${collectedQuestions.size}`);
+          logger.info(`  [API] 问题 ${questionsInTab.size}, 文章 ${articlesInTab.size}`);
         }
       }
     } catch (e) {
@@ -135,7 +149,7 @@ async function crawlTab(page, topicId, tabPath, tabName, collectedQuestions) {
 
     // 滚动加载更多
     let noNewCount = 0;
-    let lastCount = collectedQuestions.size;
+    let lastCount = collectedQuestions.size + collectedArticles.size;
 
     for (let i = 0; i < SCROLL_CONFIG.maxScrollsPerTab; i++) {
       await humanScroll(page);
@@ -145,7 +159,8 @@ async function crawlTab(page, topicId, tabPath, tabName, collectedQuestions) {
       }
 
       // 检查是否有新内容
-      if (collectedQuestions.size === lastCount) {
+      const currentCount = collectedQuestions.size + collectedArticles.size;
+      if (currentCount === lastCount) {
         noNewCount++;
         if (noNewCount >= 5) {
           logger.info(`  连续 ${noNewCount} 次无新内容，切换下一标签`);
@@ -153,20 +168,55 @@ async function crawlTab(page, topicId, tabPath, tabName, collectedQuestions) {
         }
       } else {
         noNewCount = 0;
-        lastCount = collectedQuestions.size;
+        lastCount = currentCount;
       }
 
       if (i % 10 === 0) {
-        logger.info(`  [滚动 ${i}] 本标签 ${questionsInTab.size}, 总计 ${collectedQuestions.size}`);
+        logger.info(`  [滚动 ${i}] 问题 ${questionsInTab.size}, 文章 ${articlesInTab.size}`);
       }
+    }
+
+    // ========== 从 DOM 提取 SSR 文章 ==========
+    const ssrArticles = await page.evaluate(() => {
+      const articles = [];
+      document.querySelectorAll('a[href*="zhuanlan.zhihu.com/p/"]').forEach(el => {
+        const href = el.getAttribute('href') || '';
+        const match = href.match(/zhuanlan\.zhihu\.com\/p\/(\d+)/);
+        if (match) {
+          const articleId = match[1];
+          // 尝试获取标题
+          const titleEl = el.closest('.ContentItem')?.querySelector('.ContentItem-title') ||
+                          el.closest('.List-item')?.querySelector('h2');
+          articles.push({
+            id: articleId,
+            title: titleEl?.innerText?.trim() || el.innerText?.trim() || '',
+          });
+        }
+      });
+      return articles;
+    });
+
+    for (const art of ssrArticles) {
+      if (art.id && !articlesInTab.has(art.id)) {
+        articlesInTab.add(art.id);
+        collectedArticles.set(art.id, {
+          id: art.id,
+          title: art.title,
+          source: `topic:${topicId}:${tabPath}:ssr`,
+        });
+      }
+    }
+
+    if (ssrArticles.length > 0) {
+      logger.info(`  [DOM] 提取到 ${ssrArticles.length} 篇 SSR 文章`);
     }
 
   } finally {
     page.off('response', apiHandler);
   }
 
-  logger.done(`  ${tabName} 完成: 收集 ${questionsInTab.size} 个问题`);
-  return questionsInTab.size;
+  logger.done(`  ${tabName} 完成: 问题 ${questionsInTab.size}, 文章 ${articlesInTab.size}`);
+  return { questions: questionsInTab.size, articles: articlesInTab.size };
 }
 
 /**
@@ -189,6 +239,7 @@ async function seedTopic(topicUrl, options = {}) {
   const visited = new VisitedSet();
   const queue = new CrawlQueue();
   const collectedQuestions = new Map();  // id -> {id, title, source}
+  const collectedArticles = new Map();   // id -> {id, title, source}
   let topicName = '';
 
   const browser = await createBrowser();
@@ -244,7 +295,7 @@ async function seedTopic(topicUrl, options = {}) {
     // 爬取每个标签页
     for (const tab of TOPIC_TABS) {
       try {
-        await crawlTab(page, topicId, tab.path, tab.name, collectedQuestions);
+        await crawlTab(page, topicId, tab.path, tab.name, collectedQuestions, collectedArticles);
         await randomDelay(3000, 5000);  // 标签页之间休息
       } catch (err) {
         logger.error(`标签 ${tab.name} 爬取失败: ${err.message}`);
@@ -255,12 +306,14 @@ async function seedTopic(topicUrl, options = {}) {
     await browser.close();
   }
 
-  // 将收集的问题加入队列
-  logger.step('将问题加入队列');
+  // 将收集的问题和文章加入队列
+  logger.step('将问题和文章加入队列');
 
-  let addedCount = 0;
+  let addedQuestions = 0;
+  let addedArticles = 0;
   let skippedCount = 0;
 
+  // 问题
   for (const [qId, qInfo] of collectedQuestions) {
     const visitKey = `question:${qId}`;
     if (visited.has(visitKey)) {
@@ -275,25 +328,70 @@ async function seedTopic(topicUrl, options = {}) {
       source: qInfo.source,
       title: qInfo.title,
     });
-    addedCount++;
+    addedQuestions++;
+  }
+
+  // 文章
+  for (const [aId, aInfo] of collectedArticles) {
+    const visitKey = `article:${aId}`;
+    if (visited.has(visitKey)) {
+      skippedCount++;
+      continue;
+    }
+
+    queue.add({
+      type: 'article',
+      id: aId,
+      priority: 3,
+      source: aInfo.source,
+      title: aInfo.title,
+    });
+    addedArticles++;
   }
 
   // 清理队列去重
   queue.compact(visited);
 
+  // 更新话题信息，保存问题和文章列表
+  const questionList = Array.from(collectedQuestions.values()).map(q => ({
+    id: q.id,
+    title: q.title,
+    source: q.source,
+  }));
+
+  const articleList = Array.from(collectedArticles.values()).map(a => ({
+    id: a.id,
+    title: a.title,
+    source: a.source,
+  }));
+
+  Storage.saveTopic(topicId, {
+    id: topicId,
+    name: topicName,
+    url: `https://www.zhihu.com/topic/${topicId}`,
+    questions: questionList,
+    questionCount: questionList.length,
+    articles: articleList,
+    articleCount: articleList.length,
+    crawledAt: new Date().toISOString(),
+  });
+
   logger.info(`========================================`);
   logger.info(`话题种子爬取完成`);
   logger.info(`话题: ${topicName || topicId}`);
   logger.info(`收集问题: ${collectedQuestions.size}`);
-  logger.info(`新增队列: ${addedCount}`);
+  logger.info(`收集文章: ${collectedArticles.size}`);
+  logger.info(`新增队列: ${addedQuestions} 问题, ${addedArticles} 文章`);
   logger.info(`已访问跳过: ${skippedCount}`);
   logger.info(`当前队列: ${queue.size()} 项`);
   logger.info(`========================================`);
 
   return {
     topicId,
-    collected: collectedQuestions.size,
-    added: addedCount,
+    collectedQuestions: collectedQuestions.size,
+    collectedArticles: collectedArticles.size,
+    addedQuestions,
+    addedArticles,
     skipped: skippedCount,
   };
 }
