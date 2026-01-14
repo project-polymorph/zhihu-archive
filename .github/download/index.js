@@ -2,16 +2,20 @@
  * 知乎页面下载器
  *
  * 使用方法:
+ *   node index.js login             扫码登录
+ *   node index.js topic <url>       爬取话题 Feed
+ *   node index.js init <file>       从 result.json 初始化数据
+ *   node index.js status            查看数据状态
  *   node index.js download <url>    下载单个页面
  *   node index.js extract <file>    提取文本
- *   node index.js topic <url>       爬取话题（讨论+精华）
- *   node index.js login             扫码登录
  */
 
 const { downloadPage } = require('./download');
 const { extractFromFile } = require('./extract');
 const { crawlTopic } = require('./topic');
 const { login } = require('./login');
+const { initFromResult } = require('./init');
+const { showStatus } = require('./storage');
 const { logger } = require('./utils');
 
 function printUsage() {
@@ -19,15 +23,17 @@ function printUsage() {
   console.log('');
   console.log('用法:');
   console.log('  node index.js login              扫码登录知乎');
+  console.log('  node index.js topic <url> [n]    爬取话题 Feed (n=滚动次数)');
+  console.log('  node index.js init <file>        从 result.json 初始化数据结构');
+  console.log('  node index.js status             查看数据状态');
   console.log('  node index.js download <url>     下载单个页面');
   console.log('  node index.js extract <file>     提取文本');
-  console.log('  node index.js topic <url>        爬取话题（讨论+精华）');
   console.log('');
   console.log('示例:');
   console.log('  node index.js login');
-  console.log('  node index.js download "https://www.zhihu.com/question/xxx/answer/xxx"');
-  console.log('  node index.js extract output/zhihu-answer-xxx.html');
-  console.log('  node index.js topic "https://www.zhihu.com/topic/27814732"');
+  console.log('  node index.js topic "https://www.zhihu.com/topic/27814732" 500');
+  console.log('  node index.js init output/topic_xxx/result.json');
+  console.log('  node index.js status');
 }
 
 async function main() {
@@ -67,7 +73,20 @@ async function main() {
           logger.error('请提供话题 URL');
           process.exit(1);
         }
-        await crawlTopic(target);
+        const maxScrolls = parseInt(args[2]) || 2000;
+        await crawlTopic(target, maxScrolls);
+        break;
+
+      case 'init':
+        if (!target) {
+          logger.error('请提供 result.json 文件路径');
+          process.exit(1);
+        }
+        await initFromResult(target);
+        break;
+
+      case 'status':
+        showStatus();
         break;
 
       default:
@@ -90,4 +109,6 @@ module.exports = {
   extractFromFile,
   crawlTopic,
   login,
+  initFromResult,
+  showStatus,
 };
