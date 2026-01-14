@@ -69,7 +69,7 @@ const CRAWLER_CONFIG = {
   // 滚动配置
   scroll: {
     distance: { min: 300, max: 600 },
-    maxScrolls: 10,  // 每页最多滚动次数
+    maxScrolls: 20,  // 每页最多滚动次数
   },
   // 发现新内容的概率
   discovery: {
@@ -347,7 +347,8 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
         const authorEl = el.querySelector('.AuthorInfo-name a, .AuthorInfo-name span');
         const authorLink = el.querySelector('.AuthorInfo-name a');
         const contentEl = el.querySelector('.RichContent-inner');
-        const voteEl = el.querySelector('.VoteButton--up');
+        // VoteButton 没有 --up，只有 --down 是反对按钮
+        const voteEl = el.querySelector('.VoteButton:not(.VoteButton--down)');
 
         // 提取作者 ID
         let authorId = '';
@@ -357,6 +358,11 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
           if (match) authorId = match[1];
         }
 
+        // 从 "赞同 4521" 提取数字
+        const voteText = voteEl?.innerText || '';
+        const voteMatch = voteText.match(/\d+/);
+        const voteupCount = voteMatch ? parseInt(voteMatch[0]) : 0;
+
         answers.push({
           id: answerId,
           author: {
@@ -365,7 +371,7 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
           },
           content: contentEl?.innerHTML || '',
           excerpt: contentEl?.innerText?.slice(0, 300) || '',
-          voteupCount: parseInt(voteEl?.innerText?.replace(/[^\d]/g, '') || '0'),
+          voteupCount,
         });
       });
       return answers;
