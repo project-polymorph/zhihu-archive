@@ -4,6 +4,7 @@
  * 使用方法:
  *   node index.js login             扫码登录
  *   node index.js topic <url>       爬取话题 Feed
+ *   node index.js crawl [--max n]   随机深度优先爬取
  *   node index.js init <file>       从 result.json 初始化数据
  *   node index.js status            查看数据状态
  *   node index.js download <url>    下载单个页面
@@ -16,6 +17,7 @@ const { crawlTopic } = require('./topic');
 const { login } = require('./login');
 const { initFromResult } = require('./init');
 const { showStatus } = require('./storage');
+const { crawl } = require('./crawler');
 const { logger } = require('./utils');
 
 function printUsage() {
@@ -24,6 +26,7 @@ function printUsage() {
   console.log('用法:');
   console.log('  node index.js login              扫码登录知乎');
   console.log('  node index.js topic <url> [n]    爬取话题 Feed (n=滚动次数)');
+  console.log('  node index.js crawl [--max n]    随机深度优先爬取队列');
   console.log('  node index.js init <file>        从 result.json 初始化数据结构');
   console.log('  node index.js status             查看数据状态');
   console.log('  node index.js download <url>     下载单个页面');
@@ -32,6 +35,7 @@ function printUsage() {
   console.log('示例:');
   console.log('  node index.js login');
   console.log('  node index.js topic "https://www.zhihu.com/topic/27814732" 500');
+  console.log('  node index.js crawl --max 10');
   console.log('  node index.js init output/topic_xxx/result.json');
   console.log('  node index.js status');
 }
@@ -89,6 +93,15 @@ async function main() {
         showStatus();
         break;
 
+      case 'crawl':
+        const crawlOptions = {};
+        const maxIdx = args.indexOf('--max');
+        if (maxIdx !== -1 && args[maxIdx + 1]) {
+          crawlOptions.max = parseInt(args[maxIdx + 1]);
+        }
+        await crawl(crawlOptions);
+        break;
+
       default:
         logger.error(`未知命令: ${command}`);
         printUsage();
@@ -111,4 +124,5 @@ module.exports = {
   login,
   initFromResult,
   showStatus,
+  crawl,
 };
