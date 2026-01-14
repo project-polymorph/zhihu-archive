@@ -69,7 +69,7 @@ const CRAWLER_CONFIG = {
   // 滚动配置
   scroll: {
     distance: { min: 300, max: 600 },
-    maxScrolls: 20,  // 每页最多滚动次数
+    maxScrolls: config.maxScrolls || 20,  // 从 config.js 读取
   },
   // 发现新内容的概率
   discovery: {

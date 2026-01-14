@@ -28,6 +28,9 @@ module.exports = {
     scroll: { min: 100, max: 200 },
   },
 
+  // 爬虫滚动配置
+  maxScrolls: 30,  // 每页最多滚动次数
+
   // 默认 URL
   defaultUrl: 'https://www.zhihu.com/topic/27814732/hot',
 };
