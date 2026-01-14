@@ -135,47 +135,108 @@ async function crawlQuestion(page, questionId, visited, queue, human) {
   const url = `https://www.zhihu.com/question/${questionId}`;
   logger.step(`爬取问题: ${questionId}`);
 
-  const collectedAnswers = [];
+  const savedAnswerIds = new Set();  // 已保存的回答 ID
+  const relatedQuestions = [];
   let questionInfo = null;
+  let totalCollected = 0;
+  let newSaved = 0;
 
-  // 设置 API 拦截
+  // 设置 API 拦截 - 立刻保存
   const apiHandler = async (response) => {
     const respUrl = response.url();
 
-    // 拦截回答列表 API
-    if (respUrl.includes(`/questions/${questionId}/feeds`) ||
-        respUrl.includes(`/questions/${questionId}/answers`)) {
-      try {
-        const contentType = response.headers()['content-type'] || '';
-        if (contentType.includes('json')) {
-          const body = await response.json().catch(() => null);
-          if (body && body.data && Array.isArray(body.data)) {
-            for (const item of body.data) {
-              const target = item.target || item;
-              if (target.id && target.type === 'answer') {
-                collectedAnswers.push({
-                  id: String(target.id),
-                  content: target.content || '',
-                  excerpt: target.excerpt || '',
-                  voteupCount: target.voteup_count || 0,
-                  commentCount: target.comment_count || 0,
-                  createdTime: target.created_time,
-                  updatedTime: target.updated_time,
-                  author: target.author ? {
-                    id: target.author.id,
-                    name: target.author.name,
-                    headline: target.author.headline || '',
-                    avatarUrl: target.author.avatar_url || '',
-                  } : {},
+    try {
+      const contentType = response.headers()['content-type'] || '';
+      if (!contentType.includes('json')) return;
+
+      // 拦截回答列表 API - 立刻保存每个回答
+      if (respUrl.includes(`/questions/${questionId}/feeds`) ||
+          respUrl.includes(`/questions/${questionId}/answers`)) {
+        const body = await response.json().catch(() => null);
+        if (body && body.data && Array.isArray(body.data)) {
+          for (const item of body.data) {
+            const target = item.target || item;
+            if (target.id && target.type === 'answer') {
+              const answerId = String(target.id);
+              totalCollected++;
+
+              // 检查是否已保存
+              if (savedAnswerIds.has(answerId)) continue;
+              const visitKey = `answer:${answerId}`;
+              if (visited.has(visitKey)) {
+                savedAnswerIds.add(answerId);
+                continue;
+              }
+
+              // 立刻保存回答
+              const hotComment = target.hot_comment;
+              const answerData = {
+                id: answerId,
+                content: target.content || '',
+                excerpt: target.excerpt || '',
+                voteupCount: target.voteup_count || 0,
+                commentCount: target.comment_count || 0,
+                createdTime: target.created_time,
+                updatedTime: target.updated_time,
+                author: target.author ? {
+                  id: target.author.id,
+                  name: target.author.name,
+                  headline: target.author.headline || '',
+                  avatarUrl: target.author.avatar_url || '',
+                } : {},
+                hotComment: hotComment ? {
+                  id: hotComment.id,
+                  content: hotComment.content,
+                  likeCount: hotComment.like_count,
+                  author: hotComment.author ? { name: hotComment.author.name } : null,
+                } : null,
+              };
+
+              // 立刻保存到文件
+              Storage.saveAnswer(questionId, answerId, answerData);
+              visited.add(visitKey);
+              savedAnswerIds.add(answerId);
+              newSaved++;
+
+              // 保存作者
+              if (target.author && target.author.id) {
+                Storage.saveAuthor(target.author.id, {
+                  id: target.author.id,
+                  name: target.author.name,
+                  headline: target.author.headline || '',
+                  avatarUrl: target.author.avatar_url || '',
                 });
               }
             }
-            logger.info(`  [API] 收集到 ${collectedAnswers.length} 个回答`);
+          }
+          logger.info(`  [API] 收集 ${totalCollected} 回答, 新保存 ${newSaved}`);
+          // 立刻持久化 visited
+          visited.save();
+        }
+      }
+
+      // 拦截相关问题 API
+      if (respUrl.includes('/similar-questions')) {
+        const body = await response.json().catch(() => null);
+        if (body && body.data && Array.isArray(body.data)) {
+          for (const q of body.data) {
+            if (q.id) {
+              relatedQuestions.push({
+                id: String(q.id),
+                title: q.title || '',
+                answerCount: q.answer_count || 0,
+              });
+            }
+          }
+          if (relatedQuestions.length > 0) {
+            logger.info(`  [API] 发现 ${relatedQuestions.length} 个相关问题`);
+            // 立刻保存相关问题到问题 meta
+            Storage.saveQuestion(questionId, { relatedQuestions });
           }
         }
-      } catch (e) {
-        // ignore
       }
+    } catch (e) {
+      // ignore
     }
   };
 
@@ -216,14 +277,14 @@ async function crawlQuestion(page, questionId, visited, queue, human) {
         await closeLoginModal(page);
       }
 
-      logger.info(`  滚动 ${i + 1}/${maxScrolls}, 已收集 ${collectedAnswers.length} 回答`);
+      logger.info(`  滚动 ${i + 1}/${maxScrolls}, 已保存 ${newSaved} 回答`);
     }
 
   } finally {
     page.off('response', apiHandler);
   }
 
-  // 保存问题
+  // 保存问题元数据（回答已在 API handler 中立刻保存）
   Storage.saveQuestion(questionId, {
     title: questionInfo?.title || '',
     detail: questionInfo?.detail || '',
@@ -233,29 +294,13 @@ async function crawlQuestion(page, questionId, visited, queue, human) {
     needsFetch: false,
   });
 
-  // 保存回答并去重
-  let newAnswers = 0;
-  for (const answer of collectedAnswers) {
-    const visitKey = `answer:${answer.id}`;
-    if (visited.add(visitKey)) {
-      Storage.saveAnswer(questionId, answer.id, answer);
-
-      // 保存作者
-      if (answer.author && answer.author.id) {
-        Storage.saveAuthor(answer.author.id, answer.author);
-      }
-
-      newAnswers++;
-    }
-  }
-
   // 标记问题为已访问
   visited.add(`question:${questionId}`);
   visited.save();
 
-  logger.done(`  问题完成: 新增 ${newAnswers} 回答, 总计 ${collectedAnswers.length}`);
+  logger.done(`  问题完成: 新增 ${newSaved} 回答, 总计 ${totalCollected}, 相关问题 ${relatedQuestions.length}`);
 
-  return { newAnswers, totalAnswers: collectedAnswers.length };
+  return { newAnswers: newSaved, totalAnswers: totalCollected, relatedQuestions: relatedQuestions.length };
 }
 
 // ============ 文章页面爬取 ============
@@ -264,33 +309,54 @@ async function crawlArticle(page, articleId, visited, queue, human) {
   logger.step(`爬取文章: ${articleId}`);
 
   const recommendations = [];
+  const articleComments = [];
 
   // 设置 API 拦截
   const apiHandler = async (response) => {
     const respUrl = response.url();
 
-    // 拦截推荐文章 API
-    if (respUrl.includes(`/articles/${articleId}/recommendation`)) {
-      try {
-        const contentType = response.headers()['content-type'] || '';
-        if (contentType.includes('json')) {
-          const body = await response.json().catch(() => null);
-          if (body && body.data && Array.isArray(body.data)) {
-            for (const item of body.data) {
-              const article = item.article || item;
-              if (article.id) {
-                recommendations.push({
-                  id: String(article.id),
-                  title: article.title || '',
-                  voteupCount: article.voteup_count || 0,
-                });
-              }
+    try {
+      const contentType = response.headers()['content-type'] || '';
+      if (!contentType.includes('json')) return;
+
+      // 拦截推荐文章 API
+      if (respUrl.includes(`/articles/${articleId}/recommendation`)) {
+        const body = await response.json().catch(() => null);
+        if (body && body.data && Array.isArray(body.data)) {
+          for (const item of body.data) {
+            const article = item.article || item;
+            if (article.id) {
+              recommendations.push({
+                id: String(article.id),
+                title: article.title || '',
+                voteupCount: article.voteup_count || 0,
+              });
             }
           }
+          if (recommendations.length > 0) {
+            logger.info(`  [API] 发现 ${recommendations.length} 篇推荐文章`);
+          }
         }
-      } catch (e) {
-        // ignore
       }
+
+      // 拦截文章评论 API
+      if (respUrl.includes(`/articles/${articleId}`) && respUrl.includes('/root_comment')) {
+        const body = await response.json().catch(() => null);
+        if (body && body.data && Array.isArray(body.data)) {
+          const topComments = body.data.slice(0, 2).map(c => ({
+            id: c.id,
+            content: c.content,
+            likeCount: c.like_count || 0,
+            author: c.author ? { name: c.author.name } : null,
+          }));
+          articleComments.push(...topComments);
+          if (topComments.length > 0) {
+            logger.info(`  [API] 收集到 ${topComments.length} 条评论`);
+          }
+        }
+      }
+    } catch (e) {
+      // ignore
     }
   };
 
@@ -346,33 +412,18 @@ async function crawlArticle(page, articleId, visited, queue, human) {
       commentCount: articleInfo?.commentCount || 0,
       author: articleInfo?.author || {},
       url: url,
+      // 保存评论（如果有）
+      topComments: articleComments.length > 0 ? articleComments : undefined,
+      // 保存推荐文章列表（如果有）
+      recommendations: recommendations.length > 0 ? recommendations.slice(0, 5) : undefined,
     });
   }
 
   visited.save();
 
-  // 随机添加推荐文章到队列
-  if (Math.random() < CRAWLER_CONFIG.discovery.followRecommend) {
-    let added = 0;
-    for (const rec of recommendations.slice(0, 3)) {
-      if (!visited.has(`article:${rec.id}`)) {
-        queue.add({
-          type: 'article',
-          id: rec.id,
-          priority: 4,
-          source: `article:${articleId}`,
-        });
-        added++;
-      }
-    }
-    if (added > 0) {
-      logger.info(`  发现 ${added} 篇推荐文章加入队列`);
-    }
-  }
+  logger.done(`  文章完成: ${articleInfo?.title?.slice(0, 30)}..., 评论 ${articleComments.length}, 推荐 ${recommendations.length}`);
 
-  logger.done(`  文章完成: ${articleInfo?.title?.slice(0, 30)}...`);
-
-  return { title: articleInfo?.title };
+  return { title: articleInfo?.title, comments: articleComments.length, recommendations: recommendations.length };
 }
 
 // ============ 主爬虫 ============
