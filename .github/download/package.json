@@ -1,0 +1,14 @@
+{
+  "name": "zhihu-downloader",
+  "version": "1.0.0",
+  "description": "Download Zhihu pages with headless browser",
+  "main": "download.js",
+  "scripts": {
+    "download": "node download.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
