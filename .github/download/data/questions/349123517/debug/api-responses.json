@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/349123517/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455126255,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/349123517/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/349123517/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别究竟是什么？",
+          "question_type": "normal",
+          "created": 1554641506,
+          "updated_time": 1554641506,
+          "url": "https://www.zhihu.com/api/v4/questions/319168975",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "319168975"
+        },
+        {
+          "type": "question",
+          "title": "“性别”真实存在吗？",
+          "question_type": "normal",
+          "created": 1554208655,
+          "updated_time": 1554208655,
+          "url": "https://www.zhihu.com/api/v4/questions/318545948",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "318545948"
+        }
+      ]
+    }
+  }
+]

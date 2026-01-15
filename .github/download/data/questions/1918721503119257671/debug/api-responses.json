@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1918721503119257671/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454972629,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1918721503119257671/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1918721503119257671/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有什么关于性别的可以讨论的问题？",
+          "question_type": "normal",
+          "created": 1537724840,
+          "updated_time": 1537724840,
+          "url": "https://www.zhihu.com/api/v4/questions/295851672",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "295851672"
+        },
+        {
+          "type": "question",
+          "title": "性别何为?",
+          "question_type": "normal",
+          "created": 1723220324,
+          "updated_time": 1723220324,
+          "url": "https://www.zhihu.com/api/v4/questions/663881109",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "663881109"
+        }
+      ]
+    }
+  }
+]

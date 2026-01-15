@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/414239231/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454923939,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/414239231/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/414239231/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果给你一次选择性别的机会你会选择男还是女？",
+          "question_type": "normal",
+          "created": 1643710804,
+          "updated_time": 1643710804,
+          "url": "https://www.zhihu.com/api/v4/questions/514335705",
+          "answer_count": 184,
+          "comment_count": 2,
+          "follower_count": 209,
+          "relationship": {},
+          "id": "514335705"
+        },
+        {
+          "type": "question",
+          "title": "‘正常人’的性别是非男即女吗？",
+          "question_type": "normal",
+          "created": 1494668131,
+          "updated_time": 1494668131,
+          "url": "https://www.zhihu.com/api/v4/questions/59790199",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "59790199"
+        },
+        {
+          "type": "question",
+          "title": "在网上，你选的性别是男还是女？",
+          "question_type": "normal",
+          "created": 1654172694,
+          "updated_time": 1654172694,
+          "url": "https://www.zhihu.com/api/v4/questions/535796105",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "535796105"
+        },
+        {
+          "type": "question",
+          "title": "为什么知乎上的性别选择只有男女两种？",
+          "question_type": "normal",
+          "created": 1723164126,
+          "updated_time": 1723164126,
+          "url": "https://www.zhihu.com/api/v4/questions/663825311",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "663825311"
+        }
+      ]
+    }
+  }
+]

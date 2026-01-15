@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/626129564/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454993764,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/626129564/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/626129564/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "该不该有性别定义呢?",
+          "question_type": "normal",
+          "created": 1588002346,
+          "updated_time": 1588002346,
+          "url": "https://www.zhihu.com/api/v4/questions/391079758",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "391079758"
+        },
+        {
+          "type": "question",
+          "title": "如果世界上所有人类都颠倒了性别，会发生什么?",
+          "question_type": "normal",
+          "created": 1722624641,
+          "updated_time": 1722624641,
+          "url": "https://www.zhihu.com/api/v4/questions/663296817",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "663296817"
+        }
+      ]
+    }
+  }
+]

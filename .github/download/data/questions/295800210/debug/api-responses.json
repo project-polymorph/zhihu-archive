@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/295800210/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455411567,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/295800210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/295800210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "我们如何看待当前的性别问题？",
+          "question_type": "normal",
+          "created": 1581495832,
+          "updated_time": 1581495832,
+          "url": "https://www.zhihu.com/api/v4/questions/371395041",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "371395041"
+        },
+        {
+          "type": "question",
+          "title": "请问大家如何看待现代社会性别问题？",
+          "question_type": "normal",
+          "created": 1620955360,
+          "updated_time": 1620955361,
+          "url": "https://www.zhihu.com/api/v4/questions/459344018",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "459344018"
+        },
+        {
+          "type": "question",
+          "title": "如何解决我国的性别问题？",
+          "question_type": "normal",
+          "created": 1563342073,
+          "updated_time": 1563342073,
+          "url": "https://www.zhihu.com/api/v4/questions/335385789",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "335385789"
+        },
+        {
+          "type": "question",
+          "title": "性别问题是不是已经成为，当下的一大痛点？",
+          "question_type": "normal",
+          "created": 1609204535,
+          "updated_time": 1609204535,
+          "url": "https://www.zhihu.com/api/v4/questions/436965790",
+          "answer_count": 87,
+          "comment_count": 3,
+          "follower_count": 149,
+          "relationship": {},
+          "id": "436965790"
+        }
+      ]
+    }
+  }
+]

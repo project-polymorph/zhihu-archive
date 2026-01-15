@@ -1,0 +1,873 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/462992381/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455051062,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/462992381/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/462992381/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果人类的性别在长大以后才会显现，会发生什么？",
+          "question_type": "normal",
+          "created": 1657989035,
+          "updated_time": 1657989035,
+          "url": "https://www.zhihu.com/api/v4/questions/543693852",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "543693852"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是如何决定的？",
+          "question_type": "normal",
+          "created": 1401191524,
+          "updated_time": 1401361063,
+          "url": "https://www.zhihu.com/api/v4/questions/23932343",
+          "answer_count": 16,
+          "comment_count": 4,
+          "follower_count": 264,
+          "relationship": {},
+          "id": "23932343"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是怎样决定的？",
+          "question_type": "normal",
+          "created": 1504670341,
+          "updated_time": 1504670341,
+          "url": "https://www.zhihu.com/api/v4/questions/64967606",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "64967606"
+        },
+        {
+          "type": "question",
+          "title": "性别是如何分化的？",
+          "question_type": "normal",
+          "created": 1548303362,
+          "updated_time": 1548303362,
+          "url": "https://www.zhihu.com/api/v4/questions/310116476",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 48,
+          "relationship": {},
+          "id": "310116476"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么不可以在成年之后根据各自意愿分化性别?（不是改变是分化）？",
+          "question_type": "normal",
+          "created": 1626200906,
+          "updated_time": 1626407768,
+          "url": "https://www.zhihu.com/api/v4/questions/472099285",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "472099285"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/462992381/feeds?cursor=9ff3b49c86e88baa08beef6b33f8718e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768455044456304950&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768455051278,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjPqL2VByD95+LcAZICJQoJMzc5OTE4OTg5EgoxOTI0MDkzMDA3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-c07127a0f38c1effd42147650fb492a3_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-c07127a0f38c1effd42147650fb492a3.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 315,
+              "gender": 0,
+              "headline": "多大本 | 麦吉尔硕 | 现居北欧 | 金融研究",
+              "id": "e26263ccc036eba90c20335794c3bec8",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "Ingrid",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e26263ccc036eba90c20335794c3bec8",
+              "url_token": "lucius-dreaman",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<ol><li data-pid=\"PeB7JYMr\">传统的性别观念会逐渐消失。比如：男生不能穿裙子不能留长发、女生就要有女孩子的样子……</li><li data-pid=\"nA7bfsR8\">生理性别不会消失，男性的身体依然是男性、女性的身体依然是女性。</li><li data-pid=\"6vtAdEf5\">生理性别和心理性别会被逐渐分离。比如：心理自我认知的性别是男，但是身体是女性，后续人们会按照对方心理性别将其对待。</li></ol><p data-pid=\"756OIr2w\">以上是个人的观点，仅一家之言。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1622881818,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "传统的性别观念会逐渐消失。比如：男生不能穿裙子不能留长发、女生就要有女孩子的样子…生理性别不会消失，男性的身体依然是男性、女性的身体依然是女性。生理性别和心理性别会被逐渐分离。比如：心理自我认知的性别是男，但是身体是女性，后续人们会按照对方心理性别将其对待。以上是个人的观点，仅一家之言。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1924093007",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1622721749,
+              "id": "462992381",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+              "type": "question",
+              "updated_time": 1622721749,
+              "url": "https://www.zhihu.com/api/v4/questions/462992381"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1622881818,
+            "url": "https://www.zhihu.com/api/v4/answers/1924093007",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9ff3b49c86e88baa8fb5e76b33f8718e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjA8vqVByD95+LcAZICJQoJMzgwMTAyMzQxEgoxOTI1MTAxODg4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-92097e3e62996fa97d6964d5f809ec3a_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-92097e3e62996fa97d6964d5f809ec3a.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 56,
+              "gender": 1,
+              "headline": "没打算让你开心，但是想让你成长。",
+              "id": "21b7bcd85975cfcf026e5358b446d0ac",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "无核榴莲",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/21b7bcd85975cfcf026e5358b446d0ac",
+              "url_token": "innocentem",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 3,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"gEp_Axqy\">不会，建议重学高中生物。</p><p data-pid=\"c0EPy_a4\">两性繁殖永远的神。</p><p data-pid=\"6SqQKRmc\">评论区纠正，毕竟存在多性繁殖。</p><p data-pid=\"xj5u976U\">性别观念什么的，我觉得除非共产主义了，必然性别差异会被刻意营造。但实际上不可否认，男女性之间存在生理上面的差距，男女的社会分工必然有所不同，这是客观规律，观念可能会放的开，但是在男女群体之间的观念肯定是能找出区别的</p><p data-pid=\"FWDD-xSe\">就比如说物理力量的差距，排除警察叔叔就在附近的情况，一个男人qj一个女人，确实比一个女人qj一个男人容易。客观区别不可消除，物质决定意识，性别认同就不会消失。</p><p data-pid=\"W8G3YvYv\">在现阶段，只有随着生产力的的进步和生产方式的变革，女性的生产效率逐渐追上男性，性别上的社会压迫会才有机会消除。其他的之后再说吧。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1622944512,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不会，建议重学高中生物。 两性繁殖永远的神。 评论区纠正，毕竟存在多性繁殖。 性别观念什么的，我觉得除非共产主义了，必然性别差异会被刻意营造。但实际上不可否认，男女性之间存在生理上面的差距，男女的社会分工必然有所不同，这是客观规律，观念可能会放的开，但是在男女群体之间的观念肯定是能找出区别的 就比如说物理力量的差距，排除警察叔叔就在附近的情况，一个男人qj一个女人，确实比一个女人qj一个男人容易。客观区…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1925101888",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1622721749,
+              "id": "462992381",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+              "type": "question",
+              "updated_time": 1622721749,
+              "url": "https://www.zhihu.com/api/v4/questions/462992381"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1623134856,
+            "url": "https://www.zhihu.com/api/v4/answers/1925101888",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9ff3b49c86e88baac749e56b33f8718e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjO6ZKXByD95+LcAZICJQoJMzgwNTU0MDA2EgoxOTI3NTkxMTE4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/7a3f2715978c2ad0760e39cf7fda5ebc_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/7a3f2715978c2ad0760e39cf7fda5ebc.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-548f815c48c8286768f921116785873d_l.png?source=1def8aca",
+                "description": "评论 1000 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972462538273792000",
+                "medal_name": "乐于交流",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-548f815c48c8286768f921116785873d_r.png?source=1def8aca"
+              },
+              "follower_count": 1426,
+              "gender": 1,
+              "headline": "长篇科幻小说《生命进阶》作者。知乎个人专栏内哲学文本亦已出版",
+              "id": "5a8cf612a14f2f60261220072d5bc1dc",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "天降龙虾",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/5a8cf612a14f2f60261220072d5bc1dc",
+              "url_token": "q512i",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"VYhXwdiq\">理论上，性别不可能在自然演化的进程中消失，尤其不会在人类身上消失，因为人类本身是有性别属性的，缺失这一属性的那基本就不是人类了。。。。。</p><p data-pid=\"rukXV1Pm\">不过，假如硬要说性别会消失的话，那么可能的原因大概只有一个——基因改造。且不说改造后的还是不是人类，仅就基因改造能否恰当地被称为“人类的进化”，恐怕就很难说得清楚。。。</p><p data-pid=\"J7ebWF7N\">所以，个人认为，“人类”这个物种，绝对会先于“性别”消失在进化的道路上。。。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1623056183,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "理论上，性别不可能在自然演化的进程中消失，尤其不会在人类身上消失，因为人类本身是有性别属性的，缺失这一属性的那基本就不是人类了。。。 不过，假如硬要说性别会消失的话，那么可能的原因大概只有一个——基因改造。且不说改造后的还是不是人类，仅就基因改造能否恰当地被称为“人类的进化”，恐怕就很难说得清楚。。。 所以，个人认为，“人类”这个物种，绝对会先于“性别”消失在进化的道路上。。。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1927591118",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1622721749,
+              "id": "462992381",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+              "type": "question",
+              "updated_time": 1622721749,
+              "url": "https://www.zhihu.com/api/v4/questions/462992381"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1623056183,
+            "url": "https://www.zhihu.com/api/v4/answers/1927591118",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9ff3b49c86e88baa1464ec6b33f8718e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjxmoyaByD95+LcAZICJQoJMzgxNjc4MzUzEgoxOTMzNzc0MTkzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 519,
+              "gender": -1,
+              "headline": "",
+              "id": "e679ba50c2d6a914486e929580d11637",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "agl",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e679ba50c2d6a914486e929580d11637",
+              "url_token": "agl-52-71",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"LZOsOhy_\">性别会在进化中消失的想法会消失,因为未来的人没有这么无聊,整天关注性别.</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1623331797,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性别会在进化中消失的想法会消失,因为未来的人没有这么无聊,整天关注性别.",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1933774193",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1622721749,
+              "id": "462992381",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+              "type": "question",
+              "updated_time": 1622721749,
+              "url": "https://www.zhihu.com/api/v4/questions/462992381"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1623331797,
+            "url": "https://www.zhihu.com/api/v4/answers/1933774193",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9ff3b49c86e88baa135cfd6b33f8718e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj+1YedByD95+LcAZICJQoJMzgyODA4MTQ1EgoxOTM5OTkxMjk0GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-95c47841c0fa0352ae943dab6ec5b88a_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-95c47841c0fa0352ae943dab6ec5b88a.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 2199,
+              "gender": -1,
+              "headline": "ENFPoh So6w5(631) 群156838486",
+              "id": "257a059a51a2185939fe19eddd1da37a",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "神楽坂実琴",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/257a059a51a2185939fe19eddd1da37a",
+              "url_token": "eliteace",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pica.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://picx.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"XXBfW6mg\">应该不会，除非人类本身消失了。</p><p data-pid=\"YXN3evkM\">性别消失的<b>自然选择压力</b>目前来看不存在，雌雄异体有性生殖是一种比较成功的繁衍形式，特别是对K型策略的哺乳类和下属灵长目来讲，有利于优势基因的筛选和进化，同时相比于雌雄同体生物，降低单一个体在繁殖上的负担，因此自然层面<b>雌雄异体有性生殖</b>算优势策略无需改动。</p><p data-pid=\"NbvmbcE6\"><b>人为选择压力</b>，可能是为了<b>纠正性别不平等</b>等社会问题，需要抹除性别差异，或者改变性别差异对社会地位的影响机理，使得两性地位对等。</p><p data-pid=\"tEywArG9\">按照如下思路：</p><p data-pid=\"cl9H7BJo\">输入----机理----&gt;输出</p><p data-pid=\"05__ASFV\">类似方程式和算法</p><p data-pid=\"Gd8yivJP\">输入为男女客观差异、机理为资本主义及其衍生下的岗位竞争等因素、输出为男女地位不同，君主专制和资本主义条件下会产生父权社会，在以人口人力繁衍的原始社会，也会产生母系社会。</p><p data-pid=\"HjrTRKBm\">解决<b>两性地位差异</b>方法有两种：</p><p data-pid=\"t7lIky7t\">（1）<b>把人类基因工程改造为雌雄同体</b>，那事完后一起怀孕一起产假，相同的输入带入任何公式都是相同的输出，<b>没有性别差异就没有性别引起的不平等</b>。</p><p data-pid=\"AvwzeEXb\">（2）自动化无人生产技术配合家政机器人，<b>所有人类都由机器供养</b>，各行业的工作能力差异及为生育活动付出的代价的差异，无法在任何方面造成任何形式的那女地位差异，特定的公式可以让两个不同的输入值产生相同的输出值，也就是在<b>保留性别差异的前提下实现平等</b>。</p><p data-pid=\"UqQazCJl\">但是</p><p data-pid=\"1EHk9zfr\">（1）的雌雄同体的改造”人“的基因变化幅度过大，特别是还涉及生殖系统及性别决定机制基因的大范围修改，几乎不可能和纯种人类不产生生殖隔离，因此Ta们不是人类而是另一个物种。所以我在改造”人“的人字上加引号。用Ta们替代人类，本质上就是把地球文明的主导物种地位拱手让出，让人类这个物种走向灭绝。</p><p data-pid=\"cGVYAO7H\">（2）最后结果很可能实质上也是，把地球文明的主导物种地位拱手让给人工智能，人类这个物种能否长期存续也就不由自己决定了。</p><p data-pid=\"B9z9UYmE\">因此，我对两性平等持悲观态度，无论是男强女弱还是女强男弱，不平衡常态，平等只是昙花一现，不可能在不使用对人类物种存续构成风险的手段的前提下，来保证两性长期平等。</p><p data-pid=\"ub5hSE5v\"><b>人类的进化中，性别无法消失</b>，基本上，要么继续保留性别差异，要么连人类本身都不复存在。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1623669203,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "应该不会，除非人类本身消失了。 性别消失的 自然选择压力目前来看不存在，雌雄异体有性生殖是一种比较成功的繁衍形式，特别是对K型策略的哺乳类和下属灵长目来讲，有利于优势基因的筛选和进化，同时相比于雌雄同体生物，降低单一个体在繁殖上的负担，因此自然层面雌雄异体有性生殖算优势策略无需改动。 人为选择压力，可能是为了纠正性别不平等等社会问题，需要抹除性别差异，或者改变性别差异对社会地位的影响机理，使得两性地…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1939991294",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1622721749,
+              "id": "462992381",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+              "type": "question",
+              "updated_time": 1622721749,
+              "url": "https://www.zhihu.com/api/v4/questions/462992381"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1623669203,
+            "url": "https://www.zhihu.com/api/v4/answers/1939991294",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9ff3b49c86e88baa539f936b33f8718e",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768455044456304950"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/462992381/feeds?cursor=9ff3b49c86e88baa539f936b33f8718e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768455044456304950&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

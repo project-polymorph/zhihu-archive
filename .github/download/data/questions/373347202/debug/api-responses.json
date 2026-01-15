@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/373347202/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455029170,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/373347202/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/373347202/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别区分是怎么出现的？",
+          "question_type": "normal",
+          "created": 1427267934,
+          "updated_time": 1427267934,
+          "url": "https://www.zhihu.com/api/v4/questions/29033187",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "29033187"
+        },
+        {
+          "type": "question",
+          "title": "假如有一天所有人的性别都发生了颠倒那么会怎么样呢？",
+          "question_type": "normal",
+          "created": 1551802736,
+          "updated_time": 1551802736,
+          "url": "https://www.zhihu.com/api/v4/questions/314756818",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "314756818"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类性别会趋于1:1?",
+          "question_type": "normal",
+          "created": 1527081577,
+          "updated_time": 1527081577,
+          "url": "https://www.zhihu.com/api/v4/questions/278356076",
+          "answer_count": 8,
+          "comment_count": 2,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "278356076"
+        }
+      ]
+    }
+  }
+]
