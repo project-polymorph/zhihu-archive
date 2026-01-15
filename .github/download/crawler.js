@@ -328,6 +328,7 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
               id: rq.id,
               priority: 3,
               source: `related:${questionId}`,
+              title: rq.title || '',
             });
             addedToQueue++;
           }
