@@ -1,0 +1,629 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/649294150/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768471395470,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/649294150/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/649294150/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "和前任吵架之后，答应了现任，但是前任却提复合怎么办？",
+          "question_type": "normal",
+          "created": 1645798876,
+          "updated_time": 1645798876,
+          "url": "https://www.zhihu.com/api/v4/questions/518723331",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "518723331"
+        },
+        {
+          "type": "question",
+          "title": "我是我前男友的前任，分手了三年，他跟现任吵架闹分手找我复合，现在他们和好了我被甩了。自我怀疑中怎么破？",
+          "question_type": "normal",
+          "created": 1545967692,
+          "updated_time": 1545967692,
+          "url": "https://www.zhihu.com/api/v4/questions/307238554",
+          "answer_count": 6,
+          "comment_count": 4,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "307238554"
+        },
+        {
+          "type": "question",
+          "title": "找前任复合，前任同意了但又没完全同意，但是跟前任聊天他又阴阳怪气的，我搞不懂?",
+          "question_type": "normal",
+          "created": 1632146329,
+          "updated_time": 1632146329,
+          "url": "https://www.zhihu.com/api/v4/questions/488016144",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "488016144"
+        },
+        {
+          "type": "question",
+          "title": "和现任吵架很严重并且责任在于对方时，你的前任找复合怎么办?",
+          "question_type": "normal",
+          "created": 1705421629,
+          "updated_time": 1705421629,
+          "url": "https://www.zhihu.com/api/v4/questions/639863857",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "639863857"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/649294150/feeds?cursor=07eb939bee7b528723b1f26aa229173b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768471389804468101&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768471395473,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi3j+/mDCDG4s21ApICJQoJNjU0OTc1NDIwEgozNDM2OTU1NTc1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-350656d6b4a468c3b2314377e0c9e130_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-350656d6b4a468c3b2314377e0c9e130.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_l.png?source=1def8aca",
+                "description": "回答 2 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_r.png?source=1def8aca"
+              },
+              "follower_count": 0,
+              "gender": 0,
+              "headline": "",
+              "id": "416309e4788fe0735926a5bd98d35ea9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户QiB4mg",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/416309e4788fe0735926a5bd98d35ea9",
+              "url_token": "qib4mg",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"HCfNp5lN\">别加 会粘上别人的因果  这男的恶心</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1710902932,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "别加 会粘上别人的因果 这男的恶心",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3436955575",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1710892498,
+              "id": "649294150",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "当前任和他的前前任复合后偶尔吵架后她又来找到我说只想聊天，我要同意好友申请吗？",
+              "type": "question",
+              "updated_time": 1710892498,
+              "url": "https://www.zhihu.com/api/v4/questions/649294150"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1710902932,
+            "url": "https://www.zhihu.com/api/v4/answers/3436955575",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "07eb939bee7b5287fef1eb6aa229173b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjz6I/nDCDG4s21ApICJQoJNjU1MDcyNTAyEgozNDM3NDkxMzE1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-e0a1e21c91744d2c49567c4bd5c8ed10_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-e0a1e21c91744d2c49567c4bd5c8ed10.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 27,
+              "gender": -1,
+              "headline": "准确的表达心中所想",
+              "id": "2dc454c2f46d5fb75bdc9cc53a9a9ed8",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "梧桐叶与风",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/2dc454c2f46d5fb75bdc9cc53a9a9ed8",
+              "url_token": "ning-meng-wei-51-62",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"8IsoxTok\">原来世界说大不大，说小不小是指你们啊</p><p data-pid=\"AxoqzaNk\">她的前任（包括你）占据她的世界的一大半，你的世界被她占据一大半</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1710929963,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/06dc0384b91ab7b9ec96928bf27143e5",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @地平线",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "原来世界说大不大，说小不小是指你们啊 她的前任（包括你）占据她的世界的一大半，你的世界被她占据一大半",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3437491315",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1710892498,
+              "id": "649294150",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "当前任和他的前前任复合后偶尔吵架后她又来找到我说只想聊天，我要同意好友申请吗？",
+              "type": "question",
+              "updated_time": 1710892498,
+              "url": "https://www.zhihu.com/api/v4/questions/649294150"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1710929963,
+            "url": "https://www.zhihu.com/api/v4/answers/3437491315",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "07eb939bee7b5287b44cea6aa229173b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjNjpicDSDG4s21ApICJQoJNjc1MzAzOTkzEgozNTQ4Nzc2MjY5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-ac77afc3c81329fdd951eef19e7940bb_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-ac77afc3c81329fdd951eef19e7940bb.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-c38ebd5a7d1f43a5ed9ac0411a3e233a_l.png?source=1def8aca",
+                "description": "赞同 5 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-c38ebd5a7d1f43a5ed9ac0411a3e233a_r.png?source=1def8aca"
+              },
+              "follower_count": 8,
+              "gender": -1,
+              "headline": "",
+              "id": "b4ec2f6e3e0c2cd0ebe59e98a823aaf7",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "糖糖十三",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/b4ec2f6e3e0c2cd0ebe59e98a823aaf7",
+              "url_token": "43-65-31-76",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://picx.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"UqxKNioN\">不要同意，要拉黑，不要让他们在你的生活里指手划脚，要让过去成为过去，才能空出心好好迎接未来</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1719889174,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/06dc0384b91ab7b9ec96928bf27143e5",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @地平线",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "不要同意，要拉黑，不要让他们在你的生活里指手划脚，要让过去成为过去，才能空出心好好迎接未来",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3548776269",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1710892498,
+              "id": "649294150",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "当前任和他的前前任复合后偶尔吵架后她又来找到我说只想聊天，我要同意好友申请吗？",
+              "type": "question",
+              "updated_time": 1710892498,
+              "url": "https://www.zhihu.com/api/v4/questions/649294150"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1719889174,
+            "url": "https://www.zhihu.com/api/v4/answers/3548776269",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "07eb939bee7b52877b82a165a229173b",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768471389804468101"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/649294150/feeds?cursor=07eb939bee7b52877b82a165a229173b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768471389804468101&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

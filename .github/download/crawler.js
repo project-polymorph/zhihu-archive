@@ -563,6 +563,8 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
   const recommendations = [];
   const articleComments = [];
   let addedToQueue = 0;
+  let apiArticleData = null;  // 保存 API 返回的文章数据
+  const apiResponses = [];    // 用于 debug 保存
 
   // 设置 API 拦截
   const apiHandler = async (response) => {
@@ -571,6 +573,25 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
     try {
       const contentType = response.headers()['content-type'] || '';
       if (!contentType.includes('json')) return;
+
+      // 拦截文章详情 API (获取时间戳等 meta)
+      if (respUrl.match(/\/api\/v4\/articles\/\d+(\?|$)/) ||
+          respUrl.match(/\/articles\/\d+(\?|$)/) && !respUrl.includes('recommendation') && !respUrl.includes('comment')) {
+        const body = await response.json().catch(() => null);
+        if (body && body.id && !apiArticleData) {
+          apiArticleData = body;
+          logger.info(`  [API] 获取到文章 meta 数据`);
+          // 保存用于 debug
+          if (config.debug?.saveRawApi) {
+            apiResponses.push({
+              url: respUrl,
+              type: 'article-detail',
+              timestamp: Date.now(),
+              data: body,
+            });
+          }
+        }
+      }
 
       // 拦截推荐文章 API
       if (respUrl.includes(`/articles/${articleId}/recommendation`)) {
@@ -650,9 +671,37 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
 
     // 提取文章信息
     articleInfo = await page.evaluate(() => {
+      // 尝试从 DOM 提取时间
+      let createdTime = null;
+      let updatedTime = null;
+
+      // 查找时间元素 - 知乎文章通常有 ContentItem-time 或类似元素
+      const timeEl = document.querySelector('.ContentItem-time') ||
+                     document.querySelector('.Post-Header time') ||
+                     document.querySelector('[data-time]');
+      if (timeEl) {
+        const timeText = timeEl.innerText || timeEl.getAttribute('data-time') || '';
+        // 匹配 "发布于 YYYY-MM-DD HH:mm" 或 "编辑于 YYYY-MM-DD HH:mm"
+        const publishMatch = timeText.match(/发布于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
+        const editMatch = timeText.match(/编辑于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
+        if (publishMatch) createdTime = publishMatch[1];
+        if (editMatch) updatedTime = editMatch[1];
+      }
+
+      // 也检查文章内容末尾是否有时间（一些旧文章）
+      const contentEl = document.querySelector('.Post-RichTextContainer');
+      if (contentEl && !createdTime) {
+        const contentText = contentEl.innerText || '';
+        const publishMatch = contentText.match(/发布于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
+        const editMatch = contentText.match(/编辑于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
+        if (publishMatch) createdTime = publishMatch[1];
+        if (editMatch) updatedTime = editMatch[1];
+      }
+
       return {
         title: document.querySelector('.Post-Title')?.innerText?.trim() || '',
         content: document.querySelector('.Post-RichTextContainer')?.innerHTML || '',
+        rawHtml: document.documentElement.outerHTML,  // 保存完整 raw HTML
         author: {
           name: document.querySelector('.AuthorInfo-name')?.innerText?.trim() || '',
           headline: document.querySelector('.AuthorInfo-detail')?.innerText?.trim() || '',
@@ -663,6 +712,8 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
         commentCount: parseInt(
           document.querySelector('.Comments-titleText')?.innerText?.replace(/[^\d]/g, '') || '0'
         ),
+        createdTime,
+        updatedTime,
       };
     });
 
@@ -680,18 +731,52 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
   // 保存文章
   const visitKey = `article:${articleId}`;
   if (visited.add(visitKey)) {
+    // 优先使用 API 数据的时间戳，否则用 DOM 提取的
+    let createdTime = apiArticleData?.created
+      ? formatTimestamp(apiArticleData.created)
+      : (articleInfo?.createdTime || null);
+    let updatedTime = apiArticleData?.updated
+      ? formatTimestamp(apiArticleData.updated)
+      : (articleInfo?.updatedTime || null);
+
+    // 从 API 获取更完整的作者信息
+    const author = apiArticleData?.author ? {
+      id: apiArticleData.author.id || '',
+      name: apiArticleData.author.name || articleInfo?.author?.name || '',
+      url: apiArticleData.author.url || '',
+      avatarUrl: apiArticleData.author.avatar_url || '',
+      headline: apiArticleData.author.headline || articleInfo?.author?.headline || '',
+    } : (articleInfo?.author || {});
+
+    // 从 API 获取话题
+    const topics = apiArticleData?.topics?.map(t => t.name || t) || [];
+
     Storage.saveArticle(articleId, {
-      title: articleInfo?.title || '',
+      title: articleInfo?.title || apiArticleData?.title || '',
       content: articleInfo?.content || '',
-      voteupCount: articleInfo?.voteupCount || 0,
-      commentCount: articleInfo?.commentCount || 0,
-      author: articleInfo?.author || {},
+      rawHtml: articleInfo?.rawHtml || '',  // 保存完整 raw HTML
+      voteupCount: apiArticleData?.voteup_count || articleInfo?.voteupCount || 0,
+      commentCount: apiArticleData?.comment_count || articleInfo?.commentCount || 0,
+      createdTime,
+      updatedTime,
+      author,
+      topics,
       url: url,
       // 保存评论（如果有）
       topComments: articleComments.length > 0 ? articleComments : undefined,
       // 保存推荐文章列表（如果有）
       recommendations: recommendations.length > 0 ? recommendations.slice(0, 5) : undefined,
     });
+
+    // 记录时间提取情况
+    if (createdTime || updatedTime) {
+      logger.info(`  [TIME] 发布: ${createdTime || '未知'}, 编辑: ${updatedTime || '未知'}`);
+    }
+
+    // 保存 debug 数据（API 响应）
+    if (config.debug?.saveRawApi && apiResponses.length > 0) {
+      Storage.saveArticleDebug(articleId, 'api-responses.json', JSON.stringify(apiResponses, null, 2));
+    }
   }
 
   visited.save();

@@ -269,6 +269,17 @@ const Storage = {
     return file;
   },
 
+  // 保存文章 debug 数据
+  saveArticleDebug(articleId, filename, content) {
+    const debugDir = path.join(PATHS.articles, 'debug', articleId);
+    if (!fs.existsSync(debugDir)) {
+      fs.mkdirSync(debugDir, { recursive: true });
+    }
+    const file = path.join(debugDir, filename);
+    fs.writeFileSync(file, content, 'utf-8');
+    return file;
+  },
+
   // 保存作者
   saveAuthor(authorId, data) {
     if (!authorId) return null;
