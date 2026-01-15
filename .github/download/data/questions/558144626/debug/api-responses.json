@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/558144626/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458584486,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/558144626/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/558144626/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别是否是我们的一种束缚？",
+          "question_type": "normal",
+          "created": 1727706813,
+          "updated_time": 1727706813,
+          "url": "https://www.zhihu.com/api/v4/questions/701556941",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "701556941"
+        },
+        {
+          "type": "question",
+          "title": "如何区分性别主义和社会性别？",
+          "question_type": "normal",
+          "created": 1671281176,
+          "updated_time": 1671281176,
+          "url": "https://www.zhihu.com/api/v4/questions/572915152",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "572915152"
+        },
+        {
+          "type": "question",
+          "title": "在多元性别认同的语境下，传统性别观念面临哪些挑战和重塑？",
+          "question_type": "normal",
+          "created": 1760411065,
+          "updated_time": 1760411065,
+          "url": "https://www.zhihu.com/api/v4/questions/1961386847633663547",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1961386847633663547"
+        }
+      ]
+    }
+  }
+]

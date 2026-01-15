@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/543267728/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458854052,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/543267728/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/543267728/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人的思想判断力受不受性别影响，根深蒂固的思想在大环境下到底能不能有所改变？",
+          "question_type": "normal",
+          "created": 1575779754,
+          "updated_time": 1575781240,
+          "url": "https://www.zhihu.com/api/v4/questions/359875433",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "359875433"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+          "question_type": "normal",
+          "created": 1729745043,
+          "updated_time": 1729745043,
+          "url": "https://www.zhihu.com/api/v4/questions/1902011696",
+          "answer_count": 21,
+          "comment_count": 0,
+          "follower_count": 28,
+          "relationship": {},
+          "id": "1902011696"
+        },
+        {
+          "type": "question",
+          "title": "人们的性别固化意识到底有多强烈，多难以察觉，深入人心？",
+          "question_type": "normal",
+          "created": 1599251108,
+          "updated_time": 1599251108,
+          "url": "https://www.zhihu.com/api/v4/questions/419467667",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "419467667"
+        }
+      ]
+    }
+  }
+]

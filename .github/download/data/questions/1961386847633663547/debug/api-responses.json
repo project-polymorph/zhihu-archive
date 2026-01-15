@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1961386847633663547/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458628287,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1961386847633663547/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1961386847633663547/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别观念应当强化还是淡化?",
+          "question_type": "normal",
+          "created": 1673534068,
+          "updated_time": 1673534068,
+          "url": "https://www.zhihu.com/api/v4/questions/578337211",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "578337211"
+        },
+        {
+          "type": "question",
+          "title": "为什么性别不同会导致思想不同？",
+          "question_type": "normal",
+          "created": 1544088056,
+          "updated_time": 1544088210,
+          "url": "https://www.zhihu.com/api/v4/questions/304881835",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "304881835"
+        }
+      ]
+    }
+  }
+]

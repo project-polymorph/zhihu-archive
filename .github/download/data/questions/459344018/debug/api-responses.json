@@ -1,0 +1,458 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/459344018/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458362809,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/459344018/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/459344018/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何解决我国的性别问题？",
+          "question_type": "normal",
+          "created": 1563342073,
+          "updated_time": 1563342073,
+          "url": "https://www.zhihu.com/api/v4/questions/335385789",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "335385789"
+        },
+        {
+          "type": "question",
+          "title": "我们如何看待当前的性别问题？",
+          "question_type": "normal",
+          "created": 1581495832,
+          "updated_time": 1581495832,
+          "url": "https://www.zhihu.com/api/v4/questions/371395041",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "371395041"
+        },
+        {
+          "type": "question",
+          "title": "如何看待社会性别陈规定型的观念？",
+          "question_type": "normal",
+          "created": 1590942930,
+          "updated_time": 1590942930,
+          "url": "https://www.zhihu.com/api/v4/questions/398689958",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "398689958"
+        },
+        {
+          "type": "question",
+          "title": "当今社会性别观念发展到了什么程度？",
+          "question_type": "normal",
+          "created": 1665155190,
+          "updated_time": 1665155190,
+          "url": "https://www.zhihu.com/api/v4/questions/558144626",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "558144626"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/459344018/feeds?cursor=ad7c9b602be7038c8f961af69a634c98&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768458358024527553&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768458454303,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxju3aWfDSCSkYTbAZICIAoJNjc2NDg4NTIyEgozNTU1MjkwODYyGAQiBVZJREVP",
+            "attachment": {
+              "attachment_id": "1793662157084307456",
+              "type": "video",
+              "video": {
+                "end_time": 70636,
+                "parent_video_id": "1793662157084307456",
+                "play_count": 450,
+                "start_time": 0,
+                "sub_video_id": "1793662157084307456",
+                "title": "为什么会出现性别混乱？",
+                "video_info": {
+                  "duration": 70.704,
+                  "height": 1920,
+                  "is_paid": false,
+                  "is_trial": false,
+                  "play_count": 204,
+                  "playlist": {
+                    "fhd": {
+                      "bitrate": 3255,
+                      "height": 1920,
+                      "url": "https://vdn3.vzuu.com/FHD/956ff570-3cf8-11ef-aebd-c20dcf0db31b-v8_f2_t1_9CF2osoH.mp4?auth_key=1768462052-0-0-dad7012f88846104d5b796f45d81b45f&bu=4e83193b&c=avc.8.0&disable_local_cache=1&expiration=1768462052&f=mp4&pu=1513c7c2&v=tx",
+                      "width": 1080
+                    },
+                    "hd": {
+                      "bitrate": 1064,
+                      "height": 1280,
+                      "url": "https://vdn3.vzuu.com/HD/956ff570-3cf8-11ef-aebd-c20dcf0db31b-v8_f2_t1_9CF2osoH.mp4?auth_key=1768462052-0-0-48262e31586559e842cbdd93d63e7415&bu=4e83193b&c=avc.8.0&disable_local_cache=1&expiration=1768462052&f=mp4&pu=1513c7c2&v=tx",
+                      "width": 720
+                    },
+                    "ld": {
+                      "bitrate": 422,
+                      "height": 848,
+                      "url": "https://vdn3.vzuu.com/SD/956ff570-3cf8-11ef-aebd-c20dcf0db31b-v8_f2_t1_9CF2osoH.mp4?auth_key=1768462052-0-0-2203d244cdf717b7ce3e7afa55a4e796&bu=4e83193b&c=avc.8.0&disable_local_cache=1&expiration=1768462052&f=mp4&pu=1513c7c2&v=tx",
+                      "width": 478
+                    },
+                    "sd": {
+                      "bitrate": 422,
+                      "height": 848,
+                      "url": "https://vdn3.vzuu.com/SD/956ff570-3cf8-11ef-aebd-c20dcf0db31b-v8_f2_t1_9CF2osoH.mp4?auth_key=1768462052-0-0-2203d244cdf717b7ce3e7afa55a4e796&bu=4e83193b&c=avc.8.0&disable_local_cache=1&expiration=1768462052&f=mp4&pu=1513c7c2&v=tx",
+                      "width": 478
+                    }
+                  },
+                  "thumbnail": "https://pic1.zhimg.com/v2-4fddf49334d475bf50679ebafb29ab58.jpg?source=25ab7b06",
+                  "type": "video",
+                  "video_id": 1793662157084307500,
+                  "width": 1080
+                },
+                "voteup_count": 0,
+                "zvideo_id": "1793662208451932164"
+              }
+            },
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-c43202d22f7928c4d23df659f4a432b6_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-c43202d22f7928c4d23df659f4a432b6.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 133,
+              "gender": 0,
+              "headline": "",
+              "id": "4ce3b724b60ca542b67239dcd94f1b4d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "是思彦呀",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4ce3b724b60ca542b67239dcd94f1b4d",
+              "url_token": "53-91-82-70",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1720423547,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3555290862",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1620955360,
+              "id": "459344018",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "请问大家如何看待现代社会性别问题？",
+              "type": "question",
+              "updated_time": 1620955361,
+              "url": "https://www.zhihu.com/api/v4/questions/459344018"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "attached_info": "1793662157084307456",
+                  "height": 1920,
+                  "token": "v2-d719f47d37f5c194fee1e8fefa08f805",
+                  "type": "video",
+                  "url": "https://pic1.zhimg.com/80/v2-d719f47d37f5c194fee1e8fefa08f805_720w.jpg?source=1def8aca",
+                  "width": 1080
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1720423547,
+            "url": "https://www.zhihu.com/api/v4/answers/3555290862",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "ad7c9b602be7038cef1c76ff9a634c98",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxj3qNDwzb2fmRsgkpGE2wGSAi4KCTc1MTA0NjYxNBITMTk1OTc2NzI0NDE1MTE5ODgzORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-f894f85f1c5d26d7782885ce7080abbc_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-f894f85f1c5d26d7782885ce7080abbc.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1607,
+              "gender": 0,
+              "headline": "微信公众号北欧模式（beioumoshi）",
+              "id": "de6579b3098f197b7b88ec45e8e39dae",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "ARWEN",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/de6579b3098f197b7b88ec45e8e39dae",
+              "url_token": "arwenxu",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"rfHX9VEq\">近些年来，随着女拳主义在我国的蓬勃发展，越来越多的男性开始理解程朱理学的产生背景了。北宋的亡国让南宋的男性们对于国家的存亡进行了深刻的反省，最终，对于女性近乎刻薄的朱子学说成功胜出，成为了南宋以后，汉人王朝的主流思想。</p><p data-pid=\"NluoofS0\">想想也不奇怪，毕竟岳飞这种军区司令级别的人物一样被戴绿帽子，其它的普通士兵就更别说了，这样的士兵会想着保家卫国吗？只会想着好男不当兵吧。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-718a7a2fcab18a07c291327b0f790e19_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"943\" data-original-token=\"v2-5588cc8cf0ed36d2c0fd00cf4271e75c\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-718a7a2fcab18a07c291327b0f790e19_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;943&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"943\" data-original-token=\"v2-5588cc8cf0ed36d2c0fd00cf4271e75c\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-718a7a2fcab18a07c291327b0f790e19_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-718a7a2fcab18a07c291327b0f790e19_720w.jpg?source=1def8aca\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"KXmYQrP5\">当前我国的种种乱象也是如此，本质上是信息时代男女关系的旧伦理已经被打破，而新伦理却还没有建立起来。</p><p data-pid=\"Gdy2kLk-\"><b>养家的枷锁，依然套在中国男性的脖子上；而家庭责任的包袱，早已经被女性扔到了九霄云外。</b></p><p data-pid=\"MXUqcYZl\">所以，是时候建立起新时代的两性伦理关系了。</p><p data-pid=\"feF77z-J\">那么，建立信息时代的两性伦理，需要考虑哪些因素呢？总的来说，有以下一些值得考虑的要点：</p><p data-pid=\"69V78J12\">1.很多女性已经具有不输给男性的赚钱能力。</p><p data-pid=\"LpfK2Wgj\">2.男性已经很容易确认孩子是否是自己的。</p><p data-pid=\"ZzqVcA7Y\">3.人们可以非常方便的迁居到其它地方。</p><p data-pid=\"vxbI5xAf\">4.人们可以非常方便地找到与自己具有相同爱好和属性的人。</p><p data-pid=\"Pisb3U5X\">5.阶层间的信息壁垒大幅减少。</p><p data-pid=\"BYiBe62W\">6.人们日益活在自己的信息茧房之中，认识差距急剧扩大。</p><p data-pid=\"9rdYuH2m\">7.两性关系的可替代性大幅增加。</p><p data-pid=\"cVzMEZ0G\">8.家族观念、乡土观念被彻底打碎。</p><p data-pid=\"ZhyjcgUJ\">9.资本的理念可以非常快速地影响到绝大多数人。</p><p data-pid=\"tI0YLAiN\">基本这些因素之上，建立起来的两性伦理，将会与传统的中国家族伦理存在极大的差别。而对于我们这一代人来说，接受并发扬新的两性伦理，是时代赋予我们的伟大使命。</p><p data-pid=\"NjbQp50_\">赞同请转发，喜欢本文的话，欢迎关注活在信息时代哦：）</p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1760024921,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "近些年来，随着女拳主义在我国的蓬勃发展，越来越多的男性开始理解程朱理学的产生背景了。北宋的亡国让南宋的男性们对于国家的存亡进行了深刻的反省，最终，对于女性近乎刻薄的朱子学说成功胜出，成为了南宋以后，汉人王朝的主流思想。 想想也不奇怪，毕竟岳飞这种军区司令级别的人物一样被戴绿帽子，其它的普通士兵就更别说了，这样的士兵会想着保家卫国吗？只会想着好男不当兵吧。 [图片] 当前我国的种种乱象也是如此，本质上是信息…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1959767244151198839",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1620955360,
+              "id": "459344018",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "请问大家如何看待现代社会性别问题？",
+              "type": "question",
+              "updated_time": 1620955361,
+              "url": "https://www.zhihu.com/api/v4/questions/459344018"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 943,
+                  "token": "v2-5588cc8cf0ed36d2c0fd00cf4271e75c",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-5588cc8cf0ed36d2c0fd00cf4271e75c_720w.jpg?source=1def8aca",
+                  "width": 1080
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1760024921,
+            "url": "https://www.zhihu.com/api/v4/answers/1959767244151198839",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "ad7c9b602be7038c7376e0fb9a634c98",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458358024527553"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/459344018/feeds?cursor=ad7c9b602be7038c7376e0fb9a634c98&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768458358024527553&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

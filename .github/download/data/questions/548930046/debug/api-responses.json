@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/548930046/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458649786,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/548930046/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/548930046/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么布拉德皮特和安吉丽娜朱莉在一起大家都觉得天经地义，而姚笛和文章就不能忍呢？",
+          "question_type": "normal",
+          "created": 1397263394,
+          "updated_time": 1397263394,
+          "url": "https://www.zhihu.com/api/v4/questions/23377797",
+          "answer_count": 38,
+          "comment_count": 1,
+          "follower_count": 80,
+          "relationship": {},
+          "id": "23377797"
+        }
+      ]
+    }
+  }
+]

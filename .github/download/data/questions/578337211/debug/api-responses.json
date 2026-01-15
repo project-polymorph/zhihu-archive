@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/578337211/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458665236,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/578337211/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/578337211/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何反驳这个选择性别的观点？",
+          "question_type": "normal",
+          "created": 1605608387,
+          "updated_time": 1605608387,
+          "url": "https://www.zhihu.com/api/v4/questions/430716565",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "430716565"
+        },
+        {
+          "type": "question",
+          "title": "为什么性别意识很重要？",
+          "question_type": "normal",
+          "created": 1536482108,
+          "updated_time": 1536482109,
+          "url": "https://www.zhihu.com/api/v4/questions/293980211",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "293980211"
+        },
+        {
+          "type": "question",
+          "title": "性别的意义是什么？",
+          "question_type": "normal",
+          "created": 1516839509,
+          "updated_time": 1516848488,
+          "url": "https://www.zhihu.com/api/v4/questions/266124502",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "266124502"
+        }
+      ]
+    }
+  }
+]

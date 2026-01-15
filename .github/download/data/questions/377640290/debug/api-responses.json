@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/377640290/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768459300468,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/377640290/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/377640290/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "当你变成男人，你第一时间会做什么?",
+          "question_type": "normal",
+          "created": 1693304418,
+          "updated_time": 1693304418,
+          "url": "https://www.zhihu.com/api/v4/questions/619700225",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "619700225"
+        },
+        {
+          "type": "question",
+          "title": "有哪些事是男人可以做女人不可以的？有哪些事是男人可以做但女人却不可以的？",
+          "question_type": "normal",
+          "created": 1595988557,
+          "updated_time": 1595988557,
+          "url": "https://www.zhihu.com/api/v4/questions/410534153",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "410534153"
+        },
+        {
+          "type": "question",
+          "title": "没有做过什么的女人是不完整的？",
+          "question_type": "normal",
+          "created": 1646208252,
+          "updated_time": 1646208252,
+          "url": "https://www.zhihu.com/api/v4/questions/519614882",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "519614882"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/608173629/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768459452785,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/608173629/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/608173629/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你如何看待传统性别角色在现代社会中的应用和变化？",
+          "question_type": "normal",
+          "created": 1731659898,
+          "updated_time": 1731659898,
+          "url": "https://www.zhihu.com/api/v4/questions/4245661356",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "4245661356"
+        },
+        {
+          "type": "question",
+          "title": "什么时候觉得性别限制了你的想象力？",
+          "question_type": "normal",
+          "created": 1521291552,
+          "updated_time": 1521291552,
+          "url": "https://www.zhihu.com/api/v4/questions/268984473",
+          "answer_count": 4,
+          "comment_count": 1,
+          "follower_count": 28,
+          "relationship": {},
+          "id": "268984473"
+        },
+        {
+          "type": "question",
+          "title": "在哪一个瞬间你体会到你的性别给你带来了红利？",
+          "question_type": "normal",
+          "created": 1585039635,
+          "updated_time": 1585039635,
+          "url": "https://www.zhihu.com/api/v4/questions/382098764",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "382098764"
+        }
+      ]
+    }
+  }
+]

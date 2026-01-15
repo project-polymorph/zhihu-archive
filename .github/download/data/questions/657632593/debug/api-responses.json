@@ -1,0 +1,505 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/657632593/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458791898,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/657632593/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/657632593/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别认同障碍是基因决定的还是后天形成的？或者是后天影响基因是否表现？",
+          "question_type": "normal",
+          "created": 1404470851,
+          "updated_time": 1404470851,
+          "url": "https://www.zhihu.com/api/v4/questions/24375050",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "24375050"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/657632593/feeds?cursor=95d77735272f3bbe07e1bf3815722535&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768458787322241498&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768458792076,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiOuI+0DSDR2sq5ApICJQoJNjg0NDI4MDQzEgozNTk4OTY1Nzc0GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-c240140b7616f30e7bcebef26a45c040_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-c240140b7616f30e7bcebef26a45c040.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 64,
+              "gender": 0,
+              "headline": "禁止右转小禁就是右翼走狗虚伪害国贼性为生殖是反智唯心主义!",
+              "id": "21ff32b353ac5ac78346999d3818f71a",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "杠神(婶)林轩尼",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/21ff32b353ac5ac78346999d3818f71a",
+              "url_token": "---25-2-61",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 3,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"tgjY6ZWB\">“性别认知障碍和性别认同障碍”都是严重过时的歧视性用语，根本没有什么障碍，真正的障碍是那些性别二元化论的封建遗老遗少！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1724032508,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "“性别认知障碍和性别认同障碍”都是严重过时的歧视性用语，根本没有什么障碍，真正的障碍是那些性别二元化论的封建遗老遗少！",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3598965774",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 3 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1717033758,
+              "id": "657632593",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "同样是性别不一致，为什么总有人混淆性别认知障碍和性别认同障碍两个概念？",
+              "type": "question",
+              "updated_time": 1720886539,
+              "url": "https://www.zhihu.com/api/v4/questions/657632593"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1724032508,
+            "url": "https://www.zhihu.com/api/v4/answers/3598965774",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "95d77735272f3bbe187b183d15722535",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiFlPKLDSDR2sq5ApICJQoJNjY5MDg4OTA3EgozNTE0NTk5OTQxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-27f761d9fb213e9d35f0f773959fccc8_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-27f761d9fb213e9d35f0f773959fccc8.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 408,
+              "gender": -1,
+              "headline": "可以讨论，不跟你吵，我会删评",
+              "id": "4c9c0e223411b7a2f7461dee806134d7",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Richardot-FW",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4c9c0e223411b7a2f7461dee806134d7",
+              "url_token": "uiphg-dryzi-wai-zs",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"_MXhWVzJ\">翻译问题。</p><p data-pid=\"8zDRtDBv\">英译汉涉及性别的概念，通行译法描述得都不大清楚。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1717036701,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "翻译问题。 英译汉涉及性别的概念，通行译法描述得都不大清楚。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3514599941",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1717033758,
+              "id": "657632593",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "同样是性别不一致，为什么总有人混淆性别认知障碍和性别认同障碍两个概念？",
+              "type": "question",
+              "updated_time": 1720886539,
+              "url": "https://www.zhihu.com/api/v4/questions/657632593"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1717036701,
+            "url": "https://www.zhihu.com/api/v4/answers/3514599941",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "95d77735272f3bbe988c323215722535",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjDs/qMDSDR2sq5ApICJQoJNjY5NDk0NjQ5EgozNTE2ODMyMTk1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-b23aedc18e8a1a006bb32152ce7d2d99_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-b23aedc18e8a1a006bb32152ce7d2d99.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7d258d83623dbae18889d369cd60da0b_l.png?source=1def8aca",
+                "description": "赞同 100 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7d258d83623dbae18889d369cd60da0b_r.png?source=1def8aca"
+              },
+              "follower_count": 5,
+              "gender": 1,
+              "headline": "游云野鹤",
+              "id": "4989e09915d9f75e60b5049a17f2d2c0",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "永敢",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4989e09915d9f75e60b5049a17f2d2c0",
+              "url_token": "yong-gan-78-83",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"IOQGdc15\">这两个概念都不存在，还混淆的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1717219843,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "这两个概念都不存在，还混淆的",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3516832195",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1717033758,
+              "id": "657632593",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "同样是性别不一致，为什么总有人混淆性别认知障碍和性别认同障碍两个概念？",
+              "type": "question",
+              "updated_time": 1720886539,
+              "url": "https://www.zhihu.com/api/v4/questions/657632593"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1717219843,
+            "url": "https://www.zhihu.com/api/v4/answers/3516832195",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "95d77735272f3bbe6a5d343215722535",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458787322241498"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/657632593/feeds?cursor=95d77735272f3bbe6a5d343215722535&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768458787322241498&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

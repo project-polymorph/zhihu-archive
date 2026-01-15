@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/701556941/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458610970,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/701556941/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/701556941/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人有可能完全摆脱性别概念，以中性或者无性别的身份活下去吗？",
+          "question_type": "normal",
+          "created": 1546771251,
+          "updated_time": 1546771251,
+          "url": "https://www.zhihu.com/api/v4/questions/308228003",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "308228003"
+        },
+        {
+          "type": "question",
+          "title": "假如所有人成年的时候都有一次选择性别的能力，会发生什么？",
+          "question_type": "normal",
+          "created": 1500131461,
+          "updated_time": 1500131461,
+          "url": "https://www.zhihu.com/api/v4/questions/62486630",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "62486630"
+        }
+      ]
+    }
+  }
+]

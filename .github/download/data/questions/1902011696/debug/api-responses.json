@@ -1,0 +1,2936 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1902011696/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458879059,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1902011696/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1902011696/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别刻板印象是什么？五十六种性别划分等多种性别划分是否是新的性别刻板印象？",
+          "question_type": "normal",
+          "created": 1710220200,
+          "updated_time": 1710220200,
+          "url": "https://www.zhihu.com/api/v4/questions/648187870",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "648187870"
+        },
+        {
+          "type": "question",
+          "title": "在现代社会，性别刻板印象对个人发展和心理健康有哪些影响？",
+          "question_type": "normal",
+          "created": 1758769987,
+          "updated_time": 1758769987,
+          "url": "https://www.zhihu.com/api/v4/questions/1954503668167578302",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1954503668167578302"
+        },
+        {
+          "type": "question",
+          "title": "性别的刻板印象都是哪来的?",
+          "question_type": "normal",
+          "created": 1752342973,
+          "updated_time": 1752342973,
+          "url": "https://www.zhihu.com/api/v4/questions/1927546819417707035",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1927546819417707035"
+        },
+        {
+          "type": "question",
+          "title": "如何正确对待“”性别刻板印象”与“”性别差异”？",
+          "question_type": "normal",
+          "created": 1578632414,
+          "updated_time": 1578632414,
+          "url": "https://www.zhihu.com/api/v4/questions/365611870",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "365611870"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd2747e2a8c8f2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768458965228,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiInfu3PSCwyvmKB5ICJgoJNjk2NDEzNTA1EgsxNjQ5MTkyNTEyOBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-003a199b380e5d5e367fb70137959ef7_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-003a199b380e5d5e367fb70137959ef7.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 578,
+              "gender": 0,
+              "headline": "",
+              "id": "13b6fd6ddd45148c2e067afb1d2ad00d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Wersady",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/13b6fd6ddd45148c2e067afb1d2ad00d",
+              "url_token": "van-beethoven",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"G585s8-a\">把所有性别差异都用性别刻板印象解释就是扯淡，人们可以减少因为性别强加的限制，但不可能改变两性身份的象征性的不同导致的人际关系的区别。两性的统计差异的不同恰恰意味着性别身份近乎必然会影响到自我表达。社会性别是人的基本需求的一部分。性别差异远比温和和勇猛的区别复杂，但不是仅仅通过刻板印象就可以解释的。妄图彻底将两性身份等同的女权是无视客观规律的。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730077808,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "把所有性别差异都用性别刻板印象解释就是扯淡，人们可以减少因为性别强加的限制，但不可能改变两性身份的象征性的不同导致的人际关系的区别。两性的统计差异的不同恰恰意味着性别身份近乎必然会影响到自我表达。社会性别是人的基本需求的一部分。性别差异远比温和和勇猛的区别复杂，但不是仅仅通过刻板印象就可以解释的。妄图彻底将两性身份等同的女权是无视客观规律的。",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "16491925128",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "6 赞同 · 2 收藏 · 4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730077808,
+            "url": "https://www.zhihu.com/api/v4/answers/16491925128",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 6
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747576aeef2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxillM7iSSCwyvmKB5ICJgoJNjk3MDc2MDI1EgsxOTgwMjU4OTczMxgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-607e94bae2a0d8b60bc6e4aa40999519_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-607e94bae2a0d8b60bc6e4aa40999519.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-f9f37a5af5a402f1122f122071c99170_l.png?source=1def8aca",
+                "description": "回答 50 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-f9f37a5af5a402f1122f122071c99170_r.png?source=1def8aca"
+              },
+              "follower_count": 127,
+              "gender": 1,
+              "headline": "已绝育",
+              "id": "1dbdc830a23726965740845090ded445",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "赛博猫不抽电子烟",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/1dbdc830a23726965740845090ded445",
+              "url_token": "36-85-36-63",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<blockquote data-pid=\"rCVf2e7Y\">而实际上区分男女这两个群体的判定标准应该是生理特征，xy染色体或xx染色体。</blockquote><p data-pid=\"jkEd4-nn\">实际上你身份证上的性别是出生时医生或护士通过观察你的外生殖器为你指派的，你没有测过染色体。况且人的染色体不止xx和xy，xx不一定被指派为女xy也不一定被指派为男，只要稍微查一下也能够知道人的生理性别不止两种。</p><p data-pid=\"7C5yRGZi\">并且，“男性”“女性”本来就不是用来描述生理的，这两个词本就带有社会身份含义，真正用来反应生理概念而不会让人联想到任何社会形象的描述是“雄性”和“雌性”。</p><p data-pid=\"6ByBMdOB\">就比如你见到了一只猫，你发现它皮鼓后面挂着一对铃铛，你会说这是一只公猫还是会说这是一只男猫？你会用代词“它”还是“他”去称呼它？你是叫它哥们而不是咪咪吗？它追求母猫会送对方戒指吗？它要是和别的公猫走得太近，其他猫会把它当成男同甚至歧视它吗？如果它真的喜欢公猫它会作为gay的一员参加pride month游行吗？…它不会，它只是一只小猫咪。</p><p data-pid=\"dZFg2qhW\">性征是性征，当然不能代表你是一个什么样的人。但现在的问题就在于，社会强行把身份和性征关联到一起，并对不同身份的人有不同的要求，形成不同的刻板印象，同时它又强调这种身份的生理决定性，久而久之人们便认为一切都已经让生理决定了。</p><p data-pid=\"GJe8HHW3\">这种观念也是我痛苦的原因。我身为跨性别者，在审视自己时、在潜意识里自然而然地会以男性的形象代表自己，甚至从小学到现在都能够意识到那是一个女性化的男性形象，而且我根本无法想象自己作为女性的样子。我这副天生的身体和我在内心的形象不符，原本也以为既然天生如此便只能将就着过，只能期待来生能体验自己真正想要的样子——随之而来的便是无力、欲望的丧失、情感的麻木。</p><p data-pid=\"O3kuaPuB\">同时这也说明了，至少对我来说“心理性别”并不是像一些人格类型学一样因为我怎么思考或者怎么看待事物所以我是什么类型，而只是我在潜意识中不可解释的一种感知，就像蜘蛛侠在产生蜘蛛感应的当下也很难解释为什么会感觉危险，他只是感受到了。而哪怕没有公认的从心理上界定男性和女性的客观标准，至少还有对顺性别和跨性别的定义。只要我符合跨性别者的心理状态，并且我潜意识中的自我形象是男性，那么我就是跨性别男性。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730386004,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/8de0e9500e41e291cd5d6fd031d8fa16",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @江枝芷",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "而实际上区分男女这两个群体的判定标准应该是生理特征，xy染色体或xx染色体。实际上你身份证上的性别是出生时医生或护士通过观察你的外生殖器为你指派的，你没有测过染色体。况且人的染色体不止xx和xy，xx不一定被指派为女xy也不一定被指派为男，只要稍微查一下也能够知道人的生理性别不止两种。 并且，“男性”“女性”本来就不是用来描述生理的，这两个词本就带有社会身份含义，真正用来反应生理概念而不会让人联想到任何社会…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "19802589733",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "6 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730386004,
+            "url": "https://www.zhihu.com/api/v4/answers/19802589733",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 6
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd27472f8ee0f2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxi826DY2wEgsMr5igeSAiYKCTcwNDkxMDI0MhILNTg5NzI0NTAyMzYYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d72ab01751b108d4959a36b3492289aa_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d72ab01751b108d4959a36b3492289aa.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-c6237c9841f06a387ca00f90e8a7fbb8_l.png?source=1def8aca",
+                "description": "受邀回答 100 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-c6237c9841f06a387ca00f90e8a7fbb8_r.png?source=1def8aca"
+              },
+              "follower_count": 2309,
+              "gender": -1,
+              "headline": "如果发现这个账号突然切换人格，不必惊讶，这里有两个用户。",
+              "id": "508ed6ebadaa6847beb9626af12f19de",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "夏天和莫扎特",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/508ed6ebadaa6847beb9626af12f19de",
+              "url_token": "quan-wang-zui-keng",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"skwVA2Hl\">跨性别者们放心大胆地去追求自己的外在形象与心理性别的一致性就好。</p><p data-pid=\"D9HElwzU\">反抗刻板印象这样的事交给我这样的人。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1734583686,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "跨性别者们放心大胆地去追求自己的外在形象与心理性别的一致性就好。 反抗刻板印象这样的事交给我这样的人。",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "58972450236",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同 · 2 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1734583686,
+            "url": "https://www.zhihu.com/api/v4/answers/58972450236",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747b41468f1a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxj0icXz2wEgsMr5igeSAiYKCTcwNDkyMTY5MhILNTkwMjk2NjkxMDgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-cab54d007257d5b207dbf6ea71d9bcaa_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-cab54d007257d5b207dbf6ea71d9bcaa.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 131,
+              "gender": -1,
+              "headline": "",
+              "id": "ad67b6186ea9aa631cadb6caddbc4604",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "name",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/ad67b6186ea9aa631cadb6caddbc4604",
+              "url_token": "hard-ice-26",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"xjnyE4mq\">为什么一定要定个性别的划分标准以至于在<b>所有情形</b>中都用这一标准把人群一分为二成“男”和“女”呢？</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/264629381/answer/16050902535?utm_psn=1853076477182107648\" data-image=\"https://picx.zhimg.com/v2-b9184eb845a1f3cff86ac7f85bf409fd_720w.jpg\" data-image-width=\"1769\" data-image-height=\"1080\" class=\"internal\">性别的定义是生理上还是心理上？</a><p data-pid=\"ogNSPaxM\">如果“心理性别（性别认同）”的意思是指一个人对自己被归类为“性征”的那部分生理特征的接受程度，那么这个概念还是有价值的，它可以用来表达一个人对改变自己生理特征的需求。</p><p data-pid=\"ZlMf-a5k\">汉语的“性别”一词表意太模糊了，容易让人觉得“得有个性别判定标准能在生物学和社会学等层面一概而论地把人进行归类划分”。</p><p data-pid=\"H3_dJoUz\">感觉不如英语有sex（生理层面的“性别”）和gender（社会层面的“性别”）两个词来的清楚。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1734588541,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "为什么一定要定个性别的划分标准以至于在 所有情形中都用这一标准把人群一分为二成“男”和“女”呢？性别的定义是生理上还是心理上？ 如果“心理性别（性别认同）”的意思是指一个人对自己被归类为“性征”的那部分生理特征的接受程度，那么这个概念还是有价值的，它可以用来表达一个人对改变自己生理特征的需求。 汉语的“性别”一词表意太模糊了，容易让人觉得“得有个性别判定标准能在生物学和社会学等层面一概而论地把人进行…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "59029669108",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "link_card_info": {
+              "https://www.zhihu.com/question/264629381/answer/16050902535?utm_psn=1853076477182107648": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"性别的定义是生理上还是心理上？\",\"card_open_url\":\"https://www.zhihu.com/question/264629381/answer/16050902535\",\"desc\":\"13 赞同 · 4 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003ename:\\u003c/a\\u003e “生理性别”这个概念是建构出来的：世界上不存在两个“一样”的东西，因为如果它们是一样的，你就会认为它们是一个东西而不是两个——反过来说，如果你认为有两个东西是“一样”的，那意味着你在主观中有意或无意地忽视了它们的区别而通过找相似点把它们归为了一类。 所谓的“生理性别”也是如此，没有两个人的生理特征是一样的，也没有两个人的“X染色体”是一样的，只是人们通过人为设立了一个“生理性别”的分类标准，于是分…\",\"image\":{\"image_url\":\"https://pic1.zhimg.com/v2-b9184eb845a1f3cff86ac7f85bf409fd.jpg?source=7e7ef6e2\\u0026needBackground=1\",\"ratio\":1,\"is_video\":false},\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"16050902535\"},\"za_data\":{\"attach_info\":\"\"}}"
+            },
+            "matrix_tips": "4 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1734588541,
+            "url": "https://www.zhihu.com/api/v4/answers/59029669108",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd27474a4768f1a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj+ofn+RCCwyvmKB5ICJgoJNjk2ODE5MDU2EgsxODUxOTgzODk3NBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-cd85ebbed23421dfdbab4f27a99b088b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-cd85ebbed23421dfdbab4f27a99b088b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 404,
+              "gender": -1,
+              "headline": "任何试图精准预测未来的判断应该称之为“神学”。",
+              "id": "373da1a49342871a4b82fd12e847cba7",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "隐藏暗与矛盾",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/373da1a49342871a4b82fd12e847cba7",
+              "url_token": "yin-cang-an-yu-mao-dun-28",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"d1ZpY04u\">这个问题就好像同样是人类，还可以分为美国人，澳大利亚人，日本人，中国人。</p><p data-pid=\"UTnA_XsC\">同样是中国人，又可以分为河南人，北京人，上海人，广东人，福建人。</p><p data-pid=\"sJdMMz8D\">广东人又可以分为广州人，深圳人。。。</p><p data-pid=\"nmk4ufND\">接下来还可以再细分，甚至可以无限细分。</p><p data-pid=\"a2s_ZCFq\">那么我们再回到“心理性别”这个角度。由于心理性别实际上是一种“自由心证”，这种自由心证大多数时候与客观现实的标准并不挂钩，只能服务于个人。</p><p data-pid=\"gnOBn0yV\">所以这种十分个人化的“心理性别”对如今的人类社会这种群体化可能是有“毁灭性的打击”效果的，因为“心理性别”很有可能会把人与人之间的“差异性”无限放大，这对于人类群体化，团结化有着致命的“不利影响”。</p><p data-pid=\"RoosiyEv\">现如今，心理性别这种“无限差异化的思想”仍然难以被“主流”所容，因为它有可能会掘了“主流”的根。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730266563,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/8de0e9500e41e291cd5d6fd031d8fa16",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @江枝芷",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "这个问题就好像同样是人类，还可以分为美国人，澳大利亚人，日本人，中国人。 同样是中国人，又可以分为河南人，北京人，上海人，广东人，福建人。 广东人又可以分为广州人，深圳人。。。 接下来还可以再细分，甚至可以无限细分。 那么我们再回到“心理性别”这个角度。由于心理性别实际上是一种“自由心证”，这种自由心证大多数时候与客观现实的标准并不挂钩，只能服务于个人。 所以这种十分个人化的“心理性别”对如今的人类…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "18519838974",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730266712,
+            "url": "https://www.zhihu.com/api/v4/answers/18519838974",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747669ae4f2a4c39145",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458873937247947"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd2747669ae4f2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd2747669ae4f2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768458974072,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi6/uH8PCCwyvmKB5ICJgoJNjk2Mzg4NTYxEgsxNjM2Nzc3OTY0MhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-f881c3949ac77eb15a9e1d43829cc4b0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-f881c3949ac77eb15a9e1d43829cc4b0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 70,
+              "gender": 1,
+              "headline": "从雪山到大海，男性终将解放。",
+              "id": "ea825e726164aff0476a184cae3b33cc",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "君茶",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/ea825e726164aff0476a184cae3b33cc",
+              "url_token": "jun-cha-22",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"gSGlQ5F3\">你有这个疑惑是对的，因为你眼里的心理性别是一个已经被推翻的理论，现在性少数不讲心理性别，只讲性别认知。讲清楚性别认知很难，唯一比较清晰的是性别认知是独立于性格的一个特殊属性，部分跨性别者会对自身的第一性征产生非理性的厌恶，即使做完手术也会因为无法完美变性而终生自厌。另一些情况下性别认知可能完全没有物质上的锚定点，在乎的只是男女这个概念。</p><p data-pid=\"2ROd1qkE\">跨性别者面对性别刻板印象时的反应也很复杂，部分跨性别者会全力模仿对异性的刻板印象以缓解对自身性别的焦虑，但另一些可能在完全不改变自身行为的情况下要求别人对他使用异性的称呼。</p><p data-pid=\"W7oiZ0Gr\">对此的进一步思考可能会撕裂“顺性别者”这一传统身份，与跨性别者相对应的是一部分顺性别者会因为被认错性别而愤怒，这种在意性别的行为也同样和跨性别者一样可以走向两个极端——部分人会非理性地抗拒一切在刻板印象里异性化的东西，也有人即使打扮成异性也禁止别人对他用异性称呼。然而，很大一部分顺性别者并没有此类行为，不反感异性称呼甚至于幻想自己成为异性，但这些人显然也不属于跨性别者，部分理论认为很多顺性别者实际上没有性别认知，或者说没有性别认知的多数人在社会化过程中会自然而然地接受自己的生理性别。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730049892,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "你有这个疑惑是对的，因为你眼里的心理性别是一个已经被推翻的理论，现在性少数不讲心理性别，只讲性别认知。讲清楚性别认知很难，唯一比较清晰的是性别认知是独立于性格的一个特殊属性，部分跨性别者会对自身的第一性征产生非理性的厌恶，即使做完手术也会因为无法完美变性而终生自厌。另一些情况下性别认知可能完全没有物质上的锚定点，在乎的只是男女这个概念。 跨性别者面对性别刻板印象时的反应也很复杂，部分跨性别者会全…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "16367779642",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730049892,
+            "url": "https://www.zhihu.com/api/v4/answers/16367779642",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747c70ceef2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxi0+5nUxwEgsMr5igeSAiYKCTcwMzgzNTA5OBILNTM1OTUyNDE5MDgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-21c55ad294222aef5c11ea2c39e96d79_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-21c55ad294222aef5c11ea2c39e96d79.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-e305158084f6ca64e370eaf3582b6bed_l.png?source=1def8aca",
+                "description": "完成 10 次圆环挑战即可获得",
+                "medal_avatar_frame": "",
+                "medal_id": "1863228133316157440",
+                "medal_name": "圆环挑战 2025",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-e305158084f6ca64e370eaf3582b6bed_r.png?source=1def8aca"
+              },
+              "follower_count": 237,
+              "gender": 1,
+              "headline": "不说现实中了，一个人在网络上做到不卑不亢很难吗？",
+              "id": "e1d2e21a9366fc8b79edfd5476f708ef",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "CelestialPromise",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e1d2e21a9366fc8b79edfd5476f708ef",
+              "url_token": "suo-nian-jie-xing-chen-35",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 6,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"HtXHBrsi\">性别刻板印象，其本质就是一种不同个体间的 社会性别 他者凝视。</p><p data-pid=\"KttvUKV6\">所谓生理性别，本质上是人们对不同生理特点(包括基因、染色体、性腺、生殖器在内)的规纳划分。</p><p data-pid=\"VAI1CeBz\">而心理性别，则是个体自发的对自我性别的(不)认同与认知。</p><p data-pid=\"STA9g_Hf\">所以，我首先可以回答该问题：有矛盾才是正常的，但是社会性别与心理性别本身是可以共存的。</p><hr/><p data-pid=\"G4Hfeemm\">其次，重点讨论“社会性别”和“心理性别”的区别，前者是“社会对不同的人群附上不同的标签”，后者是“个体自发的 我认为我是什么样的人和我想要当什么样的人”。</p><p data-pid=\"Nrpv2Goi\">所以，现如今围绕跨性别者和几十种心理性别的争议与乱象。本质上是从来不是心理性别和生理性别的争端。</p><p data-pid=\"A-II7FqS\">而是部分心理性别有了跃升为社会性别的可能，<b>半步社会性别</b>与<b>传统社会性别</b>引发的矛盾。</p><hr/><p data-pid=\"qpV1xvEL\">此外，在这方面，我个人立场站传统。</p><p data-pid=\"fxnQ0Tcf\">但是我也得说一句，心理性别在社会性别面前终归是矮一头的。心理性别通过或极端或温和手段努力成为社会性别，动机上无可指摘。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1733976937,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性别刻板印象，其本质就是一种不同个体间的 社会性别 他者凝视。 所谓生理性别，本质上是人们对不同生理特点(包括基因、染色体、性腺、生殖器在内)的规纳划分。 而心理性别，则是个体自发的对自我性别的(不)认同与认知。 所以，我首先可以回答该问题：有矛盾才是正常的，但是社会性别与心理性别本身是可以共存的。 其次，重点讨论“社会性别”和“心理性别”的区别，前者是“社会对不同的人群附上不同的标签”，后者是“个体自发…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "53595241908",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 6 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1733977501,
+            "url": "https://www.zhihu.com/api/v4/answers/53595241908",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747ccac9ff2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj07s32PSCwyvmKB5ICJgoJNjk2NDM5NzM0EgsxNjYyMzMwMjUxNhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-5bb3d98786eb21bf1719b19a7266ae85_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-5bb3d98786eb21bf1719b19a7266ae85.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_l.png?source=1def8aca",
+                "description": "回答 100 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_r.png?source=1def8aca"
+              },
+              "follower_count": 122,
+              "gender": 0,
+              "headline": "",
+              "id": "9bac588ced3d06494c2b2e74fa9dc8d7",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "石墨是石墨",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9bac588ced3d06494c2b2e74fa9dc8d7",
+              "url_token": "shi-mo-shi-shi-mo-93",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"kjORR064\">心理性别，或者说社会性别/gender，其实注册一些账号就可以知道是不是刻板印象了，比较典型的选项是：男、女、非二元、不愿透露。一般只有前两个选项涉及性别刻板印象。</p><p data-pid=\"Vobqpr55\">在我看来，gender用来自我定义，或者自我宣称。如果是用来给人贴标签“精神男/女”，其实就没有意义，可以说是性别刻板印象。</p><p data-pid=\"RgyczNau\">但合理的情景下，gender所覆盖的范围不仅仅是刻板印象，它还隐含着社会层面的意义：假设我认知自己的gender为女性，那么我归属于女性的社群，我希望融入女性集体的文化，我认为我与女性普遍面对的利益/困难相关。如果有人跳出来说“我是沃尔玛塑料袋”，我们最好追问一下他能否找到一个真正有归属感的“沃尔玛塑料袋”实体社群。</p><p data-pid=\"gHHNMkR6\">（当然，我不是一个信奉集体主义的人，所以对于这些隐含意义可能解读得很有问题，所以仅供参考。）</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730085233,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/8de0e9500e41e291cd5d6fd031d8fa16",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @江枝芷",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "心理性别，或者说社会性别/gender，其实注册一些账号就可以知道是不是刻板印象了，比较典型的选项是：男、女、非二元、不愿透露。一般只有前两个选项涉及性别刻板印象。 在我看来，gender用来自我定义，或者自我宣称。如果是用来给人贴标签“精神男/女”，其实就没有意义，可以说是性别刻板印象。 但合理的情景下，gender所覆盖的范围不仅仅是刻板印象，它还隐含着社会层面的意义：假设我认知自己的gender为女性，那么我归属于女…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "16623302516",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730085233,
+            "url": "https://www.zhihu.com/api/v4/answers/16623302516",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747a0d4eef2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi48NnNOyCwyvmKB5ICJgoJNjk2MzE0OTU0EgsxNjAwMDY0NTE3NhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-2e4378c5cdd240066f034ac0955b1bb5_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-2e4378c5cdd240066f034ac0955b1bb5.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-218f146a9ef6ae04d5b1e426f16f1010_l.png?source=1def8aca",
+                "description": "连续答题 10 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-218f146a9ef6ae04d5b1e426f16f1010_r.png?source=1def8aca"
+              },
+              "follower_count": 4,
+              "gender": -1,
+              "headline": "",
+              "id": "5a188ff716a0d278ff023435d323f8d8",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "劣根性",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/5a188ff716a0d278ff023435d323f8d8",
+              "url_token": "jiu-he-ye-33",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"w1RGRM3i\">首先，男的女的都是人；其次，人的生理和心理是一个统一的整体。</p><p data-pid=\"i-WXKv4h\">另外，依据生理划分性别是一种比较简便的统计方式，如果依据所谓心理划分一是不利于制定客观标准二是难以统计。</p><p data-pid=\"xM-kfA81\">反正我觉得人存在的自然状态是不存在矛盾的。</p><p data-pid=\"N3MKiz8F\">二编一下，心理性别作为一种人格特质为什么不应该和自己的生理统一为一个整体，人本来就不应该以一个割裂的状态存在，所谓错位的痛苦那是自我认识和经验发生矛盾的情况，本身就是一种割裂。我认为人存在的最好（也就是我所认为最自然的）状态就是自我概念和客观经验达到了统一。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730012235,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "首先，男的女的都是人；其次，人的生理和心理是一个统一的整体。 另外，依据生理划分性别是一种比较简便的统计方式，如果依据所谓心理划分一是不利于制定客观标准二是难以统计。 反正我觉得人存在的自然状态是不存在矛盾的。 二编一下，心理性别作为一种人格特质为什么不应该和自己的生理统一为一个整体，人本来就不应该以一个割裂的状态存在，所谓错位的痛苦那是自我认识和经验发生矛盾的情况，本身就是一种割裂。我认为人存在…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "16000645176",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730082294,
+            "url": "https://www.zhihu.com/api/v4/answers/16000645176",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd27475cebecf2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxi6wKqkiAEgsMr5igeSAiYKCTcwMDQzMjM5ORILMzY1ODM0MTU4NjYYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d5c5f9b3da2ecce78a2419bebd3d4e7b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d5c5f9b3da2ecce78a2419bebd3d4e7b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 47,
+              "gender": -1,
+              "headline": "最大的不变即变化之自身。",
+              "id": "686fd72f346465018c173eeac4e3adca",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "岱河凜",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/686fd72f346465018c173eeac4e3adca",
+              "url_token": "neural",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ZZ4yie27\">一开始的预设个人认为有失偏颇</p><p data-pid=\"LJPB_uhB\"><b>题目描述过于强调人的主观能动性，然而该特质在客观条件下不一定能被充分体现。性别认同并非纯粹地基于内心选择或所愿，它也受社会左右，令个体不免会为此动摇</b></p><p data-pid=\"LT0EOyS-\">现实实则充分展示了该点：用本身无指向内容的元素来清晰划分男女——尽管“他”更喜欢（被）代表“她”的元素；在孩童成长阶段灌输传统性别叙事下自身性别应覆行的义务——被要求做军人的男孩被强行褪去自身的美术才华；部分职业岗位对员工进行潜规则乃至硬性要求等等——空姐制服勾勒身材 实用性却欠佳</p><p data-pid=\"p03CQxZq\">可见，目前社会对个体的性别构建依旧表现出了不同程度的强加性，使得个体出于获得维护当前关系与利益抑或其他因素怯于崭露自我，并无形中将自我异化，无疑反映出外界对其主体意愿的粗暴践踏。<b>所以并不是“男女性别之选择（认同）”看似过于任性且不切实际，而是“男女性别之选择（认同）”的自由长期未被正视</b>，它甚至是被社会主流的性别偏见及其塑造产物所排挤的</p><p data-pid=\"M6_aLFs-\"><b>在这种情况下，对自我认知进行拓展、尝试向所谓“异性特质”部分靠拢是有必要的，产生社会共识后也更易提倡双性突破各自于传统叙事下的特质框架后实现个性解放，已经天然具备一定的进步属性。</b>实际上，借自身认同确立性别行为本身并不完全等同于企图瓦解性别概念，它更倾向于将性别间被构建的鲜明特质差异所淡化或抹除，只是就无法彻底改变的生理性别与规训进行僭越，兼否认了在心理或生理上有绝对的男性女性一存在</p><p data-pid=\"l3FY9UZb\">关于生理特征来区分性别亦存在不严谨处：xy染色体和xx染色体之外存在足以动摇性别二元论的特例，例如间性人。他们受性激素及其他异常影响，其性征往往不接近于通常情况下所属的生理性别，当中一部分更接近于异性，他们亦有不少顺应各自性征进而发展出有别于其生理性别的性别认同。若要用题目所述的两种染色体进行直接区分，依旧忽略了他们作为染色体异常的当事人的感受，有可能对其已有的性别认同进行冒犯。以性染色体粗疏划分，恰恰未能赋予染色体异常的群体以追求性别认同的自由，他们理应与其他性染色体正常发育的个体同等享有被尊重的权利</p><p data-pid=\"Lk6GcO4o\">上述例子可以证明性别本身并非是孤立片面的，它其实会随社会发展作出动态反馈并加以创新兼容，除去生物学发现了染色体异常，还包括性别背后的社会属性，而性别刻板印象正是围绕社会属性的衍生物</p><p data-pid=\"ds7Z-D3l\">前现代社会的封建制度中，女性一般被统治阶级规训为以家庭为单位下的生育机器，警惕她们掌握生产资料并剥夺受教育权，所以会要求她们“守妇道” （<b>统治阶级有目的地构建或完善“性别刻板印象”</b> ）以最低成本将不安分因素尽可能地在最小生产单位里扼杀；随工业革命以及第三世界各国的现代化，生产力的空前高速发展使低效的封建制度在各国迅速消亡，在这个过程中女性开始大规模进入就业岗位，由此突破了女性必须主内的限制，并开始捍卫、并获得被正视，被平权和被纪念的权利，故这阶段的女性对传统规训的性别特质产生了动摇，尝试不去遵守且视其为有碍于自我实现的。诚然，她们的质疑与行动收获颇丰，作为样本去说明去性别刻板印象之演变也极具代表性，也能证明<b>“性别刻板印象”一直在被质疑并被挑战</b>。无疑，反性别刻板印象具备鲜明的进步性</p><p data-pid=\"2Um9NvGh\"><b>性别刻板印象当中的确包含不少褒义词，例如“夸赞”女性“体贴”，“歌颂”男性“伟岸”，实质却是被利用并开发为一种范式：即统治阶级大肆塑造经人为夸张化后性别特征的普遍性与正确性，利用滑坡谬论将局部、非必要因素的这种生理特征以各类举措与形容词所绑定，随后将其与指定性别划上等号，在二元性别论的框架内制定道德法律，由此强加于所有个体之上并指使他们执行，最后达成某种隐性控制以维持稳定统治，对顺从者美其名曰为“高尚” ，对天生体质与之相左者或有意无意的一般违背者批判；甚至部分地区强制民众执行，违者则予以轻罚乃至极刑，根本上将个体间的多样性所刻意全然忽视</b></p><p data-pid=\"jqgFcRfb\"><b>性别刻板印象与性别认同的差异之处在于——前者是社会构建的，后者却更多基依托于主观感受与学术分析等内容同时客观存在</b>，所以会出现这样一种现象：某位个体在主观上只是出于性别认同、发自内心且无意识地扮演着与自身生理性别在传统社会上的相左形象，其并未过多受到外界塑造，形象也绝非矫揉造作，却被他人定性为认同“性别刻板印象”。<b>这一行为其实也存在归因谬误，忽视了个体的心路历程与行为动机而过于强调社会规训之嫌（与文首的“过于强调人的主观能动性”相反，却还是滑向了另一个极端），尤其是在“性别刻板印象” 一不严谨概念趋于式微的当下</b></p><p data-pid=\"870g56wW\">不妨让此概念更具体一点：诚然有一部分跨性别群体意图彻底否认其生理性别而刻意表现出传统认知里往异性靠拢的打扮抑或行为举止，大体上符合“性别刻板印象”的描述。可是若要从其自身出发，同样存在各类动机，譬如方便快速融入所认同性别的群体，仅仅在美学上喜欢异性的打扮等拉因素，原生家庭抑或社群过于强调性别刻板印象从而创成内心创伤，纯粹不喜欢自身生理构造等推因素。他们看似默认、甚至或多或少地认同了自身遵从着所谓“性别刻板印象”，实质上却也是在反抗以自身生理性别为本位的规训——不乏是一种相对激进的对抗，与前文述及的女性同样具备一定的进步性</p><p data-pid=\"820eQBau\"><b>“性别刻板印象”被构建的性质，使其子项、所谓“加深性别刻板印象”也成为了该体系下一种被构建的定义，所以在这场定义中，只有向传统认知模式下的异性打扮与举止是作为表征确切存在的；而“反对性别刻板印象”则是性别解放背景下对此构建概念的颠覆，即回溯性建构，目的是令“性别刻板印象”最终彻底破产</b></p><p data-pid=\"pLKhmMP4\">回到问题本身，<b>如果从性别构建论的狭义角度来看待“性别刻板印象”，那么它与“心理性别（性别认同）”的确存在矛盾点，两者在这种语境下看似同时成立，是因为它们二律背反。关于两者背景，前文已经清楚阐释过，此处便谈及它们的目的：“性别刻板印象”在于维护二元性别叙事并试图加以强化；“心理性别（性别认同）”在于（通过建立并完善多元性别理论）淡化二元性别叙事甚至试图消解它。个人认为前者偏向前现代，后者则偏向现代与略微后现代，它们同时成立只是在于有各自的理论基础与辩护手段，但前者明显会在性别叙事进步的前提下被后者逐步取代</b></p><p data-pid=\"c1ViOwDj\">若承认心理性别，其实能够发现它相比生理性别更加尊重个体的意愿，同时其适用性完全能够大体满足于每一位个体。至于见到某人炒作性别认同的表象，也应留意并揣测个体的背景以及动机。对单一行为进行简单的归纳将挟带出鲁莽，上升到群体则无意流露出一种傲慢。我们必须承认跨性别群体有所取之处，也应意识到心理性别（性别认同）之确凿存在与其发展之效益</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1732114683,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/column/c_1838020513454243840",
+                "background_color": {
+                  "alpha": 0.08,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "image_key": "zhicon_icon_24_column_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "收录于 · 性别学拙作",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "font_size": 13,
+                    "is_bold": false,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  },
+                  {
+                    "height": 12,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "image_key": "zhicon_icon_16_arrow_right",
+                    "type": "IMAGE",
+                    "width": 12
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "Column",
+                  "text": "收录于 · 性别学拙作",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "一开始的预设个人认为有失偏颇 题目描述过于强调人的主观能动性，然而该特质在客观条件下不一定能被充分体现。性别认同并非纯粹地基于内心选择或所愿，它也受社会左右，令个体不免会为此动摇现实实则充分展示了该点：用本身无指向内容的元素来清晰划分男女——尽管“他”更喜欢（被）代表“她”的元素；在孩童成长阶段灌输传统性别叙事下自身性别应覆行的义务——被要求做军人的男孩被强行褪去自身的美术才华；部分职业岗位对员…",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "36583415866",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1732222899,
+            "url": "https://www.zhihu.com/api/v4/answers/36583415866",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd274719c7d3f2a4c39145",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458873937247947"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd274719c7d3f2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd274719c7d3f2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768458998764,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjf65PcOyCwyvmKB5ICJgoJNjk2MzIxMDIwEgsxNjAzMDk1NDk3NRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-e121014c19df2b64cf51c8a7c40a29f2_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-e121014c19df2b64cf51c8a7c40a29f2.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 5,
+              "gender": -1,
+              "headline": "",
+              "id": "2b2d146c5c7fed5143dc9db83f6b87b4",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "极品双面龟杨少",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/2b2d146c5c7fed5143dc9db83f6b87b4",
+              "url_token": "29-10-61-93",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Ghoo4NL1\">不管什么性别，首先我声明一点，我只会帮跟我一路的，就好像无产阶级，任何敢把脏手伸到我们人民这里的，都是反革命的敌人</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730015179,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不管什么性别，首先我声明一点，我只会帮跟我一路的，就好像无产阶级，任何敢把脏手伸到我们人民这里的，都是反革命的敌人",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "16030954975",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730015179,
+            "url": "https://www.zhihu.com/api/v4/answers/16030954975",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747ea04edf2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxit4KjGUSCwyvmKB5ICJgoJNjk3NDkzOTEyEgsyMTg5MDc0MDI2ORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d6a326145072a3d9337d7f30a0ace918_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d6a326145072a3d9337d7f30a0ace918.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_l.png?source=1def8aca",
+                "description": "获得 50 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_r.png?source=1def8aca"
+              },
+              "follower_count": 3,
+              "gender": 1,
+              "headline": "热衷精神分析哲学理论",
+              "id": "00dc780a229ca555abc2646469d93166",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "狼食人间",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/00dc780a229ca555abc2646469d93166",
+              "url_token": "kan-kan-1-39-40",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"NjZ1Mwnw\">不不，这个欧美搞得认知性别其实有一点特别有意思在于，它将一致的视域分裂了，当我们谈及到男女性时，举个例子，在恋爱中，男生被称为粗心，鲁莽，OK，那么如果同性恋加入其中，一个生理性别占据了一个符号位置，即生理女性为恋爱的男性位置，仍然能得出这个结论，那么生理男性鲁莽粗心的指控将无法立足，这为我们探究什么才是男女固有属性提供了新的思路</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730622792,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/8de0e9500e41e291cd5d6fd031d8fa16",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @江枝芷",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "不不，这个欧美搞得认知性别其实有一点特别有意思在于，它将一致的视域分裂了，当我们谈及到男女性时，举个例子，在恋爱中，男生被称为粗心，鲁莽，OK，那么如果同性恋加入其中，一个生理性别占据了一个符号位置，即生理女性为恋爱的男性位置，仍然能得出这个结论，那么生理男性鲁莽粗心的指控将无法立足，这为我们探究什么才是男女固有属性提供了新的思路",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "21890740269",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730622792,
+            "url": "https://www.zhihu.com/api/v4/answers/21890740269",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd27478eeefef2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "annotation_detail": {
+              "detail": "可能包含 AI 创作内容，请谨慎判断和采信",
+              "id": 2136805,
+              "reason": 35487,
+              "reason_description": "可能包含 AI 创作内容",
+              "show_outer": false,
+              "type": "weak"
+            },
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxih/dnQPSCwyvmKB5ICJgoJNjk2NDIzODYxEgsxNjU0MzgwOTE4NRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7e3b8f86b7f9c3f7e0757789bac88f7b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-7e3b8f86b7f9c3f7e0757789bac88f7b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-adbdb43470a5243a11ae505a74c35c52_l.png?source=1def8aca",
+                "description": "完成 50 次圆环挑战即可获得",
+                "medal_avatar_frame": "",
+                "medal_id": "1721585988709650432",
+                "medal_name": "圆环挑战 2024",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-adbdb43470a5243a11ae505a74c35c52_r.png?source=1def8aca"
+              },
+              "follower_count": 37,
+              "gender": 1,
+              "headline": "人们从未关注过这样一个明明白白的深奥道理：其他人也有灵魂",
+              "id": "ec02d4d10a871d43b8749046c12d44e6",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "巴扎嘿",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/ec02d4d10a871d43b8749046c12d44e6",
+              "url_token": "wei-xin-yong-hu-19-32-45-48",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"5GaQTFS8\">性别刻板印象和心理性别并不矛盾，只是它们所关注的角度和范畴不同。</p><p data-pid=\"x9bD93rB\">性别刻板印象是社会对不同性别的人所具有的特征、行为、职业等方面的固定、片面且往往不准确的看法和期望。例如，认为女性就应该温柔、擅长照顾家庭，男性就应该坚强、有领导力等。这些刻板印象限制了个体的发展和自由表达，不符合个体的多样性和复杂性。</p><p data-pid=\"FFVNmdwR\">心理性别则是个体对自己性别的内在认知和感受，是基于自身的心理特质、情感倾向、自我认同等形成的。一个人的心理性别可能与生理性别一致，也可能不一致。</p><p data-pid=\"egEUnibi\">性别刻板印象往往会给个体的心理性别表达带来压力和束缚。当一个人的心理性别特征不符合社会所设定的刻板印象时，可能会受到歧视、误解或不被接纳，从而导致心理困扰。然而，需要明确的是，这两个概念并非本质上的矛盾，而是社会观念与个体内在认知之间的冲突。我们应该尊重每个人的心理性别认同，打破性别刻板印象的限制，创造一个更加包容和多元的社会环境。</p><p data-pid=\"gFSQqESr\">#性别刻板印象 #心理性别 #社会观念</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730080970,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/8de0e9500e41e291cd5d6fd031d8fa16",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @江枝芷",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              },
+              {
+                "background_color": {
+                  "alpha": 1,
+                  "group": "GBK10A"
+                },
+                "elements": [
+                  {
+                    "content": "可能包含 AI 创作内容",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBK06A"
+                    },
+                    "font_size": 13,
+                    "is_bold": false,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  },
+                  {
+                    "height": 12,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBK06A"
+                    },
+                    "image_key": "zhicon_icon_16_arrow_down",
+                    "selected_image_key": "zhicon_icon_16_arrow_up",
+                    "type": "IMAGE",
+                    "width": 12
+                  }
+                ],
+                "sub_elements": [
+                  {
+                    "elements": [
+                      {
+                        "content": "可能包含 AI 创作内容",
+                        "font_color": {
+                          "alpha": 1,
+                          "group": "GBK06A"
+                        },
+                        "font_size": 13,
+                        "is_bold": true,
+                        "max_line": 1,
+                        "type": "TEXT"
+                      }
+                    ]
+                  },
+                  {
+                    "action_url": "",
+                    "elements": [
+                      {
+                        "content": "可能包含 AI 创作内容，请谨慎判断和采信",
+                        "font_color": {
+                          "alpha": 1,
+                          "group": "GBK06A"
+                        },
+                        "font_size": 13,
+                        "is_bold": false,
+                        "max_line": 1,
+                        "type": "TEXT"
+                      }
+                    ]
+                  }
+                ],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "Annotation",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "性别刻板印象和心理性别并不矛盾，只是它们所关注的角度和范畴不同。 性别刻板印象是社会对不同性别的人所具有的特征、行为、职业等方面的固定、片面且往往不准确的看法和期望。例如，认为女性就应该温柔、擅长照顾家庭，男性就应该坚强、有领导力等。这些刻板印象限制了个体的发展和自由表达，不符合个体的多样性和复杂性。 心理性别则是个体对自己性别的内在认知和感受，是基于自身的心理特质、情感倾向、自我认同等形成的。一…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "16543809185",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730080970,
+            "url": "https://www.zhihu.com/api/v4/answers/16543809185",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747a392eef2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjD/M3jUCCwyvmKB5ICJgoJNjk3NDUyNTIwEgsyMTY4MzczMjAzNRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 185,
+              "gender": 0,
+              "headline": "",
+              "id": "9d12947e3000bc037e66fd36640ca717",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户o7vHrX",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9d12947e3000bc037e66fd36640ca717",
+              "url_token": "jiang-zhu-42-53",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"2IcYULte\">性别刻板</p><p data-pid=\"uDOaLBay\">心理性别</p><p data-pid=\"f2bQGbkk\">这两个词都是谬论</p><p data-pid=\"G-lOL6RN\">神</p><p data-pid=\"uUv05rvm\">是人相象出来的</p><p data-pid=\"xtqfrMrE\">性别</p><p data-pid=\"5pvzeLL1\">是男女的划分</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730604848,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性别刻板 心理性别 这两个词都是谬论 神 是人相象出来的 性别 是男女的划分",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "21683732035",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730604848,
+            "url": "https://www.zhihu.com/api/v4/answers/21683732035",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd2747fe40fef2a4c39145",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiUi4WvUiCwyvmKB5ICJgoJNjk3NTM3ODczEgsyMjExMDM1Njg4NBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-de9c39544656624cc0f8b718d4c78151_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-de9c39544656624cc0f8b718d4c78151.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-e6115bcddf09266eb0bf8044bbd998a1_l.png?source=1def8aca",
+                "description": "连续答题 30 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-e6115bcddf09266eb0bf8044bbd998a1_r.png?source=1def8aca"
+              },
+              "follower_count": 605,
+              "gender": 0,
+              "headline": "用心理学打开人生新境界",
+              "id": "3cdf4e5fe4b596c3c2470e7c606a5173",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "忽如一夜春风来",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/3cdf4e5fe4b596c3c2470e7c606a5173",
+              "url_token": "78-11-74-25-81",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"OFi1jpT_\">性别刻板印象和心理性别这两个概念确实存在一定的矛盾。</p><p data-pid=\"N61Jn4Dl\">性别刻板印象是社会对不同性别的人所设定的固定、僵化的观念和期望，例如认为男性就应该坚强、勇敢、善于理性思考，女性就应该温柔、体贴、善于照顾他人等。这些刻板印象往往限制了个体的发展和自由表达。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-c431993306e60ab5d655894aead7aaee_720w.jpg?source=1def8aca\" data-rawwidth=\"512\" data-rawheight=\"477\" data-size=\"normal\" data-original-token=\"v2-0ed9430ecf4181fec6e777f26134d26b\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2c2ed672f95e6373151be7ab01733f6d_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"512\" data-original=\"https://pic1.zhimg.com/v2-c431993306e60ab5d655894aead7aaee_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;512&#39; height=&#39;477&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"512\" data-rawheight=\"477\" data-size=\"normal\" data-original-token=\"v2-0ed9430ecf4181fec6e777f26134d26b\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2c2ed672f95e6373151be7ab01733f6d_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"512\" data-original=\"https://pic1.zhimg.com/v2-c431993306e60ab5d655894aead7aaee_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-c431993306e60ab5d655894aead7aaee_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"uyhBDmmA\">而心理性别则是个体对自己性别的内在认知和感受，它可能与生理性别不完全一致，也不受传统性别角色的束缚。一个人的心理性别更多地取决于其自身的个性、兴趣、情感和自我认同。</p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-bf0e06188c7906f9ff665f8a6c52f7ed_720w.jpg?source=1def8aca\" data-rawwidth=\"512\" data-rawheight=\"473\" data-size=\"normal\" data-original-token=\"v2-563eb644136290f85f1dad4acc80b839\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-59737fcbbda59b8003e0ebafffb2ffd0_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"512\" data-original=\"https://picx.zhimg.com/v2-bf0e06188c7906f9ff665f8a6c52f7ed_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;512&#39; height=&#39;473&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"512\" data-rawheight=\"473\" data-size=\"normal\" data-original-token=\"v2-563eb644136290f85f1dad4acc80b839\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-59737fcbbda59b8003e0ebafffb2ffd0_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"512\" data-original=\"https://picx.zhimg.com/v2-bf0e06188c7906f9ff665f8a6c52f7ed_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-bf0e06188c7906f9ff665f8a6c52f7ed_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"VBIp3ct8\">矛盾点在于，性别刻板印象常常试图将人们框定在特定的行为模式和角色中，而忽略了个体心理性别所具有的多样性和独特性。有些人的心理性别特征可能不符合传统的性别刻板印象，这就导致了他们在社会中可能面临误解、歧视或压力。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-951d931699bffb34a9f09dae53645fd9_720w.jpg?source=1def8aca\" data-rawwidth=\"512\" data-rawheight=\"472\" data-size=\"normal\" data-original-token=\"v2-c4d38d1c47e3aa6af8ebef0bd91af8cc\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-30b48335aaa94b55519045fca6ce9ce1_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"512\" data-original=\"https://picx.zhimg.com/v2-951d931699bffb34a9f09dae53645fd9_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;512&#39; height=&#39;472&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"512\" data-rawheight=\"472\" data-size=\"normal\" data-original-token=\"v2-c4d38d1c47e3aa6af8ebef0bd91af8cc\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-30b48335aaa94b55519045fca6ce9ce1_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"512\" data-original=\"https://picx.zhimg.com/v2-951d931699bffb34a9f09dae53645fd9_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-951d931699bffb34a9f09dae53645fd9_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"HQDKIRam\">例如，一个生理性别为男性但心理性别更倾向于传统女性特质的人，可能会因为社会的性别刻板印象而难以真实地表达自己，甚至产生心理困扰。</p><p data-pid=\"6S83EZk4\">总之，性别刻板印象的存在限制了人们对心理性别的理解和尊重，而认识到这种矛盾有助于我们打破刻板印象，创造一个更加包容和多元的社会环境，让每个人都能按照自己真实的心理性别去发展和生活。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730644404,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/8de0e9500e41e291cd5d6fd031d8fa16",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @江枝芷",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "性别刻板印象和心理性别这两个概念确实存在一定的矛盾。 性别刻板印象是社会对不同性别的人所设定的固定、僵化的观念和期望，例如认为男性就应该坚强、勇敢、善于理性思考，女性就应该温柔、体贴、善于照顾他人等。这些刻板印象往往限制了个体的发展和自由表达。 [图片] 而心理性别则是个体对自己性别的内在认知和感受，它可能与生理性别不完全一致，也不受传统性别角色的束缚。一个人的心理性别更多地取决于其自身的个性、兴趣、情感和…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "22110356884",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 477,
+                  "token": "v2-0ed9430ecf4181fec6e777f26134d26b",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-0ed9430ecf4181fec6e777f26134d26b_720w.jpg?source=1def8aca",
+                  "width": 512
+                },
+                {
+                  "height": 473,
+                  "token": "v2-563eb644136290f85f1dad4acc80b839",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-563eb644136290f85f1dad4acc80b839_720w.jpg?source=1def8aca",
+                  "width": 512
+                },
+                {
+                  "height": 472,
+                  "token": "v2-c4d38d1c47e3aa6af8ebef0bd91af8cc",
+                  "type": "image",
+                  "url": "https://pica.zhimg.com/80/v2-c4d38d1c47e3aa6af8ebef0bd91af8cc_720w.jpg?source=1def8aca",
+                  "width": 512
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730644404,
+            "url": "https://www.zhihu.com/api/v4/answers/22110356884",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd27474792fff2a4c39145",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458873937247947"
+      },
+      "paging": {
+        "page": 4,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd27474792fff2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=4&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd27474792fff2a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=4&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768459102028,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxj/is6EvZ/ExhogsMr5igeSAi4KCTczMDM0OTY3MhITMTkxMzIwNDA5MDQyNDQ5MzQzORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-b12b19e90e8f3258b8bd58a90f34f408_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-b12b19e90e8f3258b8bd58a90f34f408.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 417,
+              "gender": 0,
+              "headline": "面",
+              "id": "0137de0987c56fbbd3ded38be28181c1",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "蓝天界",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0137de0987c56fbbd3ded38be28181c1",
+              "url_token": "he-lai-gu-biao-ma",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pica.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://picx.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Ji9n8K6C\">心理性别的概念在一定程度上确实是维护了性别刻板印象，但是打破性别刻板印象的程度明显更大，在这之前没有人对生理上粗糙的性别系统有过质疑</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1748923400,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "心理性别的概念在一定程度上确实是维护了性别刻板印象，但是打破性别刻板印象的程度明显更大，在这之前没有人对生理上粗糙的性别系统有过质疑",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1913204090424493439",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1729745043,
+              "id": "1902011696",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象与心理性别这两个概念似乎存在矛盾点？",
+              "type": "question",
+              "updated_time": 1729745043,
+              "url": "https://www.zhihu.com/api/v4/questions/1902011696"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1748923400,
+            "url": "https://www.zhihu.com/api/v4/answers/1913204090424493439",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "bd56806a37dd27477e47e4f0a4c39145",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458873937247947"
+      },
+      "paging": {
+        "page": 5,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1902011696/feeds?cursor=bd56806a37dd27477e47e4f0a4c39145&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=5&order=default&platform=desktop&session_id=1768458873937247947&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,226 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/304881835/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458687568,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/304881835/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/304881835/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "同样是性别不一致，为什么总有人混淆性别认知障碍和性别认同障碍两个概念？",
+          "question_type": "normal",
+          "created": 1717033758,
+          "updated_time": 1720886539,
+          "url": "https://www.zhihu.com/api/v4/questions/657632593",
+          "answer_count": 8,
+          "comment_count": 1,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "657632593"
+        },
+        {
+          "type": "question",
+          "title": "请问人的思想会受性别所影响吗？",
+          "question_type": "normal",
+          "created": 1657786261,
+          "updated_time": 1657796098,
+          "url": "https://www.zhihu.com/api/v4/questions/543267728",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "543267728"
+        },
+        {
+          "type": "question",
+          "title": "性别可以作为区分思维方式的一条标准吗？",
+          "question_type": "normal",
+          "created": 1523879380,
+          "updated_time": 1523879471,
+          "url": "https://www.zhihu.com/api/v4/questions/273540551",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "273540551"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/304881835/feeds?cursor=37a5a9768d44d25200affba7b4d5cca4&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768458680025397063&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768458687568,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxje0rqKAiCrwbCRAZICJAoJMTMxNjY5MTU1Egk1NTg4MDMyOTQYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-e402cfa8e362c305fac03f34d5f87c8d_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-e402cfa8e362c305fac03f34d5f87c8d.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 45,
+              "gender": 0,
+              "headline": "一个三观极正的女权主义者",
+              "id": "6ecbe3dd1f3294a9326d87d2547709ac",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "三观正lady",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/6ecbe3dd1f3294a9326d87d2547709ac",
+              "url_token": "qiqi007",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"S-XuWke0\">人与人思想本来就不同，这事也能扯到男女身上？那我和你人生经历还不同呢</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1545647310,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "人与人思想本来就不同，这事也能扯到男女身上？那我和你人生经历还不同呢",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "558803294",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1544088056,
+              "id": "304881835",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么性别不同会导致思想不同？",
+              "type": "question",
+              "updated_time": 1544088210,
+              "url": "https://www.zhihu.com/api/v4/questions/304881835"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1545647310,
+            "url": "https://www.zhihu.com/api/v4/answers/558803294",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "37a5a9768d44d2529385faa7b4d5cca4",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768458680025397063"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/304881835/feeds?cursor=37a5a9768d44d2529385faa7b4d5cca4&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768458680025397063&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]
