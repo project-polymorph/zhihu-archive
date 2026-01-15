@@ -167,6 +167,7 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
   const savedAnswerIds = new Set();  // 已保存的回答 ID
   const answerList = [];  // 回答列表 (id + voteup)
   const relatedQuestions = [];
+  const rawApiResponses = [];  // 原始 API 响应（调试用）
   let questionInfo = null;
   let totalCollected = 0;
   let newSaved = 0;
@@ -217,6 +218,15 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
       if (respUrl.includes(`/questions/${questionId}/feeds`) ||
           respUrl.includes(`/questions/${questionId}/answers`)) {
         const body = await response.json().catch(() => null);
+        // 保存原始 API 响应（调试用）
+        if (config.debug?.saveRawApi && body) {
+          rawApiResponses.push({
+            url: respUrl,
+            type: 'answers',
+            timestamp: Date.now(),
+            data: body,
+          });
+        }
         if (body && body.data && Array.isArray(body.data)) {
           for (const item of body.data) {
             const target = item.target || item;
@@ -231,6 +241,7 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
                 excerpt: target.excerpt || '',
                 voteupCount: target.voteup_count || 0,
                 commentCount: target.comment_count || 0,
+                favlistsCount: target.favlists_count || 0,
                 createdTime: target.created_time,
                 updatedTime: target.updated_time,
                 author: target.author ? {
@@ -258,6 +269,15 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
       // 拦截相关问题 API
       if (respUrl.includes('/similar-questions')) {
         const body = await response.json().catch(() => null);
+        // 保存原始 API 响应（调试用）
+        if (config.debug?.saveRawApi && body) {
+          rawApiResponses.push({
+            url: respUrl,
+            type: 'similar-questions',
+            timestamp: Date.now(),
+            data: body,
+          });
+        }
         if (body && body.data && Array.isArray(body.data)) {
           for (const q of body.data) {
             if (q.id) {
@@ -312,6 +332,12 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
     });
 
     logger.info(`  标题: ${questionInfo.title.slice(0, 40)}...`);
+
+    // 保存原始 HTML（调试用）
+    if (config.debug?.saveRawHtml) {
+      const rawHtml = await page.content();
+      Storage.saveDebug(questionId, 'initial.html', rawHtml);
+    }
 
     // 检查当前问题是否匹配 topic 过滤器
     const isTopicMatch = matchesTopicFilter(questionInfo?.topics, crawlConfig?.topics);
@@ -374,6 +400,35 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
         const voteMatch = voteText.match(/\d+/);
         const voteupCount = voteMatch ? parseInt(voteMatch[0]) : 0;
 
+        // 提取时间信息 - 从 .ContentItem-time a
+        const timeEl = el.querySelector('.ContentItem-time a');
+        let createdTime = null;
+        let updatedTime = null;
+        if (timeEl) {
+          // data-tooltip 包含原始发布时间 "发布于 2021-02-04 01:46"
+          const tooltip = timeEl.getAttribute('data-tooltip') || '';
+          const tooltipMatch = tooltip.match(/发布于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
+          if (tooltipMatch) {
+            createdTime = tooltipMatch[1];
+          }
+          // 文本内容可能是 "编辑于 2021-02-04 01:46" 表示有更新
+          const timeText = timeEl.innerText || '';
+          const editMatch = timeText.match(/编辑于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
+          if (editMatch) {
+            updatedTime = editMatch[1];
+          }
+        }
+
+        // 从 data-za-extra-module 提取评论数
+        const zaModule = el.getAttribute('data-za-extra-module');
+        let commentCount = 0;
+        if (zaModule) {
+          try {
+            const za = JSON.parse(zaModule);
+            commentCount = za?.card?.content?.comment_num || 0;
+          } catch(e) {}
+        }
+
         answers.push({
           id: answerId,
           author: {
@@ -383,6 +438,9 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
           content: contentEl?.innerHTML || '',
           excerpt: contentEl?.innerText?.slice(0, 300) || '',
           voteupCount,
+          commentCount,
+          createdTime,
+          updatedTime,
         });
       });
       return answers;
@@ -397,6 +455,9 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
           content: ans.content,
           excerpt: ans.excerpt,
           voteupCount: ans.voteupCount,
+          commentCount: ans.commentCount,
+          createdTime: ans.createdTime,
+          updatedTime: ans.updatedTime,
           author: ans.author,
           source: 'ssr',
         });
@@ -421,6 +482,11 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
 
   } finally {
     page.off('response', apiHandler);
+  }
+
+  // 保存原始 API 响应（调试用）
+  if (config.debug?.saveRawApi && rawApiResponses.length > 0) {
+    Storage.saveDebug(questionId, 'api-responses.json', JSON.stringify(rawApiResponses, null, 2));
   }
 
   // 保存问题元数据，包含回答列表

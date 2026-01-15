@@ -305,6 +305,17 @@ const Storage = {
     return file;
   },
 
+  // 保存调试数据
+  saveDebug(questionId, filename, content) {
+    const debugDir = path.join(PATHS.questions, questionId, 'debug');
+    if (!fs.existsSync(debugDir)) {
+      fs.mkdirSync(debugDir, { recursive: true });
+    }
+    const file = path.join(debugDir, filename);
+    fs.writeFileSync(file, content, 'utf-8');
+    return file;
+  },
+
   // 检查是否存在
   hasQuestion(questionId) {
     return fs.existsSync(path.join(PATHS.questions, questionId, 'meta.json'));

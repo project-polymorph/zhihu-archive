@@ -31,6 +31,12 @@ module.exports = {
   // 爬虫滚动配置
   maxScrolls: 40,  // 每页最多滚动次数
 
+  // 调试配置
+  debug: {
+    saveRawApi: true,    // 保存原始 API 响应
+    saveRawHtml: true,   // 保存原始 HTML
+  },
+
   // 默认 URL
   defaultUrl: 'https://www.zhihu.com/topic/27814732/hot',
 };
