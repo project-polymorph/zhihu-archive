@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/441985338/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456193003,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/441985338/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/441985338/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么更多的女生想要变成男生，而比较少的男生会想要变成女生？",
+          "question_type": "normal",
+          "created": 1445954658,
+          "updated_time": 1445954658,
+          "url": "https://www.zhihu.com/api/v4/questions/36935813",
+          "answer_count": 6,
+          "comment_count": 1,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "36935813"
+        },
+        {
+          "type": "question",
+          "title": "我是女生想变成男生怎么办?",
+          "question_type": "normal",
+          "created": 1603649957,
+          "updated_time": 1603649957,
+          "url": "https://www.zhihu.com/api/v4/questions/427366980",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 20,
+          "relationship": {},
+          "id": "427366980"
+        },
+        {
+          "type": "question",
+          "title": "很多男生都想变成女生吗？",
+          "question_type": "normal",
+          "created": 1723709532,
+          "updated_time": 1723709532,
+          "url": "https://www.zhihu.com/api/v4/questions/664360260",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "664360260"
+        }
+      ]
+    }
+  }
+]

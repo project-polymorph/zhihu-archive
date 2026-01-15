@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/14523322722/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456116534,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/14523322722/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/14523322722/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假如你一觉醒来发现自己拥有了能自由切换性别的能力，你会怎么样？",
+          "question_type": "normal",
+          "created": 1629973111,
+          "updated_time": 1629973111,
+          "url": "https://www.zhihu.com/api/v4/questions/482695427",
+          "answer_count": 5,
+          "comment_count": 1,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "482695427"
+        },
+        {
+          "type": "question",
+          "title": "如果你可以变换自己的性别一天，你会在这天干什么？",
+          "question_type": "normal",
+          "created": 1423653678,
+          "updated_time": 1423653678,
+          "url": "https://www.zhihu.com/api/v4/questions/28128928",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "28128928"
+        },
+        {
+          "type": "question",
+          "title": "如果转变了性别，你第一件事要做什么？",
+          "question_type": "normal",
+          "created": 1512896766,
+          "updated_time": 1512896766,
+          "url": "https://www.zhihu.com/api/v4/questions/263876169",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "263876169"
+        },
+        {
+          "type": "question",
+          "title": "如果你转变性别，你会和现在的你谈恋爱共度一生吗？",
+          "question_type": "normal",
+          "created": 1553394413,
+          "updated_time": 1553394413,
+          "url": "https://www.zhihu.com/api/v4/questions/317230323",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "317230323"
+        },
+        {
+          "type": "question",
+          "title": "如果变换了性别，你会喜欢现实中的自己吗？",
+          "question_type": "normal",
+          "created": 1583601281,
+          "updated_time": 1583601281,
+          "url": "https://www.zhihu.com/api/v4/questions/377634520",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "377634520"
+        }
+      ]
+    }
+  }
+]

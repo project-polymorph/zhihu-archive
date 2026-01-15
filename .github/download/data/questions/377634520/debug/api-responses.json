@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/377634520/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456286052,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/377634520/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/377634520/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你转化了性别，你会喜欢原来的自己吗？",
+          "question_type": "normal",
+          "created": 1601181891,
+          "updated_time": 1601181891,
+          "url": "https://www.zhihu.com/api/v4/questions/423134842",
+          "answer_count": 39,
+          "comment_count": 0,
+          "follower_count": 60,
+          "relationship": {},
+          "id": "423134842"
+        },
+        {
+          "type": "question",
+          "title": "如果换了性别，大家会喜欢自己这样的人吗?",
+          "question_type": "normal",
+          "created": 1683337401,
+          "updated_time": 1683337401,
+          "url": "https://www.zhihu.com/api/v4/questions/599368370",
+          "answer_count": 27,
+          "comment_count": 0,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "599368370"
+        }
+      ]
+    }
+  }
+]

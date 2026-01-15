@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/317230323/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456230102,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/317230323/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/317230323/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假如你的性别变成了异性，你会选择现在的你作为伴侣吗？",
+          "question_type": "normal",
+          "created": 1484316671,
+          "updated_time": 1484316671,
+          "url": "https://www.zhihu.com/api/v4/questions/54734968",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "54734968"
+        },
+        {
+          "type": "question",
+          "title": "如果不考虑性别，你会和“你自己”在一起吗？",
+          "question_type": "normal",
+          "created": 1673009126,
+          "updated_time": 1673009126,
+          "url": "https://www.zhihu.com/api/v4/questions/577161143",
+          "answer_count": 61,
+          "comment_count": 1,
+          "follower_count": 67,
+          "relationship": {},
+          "id": "577161143"
+        },
+        {
+          "type": "question",
+          "title": "如果换个性别，你会如何生活？",
+          "question_type": "normal",
+          "created": 1544406917,
+          "updated_time": 1544406917,
+          "url": "https://www.zhihu.com/api/v4/questions/305246901",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "305246901"
+        },
+        {
+          "type": "question",
+          "title": "假想你转换了性别，你会喜欢上现在的你么，or和现在的你谈恋爱？",
+          "question_type": "normal",
+          "created": 1542797559,
+          "updated_time": 1542797559,
+          "url": "https://www.zhihu.com/api/v4/questions/303177022",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "303177022"
+        }
+      ]
+    }
+  }
+]

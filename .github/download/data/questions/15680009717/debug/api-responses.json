@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/15680009717/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456071461,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/15680009717/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/15680009717/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "未来有可能出现，可以让个体拥有两种性别随意转换的技术吗?",
+          "question_type": "normal",
+          "created": 1674395688,
+          "updated_time": 1674404231,
+          "url": "https://www.zhihu.com/api/v4/questions/580067399",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "580067399"
+        },
+        {
+          "type": "question",
+          "title": "如果有一种能力，可以自由变换性别，你是否会接受？",
+          "question_type": "normal",
+          "created": 1545948691,
+          "updated_time": 1545948691,
+          "url": "https://www.zhihu.com/api/v4/questions/307212932",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 18,
+          "relationship": {},
+          "id": "307212932"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/580067399/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456213498,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/580067399/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/580067399/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别转换了 你的思维也会转换吗？你原来是女的 你的思维也会倾向男性思维吗？",
+          "question_type": "normal",
+          "created": 1725691651,
+          "updated_time": 1725691651,
+          "url": "https://www.zhihu.com/api/v4/questions/666457115",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "666457115"
+        },
+        {
+          "type": "question",
+          "title": "性别转换，自我剖析？",
+          "question_type": "normal",
+          "created": 1506442244,
+          "updated_time": 1506442244,
+          "url": "https://www.zhihu.com/api/v4/questions/65906326",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "65906326"
+        },
+        {
+          "type": "question",
+          "title": "如果转换了性别那“我”还是“我”吗？",
+          "question_type": "normal",
+          "created": 1763292675,
+          "updated_time": 1763292675,
+          "url": "https://www.zhihu.com/api/v4/questions/1973473197165933870",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1973473197165933870"
+        },
+        {
+          "type": "question",
+          "title": "如果你的性别可以转换一天你会干什么。请广大神仙网友评论一波?",
+          "question_type": "normal",
+          "created": 1585493131,
+          "updated_time": 1585493131,
+          "url": "https://www.zhihu.com/api/v4/questions/383563843",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "383563843"
+        }
+      ]
+    }
+  }
+]

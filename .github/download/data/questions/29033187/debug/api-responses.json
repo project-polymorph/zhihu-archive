@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/29033187/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455999523,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/29033187/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/29033187/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别区分的科学依据有多少?",
+          "question_type": "normal",
+          "created": 1725083202,
+          "updated_time": 1725083202,
+          "url": "https://www.zhihu.com/api/v4/questions/665797668",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "665797668"
+        },
+        {
+          "type": "question",
+          "title": "如果人类可以随意修改自己的性别，那么人类性别比例会如何变化？",
+          "question_type": "normal",
+          "created": 1730759560,
+          "updated_time": 1730759560,
+          "url": "https://www.zhihu.com/api/v4/questions/3178101132",
+          "answer_count": 35,
+          "comment_count": 3,
+          "follower_count": 46,
+          "relationship": {},
+          "id": "3178101132"
+        },
+        {
+          "type": "question",
+          "title": "性别划分有什么存在的必要吗？",
+          "question_type": "normal",
+          "created": 1531770386,
+          "updated_time": 1531770386,
+          "url": "https://www.zhihu.com/api/v4/questions/285566160",
+          "answer_count": 4,
+          "comment_count": 1,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "285566160"
+        },
+        {
+          "type": "question",
+          "title": "性别划分真的那么重要吗?",
+          "question_type": "normal",
+          "created": 1604044168,
+          "updated_time": 1604406752,
+          "url": "https://www.zhihu.com/api/v4/questions/428046896",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "428046896"
+        }
+      ]
+    }
+  }
+]

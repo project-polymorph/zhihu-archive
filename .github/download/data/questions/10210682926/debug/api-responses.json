@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/10210682926/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455923151,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/10210682926/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/10210682926/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "知乎上为什么对性别没区分“他”和“她”呢？",
+          "question_type": "normal",
+          "created": 1353499538,
+          "updated_time": 1353504835,
+          "url": "https://www.zhihu.com/api/v4/questions/20611594",
+          "answer_count": 6,
+          "comment_count": 3,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "20611594"
+        },
+        {
+          "type": "question",
+          "title": "为什么在知乎上容易把人的性别搞错？",
+          "question_type": "normal",
+          "created": 1361336498,
+          "updated_time": 1383361697,
+          "url": "https://www.zhihu.com/api/v4/questions/20789031",
+          "answer_count": 38,
+          "comment_count": 5,
+          "follower_count": 124,
+          "relationship": {},
+          "id": "20789031"
+        },
+        {
+          "type": "question",
+          "title": "和自己的性别和解是什么样的感受？",
+          "question_type": "normal",
+          "created": 1586080475,
+          "updated_time": 1586080475,
+          "url": "https://www.zhihu.com/api/v4/questions/385399016",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "385399016"
+        }
+      ]
+    }
+  }
+]
