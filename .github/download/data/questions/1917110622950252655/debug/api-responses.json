@@ -1,0 +1,415 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1917110622950252655/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454582518,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1917110622950252655/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1917110622950252655/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男孩和女孩的性别是如何分化的？",
+          "question_type": "normal",
+          "created": 1595281826,
+          "updated_time": 1595281826,
+          "url": "https://www.zhihu.com/api/v4/questions/408086830",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "408086830"
+        },
+        {
+          "type": "question",
+          "title": "假设你是男生/女生（调换性别），你会是什么样？",
+          "question_type": "normal",
+          "created": 1571452018,
+          "updated_time": 1571452018,
+          "url": "https://www.zhihu.com/api/v4/questions/351418243",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "351418243"
+        },
+        {
+          "type": "question",
+          "title": "如果男女之外存在第三种性别会如何？或者说，为什么只有男女两种性别？",
+          "question_type": "normal",
+          "created": 1556063828,
+          "updated_time": 1556063828,
+          "url": "https://www.zhihu.com/api/v4/questions/321456640",
+          "answer_count": 5,
+          "comment_count": 1,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "321456640"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1917110622950252655/feeds?cursor=72b1dc9ce151d18ac84f92d9ecdfbba8&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768454576124270785&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768454582577,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxjez8+O57Pz1hog78DP4MS+vM0akgIuCgk3MzQ0Nzk4MzQSEzE5MjI0MTg2OTYzNTUzMDk1MzQYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7502e35fba48edcdef0bc0a2e60df93f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-7502e35fba48edcdef0bc0a2e60df93f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_l.png?source=1def8aca",
+                "description": "关注 5 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_r.png?source=1def8aca"
+              },
+              "follower_count": 4,
+              "gender": 1,
+              "headline": "",
+              "id": "dae7f92ba14f077db23af51597a018b5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "云岫",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/dae7f92ba14f077db23af51597a018b5",
+              "url_token": "forth-32-85",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p></p><p data-pid=\"ejRGCywV\">我们的审美是否其实也是内化的他者社会审美之眼</p><p data-pid=\"xKXI7Z61\">接受他的一切并吸收一些观点，例如对积极的使人快乐的健康的进行吸收，不过分追求，明知道这是社会审美，自己也去做，因为能够带来开心和健康的正向反馈，虽然这是社会规训但是也允许他的存在，一些不好的社会规训一定要去除，一些中间的社会规训可以保留，例如一些标签使人过度专注于身体部位的审美与性价值就要抛弃，不完全抛弃掉也可以，保留一部分也是可以的，保留的一部分是虽然是社会性审美但是我们都在这个群体中都被熏染，所以有一些明知道是规训但是不妨碍它是正向影响的就可以接受.</p><p data-pid=\"CvQz5IXM\">不仅束缚着她们让她们注重身体，在身体上花费时间和困住她们的行为，也束缚着我，让我因此而起反应而去无脑追逐，浪费精力重视部位的话，你在做一些事情的时候，例如在海滩，你想的是我应该感觉身体的美感，也会思考身体的价值和在别人眼中我该怎么怎么样，而忽视了环境本身的感觉和整体的感觉，是最傻的，这就是被束缚了，得到的锦是被赋予的价值，失去的却是更多更大的视野</p><p data-pid=\"_Mf2tmdu\">一些零散的观点，感谢阅读过的人，如有观点分析还请指教与探讨谢谢</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1751120334,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我们的审美是否其实也是内化的他者社会审美之眼 接受他的一切并吸收一些观点，例如对积极的使人快乐的健康的进行吸收，不过分追求，明知道这是社会审美，自己也去做，因为能够带来开心和健康的正向反馈，虽然这是社会规训但是也允许他的存在，一些不好的社会规训一定要去除，一些中间的社会规训可以保留，例如一些标签使人过度专注于身体部位的审美与性价值就要抛弃，不完全抛弃掉也可以，保留一部分也是可以的，保留的一部分是…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1922418696355309534",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1749854790,
+              "id": "1917110622950252655",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "男女性别之间的区别让我很困惑该怎么办？",
+              "type": "question",
+              "updated_time": 1749854790,
+              "url": "https://www.zhihu.com/api/v4/questions/1917110622950252655"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1751120334,
+            "url": "https://www.zhihu.com/api/v4/answers/1922418696355309534",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "72b1dc9ce151d18a25f46adeecdfbba8",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxi0r86cxuq+hhsg78DP4MS+vM0akgIuCgk3NDY0NTM4ODISEzE5NDkyMDkwNzg2MTEwMjM3OTYYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-4325f4525da3bdaa5f6b15382476c741_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-4325f4525da3bdaa5f6b15382476c741.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-6bbfc05fc7a6d0c24a18da798fbeadea_l.png?source=1def8aca",
+                "description": "回答 1 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "1124316222665379840",
+                "medal_name": "首答",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-6bbfc05fc7a6d0c24a18da798fbeadea_r.png?source=1def8aca"
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "7710d708cda69cb211abd27f7dcf3ef5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "释天武",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7710d708cda69cb211abd27f7dcf3ef5",
+              "url_token": "chen-rui-zhe-90-1",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"iIjHvEIr\">没什么大的区别，男生也希望自己干净好看</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1757507658,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/dae7f92ba14f077db23af51597a018b5",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @云岫",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "没什么大的区别，男生也希望自己干净好看",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1949209078611023796",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1749854790,
+              "id": "1917110622950252655",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "男女性别之间的区别让我很困惑该怎么办？",
+              "type": "question",
+              "updated_time": 1749854790,
+              "url": "https://www.zhihu.com/api/v4/questions/1917110622950252655"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1757507658,
+            "url": "https://www.zhihu.com/api/v4/answers/1949209078611023796",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "72b1dc9ce151d18a854ad0d9ecdfbba8",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768454576124270785"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1917110622950252655/feeds?cursor=72b1dc9ce151d18a854ad0d9ecdfbba8&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768454576124270785&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

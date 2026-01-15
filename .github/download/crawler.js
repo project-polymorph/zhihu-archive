@@ -58,7 +58,7 @@ function matchesTopicFilter(questionTopics, configTopics) {
 
   for (const qt of questionTopics) {
     for (const ct of configTopics) {
-      if (qt.includes(ct) || ct.includes(qt)) {
+      if (qt === ct) {
         return true;
       }
     }

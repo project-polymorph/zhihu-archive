@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/280672934/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454604802,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/280672934/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/280672934/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么我觉得性别压根儿根本就不存在？所谓男女有别都是吃饱了撑的男女本就无别，说男女有别的不就是变态吗？",
+          "question_type": "normal",
+          "created": 1719671581,
+          "updated_time": 1719678383,
+          "url": "https://www.zhihu.com/api/v4/questions/660302787",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "660302787"
+        },
+        {
+          "type": "question",
+          "title": "从生物学的角度来看，男女的性别差异究竟在哪?",
+          "question_type": "normal",
+          "created": 1564582459,
+          "updated_time": 1564583089,
+          "url": "https://www.zhihu.com/api/v4/questions/338033841",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 56,
+          "relationship": {},
+          "id": "338033841"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类分为男女两个性别呢?",
+          "question_type": "normal",
+          "created": 1757766956,
+          "updated_time": 1757766956,
+          "url": "https://www.zhihu.com/api/v4/questions/1950296652414977789",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "1950296652414977789"
+        }
+      ]
+    }
+  }
+]
