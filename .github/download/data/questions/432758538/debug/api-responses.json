@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/432758538/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768451986365,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/432758538/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/432758538/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你转换了性别？会发生什么？",
+          "question_type": "normal",
+          "created": 1683110965,
+          "updated_time": 1683110965,
+          "url": "https://www.zhihu.com/api/v4/questions/598873550",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "598873550"
+        },
+        {
+          "type": "question",
+          "title": "如果能转换性别你最想做什么?",
+          "question_type": "normal",
+          "created": 1724861186,
+          "updated_time": 1724861186,
+          "url": "https://www.zhihu.com/api/v4/questions/665557727",
+          "answer_count": 48,
+          "comment_count": 0,
+          "follower_count": 61,
+          "relationship": {},
+          "id": "665557727"
+        },
+        {
+          "type": "question",
+          "title": "如果你可以自由转换性别，你会做什么？",
+          "question_type": "normal",
+          "created": 1562739053,
+          "updated_time": 1563262916,
+          "url": "https://www.zhihu.com/api/v4/questions/334239179",
+          "answer_count": 20,
+          "comment_count": 1,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "334239179"
+        }
+      ]
+    }
+  }
+]
