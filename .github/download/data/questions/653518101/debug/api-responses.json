@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/653518101/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768459577536,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/653518101/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/653518101/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "小男孩被当成小女孩养是什么体验？",
+          "question_type": "normal",
+          "created": 1763893753,
+          "updated_time": 1763893753,
+          "url": "https://www.zhihu.com/api/v4/questions/1975994298785882268",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "1975994298785882268"
+        },
+        {
+          "type": "question",
+          "title": "男生更喜欢小女生吗？",
+          "question_type": "normal",
+          "created": 1595505636,
+          "updated_time": 1595505636,
+          "url": "https://www.zhihu.com/api/v4/questions/408709798",
+          "answer_count": 1,
+          "comment_count": 2,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "408709798"
+        },
+        {
+          "type": "question",
+          "title": "女孩子却被当做男孩来养是种什么样的体验？",
+          "question_type": "normal",
+          "created": 1505995103,
+          "updated_time": 1505996182,
+          "url": "https://www.zhihu.com/api/v4/questions/65667064",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 24,
+          "relationship": {},
+          "id": "65667064"
+        }
+      ]
+    }
+  }
+]

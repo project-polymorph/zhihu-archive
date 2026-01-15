@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/380660638/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768459597111,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/380660638/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/380660638/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何看待性别差异？",
+          "question_type": "normal",
+          "created": 1457959083,
+          "updated_time": 1461724969,
+          "url": "https://www.zhihu.com/api/v4/questions/41374700",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "41374700"
+        },
+        {
+          "type": "question",
+          "title": "因为性别所存在的各种差异应该被完全消除吗？",
+          "question_type": "normal",
+          "created": 1425385300,
+          "updated_time": 1425385300,
+          "url": "https://www.zhihu.com/api/v4/questions/28498196",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "28498196"
+        }
+      ]
+    }
+  }
+]

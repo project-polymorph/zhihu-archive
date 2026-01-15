@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/4245661356/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460245920,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/4245661356/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/4245661356/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "当今社会性别观念发展到了什么程度？",
+          "question_type": "normal",
+          "created": 1665155190,
+          "updated_time": 1665155190,
+          "url": "https://www.zhihu.com/api/v4/questions/558144626",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "558144626"
+        },
+        {
+          "type": "question",
+          "title": "社会学中的性别角色是如何塑造的？它们如何影响到我们的行为和思想？",
+          "question_type": "normal",
+          "created": 1679028756,
+          "updated_time": 1679028756,
+          "url": "https://www.zhihu.com/api/v4/questions/590137104",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "590137104"
+        }
+      ]
+    }
+  }
+]

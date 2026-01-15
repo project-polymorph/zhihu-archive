@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/621927213/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768459623372,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/621927213/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/621927213/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你们会为性别苦恼吗?",
+          "question_type": "normal",
+          "created": 1636042644,
+          "updated_time": 1636042644,
+          "url": "https://www.zhihu.com/api/v4/questions/496695548",
+          "answer_count": 29,
+          "comment_count": 0,
+          "follower_count": 43,
+          "relationship": {},
+          "id": "496695548"
+        },
+        {
+          "type": "question",
+          "title": "你在什么时候想成为与现在相反的性别？",
+          "question_type": "normal",
+          "created": 1408936876,
+          "updated_time": 1408936876,
+          "url": "https://www.zhihu.com/api/v4/questions/24978950",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "24978950"
+        },
+        {
+          "type": "question",
+          "title": "你为什么会对自己的性别感到厌恶？",
+          "question_type": "normal",
+          "created": 1753936564,
+          "updated_time": 1753938098,
+          "url": "https://www.zhihu.com/api/v4/questions/1934230825022521466",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "1934230825022521466"
+        },
+        {
+          "type": "question",
+          "title": "如果你早上起床发现你的性别转换了，你会做的第一件事是什么？",
+          "question_type": "normal",
+          "created": 1701073708,
+          "updated_time": 1701073708,
+          "url": "https://www.zhihu.com/api/v4/questions/632113330",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "632113330"
+        },
+        {
+          "type": "question",
+          "title": "为什么你天生接受你的性别？",
+          "question_type": "normal",
+          "created": 1747563181,
+          "updated_time": 1747563181,
+          "url": "https://www.zhihu.com/api/v4/questions/1907498915755979433",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1907498915755979433"
+        }
+      ]
+    }
+  }
+]

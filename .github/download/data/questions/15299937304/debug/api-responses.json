@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/15299937304/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460164616,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/15299937304/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/15299937304/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果有一次选择性别的机会，你还会选现在这个性别吗？",
+          "question_type": "normal",
+          "created": 1728346963,
+          "updated_time": 1728346963,
+          "url": "https://www.zhihu.com/api/v4/questions/777187324",
+          "answer_count": 31,
+          "comment_count": 0,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "777187324"
+        },
+        {
+          "type": "question",
+          "title": "假如再给你一次选择性别的机会，你会怎么选?原因是什么？",
+          "question_type": "normal",
+          "created": 1658634517,
+          "updated_time": 1658634517,
+          "url": "https://www.zhihu.com/api/v4/questions/545032930",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "545032930"
+        },
+        {
+          "type": "question",
+          "title": "如果给你一次选择性别的机会，你会重新选择吗？",
+          "question_type": "normal",
+          "created": 1711017032,
+          "updated_time": 1711017032,
+          "url": "https://www.zhihu.com/api/v4/questions/649536479",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "649536479"
+        },
+        {
+          "type": "question",
+          "title": "如果能重新选择性别，你会做出怎样的选择？",
+          "question_type": "normal",
+          "created": 1742185677,
+          "updated_time": 1742185677,
+          "url": "https://www.zhihu.com/api/v4/questions/15172030390",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "15172030390"
+        },
+        {
+          "type": "question",
+          "title": "假如给你一次重新选择性别的机会你会选择什么?",
+          "question_type": "normal",
+          "created": 1674724014,
+          "updated_time": 1674724014,
+          "url": "https://www.zhihu.com/api/v4/questions/580637891",
+          "answer_count": 21,
+          "comment_count": 0,
+          "follower_count": 26,
+          "relationship": {},
+          "id": "580637891"
+        }
+      ]
+    }
+  }
+]
