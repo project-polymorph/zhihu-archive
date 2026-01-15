@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/607749492/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465597016,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/607749492/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/607749492/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你会爱上换了性别的你么……?",
+          "question_type": "normal",
+          "created": 1575881569,
+          "updated_time": 1575881569,
+          "url": "https://www.zhihu.com/api/v4/questions/360091838",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "360091838"
+        },
+        {
+          "type": "question",
+          "title": "如果互换性别，大家会如何要求自己？百分百能做到的那种?",
+          "question_type": "normal",
+          "created": 1655372095,
+          "updated_time": 1655384385,
+          "url": "https://www.zhihu.com/api/v4/questions/538027053",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "538027053"
+        },
+        {
+          "type": "question",
+          "title": "既有对自身性别的明确认知，又对转换性别的话题津津乐道是什么情况？",
+          "question_type": "normal",
+          "created": 1742818337,
+          "updated_time": 1742818337,
+          "url": "https://www.zhihu.com/api/v4/questions/15680009717",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "15680009717"
+        },
+        {
+          "type": "question",
+          "title": "如果你可以置换性别，会有什么渣渣的想法？",
+          "question_type": "normal",
+          "created": 1585108150,
+          "updated_time": 1585108150,
+          "url": "https://www.zhihu.com/api/v4/questions/382312631",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "382312631"
+        }
+      ]
+    }
+  }
+]

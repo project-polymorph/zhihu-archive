@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1977004738680750304/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464180529,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1977004738680750304/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1977004738680750304/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男女是否有基于性别本身的特质和思考问题的方式差异？如果有，社会规训对这部分的特质会有影响吗?",
+          "question_type": "normal",
+          "created": 1619688339,
+          "updated_time": 1619688619,
+          "url": "https://www.zhihu.com/api/v4/questions/457164709",
+          "answer_count": 12,
+          "comment_count": 1,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "457164709"
+        },
+        {
+          "type": "question",
+          "title": "为什么会进化出男人和女人两种性别？",
+          "question_type": "normal",
+          "created": 1543069669,
+          "updated_time": 1543069669,
+          "url": "https://www.zhihu.com/api/v4/questions/303519097",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 33,
+          "relationship": {},
+          "id": "303519097"
+        },
+        {
+          "type": "question",
+          "title": "为什么感觉网络上在对待性别差异造成的争议时女性往往给人感觉比男性更强势？",
+          "question_type": "normal",
+          "created": 1542559969,
+          "updated_time": 1542559969,
+          "url": "https://www.zhihu.com/api/v4/questions/302878856",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "302878856"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1973473197165933870/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465396235,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1973473197165933870/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1973473197165933870/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "【性别转换问题终极进化版】有没有人有这种想法：就是在独自一人时转换性别，然后对外依旧是原来的性别？",
+          "question_type": "normal",
+          "created": 1608359301,
+          "updated_time": 1608359446,
+          "url": "https://www.zhihu.com/api/v4/questions/435539170",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "435539170"
+        },
+        {
+          "type": "question",
+          "title": "如果你的性别转换了，你会选择和现在的自己在一起嘛？愿意或者不愿意，原因又如何。？",
+          "question_type": "normal",
+          "created": 1480350333,
+          "updated_time": 1480350333,
+          "url": "https://www.zhihu.com/api/v4/questions/53106843",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "53106843"
+        },
+        {
+          "type": "question",
+          "title": "假想你转换了性别，你会喜欢上现在的你么，or和现在的你谈恋爱？",
+          "question_type": "normal",
+          "created": 1542797559,
+          "updated_time": 1542797559,
+          "url": "https://www.zhihu.com/api/v4/questions/303177022",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "303177022"
+        }
+      ]
+    }
+  }
+]

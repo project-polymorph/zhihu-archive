@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/472107286/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464259096,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/472107286/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/472107286/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么只允许有两种性别？",
+          "question_type": "normal",
+          "created": 1727484793,
+          "updated_time": 1727484793,
+          "url": "https://www.zhihu.com/api/v4/questions/675862931",
+          "answer_count": 12,
+          "comment_count": 2,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "675862931"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么有两种性别 只有一种不更好吗？",
+          "question_type": "normal",
+          "created": 1627183383,
+          "updated_time": 1627183383,
+          "url": "https://www.zhihu.com/api/v4/questions/474786434",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "474786434"
+        },
+        {
+          "type": "question",
+          "title": "如果在你所有条件都相同时，你愿意做哪个性别？",
+          "question_type": "normal",
+          "created": 1705828309,
+          "updated_time": 1705828309,
+          "url": "https://www.zhihu.com/api/v4/questions/640557700",
+          "answer_count": 79,
+          "comment_count": 0,
+          "follower_count": 98,
+          "relationship": {},
+          "id": "640557700"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类只有两种性别?",
+          "question_type": "normal",
+          "created": 1555734785,
+          "updated_time": 1555734785,
+          "url": "https://www.zhihu.com/api/v4/questions/320925202",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "320925202"
+        }
+      ]
+    }
+  }
+]

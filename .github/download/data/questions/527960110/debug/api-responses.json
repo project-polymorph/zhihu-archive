@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/527960110/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464243593,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/527960110/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/527960110/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "什么是性别刻板印象？",
+          "question_type": "normal",
+          "created": 1510969622,
+          "updated_time": 1510969622,
+          "url": "https://www.zhihu.com/api/v4/questions/68288785",
+          "answer_count": 916,
+          "comment_count": 14,
+          "follower_count": 2306,
+          "relationship": {},
+          "id": "68288785"
+        },
+        {
+          "type": "question",
+          "title": "你觉得性别的刻板印象对你现在的发展有什么影响？",
+          "question_type": "normal",
+          "created": 1575978751,
+          "updated_time": 1575978751,
+          "url": "https://www.zhihu.com/api/v4/questions/360294283",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "360294283"
+        },
+        {
+          "type": "question",
+          "title": "你是如何看待当前社会的性别刻板印象?",
+          "question_type": "normal",
+          "created": 1620289173,
+          "updated_time": 1620289173,
+          "url": "https://www.zhihu.com/api/v4/questions/458065296",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 24,
+          "relationship": {},
+          "id": "458065296"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象对你有什么影响？为什么？",
+          "question_type": "normal",
+          "created": 1581686213,
+          "updated_time": 1581686213,
+          "url": "https://www.zhihu.com/api/v4/questions/371929189",
+          "answer_count": 6,
+          "comment_count": 1,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "371929189"
+        }
+      ]
+    }
+  }
+]

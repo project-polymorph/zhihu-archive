@@ -1,0 +1,938 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/3178101132/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465264526,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/3178101132/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/3178101132/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "请问判断性别的标准是什么？",
+          "question_type": "normal",
+          "created": 1532578637,
+          "updated_time": 1532578637,
+          "url": "https://www.zhihu.com/api/v4/questions/286974567",
+          "answer_count": 9,
+          "comment_count": 1,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "286974567"
+        },
+        {
+          "type": "question",
+          "title": "如果人类的性别按年交替，比如今年是女性，明年是男性，后年又是女性，世界会变成什么样？",
+          "question_type": "normal",
+          "created": 1588784632,
+          "updated_time": 1609290515,
+          "url": "https://www.zhihu.com/api/v4/questions/393106243",
+          "answer_count": 25,
+          "comment_count": 0,
+          "follower_count": 44,
+          "relationship": {},
+          "id": "393106243"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/3178101132/feeds?cursor=9e112969afcc5968add3a41a314ba715&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768465260398201302&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768465264561,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjNqIzkXyCM87frC5ICJgoJNjk4MjU4NDQ0EgsyNTcxMTI4NTMyNRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_l.png?source=1def8aca",
+                "description": "获得 1000 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_r.png?source=1def8aca"
+              },
+              "follower_count": 22,
+              "gender": -1,
+              "headline": "天文学爱好者",
+              "id": "5ac49bb2eb44058609e27536e0d44e7a",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "悠长岁月",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/5ac49bb2eb44058609e27536e0d44e7a",
+              "url_token": "chen-tao-55-30-2",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 40,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"tLRecwO3\">所有人都修改成女性，结果发现最苦最累的活还得有人干，这部分人就会被定义为男性，男性不是性别，是一种处境。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730993386,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "所有人都修改成女性，结果发现最苦最累的活还得有人干，这部分人就会被定义为男性，男性不是性别，是一种处境。",
+            "extras": "",
+            "favlists_count": 10,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "25711285325",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "140 赞同 · 10 收藏 · 40 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1730759560,
+              "id": "3178101132",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类可以随意修改自己的性别，那么人类性别比例会如何变化？",
+              "type": "question",
+              "updated_time": 1730759560,
+              "url": "https://www.zhihu.com/api/v4/questions/3178101132"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 8,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730993386,
+            "url": "https://www.zhihu.com/api/v4/answers/25711285325",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 140
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9e112969afcc59684d29991a314ba715",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjPtpOQXyCM87frC5ICJgoJNjk4MjIzMjc2EgsyNTUzNTI0MTAzORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d8937344d956ce0536626eb49539fc84_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d8937344d956ce0536626eb49539fc84.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 250,
+              "gender": 0,
+              "headline": "我还是要说，只有小xy娘才最懂xy人，封我也没用",
+              "id": "9ff445e748bf6d8408b820daefba1def",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "林锦ovo",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9ff445e748bf6d8408b820daefba1def",
+              "url_token": "meng-xi-meng-73",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"dtzeidp0\">得利最多的性别最多，如果大家利益和权利和义务都平等那who tm cares自己是什么性别</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730976620,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "得利最多的性别最多，如果大家利益和权利和义务都平等那who tm cares自己是什么性别",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "25535241039",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "29 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1730759560,
+              "id": "3178101132",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类可以随意修改自己的性别，那么人类性别比例会如何变化？",
+              "type": "question",
+              "updated_time": 1730759560,
+              "url": "https://www.zhihu.com/api/v4/questions/3178101132"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730976620,
+            "url": "https://www.zhihu.com/api/v4/answers/25535241039",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 29
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9e112969afcc5968edb7991a314ba715",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxjfw7aAwAIgjPO36wuSAiYKCTcxMDI5NDk5NxILODU5MDAyMzkzMjcYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-7df15c326bd16f98b8d164df97908e4b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-7df15c326bd16f98b8d164df97908e4b.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "一桥大学 经济学硕士",
+                  "topics": [],
+                  "type": "identity"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "一桥大学 经济学硕士",
+                    "detail_type": "identity_people",
+                    "icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "sources": [],
+                    "title": "已认证的个人",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "一桥大学 经济学硕士",
+                    "detail_type": "identity_people",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [],
+                    "title": "认证",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "title": "一桥大学 经济学硕士"
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1410,
+              "gender": 1,
+              "headline": "博士在读，微观理论经济学，契约理论，组织理论。",
+              "id": "5b63919af7961617bf945b844d0e9fce",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "不可知论者",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/5b63919af7961617bf945b844d0e9fce",
+              "url_token": "chen-96-7",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pic1.zhimg.com/v2-aa8a1823abfc46f14136f01d55224925.jpg?source=88ceefae",
+                  "url": "https://pic1.zhimg.com/v2-aa8a1823abfc46f14136f01d55224925.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ByNdMpac\">谢邀，大家互相学习，促进交流，有错误的话请指正。</p><p data-pid=\"Jjl1TuWP\">正文：</p><p data-pid=\"IGessnPc\">如果人可以修改自己的性别，那也要看修改的是哪个层面的性别，因为性别的范畴（目前）大致有三种。</p><p data-pid=\"D28c48JH\">而且如果可以随意改变的话，要面对两个问题：</p><p data-pid=\"ktQpgZVh\">1、是在有限的选项内（比如，男和女）可以自由更改呢？</p><p data-pid=\"Zc2syBBz\">2、还是说这个修改包括自己可以随意增设性别？</p><p data-pid=\"Y_31x9Tk\">这是题主需要明确的。</p><hr/><p data-pid=\"_XJfJg7o\">其实性别概念大概在学术角度分三种，即生理性别、社会性别与心理性别。</p><p data-pid=\"CnZb6DcR\">具体如下：</p><p data-pid=\"3-Ajz-WY\">生理性别（Sex）一般而言个体在生物学上的性别划分，通常基于以下特征：染色体、性腺、激素水平。如睾酮或雌激素或者生殖器，生理性别被认为是先天的，并在大多数情况下（但非所有情况）明确区分为“男性”和“女性”。</p><p data-pid=\"pXp9MAd_\">社会性别（Gender）别是指个体在社会中所被期望扮演的性别角色，以及与这种角色相关的社会规范、文化价值和行为方式。社会性别与生理性别相关联，但并非完全取决于生理性别。它是文化构建的结果。</p><p data-pid=\"qXs5gAVA\">心理性别（Gender Identity，性别认同）指个体对自己性别的主观认知和身份认同。这种认知可能与其生理性别或社会性别不一致。除了男性、女性，还有许多人认同为非二元性别（Genderqueer）、流动性别（Genderfluid）等。</p><p data-pid=\"voM87IWc\">具体请参考这里我的另一个回答链接，由于讨论过相同的问题了，我就不在这里重复了。如果真的想弄明白，强烈建议看一下。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/10159963620/answer/84769938827?utm_psn=1866044630816133120\" class=\"internal\">如何看待美国特朗普政府只承认男女两个性别？</a><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"8PP_Fy5z\">其实硬要说的话，这三者的判断标准都是“人为构建的”，因为哪怕是sex中分几类，为什么分成男女，那也是人主观定义的结果，就更别提后两者了。我一开始也没有很好的区分社会性别（Gender）和心理性别（Gender Identity，性别认同）。后者是依赖于前者概念存在的。</p><p data-pid=\"JptDMayY\">所以说与其说在lgbtq+的话题里争论sex的划分问题倒不如讨论一下gender。（我看之前很多回答也没说清楚）。都在扯sex和lgbtq+的关系。连我一开始也被绕进去了，毕竟不是相关专业，就像后两者我区分的不是很好。</p><p data-pid=\"QdlSBCFo\">所以最近看到相关话题，我也很疑惑，看似“取消性别“这个主张应该是少数群体想要取消“Gender”，但是看了一位网哲（我在上文链接处的回答中提到），他似乎连对sex的划分也认为应该取消。</p><p data-pid=\"2uIE8N6I\"><b>这其实就代表了现在的所谓的“进步主义”的前进方向并不是要支持性别可以自由选择，而是说在消灭性别这个概念。这才是发展趋势？（不然只要划分有一点儿不到位、不全面，那就是一种不公平？）</b></p><p data-pid=\"4KmvWX2A\">但其实最究极最全面的划分就是“一个人是一种sex”，无限划分还不如不划分。所以它们干脆就主张彻底取消划分了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1737679760,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/93a778e5ab83b641ec37d1edc2df3abe",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @方宝剑",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              },
+              {
+                "action_url": "https://www.zhihu.com/column/c_1764006977599164416",
+                "background_color": {
+                  "alpha": 0.08,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "image_key": "zhicon_icon_24_column_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "收录于 · 所谓左人，所谓右人",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "font_size": 13,
+                    "is_bold": false,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  },
+                  {
+                    "height": 12,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "image_key": "zhicon_icon_16_arrow_right",
+                    "type": "IMAGE",
+                    "width": 12
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "Column",
+                  "text": "收录于 · 所谓左人，所谓右人",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "谢邀，大家互相学习，促进交流，有错误的话请指正。 正文： 如果人可以修改自己的性别，那也要看修改的是哪个层面的性别，因为性别的范畴（目前）大致有三种。 而且如果可以随意改变的话，要面对两个问题： 1、是在有限的选项内（比如，男和女）可以自由更改呢？ 2、还是说这个修改包括自己可以随意增设性别？ 这是题主需要明确的。 其实性别概念大概在学术角度分三种，即生理性别、社会性别与心理性别。 具体如下： 生理性别（S…",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "85900239327",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "link_card_info": {
+              "https://www.zhihu.com/question/10159963620/answer/84769938827?utm_psn=1866044630816133120": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"如何看待美国特朗普政府只承认男女两个性别？\",\"card_open_url\":\"https://www.zhihu.com/question/10159963620/answer/84769938827\",\"desc\":\"30 赞同 · 5 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e不可知论者:\\u003c/a\\u003e 本文大概3000字，每一段有不同主题，可选择性阅读。 另外也可以参考下方链接： [文章: LGBTQ+到底是平等化还是特权化：身份政治的本质与公共福利财政支出的关系] 正文： 下面这个回答就比较典型。而且他的签名也显示了一个典型的后现代主张“消解性别，毁家废婚”。我们来具体谈一谈这个问题。 如何看待美国特朗普政府只承认男女两个性别？ 1. 事实逻辑与规范逻辑：生理性别与社会性别 1.1 事实逻辑与规范逻辑的定义由于社会性…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"84769938827\"},\"za_data\":{\"attach_info\":\"\"}}"
+            },
+            "matrix_tips": "4 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1730759560,
+              "id": "3178101132",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类可以随意修改自己的性别，那么人类性别比例会如何变化？",
+              "type": "question",
+              "updated_time": 1730759560,
+              "url": "https://www.zhihu.com/api/v4/questions/3178101132"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1737680838,
+            "url": "https://www.zhihu.com/api/v4/answers/85900239327",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9e112969afcc596894805119314ba715",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjmg+/3ZCCM87frC5ICJgoJNjk4NTM0NzQzEgsyNzA5NDkyNTc5OBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7f435c6c03cbe6843ad36da24f77757a_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-7f435c6c03cbe6843ad36da24f77757a.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-63c822bb84040a98fed01d7b45f518bf_l.png?source=1def8aca",
+                "description": "赞同 5000 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-63c822bb84040a98fed01d7b45f518bf_r.png?source=1def8aca"
+              },
+              "follower_count": 1292,
+              "gender": 1,
+              "headline": "喜欢三体，爱当高地保安，虽然总是守不住高地。",
+              "id": "1c9ee030d48d7420c18853d6312d6956",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Godlike",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/1c9ee030d48d7420c18853d6312d6956",
+              "url_token": "godlike-58-3",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ECYGlXG4\">题目没规定男号女号互转需要什么条件，有没有时间限制，频率限制，暂且考虑为一念之间就能完成转换，这样的话每个瞬间的每一个人类个体都处于男女叠加态，也可以视为雌雄同体。</p><p data-pid=\"x8-DpKOy\">对于一个人类个体，性别比例是一段时间内，作为男性的时长/作为女性时长的值。对于群体则加起来考虑。</p><p data-pid=\"mLVhY_ON\">那么性别比例问题可以量化成一段时间内，男性总时长/女性总时长的值。</p><p data-pid=\"DIQ5NonA\">但是这个值受很多变量影响，不只是主观因素。</p><p data-pid=\"avcMwLjG\">性别选择不只受自身主观支配，还因客观环境而改变。</p><p data-pid=\"5DUfStJX\">客观环境有社会因素也有经济因素，变量极多。</p><p data-pid=\"adDse1sN\">但是题设什么约束条件都没给：生产力水平，经济水平，社会形态，技术水平，文化背景，地理范围……这些因素的约束条件全都没有。如果要建模的话根本无从入手。</p><p data-pid=\"Km_iHBkB\">在上述因素的约束条件缺失的情况下，不妨不严谨地认为性别比例随这些因素的变化动态变化。</p><p data-pid=\"xHc4Zu6g\"><b>猜提问者想问：在此时此刻的地球上，假设所有人都无条件有了一次重新选择男女性别的（不是LGBTQIAPKDXREW等性别）权力，性别比例会如何变化？</b></p><hr/><p data-pid=\"DKgG4ilw\">不管性别如何改变，阶级总会分化，分化到一定程度，上层剥削阶级将有支配下级性别的权力。</p><p data-pid=\"DuGxJd6M\">对于上层阶级，最好的方案是，当需要繁衍时强迫下级成为女性，自己作为男性，等下级分娩完成，哺乳期一过，再让下级转回男性，毕竟男性比女性更适合当牛马。这样上层阶级就不需要承担生育的生理负担，还可以更广泛地将自己的基因传下去。</p><p data-pid=\"EykXdb_8\">至于上层阶级自己，则有相对自由的选择性别的权力，虽然在生产力低下，暴力为王的时代，上层阶级可能因为竞争压力更倾向于成为男性。</p><hr/><p data-pid=\"cJpBTx5v\">另外，在题设条件下，战争之后会出现俘虏集体被强暴的情况，(打仗输了就变成女孩子被♂撅♂.jpg)</p><p data-pid=\"wHcQ4prY\">好消息是由于战后恢复人口的需求，杀俘现象可能会少很多。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1731146897,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "题目没规定男号女号互转需要什么条件，有没有时间限制，频率限制，暂且考虑为一念之间就能完成转换，这样的话每个瞬间的每一个人类个体都处于男女叠加态，也可以视为雌雄同体。 对于一个人类个体，性别比例是一段时间内，作为男性的时长/作为女性时长的值。对于群体则加起来考虑。 那么性别比例问题可以量化成一段时间内，男性总时长/女性总时长的值。 但是这个值受很多变量影响，不只是主观因素。 性别选择不只受自身主观支配，…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "27094925798",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1730759560,
+              "id": "3178101132",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类可以随意修改自己的性别，那么人类性别比例会如何变化？",
+              "type": "question",
+              "updated_time": 1730759560,
+              "url": "https://www.zhihu.com/api/v4/questions/3178101132"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1731146897,
+            "url": "https://www.zhihu.com/api/v4/answers/27094925798",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9e112969afcc59681676a51a314ba715",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj0mvnSXiCM87frC5ICJgoJNjk4MTk3NTc5EgsyNTQwNjg4NTIzNhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-dbece31418c70883e2d4fc1c4cb65044_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-dbece31418c70883e2d4fc1c4cb65044.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 60,
+              "gender": 1,
+              "headline": "",
+              "id": "fc710be332b0a5ec9a8ecaafbb5d9640",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "繁沭",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/fc710be332b0a5ec9a8ecaafbb5d9640",
+              "url_token": "fan-shu-61-18",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"LV_-5h8k\">都可以随意修改了，那你统计的是什么时候的比例，实时更新吗？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1730967273,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "都可以随意修改了，那你统计的是什么时候的比例，实时更新吗？",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "25406885236",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "15 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1730759560,
+              "id": "3178101132",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类可以随意修改自己的性别，那么人类性别比例会如何变化？",
+              "type": "question",
+              "updated_time": 1730759560,
+              "url": "https://www.zhihu.com/api/v4/questions/3178101132"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1730967273,
+            "url": "https://www.zhihu.com/api/v4/answers/25406885236",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 15
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "9e112969afcc59680a1b9a1a314ba715",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768465260398201302"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/3178101132/feeds?cursor=9e112969afcc59680a1b9a1a314ba715&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768465260398201302&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

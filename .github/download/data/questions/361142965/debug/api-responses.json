@@ -1,0 +1,513 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/361142965/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464454396,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/361142965/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/361142965/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果按下一个按钮，全世界都会重置性别，你会按吗？",
+          "question_type": "normal",
+          "created": 1624607094,
+          "updated_time": 1624607094,
+          "url": "https://www.zhihu.com/api/v4/questions/467475882",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "467475882"
+        },
+        {
+          "type": "question",
+          "title": "如果转换了性别那“我”还是“我”吗？",
+          "question_type": "normal",
+          "created": 1763292675,
+          "updated_time": 1763292675,
+          "url": "https://www.zhihu.com/api/v4/questions/1973473197165933870",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1973473197165933870"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/361142965/feeds?cursor=94d878e1123687a73a8b03e10bb9d610&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768464450601111563&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464454406,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxju652/AyC1tZqsAZICJAoJMjAwNTk2NTYzEgk5Mzc5MTU4ODYYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/763bd5593_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/763bd5593.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-f1d0fdf28da5f40f9ba21fb773ff7bdf_l.png?source=1def8aca",
+                "description": "累计登录 30 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972480281613197312",
+                "medal_name": "每天逛逛",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f1d0fdf28da5f40f9ba21fb773ff7bdf_r.png?source=1def8aca"
+              },
+              "follower_count": 82,
+              "gender": 0,
+              "headline": "",
+              "id": "4049077dfb3f7ba3ae96560c0cc7b88a",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "叶璐",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4049077dfb3f7ba3ae96560c0cc7b88a",
+              "url_token": "yelu21",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"v2FxuC62\">虽然不知道为啥邀请我</p><p data-pid=\"uprMaCDb\">不过我是想换的，不为什么，如果是男的话，或许就没有遗传病了吧。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1576482776,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "虽然不知道为啥邀请我 不过我是想换的，不为什么，如果是男的话，或许就没有遗传病了吧。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "937915886",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1576411693,
+              "id": "361142965",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果可以重选，你想更换自己的性别吗？",
+              "type": "question",
+              "updated_time": 1576411693,
+              "url": "https://www.zhihu.com/api/v4/questions/361142965"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1576482776,
+            "url": "https://www.zhihu.com/api/v4/answers/937915886",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94d878e1123687a7c69704e10bb9d610",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxji2viBByC1tZqsAZICJQoJMzcyNDY5MjE4EgoxODgzMTIzMDQyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-ae80294fd9fa4cb1443a6ae6a28c18f1_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-ae80294fd9fa4cb1443a6ae6a28c18f1.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-e305158084f6ca64e370eaf3582b6bed_l.png?source=1def8aca",
+                "description": "完成 10 次圆环挑战即可获得",
+                "medal_avatar_frame": "",
+                "medal_id": "1863228133316157440",
+                "medal_name": "圆环挑战 2025",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-e305158084f6ca64e370eaf3582b6bed_r.png?source=1def8aca"
+              },
+              "follower_count": 5806,
+              "gender": -1,
+              "headline": "一个剥离了实体属性的纯粹的肥宅",
+              "id": "71fb7cd0ab6eb7c76a4a661a6b92e5f9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "电脑超自然",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/71fb7cd0ab6eb7c76a4a661a6b92e5f9",
+              "url_token": "yu-ling-yi-4",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"R5qBlhHB\">想啊！</p><p data-pid=\"VrLe2aMo\">不管怎么样我再也不想遭受生理期痛和偏头疼的折磨了！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1620855635,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "想啊！ 不管怎么样我再也不想遭受生理期痛和偏头疼的折磨了！",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1883123042",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1576411693,
+              "id": "361142965",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果可以重选，你想更换自己的性别吗？",
+              "type": "question",
+              "updated_time": 1576411693,
+              "url": "https://www.zhihu.com/api/v4/questions/361142965"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": true,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": "真诚赞赏，手留余香"
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1620855635,
+            "url": "https://www.zhihu.com/api/v4/answers/1883123042",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94d878e1123687a77726c3fc0bb9d610",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjd37/KCSC1tZqsAZICJQoJNDk3NzQ5NTA4EgoyNTcyMTUyNzk3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"LqWLg4gn\">哈哈。嗯。</p><p data-pid=\"dc8XaKDU\">性别一换，即使我还是我，我仍做着同样的事。</p><p data-pid=\"eXNKkztr\">要解释的少了，日子轻松多了（笑）。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1657685716,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "哈哈。嗯。 性别一换，即使我还是我，我仍做着同样的事。 要解释的少了，日子轻松多了（笑）。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2572152797",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1576411693,
+              "id": "361142965",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果可以重选，你想更换自己的性别吗？",
+              "type": "question",
+              "updated_time": 1576411693,
+              "url": "https://www.zhihu.com/api/v4/questions/361142965"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1657685801,
+            "url": "https://www.zhihu.com/api/v4/answers/2572152797",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94d878e1123687a791455bf70bb9d610",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464450601111563"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/361142965/feeds?cursor=94d878e1123687a791455bf70bb9d610&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464450601111563&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

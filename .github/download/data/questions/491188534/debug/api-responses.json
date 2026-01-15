@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/491188534/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464920454,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/491188534/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/491188534/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何矫正孩子的性别意识？",
+          "question_type": "normal",
+          "created": 1504355001,
+          "updated_time": 1504355001,
+          "url": "https://www.zhihu.com/api/v4/questions/64808644",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "64808644"
+        },
+        {
+          "type": "question",
+          "title": "作为父母或教育者，如何引导孩子理解性别认知？",
+          "question_type": "normal",
+          "created": 1768360314,
+          "updated_time": 1768360314,
+          "url": "https://www.zhihu.com/api/v4/questions/1994728415035675935",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1994728415035675935"
+        },
+        {
+          "type": "question",
+          "title": "如何让一个三岁小孩有正确的性别意识？",
+          "question_type": "normal",
+          "created": 1559168816,
+          "updated_time": 1559168816,
+          "url": "https://www.zhihu.com/api/v4/questions/326987118",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "326987118"
+        }
+      ]
+    }
+  }
+]

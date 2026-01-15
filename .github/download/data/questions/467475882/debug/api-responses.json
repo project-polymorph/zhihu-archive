@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/467475882/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465548311,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/467475882/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/467475882/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果有个可以转换性别的按钮，你会按吗？",
+          "question_type": "normal",
+          "created": 1597400657,
+          "updated_time": 1597479264,
+          "url": "https://www.zhihu.com/api/v4/questions/414251690",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 25,
+          "relationship": {},
+          "id": "414251690"
+        },
+        {
+          "type": "question",
+          "title": "如果可以更换性别，你会做什么？",
+          "question_type": "normal",
+          "created": 1574318064,
+          "updated_time": 1574318225,
+          "url": "https://www.zhihu.com/api/v4/questions/356988825",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "356988825"
+        },
+        {
+          "type": "question",
+          "title": "如果可以重选，你想更换自己的性别吗？",
+          "question_type": "normal",
+          "created": 1576411693,
+          "updated_time": 1576411693,
+          "url": "https://www.zhihu.com/api/v4/questions/361142965",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "361142965"
+        },
+        {
+          "type": "question",
+          "title": "如果可以更换性别，你会做什么事情?",
+          "question_type": "normal",
+          "created": 1585413198,
+          "updated_time": 1585413198,
+          "url": "https://www.zhihu.com/api/v4/questions/383340183",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "383340183"
+        },
+        {
+          "type": "question",
+          "title": "怎样更改性别？",
+          "question_type": "normal",
+          "created": 1574049627,
+          "updated_time": 1574049627,
+          "url": "https://www.zhihu.com/api/v4/questions/356417063",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "356417063"
+        }
+      ]
+    }
+  }
+]

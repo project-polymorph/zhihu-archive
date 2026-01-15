@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/294900508/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464700606,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/294900508/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/294900508/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你可以换性别，你愿意换吗？为什么？",
+          "question_type": "normal",
+          "created": 1547788085,
+          "updated_time": 1547788085,
+          "url": "https://www.zhihu.com/api/v4/questions/309503456",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "309503456"
+        },
+        {
+          "type": "question",
+          "title": "如果不考虑性别，你会和“你自己”在一起吗？",
+          "question_type": "normal",
+          "created": 1673009126,
+          "updated_time": 1673009126,
+          "url": "https://www.zhihu.com/api/v4/questions/577161143",
+          "answer_count": 61,
+          "comment_count": 1,
+          "follower_count": 67,
+          "relationship": {},
+          "id": "577161143"
+        },
+        {
+          "type": "question",
+          "title": "如果有下辈子，你愿意换性别吗？",
+          "question_type": "normal",
+          "created": 1526118346,
+          "updated_time": 1526118346,
+          "url": "https://www.zhihu.com/api/v4/questions/276897407",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "276897407"
+        },
+        {
+          "type": "question",
+          "title": "如果转换了性别，你会喜欢现在的自己么？",
+          "question_type": "normal",
+          "created": 1483673129,
+          "updated_time": 1483673129,
+          "url": "https://www.zhihu.com/api/v4/questions/54461733",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "54461733"
+        }
+      ]
+    }
+  }
+]

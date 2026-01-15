@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/663234183/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465285055,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/663234183/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/663234183/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类不分性别可以吗？",
+          "question_type": "normal",
+          "created": 1687925275,
+          "updated_time": 1687925275,
+          "url": "https://www.zhihu.com/api/v4/questions/609147292",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "609147292"
+        },
+        {
+          "type": "question",
+          "title": "“性别”这个词是古已有之还是外来词汇？",
+          "question_type": "normal",
+          "created": 1671302792,
+          "updated_time": 1671303080,
+          "url": "https://www.zhihu.com/api/v4/questions/572945102",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "572945102"
+        },
+        {
+          "type": "question",
+          "title": "在日常生活中我们是如何辨别性别的？同时有好几个特征点的话，对其认知的优先顺序是什么呢？",
+          "question_type": "normal",
+          "created": 1625933881,
+          "updated_time": 1625959704,
+          "url": "https://www.zhihu.com/api/v4/questions/471467162",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "471467162"
+        },
+        {
+          "type": "question",
+          "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+          "question_type": "normal",
+          "created": 1663323720,
+          "updated_time": 1663323720,
+          "url": "https://www.zhihu.com/api/v4/questions/553973123",
+          "answer_count": 28,
+          "comment_count": 2,
+          "follower_count": 35,
+          "relationship": {},
+          "id": "553973123"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类不能只有一个性别?",
+          "question_type": "normal",
+          "created": 1708278972,
+          "updated_time": 1708278972,
+          "url": "https://www.zhihu.com/api/v4/questions/644823742",
+          "answer_count": 25,
+          "comment_count": 1,
+          "follower_count": 30,
+          "relationship": {},
+          "id": "644823742"
+        }
+      ]
+    }
+  }
+]

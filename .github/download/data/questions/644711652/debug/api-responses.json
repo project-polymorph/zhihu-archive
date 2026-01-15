@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/644711652/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464724095,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/644711652/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/644711652/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果性别与性格无关，性别认知障碍者无法认同的到底是什么？",
+          "question_type": "normal",
+          "created": 1515310599,
+          "updated_time": 1515310599,
+          "url": "https://www.zhihu.com/api/v4/questions/265226341",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 30,
+          "relationship": {},
+          "id": "265226341"
+        },
+        {
+          "type": "question",
+          "title": "为啥有的人会有性别认知障碍?",
+          "question_type": "normal",
+          "created": 1710634769,
+          "updated_time": 1710634769,
+          "url": "https://www.zhihu.com/api/v4/questions/648922561",
+          "answer_count": 34,
+          "comment_count": 0,
+          "follower_count": 46,
+          "relationship": {},
+          "id": "648922561"
+        },
+        {
+          "type": "question",
+          "title": "性别认知障碍产生的原因是什么？",
+          "question_type": "normal",
+          "created": 1733929400,
+          "updated_time": 1733929400,
+          "url": "https://www.zhihu.com/api/v4/questions/6607156906",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "6607156906"
+        }
+      ]
+    }
+  }
+]

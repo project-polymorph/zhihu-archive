@@ -1,0 +1,386 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/265226341/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464746477,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/265226341/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/265226341/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "同样是性别不一致，为什么总有人混淆性别认知障碍和性别认同障碍两个概念？",
+          "question_type": "normal",
+          "created": 1717033758,
+          "updated_time": 1720886539,
+          "url": "https://www.zhihu.com/api/v4/questions/657632593",
+          "answer_count": 8,
+          "comment_count": 1,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "657632593"
+        },
+        {
+          "type": "question",
+          "title": "发现自己有性别认知障碍怎么办？",
+          "question_type": "normal",
+          "created": 1642861403,
+          "updated_time": 1642861403,
+          "url": "https://www.zhihu.com/api/v4/questions/512901305",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "512901305"
+        },
+        {
+          "type": "question",
+          "title": "性别认同障碍是基因决定的还是后天形成的？或者是后天影响基因是否表现？",
+          "question_type": "normal",
+          "created": 1404470851,
+          "updated_time": 1404470851,
+          "url": "https://www.zhihu.com/api/v4/questions/24375050",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "24375050"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/265226341/feeds?cursor=3f4bd3ffc6790f3a77e003a643dc0e60&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768464742989584492&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464746639,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxiCjPOLDSDlkLx+kgIlCgk2NjkwOTE3MDUSCjM1MTQ2MTUyOTgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-e40f63b0b35b9e91738d6b6acf0f351b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-e40f63b0b35b9e91738d6b6acf0f351b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_l.png?source=1def8aca",
+                "description": "关注 5 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_r.png?source=1def8aca"
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "",
+              "id": "c7c70a2d0b6221d0f398f75e5c50bf25",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "井底之井底",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/c7c70a2d0b6221d0f398f75e5c50bf25",
+              "url_token": "--45-13-4-95",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 3,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"sWzMCdO5\">性别是1和2</p><p data-pid=\"Fi_6vP2x\">性格是abcdefg</p><p class=\"ztext-empty-paragraph\"><br/></p><ul><li data-pid=\"PGUPqe8e\">1可以有abcdefg</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><ul><li data-pid=\"DN_K3AED\">2可以有abcdefg</li></ul><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Mi-Z8s1H\">比如说：</p><p data-pid=\"MSuYJG9d\">一个地区认为1是abc，2是def</p><p data-pid=\"_2iAi34M\">一个地区认为1是acdf，2是cdeg</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"fmOSVTJK\">“男生必须要安静内敛，温柔体贴！”</p><p data-pid=\"anVzOh0n\">“男生必须要阳刚大气，刚闯刚拼！”</p><p class=\"ztext-empty-paragraph\"><br/></p><h2>二者是会出冲突的</h2><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"UZeLarwT\">同一个人在不同地方，会受到不同评价和判断，最终被定性为非1或1，同时是男性和非男性，这里“娘炮”和“假小子”，就是为拟合这种语言视差，把两种命题合二为一形容那个象征化失败的个体</p><p data-pid=\"jFv8-Vya\">人只要在社会里，就都会精神分裂</p><hr/><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"ANY9RG8w\">一个地区觉得读书人无用，读死书</p><p data-pid=\"1U70K1Fh\">一个地区觉得读书都不会，等死吧</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Wmwz0YtI\">性别障碍就是身份认同障碍，但身份认同本身就是不可能的。你在两个地区走来走去就会被疯狂洗脑</p><p data-pid=\"5j0RRoqo\">最惨的莫过于</p><p data-pid=\"SeCcSdI6\">你是富哥，看了左人的书打算反资，那你就要被中产嫌弃和恶心，又要被大资讥讽和厌恶，自己又要体验穷人的生活，因为身份问题又要被真正的无产辱骂</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"StFXzmS4\">每一次立论都是一种极端的幻想，一种印象的堆叠</p><p data-pid=\"6F_Xtdxv\">性别障碍就是在其语言环境中（这个环境真实的且主观），其命题成为了一种悖论</p><p data-pid=\"qmfHiH4L\">再打两个比分</p><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"fdrxIr7i\">斯大林在非洲部落就是个娘炮，不可理喻的娘炮，淫荡的骚货！！！为什么？<br/>印第安人看来，<br/>——男的他妈还用穿衣服？恶心不恶心？妈的傻逼吧？</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><blockquote data-pid=\"YXGBxKXE\">李清照在非洲部落就是令人崩溃的无可救药的精神病和同性恋，<br/>——<br/>女的还念诗歌？铁t？</blockquote><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rO1ZuGkt\">如上所述</p><p data-pid=\"qhv18ZzX\">一切东西都是在不同情境中被结构化生产出来的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1717037363,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性别是1和2 性格是abcdefg 1可以有abcdefg 2可以有abcdefg 比如说： 一个地区认为1是abc，2是def 一个地区认为1是acdf，2是cdeg “男生必须要安静内敛，温柔体贴！” “男生必须要阳刚大气，刚闯刚拼！” 二者是会出冲突的 同一个人在不同地方，会受到不同评价和判断，最终被定性为非1或1，同时是男性和非男性，这里“娘炮”和“假小子”，就是为拟合这种语言视差，把两种命题合二为一形容那个象征化失败的个体 人只要在社会里，…",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3514615298",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 赞同 · 4 收藏 · 3 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1515310599,
+              "id": "265226341",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果性别与性格无关，性别认知障碍者无法认同的到底是什么？",
+              "type": "question",
+              "updated_time": 1515310599,
+              "url": "https://www.zhihu.com/api/v4/questions/265226341"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1717070288,
+            "url": "https://www.zhihu.com/api/v4/answers/3514615298",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3f4bd3ffc6790f3a371525a743dc0e60",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxi61P/aDCDlkLx+kgIlCgk2NTA0NDk4ODgSCjM0MTIwNjA3MzAYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 223,
+              "gender": 1,
+              "headline": "听话要听音，而不是抬杠",
+              "id": "df64a384eab823bb9afd847818481e43",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "方兴未艾",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/df64a384eab823bb9afd847818481e43",
+              "url_token": "67-14-97-62",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pic1.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pica.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 12,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Tblc5Ot3\">英语中的性别，有两个词。一个是sex（生理性别），一个是gender（社会性别）。性别认知障碍指的是gender 。</p><p data-pid=\"d1ERe0X3\">我就觉得很离谱，不是说性别不被定义么。不被定义你gender啥呀gender。分完gender又有Gender Identity Disorder（性别认知障碍）/gender Incongruence（性别不一致）。你™别分gender不就没有gender Incongruence了吗。</p><p></p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1709090765,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "英语中的性别，有两个词。一个是sex（生理性别），一个是gender（社会性别）。性别认知障碍指的是gender 。 我就觉得很离谱，不是说性别不被定义么。不被定义你gender啥呀gender。分完gender又有Gender Identity Disorder（性别认知障碍）/gender Incongruence（性别不一致）。你™别分gender不就没有gender Incongruence了吗。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3412060730",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "7 赞同 · 12 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1515310599,
+              "id": "265226341",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果性别与性格无关，性别认知障碍者无法认同的到底是什么？",
+              "type": "question",
+              "updated_time": 1515310599,
+              "url": "https://www.zhihu.com/api/v4/questions/265226341"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 5,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1709090788,
+            "url": "https://www.zhihu.com/api/v4/answers/3412060730",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 7
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3f4bd3ffc6790f3aae8101a643dc0e60",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464742989584492"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/265226341/feeds?cursor=3f4bd3ffc6790f3aae8101a643dc0e60&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464742989584492&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

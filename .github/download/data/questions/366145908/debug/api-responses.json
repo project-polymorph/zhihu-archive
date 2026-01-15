@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/366145908/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464434038,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/366145908/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/366145908/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么一个女生想变成男生？一个男生想变成女生？",
+          "question_type": "normal",
+          "created": 1612241867,
+          "updated_time": 1612241867,
+          "url": "https://www.zhihu.com/api/v4/questions/442471811",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "442471811"
+        },
+        {
+          "type": "question",
+          "title": "为什么都是女生想变成男生，没有男生想变成女生的吗？",
+          "question_type": "normal",
+          "created": 1706956183,
+          "updated_time": 1706956183,
+          "url": "https://www.zhihu.com/api/v4/questions/642724738",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "642724738"
+        },
+        {
+          "type": "question",
+          "title": "为什么女生大多数都想变成男生？",
+          "question_type": "normal",
+          "created": 1540448544,
+          "updated_time": 1540448544,
+          "url": "https://www.zhihu.com/api/v4/questions/299935472",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "299935472"
+        },
+        {
+          "type": "question",
+          "title": "听说现在男生想变成女生，女生想变成男生      你们身边有没有这样的？",
+          "question_type": "normal",
+          "created": 1584515556,
+          "updated_time": 1584515556,
+          "url": "https://www.zhihu.com/api/v4/questions/380480485",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "380480485"
+        }
+      ]
+    }
+  }
+]

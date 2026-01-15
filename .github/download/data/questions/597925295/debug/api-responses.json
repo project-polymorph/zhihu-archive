@@ -1,0 +1,839 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/597925295/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464560307,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/597925295/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/597925295/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别刻板印象已经越来越过时了吗？",
+          "question_type": "normal",
+          "created": 1604042372,
+          "updated_time": 1604042372,
+          "url": "https://www.zhihu.com/api/v4/questions/428042376",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "428042376"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/597925295/feeds?cursor=94e1cbbdac3c4389ce0bf8a693997bad&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768464556420678823&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464560315,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjbitWZCyCvu46dApICJQoJNTc2NzQzMDkyEgozMDA2NjEyODI3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-98e23a4c1425e4c989dd238b2a01c1ef_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-98e23a4c1425e4c989dd238b2a01c1ef.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_l.png?source=1def8aca",
+                "description": "获得 50 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_r.png?source=1def8aca"
+              },
+              "follower_count": 12,
+              "gender": -1,
+              "headline": "喜欢写小说",
+              "id": "33929c68b098efb5fdefb108d560b4cf",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "与柳",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/33929c68b098efb5fdefb108d560b4cf",
+              "url_token": "chen-xian-sheng-55-83-57",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"249Vr8ma\">真的存在，只有当形象男性化和形象女性化的人群中，男女比例是1：1的时候我才认为没有刻板印象了</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1682784446,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "真的存在，只有当形象男性化和形象女性化的人群中，男女比例是1：1的时候我才认为没有刻板印象了",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3006612827",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682507111,
+              "id": "597925295",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象真的存在吗？",
+              "type": "question",
+              "updated_time": 1682507111,
+              "url": "https://www.zhihu.com/api/v4/questions/597925295"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1682784446,
+            "url": "https://www.zhihu.com/api/v4/answers/3006612827",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94e1cbbdac3c438972fac1a693997bad",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj9kuWaCyCvu46dApICJQoJNTc3MTcyNDczEgozMDA4OTczMTgxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-2d3ffd45f800013c5f0798981d8ed2a2_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-2d3ffd45f800013c5f0798981d8ed2a2.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_l.png?source=1def8aca",
+                "description": "关注 20 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_r.png?source=1def8aca"
+              },
+              "follower_count": 3,
+              "gender": -1,
+              "headline": "123",
+              "id": "14f09efb3f80657454c11f620266ad8b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "蟹老板请我吃汉堡",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/14f09efb3f80657454c11f620266ad8b",
+              "url_token": "he-bi-wen-66-67",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"COHPtPxm\">会存在的。因为每个人的认识都不全面</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1682961755,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "会存在的。因为每个人的认识都不全面",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3008973181",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682507111,
+              "id": "597925295",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象真的存在吗？",
+              "type": "question",
+              "updated_time": 1682507111,
+              "url": "https://www.zhihu.com/api/v4/questions/597925295"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1682961755,
+            "url": "https://www.zhihu.com/api/v4/answers/3008973181",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94e1cbbdac3c43893f6fc7a693997bad",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjFh++bCyCvu46dApICJQoJNTc3NTgzNjgzEgozMDExMjMyNzA5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-655f5cab7f868f41a1b23a6bf13b4586_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-655f5cab7f868f41a1b23a6bf13b4586.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "我想翻身，因为另一面已经焦了",
+              "id": "fda7062d4f52f192917e454e8e8f8be6",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "咸鱼翻身还是咸鱼",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/fda7062d4f52f192917e454e8e8f8be6",
+              "url_token": "63-17-76-75",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"h9275eD1\">这是真的。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1683115751,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "这是真的。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3011232709",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682507111,
+              "id": "597925295",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象真的存在吗？",
+              "type": "question",
+              "updated_time": 1682507111,
+              "url": "https://www.zhihu.com/api/v4/questions/597925295"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1683115751,
+            "url": "https://www.zhihu.com/api/v4/answers/3011232709",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94e1cbbdac3c438985a6cca693997bad",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj8mJmoCyCvu46dApICJQoJNTgyMjgzMzgwEgozMDM3MDg4ODkyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-fc1f9805d801d3159a67a231055455ca_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-fc1f9805d801d3159a67a231055455ca.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 136,
+              "gender": 1,
+              "headline": "生不得五鼎食，死亦当五鼎烹",
+              "id": "e4c912c812e110da311a44b5b48046ed",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "修勾不会开车",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e4c912c812e110da311a44b5b48046ed",
+              "url_token": "wang-jian-feng-17-59",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<h3>那给你举个栗子</h3><h3>公安局长正在给下属开会，儿子突然跑进来说：“你爸爸和我爸爸吵起来了”！</h3><h3>这是什么情况</h3>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1684593893,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "那给你举个栗子公安局长正在给下属开会，儿子突然跑进来说：“你爸爸和我爸爸吵起来了”！这是什么情况",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3037088892",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682507111,
+              "id": "597925295",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象真的存在吗？",
+              "type": "question",
+              "updated_time": 1682507111,
+              "url": "https://www.zhihu.com/api/v4/questions/597925295"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1684593893,
+            "url": "https://www.zhihu.com/api/v4/answers/3037088892",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94e1cbbdac3c4389b26c15a693997bad",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjSw96sCyCvu46dApICJQoJNTg0MDE0NDIwEgozMDQ2NjEzNDU4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-6e313442f969116d4ec9514a4396ccf0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-6e313442f969116d4ec9514a4396ccf0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-cdc7c578bc7555f8113a409eaf2704b8_l.png?source=1def8aca",
+                "description": "累计登录 365 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972480281613197312",
+                "medal_name": "每天逛逛",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-cdc7c578bc7555f8113a409eaf2704b8_r.png?source=1def8aca"
+              },
+              "follower_count": 2,
+              "gender": 0,
+              "headline": "06",
+              "id": "85d61a5d1b35fb29e81822027baa7345",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "水原",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/85d61a5d1b35fb29e81822027baa7345",
+              "url_token": "starry-sky-73-87",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"IlfiNi0Z\">当然是存在的。而且刻板印象还不可怕，可怕的是父权社会下的默认选项（你举的厨师和护士的例子可以算是），以及衍生的女性污名化。</p><p data-pid=\"BDmXfQf3\">在B站的两位up主 老赵的心理学笔记 和 沈奕斐教授 关于这女性方面的认识和观点给我很大启示，选两条贴这</p><p data-pid=\"SnPrnZOc\">关于“默认选项”</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=http%3A//xn--38%252C-t03bt01npxbpvn78k1dn43dd0cptkp8mylsa155hfmaq49djsr5u3h7hrarlcp71fl75a.xn---%2520https-go3hu465aa6yb//b23.tv/NUaULrC\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【38特辑，默认选项是如何一步步把女性引向深渊的。-哔哩哔哩】 https://b23.tv/NUaULrC</a><p data-pid=\"rGUdOXau\">关于“女性污名化”</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=http%3A//xn--%253F%253F-%2520https-oj3fna4728cua7783jjxavhl5f0v4bqncca396ba83cb989ffm7aea488el0czt6ce4nl66ab4ovs6bg2bi65kwmleag716dk30i0qufl1a//b23.tv/vZzCsdi\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">【我为什么讨厌对“上海名媛群”的嘲讽？名媛的真实生活是怎样的？-哔哩哔哩】 https://b23.tv/vZzCsdi</a><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1685154507,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "当然是存在的。而且刻板印象还不可怕，可怕的是父权社会下的默认选项（你举的厨师和护士的例子可以算是），以及衍生的女性污名化。 在B站的两位up主 老赵的心理学笔记 和 沈奕斐教授 关于这女性方面的认识和观点给我很大启示，选两条贴这 关于“默认选项” 【38特辑，默认选项是如何一步步把女性引向深渊的。-哔哩哔哩】 https://b23.tv/NUaULrC 关于“女性污名化” 【我为什么讨厌对“上海名媛群”的嘲讽？名媛的真实生活是怎样…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3046613458",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682507111,
+              "id": "597925295",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别刻板印象真的存在吗？",
+              "type": "question",
+              "updated_time": 1682507111,
+              "url": "https://www.zhihu.com/api/v4/questions/597925295"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1685154657,
+            "url": "https://www.zhihu.com/api/v4/answers/3046613458",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "94e1cbbdac3c438992c66ea693997bad",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464556420678823"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/597925295/feeds?cursor=94e1cbbdac3c438992c66ea693997bad&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464556420678823&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/597925295/feeds?cursor=94e1cbbdac3c438992c66ea693997bad&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464556420678823&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464567664,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464556420678823"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/597925295/feeds?cursor=94e1cbbdac3c438992c66ea693997bad&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768464556420678823&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

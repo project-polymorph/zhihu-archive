@@ -1,0 +1,840 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/6633701964/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464646503,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/6633701964/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/6633701964/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果能重新选择性别，你会怎么选？",
+          "question_type": "normal",
+          "created": 1587864793,
+          "updated_time": 1587864793,
+          "url": "https://www.zhihu.com/api/v4/questions/390645162",
+          "answer_count": 56,
+          "comment_count": 0,
+          "follower_count": 89,
+          "relationship": {},
+          "id": "390645162"
+        },
+        {
+          "type": "question",
+          "title": "如果能重新选择性别，你会做出怎样的选择？",
+          "question_type": "normal",
+          "created": 1742185677,
+          "updated_time": 1742185677,
+          "url": "https://www.zhihu.com/api/v4/questions/15172030390",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "15172030390"
+        },
+        {
+          "type": "question",
+          "title": "如果可以重新选择性别，你会选择什么?",
+          "question_type": "normal",
+          "created": 1678557691,
+          "updated_time": 1678557691,
+          "url": "https://www.zhihu.com/api/v4/questions/589023392",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "589023392"
+        },
+        {
+          "type": "question",
+          "title": "如果可以重新选择性别，你还愿意坚持目前自己的性别吗？为什么？",
+          "question_type": "normal",
+          "created": 1488445371,
+          "updated_time": 1488449267,
+          "url": "https://www.zhihu.com/api/v4/questions/56529606",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "56529606"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/6633701964/feeds?cursor=3e99de43d29f259c3d24b277a5963c0d&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768464642518605738&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464646568,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxiO0vuD/wEgzISZ2xiSAiYKCTcwNjgwNzE5ORILNjg0NTkzNTg0NzgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "",
+              "id": "8578d1555eac04baa4b365e831c214e9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户4VB7rC",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/8578d1555eac04baa4b365e831c214e9",
+              "url_token": "73-91-45-29-41",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 15,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"bnJMVB0e\">我认为想要达到一辈子单身，天天不是打游戏就是工作，养个猫陪着，早班晚班都可以做，夜市直接去吃，赚到钱回馈一些给父母......这种平凡但自由的人生，还是变成男的容易做到</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1735634071,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我认为想要达到一辈子单身，天天不是打游戏就是工作，养个猫陪着，早班晚班都可以做，夜市直接去吃，赚到钱回馈一些给父母...这种平凡但自由的人生，还是变成男的容易做到",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "68459358478",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "10 赞同 · 1 收藏 · 15 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1733962133,
+              "id": "6633701964",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果能选择性别，你会重新选择吗？",
+              "type": "question",
+              "updated_time": 1733962133,
+              "url": "https://www.zhihu.com/api/v4/questions/6633701964"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1735634071,
+            "url": "https://www.zhihu.com/api/v4/answers/68459358478",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 10
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3e99de43d29f259c308cb177a5963c0d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxiZ6LfiuwIgzISZ2xiSAiYKCTcxMDA2NzM3MBILODQ3NjM2MDM5OTMYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-e1b6192aa0d8dcf140ba189dea518a4c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-e1b6192aa0d8dcf140ba189dea518a4c.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 7,
+              "gender": -1,
+              "headline": "",
+              "id": "23a6ae0d4a084b4250dd3d07959d58b3",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "我爱吃芒果",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/23a6ae0d4a084b4250dd3d07959d58b3",
+              "url_token": "18-71-98-22",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 17,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"HFFOzs0n\">3</p><p data-pid=\"-orl5MLS\">没有为啥，单纯认可我自己的性别，谈不上庆幸。尽管女生有很多威胁，我也看到了很多新闻事迹来着，但我还是很喜欢我的性别。除非你跟我说我要转世到古代，或者其他国家，那我就需要好好思考一下了。</p><p data-pid=\"yn6umYAL\">毕竟和我的爱好相同的，还是女生偏多，比起和我们班男生交流还是更喜欢和女生交流，不可否认男生有性格细腻的人，只是我遇到的比较少。我的心思太敏感了，就是同性别的人都很难找到和我一样的，更别说是异性了，想一想和如果这些人相处长时间我会原地爆炸。特别是开黄腔的，恶心 ，有时候真想顺着网线过去打人</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1737530754,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "3 没有为啥，单纯认可我自己的性别，谈不上庆幸。尽管女生有很多威胁，我也看到了很多新闻事迹来着，但我还是很喜欢我的性别。除非你跟我说我要转世到古代，或者其他国家，那我就需要好好思考一下了。 毕竟和我的爱好相同的，还是女生偏多，比起和我们班男生交流还是更喜欢和女生交流，不可否认男生有性格细腻的人，只是我遇到的比较少。我的心思太敏感了，就是同性别的人都很难找到和我一样的，更别说是异性了，想一想和如果这…",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "84763603993",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "6 赞同 · 2 收藏 · 17 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1733962133,
+              "id": "6633701964",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果能选择性别，你会重新选择吗？",
+              "type": "question",
+              "updated_time": 1733962133,
+              "url": "https://www.zhihu.com/api/v4/questions/6633701964"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1737530754,
+            "url": "https://www.zhihu.com/api/v4/answers/84763603993",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 6
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3e99de43d29f259c054dc277a5963c0d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxjOz8+W9++I8BogzISZ2xiSAi4KCTc0MDg5OTM1ORITMTkzNjU4Njg3MDA2MzYyMjA5NBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-5ec733debd3c96bcb605528683b45224_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-5ec733debd3c96bcb605528683b45224.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-c38ebd5a7d1f43a5ed9ac0411a3e233a_l.png?source=1def8aca",
+                "description": "赞同 5 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-c38ebd5a7d1f43a5ed9ac0411a3e233a_r.png?source=1def8aca"
+              },
+              "follower_count": 2,
+              "gender": 1,
+              "headline": "CN→DE→JP",
+              "id": "c7dedbb7257fac064b820786409003f6",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Scienca",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/c7dedbb7257fac064b820786409003f6",
+              "url_token": "scienca",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 17,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"yWIJMRWc\">如果能选择性别，我会希望自己是一个男性。但这并不是出于对女性身份的逃避或否定，而是因为我希望能借由男性的社会身份，在这个结构性不平等的世界中，为女性发声。</p><p data-pid=\"aJT_2LnC\">在性别社会学中，有一个重要的概念叫“父权制”（patriarchy），它指的是一种系统性的社会结构，在这个结构下，男性普遍拥有比女性更多的权力、资源和话语权。即便现代社会在法律层面上强调“男女平等”，但从教育、职场、家庭到媒体呈现中，性别不平等依旧深深扎根。</p><p data-pid=\"qraHr3uV\">我从小就是一个男生。在成长的过程中，我经历过许多因为性别而遭受的不公，比如老师对男生更高的期待、父母对女生“乖巧”的要求，以及在公开场合中被莫名注视甚至骚扰的恐惧。这些经历在年复一年的生活中逐渐构成了我对“性别”的认知：性别不是一个中立的、与生俱来的“标签”，而是一种社会建构，它以极具压迫性的方式参与到每个人的生活中。</p><p data-pid=\"qIF-GZjA\">我曾经想过，我既然身为性别为男的物种，我是否就能免于这些烦恼？是否就可以走在夜路上不感到害怕？是否说话可以更有底气？是否不用被期望“懂事”“柔顺”？但是，随着我对性别问题了解地更深，我逐渐意识到——“想成为男性”并不是我的终点。真正让我心痛的，是我看见了太多女性在社会结构中被压制、边缘化，而我的发声常常因为我是女性而被忽视。这时候，我会想：如果我是男性，我能否说得更大声一点？我能否用“男性”的身份，在这个性别不平等的结构中撕出一道裂缝？</p><p data-pid=\"s4dq6r9s\">在“性别特权”理论中，一个不可忽视的现象是“男性声音的合法性”远远高于女性。当一个女性站出来讲述性骚扰的经验，人们往往首先质疑她的“动机”，怀疑她是不是“想出名”，而当一个男性站出来支持女性权益，人们却更容易听进去，甚至赞扬他“有良知”、“有责任感”。这本身就说明，我们的社会仍然把“话语权”集中在男性身上。这也是我为什么想成为男性的另一个原因——如果能被赋予更多的听众、更多的空间，那么我愿意用这份权力去打破这份不平等。</p><p data-pid=\"E9aJDWyC\">有人可能会说，这是不是一种“男性救世主”心态？是不是在暗中强化“只有男性才能救女性”的父权逻辑？我认为这正是我们在性别平等讨论中需要警惕的地方。但我想表达的是：真正的性别平等，是一种结构性的转变，而不是靠某一个人的牺牲或者道德感来实现。在这个过程中，所有人——无论男女，或者是非二元性别的人——都应该被赋予参与、讨论、改变的权利。我希望成为一个男性，是因为我希望从内部挑战这个系统，而不是以受害者的身份呼喊，却被视为“情绪化”或“不理性”。</p><p data-pid=\"B2YQ4N-J\">性别社会学中还有一个概念叫“性别表现”（gender performance），也就是Judith Butler提出的“性别是被表演出来的”，不是固定的。这让我意识到，性别本身其实是流动的、多样的。我们每一个人，都是在社会规范中不断被塑造出来的“男性”或“女性”。当社会用一种极端僵化的方式定义“女生应该温柔”“男生应该强大”时，不仅是女性被压抑，男性也被压在沉重的“阳刚”枷锁下，难以表达脆弱和真实的感受。</p><p data-pid=\"uv54Sswm\">所以，如果有机会选择性别，我想成为男性，不是因为我认同传统男性的“强势”定义，而是因为我想成为一个可以打破定义、反抗压迫、解构性别标签的男性。我想用“男性”这个角色去诠释温柔、共情、支持和觉醒，而不是强势、支配、冷漠和优越。我想用一个“非典型男性”的姿态，为这个世界提供一种新的可能性。</p><p data-pid=\"WVDTaSEg\">同时，我也希望所有女性不再被性别束缚。我们不需要成为“像男人一样成功”的女性，也不应该为了被认可而隐藏自己的身份。我们应当创造一个空间，让每个人都可以自由地表达自己、定义自己、发展自己，而不是不断去“适应”一个本就不公平的系统。社会学者Nancy Fraser曾提出“正义的三维理论”：再分配、承认与参与。这三者正是构建性别平等社会的关键。我们不仅要在资源分配上追求平等（比如薪资和职场机会），也要在文化层面上承认女性的经验和价值，更要在制度上确保女性能平等地参与政治、教育、决策等社会领域。我想成为男性，但我更想看到一个不需要通过改变性别就能拥有平等与尊重的世界。如果有那么一天，性别不再决定命运、声音不再被权力过滤、每一个个体都能被完整地看见、听见、理解……那时候，无论我是男性还是女性，都会是一件幸福的事。</p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1754498289,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "如果能选择性别，我会希望自己是一个男性。但这并不是出于对女性身份的逃避或否定，而是因为我希望能借由男性的社会身份，在这个结构性不平等的世界中，为女性发声。 在性别社会学中，有一个重要的概念叫“父权制”（patriarchy），它指的是一种系统性的社会结构，在这个结构下，男性普遍拥有比女性更多的权力、资源和话语权。即便现代社会在法律层面上强调“男女平等”，但从教育、职场、家庭到媒体呈现中，性别不平等依旧深深…",
+            "extras": "",
+            "favlists_count": 5,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1936586870063622094",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "11 赞同 · 5 收藏 · 17 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1733962133,
+              "id": "6633701964",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果能选择性别，你会重新选择吗？",
+              "type": "question",
+              "updated_time": 1733962133,
+              "url": "https://www.zhihu.com/api/v4/questions/6633701964"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 11,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1754498289,
+            "url": "https://www.zhihu.com/api/v4/answers/1936586870063622094",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 11
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3e99de43d29f259cb0b3b971a5963c0d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxieyM7+pe2r1RogzISZ2xiSAi4KCTczNDA4OTgyMhITMTkyMTU0MTA2MjQzNjAzNzY2MhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-4c4dea856067463d6146bbb2a3b0731c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-4c4dea856067463d6146bbb2a3b0731c.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 129,
+              "gender": -1,
+              "headline": "",
+              "id": "d0e9de987deb776b288e106fb754743b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "一只泡泡",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/d0e9de987deb776b288e106fb754743b",
+              "url_token": "ni-shui-de-xian-yu-41",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 17,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"dta8IZgg\">上大学的时候才发现，可能是身体发育的比较慢，我个子比较高，初高中也是一直是男孩子，大三的时候有次早上起来突然拉肚子，便便还带红色，还以为是得痔疮了，后来摸了摸屁股也是血，自己默默地垫了个卫生纸，可能那会还没意识到来的是大姨妈 ，也没放心上，那会很不规律，半年也就二三次，后来发现不对劲是半年之后了，有次开开心心的去澡堂洗澡，洗的时候摸到下面，屁股沟的地方用力一按突然把手指头给埋进去了，好像有条裂缝能把手指埋进去，吓鼠了，不敢和舍友说有空去医院挂了个号，难道我要裂开了！ </p><p data-pid=\"I1iyes5T\">后来检查了好多次，就不详细说了，记得最羞耻的一次就是进妇科，周围女生那异样的眼神 然后在那个床上大开的腿真的很社死。。。最后医生说可能是身体基因的原因，身体发育的慢，到现在这个年纪才发育成熟，雌激素分泌的少，出生时身体不敏感，所以长出了男性的器官 </p><p data-pid=\"AxTm1nDe\">医生的建议是xx染色体，本来应该出生就是女生，查体后子宫和卵巢都有，不过相当于延迟发育，到现在才和十五六岁的女生差不多，也就是刚发育成熟，笑鼠了。。</p><p data-pid=\"07SDn0tG\">然后就到了谈心环节了，医生和家里都和我谈了好久，基本意思是本来就应该是女孩子，女的以后能生育，而且对身体影响最小，反正唠唠叨叨的好久，我最后被她们洗脑了。。。（一定要好好考虑清楚，不然肯定会后悔！）大三暑假做的，因为外面差别不大，只是切了些多余的器官，医生在做的时候还会问想要什么外形的 ，纯情男大一脸红好不好，还有护士小姐姐在旁边笑，我脸红的不行，说啥都行只想快点逃离。。主治医生年纪不大，混熟了和朋友似得，和我说给你做成男生都喜欢的形状   那会尴尬到要死。。其实那会是懵懵的，根本不知道自己要做男还是做女都是被家里和医院洗脑的，只想赶紧完事逃离。。</p><p data-pid=\"N2a3a5mh\">那会特别喜欢打游戏，玩王者联盟，算是不用上学还能每天玩，其实挺开心的。后面就不嘻嘻了。。大四不行了，家里觉得住宿舍不方便了，和学校沟通外面房子住了一年，正好大家也都实习考研去了，这一年发生了很多事。和医生说的那样，相当于延迟发育，半年的时间胸开始发育，一开始就是疼，有个小硬块，慢慢的半年时间就长的很大了，现在一个手已经握不住了 难道是天赋好吗，感觉像是青春期延迟似得。其他的大姨妈开始规律了，一开始一个月来二三次，后来就一次了。屁股好像是变大了。。。因为我感觉我腿好像并不拢了，下面也空荡荡的不习惯。。晚上还特别想哭也没有原因。</p><p data-pid=\"qIiDpAQD\">再说刚做完手术那会，一开始没啥就是光知道玩手机了，家里给买了内衣和内裤。。女款的，老脸一红，蕾丝的还是这也太性感了吧，脸红了 ，当然现在已经完全没有感觉了，就是内裤没男款的舒服，太紧了，内衣夏天太闷了，而且好重，胸真是没啥用 ，一开始根本不会穿有没有，而且我不想穿内衣，空军少女（笑了），那会其实还没有女生的觉悟，期间经历完整的大姨妈七天，量很大，卫生巾也不行，还是漏，蹲着上厕所也不习惯。到现在也不习惯，真的心理还是没有作为女生的觉悟。。（所以一定要确定自己的性取向，不要被家里洗脑）</p><p data-pid=\"L1ob0j1P\">真正对身体好奇是大半年之后了，那会准备考研，学习压力变大了，然后心理压力也大，可能雌激素多了就特别想哭。有一天，晚上突然感觉下面和尿了一样湿湿的，身体有种怪怪的感觉，和男生有欲望的感觉类似，但是更深邃（文字描写不出来，要是你做了女生可能会体验到），现在想想那会可能是排软期 ，对身体有点好奇 手术后一直没看过下面是啥样子，毕竟是牡丹男大，看看自己咋了 ，看不到。。拿了个镜子第一次和自己的妹妹见面，，，你好呀～终于见识到医生说做的男生都喜欢的外形啥样子。。妈耶，反正我要是还是男的，肯定喜欢  然后你们懂，第一次挖矿 ，妈耶，果然女生更爽一些，此处不能描述的太仔细。。。</p><p data-pid=\"2SB7fmEW\">心理上的，到现在还无法认同自己是女性，但是留了长发后看着就是女生了，厌恶自己的胸和屁股，和大姨妈和排软期。。。读研后被男生追过，为了知道自己喜不喜欢男生，和他在一起了，为爱鼓掌了，遂发现心理很厌恶，但是被他调起来以后生理感受没法反抗，沉迷身体的快感中。。我也迷茫了，现在家里催着结婚以后生孩子，完全想象不出来会是啥样子   ，走一步看一步吧，我感觉我不喜欢男生，但是身体又拒绝不了，所以一定要考虑好再做决定！我讨厌自己的胸和大屁股和姨妈和排软期！哎，有时候在想自己是男人的玩物，要是不做女的会不会更好。。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1750911089,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "上大学的时候才发现，可能是身体发育的比较慢，我个子比较高，初高中也是一直是男孩子，大三的时候有次早上起来突然拉肚子，便便还带红色，还以为是得痔疮了，后来摸了摸屁股也是血，自己默默地垫了个卫生纸，可能那会还没意识到来的是大姨妈 ，也没放心上，那会很不规律，半年也就二三次，后来发现不对劲是半年之后了，有次开开心心的去澡堂洗澡，洗的时候摸到下面，屁股沟的地方用力一按突然把手指头给埋进去了，好像有条裂缝…",
+            "extras": "",
+            "favlists_count": 52,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1921541062436037662",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "20 赞同 · 52 收藏 · 17 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1733962133,
+              "id": "6633701964",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果能选择性别，你会重新选择吗？",
+              "type": "question",
+              "updated_time": 1733962133,
+              "url": "https://www.zhihu.com/api/v4/questions/6633701964"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1750911089,
+            "url": "https://www.zhihu.com/api/v4/answers/1921541062436037662",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 20
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3e99de43d29f259cf1db5176a5963c0d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxi7h86Yst/0yhogzISZ2xiSAi4KCTczMTQzMjAzNBITMTkxNTY2OTE5MjU4MzExOTgwMxgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1986,
+              "gender": -1,
+              "headline": "云之故乡。",
+              "id": "a9315ab3a4b79e21d4f0d7641cef97bd",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "空空转千回",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/a9315ab3a4b79e21d4f0d7641cef97bd",
+              "url_token": "meng-lang-liu-nian",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"c1Ve0OjT\">那就重新选呗。</p><p data-pid=\"T1coFSQh\">然后就去干刑侦，跑现场，主方向凶案的犯罪侧写。</p><p data-pid=\"F2gpL5ie\">我能仅通过观察，提取各种不相干信息，串联得到事实真相和回溯过程。</p><p data-pid=\"TQCZTTOa\">变态的心理模拟，我应该都能走一走，不会被“人性”大山，压的不能去客观的想。</p><p data-pid=\"VfP2jEfI\">我本来就是生在光明黑暗中间的人。了解光明的意义，也看得懂黑暗的走向。得天独厚了。</p><p data-pid=\"Jeo56m7x\">现实里，我是一言堂，只说结果和下判断下目标。因为一般人无法理解我的思维方式，也跟不上跳跃性。总会想要以自身狭隘的经验，反推反证：我的不正确。而我只在乎事实正确。</p><p data-pid=\"Kslgb5hW\">常人若看真实的我：疏狂的疯子。我看常人：局限的傻子。</p><p data-pid=\"gGM2vnbw\">日常装傻装同频，磨去心力心气。干刑侦，才最能发挥优势。</p><p data-pid=\"LJtlGYPB\">这种优势，这种逆行，做做商人很合适。可是，这只是命运，不是我要的，终归不得劲。</p><p data-pid=\"JrDjBsYu\">名利享乐，都不是我爱的，无聊所以游戏人生。追究真相，归纳逻辑，预判未来，才是我永恒的乐趣。</p><p data-pid=\"Iczud458\">更重要的是，虚无的人生里，总归得追寻点意义。我只是看着邪门，隐藏起来的内心：想把自己烧出光和热，照亮黑暗。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1749511126,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "那就重新选呗。 然后就去干刑侦，跑现场，主方向凶案的犯罪侧写。 我能仅通过观察，提取各种不相干信息，串联得到事实真相和回溯过程。 变态的心理模拟，我应该都能走一走，不会被“人性”大山，压的不能去客观的想。 我本来就是生在光明黑暗中间的人。了解光明的意义，也看得懂黑暗的走向。得天独厚了。 现实里，我是一言堂，只说结果和下判断下目标。因为一般人无法理解我的思维方式，也跟不上跳跃性。总会想要以自身狭隘的经…",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1915669192583119803",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 赞同 · 4 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1733962133,
+              "id": "6633701964",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果能选择性别，你会重新选择吗？",
+              "type": "question",
+              "updated_time": 1733962133,
+              "url": "https://www.zhihu.com/api/v4/questions/6633701964"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1749511126,
+            "url": "https://www.zhihu.com/api/v4/answers/1915669192583119803",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "3e99de43d29f259ccd4d0876a5963c0d",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464642518605738"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/6633701964/feeds?cursor=3e99de43d29f259ccd4d0876a5963c0d&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464642518605738&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/23932343/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465247566,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/23932343/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/23932343/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人的性别什么时候开始决定的?",
+          "question_type": "normal",
+          "created": 1578156632,
+          "updated_time": 1578156632,
+          "url": "https://www.zhihu.com/api/v4/questions/364724010",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "364724010"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是由心理决定的还是生理决定的？",
+          "question_type": "normal",
+          "created": 1499165145,
+          "updated_time": 1499165145,
+          "url": "https://www.zhihu.com/api/v4/questions/62006373",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "62006373"
+        },
+        {
+          "type": "question",
+          "title": "一个人的性别到底是按照心理决定，还是生理决定？",
+          "question_type": "normal",
+          "created": 1514520452,
+          "updated_time": 1514534545,
+          "url": "https://www.zhihu.com/api/v4/questions/264792721",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "264792721"
+        },
+        {
+          "type": "question",
+          "title": "什么决定了性别?",
+          "question_type": "normal",
+          "created": 1742547933,
+          "updated_time": 1742547933,
+          "url": "https://www.zhihu.com/api/v4/questions/15493833707",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "15493833707"
+        },
+        {
+          "type": "question",
+          "title": "是什么决定了我们的性别？",
+          "question_type": "normal",
+          "created": 1682026283,
+          "updated_time": 1682026283,
+          "url": "https://www.zhihu.com/api/v4/questions/596854722",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "596854722"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2394 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/506172321/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768467720164,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/506172321/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/506172321/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果一觉醒来发现自己变成了相反的性别（包括思维模式），你最想做什么？",
+          "question_type": "normal",
+          "created": 1471600780,
+          "updated_time": 1471600780,
+          "url": "https://www.zhihu.com/api/v4/questions/49792458",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "49792458"
+        },
+        {
+          "type": "question",
+          "title": "如果你是另一种性别，你的人生会是什么样子？",
+          "question_type": "normal",
+          "created": 1716896868,
+          "updated_time": 1746705008,
+          "url": "https://www.zhihu.com/api/v4/questions/657468741",
+          "answer_count": 29,
+          "comment_count": 0,
+          "follower_count": 42,
+          "relationship": {},
+          "id": "657468741"
+        },
+        {
+          "type": "question",
+          "title": "世界上会有另一个性别的同一个自己吗？",
+          "question_type": "normal",
+          "created": 1619451555,
+          "updated_time": 1619451556,
+          "url": "https://www.zhihu.com/api/v4/questions/456739418",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "456739418"
+        },
+        {
+          "type": "question",
+          "title": "什么时候会觉得“如果我是另一种性别就好了”？",
+          "question_type": "normal",
+          "created": 1543333206,
+          "updated_time": 1543333206,
+          "url": "https://www.zhihu.com/api/v4/questions/303876076",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "303876076"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/506172321/feeds?cursor=5c0b432b2aecec95843124da638802e3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768467716655550542&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768467745399,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjXoO/RCCChp67xAZICJQoJNDUxNzUwMzEyEgoyMzE5MTc1NzY3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-a831491166f88125079d14ccdab81362_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-a831491166f88125079d14ccdab81362.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7eb0113df1a3e29ca8fa622aee259bfb_l.png?source=1def8aca",
+                "description": "回答 500 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7eb0113df1a3e29ca8fa622aee259bfb_r.png?source=1def8aca"
+              },
+              "follower_count": 44488,
+              "gender": 1,
+              "headline": "",
+              "id": "2839f0946575b2fab565953200adc76e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Un A",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/2839f0946575b2fab565953200adc76e",
+              "url_token": "un_a23",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 3,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"iFhFNb2c\">不知道。</p><p data-pid=\"5cUD4Jgs\">“不知道”是一种适宜的回答。因为我现在是男性，所以我无法回答我是女性的话会有什么思想变化。</p><p data-pid=\"CFbg1Hcw\">如果我是女性，那我的心理底层就会有另一套择偶机制，这个潜意识对人的影响不小，难以模拟。比如你以为你性转会变成活佛，利好原来的同性，你这其实还是从原来的性别灵魂出发作答。</p><p data-pid=\"tZQ1NjrV\">我即便正面回答这个问题，也有且只有两个路径：</p><p data-pid=\"4Ir-_usU\">一、基于对女性的择偶潜意识的了解，推论和我条件对应的性转版我在同样的土地即中国大陆大概率会有什么样的两性观念和行动。</p><p data-pid=\"MkfrBtqG\">二、从我现在作为具体男性的性格、观念以及男性心理底层普遍的择偶意识出发，换一张女性的皮，得到一个女性的身份，讨论我接下来会怎么做。我可能首先会看和摸自己的裸体，但我依然是我原来的灵魂，我怎么可能会去和男性恋爱呢，也许会成为一个画皮的同性恋，灵魂的异性恋。一旦我的灵魂换成了女性，那我只能给出路径一的回答，或者直接回“不知道”。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1642736062,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不知道。 “不知道”是一种适宜的回答。因为我现在是男性，所以我无法回答我是女性的话会有什么思想变化。 如果我是女性，那我的心理底层就会有另一套择偶机制，这个潜意识对人的影响不小，难以模拟。比如你以为你性转会变成活佛，利好原来的同性，你这其实还是从原来的性别灵魂出发作答。 我即便正面回答这个问题，也有且只有两个路径： 一、基于对女性的择偶潜意识的了解，推论和我条件对应的性转版我在同样的土地即中国大陆大…",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2319175767",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "29 赞同 · 4 收藏 · 3 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1642736319,
+            "url": "https://www.zhihu.com/api/v4/answers/2319175767",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 29
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec954292e5db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxieycHBCCChp67xAZICJQoJNDQ1NTEyMDY3EgoyMjg0ODcyODYyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-0c02b4164ed23b686a53b8315b8d0098_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-0c02b4164ed23b686a53b8315b8d0098.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 6069,
+              "gender": -1,
+              "headline": "我的性别是重型武装直升机",
+              "id": "fe77ca3ca3a1472246af846b92875874",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "夏时",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/fe77ca3ca3a1472246af846b92875874",
+              "url_token": "xia-shi-37-33",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 18,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"E5HDuZXR\">我支持的公平即便男女互换依然没有任何区别。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1640350684,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我支持的公平即便男女互换依然没有任何区别。",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2284872862",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "214 赞同 · 4 收藏 · 18 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 19
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 19,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1640350684,
+            "url": "https://www.zhihu.com/api/v4/answers/2284872862",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 214
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95694285db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjvgLm/CCChp67xAZICJQoJNDQ0NzIzNTI3EgoyMjgwNTM4MjIzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 35,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"uClfWT4P\">思想？不知道诶，但是一直很好奇男人早上沉博是什么感jio，还有那个东东洗澡的时候要怎么洗？听说要翻开？翻哪里？怎么翻？</p><p data-pid=\"PGAjB-pY\">还有还有，以男生的身份doi是什么感jio？</p><p data-pid=\"bkTxr_1s\">听说男人还自带温度计？好奇……</p><p data-pid=\"HfWWXNu1\">（听说的内容都是在知乎看到的，羞耻的匿名惹……）</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1640086031,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "思想？不知道诶，但是一直很好奇男人早上沉博是什么感jio，还有那个东东洗澡的时候要怎么洗？听说要翻开？翻哪里？怎么翻？ 还有还有，以男生的身份doi是什么感jio？ 听说男人还自带温度计？好奇… （听说的内容都是在知乎看到的，羞耻的匿名惹…）",
+            "extras": "",
+            "favlists_count": 15,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2280538223",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "136 赞同 · 15 收藏 · 35 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 22
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 22,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1640086032,
+            "url": "https://www.zhihu.com/api/v4/answers/2280538223",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 136
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95ad4a89db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjAnKzfCCChp67xAZICJQoJNDU2ODg5NjExEgoyMzQ3NDM3NjMyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-24933580652a62f5e5dee92b12fd5432_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-24933580652a62f5e5dee92b12fd5432.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1025,
+              "gender": 0,
+              "headline": "主动回复我后拉黑的人是有多怕我",
+              "id": "91a5aec4661cc6080341202b973dbb0b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "梦醒时分",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/91a5aec4661cc6080341202b973dbb0b",
+              "url_token": "meng-xing-shi-fen-44-81-75",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pic1.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"fp8vKJbZ\">现在是一个挫女，以后会变成老处女，变成男的也是一个挫男，以后会变成老光棍，依旧坚持独居，不过男人独居的话，安全感更强一点，估计也就这点心态上的变化了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1644811505,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "现在是一个挫女，以后会变成老处女，变成男的也是一个挫男，以后会变成老光棍，依旧坚持独居，不过男人独居的话，安全感更强一点，估计也就这点心态上的变化了。",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2347437632",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "26 赞同 · 1 收藏 · 4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 6
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 6,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1644811505,
+            "url": "https://www.zhihu.com/api/v4/answers/2347437632",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 26
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95e12e33da638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjboYLBCCChp67xAZICJQoJNDQ1MzIzNjM1EgoyMjgzODM1NjExGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"QhXqalh_\">以下睡不着意淫：</p><p data-pid=\"wukaCPhn\">大概会活的更有勇气？因为从小受到的耻感教育比较重，例如你是女生不能这样那样或者你还是不是个女的啊，这样的声音。或许人缘会比现在好，因为从小生活在沿海城市，表现欲比较强，但女孩子之间却因为爱好之类没什么好说的，男生大概就可以大大咧咧一起玩。</p><p data-pid=\"08OAfHcn\">但应该还是很细腻的类型，大概经常会因为旁人的话受刺激之类，所以身边应该会有女性朋友，也许我会意淫她们，借着外貌，因为是长相比较秀气的类型。</p><p data-pid=\"rjbduxP9\">无论男女都是家中第一个孩子，所以母亲的要求和教导估计会更严苛，打断鞭子之类…我应该也会更早更激烈反抗，估计会提前学艺术…父亲估计会狠狠揍我，但是也会更多的关照我，那应该对家庭感受到的情感比现在多，也许会有个妹妹转正一下我的性格，如果是弟弟说不定更暴戾。</p><p data-pid=\"cjjZyCXh\">应该内心比较懦弱但是喜欢口嗨，我一直都喜欢骗人和口嗨，身为男生估计更过分一点，应该是在学校油嘴滑舌，在家被暴揍，但一出门又是一条好汉。狐朋狗友众多但是估计还是能有一个良友在身边，心思敏感细腻又喜欢意淫，估计会写点网文，代写情书之类的活计。估计很早就会交女朋友，因为没什么心理压力，但不一定喜欢，只是觉得新鲜有趣。</p><p data-pid=\"uKIty_uU\">受到的赞扬和肯定应该比现在多，作为女孩子写的那些东西，小说文笔之类会受到肯定。应该会去比现在好点的学校，但不会太好，因为该犯的蠢事不会少做。</p><p data-pid=\"FlSRq4HR\">估计会和父亲绝裂，估计会做很出格的事，例如逃学打架，但其实都是中二出风头加蠢，但是父亲一定不能接受。</p><p data-pid=\"8k6hdvLG\">会放大自己的阴暗面，例如对异性的遐想口嗨，估计会在网上键盘。但现实中估计对女性友好温柔体贴，甚至会被当做男闺蜜…本质还是幼稚与别扭。估计会想很多，会emo，但一离床就忘，大部分还是个不过脑晚熟的二五仔，但对比周围的男生已经细腻很多的类型…</p><p data-pid=\"x3V6dvHA\">出校园会渐渐肩负起自己的责任，应该从高中开始女友不断，（因为细腻体贴加会舔）但是不晓得如何待人，应该从高中开始兼职不断…</p><p data-pid=\"oW7tU9-w\">应该从大学开始就给家里人带礼物，毕业度过困难期后慢慢开始赚钱攒钱给家里寄钱，时不时网上口嗨键盘打拳发泄压力。</p><p data-pid=\"PS1uYgL8\">入职一段时间后估计能认识到觉得适合结婚啊类型，相处不错后见家长，然后同居…要么家务都是我做，要么完全不做的大老爷…女方估计是很传统的小女生，对生孩子很顺从，父母估计很喜欢，但其实和我爱好不太相符，婚后不会继续舔人家，但会慢慢承担起自己的责任，养家之类…</p><p data-pid=\"Y7dUZdbs\">会有掌控欲，觉得如此普通的我，老婆说不定会出轨，应该会潜意识pua，内心肯定希望她全职，但微薄工资不支持，所以也只能潜意识pua一下。偶尔会骂人，会刻薄指出对方缺点，女方生气又去哄…</p><p data-pid=\"_6rHapad\">时常觉得自己生活无聊又一地鸡毛…</p><p data-pid=\"gyEtCgV5\">总是口头上说想要个男孩，表面对男孩很感兴趣，但实际上想有个女孩，因为一直不能理解异性，但又希望被受温柔的对待…</p><p data-pid=\"MvcaHNpR\">然后无聊的继续，母亲带孩子，妻子工作，和父亲和解，估计会投资，然后赔掉。</p><p data-pid=\"pOL21Xc2\">然后升为中职员，侥幸不被裁掉，孩子很少管，婚姻出现中年危机，我又是油嘴滑舌的一套</p><p data-pid=\"q7BHe5nf\">估计之后会用心伺候太太，因为自己的生活都无聊，会将重心转移到家庭上，侍奉太太可有可无，但给她一点她就会开心的样子我也会开心</p><p data-pid=\"NfU_5eqI\">如此平淡又有点余味的一生</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1640289838,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "以下睡不着意淫： 大概会活的更有勇气？因为从小受到的耻感教育比较重，例如你是女生不能这样那样或者你还是不是个女的啊，这样的声音。或许人缘会比现在好，因为从小生活在沿海城市，表现欲比较强，但女孩子之间却因为爱好之类没什么好说的，男生大概就可以大大咧咧一起玩。 但应该还是很细腻的类型，大概经常会因为旁人的话受刺激之类，所以身边应该会有女性朋友，也许我会意淫她们，借着外貌，因为是长相比较秀气的类型。 无…",
+            "extras": "",
+            "favlists_count": 5,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2283835611",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "22 赞同 · 5 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 6
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 6,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1640289838,
+            "url": "https://www.zhihu.com/api/v4/answers/2283835611",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 22
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec9599a283db638802e3",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768467716655550542"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/506172321/feeds?cursor=5c0b432b2aecec9599a283db638802e3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768467716655550542&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/506172321/feeds?cursor=5c0b432b2aecec9599a283db638802e3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768467716655550542&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768467762314,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi3+f3TCCChp67xAZICJQoJNDUyNTU3MzA4EgoyMzIzNjEwODA3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-46e4df4ae6cc3aff955bd68b562293dc_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-46e4df4ae6cc3aff955bd68b562293dc.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-288c7ef30025f4cd0862fb187d74914c_l.png?source=1def8aca",
+                "description": "连续答题 5 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-288c7ef30025f4cd0862fb187d74914c_r.png?source=1def8aca"
+              },
+              "follower_count": 609,
+              "gender": -1,
+              "headline": "匆匆忙忙 连滚带爬 哽咽 哭 没出息",
+              "id": "736105e4a9887d7a2085f372df8eab18",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "输了 输麻了",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/736105e4a9887d7a2085f372df8eab18",
+              "url_token": "xiao-dui-chang-qwq",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 52,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"WCWr5JFx\">其实现在我都能体验到这样的生活</p><p data-pid=\"yLChoMUS\">从十几岁开始我就有十几年的女装经验</p><p data-pid=\"YQx-dSn3\">我感觉我更像史莱姆一样的无性别者</p><p data-pid=\"mXE1_2SH\">说实话现在我真不怎么在乎性别与否</p><p data-pid=\"cUHkyDCP\">只要你认真地生活 实际上男性女性一点也不重要 都是普通人 男性可能会多一些事业上的便利 女性可能会多一些生活上的小恩小惠</p><p data-pid=\"EAPOtuZ6\">我的目标就是把男女的优点都好处占尽</p><p data-pid=\"SB4zl6qR\">回顾一下人生感觉自己真的还算普通人里的人生赢家啦</p><p data-pid=\"bEQXxXgp\">很小的时候家里早就帮忙准备好了房子 爸妈能提供一定的经理支持 愿意送我出国深造 我也和我老婆在我法定那天就领证了 小日子还算过的不错</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-dc300701953dd8f4aaf98976fdac38b9_720w.jpg?source=1def8aca\" data-rawwidth=\"796\" data-rawheight=\"783\" data-size=\"normal\" data-original-token=\"v2-7fa130ae1f33442be484a483e6bbb869\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-778b1852b7d3682640b15c5c241f169e_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"796\" data-original=\"https://pic1.zhimg.com/v2-dc300701953dd8f4aaf98976fdac38b9_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;796&#39; height=&#39;783&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"796\" data-rawheight=\"783\" data-size=\"normal\" data-original-token=\"v2-7fa130ae1f33442be484a483e6bbb869\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-778b1852b7d3682640b15c5c241f169e_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"796\" data-original=\"https://pic1.zhimg.com/v2-dc300701953dd8f4aaf98976fdac38b9_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-dc300701953dd8f4aaf98976fdac38b9_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"yNDeBT_5\">平常私底下和老婆一起生活的时候我都是这个形象</p><p data-pid=\"bKVeq9qh\">然后工作的时候我就会打扮的人模狗样 然后戴个帅气的男生假发 经营一个阳光少年的人设</p><p data-pid=\"Kb03q5Hy\">仿佛人生有两个账号一样</p><p data-pid=\"FbKjzDla\">今天醒来 根据要办的事决定今天要登男号还是女号</p><p data-pid=\"iASR7M-_\">两种身份我都不讨厌我都能做好自己</p><p data-pid=\"8Qbl_EQI\">我享受作为男生经营事业的感觉也享受跟老婆一起双子的幸福生活</p><p data-pid=\"qRZ6aQoc\">家里三坑衣服加起来都有110多套 大部分是lo 十几条是制服 汉服只有1条 我超喜欢长款卫衣的</p><p data-pid=\"_m8PhhwJ\">所有衣服我都能和老婆一起穿 除了我鞋码比她大1-1.5码以外</p><p data-pid=\"Tp4mzdq4\">还算挺幸福的一个生活状态</p><p data-pid=\"NE8jm5kW\">知足了</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1643033067,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "其实现在我都能体验到这样的生活 从十几岁开始我就有十几年的女装经验 我感觉我更像史莱姆一样的无性别者 说实话现在我真不怎么在乎性别与否 只要你认真地生活 实际上男性女性一点也不重要 都是普通人 男性可能会多一些事业上的便利 女性可能会多一些生活上的小恩小惠 我的目标就是把男女的优点都好处占尽 回顾一下人生感觉自己真的还算普通人里的人生赢家啦 很小的时候家里早就帮忙准备好了房子 爸妈能提供一定的经理支持 愿意…",
+            "extras": "",
+            "favlists_count": 116,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2323610807",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "139 赞同 · 116 收藏 · 52 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 4,
+                "like_count": 37
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 37,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 783,
+                  "token": "v2-7fa130ae1f33442be484a483e6bbb869",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-7fa130ae1f33442be484a483e6bbb869_720w.jpg?source=1def8aca",
+                  "width": 796
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1643033368,
+            "url": "https://www.zhihu.com/api/v4/answers/2323610807",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 139
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec9516c2f1db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjfw8TaCCChp67xAZICJQoJNDU1MDU1MDY3EgoyMzM3MzUwMTExGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-0212977be2782e3a9f6032377c88ac17_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-0212977be2782e3a9f6032377c88ac17.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-a35006ac1ae6b29f342ccbcfdb15fcf7_l.png?source=1def8aca",
+                "description": "获得 100000 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-a35006ac1ae6b29f342ccbcfdb15fcf7_r.png?source=1def8aca"
+              },
+              "follower_count": 43692,
+              "gender": 0,
+              "headline": "探索自我，追求幸福。",
+              "id": "eb62e349f0b179d3fcd08709041ea841",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "泺芅",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/eb62e349f0b179d3fcd08709041ea841",
+              "url_token": "luo-yi-0407",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 169,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"tGfnz6Zz\">变成男人么？</p><p data-pid=\"FSpNXknQ\">如果其他各项都维持现状的话……</p><p data-pid=\"iAh0_X-H\">压力更大，懒得结婚。</p><p data-pid=\"qqw5BW9t\">撩骚约p解决性需求时无下限，但是贤者模式会觉得女的事多，烦，赶紧一边呆着。</p><p data-pid=\"oMIJprUQ\">专心搞钱，专心搞关系，专心抱大腿。</p><p data-pid=\"mbhhU0lu\">想有一个自己的孩子，但一想要结婚，又不那么想要。</p><p data-pid=\"BeuIKitd\">不想共情敏感，体弱，遇事喜欢咋咋呼呼的女人，觉得共情这些女人的男人都是舔。厌恶一切成年人嘤嘤嘤的行为，认为那是道德绑架。</p><p data-pid=\"ad7tdGV-\">坚持平权一百年不动摇。但举目四望值得敬佩的女性没几个，所以该打拳时重拳出击，不惯着。</p><p data-pid=\"4Jv0_qUd\">永恒孤独，不信任可以和任何人敞开心扉。</p><p data-pid=\"pJoKfJvF\">兄弟间谈性，政治，历史，吹逼，瞎扯，侃黄段子，喝大酒，抽华子。但心事一句都不说。</p><p data-pid=\"Z_wIfJen\">懒得和没经历过现实毒打的小姑娘扯“真空球形鸡”的破问题。</p><p data-pid=\"E0rlT1Dy\">实用主义技能拉满，对情绪价值不屑一顾，对仪式感嗤之以鼻。</p><p data-pid=\"5mD-XMIe\">对父母感情复杂，挣扎在为自己活vs为父母过的桎梏中，无法解脱。</p><p data-pid=\"5s28si3O\">如果说出口的脆弱会变成软肋，那就努力做一个真的强者，大概率工作狂，没事时健身。</p><p data-pid=\"vE4zxAG0\">希望另一半是能够和自己有精神共鸣的健全女性，但并不抱有希望。</p><p data-pid=\"bfV6LBan\">远离处女，花瓶，捞女，借钱不还的亲友。</p><p data-pid=\"ux6jwCCA\">希望做一个女人。</p><p data-pid=\"mYbg8dIq\">————第一次更新</p><p data-pid=\"JmRLYToS\">这个答案确实引起了很多误解。我还是简单解释一下吧。免得评论区天天挨两边骂。</p><p data-pid=\"lFLBxuNz\">我说一下我的答案是基于，在当前情况下，我突然一夜醒来发现自己变男人了，我的心态变化。</p><p data-pid=\"hQvqaIjd\">我当前是城市家庭独生女，211，容貌在同性的异性眼中评价是美女，亮眼，但我自己知道我长得非常非常非常普通的，化了妆打扮一下可以见人，气质和气场是加分项。从大学到结婚前，追求我的异性一直都有，同性也有两三个。</p><p data-pid=\"Y3z7ixkc\">所以我性转后依然会在意容貌，化妆手法加持，衣品审美加持，表达能力，沟通能力加持，我对于恋爱，撩妹，没有什么压力。唯一悬念的其实是生殖器的尺寸和耐力值，但以我作为女性时分泌的雄激素含量及性需求及性技能推断，性转后这方面应该只会有优势。</p><p data-pid=\"mFIKsxT-\">身高对标男性大概是175，体重对标男性应该是130-140。身材对标男性是匀称，因为有容貌焦虑，所以性转也会有毅力保持好身材。</p><p data-pid=\"CX4r4GRr\">工作稳定且收入不低，性转后对标男性，此标准依然不低。对工作热爱程度高，责任心强，能力优异，评奖评优多，与同事人际关系佳，管理能力较强，性转后，大概率会晋升至管理中层以上。</p><p data-pid=\"1-sLlMJD\">名下有核心城市老破小一套，老家省会大平层一套，小破代步车，固定资产一点点。父母拿体制内退休金，存款较丰富。对标男性此标准大概是中产入门段位。性转后，父母大概率会助力我把老破小升级一波。</p><p data-pid=\"WIY_f_ha\">生活独立，有一定的生活情趣，轻微洁癖，交友需求不高，独处愉悦，热爱读书、写作、思考，沟通能力强，认知共情与情感共情均丰富且敏锐，对被理解有较强需求。性转后，大概率丧失一部分情感共情能力，丧失一大部分“被理解”的需求。但要为了性需求得到满足，运用认知共情和强沟通力，适当提供情绪价值，属于手到擒来的小事。</p><p data-pid=\"nh1xA6w0\">当前已结婚，夫妻感情很好，核心需求“被理解”能被满足75%。性转后，对“被理解”的需求因为社会环境而极致压缩，且对于能理解自身的异性真实存在性存疑，因而丧失婚恋动力。</p><p data-pid=\"t5-wfQZw\">当前对生育有充分的自主权，生育焦虑和恐惧逐渐消散，繁衍本能和教养意愿比较强，但对教养合作者还在评估当中。性转后，对生育没有自主权，没有生育焦虑和繁衍本能，教养意愿强烈，但对合格教养合作者的真实存在性存疑。因而陷入矛盾。</p><p data-pid=\"4KcDe8iD\">当前对于两性平权非常重视，认为所有独立女性都值得尊敬。关注点落在女性人权的切实保障层面。性转后，对两性平权非常重视，但并不在意推动女性事业的杰出贡献者，更推崇对人类发现做出进步的贡献者，无论男女。而女性人权，我不侵害，支持女性平权发展，但也没啥动力去推动其发展。更关注男性的自身发展，男性人权不被剥削和打压。</p><p data-pid=\"_Hp9u-k8\">当前会远离一切只会阴阳怪气，不思进取，负能量爆棚，满心算计，思维认知狭隘的男性。性转后会远离一切拎不清的女性需求怪。</p><p data-pid=\"R13uYmc5\">当前，不需要男性提供情绪价值，除了和伴侣交流会粘腻撒娇，清楚追求仪式感是在代偿安全感的缺失，所以兴趣不大，有也挺开心。性转后，情绪被藏匿更深，抗压能力更强，自然对情绪价值不屑一顾，知道追求仪式感的都是没在安全感缺乏，所以没有强动力去取悦此类女性。</p><p data-pid=\"klYDBCtO\">我做女性是个俗人，当男性还是个俗人。为什么说我还是想当女性？虽然我丧失了一部分的晋升机会（可能）。但是我更不容易感受到孤独。</p><p data-pid=\"EqTqJsur\">当前的社会其实对“独立男性”是很不友好的。一个“独立男性”要比“独立女性”背负更大的压力，面对更深层次的捆绑。他们的情绪更容易被藏匿，他们更不容易信任他人，他们更孤独，更不容易被真实的看到和接纳。他们的恐惧与存在和价值感绑定的更紧密。</p><p data-pid=\"AhqWmuaU\">所以性转后的“独立男性”注定比“独立女性”更孤独。“独立女性”之间还可以报团取暖，“独立男性”只能孤军奋战。</p><p data-pid=\"jJ4WC9Yc\">男性之间的竞争和角逐更强烈，独立男性的内心世界更封闭，对外在的恐惧感更深，对社会赋予的一切“优待”也都是压力和束缚——全社会都用更多的资源投资男性，所以男性更有责任要为社会贡献更多的价值——也就更难以逃脱这种捆绑。</p><p data-pid=\"6uXgj5rq\">男性的压力是女性很难承担的，男性的恐惧也是女性很难感同身受的。所以如果性转，那抱歉，我还是更想当一个可以哭，可以撒娇，可以倾诉，可以表达真实的喜怒哀乐而没有任何压力和恐惧的女人。</p><p data-pid=\"q-CF1hmF\">女性接纳女性的情绪表达，因为女性在这方面的能力是更优异的；而男性对男性的情绪表达，是回避的，因为男性自身也都没有能力解决这些问题。所以男性的报团取暖更多是行动支持，而非精神支撑。</p><p data-pid=\"PcA5qsQc\">当我作为一个不需要太多行动支持的女性时，我在同性中能找到更多的精神支撑。但若性转。我只能自己扛。</p><p data-pid=\"BayWnhAC\">为了让自己真实的开心且长命。在其他条件相同的情况下，我当然想做一个女人。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1644169971,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "变成男人么？ 如果其他各项都维持现状的话… 压力更大，懒得结婚。 撩骚约p解决性需求时无下限，但是贤者模式会觉得女的事多，烦，赶紧一边呆着。 专心搞钱，专心搞关系，专心抱大腿。 想有一个自己的孩子，但一想要结婚，又不那么想要。 不想共情敏感，体弱，遇事喜欢咋咋呼呼的女人，觉得共情这些女人的男人都是舔。厌恶一切成年人嘤嘤嘤的行为，认为那是道德绑架。 坚持平权一百年不动摇。但举目四望值得敬佩的女性没几个，…",
+            "extras": "",
+            "favlists_count": 83,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2337350111",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "171 赞同 · 83 收藏 · 169 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 26,
+                "like_count": 42
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 42,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1646937079,
+            "url": "https://www.zhihu.com/api/v4/answers/2337350111",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 171
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95312d17da638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi5gubKCCChp67xAZICJQoJNDQ5MDUzNDY3EgoyMzA0MzQ0Mzc3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 16,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"j8fsa8Zw\">比现在更冷淡。</p><p data-pid=\"TXAi3lQD\">我之所以厌恶重男轻女或者是传统观念，并且厌恶有月经和生育能力，是因为我是女的为此深受其害。所以我才会反对重男轻女，反对不公平的言论与现象。</p><p data-pid=\"ML0GIspP\">如果我是男的，目前厌恶的事情一概不会发生，不用每个月大姨妈，也不用面对关于女性的畸形思想与言论，那么，我对于重男轻女以及不公平的言论可能并不会感同身受，比起替女性设身处地思考这个社会不公平更不如思考如何让自己快乐或者是赚到更多的钱。</p><p data-pid=\"SLQa3tGx\">还有，我不确定，我要是个男的会不会私生活混乱。</p><p data-pid=\"jDrdr1M7\">我目前老实巴交连初吻都没给出去的现状就是衡量了性生活带给我的收益与风险比例的出来的结果。性生活只会带给我一时的快乐，但是会增加性病，传染病，怀孕和增大社会歧视的风险。我思考了下不合算，甚至是考虑切除子宫或者是出家当个尼姑。如果不出意外，我希望保持处女身份到死。</p><p data-pid=\"PnC6YkWl\">但是如果我是男性，那么性生活带给快乐，后果只有性病与传染病，只要不随意约，性伴侣干净，性生活不高危，并且还能用套隔绝病毒。性生活并不会导致我怀孕以及被社会歧视，现在有相当一部分人觉得男的嫖娼大保健很正常更别提只是多谈了几个女朋友多睡了几个干净的小姑娘了，甚至是有些人看来兄弟你n啊，睡的越多越光荣这种思想也不是没有。</p><p data-pid=\"6HvSi5MK\">我的道德水准在无什么严重后果（或者是严重后果风险很小）的情况下怕是不能很好的约束自己私生活干干净净。</p><p data-pid=\"bl5mGMiM\">当然，如果能重活一次，我希望我在受精卵时期就自然流掉，如果可以，不论是男是女，让我从头到尾都不存在就好。</p><p data-pid=\"CU_ZPgox\">我一想到我还得在这个世界辛辛苦苦活个几十年，我就发自内心的惆怅。</p><p data-pid=\"FgRweqHL\">想死怕疼，也怕家里没人管，更怕白发人送黑发人。</p><p data-pid=\"uIm7tDVa\">要是这个世界死亡能随思想控制，我已经死了上百次了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1641743226,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "比现在更冷淡。 我之所以厌恶重男轻女或者是传统观念，并且厌恶有月经和生育能力，是因为我是女的为此深受其害。所以我才会反对重男轻女，反对不公平的言论与现象。 如果我是男的，目前厌恶的事情一概不会发生，不用每个月大姨妈，也不用面对关于女性的畸形思想与言论，那么，我对于重男轻女以及不公平的言论可能并不会感同身受，比起替女性设身处地思考这个社会不公平更不如思考如何让自己快乐或者是赚到更多的钱。 还有，我不…",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2304344377",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "25 赞同 · 4 收藏 · 16 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 5
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 5,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1641743226,
+            "url": "https://www.zhihu.com/api/v4/answers/2304344377",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 25
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95f1b8ccdb638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiFurC7CCChp67xAZICJQoJNDQzMTczMjA3EgoyMjcyMDA5NDc3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-3d05910328c2bbfb29b90ac8e015be38_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-3d05910328c2bbfb29b90ac8e015be38.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 98,
+              "gender": 1,
+              "headline": "你所谓的黎明很有可能会到来",
+              "id": "9242615b96671802f49a29d4af015b17",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "后硬壳生物启示录",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9242615b96671802f49a29d4af015b17",
+              "url_token": "shan-ling-shan-ling-20",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 8,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"mfzlovPK\">会成为一个正常人，而不是现在妄想改造身体的异类</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1639552336,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "会成为一个正常人，而不是现在妄想改造身体的异类",
+            "extras": "",
+            "favlists_count": 3,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2272009477",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "47 赞同 · 3 收藏 · 8 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 6
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 6,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1639552336,
+            "url": "https://www.zhihu.com/api/v4/answers/2272009477",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 47
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95bdf262db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxipzsfACCChp67xAZICJQoJNDQ1MTQ5MTM1EgoyMjgyODc0NjY1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-f29a52eb9d4677bafe8ac292e7819830_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-f29a52eb9d4677bafe8ac292e7819830.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 184,
+              "gender": 1,
+              "headline": "我按自己知道的推导得出结果，你不认同，以为说服我就能改变。",
+              "id": "267988a162f4b8fefba7d8cb1d7b9adf",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "没有感情",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/267988a162f4b8fefba7d8cb1d7b9adf",
+              "url_token": "lolitaqueen",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"maO-kKFe\">像小时候一样长大，不会改变。我小时候野到男孩的父母都害怕。</p><p data-pid=\"tzd4nyLq\">由于性别的关系，我的成长过程就是每个人都在压抑我的天性，教育我怎么当一个女孩。</p><p data-pid=\"Syd79F1z\">而我现在只想说，放 你 娘 的 屁。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1640236711,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "像小时候一样长大，不会改变。我小时候野到男孩的父母都害怕。 由于性别的关系，我的成长过程就是每个人都在压抑我的天性，教育我怎么当一个女孩。 而我现在只想说，放 你 娘 的 屁。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2282874665",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "19 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1640236711,
+            "url": "https://www.zhihu.com/api/v4/answers/2282874665",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 19
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec9525d480db638802e3",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768467716655550542"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/506172321/feeds?cursor=5c0b432b2aecec9525d480db638802e3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768467716655550542&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/506172321/feeds?cursor=5c0b432b2aecec9525d480db638802e3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768467716655550542&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768467786181,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjm58C8CCChp67xAZICJQoJNDQzNjAzMDA4EgoyMjc0Mzc0NjMwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 6,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"fG0ZY0Vl\">不会有变化的，因为我是跨性别，本应就是另一个性别(不同于指派性别)</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1639677501,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不会有变化的，因为我是跨性别，本应就是另一个性别(不同于指派性别)",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2274374630",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "55 赞同 · 6 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 4,
+                "like_count": 6
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 6,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1639677501,
+            "url": "https://www.zhihu.com/api/v4/answers/2274374630",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 55
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95aa6378db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiI1dHVCCChp67xAZICJQoJNDUzMTg3MTU4EgoyMzI3MDc5NTYwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-3158a397af95fb9a33e78884b9e6ea08_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-3158a397af95fb9a33e78884b9e6ea08.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-2666990ba7084b9cdaebb1d9a09bd586_l.png?source=1def8aca",
+                "description": "「在乎过大年」活动纪念徽章",
+                "medal_avatar_frame": "",
+                "medal_id": "1877327423126786050",
+                "medal_name": "在乎过大年 2025",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-2666990ba7084b9cdaebb1d9a09bd586_r.png?source=1def8aca"
+              },
+              "follower_count": 81,
+              "gender": -1,
+              "headline": "",
+              "id": "e1ad03245ba64fe5a429a5a7f00b420a",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "晨曦",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e1ad03245ba64fe5a429a5a7f00b420a",
+              "url_token": "qing-feng-ming-yue-61-38",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pica.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pica.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"cwGbk37s\">    我认为我不会发生思想变化，本人性别女，如果转换成男性我现在内心深处的想法刚好可以适应男性的身份。</p><p data-pid=\"xzqmhM7Y\">   虽然我是一个女孩，从小到大父母亲也是按照女孩的方式教育我，但我一直都不以为然，我觉得男女都一样，都是人，不应该过多的进行区别对待，比如他们说女孩子最终还是要结婚的，不用太拼，嫁得好才是真的好，我对此嗤之以鼻，怎么能把自己的人生寄托在别人身上呢？我一定要靠自己过上想要的生活，但我不能说，说了没有人会认为你是对的，反而会进行说教，还不如深藏内心。还有我是一个有责任心的人，你可能会觉得我是在自夸，但这是真的，我不会逃避自己该负的责任，哪怕是集体的责任，更不会借女性的身份来逃避，如果这样做就是对自己的侮辱，是自甘弱势。最后还有一点，我的兴趣爱好和一些日常生活方式，我不喜欢看情情爱爱的影视剧和综艺，也不喜欢言情小说，反而是看央视看得比较多，更喜欢历史，法律，地理这些。日常生活也是比较简单，说句笑话，我从没有化过妆，每天就是把个人卫生做好，干净整洁就可以，全身的衣物不超过三种颜色，总之我不是个特别爱美的人。最后还想说一点，就是我对于一些女孩的做法和想法也是真的搞不懂甚至是反感，比如说话发嗲，就不能大大方方地说吗？出个门要弄那么久，把头发扎好，衣服弄整齐不就可以了吗？还有就是搞孤立和针对，真的太拉低自己的层次了，还自以为很厉害是合群。</p><p data-pid=\"LwfaoWLF\">   所以我觉得转换性别我也能很快适应，因为我本来就是以人的要求要求自己，而不是女人，算是思想比较中性吧！</p><p data-pid=\"iG9-gX2A\">   没想到我的这个回答还有人追更，说实话我也不知道怎么更新，今天我就用这个修改回答进行更新吧！</p><p data-pid=\"GAhHj3R7\">   之前我是说到我的思想比较中性，可能会有人觉得思想中性没有什么问题，外貌别中性就行，但事实没有这么简单。因为这些想法，我其实和我周围的同龄女孩格格不入，只是我平时不太和人交流，也不轻易发表一些看法，所以才没有明显的表现出来。前面我也说过对于一些女孩子的做法和想法我是真的无法理解，特别是最近这段时间，我发现我和她们真的有很大的区别，而我应该是那个不正常的女孩。</p><p data-pid=\"zxPnTETs\">    现在还是新春佳节，很多人都趁此机会约上三五好友相聚，我也不能免俗。前天我和同学约好在我们附近的一个景点相聚，一确定下来我穿了件衣服就出发了，然后我在那里等了好久我的朋友才到，原来她在出来之前洗了头，化了妆，春节还特地做了头发，反观我，真的是不知道怎么说好，虽说也干净整洁，精气神也还好，但发型就是万年不变的高马尾，还有素颜。不过这就是我的本性，我就是崇尚自然美，我就是喜欢素净，真的是无法改变，哦！还有一个原因，有点懒。这还只是在个人的打扮上的，都已经显得我是个怪胎了。</p><p data-pid=\"YA1IxUoR\">   今天就更到这里吧！有人看再更。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1643271970,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我认为我不会发生思想变化，本人性别女，如果转换成男性我现在内心深处的想法刚好可以适应男性的身份。 虽然我是一个女孩，从小到大父母亲也是按照女孩的方式教育我，但我一直都不以为然，我觉得男女都一样，都是人，不应该过多的进行区别对待，比如他们说女孩子最终还是要结婚的，不用太拼，嫁得好才是真的好，我对此嗤之以鼻，怎么能把自己的人生寄托在别人身上呢？我一定要靠自己过上想要的生活，但我不能说，说了没有人会认…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2327079560",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "16 赞同 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1644150942,
+            "url": "https://www.zhihu.com/api/v4/answers/2327079560",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 16
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95bcad0bda638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjf+dnfCCChp67xAZICJQoJNDU3MDI1OTA3EgoyMzQ4MTg2ODQ3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-ab7ea2f1440ff5cc67adb23774c9d929_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-ab7ea2f1440ff5cc67adb23774c9d929.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-9251b676c9f4283fdc5e04261a7e534f_l.png?source=1def8aca",
+                "description": "「向科学要答案 2022」活动期间，首次为相关领域下的优质黄标内容送出赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "1502699219463389184",
+                "medal_name": "点赞科学 2022",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-9251b676c9f4283fdc5e04261a7e534f_r.png?source=1def8aca"
+              },
+              "follower_count": 9244,
+              "gender": -1,
+              "headline": "",
+              "id": "25d987c68ea6354e8f690322bc9a4686",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "TravailleursNuit",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/25d987c68ea6354e8f690322bc9a4686",
+              "url_token": "pinelliaternata",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pic1.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://picx.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"EoZxS7kc\">我认为不同生理性别之间不会有任何非生物学的差别。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"h8uwrFHT\">所以，没有。</p><hr/><p data-pid=\"g7FEss3v\">我不是很明白为什么有些人觉得人的思想都会偏向自己的身份和利益，在我眼里理性应该是一种跨平台的东西。</p><p data-pid=\"YFOnocnP\">打个比方吧，假如有一个强人工智能，他会在Windows上运行的时候就主张打倒Linux，在Linux上运行的时候就主张打倒Windows吗？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1644844069,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我认为不同生理性别之间不会有任何非生物学的差别。 所以，没有。 我不是很明白为什么有些人觉得人的思想都会偏向自己的身份和利益，在我眼里理性应该是一种跨平台的东西。 打个比方吧，假如有一个强人工智能，他会在Windows上运行的时候就主张打倒Linux，在Linux上运行的时候就主张打倒Windows吗？",
+            "extras": "",
+            "favlists_count": 3,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2348186847",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "15 赞同 · 3 收藏 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1644845573,
+            "url": "https://www.zhihu.com/api/v4/answers/2348186847",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 15
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec95991235da638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiEqNvRCCChp67xAZICJQoJNDUxNjkwNjIyEgoyMzE4ODQ5MDI4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-2fdbab166322f1bd151174a1d5e144c5_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-2fdbab166322f1bd151174a1d5e144c5.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 107372,
+              "gender": -1,
+              "headline": "一团粉云",
+              "id": "58c0af741272a44c43145c88310894cc",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "心安乃近",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/58c0af741272a44c43145c88310894cc",
+              "url_token": "ye-jin-22-14",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 10,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"BhP_1JgZ\">如果我是男生，恰巧长得很好看的话，不介意去当这个世界上最为稀缺的男菩萨。不是为了满足自己欲望大肆选妃的那种，也不是不负责任随便播种的那种。而是任何一位社恐/自闭（社牛我担心不能同等回馈热情先婉拒了）又颜控的单身成年人想看“男版我”穿什么衣服拍什么姿势的照片，只要不涉及露点/伤害任何人或动物/政治领域，无论是男装还是女装，奇装异服还是日常服装，男版我都可以视心情免费拍给她或者他看，同时不会要求对方与自己交换照片，也不需要对方陪我聊天。只要对我说一句“好人一生平安”，同时提供场景和道具，就乐意远距离满足她/他对于美好男性的一切幻想。我不需要对方的钱不需要对方的前途不需要对方的爱也不需要对方对我负责，我是自由的。</p><p data-pid=\"a239gNoa\">女性身份时不会想这样，一方面是不想卷，了解喜欢无偿分享美照换取被赞美的靓女本来就比帅哥多太多；另一方面是考虑到公序良俗问题，多数人会觉得女菩萨伤风败俗，但没什么人和男菩萨过不去。</p><p data-pid=\"OV38siod\">如果我是男生，长相很普通的话，就去当一个共情能力高于男性平均的暖男，对待人间疾苦雨露均沾。我不会去共情任何抽象的群体，包括大众群体和小众群体，我只共情具体的人，而且必须是对自己无恶意的人。</p><p data-pid=\"FrkCc7Aw\">我的本质依然是一个逻辑人，共情群体容易带偏自身逻辑，消耗自身热情，甚至对男性群体失望。共情对自己无恶意个体既对自身有助力，也不会影响自己对世界的客观认知。</p><p data-pid=\"S5AZROBa\">我不搞什么雄性竞争，还会对和我一样敏感体弱社恐的男生充满同理心，虽然我不能靠个人努力去改变他的命运，但只要他不嫌弃我躺平，我就愿意用好哥们的身份给他一个大大的拥抱，把我的汤羹分他一杯，不在意被所有人嘲讽我和他同样废物；我也不歧视其他男生眼中的“坦克”/“奇趣蛋”，只要她不嘲笑我普通自信，我就愿意用男性的身份去保护没有其他男生保护的女生，去发掘和肯定她身上的闪光点，陪伴和鼓励她与我一同成长。虽然男性里面的确有到处约炮的，但我不认为自己成为相貌平平的男性以后，能轻易约到妹子还能脱身，更有可能是成为妹子发泄私人情感的聊天树洞或者情绪垃圾桶～而且当妇女之友，也不容易得到女神的芳心，女神缺情绪价值吗？还不如找一个看似普通却懂得有来有往的女生给她提供情感支持。</p><p data-pid=\"16gkYEyV\">我很喜欢王尔德的童话《快乐王子》，“快乐王子”和来自外星的“小王子”同样珍贵，他的快乐就是看到普通人因为他获得快乐。</p><p data-pid=\"HXL4yPve\">女性身份时，家人能接受并肯定我帮助困境中的女性与儿童，无论以帮助“弱势群体”的名义还是直接帮助具体的人都可以。但若是差距较大的男性，只要是具体的人而不是抽象的“弱势群体”，无论未婚还是已婚，则让我不要多聊天，别单独见面，以免被人误会纠缠。若本人是男性，无论是与酒鬼小酌，还是与三和大神露宿，均可当做不一样的体验，据说男性交友跨阶层的情况更为普遍。女性身份时，看到缺爱的女生贪图片刻的温暖被渣被骗，内心不是滋味却被认为站着说话不腰疼，是男生的话，就能够直接提供给她想要的肩膀靠一下，避免低谷期饮鸩止渴的情况发生。</p><p data-pid=\"K_c5SKAL\">其实我最初的设想是，如果我是男孩子，那么在18岁以前，会去挑衅态度嚣张的盲流子打一架，踢足球时用力把对手铲倒在地，对着羞涩的小美女吹口哨，在高速公路上飙车摁喇叭。结果参考了一下性格和爱好与我高度相似的intp+ADHDer同龄男生们，发现我之前幻想的事情他们一条也没做，intp男走路时会低调谦和的和小混混打招呼，回避剧烈的对抗运动，不开快车，看到漂亮文静的女生会不好意思开口，反而是做过一些我意想不到的事情，包括且不限于弄了个夸夸群日常卖萌，在网上假扮女生给游戏队友发黑丝照片，研究怎么变好看怎么穿衣服，扮暖男安慰失业的男生和失恋的女生，学高雅的古典乐器等等。正如现实中受尊重的女生通常较为独立，能控制需求感，不会太作太粘人一样；聪明的男生，也了解能让人群喜爱要比只图一时痛快争高下出风头利己不损人，懂得克制本能和冲动，这就是理性。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1642707476,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "如果我是男生，恰巧长得很好看的话，不介意去当这个世界上最为稀缺的男菩萨。不是为了满足自己欲望大肆选妃的那种，也不是不负责任随便播种的那种。而是任何一位社恐/自闭（社牛我担心不能同等回馈热情先婉拒了）又颜控的单身成年人想看“男版我”穿什么衣服拍什么姿势的照片，只要不涉及露点/伤害任何人或动物/政治领域，无论是男装还是女装，奇装异服还是日常服装，男版我都可以视心情免费拍给她或者他看，同时不会要求对方与…",
+            "extras": "",
+            "favlists_count": 16,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2318849028",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "41 赞同 · 16 收藏 · 10 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 7,
+                "like_count": 11
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": true,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": "真诚赞赏，手留余香"
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 11,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1644463056,
+            "url": "https://www.zhihu.com/api/v4/answers/2318849028",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 41
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec9594fbe4db638802e3",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxijuN22CSChp67xAZICJQoJNDkwMjEwMTQ3EgoyNTMwNjk2MjI3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 39,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"EdmWK446\">目前性别女性。不知道什么时候开始，我对可能威胁到我的活物都持警惕状态，比如14岁以上男性，小狗之类。即使这个男性看起来非常人畜无害，这条小狗非常弱小可爱。我都不会去和他们单独相处或者靠近他们。</p><p data-pid=\"_uJ6Xnnd\">为了避免遭遇这种危险从大学开始健身，短跑，但是安全感依然不足，对男性的力量感到羡慕又无力。</p><p data-pid=\"Mp9jsPGq\">如果转变成男性可能这种危机感会减弱，但是我依然会投身健身房变成大肌霸。同时由于男性视角，我会对女性在非力量层面的危险有更高的警惕。（逛微博的时候就感觉到了，每次一出社会新闻，女性用户们言语中的情绪仿佛都要破屏而出，这种情绪力量也很强。）</p><p data-pid=\"VhZKmN5f\">这种危机感同样影响到我对性的认知。虽然我对外表身材偏向男性化或是女性化的男人都能产生一定性趣，但是出于力量上的不自信，和从小接触的文化上的影响，让我觉得男女的ml方式属于男性掌握权力的ml方式，而我不能接受被征服的状态，这种状态，我想，应该跟直男害怕男酮的心理类似。</p><p data-pid=\"3dLD4xIM\"> 不过奇怪的是，我完全能接受和女性ml时作为受方的角色，即使对方和生物书肌肉女王一样强壮。这种心态，可能是我本能的不愿意被权力压迫，而我所认为的权力实行者为男性有关。可悲的是，我的内心对成为权力实行者完全不排斥，所以我能也只能与男性进行第四爱的ml方式。虽然我的价值观告诉我不能去征服任何一个人，但是心灵的另一部分却完全背叛了价值观。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1655316651,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "目前性别女性。不知道什么时候开始，我对可能威胁到我的活物都持警惕状态，比如14岁以上男性，小狗之类。即使这个男性看起来非常人畜无害，这条小狗非常弱小可爱。我都不会去和他们单独相处或者靠近他们。 为了避免遭遇这种危险从大学开始健身，短跑，但是安全感依然不足，对男性的力量感到羡慕又无力。 如果转变成男性可能这种危机感会减弱，但是我依然会投身健身房变成大肌霸。同时由于男性视角，我会对女性在非力量层面的危险…",
+            "extras": "",
+            "favlists_count": 5,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2530696227",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "16 赞同 · 5 收藏 · 39 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1639539950,
+              "id": "506172321",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你是另外一个性别你会发生什么思想变化？",
+              "type": "question",
+              "updated_time": 1639539950,
+              "url": "https://www.zhihu.com/api/v4/questions/506172321"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1655316651,
+            "url": "https://www.zhihu.com/api/v4/answers/2530696227",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 16
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5c0b432b2aecec9589b830dc638802e3",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768467716655550542"
+      },
+      "paging": {
+        "page": 4,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/506172321/feeds?cursor=5c0b432b2aecec9589b830dc638802e3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=4&order=default&platform=desktop&session_id=1768467716655550542&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

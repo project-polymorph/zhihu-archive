@@ -1,0 +1,1196 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/330155561/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464298755,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/330155561/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/330155561/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果男女之外存在第三种性别会如何？或者说，为什么只有男女两种性别？",
+          "question_type": "normal",
+          "created": 1556063828,
+          "updated_time": 1556063828,
+          "url": "https://www.zhihu.com/api/v4/questions/321456640",
+          "answer_count": 5,
+          "comment_count": 1,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "321456640"
+        },
+        {
+          "type": "question",
+          "title": "如果性别不是区分男女的标准，哪我们怎么处理彼此的关系?",
+          "question_type": "normal",
+          "created": 1665214106,
+          "updated_time": 1665214106,
+          "url": "https://www.zhihu.com/api/v4/questions/558204546",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "558204546"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类会有男女性别之分?",
+          "question_type": "normal",
+          "created": 1449760461,
+          "updated_time": 1449760461,
+          "url": "https://www.zhihu.com/api/v4/questions/38399169",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "38399169"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/330155561/feeds?cursor=67b48e13e4be8643a47931c82e5b4189&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768464295752878833&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464298881,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj44tfXAiCpjLedAZICJAoJMTYxMTE1NDczEgk3MjA3NjEyMDgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 609,
+              "gender": 0,
+              "headline": "",
+              "id": "f83b49b80de5c26e44f0ad93cd093215",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "知乎用户wO4912",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/f83b49b80de5c26e44f0ad93cd093215",
+              "url_token": "Kal-El666",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"xFpEmAQJ\">因为一切生物的生存本质都是为了繁衍。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"m4ZKO9jO\">至于第三性等乱七八糟的事儿，</p><p data-pid=\"cVvx5llP\">都是人类有了高级思维后的非生物性的存在，</p><p data-pid=\"Wi3HmfqR\">之后，心理反向影响生理。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1560937647,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "因为一切生物的生存本质都是为了繁衍。 至于第三性等乱七八糟的事儿， 都是人类有了高级思维后的非生物性的存在， 之后，心理反向影响生理。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "720761208",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1560937647,
+            "url": "https://www.zhihu.com/api/v4/answers/720761208",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be8643dcb353de2e5b4189",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj19/TXAiCpjLedAZICJAoJMTYxMjAyMzIxEgk3MjEyMzkwMjkYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/032c4eeccd03be33e9708caaadabbdff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/032c4eeccd03be33e9708caaadabbdff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-af4cab5cf582659b6fdea90f42a2fb17_l.png?source=1def8aca",
+                "description": "评论 100 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972462538273792000",
+                "medal_name": "乐于交流",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-af4cab5cf582659b6fdea90f42a2fb17_r.png?source=1def8aca"
+              },
+              "follower_count": 435,
+              "gender": 0,
+              "headline": "大龄mtf     半宅",
+              "id": "deff321e699c598bebc3f9b61bcf25cc",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "一个人的泪",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/deff321e699c598bebc3f9b61bcf25cc",
+              "url_token": "yige-ren-de-lei",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 5,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"9azYAX3z\">没有？你把双性人放在哪呢？别以为ta们存在的比例低，其实只是一般人看不到，人家也不希望别人知道罢了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1560979247,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "没有？你把双性人放在哪呢？别以为ta们存在的比例低，其实只是一般人看不到，人家也不希望别人知道罢了。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "721239029",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "5 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1560979247,
+            "url": "https://www.zhihu.com/api/v4/answers/721239029",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be86431c1e52de2e5b4189",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi42tXXAiCpjLedAZICJAoJMTYxMTA5MzcwEgk3MjA3MjczNTIYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-67052a687938094ddec7a2a455ef9a73_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-67052a687938094ddec7a2a455ef9a73.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 53,
+              "gender": 1,
+              "headline": "计科小白/ftm是男生",
+              "id": "3180ac520ef3412844514df1016528ad",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "十一",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/3180ac520ef3412844514df1016528ad",
+              "url_token": "shi-yi-85-45-43",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"DoUtgqCG\">或许应该这么问，为什么这个社会告诉我们人类只有男女两个性别？</p><p data-pid=\"8g57xnVO\">如果你看过宫廷剧，那么就应该知道个词叫 “太监（jiàn）”；</p><p data-pid=\"4fpav5SC\">如果你偶尔听过某老师在课上开了某个玩笑，然后全班哄堂大笑。那么就应该知道还有个词叫 “人妖”；</p><p data-pid=\"kmvgVfgd\">如果你在高中生物课遗传学那几章上有认真听讲，就应该了解XXY，XYY，XXX，YY以及XO染色体是如何得来；</p><p data-pid=\"hycSipXo\"><b>即便拥有相对正常的性染色体，也不能保证胚胎在发育过程中不会受到影响。</b>所以，那些被丢弃的婴儿并不显得稀有。我们会看到，大人是如何及时地拉住自家孩子并进行耳提面命式教育——不要和Ta玩，不男不女！</p><p data-pid=\"zgSLWsCJ\">如果你稍微了解一点性少数群体，知道LGBT（Les，Gay，Bisexual，Transgender），那么就可能知道“跨性别”；</p><p data-pid=\"y3BeV1pc\">如果你再深入了解一点，那么可能会了解这几个词——“性别认同”、“性别多元”、“性别光谱”；</p><p data-pid=\"y1r3vPCh\">这里就不做详细解释了。</p><p data-pid=\"YrGhGetS\">-----------------------我是一条分割线------------</p><p data-pid=\"q5nJ88C-\">补充：最近在某网站填调查问卷时</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-84f10ca9f2123d6bd5aaf0b2d3dcf232_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"960\" data-rawheight=\"1280\" data-original-token=\"v2-95850a5bccb78bf679bced7f27f68481\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-488e1a5555d9105a43e01618ac15c6bc_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"960\" data-original=\"https://pic1.zhimg.com/v2-84f10ca9f2123d6bd5aaf0b2d3dcf232_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;960&#39; height=&#39;1280&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"960\" data-rawheight=\"1280\" data-original-token=\"v2-95850a5bccb78bf679bced7f27f68481\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-488e1a5555d9105a43e01618ac15c6bc_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"960\" data-original=\"https://pic1.zhimg.com/v2-84f10ca9f2123d6bd5aaf0b2d3dcf232_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-84f10ca9f2123d6bd5aaf0b2d3dcf232_720w.jpg?source=1def8aca\"/></figure><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1560935896,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "或许应该这么问，为什么这个社会告诉我们人类只有男女两个性别？ 如果你看过宫廷剧，那么就应该知道个词叫 “太监（jiàn）”； 如果你偶尔听过某老师在课上开了某个玩笑，然后全班哄堂大笑。那么就应该知道还有个词叫 “人妖”； 如果你在高中生物课遗传学那几章上有认真听讲，就应该了解XXY，XYY，XXX，YY以及XO染色体是如何得来； 即便拥有相对正常的性染色体，也不能保证胚胎在发育过程中不会受到影响。所以，那些被丢弃的婴…",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "720727352",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "9 赞同 · 2 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 4,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 1280,
+                  "token": "v2-95850a5bccb78bf679bced7f27f68481",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-95850a5bccb78bf679bced7f27f68481_720w.jpg?source=1def8aca",
+                  "width": 960
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1561210112,
+            "url": "https://www.zhihu.com/api/v4/answers/720727352",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 9
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be8643f78b53de2e5b4189",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxin4P7lCCCpjLedAZICJQoJNDU5NDIyNTM0EgoyMzYxMzcyNzExGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 517,
+              "gender": -1,
+              "headline": "",
+              "id": "ce5a2230fcd4f8a03ed581fc5922268d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户FPuvbJ",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/ce5a2230fcd4f8a03ed581fc5922268d",
+              "url_token": "liu-yu-fei-fantast",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<h2>性别从来都不只是男女，甚至多达112种</h2><p data-pid=\"AGqNAzq8\">如今，关于性别的概念有很多，比如“双性人”、“间性人”、“顺性人”、“酷儿性别”、“流动性别”、“跨性别”、“女变男”、同性恋、双性恋、<a href=\"https://www.zhihu.com/search?q=%E6%B3%9B%E6%80%A7%E6%81%8B&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2360330168%7D\" class=\"internal\" target=\"_blank\">泛性恋</a>、无性恋、性少数群体LGBT等。而近年来，关于性别类的报道不断，比如“夫妻婚后多年不孕，检查后丈夫竟是女儿身？”或者“婚后数年发现妻子是男的。”</p><p data-pid=\"7oll24qs\">一方面，性别指基于人类的男性、女性、间性等，动物的雌、雄、雌雄同体等生物特征的<a href=\"https://www.zhihu.com/search?q=%E8%A7%A3%E5%89%96%E5%AD%A6&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2360330168%7D\" class=\"internal\" target=\"_blank\">解剖学</a>上的身体差异，即生理性别。另一方面，性别这一概念既有一定的生物学基础，但也有复杂多样的社会学、心理学等人文社会科学基础，并非单纯的“男女二元”概念。</p><p data-pid=\"cQolpxrO\">在生理性别上，很多其它性别是由于<a href=\"https://www.zhihu.com/search?q=%E6%9F%93%E8%89%B2%E4%BD%93&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2360330168%7D\" class=\"internal\" target=\"_blank\">染色体</a>、性腺、性激素或生殖器官等性别特征的变异，导致产生“不符合男性或女性身体”的人，比如雌雄同体人：是精子或卵细胞产生时减数分裂异常导致。也即异常的减数分裂产生异常的精子或卵细胞，异常的精子或卵细胞相结合产生异常的<a href=\"https://www.zhihu.com/search?q=%E5%8F%97%E7%B2%BE%E5%8D%B5&amp;search_source=Entity&amp;hybrid_search_source=Entity&amp;hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A2360330168%7D\" class=\"internal\" target=\"_blank\">受精卵</a>，异常受精卵发育成为雌雄同体人。 所以观念不同可以，但是不能歧视非男非女的其他性别。刨除掉生理上的性别差异，社会、心理等方面仍有多种多样的性别类型。据不完全统计，人类性别多达112种。</p><p data-pid=\"knDYSaTb\">六种性别，法律上讲，每个成年人必须是男性或者女性；从生物学讲，生物基本分为雌雄两性，这就是性别。其实，性别的定义有很多方式，严格一点说，一个个体起码具备六种性别模式，这六种性别模式都统一，才能确定其真正意义上的雄性或者雌性，否则就会出现性别模糊或性征模糊。生物的六种性别模式包括染色体性别、基因性别、性腺性别、生殖器性别、心理性别和社会性别。</p><p data-pid=\"0aifXxNp\">人类的性别认同并不一定等同于一个人的生理性别，当一个人的性别认同和生理性别相同时，则为顺性别，若一个人的性别认同和生理性别不一致，则为跨性别。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-8bab254ed9174eb7934907bb2a661692_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2400\" data-original-token=\"v2-8bab254ed9174eb7934907bb2a661692\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-8bab254ed9174eb7934907bb2a661692_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;2400&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2400\" data-original-token=\"v2-8bab254ed9174eb7934907bb2a661692\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://pic1.zhimg.com/v2-8bab254ed9174eb7934907bb2a661692_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-8bab254ed9174eb7934907bb2a661692_720w.jpg?source=1def8aca\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-1546be278a59d972104070c42a177a3b_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2400\" data-original-token=\"v2-1546be278a59d972104070c42a177a3b\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-1546be278a59d972104070c42a177a3b_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;2400&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"2400\" data-original-token=\"v2-1546be278a59d972104070c42a177a3b\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://pica.zhimg.com/v2-1546be278a59d972104070c42a177a3b_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-1546be278a59d972104070c42a177a3b_720w.jpg?source=1def8aca\"/></figure>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1645659371,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性别从来都不只是男女，甚至多达112种如今，关于性别的概念有很多，比如“双性人”、“间性人”、“顺性人”、“酷儿性别”、“流动性别”、“跨性别”、“女变男”、同性恋、双性恋、 泛性恋 、无性恋、性少数群体LGBT等。而近年来，关于性别类的报道不断，比如“夫妻婚后多年不孕，检查后丈夫竟是女儿身？”或者“婚后数年发现妻子是男的。”一方面，性别指基于人类的男性、女性、间性等，动物的雌、雄、雌雄同体等生物特征的 …",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2361372711",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 1 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 2,
+              "thumbnails": [
+                {
+                  "height": 2400,
+                  "token": "v2-8bab254ed9174eb7934907bb2a661692",
+                  "type": "image",
+                  "url": "https://pica.zhimg.com/80/v2-8bab254ed9174eb7934907bb2a661692_720w.jpg?source=1def8aca",
+                  "width": 1080
+                },
+                {
+                  "height": 2400,
+                  "token": "v2-1546be278a59d972104070c42a177a3b",
+                  "type": "image",
+                  "url": "https://pica.zhimg.com/80/v2-1546be278a59d972104070c42a177a3b_720w.jpg?source=1def8aca",
+                  "width": 1080
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1645659561,
+            "url": "https://www.zhihu.com/api/v4/answers/2361372711",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be8643cbe5abcc2e5b4189",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjU3trfAiCpjLedAZICJAoJMTY0MTc2NjEzEgk3Mzc1ODcwMjgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 277,
+              "gender": 1,
+              "headline": "",
+              "id": "6077e3d3da8c3be0df37aa8b19a7f8c6",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "东九107",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/6077e3d3da8c3be0df37aa8b19a7f8c6",
+              "url_token": "li-xian-sheng-31-51",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"J3eTImvY\">你是想三个人一起玩繁殖游戏？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1562238073,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "你是想三个人一起玩繁殖游戏？",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "737587028",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1562238073,
+            "url": "https://www.zhihu.com/api/v4/answers/737587028",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be864368fc00de2e5b4189",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464295752878833"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/330155561/feeds?cursor=67b48e13e4be864368fc00de2e5b4189&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464295752878833&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/330155561/feeds?cursor=67b48e13e4be864368fc00de2e5b4189&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768464295752878833&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768464364530,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjuuOTfAiCpjLedAZICJAoJMTY0MjA1MzkxEgk3Mzc3NDYwMzAYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-956c3daf24a341d651e8d82566dd20fb_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-956c3daf24a341d651e8d82566dd20fb.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_l.png?source=1def8aca",
+                "description": "被 500 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_r.png?source=1def8aca"
+              },
+              "follower_count": 655,
+              "gender": 1,
+              "headline": "绘图员",
+              "id": "f552ae9dcd31da0500428d72639ab860",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "无尽的创意",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/f552ae9dcd31da0500428d72639ab860",
+              "url_token": "peng-ming-feng-2",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"t3_aolhW\">充电，只需要插头插座即可。如果非要搞出个第三方来，很明显不好用</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1562248926,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "充电，只需要插头插座即可。如果非要搞出个第三方来，很明显不好用",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "737746030",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1562248926,
+            "url": "https://www.zhihu.com/api/v4/answers/737746030",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be8643c24d00de2e5b4189",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxijnc2vCiCpjLedAZICJQoJNTM2MzAyNDk3EgoyNzg0MTg2MDE5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-a3d4cbbc89d1efbfe4af0551dacdee09_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-a3d4cbbc89d1efbfe4af0551dacdee09.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 108,
+              "gender": 1,
+              "headline": "只要干货，带你遨游不同的文学体验",
+              "id": "4ca109b544ac666b472823bff8dedd43",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知识传递者",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4ca109b544ac666b472823bff8dedd43",
+              "url_token": "gao-wei-liang-98",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ltf44OJa\">中国有56个名族，是个多民族国家.</p><p data-pid=\"Db1wCvWf\">不过，名族最多的国家是非洲的尼日利亚，一共有250多个名族。我就想问问诸位，中国56个名族的名字都能记住不？</p><p data-pid=\"R2E8cxJk\">不过这都没关系，名族这一概念是上个世纪的事了，现在是21世纪。看的已经不是名族了，那看的是什么？</p><p data-pid=\"-3B84WLI\"><b>看性别。</b>​</p><p data-pid=\"iKfKAHNe\">作为世界头号资本主义强国的临头羊--美国，无论是科技还是发达或者开放程度，那可都是首屈一指的。</p><p data-pid=\"LrUWxIlS\"><b>于是，首屈一指的强国，当仁不让成了世界拥有性别最多的国家。</b></p><p data-pid=\"B3mNfHwp\"><b>根据官方资料显示，美国居然有97个性别，就问你，惊呆了没？</b></p><p data-pid=\"EOvdOcU3\">一般别人问你性别，你顶多能说出男性、女性、变性（人妖）之外，你还能想到什么？</p><p data-pid=\"IP-NFOTF\">这已经完全颠覆了我们的认知了。</p><p data-pid=\"mTgZTrP1\">喜欢打篮球的应该都知道魔术师约翰逊，一位篮球史上传奇球星，也是我的偶像。</p><p data-pid=\"zfj8Ou1Q\">就是图片这位</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-b5768343a98edb703590695819d0fc5c_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"533\" data-rawheight=\"768\" data-original-token=\"v2-f8d1690d42f911cdbd86f6daf591ca19\" class=\"origin_image zh-lightbox-thumb\" width=\"533\" data-original=\"https://picx.zhimg.com/v2-b5768343a98edb703590695819d0fc5c_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;533&#39; height=&#39;768&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"533\" data-rawheight=\"768\" data-original-token=\"v2-f8d1690d42f911cdbd86f6daf591ca19\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"533\" data-original=\"https://picx.zhimg.com/v2-b5768343a98edb703590695819d0fc5c_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-b5768343a98edb703590695819d0fc5c_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"lB9SuxY5\">大家不要误会，传奇人物的性取向是没问题。心里状态也是正常的。</p><p data-pid=\"EiqZ1lqz\">不过他的儿子EJ-约翰逊就一言难尽了。</p><p data-pid=\"sSrVoRCl\">被网友戏称为EJ酱。</p><p data-pid=\"i0v66jFC\">可以看下，简直美得不得了。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-12e0e60d6e515cf426a398c6cebc7a8d_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"450\" data-rawheight=\"668\" data-original-token=\"v2-e64fc70d657fe86d2f6a8bb9c1528495\" class=\"origin_image zh-lightbox-thumb\" width=\"450\" data-original=\"https://picx.zhimg.com/v2-12e0e60d6e515cf426a398c6cebc7a8d_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;450&#39; height=&#39;668&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"450\" data-rawheight=\"668\" data-original-token=\"v2-e64fc70d657fe86d2f6a8bb9c1528495\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"450\" data-original=\"https://picx.zhimg.com/v2-12e0e60d6e515cf426a398c6cebc7a8d_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-12e0e60d6e515cf426a398c6cebc7a8d_720w.jpg?source=1def8aca\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-94275f55e2b278508d8d0009477420c1_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"587\" data-rawheight=\"496\" data-original-token=\"v2-78423f9e1c41b7f999b88c4ce3917085\" class=\"origin_image zh-lightbox-thumb\" width=\"587\" data-original=\"https://pica.zhimg.com/v2-94275f55e2b278508d8d0009477420c1_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;587&#39; height=&#39;496&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"587\" data-rawheight=\"496\" data-original-token=\"v2-78423f9e1c41b7f999b88c4ce3917085\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"587\" data-original=\"https://pica.zhimg.com/v2-94275f55e2b278508d8d0009477420c1_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-94275f55e2b278508d8d0009477420c1_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"qMkKkh4C\">从染色体来看，EJ绝对是男的，但是从穿着打扮来看，言行举止和心理来看，我不知道用什么词形容ta。</p><p data-pid=\"Jd9d1zlD\">还好我在中国，不用太理会这个性别。要是在国外，我用错了他还是她，我就是政Z不正确，那可是要分分钟被网爆的啊。</p><p data-pid=\"zaFgQp_M\">还有一位更离谱，美国原子能机构的新任副部长，政坛新秀人物，各大场合只要他在，那就是座上宾，绝无例外。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-6ca4ea6eacf30a3c030d168d332a80bf_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"714\" data-original-token=\"v2-9667c59e6df38005b567042776a234c3\" class=\"origin_image zh-lightbox-thumb\" width=\"554\" data-original=\"https://pic1.zhimg.com/v2-6ca4ea6eacf30a3c030d168d332a80bf_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;554&#39; height=&#39;714&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"714\" data-original-token=\"v2-9667c59e6df38005b567042776a234c3\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"554\" data-original=\"https://pic1.zhimg.com/v2-6ca4ea6eacf30a3c030d168d332a80bf_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-6ca4ea6eacf30a3c030d168d332a80bf_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"RM-qdXgB\">还有一位变性人，更是离谱到没白边，一次战没打，却能稳坐美国四星上将兼卫生部长。</p><p data-pid=\"Gg0p9ecR\">请各位记住，她以前是个纯粹的爷们，但现在我们称呼她为雷切尔·莱文女士。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-225aedf309511e0a98fe4af8f30cff21_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"553\" data-rawheight=\"692\" data-original-token=\"v2-c5b9d014162cdee02f7bf178a4c37533\" class=\"origin_image zh-lightbox-thumb\" width=\"553\" data-original=\"https://pic1.zhimg.com/v2-225aedf309511e0a98fe4af8f30cff21_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;553&#39; height=&#39;692&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"553\" data-rawheight=\"692\" data-original-token=\"v2-c5b9d014162cdee02f7bf178a4c37533\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"553\" data-original=\"https://pic1.zhimg.com/v2-225aedf309511e0a98fe4af8f30cff21_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-225aedf309511e0a98fe4af8f30cff21_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"jKBx1hUn\">于是，有个新词就应运而生了--LGBT。</p><p data-pid=\"JsmrNJAc\">这是四个单词的缩写，具体可以看图，专业解释。</p><p data-pid=\"ezjH2S8j\">不过这个词是上世纪90年代的，随着时代的发展和进步，欧美那边又经历了新一轮思想运动。</p><p data-pid=\"wUTKmvCB\">“性别复兴”</p><p data-pid=\"iJVrJNZr\">欧美的性别早就不是我们所认知的那样，而是已经发展出了几十种。甚至几百种都有。</p><p data-pid=\"OeKiu9iI\">欧美的社交网络光是让你填性别，你看一眼，我保证你会懵逼。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-75878c5ca800415e3b96661f6bcdb7f8_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"498\" data-rawheight=\"931\" data-original-token=\"v2-6855dd82b96e6e859a976eb266b57c15\" class=\"origin_image zh-lightbox-thumb\" width=\"498\" data-original=\"https://picx.zhimg.com/v2-75878c5ca800415e3b96661f6bcdb7f8_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;498&#39; height=&#39;931&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"498\" data-rawheight=\"931\" data-original-token=\"v2-6855dd82b96e6e859a976eb266b57c15\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"498\" data-original=\"https://picx.zhimg.com/v2-75878c5ca800415e3b96661f6bcdb7f8_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-75878c5ca800415e3b96661f6bcdb7f8_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"hunxGhzq\">看到了，是不是惊呆了。</p><p data-pid=\"4bBgvI8J\">Agender - 无性别、Androgyne - 两性人、Bigender - 双性人、Female to Male - 女变男、Gender Fluid - 流性人、Gender Nonconforming - 非常规性别Gender Questioning - 性别存疑......</p><p data-pid=\"bkDJvi24\">这些性别太多，且解释起来太复杂了，反正大家只要知道有这么离谱就行了。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-8f6556371a7ccebe65f531964c154522_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"366\" data-original-token=\"v2-6d813b1293bd67ffe639fea68c0745ac\" class=\"origin_image zh-lightbox-thumb\" width=\"554\" data-original=\"https://picx.zhimg.com/v2-8f6556371a7ccebe65f531964c154522_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;554&#39; height=&#39;366&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"554\" data-rawheight=\"366\" data-original-token=\"v2-6d813b1293bd67ffe639fea68c0745ac\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"554\" data-original=\"https://picx.zhimg.com/v2-8f6556371a7ccebe65f531964c154522_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-8f6556371a7ccebe65f531964c154522_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"IgblBpuW\">看得懂吗？反正我是看不懂。</p><p data-pid=\"g6aBJOT5\">大家应该很好奇，欧美国家有多少种性别吧。</p><p data-pid=\"3SEloVa3\">根据脸书的统计，2014年注册信息中，性别选项居然多达71种。</p><p data-pid=\"UuxYX6sF\"><b>不过有趣的是，到了2018年，这个数字变成了112种。</b></p><p data-pid=\"oJLnuC1L\"><b>最主要的是，这还是政治正确，如果你不同意，那就是歧视，赤果果的性别歧视，</b></p><p data-pid=\"KMTp-jjK\"><b>民间说法是这么多，那么官方最后统计承认的有多少--97中。</b></p><p data-pid=\"mdV2T2ct\">这可不敢乱说话，是人家官方自己说的，有理有据。</p><p data-pid=\"wbI7AKCZ\">美国政府自己承认</p><p data-pid=\"ItxDB-Jo\">据美国《洛杉矶时报》11月18日报道：</p><p data-pid=\"u6geYYdA\"><b>旧金山市近日启动一项针对跨性别群体的试点补贴计划，准备为55名符合条件的跨性别申请者提供为期18个月、每月1200美元的保障补贴。</b></p><p data-pid=\"oRTDqcGw\"><b>媒体注意到，在该申请表中，性别一栏有多达97种。</b></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-6d33e500d6a9f0126351b1946df310e3_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"277\" data-rawheight=\"358\" data-original-token=\"v2-e5451529f11d69dbce7db9e932d8aa12\" class=\"content_image\" width=\"277\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;277&#39; height=&#39;358&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"277\" data-rawheight=\"358\" data-original-token=\"v2-e5451529f11d69dbce7db9e932d8aa12\" class=\"content_image lazy\" width=\"277\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-6d33e500d6a9f0126351b1946df310e3_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"Xla_aP-2\">这是美国旧金山市政府自己公开的声明，那么，这个数字应该是可以被我们认可的。</p><p data-pid=\"6cHQOYyw\">所哟美国有97种性别，我们没看错，真的是指路明灯啊。风景美的和我们不一样，希望这道风景能在美国或者其他国家一直保留下去。</p><p data-pid=\"LJzKu6gQ\">最后再多说一句。</p><p data-pid=\"o7VZe2Rs\"><b>也别整97种性别选项了，如果真的照顾弱势群体，我建议公共场所卫生间应该为每个性别都设立，不给是吧？那你就是赤果果的歧视，一点多不民主。大家说有没有道理？</b></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1669965036,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "中国有56个名族，是个多民族国家. 不过，名族最多的国家是非洲的尼日利亚，一共有250多个名族。我就想问问诸位，中国56个名族的名字都能记住不？ 不过这都没关系，名族这一概念是上个世纪的事了，现在是21世纪。看的已经不是名族了，那看的是什么？ 看性别。 作为世界头号资本主义强国的临头羊--美国，无论是科技还是发达或者开放程度，那可都是首屈一指的。 于是，首屈一指的强国，当仁不让成了世界拥有性别最多的国家。 根据官…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2784186019",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1560932335,
+              "id": "330155561",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类为什么只有男女两个性别，没有第三种性别？",
+              "type": "question",
+              "updated_time": 1560932336,
+              "url": "https://www.zhihu.com/api/v4/questions/330155561"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 768,
+                  "token": "v2-f8d1690d42f911cdbd86f6daf591ca19",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-f8d1690d42f911cdbd86f6daf591ca19_720w.jpg?source=1def8aca",
+                  "width": 533
+                },
+                {
+                  "height": 668,
+                  "token": "v2-e64fc70d657fe86d2f6a8bb9c1528495",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-e64fc70d657fe86d2f6a8bb9c1528495_720w.jpg?source=1def8aca",
+                  "width": 450
+                },
+                {
+                  "height": 496,
+                  "token": "v2-78423f9e1c41b7f999b88c4ce3917085",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-78423f9e1c41b7f999b88c4ce3917085_720w.jpg?source=1def8aca",
+                  "width": 587
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1669965036,
+            "url": "https://www.zhihu.com/api/v4/answers/2784186019",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "67b48e13e4be86432c8d3ec82e5b4189",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768464295752878833"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/330155561/feeds?cursor=67b48e13e4be86432c8d3ec82e5b4189&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768464295752878833&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

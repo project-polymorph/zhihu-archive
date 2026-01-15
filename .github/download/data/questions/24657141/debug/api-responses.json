@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/24657141/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464767702,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/24657141/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/24657141/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何培养小孩子的性别意识？",
+          "question_type": "normal",
+          "created": 1575034821,
+          "updated_time": 1575034821,
+          "url": "https://www.zhihu.com/api/v4/questions/358470527",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "358470527"
+        },
+        {
+          "type": "question",
+          "title": "如何建立孩子的性别意识？",
+          "question_type": "normal",
+          "created": 1633672064,
+          "updated_time": 1633672064,
+          "url": "https://www.zhihu.com/api/v4/questions/491188534",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "491188534"
+        }
+      ]
+    }
+  }
+]

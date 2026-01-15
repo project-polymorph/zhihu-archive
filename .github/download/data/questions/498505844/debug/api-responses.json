@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/498505844/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464604795,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/498505844/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/498505844/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男孩子可以当女孩子养吗？",
+          "question_type": "normal",
+          "created": 1673874697,
+          "updated_time": 1673874697,
+          "url": "https://www.zhihu.com/api/v4/questions/579075453",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "579075453"
+        },
+        {
+          "type": "question",
+          "title": "女孩子却被当做男孩来养是种什么样的体验？",
+          "question_type": "normal",
+          "created": 1505995103,
+          "updated_time": 1505996182,
+          "url": "https://www.zhihu.com/api/v4/questions/65667064",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 24,
+          "relationship": {},
+          "id": "65667064"
+        },
+        {
+          "type": "question",
+          "title": "女孩比男孩好养么？",
+          "question_type": "normal",
+          "created": 1473040571,
+          "updated_time": 1473040571,
+          "url": "https://www.zhihu.com/api/v4/questions/50351007",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "50351007"
+        },
+        {
+          "type": "question",
+          "title": "男人开玩笑要女人养，正常吗?",
+          "question_type": "normal",
+          "created": 1607506294,
+          "updated_time": 1607650623,
+          "url": "https://www.zhihu.com/api/v4/questions/434068035",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "434068035"
+        }
+      ]
+    }
+  }
+]

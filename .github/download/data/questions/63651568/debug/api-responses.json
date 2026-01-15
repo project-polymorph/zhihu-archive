@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/63651568/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768465677569,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/63651568/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/63651568/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么只有两种性别？",
+          "question_type": "normal",
+          "created": 1594299139,
+          "updated_time": 1594299139,
+          "url": "https://www.zhihu.com/api/v4/questions/405961919",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "405961919"
+        },
+        {
+          "type": "question",
+          "title": "人为什么只有两种性别？",
+          "question_type": "normal",
+          "created": 1389525064,
+          "updated_time": 1389525064,
+          "url": "https://www.zhihu.com/api/v4/questions/22509401",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "22509401"
+        },
+        {
+          "type": "question",
+          "title": "一个疑问:人是否有两种性别？",
+          "question_type": "normal",
+          "created": 1486612577,
+          "updated_time": 1486612577,
+          "url": "https://www.zhihu.com/api/v4/questions/55599026",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "55599026"
+        },
+        {
+          "type": "question",
+          "title": "如果世界上只有一种性别的人，会少多少问题？",
+          "question_type": "normal",
+          "created": 1585840428,
+          "updated_time": 1585840428,
+          "url": "https://www.zhihu.com/api/v4/questions/384686121",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "384686121"
+        }
+      ]
+    }
+  }
+]

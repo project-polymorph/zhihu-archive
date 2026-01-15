@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/428042376/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464662563,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/428042376/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/428042376/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别刻板印象和性别认知障碍的异同有哪些？",
+          "question_type": "normal",
+          "created": 1708225457,
+          "updated_time": 1708225457,
+          "url": "https://www.zhihu.com/api/v4/questions/644711652",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "644711652"
+        },
+        {
+          "type": "question",
+          "title": "孩子的性别刻板印象是如何形成的？它对孩子的发展有何利弊？",
+          "question_type": "normal",
+          "created": 1406611061,
+          "updated_time": 1489636475,
+          "url": "https://www.zhihu.com/api/v4/questions/24657141",
+          "answer_count": 80,
+          "comment_count": 15,
+          "follower_count": 2853,
+          "relationship": {},
+          "id": "24657141"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/38399169/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464397834,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/38399169/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/38399169/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么会有男女性别区分？",
+          "question_type": "normal",
+          "created": 1664938700,
+          "updated_time": 1664938700,
+          "url": "https://www.zhihu.com/api/v4/questions/557748314",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "557748314"
+        },
+        {
+          "type": "question",
+          "title": "假若人类没有男女性别之分，那么我们的生活和社会是怎么样的？",
+          "question_type": "normal",
+          "created": 1459163600,
+          "updated_time": 1459163701,
+          "url": "https://www.zhihu.com/api/v4/questions/41883340",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "41883340"
+        },
+        {
+          "type": "question",
+          "title": "男女的性别差异体现在哪些地方?",
+          "question_type": "normal",
+          "created": 1556031527,
+          "updated_time": 1556031527,
+          "url": "https://www.zhihu.com/api/v4/questions/321431987",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "321431987"
+        }
+      ]
+    }
+  }
+]
