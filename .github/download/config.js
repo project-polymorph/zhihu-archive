@@ -30,6 +30,11 @@ module.exports = {
 
   // 爬虫滚动配置
   maxScrolls: 40,  // 每页最多滚动次数
+  earlyExit: {
+    enabled: true,           // 是否启用早停
+    maxNoNewAnswer: 20,      // 连续多少次滚动无新回答则停止
+    stopWhenComplete: true,  // 收集完所有回答后停止
+  },
 
   // 调试配置
   debug: {

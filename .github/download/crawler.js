@@ -484,8 +484,11 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
     // 滚动加载更多回答（仅在匹配 topic 时）
     if (isTopicMatch) {
       const maxScrolls = CRAWLER_CONFIG.scroll.maxScrolls;
-      let noNewAnswerCount = 0;  // 连续无新回答的滚动次数
-      const maxNoNewAnswer = 15;  // 连续15次无新回答则停止
+      const earlyExit = config.earlyExit || {};
+      const earlyExitEnabled = earlyExit.enabled !== false;
+      const maxNoNewAnswer = earlyExit.maxNoNewAnswer || 15;
+      const stopWhenComplete = earlyExit.stopWhenComplete !== false;
+      let noNewAnswerCount = 0;
 
       for (let i = 0; i < maxScrolls; i++) {
         const savedBefore = newSaved;
@@ -505,15 +508,17 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
 
         logger.info(`  滚动 ${i + 1}/${maxScrolls}, 已保存 ${newSaved} 回答`);
 
-        // 检查是否应该停止滚动
-        const answerCount = questionInfo?.answerCount || 0;
-        if (answerCount > 0 && totalCollected >= answerCount) {
-          logger.info(`  [STOP] 已收集全部 ${answerCount} 个回答`);
-          break;
-        }
-        if (noNewAnswerCount >= maxNoNewAnswer) {
-          logger.info(`  [STOP] 连续 ${maxNoNewAnswer} 次滚动无新回答`);
-          break;
+        // 早停检查
+        if (earlyExitEnabled) {
+          const answerCount = questionInfo?.answerCount || 0;
+          if (stopWhenComplete && answerCount > 0 && totalCollected >= answerCount) {
+            logger.info(`  [STOP] 已收集全部 ${answerCount} 个回答`);
+            break;
+          }
+          if (noNewAnswerCount >= maxNoNewAnswer) {
+            logger.info(`  [STOP] 连续 ${maxNoNewAnswer} 次滚动无新回答`);
+            break;
+          }
         }
       }
     }

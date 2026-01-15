@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/305618516/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768453700713,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/305618516/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/305618516/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果每个人有一次机会，调换自己的性别，但不能换回来，你会愿意吗？为什么？",
+          "question_type": "normal",
+          "created": 1576725550,
+          "updated_time": 1576725550,
+          "url": "https://www.zhihu.com/api/v4/questions/361796264",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "361796264"
+        },
+        {
+          "type": "question",
+          "title": "如果转变了性别，你第一件事要做什么？",
+          "question_type": "normal",
+          "created": 1512896766,
+          "updated_time": 1512896766,
+          "url": "https://www.zhihu.com/api/v4/questions/263876169",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "263876169"
+        },
+        {
+          "type": "question",
+          "title": "如果性别转换，你现在的人生会是怎样的？有什么不同？觉得什么有被性别束缚住吗？",
+          "question_type": "normal",
+          "created": 1658380040,
+          "updated_time": 1658422344,
+          "url": "https://www.zhihu.com/api/v4/questions/544524770",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "544524770"
+        }
+      ]
+    }
+  }
+]
