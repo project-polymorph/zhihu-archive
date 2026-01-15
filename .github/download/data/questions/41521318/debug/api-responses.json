@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/41521318/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457752386,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/41521318/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/41521318/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别塑造的意义在于什么？如何进行性别教育？",
+          "question_type": "normal",
+          "created": 1544928879,
+          "updated_time": 1544928879,
+          "url": "https://www.zhihu.com/api/v4/questions/305887543",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "305887543"
+        },
+        {
+          "type": "question",
+          "title": "你的性别构成了你自我的一个有机部分吗？",
+          "question_type": "normal",
+          "created": 1546836402,
+          "updated_time": 1546836402,
+          "url": "https://www.zhihu.com/api/v4/questions/308304054",
+          "answer_count": 4,
+          "comment_count": 1,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "308304054"
+        },
+        {
+          "type": "question",
+          "title": "性别塑造是否合理？",
+          "question_type": "normal",
+          "created": 1594380615,
+          "updated_time": 1594380615,
+          "url": "https://www.zhihu.com/api/v4/questions/406146565",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "406146565"
+        }
+      ]
+    }
+  }
+]

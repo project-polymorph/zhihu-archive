@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/53749210/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457815341,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/53749210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/53749210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类为什么会有性别之分？",
+          "question_type": "normal",
+          "created": 1540828899,
+          "updated_time": 1540828899,
+          "url": "https://www.zhihu.com/api/v4/questions/300536306",
+          "answer_count": 2,
+          "comment_count": 4,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "300536306"
+        },
+        {
+          "type": "question",
+          "title": "如果性别可以选择，你希望自己是什么性别，为什么？",
+          "question_type": "normal",
+          "created": 1565958280,
+          "updated_time": 1565958280,
+          "url": "https://www.zhihu.com/api/v4/questions/340947790",
+          "answer_count": 17,
+          "comment_count": 1,
+          "follower_count": 26,
+          "relationship": {},
+          "id": "340947790"
+        },
+        {
+          "type": "question",
+          "title": "你对性别的定义是什么?",
+          "question_type": "normal",
+          "created": 1697288479,
+          "updated_time": 1697288479,
+          "url": "https://www.zhihu.com/api/v4/questions/626129564",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "626129564"
+        },
+        {
+          "type": "question",
+          "title": "性别究竟是什么？",
+          "question_type": "normal",
+          "created": 1554641506,
+          "updated_time": 1554641506,
+          "url": "https://www.zhihu.com/api/v4/questions/319168975",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "319168975"
+        },
+        {
+          "type": "question",
+          "title": "性别真的很重要吗？",
+          "question_type": "normal",
+          "created": 1681014260,
+          "updated_time": 1681014260,
+          "url": "https://www.zhihu.com/api/v4/questions/594530404",
+          "answer_count": 39,
+          "comment_count": 0,
+          "follower_count": 43,
+          "relationship": {},
+          "id": "594530404"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,526 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/15493833707/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457466544,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/15493833707/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/15493833707/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别是什么时候定性的?",
+          "question_type": "normal",
+          "created": 1697356480,
+          "updated_time": 1697356480,
+          "url": "https://www.zhihu.com/api/v4/questions/626225510",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "626225510"
+        },
+        {
+          "type": "question",
+          "title": "人们的性别身份是如何形成的？",
+          "question_type": "normal",
+          "created": 1714777338,
+          "updated_time": 1714777338,
+          "url": "https://www.zhihu.com/api/v4/questions/654919528",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "654919528"
+        },
+        {
+          "type": "question",
+          "title": "请问性别有什么用？",
+          "question_type": "normal",
+          "created": 1453550453,
+          "updated_time": 1453550453,
+          "url": "https://www.zhihu.com/api/v4/questions/39772533",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "39772533"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/15493833707/feeds?cursor=255bc6715b74fc2e694fe833b1a33b30&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768457461594333284&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768457466797,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxjIyc/2zuHEmhog68eE3DmSAi4KCTcyMDAxMDA3NBITMTg4ODQzNjU2NTAxOTE5MDQ3MhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-a370f823c3c25599cff85e9cc5848b6f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-a370f823c3c25599cff85e9cc5848b6f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-ef2b573cb63e7775da93fbed57c78496_l.png?source=1def8aca",
+                "description": "评论 50 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972462538273792000",
+                "medal_name": "乐于交流",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-ef2b573cb63e7775da93fbed57c78496_r.png?source=1def8aca"
+              },
+              "follower_count": 3,
+              "gender": 0,
+              "headline": "",
+              "id": "6920778506300977a3ad686fefba06bb",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Hill",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/6920778506300977a3ad686fefba06bb",
+              "url_token": "hill-1-84",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"q-ZDgCyZ\">染色体如果你指的不是某些搞出几百个性别的人眼中的性别划分的话</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1743018362,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "染色体如果你指的不是某些搞出几百个性别的人眼中的性别划分的话",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1888436565019190472",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1742547933,
+              "id": "15493833707",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "什么决定了性别?",
+              "type": "question",
+              "updated_time": 1742547933,
+              "url": "https://www.zhihu.com/api/v4/questions/15493833707"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1743018362,
+            "url": "https://www.zhihu.com/api/v4/answers/1888436565019190472",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "255bc6715b74fc2e502ce333b1a33b30",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxid5c664+61mxog68eE3DmSAi4KCTcyMDIyNzg2ORITMTg4ODkzMzk5NjQ2Mjg0NjYyMRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-9cab74c74a2e2b735ff0cc54f2fd8938_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-9cab74c74a2e2b735ff0cc54f2fd8938.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-bd2ad3df95a5207c721b3934ddc17edb_l.png?source=1def8aca",
+                "description": "评论 10 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972462538273792000",
+                "medal_name": "乐于交流",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-bd2ad3df95a5207c721b3934ddc17edb_r.png?source=1def8aca"
+              },
+              "follower_count": 0,
+              "gender": -1,
+              "headline": "[系统错误：数据损坏，详情咨询站点管理员]",
+              "id": "6a93dab3e3653f3a847ee3e09bbab15b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名怪人",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/6a93dab3e3653f3a847ee3e09bbab15b",
+              "url_token": "54-41-48-1-93",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"QBKkxVvN\">染色体</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1743136959,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "染色体",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1888933996462846621",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1742547933,
+              "id": "15493833707",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "什么决定了性别?",
+              "type": "question",
+              "updated_time": 1742547933,
+              "url": "https://www.zhihu.com/api/v4/questions/15493833707"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1743136959,
+            "url": "https://www.zhihu.com/api/v4/answers/1888933996462846621",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "255bc6715b74fc2e1799e433b1a33b30",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxj7zc6ivtGRqxog68eE3DmSAi4KCTcyMzk3MDY2OBITMTg5Nzc4MTg1OTYyODMyODY5ORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-00dcdcf6b0941f2a2aac0e72f567bdef_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-00dcdcf6b0941f2a2aac0e72f567bdef.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_l.png?source=1def8aca",
+                "description": "回答 2 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_r.png?source=1def8aca"
+              },
+              "follower_count": 0,
+              "gender": 0,
+              "headline": "",
+              "id": "83e5480d8323558d6950739f2526cfdf",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "形而上学",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/83e5480d8323558d6950739f2526cfdf",
+              "url_token": "52-46-93-64",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"JVzrQlDG\">性染色体</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1745246454,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性染色体",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1897781859628328699",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1742547933,
+              "id": "15493833707",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "什么决定了性别?",
+              "type": "question",
+              "updated_time": 1742547933,
+              "url": "https://www.zhihu.com/api/v4/questions/15493833707"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1745246454,
+            "url": "https://www.zhihu.com/api/v4/answers/1897781859628328699",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "255bc6715b74fc2e66bd2f32b1a33b30",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768457461594333284"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/15493833707/feeds?cursor=255bc6715b74fc2e66bd2f32b1a33b30&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768457461594333284&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

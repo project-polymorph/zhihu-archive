@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/24948226/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458024052,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/24948226/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/24948226/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何实现性别平等？",
+          "question_type": "normal",
+          "created": 1488167403,
+          "updated_time": 1488169619,
+          "url": "https://www.zhihu.com/api/v4/questions/56373655",
+          "answer_count": 19,
+          "comment_count": 1,
+          "follower_count": 41,
+          "relationship": {},
+          "id": "56373655"
+        },
+        {
+          "type": "question",
+          "title": "为什么会出现性别不平等？",
+          "question_type": "normal",
+          "created": 1587646571,
+          "updated_time": 1587646571,
+          "url": "https://www.zhihu.com/api/v4/questions/390105230",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "390105230"
+        },
+        {
+          "type": "question",
+          "title": "如何看待，社会性别平等?",
+          "question_type": "normal",
+          "created": 1697898124,
+          "updated_time": 1697898124,
+          "url": "https://www.zhihu.com/api/v4/questions/627207986",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "627207986"
+        },
+        {
+          "type": "question",
+          "title": "真正的性别平等应该是什么样的？",
+          "question_type": "normal",
+          "created": 1523074162,
+          "updated_time": 1523074162,
+          "url": "https://www.zhihu.com/api/v4/questions/271367242",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "271367242"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/312334393/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457923678,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/312334393/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/312334393/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假如你性别反转后，你的条件会发生什么变化？",
+          "question_type": "normal",
+          "created": 1763818981,
+          "updated_time": 1763818981,
+          "url": "https://www.zhihu.com/api/v4/questions/1975680683436418951",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1975680683436418951"
+        },
+        {
+          "type": "question",
+          "title": "如果有一天醒来发现自己性别反转了，会发生怎样的故事？",
+          "question_type": "normal",
+          "created": 1503733352,
+          "updated_time": 1503733352,
+          "url": "https://www.zhihu.com/api/v4/questions/64479391",
+          "answer_count": 1,
+          "comment_count": 2,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "64479391"
+        },
+        {
+          "type": "question",
+          "title": "为什么网络上许多小事都会扯到性别对立上去呢？",
+          "question_type": "normal",
+          "created": 1607527232,
+          "updated_time": 1607527283,
+          "url": "https://www.zhihu.com/api/v4/questions/434120794",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "434120794"
+        }
+      ]
+    }
+  }
+]

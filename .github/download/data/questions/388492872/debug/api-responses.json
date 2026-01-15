@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/388492872/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457655929,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/388492872/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/388492872/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果人的性别是后天选择的，会对社会产生什么影响？",
+          "question_type": "normal",
+          "created": 1446098607,
+          "updated_time": 1446961763,
+          "url": "https://www.zhihu.com/api/v4/questions/36987598",
+          "answer_count": 30,
+          "comment_count": 0,
+          "follower_count": 171,
+          "relationship": {},
+          "id": "36987598"
+        },
+        {
+          "type": "question",
+          "title": "如果改变性别，你的人生有什么不同？",
+          "question_type": "normal",
+          "created": 1682829149,
+          "updated_time": 1682829149,
+          "url": "https://www.zhihu.com/api/v4/questions/598499421",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "598499421"
+        },
+        {
+          "type": "question",
+          "title": "改变性别的刻板印象是否有益于社会的发展？",
+          "question_type": "normal",
+          "created": 1575968056,
+          "updated_time": 1575968056,
+          "url": "https://www.zhihu.com/api/v4/questions/360267102",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "360267102"
+        },
+        {
+          "type": "question",
+          "title": "假如全人类都能够随意改变自己的性别会怎么样？",
+          "question_type": "normal",
+          "created": 1588910191,
+          "updated_time": 1588910191,
+          "url": "https://www.zhihu.com/api/v4/questions/393410978",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "393410978"
+        }
+      ]
+    }
+  }
+]

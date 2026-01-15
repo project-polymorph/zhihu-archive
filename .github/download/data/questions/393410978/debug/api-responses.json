@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/393410978/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457732037,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/393410978/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/393410978/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果可以，你换选择改变自己的性别吗？",
+          "question_type": "normal",
+          "created": 1612370220,
+          "updated_time": 1612370220,
+          "url": "https://www.zhihu.com/api/v4/questions/442757688",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "442757688"
+        },
+        {
+          "type": "question",
+          "title": "如果你获得一次转换性别的机会，你会改变自己的性别吗？",
+          "question_type": "normal",
+          "created": 1544691562,
+          "updated_time": 1544691562,
+          "url": "https://www.zhihu.com/api/v4/questions/305618516",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "305618516"
+        },
+        {
+          "type": "question",
+          "title": "假如给你一次改变性别的机会，你愿意改变现有的性别吗？",
+          "question_type": "normal",
+          "created": 1563703573,
+          "updated_time": 1563703573,
+          "url": "https://www.zhihu.com/api/v4/questions/336120052",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "336120052"
+        },
+        {
+          "type": "question",
+          "title": "如果一觉醒来发现自己的性别改变了，你会怎么办？",
+          "question_type": "normal",
+          "created": 1514002435,
+          "updated_time": 1514167655,
+          "url": "https://www.zhihu.com/api/v4/questions/264492354",
+          "answer_count": 201,
+          "comment_count": 12,
+          "follower_count": 497,
+          "relationship": {},
+          "id": "264492354"
+        }
+      ]
+    }
+  }
+]

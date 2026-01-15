@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/654919528/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457617161,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/654919528/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/654919528/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人是如何认识性别的？如何具有性别认知的？",
+          "question_type": "normal",
+          "created": 1711256956,
+          "updated_time": 1711256956,
+          "url": "https://www.zhihu.com/api/v4/questions/649934616",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "649934616"
+        },
+        {
+          "type": "question",
+          "title": "如果人类可以自由选择性别，性别歧视和压迫是会减少还是剧增？",
+          "question_type": "normal",
+          "created": 1732346511,
+          "updated_time": 1732346511,
+          "url": "https://www.zhihu.com/api/v4/questions/4920330146",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "4920330146"
+        }
+      ]
+    }
+  }
+]

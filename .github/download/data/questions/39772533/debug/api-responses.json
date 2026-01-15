@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/39772533/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457501796,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/39772533/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/39772533/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "日常事物中哪些可以代表性别?",
+          "question_type": "normal",
+          "created": 1623673938,
+          "updated_time": 1623673938,
+          "url": "https://www.zhihu.com/api/v4/questions/465003389",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "465003389"
+        },
+        {
+          "type": "question",
+          "title": "性别区分？",
+          "question_type": "normal",
+          "created": 1493528739,
+          "updated_time": 1493528739,
+          "url": "https://www.zhihu.com/api/v4/questions/59199440",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "59199440"
+        },
+        {
+          "type": "question",
+          "title": "如果人类有三种性别，分别为A,B,C，任意两种性别结合可以且必然生出第三种性别。这个世界会变得怎么样？",
+          "question_type": "normal",
+          "created": 1431880316,
+          "updated_time": 1431880316,
+          "url": "https://www.zhihu.com/api/v4/questions/30453077",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "30453077"
+        }
+      ]
+    }
+  }
+]

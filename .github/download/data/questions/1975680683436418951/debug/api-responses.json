@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1975680683436418951/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457897690,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1975680683436418951/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1975680683436418951/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你性别反转了，你会怎么办？",
+          "question_type": "normal",
+          "created": 1755000018,
+          "updated_time": 1755000350,
+          "url": "https://www.zhihu.com/api/v4/questions/1938691274040415172",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "1938691274040415172"
+        },
+        {
+          "type": "question",
+          "title": "如果所有人永久性别反转，世界会产生什么变化？",
+          "question_type": "normal",
+          "created": 1685461613,
+          "updated_time": 1685461613,
+          "url": "https://www.zhihu.com/api/v4/questions/603946362",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "603946362"
+        },
+        {
+          "type": "question",
+          "title": "如果除了你，世界上所有人的性别都反转，会是什么样的体验。我的是：哥们多，真好。？",
+          "question_type": "normal",
+          "created": 1451104925,
+          "updated_time": 1451104925,
+          "url": "https://www.zhihu.com/api/v4/questions/38888446",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 30,
+          "relationship": {},
+          "id": "38888446"
+        },
+        {
+          "type": "question",
+          "title": "全世界的人一瞬间性别反转，将会发生什么？",
+          "question_type": "normal",
+          "created": 1550206338,
+          "updated_time": 1550206338,
+          "url": "https://www.zhihu.com/api/v4/questions/312334393",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "312334393"
+        }
+      ]
+    }
+  }
+]

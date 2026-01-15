@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/628876544/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457402921,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/628876544/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/628876544/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别是否是我们的一种束缚？",
+          "question_type": "normal",
+          "created": 1727706813,
+          "updated_time": 1727706813,
+          "url": "https://www.zhihu.com/api/v4/questions/701556941",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "701556941"
+        },
+        {
+          "type": "question",
+          "title": "如果可以选择性别，你选择当一个女孩子，还是当一个男孩子呢？理由又是什么？",
+          "question_type": "normal",
+          "created": 1716684461,
+          "updated_time": 1716684461,
+          "url": "https://www.zhihu.com/api/v4/questions/657210203",
+          "answer_count": 297,
+          "comment_count": 6,
+          "follower_count": 395,
+          "relationship": {},
+          "id": "657210203"
+        }
+      ]
+    }
+  }
+]

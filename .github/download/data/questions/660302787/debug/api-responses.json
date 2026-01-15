@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/660302787/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768458245393,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/660302787/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/660302787/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别的形成到底单纯由男方决定，还是由男女双方共同（随机）决定？",
+          "question_type": "normal",
+          "created": 1408512890,
+          "updated_time": 1408543284,
+          "url": "https://www.zhihu.com/api/v4/questions/24920170",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "24920170"
+        },
+        {
+          "type": "question",
+          "title": "如果可以选择性别，你选择当一个女孩子，还是当一个男孩子呢？理由又是什么？",
+          "question_type": "normal",
+          "created": 1716684461,
+          "updated_time": 1716684461,
+          "url": "https://www.zhihu.com/api/v4/questions/657210203",
+          "answer_count": 297,
+          "comment_count": 6,
+          "follower_count": 395,
+          "relationship": {},
+          "id": "657210203"
+        },
+        {
+          "type": "question",
+          "title": "假设人类能自由转换性别，那么均衡状态下，人类社会的性别比是怎样的？",
+          "question_type": "normal",
+          "created": 1564563423,
+          "updated_time": 1564563423,
+          "url": "https://www.zhihu.com/api/v4/questions/337974575",
+          "answer_count": 2,
+          "comment_count": 11,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "337974575"
+        }
+      ]
+    }
+  }
+]

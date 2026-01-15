@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/54734968/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457941963,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/54734968/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/54734968/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你变成了异性，你会更倾向寻找哪种性别作为伴侣，或是干脆单身？",
+          "question_type": "normal",
+          "created": 1604323869,
+          "updated_time": 1605199468,
+          "url": "https://www.zhihu.com/api/v4/questions/428519063",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "428519063"
+        },
+        {
+          "type": "question",
+          "title": "如果你转变性别，你会和现在的你谈恋爱共度一生吗？",
+          "question_type": "normal",
+          "created": 1553394413,
+          "updated_time": 1553394413,
+          "url": "https://www.zhihu.com/api/v4/questions/317230323",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "317230323"
+        },
+        {
+          "type": "question",
+          "title": "有没有哪个瞬间就坚定了自己的性别不想换成异性了？",
+          "question_type": "normal",
+          "created": 1469682202,
+          "updated_time": 1469682410,
+          "url": "https://www.zhihu.com/api/v4/questions/48982136",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "48982136"
+        },
+        {
+          "type": "question",
+          "title": "如果现在换个性别，你会追求自己吗？",
+          "question_type": "normal",
+          "created": 1537094582,
+          "updated_time": 1537094582,
+          "url": "https://www.zhihu.com/api/v4/questions/294900508",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "294900508"
+        }
+      ]
+    }
+  }
+]
