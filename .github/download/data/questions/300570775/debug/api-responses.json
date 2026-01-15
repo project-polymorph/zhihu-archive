@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/300570775/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454219589,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/300570775/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/300570775/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你知道世界上有多少种性别吗？",
+          "question_type": "normal",
+          "created": 1559145945,
+          "updated_time": 1559145945,
+          "url": "https://www.zhihu.com/api/v4/questions/326963221",
+          "answer_count": 16,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "326963221"
+        },
+        {
+          "type": "question",
+          "title": "如果人也有成千上万种性别会怎么样?",
+          "question_type": "normal",
+          "created": 1575765030,
+          "updated_time": 1575765030,
+          "url": "https://www.zhihu.com/api/v4/questions/359843703",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "359843703"
+        },
+        {
+          "type": "question",
+          "title": "为什么世界上性别只有2种？",
+          "question_type": "normal",
+          "created": 1582202003,
+          "updated_time": 1582202003,
+          "url": "https://www.zhihu.com/api/v4/questions/373347202",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "373347202"
+        },
+        {
+          "type": "question",
+          "title": "如果世界上有三种性别会怎样，附加条件见描述?",
+          "question_type": "normal",
+          "created": 1638610386,
+          "updated_time": 1638610386,
+          "url": "https://www.zhihu.com/api/v4/questions/503678923",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "503678923"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/30453077/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454200871,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/30453077/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/30453077/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "是什么原因造成多种性别？",
+          "question_type": "normal",
+          "created": 1724332597,
+          "updated_time": 1724332597,
+          "url": "https://www.zhihu.com/api/v4/questions/665018439",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "665018439"
+        },
+        {
+          "type": "question",
+          "title": "如果人类有三种性别，并且必须三种性别的人在一块才能繁衍后代，人类社会会变成什么样?",
+          "question_type": "normal",
+          "created": 1559706096,
+          "updated_time": 1559706096,
+          "url": "https://www.zhihu.com/api/v4/questions/327947205",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "327947205"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类有6种性别划分？",
+          "question_type": "normal",
+          "created": 1660361063,
+          "updated_time": 1660361063,
+          "url": "https://www.zhihu.com/api/v4/questions/548213281",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "548213281"
+        }
+      ]
+    }
+  }
+]

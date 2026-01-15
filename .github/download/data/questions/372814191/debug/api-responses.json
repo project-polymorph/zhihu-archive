@@ -1,0 +1,967 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/372814191/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454181042,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/372814191/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/372814191/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "大佬们看英文文献需不需要翻译软件啊?",
+          "question_type": "normal",
+          "created": 1582020271,
+          "updated_time": 1582020271,
+          "url": "https://www.zhihu.com/api/v4/questions/372813081",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "372813081"
+        },
+        {
+          "type": "question",
+          "title": "想问问大家，有没有好用的翻译英文文献的软件推荐呢？还有大家都是在哪里查英文文献？",
+          "question_type": "normal",
+          "created": 1546750574,
+          "updated_time": 1546750574,
+          "url": "https://www.zhihu.com/api/v4/questions/308194611",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "308194611"
+        },
+        {
+          "type": "question",
+          "title": "用翻译软件看文献好吗？",
+          "question_type": "normal",
+          "created": 1570871172,
+          "updated_time": 1570871635,
+          "url": "https://www.zhihu.com/api/v4/questions/350359230",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "350359230"
+        },
+        {
+          "type": "question",
+          "title": "有没有比较好的翻译文献的软件？起码翻出来排版不要乱...？",
+          "question_type": "normal",
+          "created": 1659948731,
+          "updated_time": 1659948731,
+          "url": "https://www.zhihu.com/api/v4/questions/547545731",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "547545731"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/372814191/feeds?cursor=4f49f967732b63bee761c70e89af5290&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768454175142905794&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768454181078,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiL5K7oAyDv4uKxAZICJQoJMjE2MjgwMjU2EgoxMDI0MTc2NjUxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-74d1feacb5957295fd48976af68d7d70_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-74d1feacb5957295fd48976af68d7d70.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 2,
+              "gender": -1,
+              "headline": "学英语！！！",
+              "id": "06e95695ac7638eaea77fc4f1b4f4fb1",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "I tube",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/06e95695ac7638eaea77fc4f1b4f4fb1",
+              "url_token": "18040042332",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"AcmfQeEm\">一般来说是不用全文翻译的，感觉软件译出来的东西读起来有的地方不通顺。</p><p data-pid=\"EMlFmUD3\">但是看书还是看译文版本的，英语书写的太详细了，800多页看不动。</p><p data-pid=\"whVrZ7K9\">可能纸质的还好一些，电子版翻了个20页，然后关了，再打开之前的就都忘记了。</p><p data-pid=\"YF4MzOAg\">不过很多东西还是尽可能多查下英文资料。英文资料里面的方法很有可能多一些，新一些。</p><p data-pid=\"jepe8oA7\">英文里的解决方法也好一些。很科学。</p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1582056411,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/abec75d46f4d06c1bf80d113cbbde12e",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @一只小可爱",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "一般来说是不用全文翻译的，感觉软件译出来的东西读起来有的地方不通顺。 但是看书还是看译文版本的，英语书写的太详细了，800多页看不动。 可能纸质的还好一些，电子版翻了个20页，然后关了，再打开之前的就都忘记了。 不过很多东西还是尽可能多查下英文资料。英文资料里面的方法很有可能多一些，新一些。 英文里的解决方法也好一些。很科学。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1024176651",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1582020573,
+              "id": "372814191",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "大佬们看英文文献用不用翻译软件啊?",
+              "type": "question",
+              "updated_time": 1582020573,
+              "url": "https://www.zhihu.com/api/v4/questions/372814191"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1582056411,
+            "url": "https://www.zhihu.com/api/v4/answers/1024176651",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4f49f967732b63be03fc7b2689af5290",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiwkp/oAyDv4uKxAZICJQoJMjE2MjMzNjUxEgoxMDIzOTIwNDMyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-148a0f09c774f7a7d6f549f4b2836128_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-148a0f09c774f7a7d6f549f4b2836128.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-8fd9ecf5c5bdc63538431780023863a7_l.png?source=1def8aca",
+                "description": "受邀回答 15 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-8fd9ecf5c5bdc63538431780023863a7_r.png?source=1def8aca"
+              },
+              "follower_count": 8626,
+              "gender": 0,
+              "headline": "医学+科研",
+              "id": "c283c929757068778bbc94a09f765922",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Faye",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/c283c929757068778bbc94a09f765922",
+              "url_token": "faye-19-77",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"eolE1OlU\">大佬们看英文文献是不翻译的（偶尔遇到生词肯定也翻译）。</p><p data-pid=\"SP6qhie_\">但是入门小白肯定都离不开翻译软件，毕竟专有名词挺多。</p><p data-pid=\"CuwVEzWU\">但是不排除英语贼好的科研入门小白一开始就直接啃英文原文，</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1582039604,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/abec75d46f4d06c1bf80d113cbbde12e",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @一只小可爱",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "大佬们看英文文献是不翻译的（偶尔遇到生词肯定也翻译）。 但是入门小白肯定都离不开翻译软件，毕竟专有名词挺多。 但是不排除英语贼好的科研入门小白一开始就直接啃英文原文，",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1023920432",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1582020573,
+              "id": "372814191",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "大佬们看英文文献用不用翻译软件啊?",
+              "type": "question",
+              "updated_time": 1582020573,
+              "url": "https://www.zhihu.com/api/v4/questions/372814191"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1582039633,
+            "url": "https://www.zhihu.com/api/v4/answers/1023920432",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4f49f967732b63be70a67c2689af5290",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjW4+LYCyDv4uKxAZICJQoJNjAwODA0OTE0EgozMTM4OTU3NzgyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-231b6847eee08e903291149e09fcfd97_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-231b6847eee08e903291149e09fcfd97.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-6ac291842ab995fbf80c2b6cd2fe9800_l.png?source=1def8aca",
+                "description": "受邀回答 50 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-6ac291842ab995fbf80c2b6cd2fe9800_r.png?source=1def8aca"
+              },
+              "follower_count": 6835,
+              "gender": -1,
+              "headline": "你的贴心论文助理",
+              "id": "4ccf5cc9d36f995356be3da91b8cdd33",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": true,
+              "is_privacy": false,
+              "name": "研飞学术",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4ccf5cc9d36f995356be3da91b8cdd33",
+              "url_token": "ivysci",
+              "user_type": "organization"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"NzBQ-R_w\">都用的，看中文肯定比英文要看， 看文献呢不是学英语，关键是找出 Gap 就可以了。 </p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Nh9nzMqT\">不过，完全依赖翻译软件是会有很多问题的。 主要有几个原因：</p><ol><li data-pid=\"GbGtZvHY\">有时候翻译你也看不懂。 这并不是说文章有啥问题，翻译软件的问题，看了半天你根本看不懂作者在说什么。 </li><li data-pid=\"K59eRiPO\">翻译软件有时候会出错，就是意思完全相反</li></ol><p data-pid=\"yx238Es9\">看下面这个示例：</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-dbfecd445a63e64561f8e7df990e862d_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2005\" data-rawheight=\"1255\" data-original-token=\"v2-dbfecd445a63e64561f8e7df990e862d\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-f791aae7bf77d19d0498fc3fb2be8aa9_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"2005\" data-original=\"https://picx.zhimg.com/v2-dbfecd445a63e64561f8e7df990e862d_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;2005&#39; height=&#39;1255&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2005\" data-rawheight=\"1255\" data-original-token=\"v2-dbfecd445a63e64561f8e7df990e862d\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-f791aae7bf77d19d0498fc3fb2be8aa9_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2005\" data-original=\"https://picx.zhimg.com/v2-dbfecd445a63e64561f8e7df990e862d_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-dbfecd445a63e64561f8e7df990e862d_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"rwoVr597\">这个意思是完全翻译错了的。 </p><p data-pid=\"qs5wfHTo\">所以正确使用翻译软件的姿势是什么呢？</p><ol><li data-pid=\"zqueiGcC\">翻译能看懂的时候看翻译</li><li data-pid=\"qQatqdbe\">翻译看不懂的时候或者觉得意思不太对的时候回去看原文</li></ol><p data-pid=\"xabJ6x1P\">看文献的时候，有时候不仅仅是翻译看不懂，还有很多名词不知道意思啊，这个时候就需要去查询这些专业名词。我用 ivySCI 这个软件的速读功能，可以做及时查询。 </p><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-db437c33bfd70cb39bc0fc015138db2b_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2005\" data-rawheight=\"1255\" data-original-token=\"v2-db437c33bfd70cb39bc0fc015138db2b\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-1da07740908ce80684bc69adc2d6a120_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"2005\" data-original=\"https://picx.zhimg.com/v2-db437c33bfd70cb39bc0fc015138db2b_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;2005&#39; height=&#39;1255&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"2005\" data-rawheight=\"1255\" data-original-token=\"v2-db437c33bfd70cb39bc0fc015138db2b\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-1da07740908ce80684bc69adc2d6a120_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2005\" data-original=\"https://picx.zhimg.com/v2-db437c33bfd70cb39bc0fc015138db2b_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-db437c33bfd70cb39bc0fc015138db2b_720w.jpg?source=1def8aca\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"c1rrS9J9\">像这样阅读，是不是效率高很多，是不是很快</p><p data-pid=\"5Edr4Zot\">另外，相比知云这样的传统软件， ivySCI 使用体验真的要好很多。 推荐大家使用 ivySCI. </p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1690513906,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "都用的，看中文肯定比英文要看， 看文献呢不是学英语，关键是找出 Gap 就可以了。 不过，完全依赖翻译软件是会有很多问题的。 主要有几个原因： 有时候翻译你也看不懂。 这并不是说文章有啥问题，翻译软件的问题，看了半天你根本看不懂作者在说什么。 翻译软件有时候会出错，就是意思完全相反看下面这个示例： [图片] 这个意思是完全翻译错了的。 所以正确使用翻译软件的姿势是什么呢？ 翻译能看懂的时候看翻译翻译看不懂的时候或者觉得…",
+            "extras": "",
+            "favlists_count": 7,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3138957782",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 赞同 · 7 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1582020573,
+              "id": "372814191",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "大佬们看英文文献用不用翻译软件啊?",
+              "type": "question",
+              "updated_time": 1582020573,
+              "url": "https://www.zhihu.com/api/v4/questions/372814191"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 2,
+              "thumbnails": [
+                {
+                  "height": 1255,
+                  "token": "v2-dbfecd445a63e64561f8e7df990e862d",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-dbfecd445a63e64561f8e7df990e862d_720w.jpg?source=1def8aca",
+                  "width": 2005
+                },
+                {
+                  "height": 1255,
+                  "token": "v2-db437c33bfd70cb39bc0fc015138db2b",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-db437c33bfd70cb39bc0fc015138db2b_720w.jpg?source=1def8aca",
+                  "width": 2005
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1690513906,
+            "url": "https://www.zhihu.com/api/v4/answers/3138957782",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4f49f967732b63bef15e500989af5290",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjq86TNDCDv4uKxAZICJQoJNjQ1MjIzODgwEgozMzgzMzEwODI2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-3d9adbefcc23c58b4c9759be54e76cb1_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-3d9adbefcc23c58b4c9759be54e76cb1.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_l.png?source=1def8aca",
+                "description": "回答 100 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_r.png?source=1def8aca"
+              },
+              "follower_count": 81,
+              "gender": 0,
+              "headline": "定时分享翻译工具使用攻略",
+              "id": "1f426f09d6ac7e67a536693cd3cae66e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "新小一在翻译",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/1f426f09d6ac7e67a536693cd3cae66e",
+              "url_token": "7849957465",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"sKzRYONb\">确实有些科研工具可以大大提高论文写作的效率，我就浅浅的来分享几个连我导师都在用的读文献的工具，读文献时最常见的问题是有些句子看不懂，或者单词不认识，<b>我最常用的划词翻译软件是智译网页翻译-划词功能、有道云笔记、copytranslator、DeepL。</b></p><p data-pid=\"OgtioDZP\">原先看到生词，都要打开网页用谷歌翻译，查完回来再备注，现在在文档上选中后，就会自动翻译，随后还用ai助手快速生成网页摘要和备注。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1706753563,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "确实有些科研工具可以大大提高论文写作的效率，我就浅浅的来分享几个连我导师都在用的读文献的工具，读文献时最常见的问题是有些句子看不懂，或者单词不认识， 我最常用的划词翻译软件是智译网页翻译-划词功能、有道云笔记、copytranslator、DeepL。原先看到生词，都要打开网页用谷歌翻译，查完回来再备注，现在在文档上选中后，就会自动翻译，随后还用ai助手快速生成网页摘要和备注。",
+            "extras": "",
+            "favlists_count": 3,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3383310826",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 3 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1582020573,
+              "id": "372814191",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "大佬们看英文文献用不用翻译软件啊?",
+              "type": "question",
+              "updated_time": 1582020573,
+              "url": "https://www.zhihu.com/api/v4/questions/372814191"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1706753563,
+            "url": "https://www.zhihu.com/api/v4/answers/3383310826",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4f49f967732b63be0b85ea0c89af5290",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxj8se/33QMg7+LisQGSAicKCTcxODk4NDM0NxIMMTI4Mjk1MDk4NjIwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-4eefbc343d119847897c0366133c5a4a_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-4eefbc343d119847897c0366133c5a4a.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 380,
+              "gender": 0,
+              "headline": "某大厂的一枚螺丝钉",
+              "id": "08b2718835e6fefd7c3c48f6a3bb336e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "吴收到",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/08b2718835e6fefd7c3c48f6a3bb336e",
+              "url_token": "16-3-36-93",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"8_B_Ic-3\">不是大佬，但我请教过常年和Nature、Science对线的“卷王”师兄和顶刊作者。</p><p data-pid=\"aQkL6W6f\">结论很扎心：真正的大佬不仅用翻译软件，还比你更会“偷懒”——但核心是用工具提效，而非替代思考。</p><blockquote data-pid=\"xSDGauzI\">师兄坦言：“看文献第一遍必须用翻译，否则一小时读不完一页。” 但关键操作是：通读翻译版理解大意→精读原文抓细节，避免被机翻误导理论逻辑。</blockquote><p data-pid=\"yRsrlamE\">学术大佬用翻译软件的本质，是把语言障碍转化为信息检索优势——先用工具突破理解速度瓶颈，再集中脑力攻克科学问题。下面这些也都是他们推荐给我的学术翻译利器：</p><h2>CopyTranslator</h2><blockquote data-pid=\"LwwYYToY\">亮点：PDF文献阅读的“外挂级辅助”，解决机翻断句灾难。</blockquote><p data-pid=\"EIKKuziE\"><b>核心功能：</b></p><ul><li data-pid=\"j5SUBt-o\">智能断句：自动合并被PDF换行拆散的句子（例如将“we con- /clude that…”还原为“we conclude that…”）；</li><li data-pid=\"YBqui6UB\">多引擎对比：同时调用谷歌、DeepL、百度等翻译结果，对比可信度；</li><li data-pid=\"Ht53-Z1Q\">OCR识别：对扫描版PDF截图，直接提取文字+翻译。</li></ul><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-40d337b8fb5568a791b22bd5259b5ee7_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"708\" data-rawheight=\"456\" data-original-token=\"v2-40d337b8fb5568a791b22bd5259b5ee7\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-125f04eb5f39b33db938971cf9107bec_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"708\" data-original=\"https://pic1.zhimg.com/v2-40d337b8fb5568a791b22bd5259b5ee7_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;708&#39; height=&#39;456&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"708\" data-rawheight=\"456\" data-original-token=\"v2-40d337b8fb5568a791b22bd5259b5ee7\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-125f04eb5f39b33db938971cf9107bec_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"708\" data-original=\"https://pic1.zhimg.com/v2-40d337b8fb5568a791b22bd5259b5ee7_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-40d337b8fb5568a791b22bd5259b5ee7_720w.jpg?source=1def8aca\"/></figure><h2>同声传译王</h2><blockquote data-pid=\"SRxut6js\">亮点：中英对照翻译神器，主打“文献筛选过滤”。</blockquote><p data-pid=\"7fz81Fwv\"><b>核心功能：</b></p><ul><li data-pid=\"XpakBwhi\">文档翻译时左右分栏显示原文+译文，一键切换“仅看中文”模式；</li><li data-pid=\"m7ylSJ6h\">会议视频字幕实时翻译，适合听英文讲座时同步理解。</li></ul><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-0cfc45d50da9c6041150693219d0a551_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"720\" data-original-token=\"v2-0cfc45d50da9c6041150693219d0a551\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-f4e4cdbf960f0d01ba8c649bf51e4082_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-0cfc45d50da9c6041150693219d0a551_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;720&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1080\" data-rawheight=\"720\" data-original-token=\"v2-0cfc45d50da9c6041150693219d0a551\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-f4e4cdbf960f0d01ba8c649bf51e4082_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-0cfc45d50da9c6041150693219d0a551_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-0cfc45d50da9c6041150693219d0a551_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"dbLf00CG\">文献翻译最怕的就是遇到一些专业词汇直接“罢工”的。</p><p data-pid=\"2wSsiwPz\">但这款翻译软件深得我心，<b>它可以针对文档选择不同的领域和专业领域模型</b>，这样术业有专攻的翻译之下，文献翻译准确率直接UP！</p><p data-pid=\"x1WJC2kb\"><b>支持批量翻译文档，不管是文献、文章还是其他学习资料，都可以直接丢进去一键翻译</b>，实现文档整份翻译，一整个就是高效且丝滑的翻译体验。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-ce7a4b307c36a03b7e7f5b247744aa74_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1078\" data-rawheight=\"718\" data-original-token=\"v2-ce7a4b307c36a03b7e7f5b247744aa74\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-e8a85f09880143e4c58cb024814a3b92_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"1078\" data-original=\"https://picx.zhimg.com/v2-ce7a4b307c36a03b7e7f5b247744aa74_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1078&#39; height=&#39;718&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1078\" data-rawheight=\"718\" data-original-token=\"v2-ce7a4b307c36a03b7e7f5b247744aa74\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-e8a85f09880143e4c58cb024814a3b92_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1078\" data-original=\"https://picx.zhimg.com/v2-ce7a4b307c36a03b7e7f5b247744aa74_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-ce7a4b307c36a03b7e7f5b247744aa74_720w.jpg?source=1def8aca\"/></figure><h2>SCI Translate</h2><blockquote data-pid=\"nhRnXDmm\">亮点：医学生/生物学家的“救命稻草”，精准狙击专业术语。</blockquote><p data-pid=\"Pc-Jl-Z9\"><b>核心功能：</b></p><ul><li data-pid=\"W04u8t4N\">内<b>置NCBI、PubMed生物医学词库</b>，翻译“immunohistochemistry”直接显示“免疫组化”而非“免疫组织化学”；</li><li data-pid=\"_lqUNv_v\"><b>支持PDF文献直接划词翻译</b>，自动识别公式和图表位置（译文不遮挡原文）；</li><li data-pid=\"SlOH_ROf\">提供“速读模式”：鼠标点击任意段落，侧边栏显示翻译+术语解释。</li></ul><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-fc9317b2cf4cbe546bfb2fb4151397a4_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1301\" data-rawheight=\"975\" data-original-token=\"v2-fc9317b2cf4cbe546bfb2fb4151397a4\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-622758064a20948ecc134d961e43b5dc_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"1301\" data-original=\"https://pica.zhimg.com/v2-fc9317b2cf4cbe546bfb2fb4151397a4_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1301&#39; height=&#39;975&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1301\" data-rawheight=\"975\" data-original-token=\"v2-fc9317b2cf4cbe546bfb2fb4151397a4\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-622758064a20948ecc134d961e43b5dc_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1301\" data-original=\"https://pica.zhimg.com/v2-fc9317b2cf4cbe546bfb2fb4151397a4_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-fc9317b2cf4cbe546bfb2fb4151397a4_720w.jpg?source=1def8aca\"/></figure><h2>ResearchRabbit</h2><blockquote data-pid=\"lEPpBQkW\">亮点：文献关联网络的可视化引擎，翻译+思维导图二合一。</blockquote><p data-pid=\"jdpC1SYk\"><b>核心功能：</b></p><ul><li data-pid=\"7CieceEP\">上传一篇文献，AI自动生成相关论文网络图，点击节点显示摘要翻译；</li><li data-pid=\"NMuAi4BC\">用颜色标记文献重要性（红色=必读，绿色=可略读），优先翻译关键节点；</li><li data-pid=\"lpSkfjZO\">与Zotero联动，翻译后的重点语句自动插入文献笔记。</li></ul><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-34d7b410cedc9a6f23411a88de69cada_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"686\" data-rawheight=\"671\" data-original-token=\"v2-34d7b410cedc9a6f23411a88de69cada\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-9456b4470aa38d00a9eafa443b58b157_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"686\" data-original=\"https://picx.zhimg.com/v2-34d7b410cedc9a6f23411a88de69cada_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;686&#39; height=&#39;671&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"686\" data-rawheight=\"671\" data-original-token=\"v2-34d7b410cedc9a6f23411a88de69cada\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-9456b4470aa38d00a9eafa443b58b157_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"686\" data-original=\"https://picx.zhimg.com/v2-34d7b410cedc9a6f23411a88de69cada_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-34d7b410cedc9a6f23411a88de69cada_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"Cobf1OyD\">记住：机翻是科研的脚手架，不是轮椅。</p><p data-pid=\"ZBPaeR-V\">附：教授原话——“我当年读博没这些工具，现在你们还不用？这叫学术资源浪费！”</p><p data-pid=\"5gO5-TVy\">就唠这么些，bye~记得要常来看吴仔仔@吴收到呀~收到请回复！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1742449293,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不是大佬，但我请教过常年和Nature、Science对线的“卷王”师兄和顶刊作者。 结论很扎心：真正的大佬不仅用翻译软件，还比你更会“偷懒”——但核心是用工具提效，而非替代思考。 师兄坦言：“看文献第一遍必须用翻译，否则一小时读不完一页。” 但关键操作是：通读翻译版理解大意→精读原文抓细节，避免被机翻误导理论逻辑。学术大佬用翻译软件的本质，是把语言障碍转化为信息检索优势——先用工具突破理解速度瓶颈，再集中脑力…",
+            "extras": "",
+            "favlists_count": 28,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "128295098620",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "5 赞同 · 28 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1582020573,
+              "id": "372814191",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "大佬们看英文文献用不用翻译软件啊?",
+              "type": "question",
+              "updated_time": 1582020573,
+              "url": "https://www.zhihu.com/api/v4/questions/372814191"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": true
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 456,
+                  "token": "v2-40d337b8fb5568a791b22bd5259b5ee7",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-40d337b8fb5568a791b22bd5259b5ee7_720w.jpg?source=1def8aca",
+                  "width": 708
+                },
+                {
+                  "height": 720,
+                  "token": "v2-0cfc45d50da9c6041150693219d0a551",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-0cfc45d50da9c6041150693219d0a551_720w.jpg?source=1def8aca",
+                  "width": 1080
+                },
+                {
+                  "height": 718,
+                  "token": "v2-ce7a4b307c36a03b7e7f5b247744aa74",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-ce7a4b307c36a03b7e7f5b247744aa74_720w.jpg?source=1def8aca",
+                  "width": 1078
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1742449293,
+            "url": "https://www.zhihu.com/api/v4/answers/128295098620",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 5
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4f49f967732b63be5804450089af5290",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768454175142905794"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/372814191/feeds?cursor=4f49f967732b63be5804450089af5290&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768454175142905794&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]
