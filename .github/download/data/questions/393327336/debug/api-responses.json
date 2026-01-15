@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/393327336/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455582991,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/393327336/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/393327336/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你可以换性别，你愿意换吗？为什么？",
+          "question_type": "normal",
+          "created": 1547788085,
+          "updated_time": 1547788085,
+          "url": "https://www.zhihu.com/api/v4/questions/309503456",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "309503456"
+        },
+        {
+          "type": "question",
+          "title": "有没有哪个瞬间觉得想换个性别？",
+          "question_type": "normal",
+          "created": 1580565231,
+          "updated_time": 1580565231,
+          "url": "https://www.zhihu.com/api/v4/questions/369080233",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "369080233"
+        },
+        {
+          "type": "question",
+          "title": "如果你换个性别，当下状况会怎么样？",
+          "question_type": "normal",
+          "created": 1568953956,
+          "updated_time": 1568953956,
+          "url": "https://www.zhihu.com/api/v4/questions/346922895",
+          "answer_count": 5,
+          "comment_count": 1,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "346922895"
+        }
+      ]
+    }
+  }
+]

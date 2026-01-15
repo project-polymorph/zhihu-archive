@@ -1,0 +1,383 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/59722249/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455525212,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/59722249/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/59722249/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一觉醒来突然发现自己换性别了，你会怎么办？",
+          "question_type": "normal",
+          "created": 1661927400,
+          "updated_time": 1661927400,
+          "url": "https://www.zhihu.com/api/v4/questions/551010033",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "551010033"
+        },
+        {
+          "type": "question",
+          "title": "如果换个性别，你会如何生活？",
+          "question_type": "normal",
+          "created": 1544406917,
+          "updated_time": 1544406917,
+          "url": "https://www.zhihu.com/api/v4/questions/305246901",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "305246901"
+        },
+        {
+          "type": "question",
+          "title": "假如你换了性别，你会是什么样的人？",
+          "question_type": "normal",
+          "created": 1588864976,
+          "updated_time": 1588864976,
+          "url": "https://www.zhihu.com/api/v4/questions/393327336",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "393327336"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/59722249/feeds?cursor=f639a7051d119469aa7b9487821b0809&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768455519378281261&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768455525601,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxi7naD1BSCJlL0ckgIlCgkzMTg4MTQ2NjUSCjE1ODgwNzIxMjMYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-9abae76c804fea23221756c100367c7d_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-9abae76c804fea23221756c100367c7d.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_l.png?source=1def8aca",
+                "description": "关注 5 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_r.png?source=1def8aca"
+              },
+              "follower_count": 0,
+              "gender": -1,
+              "headline": "sva在读 computer art学习ing",
+              "id": "7f920e4272999f2dcb634b482fdada7a",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "浮殷",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7f920e4272999f2dcb634b482fdada7a",
+              "url_token": "fu-yin-32-32",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"NZtFKOER\">感受一下普通而自信的感觉</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1605987964,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "感受一下普通而自信的感觉",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1588072123",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1494517416,
+              "id": "59722249",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果一觉醒来发现自己换了性别，你会干什么？",
+              "type": "question",
+              "updated_time": 1494517416,
+              "url": "https://www.zhihu.com/api/v4/questions/59722249"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1605987964,
+            "url": "https://www.zhihu.com/api/v4/answers/1588072123",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f639a7051d119469b2ff8b9a821b0809",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxiVxoalBCCJlL0ckgIlCgkyMzk0MjQ3NTISCjExNTE0NDM3MzMYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7d77ab51cb89554d06886715ffab01d7_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-7d77ab51cb89554d06886715ffab01d7.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-f4864bad4cfb24d7eb77e8f425c85834_l.png?source=1def8aca",
+                "description": "关注 500 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f4864bad4cfb24d7eb77e8f425c85834_r.png?source=1def8aca"
+              },
+              "follower_count": 105,
+              "gender": 0,
+              "headline": "∠( ᐛ 」∠)_",
+              "id": "5c688ad82fc0457f27398aa4ad636621",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "离陌观测者",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/5c688ad82fc0457f27398aa4ad636621",
+              "url_token": "AiharaCrescent",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://picx.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pica.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"W0FW3PU0\">该干啥干啥哇，周末的话大概是继续补觉吧，个人觉得性别跟我极度犯困没有啥关系（ ・ω・)=つ≡つ </p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1586806900,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "该干啥干啥哇，周末的话大概是继续补觉吧，个人觉得性别跟我极度犯困没有啥关系（ ・ω・)=つ≡つ",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1151443733",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1494517416,
+              "id": "59722249",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果一觉醒来发现自己换了性别，你会干什么？",
+              "type": "question",
+              "updated_time": 1494517416,
+              "url": "https://www.zhihu.com/api/v4/questions/59722249"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1586806900,
+            "url": "https://www.zhihu.com/api/v4/answers/1151443733",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f639a7051d1194698b12ce87821b0809",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768455519378281261"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/59722249/feeds?cursor=f639a7051d1194698b12ce87821b0809&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768455519378281261&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

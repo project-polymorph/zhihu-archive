@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/369080233/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455623887,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/369080233/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/369080233/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有哪些让你觉得“如果生为其他性别就好了”的瞬间？",
+          "question_type": "normal",
+          "created": 1542294053,
+          "updated_time": 1542294053,
+          "url": "https://www.zhihu.com/api/v4/questions/302558223",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "302558223"
+        },
+        {
+          "type": "question",
+          "title": "你现在的性别是？你喜欢吗？",
+          "question_type": "normal",
+          "created": 1744678062,
+          "updated_time": 1744678062,
+          "url": "https://www.zhihu.com/api/v4/questions/1895397850646561634",
+          "answer_count": 23,
+          "comment_count": 1,
+          "follower_count": 41,
+          "relationship": {},
+          "id": "1895397850646561634"
+        },
+        {
+          "type": "question",
+          "title": "你们有没有被人错过性别？",
+          "question_type": "normal",
+          "created": 1557141876,
+          "updated_time": 1557141876,
+          "url": "https://www.zhihu.com/api/v4/questions/323185158",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "323185158"
+        },
+        {
+          "type": "question",
+          "title": "有没有试过被错认性别形成尴尬的局面?",
+          "question_type": "normal",
+          "created": 1519642807,
+          "updated_time": 1519642807,
+          "url": "https://www.zhihu.com/api/v4/questions/267807781",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "267807781"
+        }
+      ]
+    }
+  }
+]

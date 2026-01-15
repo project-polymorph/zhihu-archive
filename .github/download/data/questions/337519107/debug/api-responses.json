@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/337519107/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455542681,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/337519107/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/337519107/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "我一个女孩子却想变成男生是不是很奇怪？",
+          "question_type": "normal",
+          "created": 1595441457,
+          "updated_time": 1595441457,
+          "url": "https://www.zhihu.com/api/v4/questions/408488942",
+          "answer_count": 73,
+          "comment_count": 0,
+          "follower_count": 101,
+          "relationship": {},
+          "id": "408488942"
+        },
+        {
+          "type": "question",
+          "title": "如果可以，是不是很多女生都会想变成男生？",
+          "question_type": "normal",
+          "created": 1579482587,
+          "updated_time": 1579482587,
+          "url": "https://www.zhihu.com/api/v4/questions/367113084",
+          "answer_count": 14,
+          "comment_count": 1,
+          "follower_count": 22,
+          "relationship": {},
+          "id": "367113084"
+        }
+      ]
+    }
+  }
+]
