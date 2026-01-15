@@ -35,6 +35,22 @@ function loadCrawlConfig() {
   return { topics: [], discovery: {} };
 }
 
+// Unix 时间戳转换为 "YYYY-MM-DD HH:mm" 格式
+function formatTimestamp(ts) {
+  if (!ts) return null;
+  if (typeof ts === 'string' && ts.match(/^\d{4}-\d{2}-\d{2}/)) return ts;
+  if (typeof ts === 'number') {
+    const date = new Date(ts * 1000);
+    const year = date.getFullYear();
+    const month = String(date.getMonth() + 1).padStart(2, '0');
+    const day = String(date.getDate()).padStart(2, '0');
+    const hours = String(date.getHours()).padStart(2, '0');
+    const minutes = String(date.getMinutes()).padStart(2, '0');
+    return `${year}-${month}-${day} ${hours}:${minutes}`;
+  }
+  return null;
+}
+
 // 检查问题的 topics 是否匹配配置
 function matchesTopicFilter(questionTopics, configTopics) {
   if (!configTopics || configTopics.length === 0) return false;
@@ -242,8 +258,8 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
                 voteupCount: target.voteup_count || 0,
                 commentCount: target.comment_count || 0,
                 favlistsCount: target.favlists_count || 0,
-                createdTime: target.created_time,
-                updatedTime: target.updated_time,
+                createdTime: formatTimestamp(target.created_time),
+                updatedTime: formatTimestamp(target.updated_time),
                 author: target.author ? {
                   id: target.author.id,
                   name: target.author.name,
