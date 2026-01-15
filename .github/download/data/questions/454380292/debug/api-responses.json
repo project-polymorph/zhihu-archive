@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/454380292/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463110481,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/454380292/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/454380292/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "请问“防止男性女性化”和“性别刻板印象”矛盾吗？",
+          "question_type": "normal",
+          "created": 1624702848,
+          "updated_time": 1624702848,
+          "url": "https://www.zhihu.com/api/v4/questions/467914732",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 18,
+          "relationship": {},
+          "id": "467914732"
+        },
+        {
+          "type": "question",
+          "title": "作为男性，哪些性别刻板印象会对你造成伤害或带来困扰？",
+          "question_type": "normal",
+          "created": 1665031705,
+          "updated_time": 1665031705,
+          "url": "https://www.zhihu.com/api/v4/questions/557957085",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "557957085"
+        },
+        {
+          "type": "question",
+          "title": "有性别刻板印像是好是坏？当人们说我讨厌男人应该有男人样，女孩应该有女孩样是在说什么吗？",
+          "question_type": "normal",
+          "created": 1470575444,
+          "updated_time": 1470610017,
+          "url": "https://www.zhihu.com/api/v4/questions/49354209",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "49354209"
+        }
+      ]
+    }
+  }
+]

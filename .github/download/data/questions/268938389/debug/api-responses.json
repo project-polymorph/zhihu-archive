@@ -1,0 +1,847 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/268938389/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462175274,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/268938389/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/268938389/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "未来性别会消失吗？",
+          "question_type": "normal",
+          "created": 1637663008,
+          "updated_time": 1637663008,
+          "url": "https://www.zhihu.com/api/v4/questions/501072323",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "501072323"
+        },
+        {
+          "type": "question",
+          "title": "如果我有可以普及的科技手段让人类变成单一性别，是好事还是坏事，各国会推广吗？",
+          "question_type": "normal",
+          "created": 1730260777,
+          "updated_time": 1730271237,
+          "url": "https://www.zhihu.com/api/v4/questions/2559189526",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "2559189526"
+        },
+        {
+          "type": "question",
+          "title": "未来人类会进化成没有性别吗？",
+          "question_type": "normal",
+          "created": 1425655906,
+          "updated_time": 1425655906,
+          "url": "https://www.zhihu.com/api/v4/questions/28572866",
+          "answer_count": 22,
+          "comment_count": 0,
+          "follower_count": 79,
+          "relationship": {},
+          "id": "28572866"
+        },
+        {
+          "type": "question",
+          "title": "如果人类的性别被统一，将会有什么改变？",
+          "question_type": "normal",
+          "created": 1440032079,
+          "updated_time": 1440032079,
+          "url": "https://www.zhihu.com/api/v4/questions/34830512",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "34830512"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/268938389/feeds?cursor=370ef310c035232800ce6b3fb1b3c337&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768462170935060627&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768462175280,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxigtZGcAiCV2Z6AAZICJAoJMTM4NDA5NDcyEgk1OTU4NzY1MTIYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 109,
+              "gender": 1,
+              "headline": "",
+              "id": "578cb4fbaef570b9a8ed946e75d9a1bf",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "刘宇",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/578cb4fbaef570b9a8ed946e75d9a1bf",
+              "url_token": "liu-yu-80-96",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 3,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"RepqXHH5\">会。当繁殖不需要另一个性别后，男女会逐步走向分裂，最终会引向灭绝战争。这场战争女性优势较大，举例。女人抓了一群男战俘，留下几个帅的轮流玩几天，榨干后也杀了。男人抓了一群女战俘，大家杀了几个最丑下不去屌的，剩下的全平均分了。最后结果就是女性国家里的男性奴数量较少，而男性国家里养了数量巨大的一批女性奴，男人可能还会繁殖更多的女性做性奴。结果不言而喻，男性死定了。</p><p data-pid=\"euFfFgyH\">但男性也不是没有转机，可以用强制手段对所有人进行化学阉割，甚至从大脑中剥离性欲。这样我估计女性就不是对手了。毕竟女人不能站着撒尿，打仗吃亏。</p><p data-pid=\"6dAll4EH\">当然女性发现这一点后可以用生物手段都长出一根屌解决站着撒尿的问题。男性又发现蛋疼会吃亏，就不要蛋了。</p><p data-pid=\"ygAOH6Ls\">最终就是趋同演化，为了战争的最终胜利，都变成了一种东西，和平也就到来了。</p><p data-pid=\"hDaNodW9\">可以预见会变成一种带屌的，没蛋的，高大强壮皮肤光滑的新人类，可能就像普罗米修斯里的大白一样。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1549957757,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "会。当繁殖不需要另一个性别后，男女会逐步走向分裂，最终会引向灭绝战争。这场战争女性优势较大，举例。女人抓了一群男战俘，留下几个帅的轮流玩几天，榨干后也杀了。男人抓了一群女战俘，大家杀了几个最丑下不去屌的，剩下的全平均分了。最后结果就是女性国家里的男性奴数量较少，而男性国家里养了数量巨大的一批女性奴，男人可能还会繁殖更多的女性做性奴。结果不言而喻，男性死定了。 但男性也不是没有转机，可以用强制手段…",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "595876512",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 收藏 · 3 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1521228104,
+              "id": "268938389",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "随着科技的进步，性别会在未来消失吗？",
+              "type": "question",
+              "updated_time": 1549958429,
+              "url": "https://www.zhihu.com/api/v4/questions/268938389"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 8,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1549957757,
+            "url": "https://www.zhihu.com/api/v4/answers/595876512",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "370ef310c0352328dee0d032b1b3c337",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi7rpClASCV2Z6AAZICIwoIOTMwMjQxNTQSCTM0NjI5ODE3MRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"zquKjWO7\">觉得还是有可能的，现在的男生都越来越女性化了，有些女生也开始走中性风</p><p data-pid=\"RwqfHxv1\">而且本人是很向往那样的世界的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1521537247,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "觉得还是有可能的，现在的男生都越来越女性化了，有些女生也开始走中性风 而且本人是很向往那样的世界的",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "346298171",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1521228104,
+              "id": "268938389",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "随着科技的进步，性别会在未来消失吗？",
+              "type": "question",
+              "updated_time": 1549958429,
+              "url": "https://www.zhihu.com/api/v4/questions/268938389"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1521537248,
+            "url": "https://www.zhihu.com/api/v4/answers/346298171",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "370ef310c03523284479643fb1b3c337",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjd0qv5CCCV2Z6AAZICJQoJNDY2ODAxNDQyEgoyNDAxOTU0MTQxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-3bd53746c3d67f629fa6e06b01e8211c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-3bd53746c3d67f629fa6e06b01e8211c.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3c8d21e5e0b4d825580e20a91bfcf39a_l.png?source=1def8aca",
+                "description": "感谢你在「知奥百问，全景追踪」活动中的创作",
+                "medal_avatar_frame": "",
+                "medal_id": "1797652730489237504",
+                "medal_name": "知奥百问 全景追踪 2024",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3c8d21e5e0b4d825580e20a91bfcf39a_r.png?source=1def8aca"
+              },
+              "follower_count": 6927,
+              "gender": -1,
+              "headline": "Make Homo Sapiens Great Again",
+              "id": "cd75d6e95898fe79f1101bdfa008d503",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "肥貓湯姆",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/cd75d6e95898fe79f1101bdfa008d503",
+              "url_token": "fei-mao-tang-mu-60",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pic1.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"zaKpji9t\">关于「两性」的问题讨论到现在，还剩下了最后一个「灵魂拷问」式问题留给大家：人类究竟有几种性别？这也正是研究性别问题的专家教授们，当前正在攻克的终极课题之一。</p><p data-pid=\"f3mPGKzf\">或许有读者会抗议说，作者在这里真把大家当作弱智儿童了吗？这个问题的答案不就在本书的大标题里写得明明白白：既然是「两性」，怎么还可能有第三种性别？而人可以分成男女两种性别这个事，确实是但凡智商正常的幼稚园小朋友都该知道的事实。还有必要多此一举提这个问题吗？</p><p data-pid=\"sPJ2QUyJ\">或许，在普通人视角中，社会学家们研究人有多少种性别，和当年大数学家陈景润研究「1+1等于几」一样，是一种走火入魔式的表现。但就像只有深入了解之后，才知道「哥德巴赫猜想」的「①+①」并不是大家所想象的「1+1」一样，在专家眼中，性之「别」也并不是非黑即白的两个极端，而是有着无尽变化的连续过渡体。</p><p data-pid=\"SkV2IeWE\">按照这种理论，人除了是男性或者女性之外，还可以是既男又女、半男半女、不男不女、似男似女、忽男忽女……这使得在社交平台Facebook的「性别」选项中，用户可以有50多种不同的备选项目勾选。而同时，「性取向」选项则又和性别本身分离脱钩。于是，「性别男、爱好女」或者反之的配置，只是最常见的状况，却不能涵盖人类的整体面貌。</p><p data-pid=\"yWYBsQTC\">然而，之所以会产生有「别」之性，本来就是生物进化博弈之后达到的均衡稳态结果：通过两种大小不同的配子组合产生下一代的效率是最高的。于是，性别本身的判定就取决于，该个生物个体在繁衍过程中扮演了何种角色。脱离了繁殖活动本身来讨论「性别」问题，其实是没有意义的。在一些社会性的昆虫比如蚂蚁和蜜蜂种群，都有着数量巨大的非繁殖个体，即所谓的「工蚁」、「工蜂」，虽然这些昆虫个体在基因型上还是雌性，但是其生殖器官并不发育，也不参加求偶繁殖活动，所以事实上便被默认为是没有性别的。</p><p data-pid=\"Ot3N-ydQ\">但是，人类却是一个几乎全员都参与繁殖活动，并且处于永不间歇「发情期」之物种。本来指向繁殖的两性交合活动，更被聪明过头的「智人」开发成了一种「天伦之乐」游戏。于是，每个人类个体作为这场游戏的参与者，就必须领取一个身份牌，上面规定了自己在这场游戏中应该服从的规则。在传统社会中，这套游戏身份牌只有「男」、「女」两种，每个人在来到人世之前就得随机领取，且终身不得更换。</p><p data-pid=\"jWqjflTb\">而在进入父权农耕社会后，由于确保父系血统纯净性对于族群而言「兹事体大」，因而两性各自遵守的游戏规则，就更被写入了法典之中。同一社会的成员，仅因性别身份不同，就需要在不仅局限于繁殖生育的各个领域，都遵守不同的「游戏规则」，如《千字文》中所述：「女慕贞洁，男效才良」。这种基于性别的双重道德标准，在各种历经了男权社会的文明中都曾存在。</p><p data-pid=\"w6daPVne\">虽然，现代社会的法律在除了极少领域之外，终于在表面上实现了男女一视同仁，但是潜意识的道德双标依旧挥之不去。一方面，女性被视作弱者而经常有意无意得到照顾，比如司法实践中对女性罪犯在同等罪行下常有轻判倾向，但另一方面，女性在参与社会活动时也会遭遇更多「有色眼镜」，被先入为主怀疑为「能力不足、精力不济」。如此的刻板印象，也是造成互联网生态圈男女对立状况持续升级的原因。</p><p data-pid=\"Ppm7Es3z\">于是，「进步主义」的社会学家之所以把性别种类持续细分，很大程度上就是为了淡化两极化性别的刻板印象。在性别不再成为一个把人群在各领域都粗暴地一分为二的硬指标之后，人类个体才能摆脱既有观念的束缚，得到真正的自由。这也恰恰是对过度执着于自身性别认同，并因此走火入魔的「极端女权」思维之消解。</p><p data-pid=\"KxVyVGfg\">也就是说，在日常生活中，每个不论性别的个体，都该首先是个「人」。然后，在真正有必要时，才能被分成「男人」、「女人」或者其他模糊性别的人。事实上，人的性别角色游戏牌在随机取得之后，是不是可以改变，是不是两性亲密关系这个游戏只能有一种规定的玩法，在这个「摩登时代」中，也已经是值得商榷和质疑的。</p><p data-pid=\"SayJgVCA\">所以，搞出几十种「性别」的认证系统，就是为了解构消除固定的性别身份与意识对人类自由与想象力的束缚。虽然，这在当下的社会氛围下仍显得太过超前，也违背了大家的直觉，并因而引发非议，但它却在有意无意中指明了人类社会未来的走向：一旦把性欲与生育功能逐步与个体的身体脱钩之后，性别的区分最终将是走向消亡的！</p><p data-pid=\"VR6VyGrN\">在脱离物理世界束缚的「元宇宙」世界中，玩家就可以随意扮演与自己在现实中相异相反的性别角色，甚至直接无视其存在。这等于是在人脑中模拟出了类似「天堂」的场景，而按照《圣经》上的说法：「人在天国里不娶也不嫁，与天使无异。」本来用来繁衍后代充满大地的性器官，此时也再无用武之地，大家也不会再有「造人」的欲望。</p><p data-pid=\"GI6fBC2o\">而现实世界也因而会更加向着「蚁巢社会」靠拢，越来越多的普通个体正在退出生育活动，将性满足交给虚拟程序，将繁衍后代的「工作」交给少数职业代孕者。接下来，以「人造子宫」为代表的各种技术手段，则最终会令生育过程摆脱人类身体的束缚。于是，人类身体，尤其是女性身体为了生育而被迫作出的妥协，也将不复存在。到那个时代，新的人类的身体，将会通过结合两性的长处，达到真正合而为一「雌雄同体」的状态。又或者，人类的身体会经历机械化改造，从而与碳基生物圈分道扬镳。</p><p data-pid=\"P6LesYDr\">而在科幻作家设想中，未来世界的女人将没有乳房、不会来月经，甚至尿道还配有可伸缩管道通向体外，这显然是在外观上与男性看齐了。而恰好在许多宗教故事中，功德圆满者也会「修得男身」，这显然是因为女性在自然繁殖中所受的拖累更多。然而，表面上看男性得到了优势，但表皮底下，女性因为生育锤炼而拥有的更强大的消化能力、更坚韧的免疫系统以及更持久的耐饥渴能力，以及因此更长的寿命，却也是足以让男人羡慕的。因而，继续争论男女孰优孰劣，就真的是一个无聊透顶的话题了。</p><p data-pid=\"jnANm2Y3\">毕竟，性别只是在涉及「性」事时才有「别」，不应把性别区分宽泛化，更没必要总是抱着两性对立的思维。其实这一切，都只是因为进化史上的阴差阳错，让一种两性差异巨大的陆生灵长类哺乳动物占得先机，成为了地球的主宰，才带来了那么多的烦恼。如果创造文明是另一种生物，牠们对「两性」的观念，或许会比我们更坦然……</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1647942935,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "关于「两性」的问题讨论到现在，还剩下了最后一个「灵魂拷问」式问题留给大家：人类究竟有几种性别？这也正是研究性别问题的专家教授们，当前正在攻克的终极课题之一。 或许有读者会抗议说，作者在这里真把大家当作弱智儿童了吗？这个问题的答案不就在本书的大标题里写得明明白白：既然是「两性」，怎么还可能有第三种性别？而人可以分成男女两种性别这个事，确实是但凡智商正常的幼稚园小朋友都该知道的事实。还有必要多此一举…",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2401954141",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1521228104,
+              "id": "268938389",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "随着科技的进步，性别会在未来消失吗？",
+              "type": "question",
+              "updated_time": 1549958429,
+              "url": "https://www.zhihu.com/api/v4/questions/268938389"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1647942935,
+            "url": "https://www.zhihu.com/api/v4/answers/2401954141",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "370ef310c0352328fcc53d21b1b3c337",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjv8aqkASCV2Z6AAZICIwoIOTI3MjI1MjgSCTM0NDYzNTYzMRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-c38bf5c372538d97a86c1805b3b4d219_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-c38bf5c372538d97a86c1805b3b4d219.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 69,
+              "gender": -1,
+              "headline": "………",
+              "id": "c0e2885499a630de818dd0d9e024e738",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Winsen.002",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/c0e2885499a630de818dd0d9e024e738",
+              "url_token": "winsen-002",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"KNFeysu5\">你知不知道…</p><p data-pid=\"0WUocjgU\">人类的所有社会活动，唯一能逃脱边际效应影响的，应该只有性爱。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1521365523,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "你知不知道… 人类的所有社会活动，唯一能逃脱边际效应影响的，应该只有性爱。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "344635631",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1521228104,
+              "id": "268938389",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "随着科技的进步，性别会在未来消失吗？",
+              "type": "question",
+              "updated_time": 1549958429,
+              "url": "https://www.zhihu.com/api/v4/questions/268938389"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1521365523,
+            "url": "https://www.zhihu.com/api/v4/answers/344635631",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "370ef310c0352328bec3693fb1b3c337",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxix0J2dBiCV2Z6AAZICJQoJMzM0MDYxMDg5EgoxNjcxOTE1NTY5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-41ff7d089757e45f9fb8d8e38ce9abf9_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-41ff7d089757e45f9fb8d8e38ce9abf9.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 39,
+              "gender": 1,
+              "headline": "21世纪是生物学的世纪 （手动狗头）",
+              "id": "4a7a7ddbfd278760db9a527649cfad69",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Julian",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4a7a7ddbfd278760db9a527649cfad69",
+              "url_token": "qu-julian",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"3sIn-ie4\">现在不是已经有很多性别了吗？ 在国外的很多网站填注册信息的时候已经有各种神奇的选项了，包括 male (男性),female (女性), transgender (跨性别者), gender neutral (中性), non-binary (非二元性别) ,agender (无性别者), pangender (泛性别者) ,genderqueer (同性恋) 等等等。而且还有可能在多种性别之间游离，也可能同时拥有超过一种性别的自我认知。</p><p data-pid=\"kZ76AhWk\">这回答了性别会不会消失，不会消失，反而会更加多元。不管科技进步到什么阶段，人的多样性是永远不会变的，这也是人类进步的原动力。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1610335824,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "现在不是已经有很多性别了吗？ 在国外的很多网站填注册信息的时候已经有各种神奇的选项了，包括 male (男性),female (女性), transgender (跨性别者), gender neutral (中性), non-binary (非二元性别) ,agender (无性别者), pangender (泛性别者) ,genderqueer (同性恋) 等等等。而且还有可能在多种性别之间游离，也可能同时拥有超过一种性别的自我认知。 这回答了性别会不会消失，不会消失，反而会更加多元。不管科技进步到什…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1671915569",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1521228104,
+              "id": "268938389",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "随着科技的进步，性别会在未来消失吗？",
+              "type": "question",
+              "updated_time": 1549958429,
+              "url": "https://www.zhihu.com/api/v4/questions/268938389"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1610335824,
+            "url": "https://www.zhihu.com/api/v4/answers/1671915569",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "370ef310c0352328ff480629b1b3c337",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768462170935060627"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/268938389/feeds?cursor=370ef310c0352328ff480629b1b3c337&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768462170935060627&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/286147912/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462499339,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/286147912/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/286147912/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "是什么导致了性别的差异？",
+          "question_type": "normal",
+          "created": 1584579493,
+          "updated_time": 1584579493,
+          "url": "https://www.zhihu.com/api/v4/questions/380660638",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "380660638"
+        },
+        {
+          "type": "question",
+          "title": "是否真的存在性别差异？",
+          "question_type": "normal",
+          "created": 1458702069,
+          "updated_time": 1458702069,
+          "url": "https://www.zhihu.com/api/v4/questions/41690616",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "41690616"
+        }
+      ]
+    }
+  }
+]

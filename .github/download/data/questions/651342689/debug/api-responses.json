@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/651342689/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462021760,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/651342689/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/651342689/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么性别意识很重要？",
+          "question_type": "normal",
+          "created": 1536482108,
+          "updated_time": 1536482109,
+          "url": "https://www.zhihu.com/api/v4/questions/293980211",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "293980211"
+        },
+        {
+          "type": "question",
+          "title": "性别意识是人类社会的枷锁吗？",
+          "question_type": "normal",
+          "created": 1648034432,
+          "updated_time": 1648034432,
+          "url": "https://www.zhihu.com/api/v4/questions/523680334",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "523680334"
+        }
+      ]
+    }
+  }
+]

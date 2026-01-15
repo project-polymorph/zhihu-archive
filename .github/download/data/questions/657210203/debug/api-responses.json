@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/657210203/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462269573,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/657210203/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/657210203/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果让你选择选择性别，会怎么选?",
+          "question_type": "normal",
+          "created": 1743045910,
+          "updated_time": 1743045910,
+          "url": "https://www.zhihu.com/api/v4/questions/1888552111526102002",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1888552111526102002"
+        },
+        {
+          "type": "question",
+          "title": "性别会成为选择条件吗?",
+          "question_type": "normal",
+          "created": 1618538894,
+          "updated_time": 1661616140,
+          "url": "https://www.zhihu.com/api/v4/questions/454893656",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "454893656"
+        },
+        {
+          "type": "question",
+          "title": "如果有一次选择性别的机会，你还会选现在这个性别吗？",
+          "question_type": "normal",
+          "created": 1728346963,
+          "updated_time": 1728346963,
+          "url": "https://www.zhihu.com/api/v4/questions/777187324",
+          "answer_count": 31,
+          "comment_count": 0,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "777187324"
+        },
+        {
+          "type": "question",
+          "title": "如果可以选择性别，你会给自己选男性/女性，原因是什么.会给自己的孩子选择什么性别呢？原因是？",
+          "question_type": "normal",
+          "created": 1586852164,
+          "updated_time": 1586852164,
+          "url": "https://www.zhihu.com/api/v4/questions/387724577",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "387724577"
+        }
+      ]
+    }
+  }
+]

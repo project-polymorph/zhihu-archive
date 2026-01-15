@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/19622485/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462520325,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/19622485/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/19622485/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你有没有哪一刻想改变自己的性别？",
+          "question_type": "normal",
+          "created": 1606489614,
+          "updated_time": 1606489614,
+          "url": "https://www.zhihu.com/api/v4/questions/432316445",
+          "answer_count": 50,
+          "comment_count": 2,
+          "follower_count": 60,
+          "relationship": {},
+          "id": "432316445"
+        },
+        {
+          "type": "question",
+          "title": "如果一觉醒来发现自己变成了相反的性别（包括思维模式），你最想做什么？",
+          "question_type": "normal",
+          "created": 1471600780,
+          "updated_time": 1471600780,
+          "url": "https://www.zhihu.com/api/v4/questions/49792458",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "49792458"
+        },
+        {
+          "type": "question",
+          "title": "有没有哪些瞬间你想要改变自己的性别？",
+          "question_type": "normal",
+          "created": 1629817446,
+          "updated_time": 1630034369,
+          "url": "https://www.zhihu.com/api/v4/questions/482242568",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "482242568"
+        }
+      ]
+    }
+  }
+]

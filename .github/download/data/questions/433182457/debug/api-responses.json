@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/433182457/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462954388,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/433182457/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/433182457/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别图式、性别刻板印象、性别角色三者的区别是什么？",
+          "question_type": "normal",
+          "created": 1632754932,
+          "updated_time": 1632754932,
+          "url": "https://www.zhihu.com/api/v4/questions/489418487",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "489418487"
+        },
+        {
+          "type": "question",
+          "title": "Day41：你认为哪一种性别比较容易扮演？你曾希望自己变成不同性别的吗？",
+          "question_type": "normal",
+          "created": 1719833203,
+          "updated_time": 1719833203,
+          "url": "https://www.zhihu.com/api/v4/questions/660458512",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "660458512"
+        }
+      ]
+    }
+  }
+]

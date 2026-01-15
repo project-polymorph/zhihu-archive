@@ -1,0 +1,834 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/540374755/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768462211912,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/540374755/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/540374755/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果人类没有了性别之分会怎么样?",
+          "question_type": "normal",
+          "created": 1556719322,
+          "updated_time": 1556719322,
+          "url": "https://www.zhihu.com/api/v4/questions/322531889",
+          "answer_count": 30,
+          "comment_count": 2,
+          "follower_count": 102,
+          "relationship": {},
+          "id": "322531889"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么有性别？",
+          "question_type": "normal",
+          "created": 1563082413,
+          "updated_time": 1563082413,
+          "url": "https://www.zhihu.com/api/v4/questions/334874534",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "334874534"
+        },
+        {
+          "type": "question",
+          "title": "“性别”真实存在吗？",
+          "question_type": "normal",
+          "created": 1554208655,
+          "updated_time": 1554208655,
+          "url": "https://www.zhihu.com/api/v4/questions/318545948",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "318545948"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/540374755/feeds?cursor=6e3e5b720468e6a872ffe77cd0f7e61b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768462206837605656&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768462211919,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAximzbrlCSDj7dWBApICJQoJNTA4MDMwMjU0EgoyNjI4NjkxNjIyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_l.png?source=1def8aca",
+                "description": "获得 50 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_r.png?source=1def8aca"
+              },
+              "follower_count": 33,
+              "gender": -1,
+              "headline": "",
+              "id": "64f313127b95fb3b48e00718423e59ef",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "曼丽倩倩",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/64f313127b95fb3b48e00718423e59ef",
+              "url_token": "50-20-81-20",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"86NBKpIV\">肉体，身份证上是根据肉体判断的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1660601819,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "肉体，身份证上是根据肉体判断的",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2628691622",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1656407379,
+              "id": "540374755",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别的判定是取决于肉体还是灵魂？",
+              "type": "question",
+              "updated_time": 1656407379,
+              "url": "https://www.zhihu.com/api/v4/questions/540374755"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1660601819,
+            "url": "https://www.zhihu.com/api/v4/answers/2628691622",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "6e3e5b720468e6a84f7de17cd0f7e61b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiAxILsCSDj7dWBApICJQoJNTEwNTMyNjUzEgoyNjQyNDUyOTkyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-1a74e607d1650b884eb76269239d17e0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-1a74e607d1650b884eb76269239d17e0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_l.png?source=1def8aca",
+                "description": "回答 2 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_r.png?source=1def8aca"
+              },
+              "follower_count": 8,
+              "gender": 1,
+              "headline": "",
+              "id": "fc50005e49438d3dbc255df55c637c2d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "点石成金",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/fc50005e49438d3dbc255df55c637c2d",
+              "url_token": "10-89-36-63-71",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ic9GjtgR\">现在的国人看待这个问题绝大部分看的都是肉体，只有一少部分看的是灵魂，毕竟眼见为实吗</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1661305990,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "现在的国人看待这个问题绝大部分看的都是肉体，只有一少部分看的是灵魂，毕竟眼见为实吗",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2642452992",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1656407379,
+              "id": "540374755",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别的判定是取决于肉体还是灵魂？",
+              "type": "question",
+              "updated_time": 1656407379,
+              "url": "https://www.zhihu.com/api/v4/questions/540374755"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1661305990,
+            "url": "https://www.zhihu.com/api/v4/answers/2642452992",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "6e3e5b720468e6a84c8cc87cd0f7e61b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi/k9HuCSDj7dWBApICJQoJNTExNTI5MTg2EgoyNjQ3OTM1NDIzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/6fdad5d506bb2b519e01711e8a1f7a8b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/6fdad5d506bb2b519e01711e8a1f7a8b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 232,
+              "gender": -1,
+              "headline": "",
+              "id": "151b03fbfd67f6acf0040c90e8505d9c",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "实名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/151b03fbfd67f6acf0040c90e8505d9c",
+              "url_token": "xue-zha-a",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"GGSfQ34x\">按什么算都行，关键是你没有检测灵魂的设备，因此无法防止人在灵魂层面上造假。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1661587533,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "按什么算都行，关键是你没有检测灵魂的设备，因此无法防止人在灵魂层面上造假。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2647935423",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1656407379,
+              "id": "540374755",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别的判定是取决于肉体还是灵魂？",
+              "type": "question",
+              "updated_time": 1656407379,
+              "url": "https://www.zhihu.com/api/v4/questions/540374755"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1661587533,
+            "url": "https://www.zhihu.com/api/v4/answers/2647935423",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "6e3e5b720468e6a883c0db7cd0f7e61b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiPr9m/CSDj7dWBApICJQoJNDkzNjMwMzYzEgoyNTQ5NTAzODg3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-885c000f1e5090b620d9837f60705e9c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-885c000f1e5090b620d9837f60705e9c.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-e36c8e7550cbb669c40a97382df224d6_l.png?source=1def8aca",
+                "description": "累计登录 100 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972480281613197312",
+                "medal_name": "每天逛逛",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-e36c8e7550cbb669c40a97382df224d6_r.png?source=1def8aca"
+              },
+              "follower_count": 1,
+              "gender": -1,
+              "headline": "",
+              "id": "249d72d618bd85ebecd419f7164c1c75",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "阿木",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/249d72d618bd85ebecd419f7164c1c75",
+              "url_token": "ling-mu-85-32",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"WiOkjFzl\">灵魂和肉体都有一点</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1656418003,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "灵魂和肉体都有一点",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2549503887",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1656407379,
+              "id": "540374755",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别的判定是取决于肉体还是灵魂？",
+              "type": "question",
+              "updated_time": 1656407379,
+              "url": "https://www.zhihu.com/api/v4/questions/540374755"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1656418003,
+            "url": "https://www.zhihu.com/api/v4/answers/2549503887",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "6e3e5b720468e6a8faa3ca7fd0f7e61b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiUhd7CCSDj7dWBApICJQoJNDk0Nzg4NTgyEgoyNTU1ODcxODkyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"LYdaS5v9\">灵魂没有性别。所以这个问题问得不对。很多品质是男女皆可拥有的，灵魂驾驭肉体，肉体映射灵魂。</p><p data-pid=\"NBIj1-i5\">比如我吧，我是个男性，而且膀大腰圆的。我的很多爱好是偏女性化的：我喜欢安静独处，养花种菜，猫咪，看书，写作，画画，看电影，做菜。有时会听很久轻柔哀婉的音乐。</p><p data-pid=\"29PfyP3w\">大部分男生的爱好，勾肩搭背，打篮球，唱K，掰手腕，买鞋，研究电脑，聚餐喝酒，组团开黑，讨论怎么泡妞，喝大了互相吹牛.....这些我一样都毫无兴趣，甚至反感。尤其是不能进KTV，只要一进去，我头都要炸了。呵呵，我能吹的牛，比他们牛了去了，喝酒他们也基本不是对手啊！没劲。再说，我见过的真能喝的全是女人。</p><p data-pid=\"fJlOLWvE\">我这具男人身体嘛，就是用来更方便地养活自己的，没有真正的女人那么多麻烦事而已。男人的那些麻烦事，面子啦场子啦，我也不想去体验。</p><p data-pid=\"iCWK41KV\">经常一个人时幻想自己是女性，知乎上也一直是女性身份回答问题，好多人都叫我美女，我特别开心。现实里是不可能体验这种感觉的。</p><p data-pid=\"LrmOdCNT\">我喜欢军人，喜欢武器装备，喜欢军武游戏，喜欢听真实的战场故事。有时候会幻想在激烈的战场上，我第一个迎着枪林弹雨冲上去，第一个倒下，战友们因我倒下而激愤，嗷嗷叫着继续冲锋，拿下对面的阵地。</p><p data-pid=\"KUDzycLi\">还有的时候会幻想自己是战地小护士，提着药箱，身着沾血的白大褂，轻快的穿梭于战壕之间；一个小战士冻伤了，我会把他的头揽进暖暖的胸膛里。他会羞涩，我也会羞涩，士兵们扭过脸去不看。离去的时候，我们互相敬礼。</p><p data-pid=\"3Ta56Fyp\">轻m体质，生理欲望也比较强。曾经爱上过一个男生，但他无法接受我。后来我干脆也放弃了，他既然不爱我的身体，我也就没必要在乎了。</p><p data-pid=\"dtG5OPCh\">喜欢思念他，喜欢因思念他而带来的心里的那种疼痛感。思念得深了，会哭好久好久。</p><p data-pid=\"3iGQCY8_\">我也从不撩小哥哥，撩了干嘛呢？人家能看上的都是真真正正漂漂亮亮的美女，谁会看上我呢？甭给人家添烦恼了。前些日子在楼下喝茶，老板的大侄子过来了，不爱说话，就站在我的旁边，帮着剥果壳。他身上的味道真好啊，让我想起了曾经，暖暖的，干净舒服，好想靠在他怀里。我保持着不动声色。嗨，能感受一下就好，省的我都忘了那种幸福的滋味了。</p><p data-pid=\"mdp3RQZm\">我也早就不干净了。以前花钱找过好几个做那种事的男人，让他们跨在我身上，称我为姑娘，那个东西戳着我的鼻尖和嘴唇，我轻轻地嗅着舔着。我就是想要体验那种羞耻感，弱小感，被征服感。但这些男人身上没有那种温暖的滋味。</p><p data-pid=\"61eXnoWi\">现实里有谁要是听了我这事，不会惊掉下巴，觉得我丢尽了男人的脸呢？不过，反正我也不想娶老婆，我不会在别人面前表现得像个娘炮，那对我来说太肤浅入门了。</p><p data-pid=\"_xjvcl9y\">就当是为他体验吧！学学怎么在床上顺从丈夫。我要爱他一辈子，一辈子，只要想他心里就疼，这不正是我想要的嘛，被他轻虐。心里呼唤着他的名字，就仿佛他在哄我睡觉一样。我的身体他不要，那好，身体就完全由我支配了，心永远是他的。</p><p data-pid=\"s6SwM6NH\">因为我也不想把心再给别人了。也没有人配。</p><p data-pid=\"mCjo2UJ4\">其实，我已经彻底地疯了。</p><p data-pid=\"tJRyJ-nf\">可疯了总比死了强吧？疯了反倒能活得更好，不疯魔不成活嘛。</p><p data-pid=\"HM53B1q4\">接下来的事情就能一眼望到底了：搞钱！搞事业！用男人的身体把前文铺垫好了，到了40岁以后去转性。不为任何人，就为我要领养个女孩。我不能当姑娘，但没人规定我不能当母亲！我一定要当母亲！</p><p></p><p></p><p></p><p></p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1656775638,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "灵魂没有性别。所以这个问题问得不对。很多品质是男女皆可拥有的，灵魂驾驭肉体，肉体映射灵魂。 比如我吧，我是个男性，而且膀大腰圆的。我的很多爱好是偏女性化的：我喜欢安静独处，养花种菜，猫咪，看书，写作，画画，看电影，做菜。有时会听很久轻柔哀婉的音乐。 大部分男生的爱好，勾肩搭背，打篮球，唱K，掰手腕，买鞋，研究电脑，聚餐喝酒，组团开黑，讨论怎么泡妞，喝大了互相吹牛...这些我一样都毫无兴趣，甚至反感。…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2555871892",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1656407379,
+              "id": "540374755",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别的判定是取决于肉体还是灵魂？",
+              "type": "question",
+              "updated_time": 1656407379,
+              "url": "https://www.zhihu.com/api/v4/questions/540374755"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1656775638,
+            "url": "https://www.zhihu.com/api/v4/answers/2555871892",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "6e3e5b720468e6a8874fdb7fd0f7e61b",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768462206837605656"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/540374755/feeds?cursor=6e3e5b720468e6a8874fdb7fd0f7e61b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768462206837605656&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]
