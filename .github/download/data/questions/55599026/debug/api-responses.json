@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/55599026/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454262310,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/55599026/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/55599026/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么总有人在比男女两种性别谁更惨？",
+          "question_type": "normal",
+          "created": 1628605103,
+          "updated_time": 1628605103,
+          "url": "https://www.zhihu.com/api/v4/questions/478818856",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "478818856"
+        },
+        {
+          "type": "question",
+          "title": "你对性别的定义是什么?",
+          "question_type": "normal",
+          "created": 1697288479,
+          "updated_time": 1697288479,
+          "url": "https://www.zhihu.com/api/v4/questions/626129564",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "626129564"
+        },
+        {
+          "type": "question",
+          "title": "什么是真正的性别？",
+          "question_type": "normal",
+          "created": 1570185873,
+          "updated_time": 1570185873,
+          "url": "https://www.zhihu.com/api/v4/questions/349123517",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "349123517"
+        },
+        {
+          "type": "question",
+          "title": "为什么看问题有些人就一定要带上性别？",
+          "question_type": "normal",
+          "created": 1654861636,
+          "updated_time": 1654861636,
+          "url": "https://www.zhihu.com/api/v4/questions/537067227",
+          "answer_count": 21,
+          "comment_count": 0,
+          "follower_count": 31,
+          "relationship": {},
+          "id": "537067227"
+        }
+      ]
+    }
+  }
+]

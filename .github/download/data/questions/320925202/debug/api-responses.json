@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/320925202/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454240784,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/320925202/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/320925202/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个疑问:人是否有两种性别？",
+          "question_type": "normal",
+          "created": 1486612577,
+          "updated_time": 1486612577,
+          "url": "https://www.zhihu.com/api/v4/questions/55599026",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "55599026"
+        },
+        {
+          "type": "question",
+          "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+          "question_type": "normal",
+          "created": 1622721749,
+          "updated_time": 1622721749,
+          "url": "https://www.zhihu.com/api/v4/questions/462992381",
+          "answer_count": 22,
+          "comment_count": 0,
+          "follower_count": 28,
+          "relationship": {},
+          "id": "462992381"
+        }
+      ]
+    }
+  }
+]

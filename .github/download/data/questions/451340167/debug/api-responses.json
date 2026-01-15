@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/451340167/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454331932,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/451340167/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/451340167/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男性和女性各自都有哪些性别相关的缺点?",
+          "question_type": "normal",
+          "created": 1685375333,
+          "updated_time": 1685375333,
+          "url": "https://www.zhihu.com/api/v4/questions/603743400",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "603743400"
+        },
+        {
+          "type": "question",
+          "title": "有什么是男女性别差异造成的认知错误?",
+          "question_type": "normal",
+          "created": 1467384677,
+          "updated_time": 1467384677,
+          "url": "https://www.zhihu.com/api/v4/questions/48058550",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "48058550"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类会有男女性别之分?",
+          "question_type": "normal",
+          "created": 1449760461,
+          "updated_time": 1449760461,
+          "url": "https://www.zhihu.com/api/v4/questions/38399169",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "38399169"
+        },
+        {
+          "type": "question",
+          "title": "男女性别差异在哪里，如何看待合理利用性别差异。?",
+          "question_type": "normal",
+          "created": 1736669601,
+          "updated_time": 1736669601,
+          "url": "https://www.zhihu.com/api/v4/questions/9401522307",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "9401522307"
+        },
+        {
+          "type": "question",
+          "title": "抛开性的因素，人们是否更愿意与自己性别相同的人相处，对于男女都一样吗？",
+          "question_type": "normal",
+          "created": 1403074900,
+          "updated_time": 1403074900,
+          "url": "https://www.zhihu.com/api/v4/questions/24191201",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "24191201"
+        }
+      ]
+    }
+  }
+]

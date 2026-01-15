@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/478818856/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768454302018,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/478818856/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/478818856/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "请问男女性别间的差异有大过人类共性和个体间的差别吗？",
+          "question_type": "normal",
+          "created": 1616736746,
+          "updated_time": 1616736746,
+          "url": "https://www.zhihu.com/api/v4/questions/451340167",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "451340167"
+        },
+        {
+          "type": "question",
+          "title": "男女性别差异真的很重要吗？",
+          "question_type": "normal",
+          "created": 1528730182,
+          "updated_time": 1528730183,
+          "url": "https://www.zhihu.com/api/v4/questions/280672934",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "280672934"
+        },
+        {
+          "type": "question",
+          "title": "男女性别之间的区别让我很困惑该怎么办？",
+          "question_type": "normal",
+          "created": 1749854790,
+          "updated_time": 1749854790,
+          "url": "https://www.zhihu.com/api/v4/questions/1917110622950252655",
+          "answer_count": 7,
+          "comment_count": 5,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "1917110622950252655"
+        }
+      ]
+    }
+  }
+]
