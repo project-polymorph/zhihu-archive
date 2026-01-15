@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/309503456/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455691971,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/309503456/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/309503456/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果可以选择更换性别，你愿意换吗，为什么呢?",
+          "question_type": "normal",
+          "created": 1724868014,
+          "updated_time": 1724868014,
+          "url": "https://www.zhihu.com/api/v4/questions/665560877",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "665560877"
+        },
+        {
+          "type": "question",
+          "title": "如果允许您变化一次，您会让自己转换性别吗？",
+          "question_type": "normal",
+          "created": 1680499635,
+          "updated_time": 1680499635,
+          "url": "https://www.zhihu.com/api/v4/questions/593473742",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "593473742"
+        },
+        {
+          "type": "question",
+          "title": "如果性别能随意转换，你会做什么呢？",
+          "question_type": "normal",
+          "created": 1606750555,
+          "updated_time": 1606750555,
+          "url": "https://www.zhihu.com/api/v4/questions/432758538",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "432758538"
+        },
+        {
+          "type": "question",
+          "title": "如果性别可以转换，你会选择当男生还是做女生？",
+          "question_type": "normal",
+          "created": 1560652985,
+          "updated_time": 1560652985,
+          "url": "https://www.zhihu.com/api/v4/questions/329632119",
+          "answer_count": 16,
+          "comment_count": 0,
+          "follower_count": 20,
+          "relationship": {},
+          "id": "329632119"
+        },
+        {
+          "type": "question",
+          "title": "假你可以随意变换性别，你会怎么样？",
+          "question_type": "normal",
+          "created": 1660092229,
+          "updated_time": 1660092229,
+          "url": "https://www.zhihu.com/api/v4/questions/547757635",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "547757635"
+        }
+      ]
+    }
+  }
+]

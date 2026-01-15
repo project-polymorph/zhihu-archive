@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/267807781/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768455674798,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/267807781/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/267807781/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "被错认性别是一种怎样的体验？",
+          "question_type": "normal",
+          "created": 1525078403,
+          "updated_time": 1525078403,
+          "url": "https://www.zhihu.com/api/v4/questions/275400619",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 27,
+          "relationship": {},
+          "id": "275400619"
+        },
+        {
+          "type": "question",
+          "title": "被误认为你不希望被认成的性别是种怎样的体验？",
+          "question_type": "normal",
+          "created": 1708870621,
+          "updated_time": 1708870621,
+          "url": "https://www.zhihu.com/api/v4/questions/645826122",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "645826122"
+        },
+        {
+          "type": "question",
+          "title": "有没有某个时刻你很讨厌自己的性别?",
+          "question_type": "normal",
+          "created": 1555662367,
+          "updated_time": 1555663015,
+          "url": "https://www.zhihu.com/api/v4/questions/320820400",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "320820400"
+        },
+        {
+          "type": "question",
+          "title": "我是一个女生 我有点厌恶自己的性别 怎么办？",
+          "question_type": "normal",
+          "created": 1607270216,
+          "updated_time": 1607270216,
+          "url": "https://www.zhihu.com/api/v4/questions/433657185",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "433657185"
+        }
+      ]
+    }
+  }
+]
