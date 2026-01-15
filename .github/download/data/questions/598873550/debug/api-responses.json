@@ -1,0 +1,693 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/598873550/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768453242447,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/598873550/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/598873550/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果性别能随意转换，你会做什么呢？",
+          "question_type": "normal",
+          "created": 1606750555,
+          "updated_time": 1606750555,
+          "url": "https://www.zhihu.com/api/v4/questions/432758538",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "432758538"
+        },
+        {
+          "type": "question",
+          "title": "假你可以随意变换性别，你会怎么样？",
+          "question_type": "normal",
+          "created": 1660092229,
+          "updated_time": 1660092229,
+          "url": "https://www.zhihu.com/api/v4/questions/547757635",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "547757635"
+        },
+        {
+          "type": "question",
+          "title": "如果允许您变化一次，您会让自己转换性别吗？",
+          "question_type": "normal",
+          "created": 1680499635,
+          "updated_time": 1680499635,
+          "url": "https://www.zhihu.com/api/v4/questions/593473742",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "593473742"
+        },
+        {
+          "type": "question",
+          "title": "  如果切换性别，你会怎么做？",
+          "question_type": "normal",
+          "created": 1531969324,
+          "updated_time": 1531969324,
+          "url": "https://www.zhihu.com/api/v4/questions/285889780",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "285889780"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/598873550/feeds?cursor=c3b11b5f64ea729e39ea02c1b2101dfe&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768453236341468396&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768453242517,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiw5dWdCyDOq8idApICJQoJNTc4MjcwNjczEgozMDE1MDEzMDQwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-3d93e417d2f303b44b9862a232acbd05_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-3d93e417d2f303b44b9862a232acbd05.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 228,
+              "gender": -1,
+              "headline": "杠精",
+              "id": "07520b81a05cc2cd241aedf2599adf63",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "一蓑烟雨半盏离愁",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/07520b81a05cc2cd241aedf2599adf63",
+              "url_token": "jkjkjkjk-69",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"SKxmTIG2\">如果是真的，我还会继续被催婚，并且转变取向。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1683336760,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "如果是真的，我还会继续被催婚，并且转变取向。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3015013040",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1683110965,
+              "id": "598873550",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你转换了性别？会发生什么？",
+              "type": "question",
+              "updated_time": 1683110965,
+              "url": "https://www.zhihu.com/api/v4/questions/598873550"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1683336760,
+            "url": "https://www.zhihu.com/api/v4/answers/3015013040",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "c3b11b5f64ea729e3d7e06c1b2101dfe",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjR9dadCyDOq8idApICJQoJNTc4Mjc0MDM2EgozMDE1MDMxNTA1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ZGT_CI-8\">会进监狱，因为我是女的，有暴力倾向……</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1683337379,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "会进监狱，因为我是女的，有暴力倾向…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3015031505",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1683110965,
+              "id": "598873550",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你转换了性别？会发生什么？",
+              "type": "question",
+              "updated_time": 1683110965,
+              "url": "https://www.zhihu.com/api/v4/questions/598873550"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1683337379,
+            "url": "https://www.zhihu.com/api/v4/answers/3015031505",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "c3b11b5f64ea729e180906c1b2101dfe",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi/8NSfCyDOq8idApICJQoJNTc5MDI5NTMyEgozMDE5MTkyMzgzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-655f5cab7f868f41a1b23a6bf13b4586_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-655f5cab7f868f41a1b23a6bf13b4586.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "我想翻身，因为另一面已经焦了",
+              "id": "fda7062d4f52f192917e454e8e8f8be6",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "咸鱼翻身还是咸鱼",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/fda7062d4f52f192917e454e8e8f8be6",
+              "url_token": "63-17-76-75",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"w-26MddO\">《畜牲的一生》</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1683561068,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "《畜牲的一生》",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3019192383",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1683110965,
+              "id": "598873550",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你转换了性别？会发生什么？",
+              "type": "question",
+              "updated_time": 1683110965,
+              "url": "https://www.zhihu.com/api/v4/questions/598873550"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1683561068,
+            "url": "https://www.zhihu.com/api/v4/answers/3019192383",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "c3b11b5f64ea729ef081f2c1b2101dfe",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjPusGkCyDOq8idApICJQoJNTgwODc4MTQ0EgozMDI5MzU5OTUxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "d22e7124c7c64637d9da5c2f2a60da59",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "飞飞飞",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/d22e7124c7c64637d9da5c2f2a60da59",
+              "url_token": "fei-fei-fei-82-29-14",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"OrbrzXiD\">还有这种好事</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1684156083,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "还有这种好事",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3029359951",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1683110965,
+              "id": "598873550",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果你转换了性别？会发生什么？",
+              "type": "question",
+              "updated_time": 1683110965,
+              "url": "https://www.zhihu.com/api/v4/questions/598873550"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1684156463,
+            "url": "https://www.zhihu.com/api/v4/answers/3029359951",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "c3b11b5f64ea729eacb4eec1b2101dfe",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768453236341468396"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/598873550/feeds?cursor=c3b11b5f64ea729eacb4eec1b2101dfe&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768453236341468396&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

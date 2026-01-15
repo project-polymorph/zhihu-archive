@@ -484,7 +484,11 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
     // 滚动加载更多回答（仅在匹配 topic 时）
     if (isTopicMatch) {
       const maxScrolls = CRAWLER_CONFIG.scroll.maxScrolls;
+      let noNewAnswerCount = 0;  // 连续无新回答的滚动次数
+      const maxNoNewAnswer = 15;  // 连续15次无新回答则停止
+
       for (let i = 0; i < maxScrolls; i++) {
+        const savedBefore = newSaved;
         await human.act();
 
         // 每隔几次关闭弹窗
@@ -492,7 +496,25 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
           await closeLoginModal(page);
         }
 
+        // 检查是否有新回答
+        if (newSaved > savedBefore) {
+          noNewAnswerCount = 0;  // 重置计数
+        } else {
+          noNewAnswerCount++;
+        }
+
         logger.info(`  滚动 ${i + 1}/${maxScrolls}, 已保存 ${newSaved} 回答`);
+
+        // 检查是否应该停止滚动
+        const answerCount = questionInfo?.answerCount || 0;
+        if (answerCount > 0 && totalCollected >= answerCount) {
+          logger.info(`  [STOP] 已收集全部 ${answerCount} 个回答`);
+          break;
+        }
+        if (noNewAnswerCount >= maxNoNewAnswer) {
+          logger.info(`  [STOP] 连续 ${maxNoNewAnswer} 次滚动无新回答`);
+          break;
+        }
       }
     }
 
