@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/483206772/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463740516,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/483206772/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/483206772/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "在一些生物学现象中，男性性别为什么体现得比女性要弱？",
+          "question_type": "normal",
+          "created": 1452238223,
+          "updated_time": 1452238837,
+          "url": "https://www.zhihu.com/api/v4/questions/39287336",
+          "answer_count": 50,
+          "comment_count": 8,
+          "follower_count": 217,
+          "relationship": {},
+          "id": "39287336"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是由心理决定的还是生理决定的？",
+          "question_type": "normal",
+          "created": 1499165145,
+          "updated_time": 1499165145,
+          "url": "https://www.zhihu.com/api/v4/questions/62006373",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "62006373"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是如何决定的？",
+          "question_type": "normal",
+          "created": 1401191524,
+          "updated_time": 1401361063,
+          "url": "https://www.zhihu.com/api/v4/questions/23932343",
+          "answer_count": 16,
+          "comment_count": 4,
+          "follower_count": 264,
+          "relationship": {},
+          "id": "23932343"
+        }
+      ]
+    }
+  }
+]

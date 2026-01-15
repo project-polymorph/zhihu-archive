@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/514200225/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463505627,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/514200225/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/514200225/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果可以决定性别，你会有何想法？理由？",
+          "question_type": "normal",
+          "created": 1582126380,
+          "updated_time": 1582126380,
+          "url": "https://www.zhihu.com/api/v4/questions/373137488",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "373137488"
+        },
+        {
+          "type": "question",
+          "title": "是什么决定了我们的性别？",
+          "question_type": "normal",
+          "created": 1682026283,
+          "updated_time": 1682026283,
+          "url": "https://www.zhihu.com/api/v4/questions/596854722",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "596854722"
+        },
+        {
+          "type": "question",
+          "title": "什么决定了性别?",
+          "question_type": "normal",
+          "created": 1742547933,
+          "updated_time": 1742547933,
+          "url": "https://www.zhihu.com/api/v4/questions/15493833707",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "15493833707"
+        },
+        {
+          "type": "question",
+          "title": "性别有什么作用，性别可以不存在吗?",
+          "question_type": "normal",
+          "created": 1680698208,
+          "updated_time": 1680698208,
+          "url": "https://www.zhihu.com/api/v4/questions/593861431",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "593861431"
+        }
+      ]
+    }
+  }
+]

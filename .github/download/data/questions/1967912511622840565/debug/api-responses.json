@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1967912511622840565/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463370716,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1967912511622840565/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1967912511622840565/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男性的性别困境是什么?",
+          "question_type": "normal",
+          "created": 1764134660,
+          "updated_time": 1764134660,
+          "url": "https://www.zhihu.com/api/v4/questions/1977004738680750304",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1977004738680750304"
+        },
+        {
+          "type": "question",
+          "title": "男性的性别困境有哪些？",
+          "question_type": "normal",
+          "created": 1745589627,
+          "updated_time": 1746086222,
+          "url": "https://www.zhihu.com/api/v4/questions/1899221231816906211",
+          "answer_count": 958,
+          "comment_count": 37,
+          "follower_count": 3804,
+          "relationship": {},
+          "id": "1899221231816906211"
+        },
+        {
+          "type": "question",
+          "title": "为什么在中国会出现性别失衡，男人比女人多3千多万，30年前农村还在做性别鉴定？什么导致男多女少？",
+          "question_type": "normal",
+          "created": 1643597705,
+          "updated_time": 1643598963,
+          "url": "https://www.zhihu.com/api/v4/questions/514200225",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "514200225"
+        },
+        {
+          "type": "question",
+          "title": "为什么现在很多人都说男性如何，女性如何，却不说某个人如何而是宽泛地讨论性别？",
+          "question_type": "normal",
+          "created": 1630161393,
+          "updated_time": 1630161393,
+          "url": "https://www.zhihu.com/api/v4/questions/483206772",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "483206772"
+        }
+      ]
+    }
+  }
+]

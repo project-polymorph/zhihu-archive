@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/483353861/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463355566,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/483353861/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/483353861/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何看待男性女性化？",
+          "question_type": "normal",
+          "created": 1507988567,
+          "updated_time": 1507988567,
+          "url": "https://www.zhihu.com/api/v4/questions/66653157",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "66653157"
+        },
+        {
+          "type": "question",
+          "title": "对于现在男的女性化和女的男性化怎么看?",
+          "question_type": "normal",
+          "created": 1580905627,
+          "updated_time": 1671677759,
+          "url": "https://www.zhihu.com/api/v4/questions/369892838",
+          "answer_count": 3,
+          "comment_count": 2,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "369892838"
+        },
+        {
+          "type": "question",
+          "title": "怎样看待男性女性化?",
+          "question_type": "normal",
+          "created": 1606389062,
+          "updated_time": 1624155404,
+          "url": "https://www.zhihu.com/api/v4/questions/432131334",
+          "answer_count": 66,
+          "comment_count": 7,
+          "follower_count": 112,
+          "relationship": {},
+          "id": "432131334"
+        }
+      ]
+    }
+  }
+]

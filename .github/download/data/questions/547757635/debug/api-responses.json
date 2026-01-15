@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/547757635/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463588109,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/547757635/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/547757635/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "在什么情况下会让你想要变换性别？",
+          "question_type": "normal",
+          "created": 1574200856,
+          "updated_time": 1574200856,
+          "url": "https://www.zhihu.com/api/v4/questions/356724389",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "356724389"
+        },
+        {
+          "type": "question",
+          "title": "如果允许您变化一次，您会让自己转换性别吗？",
+          "question_type": "normal",
+          "created": 1680499635,
+          "updated_time": 1680499635,
+          "url": "https://www.zhihu.com/api/v4/questions/593473742",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "593473742"
+        },
+        {
+          "type": "question",
+          "title": "如果你转换了性别？会发生什么？",
+          "question_type": "normal",
+          "created": 1683110965,
+          "updated_time": 1683110965,
+          "url": "https://www.zhihu.com/api/v4/questions/598873550",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "598873550"
+        },
+        {
+          "type": "question",
+          "title": "如果你有一天的时间可以转换性别，你会做哪些事情?",
+          "question_type": "normal",
+          "created": 1597636832,
+          "updated_time": 1597636832,
+          "url": "https://www.zhihu.com/api/v4/questions/414852886",
+          "answer_count": 96,
+          "comment_count": 3,
+          "follower_count": 112,
+          "relationship": {},
+          "id": "414852886"
+        }
+      ]
+    }
+  }
+]

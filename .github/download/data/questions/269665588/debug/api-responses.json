@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/269665588/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768464128800,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/269665588/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/269665588/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "怎么看待重男轻女的现象？",
+          "question_type": "normal",
+          "created": 1728830141,
+          "updated_time": 1728830141,
+          "url": "https://www.zhihu.com/api/v4/questions/860925443",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "860925443"
+        },
+        {
+          "type": "question",
+          "title": "如何看待重男轻女现象?",
+          "question_type": "normal",
+          "created": 1561562467,
+          "updated_time": 1561562467,
+          "url": "https://www.zhihu.com/api/v4/questions/331788257",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "331788257"
+        },
+        {
+          "type": "question",
+          "title": "如何看待重男轻女?",
+          "question_type": "normal",
+          "created": 1583680652,
+          "updated_time": 1583680652,
+          "url": "https://www.zhihu.com/api/v4/questions/377860629",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "377860629"
+        },
+        {
+          "type": "question",
+          "title": "怎么看待重男轻女？",
+          "question_type": "normal",
+          "created": 1551624555,
+          "updated_time": 1551624555,
+          "url": "https://www.zhihu.com/api/v4/questions/314472335",
+          "answer_count": 6,
+          "comment_count": 2,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "314472335"
+        }
+      ]
+    }
+  }
+]

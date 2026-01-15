@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/467914732/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768463188120,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/467914732/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/467914732/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何对待网络上甚至是生活中的男性女性化和女性男性化?",
+          "question_type": "normal",
+          "created": 1630239815,
+          "updated_time": 1630239815,
+          "url": "https://www.zhihu.com/api/v4/questions/483353861",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "483353861"
+        },
+        {
+          "type": "question",
+          "title": "我们应该如何正确看待男性性别女性化？",
+          "question_type": "normal",
+          "created": 1629908636,
+          "updated_time": 1629908636,
+          "url": "https://www.zhihu.com/api/v4/questions/482510738",
+          "answer_count": 33,
+          "comment_count": 0,
+          "follower_count": 46,
+          "relationship": {},
+          "id": "482510738"
+        },
+        {
+          "type": "question",
+          "title": "现代社会中，男性是否也面临独特的性别困境？",
+          "question_type": "normal",
+          "created": 1761966904,
+          "updated_time": 1761966904,
+          "url": "https://www.zhihu.com/api/v4/questions/1967912511622840565",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "1967912511622840565"
+        },
+        {
+          "type": "question",
+          "title": "我们对男性与女性的性别形象固定是什么时候形成的?",
+          "question_type": "normal",
+          "created": 1544928706,
+          "updated_time": 1544928706,
+          "url": "https://www.zhihu.com/api/v4/questions/305887264",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "305887264"
+        },
+        {
+          "type": "question",
+          "title": "说“不要将男性女性化”是一种性别歧视吗？",
+          "question_type": "normal",
+          "created": 1572703738,
+          "updated_time": 1572703738,
+          "url": "https://www.zhihu.com/api/v4/questions/353793726",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "353793726"
+        }
+      ]
+    }
+  }
+]
