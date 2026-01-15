@@ -270,28 +270,11 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
                 topics: qTopics,
               });
 
-              // 检查是否匹配 topic 过滤器，加入队列
-              if (crawlConfig?.discovery?.fromRelatedQuestions !== false) {
-                if (matchesTopicFilter(qTopics, crawlConfig?.topics)) {
-                  const visitKey = `question:${qId}`;
-                  if (!visited.has(visitKey)) {
-                    queue.add({
-                      type: 'question',
-                      id: qId,
-                      priority: 3,
-                      source: `related:${questionId}`,
-                      matchedTopics: qTopics.filter(t =>
-                        crawlConfig.topics.some(ct => t.includes(ct) || ct.includes(t))
-                      ),
-                    });
-                    addedToQueue++;
-                  }
-                }
-              }
+              // 先收集推荐问题，稍后根据当前问题的 topics 决定是否加入队列
             }
           }
           if (relatedQuestions.length > 0) {
-            logger.info(`  [API] 发现 ${relatedQuestions.length} 个相关问题, ${addedToQueue} 个匹配加入队列`);
+            logger.info(`  [API] 发现 ${relatedQuestions.length} 个相关问题`);
           }
         }
       }
@@ -329,6 +312,33 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
     });
 
     logger.info(`  标题: ${questionInfo.title.slice(0, 40)}...`);
+
+    // 检查当前问题是否匹配 topic 过滤器
+    const isTopicMatch = matchesTopicFilter(questionInfo?.topics, crawlConfig?.topics);
+    if (isTopicMatch) {
+      logger.info(`  [TOPIC] 匹配过滤器，将完整爬取`);
+      // 把收集到的推荐问题加入队列
+      if (crawlConfig?.discovery?.fromRelatedQuestions !== false) {
+        let addedToQueue = 0;
+        for (const rq of relatedQuestions) {
+          const visitKey = `question:${rq.id}`;
+          if (!visited.has(visitKey)) {
+            queue.add({
+              type: 'question',
+              id: rq.id,
+              priority: 3,
+              source: `related:${questionId}`,
+            });
+            addedToQueue++;
+          }
+        }
+        if (addedToQueue > 0) {
+          logger.info(`  [QUEUE] 加入 ${addedToQueue} 个推荐问题`);
+        }
+      }
+    } else {
+      logger.info(`  [TOPIC] 不匹配过滤器，仅保存基本信息，跳过滚动`);
+    }
 
     // ========== 先从 DOM 提取 SSR 渲染的回答 ==========
     const ssrAnswers = await page.evaluate(() => {
@@ -393,17 +403,19 @@ async function crawlQuestion(page, questionId, visited, queue, human, crawlConfi
       visited.save();
     }
 
-    // 滚动加载更多回答
-    const maxScrolls = CRAWLER_CONFIG.scroll.maxScrolls;
-    for (let i = 0; i < maxScrolls; i++) {
-      await human.act();
+    // 滚动加载更多回答（仅在匹配 topic 时）
+    if (isTopicMatch) {
+      const maxScrolls = CRAWLER_CONFIG.scroll.maxScrolls;
+      for (let i = 0; i < maxScrolls; i++) {
+        await human.act();
 
-      // 每隔几次关闭弹窗
-      if (i % 3 === 0) {
-        await closeLoginModal(page);
+        // 每隔几次关闭弹窗
+        if (i % 3 === 0) {
+          await closeLoginModal(page);
+        }
+
+        logger.info(`  滚动 ${i + 1}/${maxScrolls}, 已保存 ${newSaved} 回答`);
       }
-
-      logger.info(`  滚动 ${i + 1}/${maxScrolls}, 已保存 ${newSaved} 回答`);
     }
 
   } finally {
