@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/557957085/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768471819052,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/557957085/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/557957085/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+          "question_type": "normal",
+          "created": 1585877846,
+          "updated_time": 1627529358,
+          "url": "https://www.zhihu.com/api/v4/questions/384741963",
+          "answer_count": 51,
+          "comment_count": 4,
+          "follower_count": 219,
+          "relationship": {},
+          "id": "384741963"
+        },
+        {
+          "type": "question",
+          "title": "你们经历过的性别刻板印象？",
+          "question_type": "normal",
+          "created": 1590504729,
+          "updated_time": 1590504729,
+          "url": "https://www.zhihu.com/api/v4/questions/397573240",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "397573240"
+        },
+        {
+          "type": "question",
+          "title": "有哪些常见的性别刻板印象?",
+          "question_type": "normal",
+          "created": 1594638649,
+          "updated_time": 1594638649,
+          "url": "https://www.zhihu.com/api/v4/questions/406698056",
+          "answer_count": 31,
+          "comment_count": 0,
+          "follower_count": 106,
+          "relationship": {},
+          "id": "406698056"
+        },
+        {
+          "type": "question",
+          "title": "你身边有哪些性别刻板印象？",
+          "question_type": "normal",
+          "created": 1677154180,
+          "updated_time": 1677154180,
+          "url": "https://www.zhihu.com/api/v4/questions/585850831",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "585850831"
+        }
+      ]
+    }
+  }
+]
