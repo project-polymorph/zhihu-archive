@@ -1,0 +1,1016 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/312286813/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457254366,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/312286813/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/312286813/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你理想中的社会性别关系是怎样的？",
+          "question_type": "normal",
+          "created": 1631412995,
+          "updated_time": 1631412995,
+          "url": "https://www.zhihu.com/api/v4/questions/486324498",
+          "answer_count": 12,
+          "comment_count": 1,
+          "follower_count": 25,
+          "relationship": {},
+          "id": "486324498"
+        },
+        {
+          "type": "question",
+          "title": "社会性别是生物性别的延续吗？",
+          "question_type": "normal",
+          "created": 1640087620,
+          "updated_time": 1640087620,
+          "url": "https://www.zhihu.com/api/v4/questions/507628971",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "507628971"
+        },
+        {
+          "type": "question",
+          "title": "为什么大多数人会对自己的性别妥协？如果排除社会动因任其自由生长，男女会有相反或相似的行为和认知吗?",
+          "question_type": "normal",
+          "created": 1668003216,
+          "updated_time": 1668003216,
+          "url": "https://www.zhihu.com/api/v4/questions/565642649",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "565642649"
+        },
+        {
+          "type": "question",
+          "title": "就生存和社会发展层面 不同性别是否存在对方无法替代的优势?",
+          "question_type": "normal",
+          "created": 1675778007,
+          "updated_time": 1675778007,
+          "url": "https://www.zhihu.com/api/v4/questions/582676278",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "582676278"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/312286813/feeds?cursor=63e79b0ab2f45c8c2b02c3601f4bf8e8&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768457249304724349&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768457254368,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi4x9+bDSDdvPSUAZICJQoJNjc1MTM1Njg2EgozNTQ3ODQ5NjU2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "",
+              "id": "74e513846a67f0b6a87e40f092fffdad",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户BkITNw",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/74e513846a67f0b6a87e40f092fffdad",
+              "url_token": "mitcek",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"KWzu8pgk\">如果放到历史的进程中来看，在将来它是不该存在的。</p><p data-pid=\"5oUK3QDK\">社会性别是性别分工反映到社会文化上的产物。它是人们基于预设的生理性别（不一定是真实的生理性别）而对某个人类个体产生的行为期望。其本质上是束缚人自由表达的条条框框，俗称规训体系。我们每个人都生活、成长在这套规训体系中，没有任何一个人能完全摆脱它的影响。</p><p data-pid=\"DSTQRGKt\">不可否认，传统的性别分工确实为历史上生产力的进步做出了一定贡献；但它并不是永恒不变的。认为其将永远不变的人是形而上学的本质主义者。随着历史的演进，可能在几百年后，也可能在一千年以后，社会性别将随着私有制的最终解体而加速消亡。</p><p data-pid=\"_n5ceX69\">在完全的共产主义社会，没有人规定男人该是什么样子，该做什么；也没有人规定女人该是什么样子，该做什么；至于生理意义上的跨性别者，也将给予同他人一样的尊重和平视。人类将只剩下生理性别的区分，而传统的性别刻板印象将不复存在。</p><p data-pid=\"yX75jpHt\">正如马克思所言：消灭阶级压迫的唯一办法就是消灭阶级本身的存在；那么，消灭性别压迫的唯一办法就是消灭“社会性别”本身；而消灭与社会性别紧紧依附的私有制度将会为最终消灭社会性别提供极大的助力。平等的最终导向是自由，将不平等的社会性别转化为平等的社会性别既是不可实现的，也不可能让人获得完全的自由，必须彻底消灭其存在。</p><p data-pid=\"WLiH2mkR\">这种消灭将会是一种解放：不仅是对女性和跨性别者的解放，也是对男性的解放。正如无产阶级革命不仅使得被压迫的无产阶级获得自由，也将使得作为压迫者的旧资产阶级摆脱资本对其人格的异化，最终获得人的自由。</p><p data-pid=\"9_5o68UL\">关于“如果没有社会性别，女人是不是应该干重体力活”的问题：</p><p data-pid=\"aq2gyoBU\">在共产主义社会，社会的生产力将是极度发达的，全体人类都不需要去耗费大量时间和体力从事单一的生产工作，不仅是女人不需要，连男人也不需要干那些重体力活了，全部都有机器去干。人类的主要劳动领域将转向两性差别不大的智力领域，问出这种问题的人首先共产主义理论就没学好。</p><p data-pid=\"2H8jzXGr\">修正及拨乱：</p><p data-pid=\"KmsqxLbC\">一些人认为私有制解体后社会性别会自然而然地消灭，这是不对的。社会性别虽然来源于性别分工，而性别分工与私有制之间虽然依附紧密，但并不是私有制附带的产物，而是在原始氏族公社时期即已出现（女性负责抚育和采集、男性负责保卫和捕猎）。</p><p data-pid=\"yzMJbgAY\">这意味着即使私有制解体，初步建立了共产主义社会，社会性别也不会自动退出历史舞台，因为性别矛盾虽然与阶级矛盾相生相伴，但却是无法被还原为阶级矛盾的。它们并不具有从属关系。虽然性别压迫程度将大大缓和，但想实现人的自由的完全解放，单凭消灭私有制是不能够“毕其功于一役”的，还需要在这之后继续努力。</p><p data-pid=\"zIUCKhyo\">私有制解体以后，性别分工虽然丧失了绝大部分经济基础，但它作为一种数千年来的集体无意识仍会存在一段时间。消灭了私有制，只是为彻底消灭社会性别提供了更好的环境而已，而非放任自流、迎刃而解。毕竟填人胃容易，变人心更难。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1719811759,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "如果放到历史的进程中来看，在将来它是不该存在的。 社会性别是性别分工反映到社会文化上的产物。它是人们基于预设的生理性别（不一定是真实的生理性别）而对某个人类个体产生的行为期望。其本质上是束缚人自由表达的条条框框，俗称规训体系。我们每个人都生活、成长在这套规训体系中，没有任何一个人能完全摆脱它的影响。 不可否认，传统的性别分工确实为历史上生产力的进步做出了一定贡献；但它并不是永恒不变的。认为其将永远…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3547849656",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1550158800,
+              "id": "312286813",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "社会性别该不该存在？",
+              "type": "question",
+              "updated_time": 1550158800,
+              "url": "https://www.zhihu.com/api/v4/questions/312286813"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1719905524,
+            "url": "https://www.zhihu.com/api/v4/answers/3547849656",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "63e79b0ab2f45c8ca107d3431f4bf8e8",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi156CjAyDdvPSUAZICJAoJMTg5OTI5NjgzEgk4NzkyNDQyMTMYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-2a3d471b3d6de03fcef225366db5acb0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-2a3d471b3d6de03fcef225366db5acb0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 433,
+              "gender": 0,
+              "headline": "自然饱和度低，走路看云。",
+              "id": "9925e91773db6fcc2e7d59a8d3b34ab5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "小台台",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9925e91773db6fcc2e7d59a8d3b34ab5",
+              "url_token": "qiu-shui-23",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"2MFC178g\">社会性别应该首先存在于让人们了解与生理性别之间的区别以及为何需要拥有这种区别。</p><p data-pid=\"Yn0YA_fm\">然而社会性别是否还需要更多的二元/多元的分类是个非常值得思考的问题。如果有分类的存在，是否让人的社会性别陷入了新的桎梏。而如果要消除社会性别（的类别），通过语言和定义来认识世界与自我的人们，又该如何认识和谈论它。</p><p data-pid=\"59y1nHJI\">一些思考详见另一个问题下的回答：</p><p data-pid=\"7KIK8YJs\">如何看待性别种类的逐渐增多？ - 小台台的回答 - 知乎 <a href=\"https://www.zhihu.com/question/266991284/answer/884442937\" class=\"internal\" target=\"_blank\"><span class=\"invisible\">https://www.</span><span class=\"visible\">zhihu.com/question/2669</span><span class=\"invisible\">91284/answer/884442937</span><span class=\"ellipsis\"></span></a></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1572692664,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "社会性别应该首先存在于让人们了解与生理性别之间的区别以及为何需要拥有这种区别。 然而社会性别是否还需要更多的二元/多元的分类是个非常值得思考的问题。如果有分类的存在，是否让人的社会性别陷入了新的桎梏。而如果要消除社会性别（的类别），通过语言和定义来认识世界与自我的人们，又该如何认识和谈论它。 一些思考详见另一个问题下的回答： 如何看待性别种类的逐渐增多？ - 小台台的回答 - 知乎 https://www.zhihu.com/question/266991284/answer/884442937",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "879244213",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1550158800,
+              "id": "312286813",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "社会性别该不该存在？",
+              "type": "question",
+              "updated_time": 1550158800,
+              "url": "https://www.zhihu.com/api/v4/questions/312286813"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1573040487,
+            "url": "https://www.zhihu.com/api/v4/answers/879244213",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "63e79b0ab2f45c8cb4dfbc601f4bf8e8",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjR4J6fAiDdvPSUAZICJAoJMTM5NTkyNjM0Egk2MDIzODY1MTMYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-7279d7c1ecad0b4ba4ecc4e72012242e_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-7279d7c1ecad0b4ba4ecc4e72012242e.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-666eaa783c5874dc9ce143ca5d9fb1fe_l.png?source=1def8aca",
+                "description": "回答 20 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-666eaa783c5874dc9ce143ca5d9fb1fe_r.png?source=1def8aca"
+              },
+              "follower_count": 13,
+              "gender": 0,
+              "headline": "高等教育/翻译/编剧/人文研究",
+              "id": "7c2dbd3d20cae616bf9c5c19d98c7495",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Lilisi",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7c2dbd3d20cae616bf9c5c19d98c7495",
+              "url_token": "li-li-48-58-29-86",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Lum3yr4G\">社会性别应该更加多元，而不仅仅是二分。多元到一定程度，这就不是个问题了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1550547576,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "社会性别应该更加多元，而不仅仅是二分。多元到一定程度，这就不是个问题了。",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "602386513",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "5 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1550158800,
+              "id": "312286813",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "社会性别该不该存在？",
+              "type": "question",
+              "updated_time": 1550158800,
+              "url": "https://www.zhihu.com/api/v4/questions/312286813"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1550547576,
+            "url": "https://www.zhihu.com/api/v4/answers/602386513",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 5
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "63e79b0ab2f45c8cddc4bc631f4bf8e8",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjJs/X2BSDdvPSUAZICJQoJMzE5NDQ5NzE0EgoxNTkxNTY0NzQ1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"QPy9UiVM\">这个概念可以存在，但社会性别这个词不行。gender带有很大的刻板印象，它仍然与sex中的male/female挂钩。而且gender与sex在生活中常常被混用，使得有人望文生义，为了更贴近gender中的female，错误地把自己的sex也改造的贴近female了。</p><p data-pid=\"O86TIGqP\">如果把社会性别这个词换成社会“角色”，把“男性气质、女性气质”的生理性别元素去掉，用与生理性别无关的一些词语替换，就更合适了</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1606159264,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "这个概念可以存在，但社会性别这个词不行。gender带有很大的刻板印象，它仍然与sex中的male/female挂钩。而且gender与sex在生活中常常被混用，使得有人望文生义，为了更贴近gender中的female，错误地把自己的sex也改造的贴近female了。 如果把社会性别这个词换成社会“角色”，把“男性气质、女性气质”的生理性别元素去掉，用与生理性别无关的一些词语替换，就更合适了",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1591564745",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同 · 2 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1550158800,
+              "id": "312286813",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "社会性别该不该存在？",
+              "type": "question",
+              "updated_time": 1550158800,
+              "url": "https://www.zhihu.com/api/v4/questions/312286813"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1606160009,
+            "url": "https://www.zhihu.com/api/v4/answers/1591564745",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "63e79b0ab2f45c8c15ade4781f4bf8e8",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjc2drJDCDdvPSUAZICJQoJNjQzODU4MzM2EgozMzc1ODAzNjEyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-31b9f2135cf1018e21c8f9d0e075e9c9_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-31b9f2135cf1018e21c8f9d0e075e9c9.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_l.png?source=1def8aca",
+                "description": "回答 100 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_r.png?source=1def8aca"
+              },
+              "follower_count": 339,
+              "gender": 0,
+              "headline": "跨性别女孩/泛性恋兼同性恋/MC玩家/铁路爱好者/长靴控/",
+              "id": "edd9ca75de858b87b9a1abbefcccc765",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "萌娘兔子西园寺铃",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/edd9ca75de858b87b9a1abbefcccc765",
+              "url_token": "shang-ju-hang-duan-t34ci",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"0qVkNKMC\">我觉得不应该存在，因为社会性别规训了每个人，消灭社会性别需要很长时间，不可能短时间内消灭。我只要是跳出社会性别的桎梏，然后制造性别麻烦来抵抗社会性别的规训</p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1706173961,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我觉得不应该存在，因为社会性别规训了每个人，消灭社会性别需要很长时间，不可能短时间内消灭。我只要是跳出社会性别的桎梏，然后制造性别麻烦来抵抗社会性别的规训",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3375803612",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1550158800,
+              "id": "312286813",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "社会性别该不该存在？",
+              "type": "question",
+              "updated_time": 1550158800,
+              "url": "https://www.zhihu.com/api/v4/questions/312286813"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1706173961,
+            "url": "https://www.zhihu.com/api/v4/answers/3375803612",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "63e79b0ab2f45c8cc7b88e4d1f4bf8e8",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768457249304724349"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/312286813/feeds?cursor=63e79b0ab2f45c8cc7b88e4d1f4bf8e8&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768457249304724349&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/312286813/feeds?cursor=63e79b0ab2f45c8cc7b88e4d1f4bf8e8&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768457249304724349&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768457327338,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxihscq1ByDdvPSUAZICJQoJMzkyMTU3NTQ3EgoxOTkxNDE1OTY5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-ad7dabb415606b09e3b4263ea97357df_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-ad7dabb415606b09e3b4263ea97357df.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-431120b3fe5feeabe1492d124b33317e_l.png?source=1def8aca",
+                "description": "参与「我的知乎 2021」即可获得",
+                "medal_avatar_frame": "",
+                "medal_id": "1454099125259759616",
+                "medal_name": "我的知乎 2021",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-431120b3fe5feeabe1492d124b33317e_r.png?source=1def8aca"
+              },
+              "follower_count": 530,
+              "gender": 1,
+              "headline": "",
+              "id": "64e535cc18f5b8e175468262002b63a1",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "锻神锋",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/64e535cc18f5b8e175468262002b63a1",
+              "url_token": "bei-dou-wen-qu-xing-98",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"4p95_nsf\">认为我不应该存在性别</p><p data-pid=\"h8oRZwuo\">我认为不应该区分男女厕所，应该统一。</p><p data-pid=\"wc3nm70A\">我认为不应该区分男女宿舍，应该统一睡在一起，</p><p data-pid=\"z64w1c_D\">我认为服役测试标准应该统一，不应该有性别搞差异化区分开。</p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1625980867,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "认为我不应该存在性别 我认为不应该区分男女厕所，应该统一。 我认为不应该区分男女宿舍，应该统一睡在一起， 我认为服役测试标准应该统一，不应该有性别搞差异化区分开。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1991415969",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1550158800,
+              "id": "312286813",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "社会性别该不该存在？",
+              "type": "question",
+              "updated_time": 1550158800,
+              "url": "https://www.zhihu.com/api/v4/questions/312286813"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1625980867,
+            "url": "https://www.zhihu.com/api/v4/answers/1991415969",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "63e79b0ab2f45c8c0c1eb17c1f4bf8e8",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768457249304724349"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/312286813/feeds?cursor=63e79b0ab2f45c8c0c1eb17c1f4bf8e8&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768457249304724349&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

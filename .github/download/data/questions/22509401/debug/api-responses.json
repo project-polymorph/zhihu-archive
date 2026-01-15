@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/22509401/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457187093,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/22509401/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/22509401/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么只有两种性别？",
+          "question_type": "normal",
+          "created": 1594299139,
+          "updated_time": 1594299139,
+          "url": "https://www.zhihu.com/api/v4/questions/405961919",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "405961919"
+        },
+        {
+          "type": "question",
+          "title": "一个疑问:人是否有两种性别？",
+          "question_type": "normal",
+          "created": 1486612577,
+          "updated_time": 1486612577,
+          "url": "https://www.zhihu.com/api/v4/questions/55599026",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "55599026"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么有两种性别 只有一种不更好吗？",
+          "question_type": "normal",
+          "created": 1627183383,
+          "updated_time": 1627183383,
+          "url": "https://www.zhihu.com/api/v4/questions/474786434",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "474786434"
+        },
+        {
+          "type": "question",
+          "title": "人在多大的时候才会形成不同的性别？",
+          "question_type": "normal",
+          "created": 1320207929,
+          "updated_time": 1320207929,
+          "url": "https://www.zhihu.com/api/v4/questions/19900899",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "19900899"
+        }
+      ]
+    }
+  }
+]

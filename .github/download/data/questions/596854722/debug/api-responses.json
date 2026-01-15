@@ -1,0 +1,410 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/596854722/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457069124,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/596854722/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/596854722/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人的性别是怎样决定的？",
+          "question_type": "normal",
+          "created": 1504670341,
+          "updated_time": 1504670341,
+          "url": "https://www.zhihu.com/api/v4/questions/64967606",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "64967606"
+        },
+        {
+          "type": "question",
+          "title": "人的性别什么时候开始决定的?",
+          "question_type": "normal",
+          "created": 1578156632,
+          "updated_time": 1578156632,
+          "url": "https://www.zhihu.com/api/v4/questions/364724010",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "364724010"
+        },
+        {
+          "type": "question",
+          "title": "为什么会出现性别？",
+          "question_type": "normal",
+          "created": 1331482745,
+          "updated_time": 1331482746,
+          "url": "https://www.zhihu.com/api/v4/questions/20114744",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "20114744"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是如何决定的？",
+          "question_type": "normal",
+          "created": 1401191524,
+          "updated_time": 1401361063,
+          "url": "https://www.zhihu.com/api/v4/questions/23932343",
+          "answer_count": 16,
+          "comment_count": 4,
+          "follower_count": 264,
+          "relationship": {},
+          "id": "23932343"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是由心理决定的还是生理决定的？",
+          "question_type": "normal",
+          "created": 1499165145,
+          "updated_time": 1499165145,
+          "url": "https://www.zhihu.com/api/v4/questions/62006373",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "62006373"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/596854722/feeds?cursor=47082a4d97a21153bb3bc5ec5e077d62&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768457063983588744&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768457069204,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiJv82TCyDCj82cApICJQoJNTc0NDMxNjUwEgoyOTkzOTA1NTQ1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d947461b341c2e41af27bc46430c5a5e_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d947461b341c2e41af27bc46430c5a5e.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_l.png?source=1def8aca",
+                "description": "被 500 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_r.png?source=1def8aca"
+              },
+              "follower_count": 555,
+              "gender": 1,
+              "headline": "本人独擅情欲/性欲障碍（同性恋/跨性别等等）",
+              "id": "e0857fb99ff4e359ea9c0c03a09e509b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "龙亭方",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e0857fb99ff4e359ea9c0c03a09e509b",
+              "url_token": "arvin-9-5",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"EIaoCJia\">哺乳动物的“性别”辨别存在三个不同层面：（1）遗传性别（染色体），雄性为XY，雌性为XX；（2）性腺性别，雄性睾丸，雌性卵巢；（3）表型性别，由雄性和雌性身体的第二性征定义。遗传性别通过Y伴基因SRY决定性腺性别（SRY触发睾丸分化），而后者主要通过睾丸中的雄激素产生决定表型性别。这个过程出现问题，就会造成阴阳人这样的疾病。</p><p data-pid=\"WOdrH7EJ\">什么心理性别、社会性别，只是政治而非医学概念。</p><p data-pid=\"axaMYHgs\">政治和科学不是一回事，所以那是伪科学。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1682048046,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "哺乳动物的“性别”辨别存在三个不同层面：（1）遗传性别（染色体），雄性为XY，雌性为XX；（2）性腺性别，雄性睾丸，雌性卵巢；（3）表型性别，由雄性和雌性身体的第二性征定义。遗传性别通过Y伴基因SRY决定性腺性别（SRY触发睾丸分化），而后者主要通过睾丸中的雄激素产生决定表型性别。这个过程出现问题，就会造成阴阳人这样的疾病。 什么心理性别、社会性别，只是政治而非医学概念。 政治和科学不是一回事，所以那是伪科学。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2993905545",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682026283,
+              "id": "596854722",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "是什么决定了我们的性别？",
+              "type": "question",
+              "updated_time": 1682026283,
+              "url": "https://www.zhihu.com/api/v4/questions/596854722"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": true,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": "真诚赞赏，手留余香"
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1682048046,
+            "url": "https://www.zhihu.com/api/v4/answers/2993905545",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "47082a4d97a211536076b1ec5e077d62",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjpgsqUCyDCj82cApICJQoJNTc0ODAyODkwEgoyOTk1OTQ1ODMzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-a8199614353b1cbf15414cac24551ad7_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-a8199614353b1cbf15414cac24551ad7.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 205,
+              "gender": 1,
+              "headline": "Ashit",
+              "id": "5a2f6ca9b1acdef58d9fdfbed79ff429",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "oneshit",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/5a2f6ca9b1acdef58d9fdfbed79ff429",
+              "url_token": "mou-wei-xue-sheng",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"C5nehkKB\">性别是社会造就与个人实践相结合的产物。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1682165250,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "性别是社会造就与个人实践相结合的产物。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2995945833",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1682026283,
+              "id": "596854722",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "是什么决定了我们的性别？",
+              "type": "question",
+              "updated_time": 1682026283,
+              "url": "https://www.zhihu.com/api/v4/questions/596854722"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1682165250,
+            "url": "https://www.zhihu.com/api/v4/answers/2995945833",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "47082a4d97a21153089cceec5e077d62",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768457063983588744"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/596854722/feeds?cursor=47082a4d97a21153089cceec5e077d62&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768457063983588744&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

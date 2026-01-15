@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/860925443/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456724006,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/860925443/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/860925443/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "怎么看待重男轻女现象？",
+          "question_type": "normal",
+          "created": 1521820095,
+          "updated_time": 1521820095,
+          "url": "https://www.zhihu.com/api/v4/questions/269665588",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "269665588"
+        },
+        {
+          "type": "question",
+          "title": "你对重男轻女的现象有什么看法？",
+          "question_type": "normal",
+          "created": 1580307777,
+          "updated_time": 1580307777,
+          "url": "https://www.zhihu.com/api/v4/questions/368519224",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "368519224"
+        },
+        {
+          "type": "question",
+          "title": "怎么看待重男轻女的这个现象？",
+          "question_type": "normal",
+          "created": 1532497984,
+          "updated_time": 1532497984,
+          "url": "https://www.zhihu.com/api/v4/questions/286828706",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "286828706"
+        },
+        {
+          "type": "question",
+          "title": "如何看待重男轻女的行为？",
+          "question_type": "normal",
+          "created": 1629883479,
+          "updated_time": 1629883479,
+          "url": "https://www.zhihu.com/api/v4/questions/482428607",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "482428607"
+        }
+      ]
+    }
+  }
+]

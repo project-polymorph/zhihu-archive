@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/393763145/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456805740,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/393763145/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/393763145/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类为什么有性别？",
+          "question_type": "normal",
+          "created": 1563082413,
+          "updated_time": 1563082413,
+          "url": "https://www.zhihu.com/api/v4/questions/334874534",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "334874534"
+        },
+        {
+          "type": "question",
+          "title": "如果人类没有性别？",
+          "question_type": "normal",
+          "created": 1486286812,
+          "updated_time": 1486286812,
+          "url": "https://www.zhihu.com/api/v4/questions/55441650",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "55441650"
+        },
+        {
+          "type": "question",
+          "title": "性别有什么意义？",
+          "question_type": "normal",
+          "created": 1496317996,
+          "updated_time": 1496317996,
+          "url": "https://www.zhihu.com/api/v4/questions/60553433",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "60553433"
+        },
+        {
+          "type": "question",
+          "title": "性别有什么作用，性别可以不存在吗?",
+          "question_type": "normal",
+          "created": 1680698208,
+          "updated_time": 1680698208,
+          "url": "https://www.zhihu.com/api/v4/questions/593861431",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "593861431"
+        }
+      ]
+    }
+  }
+]

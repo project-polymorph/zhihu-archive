@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/399122723/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457125741,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/399122723/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/399122723/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "社会性别该不该存在？",
+          "question_type": "normal",
+          "created": 1550158800,
+          "updated_time": 1550158800,
+          "url": "https://www.zhihu.com/api/v4/questions/312286813",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "312286813"
+        },
+        {
+          "type": "question",
+          "title": "如何看待社会性别陈规定型的观念？",
+          "question_type": "normal",
+          "created": 1590942930,
+          "updated_time": 1590942930,
+          "url": "https://www.zhihu.com/api/v4/questions/398689958",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "398689958"
+        },
+        {
+          "type": "question",
+          "title": "什么是社会性别?它的提出有什么社会意义?",
+          "question_type": "normal",
+          "created": 1599630695,
+          "updated_time": 1599630695,
+          "url": "https://www.zhihu.com/api/v4/questions/420214608",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "420214608"
+        }
+      ]
+    }
+  }
+]

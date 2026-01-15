@@ -1,0 +1,423 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/488568504/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457207903,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/488568504/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/488568504/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别对人重要吗，为什么？",
+          "question_type": "normal",
+          "created": 1587731468,
+          "updated_time": 1587731468,
+          "url": "https://www.zhihu.com/api/v4/questions/390338242",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "390338242"
+        },
+        {
+          "type": "question",
+          "title": "性别差异在心理方面的体现有哪些？",
+          "question_type": "normal",
+          "created": 1720089038,
+          "updated_time": 1720089038,
+          "url": "https://www.zhihu.com/api/v4/questions/660736358",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "660736358"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/488568504/feeds?cursor=fc41d388987e30b3b4277c19d055872e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768457202572130981&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768457208345,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj9nb+9CyC47fvoAZICJQoJNTkwNDA0NjgxEgozMDgxNzUyMzE3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-51aff88008aaf98c870dcaaaa000115c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-51aff88008aaf98c870dcaaaa000115c.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "心理咨询师资格证持证人",
+                  "topics": [],
+                  "type": "identity"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "心理咨询师资格证持证人",
+                    "detail_type": "identity_people",
+                    "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "sources": [],
+                    "title": "已认证的个人",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "心理咨询师资格证持证人",
+                    "detail_type": "identity_people",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [],
+                    "title": "认证",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "title": "心理咨询师资格证持证人"
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 74,
+              "gender": 0,
+              "headline": "分享趣味测试、性取向测试、职业兴趣测试等各类心理测试。",
+              "id": "287af194f3acda884eef78fe471f6eba",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "简灵心理",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/287af194f3acda884eef78fe471f6eba",
+              "url_token": "85-42-15-57",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<h2>你有想过自己的心理性别是男，还是女吗？</h2><p data-pid=\"mCSamHQ6\">心理性别指的是个体对自己性别的认同，即个体对自己是“男性”还是“女性”的一种主观感觉。</p><p data-pid=\"SosgDrF0\">一方面与基因调控相关，受遗传因素的影响，另一方面也与家庭教育和角色认定有关。</p><p data-pid=\"Eo8YQO8C\">一般认为，人类性别认定从1-2岁开始形成，3-5岁时基本完成。所以，当孩子出现性征模糊时，父母需及早带孩子去检查，以免错过孩子性别认定的最佳时期，造成心理和人格的不健康。</p><p data-pid=\"D5PakoXZ\">剑桥大学一位教授的最新研究结果表明，并非所有的雄性都有一个典型的“男式”大脑。差不多每五个男人中就有一个大脑是“女式”的，这就是为什么有些男人喜欢芭蕾胜过足球。</p><p data-pid=\"Ntde2rYw\">反之，每七个女人中就有一个大脑是“男式”的，她们是我们生活中常说的“女汉子”，擅长数学，喜欢分析和解决复杂的问题胜过逛街。</p><p data-pid=\"4qHPOAZ3\">对于这类生理性别和身体性别不相符的个体，也称为跨性别者（transgender），他们经常会因为“性别焦虑”，在一定程度上去改变自己的生理性别，以符合自己内心对自身性别的认识。这就是为什么有些人会选择变性。</p><p data-pid=\"YqWrXAx_\">你的真实心理性别，是男是女？敢不敢来测试一下呀，心理性别评估，超准哒~</p><a href=\"https://link.zhihu.com/?target=https%3A//fxm.ydl.com/ceshi/2300%3Fcps_channel_p%3DB.324.484.1830.18092773\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic3.zhimg.com/v2-6d9af5360988c938e4c358171afeb7ba_180x120.jpg\" data-image-width=\"600\" data-image-height=\"400\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">心理性别测试</a><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1687226859,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "你有想过自己的心理性别是男，还是女吗？心理性别指的是个体对自己性别的认同，即个体对自己是“男性”还是“女性”的一种主观感觉。 一方面与基因调控相关，受遗传因素的影响，另一方面也与家庭教育和角色认定有关。 一般认为，人类性别认定从1-2岁开始形成，3-5岁时基本完成。所以，当孩子出现性征模糊时，父母需及早带孩子去检查，以免错过孩子性别认定的最佳时期，造成心理和人格的不健康。 剑桥大学一位教授的最新研究结果…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3081752317",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1632394933,
+              "id": "488568504",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "心理上存在性别之分吗？",
+              "type": "question",
+              "updated_time": 1632394933,
+              "url": "https://www.zhihu.com/api/v4/questions/488568504"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1687226859,
+            "url": "https://www.zhihu.com/api/v4/answers/3081752317",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fc41d388987e30b3947f6e23d055872e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxiNs8+bvwEguO376AGSAiYKCTcwMzM4MTY4MhILNTEzMjkwOTYwNzcYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-c38ebd5a7d1f43a5ed9ac0411a3e233a_l.png?source=1def8aca",
+                "description": "赞同 5 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-c38ebd5a7d1f43a5ed9ac0411a3e233a_r.png?source=1def8aca"
+              },
+              "follower_count": 71,
+              "gender": -1,
+              "headline": "",
+              "id": "f9dc965b5fd5e28e4b1bf9211cc3cee9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "颜朝",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/f9dc965b5fd5e28e4b1bf9211cc3cee9",
+              "url_token": "yan-zhao-17-95",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p></p><p></p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-f7364985df6832cca00d75df11ad4162_720w.gif?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"587\" data-rawheight=\"314\" data-original-token=\"v2-f7364985df6832cca00d75df11ad4162\" data-thumbnail=\"https://picx.zhimg.com/50/v2-f7364985df6832cca00d75df11ad4162_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-f7364985df6832cca00d75df11ad4162_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"587\" data-original=\"https://picx.zhimg.com/v2-f7364985df6832cca00d75df11ad4162_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;587&#39; height=&#39;314&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"587\" data-rawheight=\"314\" data-original-token=\"v2-f7364985df6832cca00d75df11ad4162\" data-thumbnail=\"https://picx.zhimg.com/50/v2-f7364985df6832cca00d75df11ad4162_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-f7364985df6832cca00d75df11ad4162_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"587\" data-original=\"https://picx.zhimg.com/v2-f7364985df6832cca00d75df11ad4162_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-f7364985df6832cca00d75df11ad4162_720w.gif?source=1def8aca\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-6818451ad13bc915c74aa409d7174b0d_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"50\" data-original-token=\"v2-6818451ad13bc915c74aa409d7174b0d\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-6818451ad13bc915c74aa409d7174b0d_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://picx.zhimg.com/v2-6818451ad13bc915c74aa409d7174b0d_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;750&#39; height=&#39;50&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"50\" data-original-token=\"v2-6818451ad13bc915c74aa409d7174b0d\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-6818451ad13bc915c74aa409d7174b0d_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"750\" data-original=\"https://picx.zhimg.com/v2-6818451ad13bc915c74aa409d7174b0d_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-6818451ad13bc915c74aa409d7174b0d_720w.jpg?source=1def8aca\"/><figcaption>越来越MAN的“女神”</figcaption></figure><p data-pid=\"OMGym-73\"> 迪士尼巨制院线电影《花木兰》已经在各大视频网站上线，周末在家正好看了一遍，原来我心中那个不食人间烟火的“神仙姐姐”，变成了阳刚硬气的花木兰。    记得刚公布选角时，争议很大，很多观众认为刘亦菲太漂亮、一副优雅可人的南方女子长相，演不了女扮男装；但随着最新预告发布，大家重新认识了刘亦菲。    其实我们的神仙姐姐，本就不是看上去那么柔弱。    古天乐曾在一次采访中提及，拍摄《倩女幽魂》时，刘亦菲的一头秀发不小心卷入鼓风机，刚开始还没有人发现，后来听到求救大家才赶紧断电；他说自己很佩服刘亦菲的冷静大气，在那种情况下都没有失态。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-f0364efb48a41e19931e1a8c449909aa_720w.gif?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"166\" data-original-token=\"v2-f0364efb48a41e19931e1a8c449909aa\" data-thumbnail=\"https://picx.zhimg.com/50/v2-f0364efb48a41e19931e1a8c449909aa_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-f0364efb48a41e19931e1a8c449909aa_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"400\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;400&#39; height=&#39;166&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"166\" data-original-token=\"v2-f0364efb48a41e19931e1a8c449909aa\" data-thumbnail=\"https://picx.zhimg.com/50/v2-f0364efb48a41e19931e1a8c449909aa_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-f0364efb48a41e19931e1a8c449909aa_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"400\" data-actualsrc=\"https://picx.zhimg.com/50/v2-f0364efb48a41e19931e1a8c449909aa_720w.gif?source=1def8aca\"/></figure><p data-pid=\"BapJSl68\">        平常爱美的女子，若是遇到头发被撕扯，痛苦焦急之下，就是不发脾气闹情绪，也免不了委屈落泪；但刘亦菲表现得沉着冷静，可见其内心的坚韧刚强。    这种冷静、刚强的气质，是传统意义中的男性特质；而成功优秀的人，都具备一些异性特质，人格发展倾向于双性化。 </p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-15be2def0a3e89d32df5960b23e72db4_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"50\" data-original-token=\"v2-15be2def0a3e89d32df5960b23e72db4\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-15be2def0a3e89d32df5960b23e72db4_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://picx.zhimg.com/v2-15be2def0a3e89d32df5960b23e72db4_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;750&#39; height=&#39;50&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"50\" data-original-token=\"v2-15be2def0a3e89d32df5960b23e72db4\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-15be2def0a3e89d32df5960b23e72db4_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"750\" data-original=\"https://picx.zhimg.com/v2-15be2def0a3e89d32df5960b23e72db4_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-15be2def0a3e89d32df5960b23e72db4_720w.jpg?source=1def8aca\"/><figcaption>具备异性特质的人，有多优秀？ </figcaption></figure><p data-pid=\"RCY--Qsa\">       所谓双性化人格，是指一个人同时具备了传统男性与女性的兴趣、能力、爱好和心理气质。    女性，兼具刚强、冒险精神、讲究逻辑等；男性，兼具温柔细致、善解人意、宽厚仁慈。    女性气质助力生活工作的体现，我们在何老师身上也能看到。 </p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-c742e3d1fe70f7c91b74d4c27be06bfc_720w.gif?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"639\" data-rawheight=\"334\" data-original-token=\"v2-c742e3d1fe70f7c91b74d4c27be06bfc\" data-thumbnail=\"https://pica.zhimg.com/50/v2-c742e3d1fe70f7c91b74d4c27be06bfc_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-c742e3d1fe70f7c91b74d4c27be06bfc_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"639\" data-original=\"https://pica.zhimg.com/v2-c742e3d1fe70f7c91b74d4c27be06bfc_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;639&#39; height=&#39;334&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"639\" data-rawheight=\"334\" data-original-token=\"v2-c742e3d1fe70f7c91b74d4c27be06bfc\" data-thumbnail=\"https://pica.zhimg.com/50/v2-c742e3d1fe70f7c91b74d4c27be06bfc_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-c742e3d1fe70f7c91b74d4c27be06bfc_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"639\" data-original=\"https://pica.zhimg.com/v2-c742e3d1fe70f7c91b74d4c27be06bfc_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-c742e3d1fe70f7c91b74d4c27be06bfc_720w.gif?source=1def8aca\"/></figure><p data-pid=\"OnTO-LwR\">       众所周知，何老师是一个特别容易感动的人，听到老军人的故事会哭，听到黄雅莉的歌会哭，看到药品想起自己家中老人也会哭……   </p><p data-pid=\"H7W4_qPS\"> 他之所以那么容易落泪，是因为他有细腻丰富的感情，也有敏感的共情力；也是这种共情力，让他在主持节目时，能够照顾到对方的情绪，也能挖掘到更深层的感情，给观众带来真正有内容的访谈。    </p><p data-pid=\"hhjilYvL\">《心理月刊》的调查显示，越来越多的人呈现双性化特质，这是适应社会的必选趋势。    双性化的人，集合了两性优势，具有更高的心理健康和自尊水平，在自我概念、社会适应、情绪调控、压力化解、人际关系上都有出色表现。 </p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-8fb30ee8b2d4c0b8b3c77c435cf0001e_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"50\" data-original-token=\"v2-8fb30ee8b2d4c0b8b3c77c435cf0001e\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-8fb30ee8b2d4c0b8b3c77c435cf0001e_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"750\" data-original=\"https://pic1.zhimg.com/v2-8fb30ee8b2d4c0b8b3c77c435cf0001e_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;750&#39; height=&#39;50&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"750\" data-rawheight=\"50\" data-original-token=\"v2-8fb30ee8b2d4c0b8b3c77c435cf0001e\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-8fb30ee8b2d4c0b8b3c77c435cf0001e_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"750\" data-original=\"https://pic1.zhimg.com/v2-8fb30ee8b2d4c0b8b3c77c435cf0001e_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-8fb30ee8b2d4c0b8b3c77c435cf0001e_720w.jpg?source=1def8aca\"/><figcaption>  你有多少异性特质？ </figcaption></figure><p data-pid=\"h_F4Es3Y\">    一个人的性别角色，除了生理因素和先天气质，还由社会文化和家庭教育决定； </p><p data-pid=\"Wg0Y34SZ\">   在路易十四时代，男人也穿高跟鞋和丝袜，后来随着商品文化演化，两性差异被物化，男孩只买小汽车，女孩只买芭比娃娃；人们的性别偏见也一直存在，男孩不被允许哭，女孩太粗鲁会嫁不出去……  </p><p data-pid=\"VNEvVk8T\">  只有打破性别的边界，我们才能表现得更出色、更真实！  </p><p data-pid=\"Dy524RcP\">  如著名心理学家荣格所说，每个人都有男性和女性气质，只不过很多时候他们一个睡着，另一个很清醒。   </p><p data-pid=\"atNcspX2\"> 或许你本质天性更偏向异性，但你的教育和经历一直压抑了你的另一面；或许你也有隐藏的异性优势，但还没开启。   </p><p data-pid=\"wmE5gJNL\"> 一起来测测你身上有多少异性特质？ </p><p data-pid=\"LqM1ICjG\"> 看你的心理性别是什么？  </p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-34bcbad41b6058fc05a3eccc12044c43_720w.gif?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"159\" data-rawheight=\"178\" data-original-token=\"v2-34bcbad41b6058fc05a3eccc12044c43\" data-thumbnail=\"https://pica.zhimg.com/50/v2-34bcbad41b6058fc05a3eccc12044c43_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-34bcbad41b6058fc05a3eccc12044c43_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"159\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;159&#39; height=&#39;178&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"159\" data-rawheight=\"178\" data-original-token=\"v2-34bcbad41b6058fc05a3eccc12044c43\" data-thumbnail=\"https://pica.zhimg.com/50/v2-34bcbad41b6058fc05a3eccc12044c43_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-34bcbad41b6058fc05a3eccc12044c43_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"159\" data-actualsrc=\"https://picx.zhimg.com/50/v2-34bcbad41b6058fc05a3eccc12044c43_720w.gif?source=1def8aca\"/><figcaption>为你推荐</figcaption></figure><p data-pid=\"FZ1tjLJh\"><b>     心理性别测评   </b></p><p data-pid=\"0qjlcabt\">         我们联合国内专业心理平台壹点灵，为你推荐「心理性别测评」，从心理学角度，解读你的真实性别和性取向。</p><p data-pid=\"nBDLcwbo\">    ※本测评将从性别角色、性别认同、性倾向、性取向表现等4个方面，评估你的心理性别，男性/女性气质，以及解读你的性别角色、真实性取向，帮助你真正了解和认同自我。   </p><a href=\"https://link.zhihu.com/?target=https%3A//fxm.ydl.com/ceshi/2300%3Fcps_channel_p%3DB.324.484.1910.18092773\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">心理性别测评</a><p data-pid=\"7y93zpqF\">   你将获得什么？  </p><p data-pid=\"kCPKw8eG\">「以下展示报告部分内容」    </p><p data-pid=\"6ATalAsU\">                                                                01丨你的性别角色 </p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-2a41117927e110d54c61bc393566ff20_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"671\" data-rawheight=\"929\" data-original-token=\"v2-6e004ed47a86047a4d8305a2372efb58\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-de6db756d770d96b1f631ebdfccbee25_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"671\" data-original=\"https://picx.zhimg.com/v2-2a41117927e110d54c61bc393566ff20_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;671&#39; height=&#39;929&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"671\" data-rawheight=\"929\" data-original-token=\"v2-6e004ed47a86047a4d8305a2372efb58\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-de6db756d770d96b1f631ebdfccbee25_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"671\" data-original=\"https://picx.zhimg.com/v2-2a41117927e110d54c61bc393566ff20_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-2a41117927e110d54c61bc393566ff20_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"eOhU5gW6\">                                                         02丨分析你的性别认同度 </p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-9529c5e5b7cb0b7cb5e83a73e80eaf26_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"671\" data-rawheight=\"850\" data-original-token=\"v2-0d8ddcd56a4550fb501e9a7d0d1e0bd2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-4d15da53fe66f81c2d3e0edb94a99717_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"671\" data-original=\"https://picx.zhimg.com/v2-9529c5e5b7cb0b7cb5e83a73e80eaf26_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;671&#39; height=&#39;850&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"671\" data-rawheight=\"850\" data-original-token=\"v2-0d8ddcd56a4550fb501e9a7d0d1e0bd2\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-4d15da53fe66f81c2d3e0edb94a99717_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"671\" data-original=\"https://picx.zhimg.com/v2-9529c5e5b7cb0b7cb5e83a73e80eaf26_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-9529c5e5b7cb0b7cb5e83a73e80eaf26_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"mxMKvs5i\">     03丨解密你的真实性取向   </p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-acf2db7f5266924fe7d1a3cf9d47a0c5_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"679\" data-rawheight=\"955\" data-original-token=\"v2-6a4b45f98d4def96ce0aa1766fe43034\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-3c276569529ef051d27091f67d83ca65_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"679\" data-original=\"https://pic1.zhimg.com/v2-acf2db7f5266924fe7d1a3cf9d47a0c5_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;679&#39; height=&#39;955&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"679\" data-rawheight=\"955\" data-original-token=\"v2-6a4b45f98d4def96ce0aa1766fe43034\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-3c276569529ef051d27091f67d83ca65_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"679\" data-original=\"https://pic1.zhimg.com/v2-acf2db7f5266924fe7d1a3cf9d47a0c5_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-acf2db7f5266924fe7d1a3cf9d47a0c5_720w.jpg?source=1def8aca\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-3915ebefa74bdc65671358374e79f03f_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"676\" data-rawheight=\"868\" data-original-token=\"v2-4f5a98e6c1ce9e84115bbcdd7cd3f17f\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-54d3f114c304d845a15f6b1265eec4ae_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"676\" data-original=\"https://picx.zhimg.com/v2-3915ebefa74bdc65671358374e79f03f_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;676&#39; height=&#39;868&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"676\" data-rawheight=\"868\" data-original-token=\"v2-4f5a98e6c1ce9e84115bbcdd7cd3f17f\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-54d3f114c304d845a15f6b1265eec4ae_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"676\" data-original=\"https://picx.zhimg.com/v2-3915ebefa74bdc65671358374e79f03f_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-3915ebefa74bdc65671358374e79f03f_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"VDSG1gqW\">      04丨提供你的性别塑造建议    </p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-87546bea769ea38239d71732b58bda24_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"678\" data-rawheight=\"689\" data-original-token=\"v2-f47869ad2481bab806a79f6164bf8693\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-01874e4e78e16cf7d06480c45dd135a5_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"678\" data-original=\"https://picx.zhimg.com/v2-87546bea769ea38239d71732b58bda24_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;678&#39; height=&#39;689&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"678\" data-rawheight=\"689\" data-original-token=\"v2-f47869ad2481bab806a79f6164bf8693\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-01874e4e78e16cf7d06480c45dd135a5_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"678\" data-original=\"https://picx.zhimg.com/v2-87546bea769ea38239d71732b58bda24_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-87546bea769ea38239d71732b58bda24_720w.jpg?source=1def8aca\"/></figure><a href=\"https://link.zhihu.com/?target=https%3A//fxm.ydl.com/ceshi/2300%3Fcps_channel_p%3DB.324.484.1910.18092773\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">心理性别测评</a>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1733730296,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "[图片] [图片] 迪士尼巨制院线电影《花木兰》已经在各大视频网站上线，周末在家正好看了一遍，原来我心中那个不食人间烟火的“神仙姐姐”，变成了阳刚硬气的花木兰。 记得刚公布选角时，争议很大，很多观众认为刘亦菲太漂亮、一副优雅可人的南方女子长相，演不了女扮男装；但随着最新预告发布，大家重新认识了刘亦菲。 其实我们的神仙姐姐，本就不是看上去那么柔弱。 古天乐曾在一次采访中提及，拍摄《倩女幽魂》时，刘亦菲的一头秀发不小心卷…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "51329096077",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1632394933,
+              "id": "488568504",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "心理上存在性别之分吗？",
+              "type": "question",
+              "updated_time": 1632394933,
+              "url": "https://www.zhihu.com/api/v4/questions/488568504"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 314,
+                  "token": "v2-f7364985df6832cca00d75df11ad4162",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-f7364985df6832cca00d75df11ad4162_720w.jpg?source=1def8aca",
+                  "width": 587
+                },
+                {
+                  "height": 50,
+                  "token": "v2-6818451ad13bc915c74aa409d7174b0d",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-6818451ad13bc915c74aa409d7174b0d_720w.jpg?source=1def8aca",
+                  "width": 750
+                },
+                {
+                  "height": 166,
+                  "token": "v2-f0364efb48a41e19931e1a8c449909aa",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-f0364efb48a41e19931e1a8c449909aa_720w.jpg?source=1def8aca",
+                  "width": 400
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1733730296,
+            "url": "https://www.zhihu.com/api/v4/answers/51329096077",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fc41d388987e30b36f63b229d055872e",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768457202572130981"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/488568504/feeds?cursor=fc41d388987e30b36f63b229d055872e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768457202572130981&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

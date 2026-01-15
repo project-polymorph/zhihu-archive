@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/44294893/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768457359816,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/44294893/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/44294893/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "很想知道变性手术五年后的价格?",
+          "question_type": "normal",
+          "created": 1735219943,
+          "updated_time": 1735219943,
+          "url": "https://www.zhihu.com/api/v4/questions/7940931789",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 18,
+          "relationship": {},
+          "id": "7940931789"
+        },
+        {
+          "type": "question",
+          "title": "做变性手术想找中介，介意先谁？",
+          "question_type": "normal",
+          "created": 1759600539,
+          "updated_time": 1759600539,
+          "url": "https://www.zhihu.com/api/v4/questions/1957987256930382488",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "1957987256930382488"
+        }
+      ]
+    }
+  }
+]

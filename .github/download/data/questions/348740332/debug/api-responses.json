@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/348740332/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768456780472,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/348740332/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/348740332/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别真的有那么重要吗？",
+          "question_type": "normal",
+          "created": 1695132501,
+          "updated_time": 1695132501,
+          "url": "https://www.zhihu.com/api/v4/questions/622841802",
+          "answer_count": 6,
+          "comment_count": 1,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "622841802"
+        },
+        {
+          "type": "question",
+          "title": "性别真的很重要吗？",
+          "question_type": "normal",
+          "created": 1681014260,
+          "updated_time": 1681014260,
+          "url": "https://www.zhihu.com/api/v4/questions/594530404",
+          "answer_count": 39,
+          "comment_count": 0,
+          "follower_count": 43,
+          "relationship": {},
+          "id": "594530404"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么还都要有性别？？",
+          "question_type": "normal",
+          "created": 1589031519,
+          "updated_time": 1589031519,
+          "url": "https://www.zhihu.com/api/v4/questions/393763145",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "393763145"
+        },
+        {
+          "type": "question",
+          "title": "如果人类没有了性别之分会怎么样?",
+          "question_type": "normal",
+          "created": 1556719322,
+          "updated_time": 1556719322,
+          "url": "https://www.zhihu.com/api/v4/questions/322531889",
+          "answer_count": 30,
+          "comment_count": 2,
+          "follower_count": 102,
+          "relationship": {},
+          "id": "322531889"
+        }
+      ]
+    }
+  }
+]
