@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/40996423/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460368828,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/40996423/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/40996423/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么人要分性别？",
+          "question_type": "normal",
+          "created": 1666428290,
+          "updated_time": 1666428290,
+          "url": "https://www.zhihu.com/api/v4/questions/561540855",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "561540855"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类要划分性别？",
+          "question_type": "normal",
+          "created": 1680756144,
+          "updated_time": 1680756144,
+          "url": "https://www.zhihu.com/api/v4/questions/593971832",
+          "answer_count": 21,
+          "comment_count": 1,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "593971832"
+        },
+        {
+          "type": "question",
+          "title": "生理上划分人类性别的标准是什么？",
+          "question_type": "normal",
+          "created": 1722558910,
+          "updated_time": 1722558910,
+          "url": "https://www.zhihu.com/api/v4/questions/663234183",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "663234183"
+        },
+        {
+          "type": "question",
+          "title": "性别究竟是什么？",
+          "question_type": "normal",
+          "created": 1554641506,
+          "updated_time": 1554641506,
+          "url": "https://www.zhihu.com/api/v4/questions/319168975",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "319168975"
+        }
+      ]
+    }
+  }
+]

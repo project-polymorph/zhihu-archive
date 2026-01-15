@@ -1,0 +1,101 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/553528155/feeds?cursor=7b2dcac72d7014fa6206f08dd72c8485&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768460980989661279&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768460985940,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768460980989661279"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/553528155/feeds?cursor=7b2dcac72d7014fa6206f08dd72c8485&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768460980989661279&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/553528155/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460986086,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/553528155/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/553528155/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "怎样看待性别刻板印象，有哪些让你觉得自己因为性别受到了伤害的事吗?",
+          "question_type": "normal",
+          "created": 1613930043,
+          "updated_time": 1613930043,
+          "url": "https://www.zhihu.com/api/v4/questions/445672712",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "445672712"
+        },
+        {
+          "type": "question",
+          "title": "你身边有哪些性别刻板印象？",
+          "question_type": "normal",
+          "created": 1677154180,
+          "updated_time": 1677154180,
+          "url": "https://www.zhihu.com/api/v4/questions/585850831",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "585850831"
+        },
+        {
+          "type": "question",
+          "title": "社会对性别角色的刻板印象如何影响我们的自我认知？",
+          "question_type": "normal",
+          "created": 1766373663,
+          "updated_time": 1766373663,
+          "url": "https://www.zhihu.com/api/v4/questions/1986395797466654664",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1986395797466654664"
+        },
+        {
+          "type": "question",
+          "title": "在现代社会，性别刻板印象对个人发展和心理健康有哪些影响？",
+          "question_type": "normal",
+          "created": 1758769987,
+          "updated_time": 1758769987,
+          "url": "https://www.zhihu.com/api/v4/questions/1954503668167578302",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1954503668167578302"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象会随着经济发展而减弱吗?",
+          "question_type": "normal",
+          "created": 1652512517,
+          "updated_time": 1652512517,
+          "url": "https://www.zhihu.com/api/v4/questions/532793465",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "532793465"
+        }
+      ]
+    }
+  }
+]

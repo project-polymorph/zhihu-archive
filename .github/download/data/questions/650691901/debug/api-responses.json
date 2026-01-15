@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/650691901/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460728750,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/650691901/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/650691901/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "随着社会对性别认知讨论增多，这对个人和社会带来了哪些影响？",
+          "question_type": "normal",
+          "created": 1764644981,
+          "updated_time": 1764644981,
+          "url": "https://www.zhihu.com/api/v4/questions/1979145180704700284",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "1979145180704700284"
+        },
+        {
+          "type": "question",
+          "title": "如何减少性别定式带来负面影响？",
+          "question_type": "normal",
+          "created": 1640222262,
+          "updated_time": 1640222262,
+          "url": "https://www.zhihu.com/api/v4/questions/507860331",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "507860331"
+        },
+        {
+          "type": "question",
+          "title": "性别定式的好处是性别红利吗？",
+          "question_type": "normal",
+          "created": 1640087374,
+          "updated_time": 1640087374,
+          "url": "https://www.zhihu.com/api/v4/questions/507628438",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "507628438"
+        }
+      ]
+    }
+  }
+]

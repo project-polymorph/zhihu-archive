@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/356988825/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460387847,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/356988825/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/356988825/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果可以更换性别，你会做什么事情?",
+          "question_type": "normal",
+          "created": 1585413198,
+          "updated_time": 1585413198,
+          "url": "https://www.zhihu.com/api/v4/questions/383340183",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "383340183"
+        },
+        {
+          "type": "question",
+          "title": "如果可以选择更换性别，你愿意换吗，为什么呢?",
+          "question_type": "normal",
+          "created": 1724868014,
+          "updated_time": 1724868014,
+          "url": "https://www.zhihu.com/api/v4/questions/665560877",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "665560877"
+        },
+        {
+          "type": "question",
+          "title": "假如可以更换性别，大家会怎么选择呢？",
+          "question_type": "normal",
+          "created": 1685610724,
+          "updated_time": 1685610724,
+          "url": "https://www.zhihu.com/api/v4/questions/604253760",
+          "answer_count": 10,
+          "comment_count": 2,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "604253760"
+        },
+        {
+          "type": "question",
+          "title": "如果你可以换性别，你愿意换吗？为什么？",
+          "question_type": "normal",
+          "created": 1547788085,
+          "updated_time": 1547788085,
+          "url": "https://www.zhihu.com/api/v4/questions/309503456",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "309503456"
+        }
+      ]
+    }
+  }
+]

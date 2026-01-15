@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/626233614/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460830735,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/626233614/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/626233614/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果再给你一次机会，你会如何选择你的性别?",
+          "question_type": "normal",
+          "created": 1558600387,
+          "updated_time": 1558600387,
+          "url": "https://www.zhihu.com/api/v4/questions/325728565",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "325728565"
+        },
+        {
+          "type": "question",
+          "title": "如果可以选择性别，你会选择什么？",
+          "question_type": "normal",
+          "created": 1595979501,
+          "updated_time": 1595979501,
+          "url": "https://www.zhihu.com/api/v4/questions/410507946",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "410507946"
+        },
+        {
+          "type": "question",
+          "title": "如果出生的时候可以选择性别，你会怎么选？",
+          "question_type": "normal",
+          "created": 1685930376,
+          "updated_time": 1685930376,
+          "url": "https://www.zhihu.com/api/v4/questions/604833686",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "604833686"
+        },
+        {
+          "type": "question",
+          "title": "如果能选择性别，你会选择和现在相同的性别吗？",
+          "question_type": "normal",
+          "created": 1622444191,
+          "updated_time": 1622444191,
+          "url": "https://www.zhihu.com/api/v4/questions/462388128",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "462388128"
+        },
+        {
+          "type": "question",
+          "title": "如果在你所有条件都相同时，你愿意做哪个性别？",
+          "question_type": "normal",
+          "created": 1705828309,
+          "updated_time": 1705828309,
+          "url": "https://www.zhihu.com/api/v4/questions/640557700",
+          "answer_count": 79,
+          "comment_count": 0,
+          "follower_count": 98,
+          "relationship": {},
+          "id": "640557700"
+        }
+      ]
+    }
+  }
+]

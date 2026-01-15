@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/45419991/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768461234368,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/45419991/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/45419991/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么世界只有男女两个性别，如果再出现一个性别会是什么?",
+          "question_type": "normal",
+          "created": 1586594539,
+          "updated_time": 1586594539,
+          "url": "https://www.zhihu.com/api/v4/questions/386954125",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "386954125"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类性别会趋于1:1?",
+          "question_type": "normal",
+          "created": 1527081577,
+          "updated_time": 1527081577,
+          "url": "https://www.zhihu.com/api/v4/questions/278356076",
+          "answer_count": 8,
+          "comment_count": 2,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "278356076"
+        },
+        {
+          "type": "question",
+          "title": "如果男女之外存在第三种性别会如何？或者说，为什么只有男女两种性别？",
+          "question_type": "normal",
+          "created": 1556063828,
+          "updated_time": 1556063828,
+          "url": "https://www.zhihu.com/api/v4/questions/321456640",
+          "answer_count": 5,
+          "comment_count": 1,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "321456640"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1896529359243818902/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460770656,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1896529359243818902/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1896529359243818902/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果能决定自己的性别，你想如何决定？",
+          "question_type": "normal",
+          "created": 1680826377,
+          "updated_time": 1680826377,
+          "url": "https://www.zhihu.com/api/v4/questions/594146537",
+          "answer_count": 54,
+          "comment_count": 0,
+          "follower_count": 60,
+          "relationship": {},
+          "id": "594146537"
+        },
+        {
+          "type": "question",
+          "title": "“性别”会在人类的进化中消失吗？如果会，原因是什么?",
+          "question_type": "normal",
+          "created": 1622721749,
+          "updated_time": 1622721749,
+          "url": "https://www.zhihu.com/api/v4/questions/462992381",
+          "answer_count": 22,
+          "comment_count": 0,
+          "follower_count": 28,
+          "relationship": {},
+          "id": "462992381"
+        },
+        {
+          "type": "question",
+          "title": "如果以后的人类可以选择自己的性别？",
+          "question_type": "normal",
+          "created": 1528203733,
+          "updated_time": 1528203733,
+          "url": "https://www.zhihu.com/api/v4/questions/279920313",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "279920313"
+        }
+      ]
+    }
+  }
+]

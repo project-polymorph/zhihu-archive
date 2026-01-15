@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1986395797466654664/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768461175231,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1986395797466654664/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1986395797466654664/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别认同是否会造成刻板印象？",
+          "question_type": "normal",
+          "created": 1717303359,
+          "updated_time": 1717303359,
+          "url": "https://www.zhihu.com/api/v4/questions/657898964",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "657898964"
+        },
+        {
+          "type": "question",
+          "title": "你的性别观念和意识是如何被构建的？",
+          "question_type": "normal",
+          "created": 1712048996,
+          "updated_time": 1712048996,
+          "url": "https://www.zhihu.com/api/v4/questions/651342689",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "651342689"
+        },
+        {
+          "type": "question",
+          "title": "什么是性别认知?",
+          "question_type": "normal",
+          "created": 1667375143,
+          "updated_time": 1667375143,
+          "url": "https://www.zhihu.com/api/v4/questions/564213483",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "564213483"
+        }
+      ]
+    }
+  }
+]

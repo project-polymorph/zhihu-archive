@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/503371284/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460966527,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/503371284/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/503371284/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假如给你1个亿，但是身高降低40cm，你愿意吗？",
+          "question_type": "normal",
+          "created": 1662389463,
+          "updated_time": 1662567151,
+          "url": "https://www.zhihu.com/api/v4/questions/551960338",
+          "answer_count": 1745,
+          "comment_count": 89,
+          "follower_count": 1950,
+          "relationship": {},
+          "id": "551960338"
+        },
+        {
+          "type": "question",
+          "title": "如果给你一个亿，但是人类会在你死的一天后全部灭亡，你会选择吗？",
+          "question_type": "normal",
+          "created": 1563424139,
+          "updated_time": 1563424139,
+          "url": "https://www.zhihu.com/api/v4/questions/335553283",
+          "answer_count": 87,
+          "comment_count": 1,
+          "follower_count": 94,
+          "relationship": {},
+          "id": "335553283"
+        },
+        {
+          "type": "question",
+          "title": "如果给你1个亿，你能否利用这一个亿毁灭人类？",
+          "question_type": "normal",
+          "created": 1511118269,
+          "updated_time": 1511118269,
+          "url": "https://www.zhihu.com/api/v4/questions/68370755",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "68370755"
+        }
+      ]
+    }
+  }
+]

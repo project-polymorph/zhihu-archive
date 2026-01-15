@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/585850831/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768461273000,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/585850831/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/585850831/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+          "question_type": "normal",
+          "created": 1585877846,
+          "updated_time": 1627529358,
+          "url": "https://www.zhihu.com/api/v4/questions/384741963",
+          "answer_count": 51,
+          "comment_count": 4,
+          "follower_count": 219,
+          "relationship": {},
+          "id": "384741963"
+        },
+        {
+          "type": "question",
+          "title": "你为什么会对自己的性别感到厌恶？",
+          "question_type": "normal",
+          "created": 1753936564,
+          "updated_time": 1753938098,
+          "url": "https://www.zhihu.com/api/v4/questions/1934230825022521466",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "1934230825022521466"
+        },
+        {
+          "type": "question",
+          "title": "有哪些构建性别刻板形象的俗语？学术上是否对此现象有所命名？",
+          "question_type": "normal",
+          "created": 1730725303,
+          "updated_time": 1730725461,
+          "url": "https://www.zhihu.com/api/v4/questions/3141487155",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "3141487155"
+        }
+      ]
+    }
+  }
+]

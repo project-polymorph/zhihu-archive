@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/645549953/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768460345992,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/645549953/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/645549953/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "对后代的性别偏好会影响整个社会的性别比例吗？如果能，是怎样影响的？",
+          "question_type": "normal",
+          "created": 1528185242,
+          "updated_time": 1528185242,
+          "url": "https://www.zhihu.com/api/v4/questions/279886266",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "279886266"
+        },
+        {
+          "type": "question",
+          "title": "性别的定义是生理上还是心理上？",
+          "question_type": "normal",
+          "created": 1514257602,
+          "updated_time": 1514274322,
+          "url": "https://www.zhihu.com/api/v4/questions/264629381",
+          "answer_count": 26,
+          "comment_count": 1,
+          "follower_count": 55,
+          "relationship": {},
+          "id": "264629381"
+        }
+      ]
+    }
+  }
+]
