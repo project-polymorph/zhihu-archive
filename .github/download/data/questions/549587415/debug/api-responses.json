@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/549587415/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590502074,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/549587415/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/549587415/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假体在体内一直放着是一种什么体验？",
+          "question_type": "normal",
+          "created": 1667853003,
+          "updated_time": 1667853003,
+          "url": "https://www.zhihu.com/api/v4/questions/565322029",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "565322029"
+        },
+        {
+          "type": "question",
+          "title": "我是因为尿血 胸部发育 声音变细去医院检查出女假两性畸形我该怎么办？",
+          "question_type": "normal",
+          "created": 1688972252,
+          "updated_time": 1688972252,
+          "url": "https://www.zhihu.com/api/v4/questions/611330213",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "611330213"
+        },
+        {
+          "type": "question",
+          "title": "为什么老要说体前变向？",
+          "question_type": "normal",
+          "created": 1512707925,
+          "updated_time": 1512707925,
+          "url": "https://www.zhihu.com/api/v4/questions/263775791",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "263775791"
+        }
+      ]
+    }
+  }
+]

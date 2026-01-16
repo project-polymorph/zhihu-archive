@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/19646607/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590852186,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/19646607/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/19646607/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人心理上存在性别之分吗？如果有的话影响因素大概有那些？",
+          "question_type": "normal",
+          "created": 1475648747,
+          "updated_time": 1475648747,
+          "url": "https://www.zhihu.com/api/v4/questions/51282323",
+          "answer_count": 4,
+          "comment_count": 2,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "51282323"
+        }
+      ]
+    }
+  }
+]

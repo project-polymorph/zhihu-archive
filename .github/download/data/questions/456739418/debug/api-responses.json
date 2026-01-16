@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/456739418/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590902109,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/456739418/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/456739418/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "什么时候会觉得“如果我是另一种性别就好了”？",
+          "question_type": "normal",
+          "created": 1543333206,
+          "updated_time": 1543333206,
+          "url": "https://www.zhihu.com/api/v4/questions/303876076",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "303876076"
+        },
+        {
+          "type": "question",
+          "title": "如果一觉醒来发现自己变成了相反的性别（包括思维模式），你最想做什么？",
+          "question_type": "normal",
+          "created": 1471600780,
+          "updated_time": 1471600780,
+          "url": "https://www.zhihu.com/api/v4/questions/49792458",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "49792458"
+        },
+        {
+          "type": "question",
+          "title": "如果你是另一种性别，你的人生会是什么样子？",
+          "question_type": "normal",
+          "created": 1716896868,
+          "updated_time": 1746705008,
+          "url": "https://www.zhihu.com/api/v4/questions/657468741",
+          "answer_count": 29,
+          "comment_count": 0,
+          "follower_count": 42,
+          "relationship": {},
+          "id": "657468741"
+        },
+        {
+          "type": "question",
+          "title": "什么时候你突然认为你应该是另一个性别？",
+          "question_type": "normal",
+          "created": 1585293782,
+          "updated_time": 1585384603,
+          "url": "https://www.zhihu.com/api/v4/questions/382950078",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "382950078"
+        }
+      ]
+    }
+  }
+]

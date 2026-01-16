@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/65127781/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589408493,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/65127781/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/65127781/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "怎样接受自己身体畸形的事实？",
+          "question_type": "normal",
+          "created": 1495813362,
+          "updated_time": 1495813362,
+          "url": "https://www.zhihu.com/api/v4/questions/60343737",
+          "answer_count": 1,
+          "comment_count": 1,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "60343737"
+        },
+        {
+          "type": "question",
+          "title": "身体畸形可以健身吗?",
+          "question_type": "normal",
+          "created": 1622847445,
+          "updated_time": 1622847445,
+          "url": "https://www.zhihu.com/api/v4/questions/463220609",
+          "answer_count": 44,
+          "comment_count": 0,
+          "follower_count": 80,
+          "relationship": {},
+          "id": "463220609"
+        },
+        {
+          "type": "question",
+          "title": "身体畸形如何锻炼？",
+          "question_type": "normal",
+          "created": 1407405994,
+          "updated_time": 1407405994,
+          "url": "https://www.zhihu.com/api/v4/questions/24769120",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "24769120"
+        },
+        {
+          "type": "question",
+          "title": "畸形到底是个什么形？",
+          "question_type": "normal",
+          "created": 1585840827,
+          "updated_time": 1585840827,
+          "url": "https://www.zhihu.com/api/v4/questions/384687875",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "384687875"
+        }
+      ]
+    }
+  }
+]

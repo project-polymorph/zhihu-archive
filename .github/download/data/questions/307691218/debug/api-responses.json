@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/307691218/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768591085804,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/307691218/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/307691218/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别对于生物来说是必需的吗？",
+          "question_type": "normal",
+          "created": 1681114383,
+          "updated_time": 1681114495,
+          "url": "https://www.zhihu.com/api/v4/questions/594741017",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "594741017"
+        },
+        {
+          "type": "question",
+          "title": "为什么不取消“社会性别”这一概念，只保留生理性别？",
+          "question_type": "normal",
+          "created": 1754624923,
+          "updated_time": 1754626818,
+          "url": "https://www.zhihu.com/api/v4/questions/1937118011199820150",
+          "answer_count": 17,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "1937118011199820150"
+        },
+        {
+          "type": "question",
+          "title": "什么是社会性别?它的提出有什么社会意义?",
+          "question_type": "normal",
+          "created": 1599630695,
+          "updated_time": 1599630695,
+          "url": "https://www.zhihu.com/api/v4/questions/420214608",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "420214608"
+        },
+        {
+          "type": "question",
+          "title": "未来是否有可能取消生理性别和社会性别两种范畴？",
+          "question_type": "normal",
+          "created": 1701484503,
+          "updated_time": 1701599072,
+          "url": "https://www.zhihu.com/api/v4/questions/632945343",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "632945343"
+        }
+      ]
+    }
+  }
+]

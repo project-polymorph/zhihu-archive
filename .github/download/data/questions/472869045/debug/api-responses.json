@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/472869045/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589367689,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/472869045/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/472869045/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何以“我爱上了白月光的替身”为开头写一个故事？",
+          "question_type": "normal",
+          "created": 1647760563,
+          "updated_time": 1647760564,
+          "url": "https://www.zhihu.com/api/v4/questions/523039817",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "523039817"
+        },
+        {
+          "type": "question",
+          "title": "如何以“皇上喜欢上我的替身，而我曾是他的白月光”为开头写一篇小说?",
+          "question_type": "normal",
+          "created": 1645884521,
+          "updated_time": 1645884521,
+          "url": "https://www.zhihu.com/api/v4/questions/518901694",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 26,
+          "relationship": {},
+          "id": "518901694"
+        },
+        {
+          "type": "question",
+          "title": "如何以［原来她不是我的替身，我也不是他的白月光］为开头写一篇文章？",
+          "question_type": "normal",
+          "created": 1656308991,
+          "updated_time": 1656308991,
+          "url": "https://www.zhihu.com/api/v4/questions/540087629",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "540087629"
+        }
+      ]
+    }
+  }
+]

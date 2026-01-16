@@ -1,0 +1,852 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/64372845/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768592589129,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/64372845/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/64372845/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男生女生的性格有什么区别？",
+          "question_type": "normal",
+          "created": 1583770030,
+          "updated_time": 1583770030,
+          "url": "https://www.zhihu.com/api/v4/questions/378152767",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "378152767"
+        },
+        {
+          "type": "question",
+          "title": "是什么造就了男人女人性格的差异？",
+          "question_type": "normal",
+          "created": 1531835334,
+          "updated_time": 1531835334,
+          "url": "https://www.zhihu.com/api/v4/questions/285682431",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "285682431"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/64372845/feeds?cursor=adfa4d4f9fd4f3a388eb9dcb561cb94e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768592586547498291&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768592589221,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxjRrMFuIO2A2R6SAiMKCDcyMjA4MTEzEgkyMzE3NTczOTMYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-a970ae5ce3051a5ea85a7e1d04023f76_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-a970ae5ce3051a5ea85a7e1d04023f76.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "广东外语外贸大学 工商管理硕士",
+                  "topics": [],
+                  "type": "identity"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "广东外语外贸大学 工商管理硕士",
+                    "detail_type": "identity_people",
+                    "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "sources": [],
+                    "title": "已认证的个人",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "广东外语外贸大学 工商管理硕士",
+                    "detail_type": "identity_people",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [],
+                    "title": "认证",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "title": "广东外语外贸大学 工商管理硕士"
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-6ac291842ab995fbf80c2b6cd2fe9800_l.png?source=1def8aca",
+                "description": "受邀回答 50 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-6ac291842ab995fbf80c2b6cd2fe9800_r.png?source=1def8aca"
+              },
+              "follower_count": 687,
+              "gender": 1,
+              "headline": "大城市做题家。",
+              "id": "7e7a2a329e2c4de85686a9eaa5e7f948",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "星不了情",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7e7a2a329e2c4de85686a9eaa5e7f948",
+              "url_token": "xing-bu-liao-qing-98",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"qw6q81tc\">谢邀。</p><p data-pid=\"oEui_XMx\">每个人都有自己喜欢的东西，我觉得挺好的。</p><p data-pid=\"sfW_XD1g\">有一个说法，你做了一件事，世界上就会有一个人欣赏你，有一个人讨厌你，还有8个人对你做的事情并不关心。所以不用太过在意别人的想法，做喜欢的事肯定会有人对你感兴趣，想和你交朋友。</p><p data-pid=\"F6EEGIrv\">就算你很女性化，也会有人说你娇柔做作什么的，所以没有必要去迎合他们。</p><p data-pid=\"73JBbx7W\">我见过很多学生时期的假小子，最后都变成了大美女哈哈，能打扮成帅哥的都是美女。哈哈哈哈哈</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1505709005,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "谢邀。 每个人都有自己喜欢的东西，我觉得挺好的。 有一个说法，你做了一件事，世界上就会有一个人欣赏你，有一个人讨厌你，还有8个人对你做的事情并不关心。所以不用太过在意别人的想法，做喜欢的事肯定会有人对你感兴趣，想和你交朋友。 就算你很女性化，也会有人说你娇柔做作什么的，所以没有必要去迎合他们。 我见过很多学生时期的假小子，最后都变成了大美女哈哈，能打扮成帅哥的都是美女。哈哈哈哈哈",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "231757393",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1503544778,
+              "id": "64372845",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "女生性格比较男性化好吗？",
+              "type": "question",
+              "updated_time": 1503551092,
+              "url": "https://www.zhihu.com/api/v4/questions/64372845"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1505709006,
+            "url": "https://www.zhihu.com/api/v4/answers/231757393",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "adfa4d4f9fd4f3a39814a0cb561cb94e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxiP9eVuIO2A2R6SAiMKCDcyMzE3MDM0EgkyMzIzNTY0OTUYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-26566a4701df621056de5d9e500e4aa0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-26566a4701df621056de5d9e500e4aa0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 959,
+              "gender": -1,
+              "headline": "男儿何不带吴钩，收取关山五十州",
+              "id": "2bf2394d0fd8415043e7a30fd4ba3bd1",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "银枪白马吕小布",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/2bf2394d0fd8415043e7a30fd4ba3bd1",
+              "url_token": "qi-zi-fei-55",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"PMeBQOtc\">谢邀～初中时有个同学就是你这样～长相并不漂亮，但是令我印象深刻！现在想想那大概就是人格魅力吧！顺其自然就好～现在这个社会这种性格应该算是优势呢吧！</p><p data-pid=\"k3dU1EsW\">只是提醒一下，性格开朗偏男性化并不等于要有男性的恶习！比如抽烟，满嘴荤段子，也不代表和男生打打闹闹可以无底线，被随便摸也无所谓！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1505807517,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "谢邀～初中时有个同学就是你这样～长相并不漂亮，但是令我印象深刻！现在想想那大概就是人格魅力吧！顺其自然就好～现在这个社会这种性格应该算是优势呢吧！ 只是提醒一下，性格开朗偏男性化并不等于要有男性的恶习！比如抽烟，满嘴荤段子，也不代表和男生打打闹闹可以无底线，被随便摸也无所谓！",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "232356495",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1503544778,
+              "id": "64372845",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "女生性格比较男性化好吗？",
+              "type": "question",
+              "updated_time": 1503551092,
+              "url": "https://www.zhihu.com/api/v4/questions/64372845"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1505807517,
+            "url": "https://www.zhihu.com/api/v4/answers/232356495",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "adfa4d4f9fd4f3a303a2a2cb561cb94e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxiVs5ufASDtgNkekgIjCgg5MDc3NDg1NRIJMzMzODk2MDg1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-b4128fb6023432e851a2f17a9b3effc7_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-b4128fb6023432e851a2f17a9b3effc7.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 154,
+              "gender": 0,
+              "headline": "绘画，心理，历史，社会学，宗教，占星，国际",
+              "id": "3bc6ce8520d3643ddcd8b23fee30d635",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "MYF",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/3bc6ce8520d3643ddcd8b23fee30d635",
+              "url_token": "myf-10-99",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"8IgCocS4\">当然好!我也是这样的!不管是女性男性化，还是男性女性化，最终结果都是中性化。你们都是Beautiful one!</p><figure><noscript><img src=\"https://picx.zhimg.com/50/v2-0d5c95520c9643087919720d1eec2b99_720w.jpg?source=1def8aca\" data-rawwidth=\"473\" data-rawheight=\"459\" data-original-token=\"v2-0d5c95520c9643087919720d1eec2b99\" class=\"origin_image zh-lightbox-thumb\" width=\"473\" data-original=\"https://pica.zhimg.com/v2-0d5c95520c9643087919720d1eec2b99_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;473&#39; height=&#39;459&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"473\" data-rawheight=\"459\" data-original-token=\"v2-0d5c95520c9643087919720d1eec2b99\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"473\" data-original=\"https://pica.zhimg.com/v2-0d5c95520c9643087919720d1eec2b99_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-0d5c95520c9643087919720d1eec2b99_720w.jpg?source=1def8aca\"/></figure>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1520163405,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "当然好!我也是这样的!不管是女性男性化，还是男性女性化，最终结果都是中性化。你们都是Beautiful one! [图片]",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "333896085",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1503544778,
+              "id": "64372845",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "女生性格比较男性化好吗？",
+              "type": "question",
+              "updated_time": 1503551092,
+              "url": "https://www.zhihu.com/api/v4/questions/64372845"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 459,
+                  "token": "v2-0d5c95520c9643087919720d1eec2b99",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-0d5c95520c9643087919720d1eec2b99_720w.jpg?source=1def8aca",
+                  "width": 473
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1520163405,
+            "url": "https://www.zhihu.com/api/v4/answers/333896085",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "adfa4d4f9fd4f3a32ec784ca561cb94e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxi+y4NqIO2A2R6SAiMKCDcwNDk4NTQ5EgkyMjIzNTY5MjYYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-e0c18eed277b2bc05549e1dd0b5adcea_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-e0c18eed277b2bc05549e1dd0b5adcea.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 397,
+              "gender": -1,
+              "headline": "要热烈，要未来好好见",
+              "id": "95db36277d00355ae858346f9d6038d9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "serendipit",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/95db36277d00355ae858346f9d6038d9",
+              "url_token": "yan-xiao-ye-16-36",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pic1.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://picx.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"-JdCt-hS\">谢邀</p><p data-pid=\"ovlf846z\">很好，没啥，自己开心就成</p><p data-pid=\"SbkU9v2t\">铁骨铮铮的女汉子很好</p><p data-pid=\"oB2Ua4ry\">磨磨叽叽叽叽歪歪的承受不了</p><p data-pid=\"J9AaA_1a\">为了建设社会主义和谐社会</p><p data-pid=\"P1JJkDoB\">让女汉子们一起努力吧！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1503997159,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "谢邀 很好，没啥，自己开心就成 铁骨铮铮的女汉子很好 磨磨叽叽叽叽歪歪的承受不了 为了建设社会主义和谐社会 让女汉子们一起努力吧！",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "222356926",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1503544778,
+              "id": "64372845",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "女生性格比较男性化好吗？",
+              "type": "question",
+              "updated_time": 1503551092,
+              "url": "https://www.zhihu.com/api/v4/questions/64372845"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1503997159,
+            "url": "https://www.zhihu.com/api/v4/answers/222356926",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "adfa4d4f9fd4f3a39c62decb561cb94e",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxjFusXVASDtgNkekgIkCgkxMTE0OTI0NDgSCTQ0NzgzMTM2NRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-f7f264b3d3b9615067608746b8cac57f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-f7f264b3d3b9615067608746b8cac57f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-5e931c38ecda95b43c3b6ca0a238aa8c_l.png?source=1def8aca",
+                "description": "2021 知乎高考答疑创作纪念徽章",
+                "medal_avatar_frame": "",
+                "medal_id": "1399005648869351424",
+                "medal_name": "高考答疑 2021",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-5e931c38ecda95b43c3b6ca0a238aa8c_r.png?source=1def8aca"
+              },
+              "follower_count": 96,
+              "gender": 1,
+              "headline": "出其东门",
+              "id": "9384381b8f9aa4a5671f214329bff684",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "可乐404",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9384381b8f9aa4a5671f214329bff684",
+              "url_token": "ke-le-11-83-41",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"3oTgTGol\">谢邀。不知道你有没有了解过性别认同，一个人对自己性别认同跟自己本身是不一样的。</p><p data-pid=\"ZcfwyBvP\">对于你要不要女性化一点，我没什么好说的，这是你自己的选择。但是你这样选择也就要面对一些事，别人会说你是个男生，可能是跟你开玩笑，你不喜欢这样的玩笑可以直说，大多数男生一般就不会再开这样的玩笑了(个别比较皮的除外);也可能是无意的，跟你不熟悉的人可能从你的打扮一时反应不过来你是女生，我读高中时校女篮里面有几个女生就是比较男性化的，不认识她们的真的看不出来是女生，她们很好相处，我们也知道其中一些女生是同性恋，但我们并不在意这些，也相处的很好。</p><p data-pid=\"Lexhk-KL\">总的来说，你自己选择，克服这个选择所带来的误解。至于恋爱，因为打扮比较男性化，可能会比较难找到男朋友，但总会有的，每一个的对于对象的看法都不一样，你总能找到喜欢的人的。</p><p data-pid=\"PAHQkThW\">祝好</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1532109124,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "谢邀。不知道你有没有了解过性别认同，一个人对自己性别认同跟自己本身是不一样的。 对于你要不要女性化一点，我没什么好说的，这是你自己的选择。但是你这样选择也就要面对一些事，别人会说你是个男生，可能是跟你开玩笑，你不喜欢这样的玩笑可以直说，大多数男生一般就不会再开这样的玩笑了(个别比较皮的除外);也可能是无意的，跟你不熟悉的人可能从你的打扮一时反应不过来你是女生，我读高中时校女篮里面有几个女生就是比较男…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "447831365",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1503544778,
+              "id": "64372845",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "女生性格比较男性化好吗？",
+              "type": "question",
+              "updated_time": 1503551092,
+              "url": "https://www.zhihu.com/api/v4/questions/64372845"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1532109124,
+            "url": "https://www.zhihu.com/api/v4/answers/447831365",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "adfa4d4f9fd4f3a309e748c9561cb94e",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768592586547498291"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/64372845/feeds?cursor=adfa4d4f9fd4f3a309e748c9561cb94e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768592586547498291&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/507628971/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589852672,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/507628971/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/507628971/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "什么是社会性别?它的提出有什么社会意义?",
+          "question_type": "normal",
+          "created": 1599630695,
+          "updated_time": 1599630695,
+          "url": "https://www.zhihu.com/api/v4/questions/420214608",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "420214608"
+        },
+        {
+          "type": "question",
+          "title": "社会性别是否应该采用与生理性别不同的词汇系统？",
+          "question_type": "normal",
+          "created": 1479721802,
+          "updated_time": 1479721802,
+          "url": "https://www.zhihu.com/api/v4/questions/52852608",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "52852608"
+        },
+        {
+          "type": "question",
+          "title": "为什么一定要有社会性别区分？",
+          "question_type": "normal",
+          "created": 1612507193,
+          "updated_time": 1612507193,
+          "url": "https://www.zhihu.com/api/v4/questions/442991000",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "442991000"
+        },
+        {
+          "type": "question",
+          "title": "性别存在的意义是什么呢？",
+          "question_type": "normal",
+          "created": 1628534445,
+          "updated_time": 1628591451,
+          "url": "https://www.zhihu.com/api/v4/questions/478590766",
+          "answer_count": 35,
+          "comment_count": 1,
+          "follower_count": 201,
+          "relationship": {},
+          "id": "478590766"
+        },
+        {
+          "type": "question",
+          "title": "为什么不取消“社会性别”这一概念，只保留生理性别？",
+          "question_type": "normal",
+          "created": 1754624923,
+          "updated_time": 1754626818,
+          "url": "https://www.zhihu.com/api/v4/questions/1937118011199820150",
+          "answer_count": 17,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "1937118011199820150"
+        }
+      ]
+    }
+  }
+]

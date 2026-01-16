@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/589482287/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588599390,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/589482287/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/589482287/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有孕妈妈做大排畸的时候被医生暗示过孩子性别吗？",
+          "question_type": "normal",
+          "created": 1669859988,
+          "updated_time": 1669859988,
+          "url": "https://www.zhihu.com/api/v4/questions/569928714",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "569928714"
+        },
+        {
+          "type": "question",
+          "title": "俩性畸形的孩子长大后会怎么样？",
+          "question_type": "normal",
+          "created": 1531380079,
+          "updated_time": 1531380079,
+          "url": "https://www.zhihu.com/api/v4/questions/284931433",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "284931433"
+        }
+      ]
+    }
+  }
+]

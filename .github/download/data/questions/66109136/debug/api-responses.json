@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/66109136/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768592603537,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/66109136/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/66109136/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果男性/女性可以单性繁殖，你还会结婚吗？（虽然结婚不是为了繁殖后代）？",
+          "question_type": "normal",
+          "created": 1551369116,
+          "updated_time": 1551369116,
+          "url": "https://www.zhihu.com/api/v4/questions/314093467",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "314093467"
+        },
+        {
+          "type": "question",
+          "title": "如果人类可以无性繁殖，那还有性别区分吗？",
+          "question_type": "normal",
+          "created": 1599445465,
+          "updated_time": 1599445465,
+          "url": "https://www.zhihu.com/api/v4/questions/419832994",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "419832994"
+        },
+        {
+          "type": "question",
+          "title": "人类女性有没有可能发展为单性繁殖？",
+          "question_type": "normal",
+          "created": 1590384143,
+          "updated_time": 1590384143,
+          "url": "https://www.zhihu.com/api/v4/questions/397199888",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "397199888"
+        }
+      ]
+    }
+  }
+]

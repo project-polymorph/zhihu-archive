@@ -1,0 +1,239 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/275914082/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589685516,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/275914082/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/275914082/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "很多男生都想变成女生吗？",
+          "question_type": "normal",
+          "created": 1723709532,
+          "updated_time": 1723709532,
+          "url": "https://www.zhihu.com/api/v4/questions/664360260",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "664360260"
+        },
+        {
+          "type": "question",
+          "title": "为什么女生大多数都想变成男生？",
+          "question_type": "normal",
+          "created": 1540448544,
+          "updated_time": 1540448544,
+          "url": "https://www.zhihu.com/api/v4/questions/299935472",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "299935472"
+        },
+        {
+          "type": "question",
+          "title": "我是女生想变成男生怎么办?",
+          "question_type": "normal",
+          "created": 1603649957,
+          "updated_time": 1603649957,
+          "url": "https://www.zhihu.com/api/v4/questions/427366980",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 20,
+          "relationship": {},
+          "id": "427366980"
+        },
+        {
+          "type": "question",
+          "title": "为什么好多女生想变成男生？",
+          "question_type": "normal",
+          "created": 1582364071,
+          "updated_time": 1582364071,
+          "url": "https://www.zhihu.com/api/v4/questions/373818138",
+          "answer_count": 18,
+          "comment_count": 0,
+          "follower_count": 24,
+          "relationship": {},
+          "id": "373818138"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/275914082/feeds?cursor=a492f35977268c21f5533d39a80de877&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768589682781815496&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768589685657,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjznuXTDCDiusiDAZICJQoJNjQ3NzAzNTczEgozMzk2OTQ3ODI3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-2217c7f570f67803087686b7fa42e786_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-2217c7f570f67803087686b7fa42e786.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_l.png?source=1def8aca",
+                "description": "关注 20 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_r.png?source=1def8aca"
+              },
+              "follower_count": 20,
+              "gender": -1,
+              "headline": "",
+              "id": "06a58ce68c7dd65049a2b39d1499dcce",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Unknown User",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/06a58ce68c7dd65049a2b39d1499dcce",
+              "url_token": "wo-shi-xiang-gang-ren-bu-shi-fei-qing",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"nX0fXRKB\">他们什么时候代表我了</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1707984927,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "他们什么时候代表我了",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3396947827",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1525449435,
+              "id": "275914082",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么现在的男生都想变成女生？",
+              "type": "question",
+              "updated_time": 1525449435,
+              "url": "https://www.zhihu.com/api/v4/questions/275914082"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1707984927,
+            "url": "https://www.zhihu.com/api/v4/answers/3396947827",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "a492f35977268c210444f20da80de877",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768589682781815496"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/275914082/feeds?cursor=a492f35977268c210444f20da80de877&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768589682781815496&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

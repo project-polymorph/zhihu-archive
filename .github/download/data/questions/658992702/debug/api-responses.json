@@ -1,0 +1,101 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/658992702/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593048520,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/658992702/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/658992702/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "浙江杭州一新郎婚检竟被告知生理为女性，极度悲伤想跟老婆分手，医院随后回应称他们的疏忽，如何看待此事？",
+          "question_type": "normal",
+          "created": 1650071380,
+          "updated_time": 1650267796,
+          "url": "https://www.zhihu.com/api/v4/questions/528235363",
+          "answer_count": 238,
+          "comment_count": 33,
+          "follower_count": 1344,
+          "relationship": {},
+          "id": "528235363"
+        },
+        {
+          "type": "question",
+          "title": "体检和婚检能相提并论吗?",
+          "question_type": "normal",
+          "created": 1669545409,
+          "updated_time": 1669545409,
+          "url": "https://www.zhihu.com/api/v4/questions/569186164",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "569186164"
+        },
+        {
+          "type": "question",
+          "title": "现在办结婚证要体检吗？",
+          "question_type": "normal",
+          "created": 1559638607,
+          "updated_time": 1559638607,
+          "url": "https://www.zhihu.com/api/v4/questions/327841855",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "327841855"
+        },
+        {
+          "type": "question",
+          "title": "婚检在医院做还是在体检中心做？",
+          "question_type": "normal",
+          "created": 1453795671,
+          "updated_time": 1453795671,
+          "url": "https://www.zhihu.com/api/v4/questions/39853595",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "39853595"
+        },
+        {
+          "type": "question",
+          "title": "结婚前想让双方父母做个体检是否合理？",
+          "question_type": "normal",
+          "created": 1645179916,
+          "updated_time": 1645179916,
+          "url": "https://www.zhihu.com/api/v4/questions/517322930",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "517322930"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/658992702/feeds?cursor=3e1cf79e9056ea1826cdd0c0293491e0&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768593045882208421&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768593048636,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768593045882208421"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/658992702/feeds?cursor=3e1cf79e9056ea1826cdd0c0293491e0&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768593045882208421&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

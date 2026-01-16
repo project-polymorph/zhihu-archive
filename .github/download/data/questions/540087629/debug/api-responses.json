@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/540087629/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589479501,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/540087629/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/540087629/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何以“我是他的白月光，却被他当做替身”开头？",
+          "question_type": "normal",
+          "created": 1626533053,
+          "updated_time": 1626533053,
+          "url": "https://www.zhihu.com/api/v4/questions/472869045",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "472869045"
+        },
+        {
+          "type": "question",
+          "title": "如何以“我到他身边做替身后，他不爱白月光反而爱上了我”为开头写篇故事？",
+          "question_type": "normal",
+          "created": 1705930071,
+          "updated_time": 1705930071,
+          "url": "https://www.zhihu.com/api/v4/questions/640731171",
+          "answer_count": 9,
+          "comment_count": 1,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "640731171"
+        }
+      ]
+    }
+  }
+]

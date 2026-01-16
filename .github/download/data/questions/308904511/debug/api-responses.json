@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/308904511/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589955618,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/308904511/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/308904511/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你有遇到过有性偏好障碍的人吗？举个例子吧！?",
+          "question_type": "normal",
+          "created": 1427471038,
+          "updated_time": 1427471038,
+          "url": "https://www.zhihu.com/api/v4/questions/29100748",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "29100748"
+        },
+        {
+          "type": "question",
+          "title": "请问，做作性障碍的人是怎么表演疾病的，不怕会穿帮吗？",
+          "question_type": "normal",
+          "created": 1648508199,
+          "updated_time": 1735956821,
+          "url": "https://www.zhihu.com/api/v4/questions/524728854",
+          "answer_count": 4,
+          "comment_count": 1,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "524728854"
+        }
+      ]
+    }
+  }
+]

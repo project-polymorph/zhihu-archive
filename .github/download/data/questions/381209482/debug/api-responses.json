@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/381209482/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589336957,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/381209482/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/381209482/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何直面自己身体畸形的一部分？",
+          "question_type": "normal",
+          "created": 1677773911,
+          "updated_time": 1677773911,
+          "url": "https://www.zhihu.com/api/v4/questions/587232906",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "587232906"
+        },
+        {
+          "type": "question",
+          "title": "什么时候让你觉得自己像一个畸形的病人?",
+          "question_type": "normal",
+          "created": 1584212013,
+          "updated_time": 1584212013,
+          "url": "https://www.zhihu.com/api/v4/questions/379542021",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "379542021"
+        },
+        {
+          "type": "question",
+          "title": "你会介意伴侣身体有些畸形吗？",
+          "question_type": "normal",
+          "created": 1585815815,
+          "updated_time": 1585815815,
+          "url": "https://www.zhihu.com/api/v4/questions/384577215",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "384577215"
+        }
+      ]
+    }
+  }
+]

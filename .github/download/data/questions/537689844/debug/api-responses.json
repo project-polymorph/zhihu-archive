@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/537689844/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588581745,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/537689844/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/537689844/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果我通过辅助生育治疗怀孕，以后孩子出现先天性畸形的机率会增加吗？",
+          "question_type": "normal",
+          "created": 1452221389,
+          "updated_time": 1452221389,
+          "url": "https://www.zhihu.com/api/v4/questions/39278149",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "39278149"
+        },
+        {
+          "type": "question",
+          "title": "怀孕检查孩子畸形，生还是不生?",
+          "question_type": "normal",
+          "created": 1573288584,
+          "updated_time": 1573288584,
+          "url": "https://www.zhihu.com/api/v4/questions/355000705",
+          "answer_count": 129,
+          "comment_count": 3,
+          "follower_count": 167,
+          "relationship": {},
+          "id": "355000705"
+        },
+        {
+          "type": "question",
+          "title": "为什么成熟畸胎瘤会多发生于绝经后的女性？",
+          "question_type": "normal",
+          "created": 1608301806,
+          "updated_time": 1608301806,
+          "url": "https://www.zhihu.com/api/v4/questions/435468326",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "435468326"
+        }
+      ]
+    }
+  }
+]

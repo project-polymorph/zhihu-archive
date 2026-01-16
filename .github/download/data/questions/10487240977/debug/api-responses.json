@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/10487240977/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589390416,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/10487240977/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/10487240977/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "读者们介意小说中男女主都是双性恋者吗?",
+          "question_type": "normal",
+          "created": 1761152876,
+          "updated_time": 1761152876,
+          "url": "https://www.zhihu.com/api/v4/questions/1964498231028346931",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "1964498231028346931"
+        },
+        {
+          "type": "question",
+          "title": "作为一个女生，我特别喜欢看关于双性的文，这是不是有病啊？？？",
+          "question_type": "normal",
+          "created": 1692144232,
+          "updated_time": 1692144232,
+          "url": "https://www.zhihu.com/api/v4/questions/617519910",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "617519910"
+        },
+        {
+          "type": "question",
+          "title": "求有无双性恋/多元性取向的小说？",
+          "question_type": "normal",
+          "created": 1708246214,
+          "updated_time": 1740929141,
+          "url": "https://www.zhihu.com/api/v4/questions/644764564",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "644764564"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/570424439/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588639075,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/570424439/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/570424439/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "问你们一个很严肃的问题如果你（你的妻子）怀了一个畸形儿，你会怎么办？",
+          "question_type": "normal",
+          "created": 1545150765,
+          "updated_time": 1545150765,
+          "url": "https://www.zhihu.com/api/v4/questions/306191648",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "306191648"
+        },
+        {
+          "type": "question",
+          "title": "怀孕的时候能检查出孩子畸形吗？",
+          "question_type": "normal",
+          "created": 1641345560,
+          "updated_time": 1641345560,
+          "url": "https://www.zhihu.com/api/v4/questions/509919564",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "509919564"
+        }
+      ]
+    }
+  }
+]

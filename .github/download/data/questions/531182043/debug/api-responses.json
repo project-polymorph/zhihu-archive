@@ -1,0 +1,599 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/531182043/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589285628,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/531182043/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/531182043/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么人类性染色体是xy和xx？",
+          "question_type": "normal",
+          "created": 1423183642,
+          "updated_time": 1423890848,
+          "url": "https://www.zhihu.com/api/v4/questions/28016222",
+          "answer_count": 6,
+          "comment_count": 3,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "28016222"
+        },
+        {
+          "type": "question",
+          "title": "突然想到一问题：人类的性染色体是女XX和男XY，有无可能利用现在技术制造出性染色体为YY的第三种人呢？",
+          "question_type": "normal",
+          "created": 1471792244,
+          "updated_time": 1471792244,
+          "url": "https://www.zhihu.com/api/v4/questions/49866475",
+          "answer_count": 14,
+          "comment_count": 3,
+          "follower_count": 35,
+          "relationship": {},
+          "id": "49866475"
+        },
+        {
+          "type": "question",
+          "title": "男生染色体是XY，女生的是XX，如果有染色体是YY的人，那么又会是啥样的呢？",
+          "question_type": "normal",
+          "created": 1730997630,
+          "updated_time": 1730997630,
+          "url": "https://www.zhihu.com/api/v4/questions/3491623380",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "3491623380"
+        },
+        {
+          "type": "question",
+          "title": "性染色体中，男性是XY，女性是XX，那么YY会是什么？",
+          "question_type": "normal",
+          "created": 1557931273,
+          "updated_time": 1709477752,
+          "url": "https://www.zhihu.com/api/v4/questions/324551611",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "324551611"
+        },
+        {
+          "type": "question",
+          "title": "是不是有一段时期，社会普遍认为男性为XX染色体，女性为XY染色体？",
+          "question_type": "normal",
+          "created": 1441032464,
+          "updated_time": 1441032464,
+          "url": "https://www.zhihu.com/api/v4/questions/35213231",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "35213231"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/531182043/feeds?cursor=11914d8c26637a65bee992a934478556&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768589282706212710&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768589285832,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiLvNmZCSDb46T9AZICJQoJNDc5MTQwNTc4EgoyNDY5ODEzNzcxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-4ea36c959b2e209e12f358570d91aff5_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-4ea36c959b2e209e12f358570d91aff5.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_l.png?source=1def8aca",
+                "description": "关注 5 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_r.png?source=1def8aca"
+              },
+              "follower_count": 1,
+              "gender": -1,
+              "headline": "",
+              "id": "df98758ccfefb1b5dd8b94f78a32bcd5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "柳絮池塘淡淡风",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/df98758ccfefb1b5dd8b94f78a32bcd5",
+              "url_token": "ran-se-ti-que-shi",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"2BkOGsUG\">无语了，，，你是初中没读书吗？</p><p data-pid=\"z1ELFXSS\">性染色体分别来自父母各一条。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1651646491,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "无语了，，，你是初中没读书吗？ 性染色体分别来自父母各一条。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2469813771",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1651567077,
+              "id": "531182043",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么性染色体有xx（女）和xy（男），没有yy？",
+              "type": "question",
+              "updated_time": 1651567077,
+              "url": "https://www.zhihu.com/api/v4/questions/531182043"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1651646491,
+            "url": "https://www.zhihu.com/api/v4/answers/2469813771",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "11914d8c26637a657e508fa934478556",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjF8MSaCSDb46T9AZICJQoJNDc5NDYwNzg1EgoyNDcxNTczNTczGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 118,
+              "gender": 0,
+              "headline": "",
+              "id": "69aa72389c947a9ce94b8d8a4a50e169",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户IqoZQw",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/69aa72389c947a9ce94b8d8a4a50e169",
+              "url_token": "64-33-30-46",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"VbRoOeS4\">这还用问吗 女里面就没有y 上哪来yy yy是生不出孩子的 自然就没有</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1651743246,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/91dee0f1ead089dae36e8984b5c17ae6",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @Dreamath",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "这还用问吗 女里面就没有y 上哪来yy yy是生不出孩子的 自然就没有",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2471573573",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1651567077,
+              "id": "531182043",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么性染色体有xx（女）和xy（男），没有yy？",
+              "type": "question",
+              "updated_time": 1651567077,
+              "url": "https://www.zhihu.com/api/v4/questions/531182043"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1651743246,
+            "url": "https://www.zhihu.com/api/v4/answers/2471573573",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "11914d8c26637a652db793a934478556",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjg3/OfCSDb46T9AZICJQoJNDgxNTA2NjU2EgoyNDgyODI3MjMyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-1b95ba74b7460ffb1e0bf0a3d63f96f6_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-1b95ba74b7460ffb1e0bf0a3d63f96f6.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-340c50d93c8821c172477e82f0f4e08e_l.png?source=1def8aca",
+                "description": "受邀回答 8 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-340c50d93c8821c172477e82f0f4e08e_r.png?source=1def8aca"
+              },
+              "follower_count": 2,
+              "gender": 1,
+              "headline": "",
+              "id": "c9976753a0e137a3762b838d0c57adae",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "晓谢纪雪",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/c9976753a0e137a3762b838d0c57adae",
+              "url_token": "niceday-83",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"E7KaT5Sh\">你这问题……它只是一个公认的代表符号，没有实质意义</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1652368100,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "你这问题…它只是一个公认的代表符号，没有实质意义",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2482827232",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1651567077,
+              "id": "531182043",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么性染色体有xx（女）和xy（男），没有yy？",
+              "type": "question",
+              "updated_time": 1651567077,
+              "url": "https://www.zhihu.com/api/v4/questions/531182043"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1652368100,
+            "url": "https://www.zhihu.com/api/v4/answers/2482827232",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "11914d8c26637a65fc7fb3a934478556",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768589282706212710"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/531182043/feeds?cursor=11914d8c26637a65fc7fb3a934478556&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768589282706212710&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

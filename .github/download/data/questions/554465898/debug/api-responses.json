@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/554465898/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768591949727,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/554465898/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/554465898/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你知道哪些被狗咬伤的惨案？",
+          "question_type": "normal",
+          "created": 1541326357,
+          "updated_time": 1541326357,
+          "url": "https://www.zhihu.com/api/v4/questions/301254425",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "301254425"
+        },
+        {
+          "type": "question",
+          "title": "穷孩子一个，走路上被狗咬伤。狗主人很富   对我态度很轻视，我想要求他赔偿  可以吗我很无措？",
+          "question_type": "normal",
+          "created": 1586492237,
+          "updated_time": 1586492237,
+          "url": "https://www.zhihu.com/api/v4/questions/386635883",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "386635883"
+        }
+      ]
+    }
+  }
+]

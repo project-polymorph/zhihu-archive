@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/339965006/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590037718,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/339965006/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/339965006/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男朋友妈妈是不懂事还是太欺负人？",
+          "question_type": "normal",
+          "created": 1665521450,
+          "updated_time": 1665521954,
+          "url": "https://www.zhihu.com/api/v4/questions/558785756",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "558785756"
+        },
+        {
+          "type": "question",
+          "title": "男朋友因为儿时阴影 对母亲产生极大恨意 出现心理问题 自己害怕伤害父母 又怕自己控制不住 怎么办?",
+          "question_type": "normal",
+          "created": 1402231724,
+          "updated_time": 1402231724,
+          "url": "https://www.zhihu.com/api/v4/questions/24074929",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "24074929"
+        },
+        {
+          "type": "question",
+          "title": "爸妈偏心、惧怕儿子儿媳只会使唤俩女儿咋办？",
+          "question_type": "normal",
+          "created": 1624426647,
+          "updated_time": 1624426647,
+          "url": "https://www.zhihu.com/api/v4/questions/466762091",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "466762091"
+        }
+      ]
+    }
+  }
+]

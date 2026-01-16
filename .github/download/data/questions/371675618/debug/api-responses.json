@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/371675618/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589802759,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/371675618/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/371675618/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "妇产科医生都是怎么委婉的告你宝宝的性别的？",
+          "question_type": "normal",
+          "created": 1624367489,
+          "updated_time": 1624367489,
+          "url": "https://www.zhihu.com/api/v4/questions/466624900",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "466624900"
+        },
+        {
+          "type": "question",
+          "title": "不看第一性征，如何得知新生儿的性别？",
+          "question_type": "normal",
+          "created": 1412133295,
+          "updated_time": 1412133295,
+          "url": "https://www.zhihu.com/api/v4/questions/25652944",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "25652944"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/272142652/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589230430,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/272142652/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/272142652/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "起点上面有很多以日本为背景的网文  数量真的不少 可以直接举报吗 ？应该怎么举报？",
+          "question_type": "normal",
+          "created": 1658281983,
+          "updated_time": 1658281983,
+          "url": "https://www.zhihu.com/api/v4/questions/544285574",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "544285574"
+        },
+        {
+          "type": "question",
+          "title": "有没有好看的历史同人文?",
+          "question_type": "normal",
+          "created": 1617112910,
+          "updated_time": 1617112910,
+          "url": "https://www.zhihu.com/api/v4/questions/452104696",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "452104696"
+        }
+      ]
+    }
+  }
+]

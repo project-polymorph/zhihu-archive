@@ -1,0 +1,565 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/548717688/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768592789126,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/548717688/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/548717688/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "女假两性畸形的朋友为什么会选择成为女性呢?之后的心理会发生什么变化呢？",
+          "question_type": "normal",
+          "created": 1634440995,
+          "updated_time": 1634440995,
+          "url": "https://www.zhihu.com/api/v4/questions/492885717",
+          "answer_count": 30,
+          "comment_count": 4,
+          "follower_count": 295,
+          "relationship": {},
+          "id": "492885717"
+        },
+        {
+          "type": "question",
+          "title": "假两性畸形是否可以先改身份证后手术？",
+          "question_type": "normal",
+          "created": 1678765408,
+          "updated_time": 1678776813,
+          "url": "https://www.zhihu.com/api/v4/questions/589482287",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "589482287"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/548717688/feeds?cursor=18f8b7fecd800a05fe6c4efa0293e009&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768592786325394179&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768592789285,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxieutvgCyD4iNOFApICJQoJNjAzODMyODYyEgozMTU1NjE1MDA2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-9e6152f1da456465eb83549f355566ee_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-9e6152f1da456465eb83549f355566ee.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 71,
+              "gender": 0,
+              "headline": "",
+              "id": "1ccd9e6758ac09ec22bc7d34b7248efb",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "谁谁谁",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/1ccd9e6758ac09ec22bc7d34b7248efb",
+              "url_token": "15-15-41-27-67",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 10,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"O5aZ51iA\">我也是女假两性畸形我手术之后转城市转学搬家，换学校，改学籍，改身份证，交了新的朋友</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1691471168,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我也是女假两性畸形我手术之后转城市转学搬家，换学校，改学籍，改身份证，交了新的朋友",
+            "extras": "",
+            "favlists_count": 21,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3155615006",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "20 赞同 · 21 收藏 · 10 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1660660131,
+              "id": "548717688",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "一个女性假两性畸形的患者，在手术后该如何处理自己面临的社交问题？",
+              "type": "question",
+              "updated_time": 1660660131,
+              "url": "https://www.zhihu.com/api/v4/questions/548717688"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 15
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 15,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1691471168,
+            "url": "https://www.zhihu.com/api/v4/answers/3155615006",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 20
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "18f8b7fecd800a057e3d5ff10293e009",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj615PoCSD4iNOFApICJQoJNTA5MDU4MDYyEgoyNjM0MzQ1NDY2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-1ae4d327d5f8a09a5758f00e6825c44b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-1ae4d327d5f8a09a5758f00e6825c44b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-9251b676c9f4283fdc5e04261a7e534f_l.png?source=1def8aca",
+                "description": "「向科学要答案 2022」活动期间，首次为相关领域下的优质黄标内容送出赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "1502699219463389184",
+                "medal_name": "点赞科学 2022",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-9251b676c9f4283fdc5e04261a7e534f_r.png?source=1def8aca"
+              },
+              "follower_count": 103,
+              "gender": 0,
+              "headline": "喝点丝瓜汤补一下吧",
+              "id": "d4eb9967c0b788e33b1d28a1eadf19e3",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "菠萝黑兔",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/d4eb9967c0b788e33b1d28a1eadf19e3",
+              "url_token": "wa-sai-xiao-bo-luo",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ghh7SvYx\">都由自己决定，哪种选择会让自己过得更舒适就选哪种</p><p data-pid=\"im-d6_iD\">对于以前的朋友，可以不告诉，像原来一样相处；可以告诉，并坦然接受可能失去朋友的后果，当然也可能收获支持自己的真心好友</p><p data-pid=\"T_jCt7o8\">对于新朋友也一样</p><p data-pid=\"fGeujeqc\">重要的是首先自己能接受自己，并且拥有一个强大坚定的内心</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1660882066,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/c79a10e296bf3c0573c45e1158d81f3e",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @山中杂诗",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "都由自己决定，哪种选择会让自己过得更舒适就选哪种 对于以前的朋友，可以不告诉，像原来一样相处；可以告诉，并坦然接受可能失去朋友的后果，当然也可能收获支持自己的真心好友 对于新朋友也一样 重要的是首先自己能接受自己，并且拥有一个强大坚定的内心",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2634345466",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "10 赞同 · 2 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1660660131,
+              "id": "548717688",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "一个女性假两性畸形的患者，在手术后该如何处理自己面临的社交问题？",
+              "type": "question",
+              "updated_time": 1660660131,
+              "url": "https://www.zhihu.com/api/v4/questions/548717688"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 12
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 12,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1660882066,
+            "url": "https://www.zhihu.com/api/v4/answers/2634345466",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 10
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "18f8b7fecd800a056e63f5cc0293e009",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjqjZ/mCSD4iNOFApICJQoJNTA4MzI5OTI0EgoyNjMwMzM4MjgyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-f23191107e18fb0a6b231806da518761_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-f23191107e18fb0a6b231806da518761.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 0,
+              "gender": 0,
+              "headline": "她很懒哦",
+              "id": "bc944120d2c10da625c283f2ac9fb40e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "在雨中相遇",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/bc944120d2c10da625c283f2ac9fb40e",
+              "url_token": "80-6-97-90",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"RZWorelw\">不知道如何回答你的问题 你还是正常社交好了 ，不知道如何处理 那就不要处理 别人不理解你 总有人会理解你的 </p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1660671915,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不知道如何回答你的问题 你还是正常社交好了 ，不知道如何处理 那就不要处理 别人不理解你 总有人会理解你的",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2630338282",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1660660131,
+              "id": "548717688",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "一个女性假两性畸形的患者，在手术后该如何处理自己面临的社交问题？",
+              "type": "question",
+              "updated_time": 1660660131,
+              "url": "https://www.zhihu.com/api/v4/questions/548717688"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1660671915,
+            "url": "https://www.zhihu.com/api/v4/answers/2630338282",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "18f8b7fecd800a05a480eecc0293e009",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768592786325394179"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/548717688/feeds?cursor=18f8b7fecd800a05a480eecc0293e009&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768592786325394179&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

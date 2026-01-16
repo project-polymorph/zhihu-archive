@@ -1,0 +1,402 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/495634292/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768592681423,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/495634292/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/495634292/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男人女性化依然能讨一部分女性喜欢，但女人男性化却无法让男性喜欢，是这样吗？",
+          "question_type": "normal",
+          "created": 1394288052,
+          "updated_time": 1394288052,
+          "url": "https://www.zhihu.com/api/v4/questions/22974817",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "22974817"
+        },
+        {
+          "type": "question",
+          "title": "为什么男人女性化会被人指责而女人男性化则会受到欢迎？",
+          "question_type": "normal",
+          "created": 1541950574,
+          "updated_time": 1541950574,
+          "url": "https://www.zhihu.com/api/v4/questions/302097422",
+          "answer_count": 29,
+          "comment_count": 0,
+          "follower_count": 41,
+          "relationship": {},
+          "id": "302097422"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/495634292/feeds?cursor=5a62148d60ded1e0053fdd7987790256&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768592678640424764&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768592681529,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi0+NiYCCD0jqvsAZICJQoJNDI5OTQ4NjkxEgoyMTk5MjcyNTAwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-aa2d560c87e5b4d7b80e29286c25c89d_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-aa2d560c87e5b4d7b80e29286c25c89d.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-666eaa783c5874dc9ce143ca5d9fb1fe_l.png?source=1def8aca",
+                "description": "回答 20 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-666eaa783c5874dc9ce143ca5d9fb1fe_r.png?source=1def8aca"
+              },
+              "follower_count": 2,
+              "gender": -1,
+              "headline": "",
+              "id": "091fb3005b11799a029cd36d92d25c6c",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "高兴",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/091fb3005b11799a029cd36d92d25c6c",
+              "url_token": "gao-xing-69-26",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"YtK23Lym\">一般是男性化的女性导致的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1635686809,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "一般是男性化的女性导致的",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2199272500",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 2 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1635619425,
+              "id": "495634292",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "男生性格女性化一般是什么导致？",
+              "type": "question",
+              "updated_time": 1635619425,
+              "url": "https://www.zhihu.com/api/v4/questions/495634292"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1635686809,
+            "url": "https://www.zhihu.com/api/v4/answers/2199272500",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5a62148d60ded1e03b4add7987790256",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjRu6mYCCD0jqvsAZICJQoJNDI5ODA3MzQzEgoyMTk4NDk0NjczGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-7f4ad02e15dcb30d5d9fbb902ce0e3ba_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-7f4ad02e15dcb30d5d9fbb902ce0e3ba.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-cdc7c578bc7555f8113a409eaf2704b8_l.png?source=1def8aca",
+                "description": "累计登录 365 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972480281613197312",
+                "medal_name": "每天逛逛",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-cdc7c578bc7555f8113a409eaf2704b8_r.png?source=1def8aca"
+              },
+              "follower_count": 44,
+              "gender": 0,
+              "headline": "腹有詩書氣自華",
+              "id": "7cd76a026e63812d4b20918e3357c4bc",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "貴妃",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7cd76a026e63812d4b20918e3357c4bc",
+              "url_token": "xiao-tian-shi-10-42",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"b4Txv8cC\">自小身邊多雌性同伴。或者父母當他是女孩培養。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1635653639,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/7d55315990ab2e2264a650b944bb0ac6",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @浅伤 陌屿",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "自小身邊多雌性同伴。或者父母當他是女孩培養。",
+            "extras": "",
+            "favlists_count": 3,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2198494673",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 3 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1635619425,
+              "id": "495634292",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "男生性格女性化一般是什么导致？",
+              "type": "question",
+              "updated_time": 1635619425,
+              "url": "https://www.zhihu.com/api/v4/questions/495634292"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1635653639,
+            "url": "https://www.zhihu.com/api/v4/answers/2198494673",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5a62148d60ded1e0c763e37987790256",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768592678640424764"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/495634292/feeds?cursor=5a62148d60ded1e0c763e37987790256&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768592678640424764&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

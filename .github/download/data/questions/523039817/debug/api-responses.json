@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/523039817/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589887331,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/523039817/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/523039817/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何以“我是阿姐的替身”开头写一个故事？",
+          "question_type": "normal",
+          "created": 1660753433,
+          "updated_time": 1660753433,
+          "url": "https://www.zhihu.com/api/v4/questions/548878557",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "548878557"
+        },
+        {
+          "type": "question",
+          "title": "如何以「从头到尾你也是我的替身」开头写一篇故事？",
+          "question_type": "normal",
+          "created": 1680970144,
+          "updated_time": 1680970144,
+          "url": "https://www.zhihu.com/api/v4/questions/594477917",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "594477917"
+        },
+        {
+          "type": "question",
+          "title": "如何以“给你五十万做一个月的替身”为开头写一个故事？",
+          "question_type": "normal",
+          "created": 1645846564,
+          "updated_time": 1645846564,
+          "url": "https://www.zhihu.com/api/v4/questions/518806239",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "518806239"
+        },
+        {
+          "type": "question",
+          "title": "如何以“没想到吧，你也只是个替身罢了”为开头写一个故事?",
+          "question_type": "normal",
+          "created": 1642577472,
+          "updated_time": 1642577472,
+          "url": "https://www.zhihu.com/api/v4/questions/512334200",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "512334200"
+        }
+      ]
+    }
+  }
+]

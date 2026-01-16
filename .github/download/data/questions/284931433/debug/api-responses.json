@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/284931433/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588736579,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/284931433/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/284931433/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何去培养一个有先天性畸形的小孩？",
+          "question_type": "normal",
+          "created": 1499052487,
+          "updated_time": 1499052487,
+          "url": "https://www.zhihu.com/api/v4/questions/61945526",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 24,
+          "relationship": {},
+          "id": "61945526"
+        },
+        {
+          "type": "question",
+          "title": "如何预防孩子先天性畸形？",
+          "question_type": "normal",
+          "created": 1666114075,
+          "updated_time": 1666114075,
+          "url": "https://www.zhihu.com/api/v4/questions/560660327",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "560660327"
+        },
+        {
+          "type": "question",
+          "title": "孩子畸形是什么感觉？",
+          "question_type": "normal",
+          "created": 1529852035,
+          "updated_time": 1535189807,
+          "url": "https://www.zhihu.com/api/v4/questions/282373410",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "282373410"
+        },
+        {
+          "type": "question",
+          "title": "如果这样，会不会还是很大几率生出畸形儿？",
+          "question_type": "normal",
+          "created": 1473836050,
+          "updated_time": 1473836050,
+          "url": "https://www.zhihu.com/api/v4/questions/50641634",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "50641634"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/30578736/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590276214,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/30578736/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/30578736/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "生物为什么会出现性别？",
+          "question_type": "normal",
+          "created": 1709074216,
+          "updated_time": 1709074216,
+          "url": "https://www.zhihu.com/api/v4/questions/646201642",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "646201642"
+        },
+        {
+          "type": "question",
+          "title": "为什么生物要分出性别？",
+          "question_type": "normal",
+          "created": 1502286313,
+          "updated_time": 1502286313,
+          "url": "https://www.zhihu.com/api/v4/questions/63660162",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "63660162"
+        },
+        {
+          "type": "question",
+          "title": "生物为什么会产生性别？",
+          "question_type": "normal",
+          "created": 1520276109,
+          "updated_time": 1520276109,
+          "url": "https://www.zhihu.com/api/v4/questions/268263753",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "268263753"
+        }
+      ]
+    }
+  }
+]

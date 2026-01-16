@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1937828435511719137/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588513096,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1937828435511719137/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1937828435511719137/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何判断自己是不是假两性畸形？",
+          "question_type": "normal",
+          "created": 1672723688,
+          "updated_time": 1672723688,
+          "url": "https://www.zhihu.com/api/v4/questions/576507636",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "576507636"
+        },
+        {
+          "type": "question",
+          "title": "想了解真实的两性畸形？",
+          "question_type": "normal",
+          "created": 1597822667,
+          "updated_time": 1597822667,
+          "url": "https://www.zhihu.com/api/v4/questions/415605915",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "415605915"
+        },
+        {
+          "type": "question",
+          "title": "假两性畸形是否可以先改身份证后手术？",
+          "question_type": "normal",
+          "created": 1678765408,
+          "updated_time": 1678776813,
+          "url": "https://www.zhihu.com/api/v4/questions/589482287",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "589482287"
+        }
+      ]
+    }
+  }
+]

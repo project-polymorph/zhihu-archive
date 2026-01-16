@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/30936091/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588754635,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/30936091/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/30936091/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么有些人说Y染色体才是繁殖的本质？",
+          "question_type": "normal",
+          "created": 1599528822,
+          "updated_time": 1599529306,
+          "url": "https://www.zhihu.com/api/v4/questions/420000262",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "420000262"
+        },
+        {
+          "type": "question",
+          "title": "人类Y染色体大部分相同吗?",
+          "question_type": "normal",
+          "created": 1616399238,
+          "updated_time": 1616399238,
+          "url": "https://www.zhihu.com/api/v4/questions/450675708",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "450675708"
+        },
+        {
+          "type": "question",
+          "title": "男性的Y染色体既然只能传给男性，那么一个家族的所有男性的Y染色体在不考虑变异的情况是完全一样咯？",
+          "question_type": "normal",
+          "created": 1461688721,
+          "updated_time": 1461688721,
+          "url": "https://www.zhihu.com/api/v4/questions/44579385",
+          "answer_count": 10,
+          "comment_count": 2,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "44579385"
+        }
+      ]
+    }
+  }
+]

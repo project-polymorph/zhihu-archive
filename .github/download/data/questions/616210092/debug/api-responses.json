@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/616210092/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589633980,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/616210092/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/616210092/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "两性畸形的人，该怎样自信而幸福的继续自己的人生？",
+          "question_type": "normal",
+          "created": 1405936724,
+          "updated_time": 1405936724,
+          "url": "https://www.zhihu.com/api/v4/questions/24563551",
+          "answer_count": 39,
+          "comment_count": 8,
+          "follower_count": 278,
+          "relationship": {},
+          "id": "24563551"
+        },
+        {
+          "type": "question",
+          "title": "15岁，一直被当成女生，发现自己是两性畸形怎么告诉父母？",
+          "question_type": "normal",
+          "created": 1665503954,
+          "updated_time": 1665503954,
+          "url": "https://www.zhihu.com/api/v4/questions/558777392",
+          "answer_count": 8,
+          "comment_count": 1,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "558777392"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形的人，该如何自信的面对自己的后半生呢？",
+          "question_type": "normal",
+          "created": 1490541219,
+          "updated_time": 1490575884,
+          "url": "https://www.zhihu.com/api/v4/questions/57655794",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "57655794"
+        }
+      ]
+    }
+  }
+]

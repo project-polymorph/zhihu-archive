@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/662974114/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588623903,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/662974114/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/662974114/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男生15岁 身高不到150cm 没有第二性征  没变声 看上去像个小学生 该怎么办?",
+          "question_type": "normal",
+          "created": 1684950102,
+          "updated_time": 1684950102,
+          "url": "https://www.zhihu.com/api/v4/questions/602876459",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "602876459"
+        },
+        {
+          "type": "question",
+          "title": "如何评价科学家们发现胎儿性别决定机制，不仅仅涉及 XY 染色体？",
+          "question_type": "normal",
+          "created": 1545237630,
+          "updated_time": 1545237630,
+          "url": "https://www.zhihu.com/api/v4/questions/306313830",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "306313830"
+        },
+        {
+          "type": "question",
+          "title": "作为性发育异常（DSD）群体的一员，如何克服心理障碍，建立健康的异性/同性社交关系？",
+          "question_type": "normal",
+          "created": 1766124786,
+          "updated_time": 1766124786,
+          "url": "https://www.zhihu.com/api/v4/questions/1985351930902495516",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1985351930902495516"
+        }
+      ]
+    }
+  }
+]

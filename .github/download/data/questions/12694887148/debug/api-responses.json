@@ -1,0 +1,897 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/12694887148/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589935993,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/12694887148/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/12694887148/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果人类只有一种性别会怎么样？",
+          "question_type": "normal",
+          "created": 1582131994,
+          "updated_time": 1582131994,
+          "url": "https://www.zhihu.com/api/v4/questions/373153321",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "373153321"
+        },
+        {
+          "type": "question",
+          "title": "如果世上只有一种性别会怎么样？",
+          "question_type": "normal",
+          "created": 1613192334,
+          "updated_time": 1613192334,
+          "url": "https://www.zhihu.com/api/v4/questions/444213299",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 22,
+          "relationship": {},
+          "id": "444213299"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/12694887148/feeds?cursor=670b797d79b6c402d92b2e0b5f0a272c&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768589933241255784&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768589936100,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxie78+K64Douxog7LWypS+SAi4KCTcyNzgyMzM0NhITMTkwNzE2ODkxNzgyMDAxMjQ0NhgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-bc632b8fe47123fe6899dd6af8dd8bf7_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-bc632b8fe47123fe6899dd6af8dd8bf7.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "心理咨询基础培训合格证书持证人",
+                  "topics": [],
+                  "type": "identity"
+                },
+                {
+                  "description": "同济大学 软件工程硕士",
+                  "topics": [],
+                  "type": "identity"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "心理咨询基础培训合格证书持证人",
+                    "detail_type": "identity_people",
+                    "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "sources": [],
+                    "title": "已认证的个人",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "心理咨询基础培训合格证书持证人",
+                    "detail_type": "identity_people",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [],
+                    "title": "认证",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "title": "心理咨询基础培训合格证书持证人"
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-81c42cd62809e601bb29a4a376ee378e_l.png?source=1def8aca",
+                "description": "阅读「2025 知乎年度个人报告」获得",
+                "medal_avatar_frame": "",
+                "medal_id": "1984970083282462388",
+                "medal_name": "我的知乎 2025",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-81c42cd62809e601bb29a4a376ee378e_r.png?source=1def8aca"
+              },
+              "follower_count": 1134,
+              "gender": 0,
+              "headline": "男性本体中的女性人格，一个做梦爱好者",
+              "id": "e08597811db338c6c8b9c45adba31835",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "摇椅小琦",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e08597811db338c6c8b9c45adba31835",
+              "url_token": "19-84-5-28",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://picx.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://picx.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"OOYOfTgV\">从基因的逻辑上推理，只有一种性别的话一定全是女性46ⅩX，不可能混杂ⅩY，挺好的，大家都是女的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1747484503,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "从基因的逻辑上推理，只有一种性别的话一定全是女性46ⅩX，不可能混杂ⅩY，挺好的，大家都是女的",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1907168917820012446",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1739939879,
+              "id": "12694887148",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类只有一种性别会怎么样?",
+              "type": "question",
+              "updated_time": 1739939879,
+              "url": "https://www.zhihu.com/api/v4/questions/12694887148"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1747484503,
+            "url": "https://www.zhihu.com/api/v4/answers/1907168917820012446",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "670b797d79b6c4021693850a5f0a272c",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxi4jdGkxNTVsBsg7LWypS+SAi4KCTc1NjU4MjI0MBITMTk3Mjk1MzM3NTI5MDE4MTMwNBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-83482f99959aba29f8c00c8c4b4a9105_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-83482f99959aba29f8c00c8c4b4a9105.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-218f146a9ef6ae04d5b1e426f16f1010_l.png?source=1def8aca",
+                "description": "连续答题 10 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-218f146a9ef6ae04d5b1e426f16f1010_r.png?source=1def8aca"
+              },
+              "follower_count": 224,
+              "gender": 0,
+              "headline": "",
+              "id": "1f719d5770370b6f429e38614910a9e6",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "正在无语",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/1f719d5770370b6f429e38614910a9e6",
+              "url_token": "38-88-9-59-68",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"QjDRlIwV\">如果有双雌繁殖就赶紧把男性淘汰掉吧，只要女性就够了，因为男性进化的太失败了，自然界都是雄性动物比雌性动物好看很多，比如鸟和狮子，而男性普遍比女的丑，而且胡子体毛也恶心，声音也很低沉</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1763168740,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/352bca6b57a214eb4f4e898bf3fe2b42",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @览客",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "如果有双雌繁殖就赶紧把男性淘汰掉吧，只要女性就够了，因为男性进化的太失败了，自然界都是雄性动物比雌性动物好看很多，比如鸟和狮子，而男性普遍比女的丑，而且胡子体毛也恶心，声音也很低沉",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1972953375290181304",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1739939879,
+              "id": "12694887148",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类只有一种性别会怎么样?",
+              "type": "question",
+              "updated_time": 1739939879,
+              "url": "https://www.zhihu.com/api/v4/questions/12694887148"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1763168740,
+            "url": "https://www.zhihu.com/api/v4/answers/1972953375290181304",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "670b797d79b6c40284a7fc0c5f0a272c",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogERCAQQAxi71JWKhwMg7LWypS+SAicKCTcxNDExMDgzMxIMMTA0OTc5NTg5NjkxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-d0f434e541f7e583d3255b64da1a5a77_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d0f434e541f7e583d3255b64da1a5a77.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_l.png?source=1def8aca",
+                "description": "回答 2 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-ae0ef9685f799322052458ed4481c176_r.png?source=1def8aca"
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "",
+              "id": "352bca6b57a214eb4f4e898bf3fe2b42",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "览客",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/352bca6b57a214eb4f4e898bf3fe2b42",
+              "url_token": "53-88-8-20",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"eS9usfTD\">那人类多样性会减少，基因会变得会单一，影响人的适应能力，没有传统的家庭模式，会变得集体抚养</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1739949192,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "那人类多样性会减少，基因会变得会单一，影响人的适应能力，没有传统的家庭模式，会变得集体抚养",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "104979589691",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1739939879,
+              "id": "12694887148",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类只有一种性别会怎么样?",
+              "type": "question",
+              "updated_time": 1739939879,
+              "url": "https://www.zhihu.com/api/v4/questions/12694887148"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1739949192,
+            "url": "https://www.zhihu.com/api/v4/answers/104979589691",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "670b797d79b6c4029557740b5f0a272c",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxiR7c7m8uf+rBog7LWypS+SAi4KCTcyNDQ0ODg1OBITMTg5ODgyNDk2NjY2Njk1ODQ4MRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-2d203d7e3bfa3cb00d501ac185837475_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-2d203d7e3bfa3cb00d501ac185837475.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-1df62083e2d16ce5e82c3049e5d11e14_l.png?source=1def8aca",
+                "description": "赞同 1000 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-1df62083e2d16ce5e82c3049e5d11e14_r.png?source=1def8aca"
+              },
+              "follower_count": 186,
+              "gender": 1,
+              "headline": "学生/大雪/Extasy",
+              "id": "261b9d7a166728bfb789ad2e753da06d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "陈叔慎",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/261b9d7a166728bfb789ad2e753da06d",
+              "url_token": "65-89-81-88-4",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"3_SzCoW8\">我是做题奴incel，来讲讲我的幻想吧：</p><p data-pid=\"iUmbW6YC\">如果我穿越到只有一个性别后的世界，</p><p data-pid=\"-GS3Qayb\">失去了枷锁的我会忘记了如何奔跑，</p><p data-pid=\"BRk0i-pZ\">空荡荡的考场送走了最后的考卷，</p><p data-pid=\"VxskNdjm\">就像一个犯人出来发现全世界不再有监狱了，</p><p data-pid=\"2nJowGvy\">那时我会一边哭泣一边去查法律书，</p><p data-pid=\"BmUn8W7j\">我害怕自己受苦服刑时候的绝望，努力，愤怒，疑惑等等都失去意义，</p><p data-pid=\"3zzA4tXc\">但是我越害怕，越做不到释怀。</p><p data-pid=\"wAoXgrUy\">在男性存在的世界里，我的生命可能因为一个意外而戛然而止，留下空白的卷子，找到答案之前就撒手人寰。</p><p data-pid=\"kjGsPmle\">在女性存在的世界里，我瞬间失去了生命的控制权，一个只有女性存在的世界建立在女频的逻辑上，我会永远生不如死，而不是“落地成盒”。</p><hr/><p data-pid=\"UxjFuEGj\">“交白卷，要么死”</p><p data-pid=\"kFGINcAs\">“所以白卷是正确答案？”</p><p data-pid=\"eownjSaI\">“你是往届生，所以你得这么做”</p><p data-pid=\"GWNA4Z1d\">“不问对错，不再在乎？”</p><p data-pid=\"mptKcXKO\">“…你该交卷了”</p><p data-pid=\"ZFf4-wQu\">于是这时我交卷了</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1745495150,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我是做题奴incel，来讲讲我的幻想吧： 如果我穿越到只有一个性别后的世界， 失去了枷锁的我会忘记了如何奔跑， 空荡荡的考场送走了最后的考卷， 就像一个犯人出来发现全世界不再有监狱了， 那时我会一边哭泣一边去查法律书， 我害怕自己受苦服刑时候的绝望，努力，愤怒，疑惑等等都失去意义， 但是我越害怕，越做不到释怀。 在男性存在的世界里，我的生命可能因为一个意外而戛然而止，留下空白的卷子，找到答案之前就撒手人寰。 …",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1898824966666958481",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1739939879,
+              "id": "12694887148",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类只有一种性别会怎么样?",
+              "type": "question",
+              "updated_time": 1739939879,
+              "url": "https://www.zhihu.com/api/v4/questions/12694887148"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1745496498,
+            "url": "https://www.zhihu.com/api/v4/answers/1898824966666958481",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "670b797d79b6c402be16ca0a5f0a272c",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxjbidCi+6WAnxsg7LWypS+SAi4KCTc1MjQ3MTkxMxITMTk2MzAwNzc5MTk4MDYxMDc3ORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 13,
+              "gender": -1,
+              "headline": "",
+              "id": "59ee3fb79034b3ea0e9702c10e50c12e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "一生不醉醒",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/59ee3fb79034b3ea0e9702c10e50c12e",
+              "url_token": "yi-sheng-bu-zui-xing-93",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"nTVq4Sea\">可能所有人都是雌雄同体？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1760797528,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "可能所有人都是雌雄同体？",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1963007791980610779",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1739939879,
+              "id": "12694887148",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果人类只有一种性别会怎么样?",
+              "type": "question",
+              "updated_time": 1739939879,
+              "url": "https://www.zhihu.com/api/v4/questions/12694887148"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1760797528,
+            "url": "https://www.zhihu.com/api/v4/answers/1963007791980610779",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "670b797d79b6c4028def3d0d5f0a272c",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768589933241255784"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/12694887148/feeds?cursor=670b797d79b6c4028def3d0d5f0a272c&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768589933241255784&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

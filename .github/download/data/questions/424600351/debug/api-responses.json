@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/424600351/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593031560,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/424600351/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/424600351/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "婚检有什么用？医生什么都不能说？",
+          "question_type": "normal",
+          "created": 1518851057,
+          "updated_time": 1518851057,
+          "url": "https://www.zhihu.com/api/v4/questions/267255591",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 23,
+          "relationship": {},
+          "id": "267255591"
+        },
+        {
+          "type": "question",
+          "title": "跟媳妇因为婚检有了争执 我错了吗？",
+          "question_type": "normal",
+          "created": 1629023998,
+          "updated_time": 1629023998,
+          "url": "https://www.zhihu.com/api/v4/questions/479933098",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "479933098"
+        },
+        {
+          "type": "question",
+          "title": "婚检的结果当天就可以出来吗，医生会保密吗？",
+          "question_type": "normal",
+          "created": 1504856191,
+          "updated_time": 1504856191,
+          "url": "https://www.zhihu.com/api/v4/questions/65069949",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "65069949"
+        }
+      ]
+    }
+  }
+]

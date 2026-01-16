@@ -1,0 +1,728 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/420988768/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590387795,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/420988768/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/420988768/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类的进化最终是否无性繁殖甚至抹除性别？",
+          "question_type": "normal",
+          "created": 1717037521,
+          "updated_time": 1717037521,
+          "url": "https://www.zhihu.com/api/v4/questions/657637769",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "657637769"
+        },
+        {
+          "type": "question",
+          "title": "未来人类会进化成没有性别吗？",
+          "question_type": "normal",
+          "created": 1425655906,
+          "updated_time": 1425655906,
+          "url": "https://www.zhihu.com/api/v4/questions/28572866",
+          "answer_count": 22,
+          "comment_count": 0,
+          "follower_count": 79,
+          "relationship": {},
+          "id": "28572866"
+        },
+        {
+          "type": "question",
+          "title": "如果人类只有一种性别且能单性繁衍，那人类社会会有怎样的不同?",
+          "question_type": "normal",
+          "created": 1411449936,
+          "updated_time": 1411449936,
+          "url": "https://www.zhihu.com/api/v4/questions/25499349",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "25499349"
+        },
+        {
+          "type": "question",
+          "title": "为什么在进化过程中会分化出性别？",
+          "question_type": "normal",
+          "created": 1488628229,
+          "updated_time": 1488628229,
+          "url": "https://www.zhihu.com/api/v4/questions/56625291",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "56625291"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/420988768/feeds?cursor=fb23a3c0a884bf4644ea3ef508ac3908&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768590384846981079&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768590388033,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxinmsW9BSDgjt/IAZICJQoJMjk3NTcxMzQzEgoxNDcxMjM3NDE1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-71c2ac3d50215ee13448dfadbe35ec6f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-71c2ac3d50215ee13448dfadbe35ec6f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-acf625ae8b15742d23012faee21a2f10_l.png?source=1def8aca",
+                "description": "提 20 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972470005820067840",
+                "medal_name": "好奇宝宝",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-acf625ae8b15742d23012faee21a2f10_r.png?source=1def8aca"
+              },
+              "follower_count": 3481,
+              "gender": 1,
+              "headline": "置身宇宙深处的自由思想者",
+              "id": "ae5abe11bca870ec7d8c6131cc89850b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "独角仙出山",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/ae5abe11bca870ec7d8c6131cc89850b",
+              "url_token": "du-jiao-xian-chu-shan",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"U8-5-j1f\">当今人类已开始显现出向中性人进化的苗头了，男人和女人也自然生育后代机能在逐步退化，男人的精子活性与密度越来越弱，女人也越来越承受不了分娩的痛苦，男人女人越来越趋于中性化……</p><p data-pid=\"73KGgenM\">百年后又会是怎样呢？性生活虽然仍是人类生活中的重要组成部分，但性关系将会变得多样化，智能机器人性伴侣可让男人和女人获得新的性取向，性生活以此不再是繁衍后代所必须的，而变成一种娱乐，通过基因工程尤其是基因的选择性优化重组，人类繁殖后代很可能是在母体外进行，试管婴儿与克隆人等新科技最终会突破伦理约束，基因改良与优选重组可获得更为优秀的人类后代。</p><p data-pid=\"KyQktx5-\">另一方面人们变得更长寿也在某种程度上保证了必要的人口总量，因为几百年后，全世界的人口可能只有如今的一半甚至更少……但人口质量会得到全面的优化，在这之前，那些落后的无法适应的人早已被残酷的饥荒瘟疫和第三次世界大战逐步清除了……战后才是真正的人工智能化时代……如今人类已处于三战的边缘，未来二三十年又将是人类的一个动荡混乱时期。</p><p data-pid=\"-NzFhAZV\">战争将极大地促进人工智能的突破性进步，到二十一世纪下半叶，人类文明将开启一个新纪元，信息化技术已趋于成熟，并进入一个完全不同于以往的新时代，社会深层次形态完全变了，出现一个“奇点”，那就是人工智能已经全面超越了人本身，高度的智能化已让人类全面沦陷其中无力抗拒，人类开始处于从属地位并逐渐融入其中，半人半机器的时代开始了，这就意味着那时的“人类”寿命会大幅度增长，这也就抵消了因丧失生殖能力而导致的人口下降……</p><p data-pid=\"2fbEye2C\">人类自身的进化何等的缓慢，而网络人工智能机器却以惊人的速度在全方面迅速超越人类……对体外“辅助生殖”的长期依赖会最终导致人类完全丧失生殖能力，这也意味着人类文明的“阶段性终结”，也就是开始了“蛹时代”，人类已完全被人工智能机器所“包裹”并逐步抛弃肉身乃至大脑，人类个体最终成为高度发达的网络人工智能机器的组成部分，获得了虚幻的“永生”，人的意识转移到虚拟网络和机器上，而那时的机器己经先进到一种生命体的程度了，它一旦融入人的意识并处于一个庞大的物联网中，就意味着全人类构筑出一个具有超级智慧的巨大的网络生命体，而自然意义上的人却消失了，取而代之的是另一种更强大的智慧生命体，另一种文明，人类文明发生了质的飞跃……</p><p data-pid=\"52TKabrU\">星际文明时代开始了…标志性事件是这个全新的文明整体脱离地球…由亚行星的人类文明过渡到行星级的机器文明，而后再向太阳进发，过度到恒星级文明……</p><p data-pid=\"5_GLApPL\">总的看来，男人女人趋于中性化是肯定的，至于个体演化为无性别也基本不可能，然而融入人的意识的机器自我更新重造却是必然的，但那时已不存在如今这种自然意义上的人了……</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1600030182,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "当今人类已开始显现出向中性人进化的苗头了，男人和女人也自然生育后代机能在逐步退化，男人的精子活性与密度越来越弱，女人也越来越承受不了分娩的痛苦，男人女人越来越趋于中性化… 百年后又会是怎样呢？性生活虽然仍是人类生活中的重要组成部分，但性关系将会变得多样化，智能机器人性伴侣可让男人和女人获得新的性取向，性生活以此不再是繁衍后代所必须的，而变成一种娱乐，通过基因工程尤其是基因的选择性优化重组，人类…",
+            "extras": "",
+            "favlists_count": 6,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1471237415",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "5 赞同 · 6 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1600012537,
+              "id": "420988768",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类是否能进化为无性别生物，即个体自我繁殖，这样的利弊是什么？",
+              "type": "question",
+              "updated_time": 1600012537,
+              "url": "https://www.zhihu.com/api/v4/questions/420988768"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1600050510,
+            "url": "https://www.zhihu.com/api/v4/answers/1471237415",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 5
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb23a3c0a884bf4611b93df508ac3908",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiTtvi9BSDgjt/IAZICJQoJMjk3NzI0MDI5EgoxNDcyMDc2NTYzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-4e2130c8044cd6dee9b2cff053bdaaf0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-4e2130c8044cd6dee9b2cff053bdaaf0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-6da117205088242db9cd82e48b28640d_l.png?source=1def8aca",
+                "description": "被 1000 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-6da117205088242db9cd82e48b28640d_r.png?source=1def8aca"
+              },
+              "follower_count": 2789,
+              "gender": 1,
+              "headline": "成年后会增加阅历，但基础人生价值观的形成在18岁！",
+              "id": "eb3c6f07b964d0d0e3196ecb86c25ece",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "信守合同",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/eb3c6f07b964d0d0e3196ecb86c25ece",
+              "url_token": "xin-shou-he-tong",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Qzw8CW8A\">利：无限复制</p><p data-pid=\"TO2GZi-A\">弊：大众脸</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1600066222,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "利：无限复制 弊：大众脸",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1472076563",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1600012537,
+              "id": "420988768",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类是否能进化为无性别生物，即个体自我繁殖，这样的利弊是什么？",
+              "type": "question",
+              "updated_time": 1600012537,
+              "url": "https://www.zhihu.com/api/v4/questions/420988768"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1600066222,
+            "url": "https://www.zhihu.com/api/v4/answers/1472076563",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb23a3c0a884bf4663c53ff508ac3908",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjEj8W9BSDgjt/IAZICJQoJMjk3NTcxMDk1EgoxNDcxMjM2MDM2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-d050b2185655859b5ed374a569b68632_l.png?source=1def8aca",
+                "description": "赞同 500 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972460827463282688",
+                "medal_name": "表示赞同",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-d050b2185655859b5ed374a569b68632_r.png?source=1def8aca"
+              },
+              "follower_count": 654,
+              "gender": 1,
+              "headline": "我是失能的老农民，无事可做。就想找个聊天的地方。",
+              "id": "b9a86952eab99985ecd3d0b01a096a5c",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "七十亿零一",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/b9a86952eab99985ecd3d0b01a096a5c",
+              "url_token": "qi-shi-yi-ling-yi",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"-qXqwECN\">不能。进化论只是推测，人类至今找不到从猿到人进化的实物证据。并且自从有了进化论也没发现那一种低等级生物进化成了高等级生物。世界上的所有物种都各归其类各有所属。期盼鸡毛上天只能是个永远的梦想。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1600029609,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/761265a2a86ead462e637f84a6018d39",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @南溪离人",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "不能。进化论只是推测，人类至今找不到从猿到人进化的实物证据。并且自从有了进化论也没发现那一种低等级生物进化成了高等级生物。世界上的所有物种都各归其类各有所属。期盼鸡毛上天只能是个永远的梦想。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1471236036",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1600012537,
+              "id": "420988768",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类是否能进化为无性别生物，即个体自我繁殖，这样的利弊是什么？",
+              "type": "question",
+              "updated_time": 1600012537,
+              "url": "https://www.zhihu.com/api/v4/questions/420988768"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1600029609,
+            "url": "https://www.zhihu.com/api/v4/answers/1471236036",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb23a3c0a884bf4609be3df508ac3908",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjS08u9BSDgjt/IAZICJQoJMjk3NTkwNDU5EgoxNDcxMzQzMDU4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-37f4ee43c5be887a6333d6f94401cd02_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-37f4ee43c5be887a6333d6f94401cd02.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-6da117205088242db9cd82e48b28640d_l.png?source=1def8aca",
+                "description": "被 1000 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-6da117205088242db9cd82e48b28640d_r.png?source=1def8aca"
+              },
+              "follower_count": 1049,
+              "gender": -1,
+              "headline": "",
+              "id": "adafb93157ad2c4f6bd0994469feca71",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "哈哈",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/adafb93157ad2c4f6bd0994469feca71",
+              "url_token": "ha-ha-34-88-41",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"cPmTI5yc\">人类会因为自私的基因选择不繁殖。再加上没有性的诱惑。</p><p data-pid=\"Vc2tmcI2\">没有宗教，传统精英阶层设置的所谓道德伦理约束，看看知乎有多少人说放弃再来为人。</p><p data-pid=\"_dEsTr39\">综合起来，人类种群存在都会受到威胁。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1600043312,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "人类会因为自私的基因选择不繁殖。再加上没有性的诱惑。 没有宗教，传统精英阶层设置的所谓道德伦理约束，看看知乎有多少人说放弃再来为人。 综合起来，人类种群存在都会受到威胁。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1471343058",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1600012537,
+              "id": "420988768",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人类是否能进化为无性别生物，即个体自我繁殖，这样的利弊是什么？",
+              "type": "question",
+              "updated_time": 1600012537,
+              "url": "https://www.zhihu.com/api/v4/questions/420988768"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1600043312,
+            "url": "https://www.zhihu.com/api/v4/answers/1471343058",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb23a3c0a884bf46a5f33df508ac3908",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768590384846981079"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/420988768/feeds?cursor=fb23a3c0a884bf46a5f33df508ac3908&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768590384846981079&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

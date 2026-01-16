@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/583721149/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589534481,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/583721149/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/583721149/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人的性别究竟是习惯性别还是认同性别？人们对于性别的认知是清晰的还是模糊的？",
+          "question_type": "normal",
+          "created": 1722043759,
+          "updated_time": 1722043759,
+          "url": "https://www.zhihu.com/api/v4/questions/662702553",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "662702553"
+        },
+        {
+          "type": "question",
+          "title": "性别的定义是生理上还是心理上？",
+          "question_type": "normal",
+          "created": 1514257602,
+          "updated_time": 1514274322,
+          "url": "https://www.zhihu.com/api/v4/questions/264629381",
+          "answer_count": 26,
+          "comment_count": 1,
+          "follower_count": 55,
+          "relationship": {},
+          "id": "264629381"
+        },
+        {
+          "type": "question",
+          "title": "什么是真正的性别？",
+          "question_type": "normal",
+          "created": 1570185873,
+          "updated_time": 1570185873,
+          "url": "https://www.zhihu.com/api/v4/questions/349123517",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "349123517"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类不能只有一个性别?",
+          "question_type": "normal",
+          "created": 1708278972,
+          "updated_time": 1708278972,
+          "url": "https://www.zhihu.com/api/v4/questions/644823742",
+          "answer_count": 25,
+          "comment_count": 1,
+          "follower_count": 30,
+          "relationship": {},
+          "id": "644823742"
+        }
+      ]
+    }
+  }
+]

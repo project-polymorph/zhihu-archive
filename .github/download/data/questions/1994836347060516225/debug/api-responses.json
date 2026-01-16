@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1994836347060516225/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590174113,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1994836347060516225/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1994836347060516225/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么会进化出男人和女人两种性别？",
+          "question_type": "normal",
+          "created": 1543069669,
+          "updated_time": 1543069669,
+          "url": "https://www.zhihu.com/api/v4/questions/303519097",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 33,
+          "relationship": {},
+          "id": "303519097"
+        },
+        {
+          "type": "question",
+          "title": "如果人类有多种性别会发生什么？世界上有其他生物有多种性别吗？",
+          "question_type": "normal",
+          "created": 1432269567,
+          "updated_time": 1432269567,
+          "url": "https://www.zhihu.com/api/v4/questions/30578736",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "30578736"
+        },
+        {
+          "type": "question",
+          "title": "人类是否能进化为无性别生物，即个体自我繁殖，这样的利弊是什么？",
+          "question_type": "normal",
+          "created": 1600012537,
+          "updated_time": 1600012537,
+          "url": "https://www.zhihu.com/api/v4/questions/420988768",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "420988768"
+        },
+        {
+          "type": "question",
+          "title": "为什么人类和大部分会进化成两种性别？这样更有利于生存？",
+          "question_type": "normal",
+          "created": 1509419989,
+          "updated_time": 1509419989,
+          "url": "https://www.zhihu.com/api/v4/questions/67434516",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "67434516"
+        },
+        {
+          "type": "question",
+          "title": "从生理上说可能存在只有一种性别的物种吗？如果他们发展出文明，社会形态是什么样的？",
+          "question_type": "normal",
+          "created": 1582710217,
+          "updated_time": 1582710217,
+          "url": "https://www.zhihu.com/api/v4/questions/374844983",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "374844983"
+        }
+      ]
+    }
+  }
+]

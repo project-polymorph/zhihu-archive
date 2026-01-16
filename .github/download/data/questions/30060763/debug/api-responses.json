@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/30060763/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588769469,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/30060763/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/30060763/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男性拥有X和Y两条染色体，是否说明男性拥有人类全部的基因，而女性没有？",
+          "question_type": "normal",
+          "created": 1553781335,
+          "updated_time": 1553781335,
+          "url": "https://www.zhihu.com/api/v4/questions/317882441",
+          "answer_count": 18,
+          "comment_count": 0,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "317882441"
+        },
+        {
+          "type": "question",
+          "title": "男性的y染色体，是否来源于祖先的染色体?",
+          "question_type": "normal",
+          "created": 1632059549,
+          "updated_time": 1632059549,
+          "url": "https://www.zhihu.com/api/v4/questions/487857736",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "487857736"
+        },
+        {
+          "type": "question",
+          "title": "女性提供Y染色体 男性提供X染色体会致死吗？",
+          "question_type": "normal",
+          "created": 1659423566,
+          "updated_time": 1659423566,
+          "url": "https://www.zhihu.com/api/v4/questions/546571542",
+          "answer_count": 18,
+          "comment_count": 0,
+          "follower_count": 33,
+          "relationship": {},
+          "id": "546571542"
+        }
+      ]
+    }
+  }
+]

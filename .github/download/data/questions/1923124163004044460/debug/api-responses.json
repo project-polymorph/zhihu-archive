@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1923124163004044460/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590781905,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1923124163004044460/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1923124163004044460/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类为什么只有男女两个性别，没有第三种性别？",
+          "question_type": "normal",
+          "created": 1560932335,
+          "updated_time": 1560932336,
+          "url": "https://www.zhihu.com/api/v4/questions/330155561",
+          "answer_count": 12,
+          "comment_count": 1,
+          "follower_count": 25,
+          "relationship": {},
+          "id": "330155561"
+        },
+        {
+          "type": "question",
+          "title": "男女的性别差异体现在哪些地方?",
+          "question_type": "normal",
+          "created": 1556031527,
+          "updated_time": 1556031527,
+          "url": "https://www.zhihu.com/api/v4/questions/321431987",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "321431987"
+        }
+      ]
+    }
+  }
+]

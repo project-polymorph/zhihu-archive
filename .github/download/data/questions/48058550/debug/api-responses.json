@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/48058550/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590996011,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/48058550/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/48058550/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么男性比女性往往更提倡性别差异化？",
+          "question_type": "normal",
+          "created": 1624440226,
+          "updated_time": 1624440226,
+          "url": "https://www.zhihu.com/api/v4/questions/466829754",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "466829754"
+        },
+        {
+          "type": "question",
+          "title": "男女性别不同是自古以来就有的吗还是性别分化的结果？",
+          "question_type": "normal",
+          "created": 1427188959,
+          "updated_time": 1427188959,
+          "url": "https://www.zhihu.com/api/v4/questions/29009563",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "29009563"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么要分性别？",
+          "question_type": "normal",
+          "created": 1532950892,
+          "updated_time": 1532950892,
+          "url": "https://www.zhihu.com/api/v4/questions/287648237",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "287648237"
+        },
+        {
+          "type": "question",
+          "title": "人为什么要区分性别？",
+          "question_type": "normal",
+          "created": 1457019974,
+          "updated_time": 1457019974,
+          "url": "https://www.zhihu.com/api/v4/questions/40996423",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "40996423"
+        }
+      ]
+    }
+  }
+]

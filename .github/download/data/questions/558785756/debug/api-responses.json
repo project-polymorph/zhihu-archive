@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/558785756/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590762709,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/558785756/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/558785756/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男朋友的妈妈问男朋友我有没欺负他，这次又问我脾气好不好，是不是我让她觉得我脾气不好什么的？",
+          "question_type": "normal",
+          "created": 1639569796,
+          "updated_time": 1639569796,
+          "url": "https://www.zhihu.com/api/v4/questions/506290571",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "506290571"
+        },
+        {
+          "type": "question",
+          "title": "男朋友的妈妈背地里给我男朋友说我坏话 说我没教养 我该怎么办？",
+          "question_type": "normal",
+          "created": 1602050285,
+          "updated_time": 1602050285,
+          "url": "https://www.zhihu.com/api/v4/questions/424523546",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "424523546"
+        },
+        {
+          "type": "question",
+          "title": "为什么会有的父母会胡搅蛮缠，不讲理，认为自己都是对的，还常常双重标准，爱骂人，如何劝改呢？",
+          "question_type": "normal",
+          "created": 1421766067,
+          "updated_time": 1421766067,
+          "url": "https://www.zhihu.com/api/v4/questions/27695759",
+          "answer_count": 74,
+          "comment_count": 0,
+          "follower_count": 373,
+          "relationship": {},
+          "id": "27695759"
+        }
+      ]
+    }
+  }
+]

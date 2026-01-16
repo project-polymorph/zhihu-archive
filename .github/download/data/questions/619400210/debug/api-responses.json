@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/619400210/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589615216,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/619400210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/619400210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假两性畸形是否可以先改身份证后手术？",
+          "question_type": "normal",
+          "created": 1678765408,
+          "updated_time": 1678776813,
+          "url": "https://www.zhihu.com/api/v4/questions/589482287",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "589482287"
+        },
+        {
+          "type": "question",
+          "title": "如果是两性畸形的话都需要做什么检查才能确诊？",
+          "question_type": "normal",
+          "created": 1601381462,
+          "updated_time": 1601381462,
+          "url": "https://www.zhihu.com/api/v4/questions/423496775",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "423496775"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形产检能否检查出来？",
+          "question_type": "normal",
+          "created": 1687671277,
+          "updated_time": 1687671277,
+          "url": "https://www.zhihu.com/api/v4/questions/608459115",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "608459115"
+        },
+        {
+          "type": "question",
+          "title": "真两性畸形有可能同时具有前列腺和卵巢但是外生殖器是男性吗？",
+          "question_type": "normal",
+          "created": 1722327146,
+          "updated_time": 1722327300,
+          "url": "https://www.zhihu.com/api/v4/questions/662987122",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "662987122"
+        }
+      ]
+    }
+  }
+]

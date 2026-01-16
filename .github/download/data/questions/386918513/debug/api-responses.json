@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/386918513/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589249991,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/386918513/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/386918513/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么会有性别？",
+          "question_type": "normal",
+          "created": 1547229970,
+          "updated_time": 1547229970,
+          "url": "https://www.zhihu.com/api/v4/questions/308834288",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "308834288"
+        },
+        {
+          "type": "question",
+          "title": "如果在你所有条件都相同时，你愿意做哪个性别？",
+          "question_type": "normal",
+          "created": 1705828309,
+          "updated_time": 1705828309,
+          "url": "https://www.zhihu.com/api/v4/questions/640557700",
+          "answer_count": 79,
+          "comment_count": 0,
+          "follower_count": 98,
+          "relationship": {},
+          "id": "640557700"
+        }
+      ]
+    }
+  }
+]

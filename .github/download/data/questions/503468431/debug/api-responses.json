@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/503468431/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588716235,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/503468431/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/503468431/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "Y 染色体比 X 染色体少那么多基因，那男性比女性到底有什么不同？",
+          "question_type": "normal",
+          "created": 1430628027,
+          "updated_time": 1459661637,
+          "url": "https://www.zhihu.com/api/v4/questions/30060763",
+          "answer_count": 157,
+          "comment_count": 30,
+          "follower_count": 3466,
+          "relationship": {},
+          "id": "30060763"
+        },
+        {
+          "type": "question",
+          "title": "Y染色体的控制生殖器官的那个基因如果整合到了X染色体上 这该算什么变异？",
+          "question_type": "normal",
+          "created": 1433346557,
+          "updated_time": 1433346557,
+          "url": "https://www.zhihu.com/api/v4/questions/30936091",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "30936091"
+        },
+        {
+          "type": "question",
+          "title": "为什么性染色体有xx（女）和xy（男），没有yy？",
+          "question_type": "normal",
+          "created": 1651567077,
+          "updated_time": 1651567077,
+          "url": "https://www.zhihu.com/api/v4/questions/531182043",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "531182043"
+        }
+      ]
+    }
+  }
+]

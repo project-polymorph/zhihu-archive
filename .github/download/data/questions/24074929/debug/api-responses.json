@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/24074929/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768590372373,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/24074929/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/24074929/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么父亲总是把爱当做威胁？",
+          "question_type": "normal",
+          "created": 1552740270,
+          "updated_time": 1552740270,
+          "url": "https://www.zhihu.com/api/v4/questions/316202621",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "316202621"
+        },
+        {
+          "type": "question",
+          "title": "男朋友母亲不知道为什么特别恨我？",
+          "question_type": "normal",
+          "created": 1519055165,
+          "updated_time": 1519055165,
+          "url": "https://www.zhihu.com/api/v4/questions/267375411",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "267375411"
+        },
+        {
+          "type": "question",
+          "title": "为什么我爸家暴我妈，但他们还是非常依赖对方？",
+          "question_type": "normal",
+          "created": 1565524230,
+          "updated_time": 1565524230,
+          "url": "https://www.zhihu.com/api/v4/questions/339965006",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "339965006"
+        },
+        {
+          "type": "question",
+          "title": "很讨厌自己的妈妈怎么办?总是欺压自己的老公，在家里跟个母老虎一样在自己家人面前就跟猫一样，?",
+          "question_type": "normal",
+          "created": 1595182447,
+          "updated_time": 1595182447,
+          "url": "https://www.zhihu.com/api/v4/questions/407889823",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "407889823"
+        }
+      ]
+    }
+  }
+]

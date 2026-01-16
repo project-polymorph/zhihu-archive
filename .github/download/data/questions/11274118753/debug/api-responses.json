@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/11274118753/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768589303377,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/11274118753/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/11274118753/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何看待女性身体畸形？",
+          "question_type": "normal",
+          "created": 1504968411,
+          "updated_time": 1504968411,
+          "url": "https://www.zhihu.com/api/v4/questions/65127781",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "65127781"
+        },
+        {
+          "type": "question",
+          "title": "想问问身体有不严重的畸形的人身体畸形对你们的恋爱婚姻造成了多大的影响?",
+          "question_type": "normal",
+          "created": 1584755158,
+          "updated_time": 1584755158,
+          "url": "https://www.zhihu.com/api/v4/questions/381209482",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "381209482"
+        }
+      ]
+    }
+  }
+]

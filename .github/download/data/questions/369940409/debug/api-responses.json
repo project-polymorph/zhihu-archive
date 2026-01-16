@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/369940409/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768592635491,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/369940409/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/369940409/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有人知道刃牙里龙书文穿的衣服叫啥吗?",
+          "question_type": "normal",
+          "created": 1635394525,
+          "updated_time": 1635394525,
+          "url": "https://www.zhihu.com/api/v4/questions/495040522",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "495040522"
+        },
+        {
+          "type": "question",
+          "title": "圆月弯刀中的天外流星 到底出自什么剑谱？感觉是天外飞仙",
+          "question_type": "normal",
+          "created": 1429817723,
+          "updated_time": 1429817723,
+          "url": "https://www.zhihu.com/api/v4/questions/29819682",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "29819682"
+        }
+      ]
+    }
+  }
+]

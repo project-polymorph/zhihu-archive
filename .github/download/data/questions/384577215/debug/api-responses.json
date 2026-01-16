@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/384577215/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588478797,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/384577215/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/384577215/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有能接受先天性两性畸形的吗?",
+          "question_type": "normal",
+          "created": 1555865551,
+          "updated_time": 1555865551,
+          "url": "https://www.zhihu.com/api/v4/questions/321156814",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "321156814"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形的所有症状和类别？",
+          "question_type": "normal",
+          "created": 1519114037,
+          "updated_time": 1519114037,
+          "url": "https://www.zhihu.com/api/v4/questions/267402879",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "267402879"
+        },
+        {
+          "type": "question",
+          "title": "这种畸形的关系怎么办……？",
+          "question_type": "normal",
+          "created": 1506188107,
+          "updated_time": 1506188107,
+          "url": "https://www.zhihu.com/api/v4/questions/65769338",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "65769338"
+        }
+      ]
+    }
+  }
+]
