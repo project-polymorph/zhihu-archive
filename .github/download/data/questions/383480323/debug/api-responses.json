@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/383480323/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768584832492,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/383480323/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/383480323/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果现在换个性别，你会追求自己吗？",
+          "question_type": "normal",
+          "created": 1537094582,
+          "updated_time": 1537094582,
+          "url": "https://www.zhihu.com/api/v4/questions/294900508",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "294900508"
+        },
+        {
+          "type": "question",
+          "title": "如果有下一辈子，你更愿意尝试什么样的性别和取向？",
+          "question_type": "normal",
+          "created": 1598848729,
+          "updated_time": 1598848729,
+          "url": "https://www.zhihu.com/api/v4/questions/418593757",
+          "answer_count": 87,
+          "comment_count": 2,
+          "follower_count": 131,
+          "relationship": {},
+          "id": "418593757"
+        }
+      ]
+    }
+  }
+]

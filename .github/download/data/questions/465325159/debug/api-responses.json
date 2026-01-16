@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/465325159/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585109094,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/465325159/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/465325159/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果人类没有了性别，世界会变成什么样子？",
+          "question_type": "normal",
+          "created": 1673282141,
+          "updated_time": 1673282141,
+          "url": "https://www.zhihu.com/api/v4/questions/577748024",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "577748024"
+        },
+        {
+          "type": "question",
+          "title": "世界上没有了性别会怎么样？",
+          "question_type": "normal",
+          "created": 1659667023,
+          "updated_time": 1659667023,
+          "url": "https://www.zhihu.com/api/v4/questions/547073281",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "547073281"
+        },
+        {
+          "type": "question",
+          "title": "为什么大多数人会对自己的性别妥协？如果排除社会动因任其自由生长，男女会有相反或相似的行为和认知吗?",
+          "question_type": "normal",
+          "created": 1668003216,
+          "updated_time": 1668003216,
+          "url": "https://www.zhihu.com/api/v4/questions/565642649",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "565642649"
+        },
+        {
+          "type": "question",
+          "title": "如果人类不再有性别之分，世界会变成什么样子？",
+          "question_type": "normal",
+          "created": 1533718403,
+          "updated_time": 1533718403,
+          "url": "https://www.zhihu.com/api/v4/questions/289027977",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "289027977"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/465325159/feeds?cursor=f869252b6a31ba5e3128fc5813556c42&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768585106054519040&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768585109095,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768585106054519040"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/465325159/feeds?cursor=f869252b6a31ba5e3128fc5813556c42&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768585106054519040&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

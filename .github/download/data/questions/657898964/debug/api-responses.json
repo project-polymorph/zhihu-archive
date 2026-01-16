@@ -1,0 +1,244 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/657898964/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768584800844,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/657898964/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/657898964/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "社会性别认同能否脱离性别刻板印象存在？",
+          "question_type": "normal",
+          "created": 1595274487,
+          "updated_time": 1595274487,
+          "url": "https://www.zhihu.com/api/v4/questions/408084875",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "408084875"
+        },
+        {
+          "type": "question",
+          "title": "性别认同是天生的吗？性别认同水平有高低之分吗？",
+          "question_type": "normal",
+          "created": 1615103484,
+          "updated_time": 1615103484,
+          "url": "https://www.zhihu.com/api/v4/questions/448079412",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "448079412"
+        },
+        {
+          "type": "question",
+          "title": "人的性别认同是如何形成的？",
+          "question_type": "normal",
+          "created": 1714735570,
+          "updated_time": 1714735570,
+          "url": "https://www.zhihu.com/api/v4/questions/654877791",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "654877791"
+        },
+        {
+          "type": "question",
+          "title": "什么是性别认知?",
+          "question_type": "normal",
+          "created": 1667375143,
+          "updated_time": 1667375143,
+          "url": "https://www.zhihu.com/api/v4/questions/564213483",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "564213483"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/657898964/feeds?cursor=f77f7c7ebeb93f8c6683ef1a73b9b7c3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768584797456578114&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768584800844,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxitkLSNDSDU+9q5ApICJQoJNjY5NjY2NjkxEgozNTE3Nzc3OTY1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-c3dde3450f7c42bf5d10befd004edc52_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-c3dde3450f7c42bf5d10befd004edc52.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 496,
+              "gender": -1,
+              "headline": "反绿反释反基督，一切宗教都是旧社会的余孽",
+              "id": "16b30595a70dff1c3729462a05131cb3",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "陈王",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/16b30595a70dff1c3729462a05131cb3",
+              "url_token": "chen-wang-ying-cai",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://picx.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 7,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"dUECg49v\">这也是ai的刻板印象，因为ai本质上也是通过学习来总结结论，你看啊，咱们细拆解一下性别认同和刻板印象</p><p data-pid=\"6_AOg1cY\">你看哈，性别是什么，性别是生理性的，也就是说，男的有胯下那二两肉，女的上半身乳腺发达，胯下则是洞，那么咱们讨论这么个问题，因为生理差别所设计的衣服，有刻板印象么？比如男性裤头前边会设计成一个袋子，而女性裤头则不需要预留这个部分，因为没有，而女性有上半身托着乳腺的内衣，男性却没有，对吧，所以严格来说，这算刻板印象么？这不算，这是有其必要性的。那么，男性能穿女性的衣服么？比如连衣裙，生理上是可以的，只要你穿的进去就可以穿，那么有这么个人就喜欢穿连衣裙，但他认同自己是个男人，看见女人胯下二两肉也会有反应，他的心里认同是不是男人？但符合“刻板印象”么？不符合，但不符合刻板印象的男人会被别人称作什么，称作“娘炮”，称作“二椅子”，他自己会叫自己娘炮么？不会的，他会说他是男人</p><p data-pid=\"7CKzFmPC\">看懂区别了么，区别就是刻板印象是别人赋予，性别认同是自己，如果完全不在意别人的眼光，那么性别认同不会造成一丝一毫的刻板印象，很多时候大部分人为了融入社会，会主动迎合刻板印象，比如男性买手机就黑白蓝，女性就粉色红色，男性穿所谓“男士版型”，女性穿裙子吊带。但反过来说，男性可不可以喜欢化妆，毕竟化妆也不是特指眼影腮红啥的，他就是觉得，他想白点儿，他打粉底，这属于男性刻板印象么？女性可不可以剃光头？剃光头也不犯法，但属于女性的刻板印象么？</p><p data-pid=\"E-sw3reM\">对吧，所以本质上来说，性别认同并不会造成刻板印象，刻板印象是用来人为塑造性别认同的。举个例子，现在美国的lgbt政治正确，就像男性跨性别者，必须让别人称他为her或者them，上街就要穿着高跟裙子，有必要么？你认为你是女的，但是你喜欢穿什么影响你认为自己是女的了么？别人称你为he就影响了你认为自己是女性？你喜欢穿短裙剃寸头就能改变你性别认知？所以实际上美国跨性别者在要求外部形成一个刻板印象，也就是“男性跨性别者一般穿短裙，染指甲，还化妆”“女性跨性别者一般喜欢寸头，穿西装”之后他们再去迎合这些刻板印象来告诉别人“所有目光向我看齐啊，看我看我，我宣布，我是个跨！”</p><p data-pid=\"BlefHIIH\">这，才是性别认同和刻板印象的关系，没有因果，只有舆论</p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1717311276,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "这也是ai的刻板印象，因为ai本质上也是通过学习来总结结论，你看啊，咱们细拆解一下性别认同和刻板印象 你看哈，性别是什么，性别是生理性的，也就是说，男的有胯下那二两肉，女的上半身乳腺发达，胯下则是洞，那么咱们讨论这么个问题，因为生理差别所设计的衣服，有刻板印象么？比如男性裤头前边会设计成一个袋子，而女性裤头则不需要预留这个部分，因为没有，而女性有上半身托着乳腺的内衣，男性却没有，对吧，所以严格来说，…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3517777965",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同 · 7 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1717303359,
+              "id": "657898964",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别认同是否会造成刻板印象？",
+              "type": "question",
+              "updated_time": 1717303359,
+              "url": "https://www.zhihu.com/api/v4/questions/657898964"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1717311276,
+            "url": "https://www.zhihu.com/api/v4/answers/3517777965",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f77f7c7ebeb93f8cb6978e1773b9b7c3",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768584797456578114"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/657898964/feeds?cursor=f77f7c7ebeb93f8cb6978e1773b9b7c3&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768584797456578114&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

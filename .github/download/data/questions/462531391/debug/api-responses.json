@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/462531391/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586024855,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/462531391/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/462531391/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假设人出生后可以自由选择自己的性别，那么这个世界会是什么样？",
+          "question_type": "normal",
+          "created": 1568306012,
+          "updated_time": 1568306012,
+          "url": "https://www.zhihu.com/api/v4/questions/345743620",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "345743620"
+        },
+        {
+          "type": "question",
+          "title": "世界上没有了性别会怎么样？",
+          "question_type": "normal",
+          "created": 1659667023,
+          "updated_time": 1659667023,
+          "url": "https://www.zhihu.com/api/v4/questions/547073281",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "547073281"
+        },
+        {
+          "type": "question",
+          "title": "如果人类没有了性别，世界会变成什么样子？",
+          "question_type": "normal",
+          "created": 1673282141,
+          "updated_time": 1673282141,
+          "url": "https://www.zhihu.com/api/v4/questions/577748024",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "577748024"
+        },
+        {
+          "type": "question",
+          "title": "假如有一天世界没有性别之分了会怎么样?",
+          "question_type": "normal",
+          "created": 1692457602,
+          "updated_time": 1692457602,
+          "url": "https://www.zhihu.com/api/v4/questions/618185764",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "618185764"
+        },
+        {
+          "type": "question",
+          "title": "如果来到世界之前可以选择性别，你的选择是什么？",
+          "question_type": "normal",
+          "created": 1567161021,
+          "updated_time": 1567161021,
+          "url": "https://www.zhihu.com/api/v4/questions/343590906",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "343590906"
+        }
+      ]
+    }
+  }
+]

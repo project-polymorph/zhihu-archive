@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1992190453920052312/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586902094,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1992190453920052312/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1992190453920052312/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别对于人类除了繁衍以外有意义吗？",
+          "question_type": "normal",
+          "created": 1709908474,
+          "updated_time": 1709908474,
+          "url": "https://www.zhihu.com/api/v4/questions/647659535",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "647659535"
+        },
+        {
+          "type": "question",
+          "title": "如今对性别有什么新的定义吗？",
+          "question_type": "normal",
+          "created": 1638516237,
+          "updated_time": 1638516237,
+          "url": "https://www.zhihu.com/api/v4/questions/503414751",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "503414751"
+        },
+        {
+          "type": "question",
+          "title": "性别是流动式的吗？有没有明确的划分？",
+          "question_type": "normal",
+          "created": 1650612888,
+          "updated_time": 1650613451,
+          "url": "https://www.zhihu.com/api/v4/questions/529426964",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "529426964"
+        },
+        {
+          "type": "question",
+          "title": "性别是一种假设，这种假设是否从根源上就出了问题呢？",
+          "question_type": "normal",
+          "created": 1717037267,
+          "updated_time": 1717037267,
+          "url": "https://www.zhihu.com/api/v4/questions/657637509",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "657637509"
+        }
+      ]
+    }
+  }
+]

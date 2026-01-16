@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/436288898/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585612675,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/436288898/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/436288898/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么我们可以一眼辨别出别人的性别？",
+          "question_type": "normal",
+          "created": 1385524031,
+          "updated_time": 1385524031,
+          "url": "https://www.zhihu.com/api/v4/questions/22126559",
+          "answer_count": 10,
+          "comment_count": 1,
+          "follower_count": 22,
+          "relationship": {},
+          "id": "22126559"
+        },
+        {
+          "type": "question",
+          "title": "有没有那么一刻你对自己的性别产生了怀疑？",
+          "question_type": "normal",
+          "created": 1451276960,
+          "updated_time": 1451528290,
+          "url": "https://www.zhihu.com/api/v4/questions/38947133",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "38947133"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,919 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/428965724/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768584854654,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/428965724/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/428965724/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你喜欢自己的性别吗？",
+          "question_type": "normal",
+          "created": 1569822498,
+          "updated_time": 1569822498,
+          "url": "https://www.zhihu.com/api/v4/questions/348511039",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "348511039"
+        },
+        {
+          "type": "question",
+          "title": "你会不喜欢自己的性别吗?",
+          "question_type": "normal",
+          "created": 1697039668,
+          "updated_time": 1697039668,
+          "url": "https://www.zhihu.com/api/v4/questions/625716167",
+          "answer_count": 9,
+          "comment_count": 1,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "625716167"
+        },
+        {
+          "type": "question",
+          "title": "想问广大女性朋友们，你们喜欢自己的性别吗？为什么？",
+          "question_type": "normal",
+          "created": 1698325599,
+          "updated_time": 1698325599,
+          "url": "https://www.zhihu.com/api/v4/questions/627948463",
+          "answer_count": 16,
+          "comment_count": 0,
+          "follower_count": 18,
+          "relationship": {},
+          "id": "627948463"
+        },
+        {
+          "type": "question",
+          "title": "为什么你天生接受你的性别？",
+          "question_type": "normal",
+          "created": 1747563181,
+          "updated_time": 1747563181,
+          "url": "https://www.zhihu.com/api/v4/questions/1907498915755979433",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1907498915755979433"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/428965724/feeds?cursor=fb22a2e9e799b1a1e1f9503f6026561b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768584851560242853&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768584916269,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiqiYO4CiDc/sXMAZICJQoJNTM5NTE0MjQ2EgoyODAxODQ1NDE4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-ef6403477251c8a59fb107eb812cbfbb_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-ef6403477251c8a59fb107eb812cbfbb.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-af4cab5cf582659b6fdea90f42a2fb17_l.png?source=1def8aca",
+                "description": "评论 100 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972462538273792000",
+                "medal_name": "乐于交流",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-af4cab5cf582659b6fdea90f42a2fb17_r.png?source=1def8aca"
+              },
+              "follower_count": 340,
+              "gender": -1,
+              "headline": "美术生，在体育、科学、哲学以及艺术等多个领域都有广泛兴趣",
+              "id": "a5e5a32a080980c31a2866f7fe8e3a74",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "雨的秘密",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/a5e5a32a080980c31a2866f7fe8e3a74",
+              "url_token": "yu-de-mi-mi-58",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"n-81UPcF\">有时候喜欢，有时候讨厌</p><p data-pid=\"nodGbILK\">喜欢的时候感觉自己肌肉很酷，嗓音有点好听，在体力上有点优势，对问题的判断比较客观理性，容易得到大家对于我男性身份的赞许</p><p data-pid=\"RPlw2J4a\">讨厌的时候感觉自己长得不够美，遇到难过的事不能像女孩一样被大家安慰和保护，讨厌自己有时候用下半身思考，看到一些女士的衣服很好看但是迫于自己男性的身份而不能穿</p><p data-pid=\"5zbDnKeH\">我真的超级希望有一个世界的人不分性别，只有职业的分工，希望转世到那里吧！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1671051638,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "有时候喜欢，有时候讨厌 喜欢的时候感觉自己肌肉很酷，嗓音有点好听，在体力上有点优势，对问题的判断比较客观理性，容易得到大家对于我男性身份的赞许 讨厌的时候感觉自己长得不够美，遇到难过的事不能像女孩一样被大家安慰和保护，讨厌自己有时候用下半身思考，看到一些女士的衣服很好看但是迫于自己男性的身份而不能穿 我真的超级希望有一个世界的人不分性别，只有职业的分工，希望转世到那里吧！",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2801845418",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "23 赞同 · 1 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1604580966,
+              "id": "428965724",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "你喜爱自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1604580966,
+              "url": "https://www.zhihu.com/api/v4/questions/428965724"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1671051638,
+            "url": "https://www.zhihu.com/api/v4/answers/2801845418",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 23
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb22a2e9e799b1a1c82fa30d6026561b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxigidKuheyZuxsg3P7FzAGSAi4KCTc1OTA4NTUxNBITMTk3ODg4Mjc0OTczMDQyMzk2OBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-c93a39486f6f41979583d5a55b75919c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-c93a39486f6f41979583d5a55b75919c.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "优秀答主",
+                  "topics": [
+                    {
+                      "avatar_url": "https://pic1.zhimg.com/v2-fbb364f786cbb9121a20de44e27dc5c3_qhd.jpg?source=57bbeac9",
+                      "id": "19552192",
+                      "name": "健身",
+                      "topic_type": "NORMAL",
+                      "type": "topic",
+                      "url": "https://www.zhihu.com/api/v4/topics/19552192"
+                    }
+                  ],
+                  "type": "best_answerer"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "健身话题下的优秀答主",
+                    "detail_type": "best_answerer",
+                    "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                    "night_icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                    "sources": [
+                      {
+                        "avatar_path": "v2-fbb364f786cbb9121a20de44e27dc5c3",
+                        "avatar_url": "https://pica.zhimg.com/v2-fbb364f786cbb9121a20de44e27dc5c3_720w.jpg?source=32738c0c",
+                        "description": "",
+                        "id": "19552192",
+                        "name": "健身",
+                        "priority": 0,
+                        "token": "19552192",
+                        "type": "topic",
+                        "url": "https://www.zhihu.com/topic/19552192"
+                      }
+                    ],
+                    "title": "优秀答主",
+                    "type": "best",
+                    "url": "https://www.zhihu.com/question/48509984"
+                  }
+                ],
+                "icon": "https://picx.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "健身话题下的优秀答主",
+                    "detail_type": "best",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [
+                      {
+                        "avatar_path": "v2-fbb364f786cbb9121a20de44e27dc5c3",
+                        "avatar_url": "https://pica.zhimg.com/v2-fbb364f786cbb9121a20de44e27dc5c3_720w.jpg?source=32738c0c",
+                        "description": "",
+                        "id": "19552192",
+                        "name": "健身",
+                        "priority": 0,
+                        "token": "19552192",
+                        "type": "topic",
+                        "url": "https://www.zhihu.com/topic/19552192"
+                      }
+                    ],
+                    "title": "优秀答主",
+                    "type": "best",
+                    "url": "https://www.zhihu.com/question/48509984"
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-4a07bc69c4bb04444721f35b32125c75_l.png?source=32738c0c",
+                "title": "健身话题下的优秀答主"
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 595962,
+              "gender": 1,
+              "headline": "you are a bug to me.",
+              "id": "4719effbbe11dfaa29bc4ad5659462aa",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "柔王丸",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4719effbbe11dfaa29bc4ad5659462aa",
+              "url_token": "rou-wang-wan",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 7,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"DbEp9au6\">喜欢自己的性别吗？  </p><p data-pid=\"HgHqRbDf\">算是喜欢吧。 一般喜欢，因为它，还不够。远远的不够。 我需要更多更多。</p><p data-pid=\"_otPDyVQ\">它让我长胡须，一天不推就 拉手，让我肌肉超出常人，让我总是渴望 怼点什么，证明什么、</p><p data-pid=\"oGW8osJF\">实际上，我更加的渴望，我渴望长出2000磅 充满肌肉的身体， 长出 弯曲的大角，支出嘴牙的獠牙。脑后和脖子上的鬃毛。</p><p data-pid=\"o2cDdTrX\">很想把路边 什么东西都撞飞，什么1.3吨的小车，什么路牙石，减速带都抠起来扔出去砸人砸东西。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"oMFVldLK\">每次遇到挫败，只要是我自我认同的领域和方向上的挫败，我会非常 的不爽，非常的狂躁，认为自己还不够强，  甚至每次挫败感时，都要 找点  “胜利”  成功对抗 的东西补回来才能让自己安生。</p><p data-pid=\"IhsD-w9o\">因此我非常 能理解小说《美铁战争》中  变种人部落的 “咬箭”仪式。 承受巨大的痛苦，用箭矢穿透自己的腮帮子（部落长老执行） ，然后用力咬断箭矢，证明痛苦对本人无效，本人仍然悍勇。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-b1d45450dc2ad84f96508c2af5c4a4f1_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"505\" data-rawheight=\"583\" data-original-token=\"v2-af58d659f004b84863c8b596951d40f1\" class=\"origin_image zh-lightbox-thumb\" width=\"505\" data-original=\"https://pica.zhimg.com/v2-b1d45450dc2ad84f96508c2af5c4a4f1_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;505&#39; height=&#39;583&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"505\" data-rawheight=\"583\" data-original-token=\"v2-af58d659f004b84863c8b596951d40f1\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"505\" data-original=\"https://pica.zhimg.com/v2-b1d45450dc2ad84f96508c2af5c4a4f1_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-b1d45450dc2ad84f96508c2af5c4a4f1_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"7hqg3TAu\">  所以，你问我喜欢自己的性别吗？我会告诉你，尚可，但，还远远不够。</p><p data-pid=\"Qx8wH__A\">我希望以三马赫的速度在平流层巡航，我希望超过宇宙第三速度在星际间漫游，我希望 喷出中子流，发出伽马射线，烧焦大地和 卫星， 我希望可以对抗 黑洞的潮汐力。</p><p data-pid=\"L1CKDefn\">我希望凝结最暴烈的物理力量，属于我个人。 </p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1764582413,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "喜欢自己的性别吗？ 算是喜欢吧。 一般喜欢，因为它，还不够。远远的不够。 我需要更多更多。 它让我长胡须，一天不推就 拉手，让我肌肉超出常人，让我总是渴望 怼点什么，证明什么、 实际上，我更加的渴望，我渴望长出2000磅 充满肌肉的身体， 长出 弯曲的大角，支出嘴牙的獠牙。脑后和脖子上的鬃毛。 很想把路边 什么东西都撞飞，什么1.3吨的小车，什么路牙石，减速带都抠起来扔出去砸人砸东西。 每次遇到挫败，只要是我自我认…",
+            "extras": "",
+            "favlists_count": 3,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1978882749730423968",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "24 赞同 · 3 收藏 · 7 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1604580966,
+              "id": "428965724",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "你喜爱自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1604580966,
+              "url": "https://www.zhihu.com/api/v4/questions/428965724"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": true,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": "真诚赞赏，手留余香"
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 583,
+                  "token": "v2-af58d659f004b84863c8b596951d40f1",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-af58d659f004b84863c8b596951d40f1_720w.jpg?source=1def8aca",
+                  "width": 505
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1764582413,
+            "url": "https://www.zhihu.com/api/v4/answers/1978882749730423968",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 24
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb22a2e9e799b1a184c3b5006026561b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjU/OLrBSDc/sXMAZICJQoJMzE1MjAxMDMxEgoxNTY4MTk0MTMyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 5,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ZU16moJ1\">有时候很苦恼自己是个女生。最喜欢的状态是没有性别。更希望没有性别划分，看到一个人就是一个人而不是他是个女人或男人。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1604995311,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "有时候很苦恼自己是个女生。最喜欢的状态是没有性别。更希望没有性别划分，看到一个人就是一个人而不是他是个女人或男人。",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1568194132",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "20 赞同 · 1 收藏 · 5 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1604580966,
+              "id": "428965724",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "你喜爱自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1604580966,
+              "url": "https://www.zhihu.com/api/v4/questions/428965724"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1604995311,
+            "url": "https://www.zhihu.com/api/v4/answers/1568194132",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 20
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb22a2e9e799b1a149ec423f6026561b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiZiavoBSDc/sXMAZICJQoJMzEzODkwNDcyEgoxNTYwOTg2Nzc3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-15b131b4d82d3059a969e826bda12c74_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-15b131b4d82d3059a969e826bda12c74.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 348,
+              "gender": 1,
+              "headline": "万般计谋皆小术，唯有自强得天助。",
+              "id": "d3e2d6bd5cc8299bfe108e27329235e0",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "财神",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/d3e2d6bd5cc8299bfe108e27329235e0",
+              "url_token": "cai-shen-86-24",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 9,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"f4O2Ov0x\">FTM那种被阉割一样的耻辱感了解一下 </p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1604595243,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "FTM那种被阉割一样的耻辱感了解一下",
+            "extras": "",
+            "favlists_count": 11,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1560986777",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "59 赞同 · 11 收藏 · 9 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1604580966,
+              "id": "428965724",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "你喜爱自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1604580966,
+              "url": "https://www.zhihu.com/api/v4/questions/428965724"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1604595243,
+            "url": "https://www.zhihu.com/api/v4/answers/1560986777",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 59
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb22a2e9e799b1a1e6ec3e3f6026561b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEUCAQQAxjEjtG08LrUuxsg3P7FzAGSAi4KCTc1OTE3OTEyNBITMTk3OTE0MDU0NTIyMjgyMTcwMBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7bf44b7b9dbc4ae472a06eafecc6a9a9_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-7bf44b7b9dbc4ae472a06eafecc6a9a9.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-6da117205088242db9cd82e48b28640d_l.png?source=1def8aca",
+                "description": "被 1000 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-6da117205088242db9cd82e48b28640d_r.png?source=1def8aca"
+              },
+              "follower_count": 1053,
+              "gender": 1,
+              "headline": "冷眼看生死，一骑过红尘",
+              "id": "d193e2406854fef8751e2d7d1c3557f0",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "日瓦戈医生",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/d193e2406854fef8751e2d7d1c3557f0",
+              "url_token": "ri-wa-ge-yi-sheng-10",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"aBvG0OM7\">喜欢，人类没有男子汉气概只会沦为一个平平无奇的物种，断然不可能走到今天这种地步。</p><p data-pid=\"Oi78Ee8C\">数万年前智人能从非洲，利用极其简陋的工具扩散到全世界，就是仰仗着无数男性的冒险精神，勇气的赞歌就是人类的赞歌。对未来崭新社会形态的构想，关键科技的发明，都少不了兼具聪明才智和勇气的男人。</p><p data-pid=\"bG6nEa-J\">勇气对男性是赐福也是诅咒，当前社会也越来越不需要男子汉气概，地位、财富、受人尊敬的身份不再是靠勇于开拓的精神和行为获得，更多是靠血缘人脉还有各种蝇营狗苟的关系获得。但是我还能认识它们，解构它们，哪怕最终不得不屈服于它们，但我依然能对当今种种荒唐的规则保持蔑视，我相信这是我男性身份带来的与生俱来的能力。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-746a2f13e9ae67043395ef44147d7622_720w.jpg?source=1def8aca\" data-rawwidth=\"1798\" data-rawheight=\"1134\" data-size=\"normal\" data-original-token=\"v2-2fa2983ca6a4a4fd9cbef386505f6516\" class=\"origin_image zh-lightbox-thumb\" width=\"1798\" data-original=\"https://picx.zhimg.com/v2-746a2f13e9ae67043395ef44147d7622_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1798&#39; height=&#39;1134&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1798\" data-rawheight=\"1134\" data-size=\"normal\" data-original-token=\"v2-2fa2983ca6a4a4fd9cbef386505f6516\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1798\" data-original=\"https://picx.zhimg.com/v2-746a2f13e9ae67043395ef44147d7622_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-746a2f13e9ae67043395ef44147d7622_720w.jpg?source=1def8aca\"/></figure><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1764643876,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "喜欢，人类没有男子汉气概只会沦为一个平平无奇的物种，断然不可能走到今天这种地步。 数万年前智人能从非洲，利用极其简陋的工具扩散到全世界，就是仰仗着无数男性的冒险精神，勇气的赞歌就是人类的赞歌。对未来崭新社会形态的构想，关键科技的发明，都少不了兼具聪明才智和勇气的男人。 勇气对男性是赐福也是诅咒，当前社会也越来越不需要男子汉气概，地位、财富、受人尊敬的身份不再是靠勇于开拓的精神和行为获得，更多是靠血…",
+            "extras": "",
+            "favlists_count": 3,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1979140545222821700",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "15 赞同 · 3 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1604580966,
+              "id": "428965724",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "你喜爱自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1604580966,
+              "url": "https://www.zhihu.com/api/v4/questions/428965724"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 4,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 1134,
+                  "token": "v2-2fa2983ca6a4a4fd9cbef386505f6516",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-2fa2983ca6a4a4fd9cbef386505f6516_720w.jpg?source=1def8aca",
+                  "width": 1798
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1764643876,
+            "url": "https://www.zhihu.com/api/v4/answers/1979140545222821700",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 15
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "fb22a2e9e799b1a13a5dcb006026561b",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768584851560242853"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/428965724/feeds?cursor=fb22a2e9e799b1a13a5dcb006026561b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768584851560242853&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

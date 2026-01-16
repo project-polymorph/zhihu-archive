@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/4621397947/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768583235932,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/4621397947/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/4621397947/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "想了解真实的两性畸形？",
+          "question_type": "normal",
+          "created": 1597822667,
+          "updated_time": 1597822667,
+          "url": "https://www.zhihu.com/api/v4/questions/415605915",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "415605915"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形可以治疗吗？",
+          "question_type": "normal",
+          "created": 1638603514,
+          "updated_time": 1638603514,
+          "url": "https://www.zhihu.com/api/v4/questions/503646431",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "503646431"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形的病人可以活多久?",
+          "question_type": "normal",
+          "created": 1666952711,
+          "updated_time": 1666952711,
+          "url": "https://www.zhihu.com/api/v4/questions/563121734",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "563121734"
+        },
+        {
+          "type": "question",
+          "title": "如果是两性畸形的话都需要做什么检查才能确诊？",
+          "question_type": "normal",
+          "created": 1601381462,
+          "updated_time": 1601381462,
+          "url": "https://www.zhihu.com/api/v4/questions/423496775",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "423496775"
+        }
+      ]
+    }
+  }
+]

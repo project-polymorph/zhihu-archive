@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/534867538/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586984960,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/534867538/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/534867538/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果下辈子你有选择性别的机会，你更愿意当男生还是女生，为什么？",
+          "question_type": "normal",
+          "created": 1612091954,
+          "updated_time": 1612091954,
+          "url": "https://www.zhihu.com/api/v4/questions/442190175",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "442190175"
+        },
+        {
+          "type": "question",
+          "title": "如果可以选择性别，你会选择当男人还是女人？",
+          "question_type": "normal",
+          "created": 1723208320,
+          "updated_time": 1723208320,
+          "url": "https://www.zhihu.com/api/v4/questions/663872398",
+          "answer_count": 24,
+          "comment_count": 0,
+          "follower_count": 36,
+          "relationship": {},
+          "id": "663872398"
+        },
+        {
+          "type": "question",
+          "title": "假如可以重新选择性别，你愿意做男人还是女人？为啥子？",
+          "question_type": "normal",
+          "created": 1418997503,
+          "updated_time": 1418997503,
+          "url": "https://www.zhihu.com/api/v4/questions/27161038",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "27161038"
+        },
+        {
+          "type": "question",
+          "title": "如果给你一次选择性别的机会，你会选择男性还是女性？",
+          "question_type": "normal",
+          "created": 1606065820,
+          "updated_time": 1664864191,
+          "url": "https://www.zhihu.com/api/v4/questions/431552789",
+          "answer_count": 6267,
+          "comment_count": 227,
+          "follower_count": 8604,
+          "relationship": {},
+          "id": "431552789"
+        }
+      ]
+    }
+  }
+]

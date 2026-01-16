@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/547073281/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585550319,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/547073281/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/547073281/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类如果没有性别,人类社会会怎么样?",
+          "question_type": "normal",
+          "created": 1407401255,
+          "updated_time": 1407401255,
+          "url": "https://www.zhihu.com/api/v4/questions/24768157",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "24768157"
+        },
+        {
+          "type": "question",
+          "title": "这个世界有没有一生下来就没有性别的人？",
+          "question_type": "normal",
+          "created": 1622513050,
+          "updated_time": 1622513050,
+          "url": "https://www.zhihu.com/api/v4/questions/462531391",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "462531391"
+        },
+        {
+          "type": "question",
+          "title": "会不会有一天将没有性别？",
+          "question_type": "normal",
+          "created": 1474552949,
+          "updated_time": 1474552949,
+          "url": "https://www.zhihu.com/api/v4/questions/50905653",
+          "answer_count": 3,
+          "comment_count": 2,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "50905653"
+        },
+        {
+          "type": "question",
+          "title": "未来性别会消失吗？",
+          "question_type": "normal",
+          "created": 1637663008,
+          "updated_time": 1637663008,
+          "url": "https://www.zhihu.com/api/v4/questions/501072323",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "501072323"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/547073281/feeds?cursor=c783892b9519033bca4c3ade0b2c9994&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768585547234056770&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768585550462,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768585547234056770"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/547073281/feeds?cursor=c783892b9519033bca4c3ade0b2c9994&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768585547234056770&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

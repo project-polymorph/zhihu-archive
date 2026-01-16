@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/343590906/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586050783,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/343590906/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/343590906/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果出生的时候你可以自己选择性别，你会选择作何选择？",
+          "question_type": "normal",
+          "created": 1531815193,
+          "updated_time": 1531815193,
+          "url": "https://www.zhihu.com/api/v4/questions/285637341",
+          "answer_count": 19,
+          "comment_count": 0,
+          "follower_count": 23,
+          "relationship": {},
+          "id": "285637341"
+        },
+        {
+          "type": "question",
+          "title": "如果可以回到你出生的那年，能够选择性别，你会选择做男生还是女生，为什么？",
+          "question_type": "normal",
+          "created": 1578471279,
+          "updated_time": 1578471279,
+          "url": "https://www.zhihu.com/api/v4/questions/365317844",
+          "answer_count": 14,
+          "comment_count": 0,
+          "follower_count": 29,
+          "relationship": {},
+          "id": "365317844"
+        },
+        {
+          "type": "question",
+          "title": "如果出生的时候可以选择性别，你会怎么选？",
+          "question_type": "normal",
+          "created": 1685930376,
+          "updated_time": 1685930376,
+          "url": "https://www.zhihu.com/api/v4/questions/604833686",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "604833686"
+        },
+        {
+          "type": "question",
+          "title": "如果世界上的人没有性别之分，或者没有性别的概念的话会怎样？",
+          "question_type": "normal",
+          "created": 1558611994,
+          "updated_time": 1558611994,
+          "url": "https://www.zhihu.com/api/v4/questions/325756045",
+          "answer_count": 1,
+          "comment_count": 1,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "325756045"
+        },
+        {
+          "type": "question",
+          "title": "如果出生可以选择性别，请问你还会选择你现在的性别吗？",
+          "question_type": "normal",
+          "created": 1678087827,
+          "updated_time": 1678087827,
+          "url": "https://www.zhihu.com/api/v4/questions/587868204",
+          "answer_count": 16,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "587868204"
+        }
+      ]
+    }
+  }
+]

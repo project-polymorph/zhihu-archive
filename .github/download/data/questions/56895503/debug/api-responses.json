@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/56895503/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586492115,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/56895503/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/56895503/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "女儿拒绝承认自己的性别怎么办？",
+          "question_type": "normal",
+          "created": 1540993008,
+          "updated_time": 1540993008,
+          "url": "https://www.zhihu.com/api/v4/questions/300783710",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "300783710"
+        },
+        {
+          "type": "question",
+          "title": "为什么我不能选择自己的性别？-一个三岁小孩的提问？",
+          "question_type": "normal",
+          "created": 1431879861,
+          "updated_time": 1431879861,
+          "url": "https://www.zhihu.com/api/v4/questions/30452889",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "30452889"
+        },
+        {
+          "type": "question",
+          "title": "为什么科学不允许父母选择他们孩子的性别？",
+          "question_type": "normal",
+          "created": 1585030708,
+          "updated_time": 1585030708,
+          "url": "https://www.zhihu.com/api/v4/questions/382057398",
+          "answer_count": 1,
+          "comment_count": 1,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "382057398"
+        },
+        {
+          "type": "question",
+          "title": "12岁的女孩子该不该树立正确的性别意识？",
+          "question_type": "normal",
+          "created": 1596156184,
+          "updated_time": 1596156184,
+          "url": "https://www.zhihu.com/api/v4/questions/411041350",
+          "answer_count": 18,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "411041350"
+        }
+      ]
+    }
+  }
+]

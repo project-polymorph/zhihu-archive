@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/320760730/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585306356,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/320760730/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/320760730/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "认为自己无性别是一种怎样的体验？",
+          "question_type": "normal",
+          "created": 1547999226,
+          "updated_time": 1694144474,
+          "url": "https://www.zhihu.com/api/v4/questions/309753880",
+          "answer_count": 114,
+          "comment_count": 1,
+          "follower_count": 465,
+          "relationship": {},
+          "id": "309753880"
+        },
+        {
+          "type": "question",
+          "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+          "question_type": "normal",
+          "created": 1611503534,
+          "updated_time": 1611503534,
+          "url": "https://www.zhihu.com/api/v4/questions/441027819",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 41,
+          "relationship": {},
+          "id": "441027819"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/557408672/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582889580,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/557408672/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/557408672/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人做和性别没有必要关系的事情时，该被打上性别标签吗?",
+          "question_type": "normal",
+          "created": 1694150427,
+          "updated_time": 1694150427,
+          "url": "https://www.zhihu.com/api/v4/questions/621075026",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "621075026"
+        },
+        {
+          "type": "question",
+          "title": "我认为人没有性别更好，但是为什么其他人都觉得我说的不对呢？我正常吗？",
+          "question_type": "normal",
+          "created": 1606232324,
+          "updated_time": 1606232324,
+          "url": "https://www.zhihu.com/api/v4/questions/431855682",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 22,
+          "relationship": {},
+          "id": "431855682"
+        },
+        {
+          "type": "question",
+          "title": "性别是一种利益选择吗？",
+          "question_type": "normal",
+          "created": 1739507108,
+          "updated_time": 1739507108,
+          "url": "https://www.zhihu.com/api/v4/questions/12204268287",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "12204268287"
+        },
+        {
+          "type": "question",
+          "title": "用性别定义一个人真的对吗？",
+          "question_type": "normal",
+          "created": 1755760248,
+          "updated_time": 1755760248,
+          "url": "https://www.zhihu.com/api/v4/questions/1941879907065001668",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1941879907065001668"
+        }
+      ]
+    }
+  }
+]

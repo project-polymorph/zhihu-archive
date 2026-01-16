@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1890723083020644786/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585707188,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1890723083020644786/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1890723083020644786/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么性别认同障碍的人（GID）最终目标是改变生理性别而不是适应生理性别？",
+          "question_type": "normal",
+          "created": 1456364410,
+          "updated_time": 1688954909,
+          "url": "https://www.zhihu.com/api/v4/questions/40733448",
+          "answer_count": 66,
+          "comment_count": 6,
+          "follower_count": 377,
+          "relationship": {},
+          "id": "40733448"
+        },
+        {
+          "type": "question",
+          "title": "性别认知障碍的存在是不是意味着心理上有划分性别的标准？",
+          "question_type": "normal",
+          "created": 1423579810,
+          "updated_time": 1708557609,
+          "url": "https://www.zhihu.com/api/v4/questions/28113746",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "28113746"
+        },
+        {
+          "type": "question",
+          "title": "如果世界上只有一种性别的人，会少多少问题？",
+          "question_type": "normal",
+          "created": 1585840428,
+          "updated_time": 1585840428,
+          "url": "https://www.zhihu.com/api/v4/questions/384686121",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "384686121"
+        }
+      ]
+    }
+  }
+]

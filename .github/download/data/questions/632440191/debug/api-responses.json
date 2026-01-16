@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/632440191/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768584656359,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/632440191/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/632440191/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别（广义的）自尊是否与社会男女（广义的）平等意识相关？",
+          "question_type": "normal",
+          "created": 1561739336,
+          "updated_time": 1561739336,
+          "url": "https://www.zhihu.com/api/v4/questions/332239334",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "332239334"
+        },
+        {
+          "type": "question",
+          "title": "是不是大部分男生都觉得现在是性别平等的时代?",
+          "question_type": "normal",
+          "created": 1761459146,
+          "updated_time": 1761459146,
+          "url": "https://www.zhihu.com/api/v4/questions/1965782817301570547",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1965782817301570547"
+        },
+        {
+          "type": "question",
+          "title": "为什么有的男人对于性别没有概念？",
+          "question_type": "normal",
+          "created": 1594276004,
+          "updated_time": 1594276004,
+          "url": "https://www.zhihu.com/api/v4/questions/405889209",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "405889209"
+        }
+      ]
+    }
+  }
+]

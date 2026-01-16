@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/503414751/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586968604,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/503414751/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/503414751/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "是什么决定了我们的性别？",
+          "question_type": "normal",
+          "created": 1682026283,
+          "updated_time": 1682026283,
+          "url": "https://www.zhihu.com/api/v4/questions/596854722",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "596854722"
+        },
+        {
+          "type": "question",
+          "title": "如果可以决定性别，你会有何想法？理由？",
+          "question_type": "normal",
+          "created": 1582126380,
+          "updated_time": 1582126380,
+          "url": "https://www.zhihu.com/api/v4/questions/373137488",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "373137488"
+        },
+        {
+          "type": "question",
+          "title": "如果性别可以选择，你希望自己是什么性别，为什么？",
+          "question_type": "normal",
+          "created": 1565958280,
+          "updated_time": 1565958280,
+          "url": "https://www.zhihu.com/api/v4/questions/340947790",
+          "answer_count": 17,
+          "comment_count": 1,
+          "follower_count": 26,
+          "relationship": {},
+          "id": "340947790"
+        },
+        {
+          "type": "question",
+          "title": "性别是如何演化出来的？",
+          "question_type": "normal",
+          "created": 1426047526,
+          "updated_time": 1693467742,
+          "url": "https://www.zhihu.com/api/v4/questions/28675858",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 126,
+          "relationship": {},
+          "id": "28675858"
+        },
+        {
+          "type": "question",
+          "title": "在一个人能选择性别的时代，人凭什么依据推断自己的性别？",
+          "question_type": "normal",
+          "created": 1756075054,
+          "updated_time": 1756075054,
+          "url": "https://www.zhihu.com/api/v4/questions/1943200300535117544",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1943200300535117544"
+        }
+      ]
+    }
+  }
+]

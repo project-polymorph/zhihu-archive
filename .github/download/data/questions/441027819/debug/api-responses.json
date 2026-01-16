@@ -1,0 +1,1181 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/441027819/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768583391287,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/441027819/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/441027819/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人有可能完全摆脱性别概念，以中性或者无性别的身份活下去吗？",
+          "question_type": "normal",
+          "created": 1546771251,
+          "updated_time": 1546771251,
+          "url": "https://www.zhihu.com/api/v4/questions/308228003",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "308228003"
+        },
+        {
+          "type": "question",
+          "title": "是否存在生理无性别的人？",
+          "question_type": "normal",
+          "created": 1555638081,
+          "updated_time": 1555638988,
+          "url": "https://www.zhihu.com/api/v4/questions/320760730",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 22,
+          "relationship": {},
+          "id": "320760730"
+        },
+        {
+          "type": "question",
+          "title": "认为自己无性别是一种怎样的体验？",
+          "question_type": "normal",
+          "created": 1547999226,
+          "updated_time": 1694144474,
+          "url": "https://www.zhihu.com/api/v4/questions/309753880",
+          "answer_count": 114,
+          "comment_count": 1,
+          "follower_count": 465,
+          "relationship": {},
+          "id": "309753880"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/441027819/feeds?cursor=5087023925e9ba1ce2caa959beaca55d&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768583387913149143&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768583391359,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj//oKVDCDrmabSAZICJQoJNjIzNzcyNzYzEgozMjY1MzE0Njg3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-934592c9edbd5f125c9bcc70d0afeaff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-934592c9edbd5f125c9bcc70d0afeaff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 1797,
+              "gender": 0,
+              "headline": "只有变成女生，我才能正常出门，生活和工作",
+              "id": "aa503088442618e1290136f894a29dab",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "悦心",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/aa503088442618e1290136f894a29dab",
+              "url_token": "sen-yu-63-37",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 53,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"T6y43C50\">我只希望自己的生理结构变成女的，之后再和女的在一起，不需要男的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1698301925,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我只希望自己的生理结构变成女的，之后再和女的在一起，不需要男的",
+            "extras": "",
+            "favlists_count": 6,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3265314687",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "18 赞同 · 6 收藏 · 53 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 9
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 9,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1698301925,
+            "url": "https://www.zhihu.com/api/v4/answers/3265314687",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 18
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1cfb7bef5ebeaca55d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj22+KoBiDrmabSAZICJQoJMzM4NDYyMTAwEgoxNjk2MTE2MjE0GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-218965ede5fd81874224d2a9ece65160_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-218965ede5fd81874224d2a9ece65160.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_l.png?source=1def8aca",
+                "description": "获得 1000 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_r.png?source=1def8aca"
+              },
+              "follower_count": 310,
+              "gender": 0,
+              "headline": "标签0 / 标签1 / 标签2 / 其他",
+              "id": "f87f9a3651c83b7d37b7848a0dd6ad60",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "k3喵",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/f87f9a3651c83b7d37b7848a0dd6ad60",
+              "url_token": "2-71828182846",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"KX6VThNK\">当然是啊</p><p data-pid=\"ZOtIb6q1\">跨性别不止有mtf和ftm  还有mtx和ftx</p><p data-pid=\"fmQKd4F4\">虽然我不太认同“光谱”那么极端的多样性 但性别 也确实不是二元而已  作为“打破刻板印象”的性少数群体 就更不必拘泥于绝对的男女</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1611532126,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "当然是啊 跨性别不止有mtf和ftm 还有mtx和ftx 虽然我不太认同“光谱”那么极端的多样性 但性别 也确实不是二元而已 作为“打破刻板印象”的性少数群体 就更不必拘泥于绝对的男女",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1696116214",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "11 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1611532126,
+            "url": "https://www.zhihu.com/api/v4/answers/1696116214",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 11
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1c34faed6fbeaca55d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjgm9OpBiDrmabSAZICJQoJMzM4Nzk3NDIwEgoxNjk3OTU5MzkyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ZU-JabEf\">推荐阅读上野千鹤子的《厌女》，这本书也许可以解答为何很多人对“女性特征”感到厌恶或蔑视的疑惑。</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-7e391176433621effef33aaf0b1e1b93_720w.jpg?source=1def8aca\" data-rawwidth=\"1280\" data-rawheight=\"1866\" data-size=\"normal\" data-original-token=\"v2-6c092281621511337d8191c4622ab97f\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-7e391176433621effef33aaf0b1e1b93_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-7e391176433621effef33aaf0b1e1b93_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1280&#39; height=&#39;1866&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1280\" data-rawheight=\"1866\" data-size=\"normal\" data-original-token=\"v2-6c092281621511337d8191c4622ab97f\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-7e391176433621effef33aaf0b1e1b93_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1280\" data-original=\"https://picx.zhimg.com/v2-7e391176433621effef33aaf0b1e1b93_r.jpg?source=1def8aca\" data-actualsrc=\"https://pica.zhimg.com/50/v2-7e391176433621effef33aaf0b1e1b93_720w.jpg?source=1def8aca\"/><figcaption>图片来源于网络</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-199a81d4f11e468a52beb7e9e7dbc530_720w.jpg?source=1def8aca\" data-rawwidth=\"790\" data-rawheight=\"494\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-92974ac6bf83ed268fb7911c144591d9\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-199a81d4f11e468a52beb7e9e7dbc530_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://picx.zhimg.com/v2-199a81d4f11e468a52beb7e9e7dbc530_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;790&#39; height=&#39;494&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"790\" data-rawheight=\"494\" data-size=\"normal\" data-caption=\"\" data-original-token=\"v2-92974ac6bf83ed268fb7911c144591d9\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-199a81d4f11e468a52beb7e9e7dbc530_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"790\" data-original=\"https://picx.zhimg.com/v2-199a81d4f11e468a52beb7e9e7dbc530_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-199a81d4f11e468a52beb7e9e7dbc530_720w.jpg?source=1def8aca\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-d7e834c1a7cf1b96d2b810cc09540ba5_720w.jpg?source=1def8aca\" data-rawwidth=\"790\" data-rawheight=\"336\" data-size=\"normal\" data-original-token=\"v2-6fad3cccf6e71260d7ffce572d5beb1b\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d7e834c1a7cf1b96d2b810cc09540ba5_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"790\" data-original=\"https://picx.zhimg.com/v2-d7e834c1a7cf1b96d2b810cc09540ba5_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;790&#39; height=&#39;336&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"790\" data-rawheight=\"336\" data-size=\"normal\" data-original-token=\"v2-6fad3cccf6e71260d7ffce572d5beb1b\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-d7e834c1a7cf1b96d2b810cc09540ba5_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"790\" data-original=\"https://picx.zhimg.com/v2-d7e834c1a7cf1b96d2b810cc09540ba5_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-d7e834c1a7cf1b96d2b810cc09540ba5_720w.jpg?source=1def8aca\"/><figcaption>图片来源于网络</figcaption></figure><p class=\"ztext-empty-paragraph\"><br/></p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-b76e603c556114aa97c2af769b0b904f_720w.jpg?source=1def8aca\" data-rawwidth=\"1072\" data-rawheight=\"1268\" data-size=\"normal\" data-original-token=\"v2-fe95256ef3eeed7009e106e387d8470e\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-b76e603c556114aa97c2af769b0b904f_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"1072\" data-original=\"https://pic1.zhimg.com/v2-b76e603c556114aa97c2af769b0b904f_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1072&#39; height=&#39;1268&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1072\" data-rawheight=\"1268\" data-size=\"normal\" data-original-token=\"v2-fe95256ef3eeed7009e106e387d8470e\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-b76e603c556114aa97c2af769b0b904f_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1072\" data-original=\"https://pic1.zhimg.com/v2-b76e603c556114aa97c2af769b0b904f_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-b76e603c556114aa97c2af769b0b904f_720w.jpg?source=1def8aca\"/><figcaption>图片来源于网络</figcaption></figure><p data-pid=\"NeAVk4u-\">豆瓣链接：</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://link.zhihu.com/?target=https%3A//m.douban.com/book/subject/25836270/\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://</span><span class=\"visible\">m.douban.com/book/subje</span><span class=\"invisible\">ct/25836270/</span><span class=\"ellipsis\"></span></a><p data-pid=\"-e8LbePu\">不希望自己是女性也不希望自己是男性一点都不奇怪，本质上是对传统社会性别二元对立给现代人们戴上的枷锁的一种反抗意识。这本书中也提到了男性的“自我厌恶”。</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-57383db345704d8a414bced86e2c8f70_720w.jpg?source=1def8aca\" data-rawwidth=\"968\" data-rawheight=\"559\" data-size=\"normal\" data-original-token=\"v2-bfbd91a1f59ee8a143540969ffa1a7ff\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-57383db345704d8a414bced86e2c8f70_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"968\" data-original=\"https://picx.zhimg.com/v2-57383db345704d8a414bced86e2c8f70_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;968&#39; height=&#39;559&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"968\" data-rawheight=\"559\" data-size=\"normal\" data-original-token=\"v2-bfbd91a1f59ee8a143540969ffa1a7ff\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-57383db345704d8a414bced86e2c8f70_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"968\" data-original=\"https://picx.zhimg.com/v2-57383db345704d8a414bced86e2c8f70_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-57383db345704d8a414bced86e2c8f70_720w.jpg?source=1def8aca\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"J23riPss\">最后，本人不赞同任何轻易鼓励他人进行药物或手术变性的行为。性别厌恶（包括对男性身份和女性身份的厌恶）根源在于社会问题，解决方法需要每个人心态上的调整和对传统社会性别秩序的反抗。</p><p class=\"ztext-empty-paragraph\"><br/></p><hr/><p data-pid=\"pGNzLOdz\">以下是关于跨性别的另一篇回答。希望对你有所帮助。</p><a data-draft-node=\"block\" data-draft-type=\"link-card\" href=\"https://www.zhihu.com/question/401462456/answer/1693787566\" class=\"internal\">为什么会有跨性别者的产生呢?</a><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1611617705,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "推荐阅读上野千鹤子的《厌女》，这本书也许可以解答为何很多人对“女性特征”感到厌恶或蔑视的疑惑。 [图片] [图片] [图片] [图片] 豆瓣链接： https://m.douban.com/book/subject/25836270/ 不希望自己是女性也不希望自己是男性一点都不奇怪，本质上是对传统社会性别二元对立给现代人们戴上的枷锁的一种反抗意识。这本书中也提到了男性的“自我厌恶”。 [图片] 最后，本人不赞同任何轻易鼓励他人进行药物或手术变性的行为。性别厌恶（包括对男性身份和女性身份的厌恶）根源在于社会问题…",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1697959392",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "link_card_info": {
+              "https://www.zhihu.com/question/401462456/answer/1693787566": "{\"card_type\":\"card_1\",\"display\":{\"title\":\"为什么会有跨性别者的产生呢?\",\"card_open_url\":\"https://www.zhihu.com/question/401462456/answer/1693787566\",\"desc\":\"55 赞同 · 9 评论 \\u003ca class=\\\"tag type_a\\\"\\u003e回答\\u003c/a\\u003e\",\"content\":\"\\u003ca class=\\\"text normal/bold\\\" data-color=\\\"#444444\\\" data-night-color=\\\"#D3D3D3\\\"\\u003e匿名用户:\\u003c/a\\u003e 感觉知乎上目前存在一个重要的误区：对 transgender 和 transsexual 混为一谈。这两个词都可以被翻译成“跨性别”，其实有着巨大的差别。 只要能够区分这两个词，就能解决知乎上很多人问 “ 自己算不算跨性别” 的问题。Transgender （跨 社会性别）是一个覆盖面很广的伞状术语。指的是对自己的社会性别有所不满，渴望在一定程度上扮演不符合传统社会性别分工的角色。因此，假小子、女装子、同性恋在一定程度上都属于该类。甚至…\",\"bg_type\":\"dark\"},\"source\":{\"content_type\":\"ANSWER\",\"content_id\":\"1693787566\"},\"za_data\":{\"attach_info\":\"\"}}"
+            },
+            "matrix_tips": "5 赞同 · 4 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 1866,
+                  "token": "v2-6c092281621511337d8191c4622ab97f",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-6c092281621511337d8191c4622ab97f_720w.jpg?source=1def8aca",
+                  "width": 1280
+                },
+                {
+                  "height": 494,
+                  "token": "v2-92974ac6bf83ed268fb7911c144591d9",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-92974ac6bf83ed268fb7911c144591d9_720w.jpg?source=1def8aca",
+                  "width": 790
+                },
+                {
+                  "height": 336,
+                  "token": "v2-6fad3cccf6e71260d7ffce572d5beb1b",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-6fad3cccf6e71260d7ffce572d5beb1b_720w.jpg?source=1def8aca",
+                  "width": 790
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1612049922,
+            "url": "https://www.zhihu.com/api/v4/answers/1697959392",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 5
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1cccdcf06fbeaca55d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjJ5Iu0BiDrmabSAZICJQoJMzQyNzgxOTgwEgoxNzE5ODU3NzM3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-a04ba5ea0dcf50af5d1663214c2631dc_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-a04ba5ea0dcf50af5d1663214c2631dc.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_l.png?source=1def8aca",
+                "description": "获得 1000 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_r.png?source=1def8aca"
+              },
+              "follower_count": 354,
+              "gender": 1,
+              "headline": "infoanarchist",
+              "id": "4d93a8914bb62fe77ce739d24089cba1",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "Name No",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4d93a8914bb62fe77ce739d24089cba1",
+              "url_token": "nonamer",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"SIOfe4-t\">queer，非二元性别</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1612682701,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "queer，非二元性别",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1719857737",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "4 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1612682701,
+            "url": "https://www.zhihu.com/api/v4/answers/1719857737",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 4
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1cbc0faf6fbeaca55d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjWj/WUDCDrmabSAZICJQoJNjIzNzMxNDc1EgozMjY1MDg3NDQ2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_l.png?source=1def8aca",
+                "description": "获得 50 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_r.png?source=1def8aca"
+              },
+              "follower_count": 39,
+              "gender": -1,
+              "headline": "",
+              "id": "80195c58ef00d5dc7a4503a941c986fb",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "咸鱼翻身的鱼咸",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/80195c58ef00d5dc7a4503a941c986fb",
+              "url_token": "xian-yu-fan-shen-de-yu-xian",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"CvldQnRy\">跨性别无性，可以考虑手术只切除不再造</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1698291462,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "跨性别无性，可以考虑手术只切除不再造",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3265087446",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1698291462,
+            "url": "https://www.zhihu.com/api/v4/answers/3265087446",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1cb31cec5ebeaca55d",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768583387913149143"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/441027819/feeds?cursor=5087023925e9ba1cb31cec5ebeaca55d&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768583387913149143&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/441027819/feeds?cursor=5087023925e9ba1cb31cec5ebeaca55d&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768583387913149143&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768583422914,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjakaepBiDrmabSAZICJQoJMzM4NjY2MTQxEgoxNjk3MjM3MjEwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-1ae5f682bba916af97aaaddbf193a0f6_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-1ae5f682bba916af97aaaddbf193a0f6.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_l.png?source=1def8aca",
+                "description": "关注 5 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-43f31dcf25c71d80b5808055529663c8_r.png?source=1def8aca"
+              },
+              "follower_count": 5,
+              "gender": -1,
+              "headline": "",
+              "id": "eb0481efe55eeb982c23e16130197572",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "用户7479688913",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/eb0481efe55eeb982c23e16130197572",
+              "url_token": "yong-hu-7479688913",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"tEv1QnAT\">怎么说？具体问题具体分析，你这也不好判断？也许你也和包括我在内的很多人一样，因为网上性别对立，就对恋爱，结婚不感兴趣，但性别障碍，还是建议你多想想，你这有种了解这个就想这个一样（例如现在部分同性恋。）。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1611570739,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "怎么说？具体问题具体分析，你这也不好判断？也许你也和包括我在内的很多人一样，因为网上性别对立，就对恋爱，结婚不感兴趣，但性别障碍，还是建议你多想想，你这有种了解这个就想这个一样（例如现在部分同性恋。）。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1697237210",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1611570739,
+            "url": "https://www.zhihu.com/api/v4/answers/1697237210",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1c3dddee6fbeaca55d",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjbz5aVDCDrmabSAZICJQoJNjIzODMxMTczEgozMjY1NjM2MzE1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-99397dc1c55c704d439420f188816219_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-99397dc1c55c704d439420f188816219.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 180,
+              "gender": -1,
+              "headline": "欣然接受本能和原罪",
+              "id": "2f5f6c2b99f2eeec3972d9da1ce8f6a9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "无名",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/2f5f6c2b99f2eeec3972d9da1ce8f6a9",
+              "url_token": "qi-hao-rui-33",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"TxUWzFE0\">那么你享受哪个性别的权益呢？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1698315508,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "那么你享受哪个性别的权益呢？",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3265636315",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1611503534,
+              "id": "441027819",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "不希望自己是女性也不想自己是男性，希望自己是一个无性别的人，这是性别障碍吗?",
+              "type": "question",
+              "updated_time": 1611503534,
+              "url": "https://www.zhihu.com/api/v4/questions/441027819"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1698315508,
+            "url": "https://www.zhihu.com/api/v4/answers/3265636315",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5087023925e9ba1c2597ef5ebeaca55d",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768583387913149143"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/441027819/feeds?cursor=5087023925e9ba1c2597ef5ebeaca55d&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768583387913149143&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

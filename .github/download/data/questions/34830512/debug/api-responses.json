@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/34830512/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586547496,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/34830512/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/34830512/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别究竟是怎样被决定的？",
+          "question_type": "normal",
+          "created": 1518946219,
+          "updated_time": 1519035391,
+          "url": "https://www.zhihu.com/api/v4/questions/267306632",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "267306632"
+        },
+        {
+          "type": "question",
+          "title": "如果人类的性别按年交替，比如今年是女性，明年是男性，后年又是女性，世界会变成什么样？",
+          "question_type": "normal",
+          "created": 1588784632,
+          "updated_time": 1609290515,
+          "url": "https://www.zhihu.com/api/v4/questions/393106243",
+          "answer_count": 25,
+          "comment_count": 0,
+          "follower_count": 44,
+          "relationship": {},
+          "id": "393106243"
+        },
+        {
+          "type": "question",
+          "title": "随着人类的进化，性别会不会淡化或者变得模糊?",
+          "question_type": "normal",
+          "created": 1697987159,
+          "updated_time": 1697987159,
+          "url": "https://www.zhihu.com/api/v4/questions/627319169",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "627319169"
+        }
+      ]
+    }
+  }
+]

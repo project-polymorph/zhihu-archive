@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/529426964/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768587022594,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/529426964/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/529426964/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "按照性别把人分类到底有什么必要？而且现在性别越来越多，应该废除性别这个说法了吧？",
+          "question_type": "normal",
+          "created": 1672270824,
+          "updated_time": 1672270824,
+          "url": "https://www.zhihu.com/api/v4/questions/575357657",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "575357657"
+        },
+        {
+          "type": "question",
+          "title": "性别是进化的必然还是偶然？",
+          "question_type": "normal",
+          "created": 1445080148,
+          "updated_time": 1445080148,
+          "url": "https://www.zhihu.com/api/v4/questions/36594623",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "36594623"
+        },
+        {
+          "type": "question",
+          "title": "性别是如何分化的？",
+          "question_type": "normal",
+          "created": 1548303362,
+          "updated_time": 1548303362,
+          "url": "https://www.zhihu.com/api/v4/questions/310116476",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 48,
+          "relationship": {},
+          "id": "310116476"
+        },
+        {
+          "type": "question",
+          "title": "人类如果没有性别,人类社会会怎么样?",
+          "question_type": "normal",
+          "created": 1407401255,
+          "updated_time": 1407401255,
+          "url": "https://www.zhihu.com/api/v4/questions/24768157",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "24768157"
+        }
+      ]
+    }
+  }
+]

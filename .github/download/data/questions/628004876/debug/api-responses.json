@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/628004876/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768583015180,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/628004876/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/628004876/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有个陌生女人敲门，我家五岁的孩子没有犹豫就给开了门，我应该怎么教育他看？",
+          "question_type": "normal",
+          "created": 1549781039,
+          "updated_time": 1549781039,
+          "url": "https://www.zhihu.com/api/v4/questions/311737972",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "311737972"
+        },
+        {
+          "type": "question",
+          "title": "#有小孩老是恶作剧不厌其烦的敲门，吵的一家人不胜其烦怎么办？#』?",
+          "question_type": "normal",
+          "created": 1729590536,
+          "updated_time": 1729590536,
+          "url": "https://www.zhihu.com/api/v4/questions/1707412150",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1707412150"
+        },
+        {
+          "type": "question",
+          "title": "我老是被隔壁小孩敲门，怎么办？",
+          "question_type": "normal",
+          "created": 1706433108,
+          "updated_time": 1706433108,
+          "url": "https://www.zhihu.com/api/v4/questions/641679393",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "641679393"
+        }
+      ]
+    }
+  }
+]

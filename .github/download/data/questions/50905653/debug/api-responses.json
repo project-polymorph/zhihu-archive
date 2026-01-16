@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/50905653/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585888971,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/50905653/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/50905653/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果明天人类只能有一个性别，你认为那个性别留下来好？",
+          "question_type": "normal",
+          "created": 1502616394,
+          "updated_time": 1502616394,
+          "url": "https://www.zhihu.com/api/v4/questions/63846178",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "63846178"
+        },
+        {
+          "type": "question",
+          "title": "如果一觉醒来，全世界人都换了性别，会怎么样?",
+          "question_type": "normal",
+          "created": 1580202021,
+          "updated_time": 1580202021,
+          "url": "https://www.zhihu.com/api/v4/questions/368298687",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "368298687"
+        },
+        {
+          "type": "question",
+          "title": "假如明天你就会转换性别，那么今天你会做什么？",
+          "question_type": "normal",
+          "created": 1615455221,
+          "updated_time": 1615455221,
+          "url": "https://www.zhihu.com/api/v4/questions/448793472",
+          "answer_count": 29,
+          "comment_count": 0,
+          "follower_count": 40,
+          "relationship": {},
+          "id": "448793472"
+        },
+        {
+          "type": "question",
+          "title": "如果现在换个性别，你会追求自己吗？",
+          "question_type": "normal",
+          "created": 1537094582,
+          "updated_time": 1537094582,
+          "url": "https://www.zhihu.com/api/v4/questions/294900508",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "294900508"
+        }
+      ]
+    }
+  }
+]

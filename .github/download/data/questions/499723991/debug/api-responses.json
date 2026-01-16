@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/499723991/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585286606,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/499723991/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/499723991/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别刻板印象是怎么形成的？",
+          "question_type": "normal",
+          "created": 1540104649,
+          "updated_time": 1540104750,
+          "url": "https://www.zhihu.com/api/v4/questions/299410630",
+          "answer_count": 5,
+          "comment_count": 1,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "299410630"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象原因？",
+          "question_type": "normal",
+          "created": 1528601716,
+          "updated_time": 1528601716,
+          "url": "https://www.zhihu.com/api/v4/questions/280470404",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "280470404"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象真的存在吗？",
+          "question_type": "normal",
+          "created": 1682507111,
+          "updated_time": 1682507111,
+          "url": "https://www.zhihu.com/api/v4/questions/597925295",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "597925295"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象已经越来越过时了吗？",
+          "question_type": "normal",
+          "created": 1604042372,
+          "updated_time": 1604042372,
+          "url": "https://www.zhihu.com/api/v4/questions/428042376",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "428042376"
+        },
+        {
+          "type": "question",
+          "title": "在不同的文化背景下，人们的性别刻板印象存在差异吗？",
+          "question_type": "normal",
+          "created": 1460941776,
+          "updated_time": 1460941776,
+          "url": "https://www.zhihu.com/api/v4/questions/43493401",
+          "answer_count": 22,
+          "comment_count": 1,
+          "follower_count": 213,
+          "relationship": {},
+          "id": "43493401"
+        }
+      ]
+    }
+  }
+]

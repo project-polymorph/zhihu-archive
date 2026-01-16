@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/332239334/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768584697925,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/332239334/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/332239334/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么有的女性一边说着性别平等一边又说你是男的就应该xxx？",
+          "question_type": "normal",
+          "created": 1529685055,
+          "updated_time": 1529685055,
+          "url": "https://www.zhihu.com/api/v4/questions/282066823",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "282066823"
+        },
+        {
+          "type": "question",
+          "title": "性别平等是否意味着男性不该帮助女性？",
+          "question_type": "normal",
+          "created": 1499965580,
+          "updated_time": 1499965580,
+          "url": "https://www.zhihu.com/api/v4/questions/62408078",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "62408078"
+        }
+      ]
+    }
+  }
+]

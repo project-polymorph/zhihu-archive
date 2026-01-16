@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/267306632/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585930365,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/267306632/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/267306632/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人的性别是如何决定的？",
+          "question_type": "normal",
+          "created": 1401191524,
+          "updated_time": 1401361063,
+          "url": "https://www.zhihu.com/api/v4/questions/23932343",
+          "answer_count": 16,
+          "comment_count": 4,
+          "follower_count": 264,
+          "relationship": {},
+          "id": "23932343"
+        },
+        {
+          "type": "question",
+          "title": "性别究竟是什么？",
+          "question_type": "normal",
+          "created": 1554641506,
+          "updated_time": 1554641506,
+          "url": "https://www.zhihu.com/api/v4/questions/319168975",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "319168975"
+        },
+        {
+          "type": "question",
+          "title": "人的性别是怎样决定的？",
+          "question_type": "normal",
+          "created": 1504670341,
+          "updated_time": 1504670341,
+          "url": "https://www.zhihu.com/api/v4/questions/64967606",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "64967606"
+        },
+        {
+          "type": "question",
+          "title": "一个人的性别到底是按照心理决定，还是生理决定？",
+          "question_type": "normal",
+          "created": 1514520452,
+          "updated_time": 1514534545,
+          "url": "https://www.zhihu.com/api/v4/questions/264792721",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "264792721"
+        },
+        {
+          "type": "question",
+          "title": "如果能决定自己的性别，你想如何决定？",
+          "question_type": "normal",
+          "created": 1680826377,
+          "updated_time": 1680826377,
+          "url": "https://www.zhihu.com/api/v4/questions/594146537",
+          "answer_count": 54,
+          "comment_count": 0,
+          "follower_count": 60,
+          "relationship": {},
+          "id": "594146537"
+        }
+      ]
+    }
+  }
+]

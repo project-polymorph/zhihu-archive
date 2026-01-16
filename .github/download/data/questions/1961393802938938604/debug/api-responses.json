@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1961393802938938604/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582866925,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1961393802938938604/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1961393802938938604/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别认同、性取向和性别表达之间有什么区别和联系？我一直有点分不清。？",
+          "question_type": "normal",
+          "created": 1758771863,
+          "updated_time": 1758771863,
+          "url": "https://www.zhihu.com/api/v4/questions/1954511537348796519",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "1954511537348796519"
+        },
+        {
+          "type": "question",
+          "title": "性别认同和性取向是否经过性别规训而获得？",
+          "question_type": "normal",
+          "created": 1681139427,
+          "updated_time": 1756103730,
+          "url": "https://www.zhihu.com/api/v4/questions/594832191",
+          "answer_count": 115,
+          "comment_count": 4,
+          "follower_count": 203,
+          "relationship": {},
+          "id": "594832191"
+        }
+      ]
+    }
+  }
+]

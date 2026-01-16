@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/348511039/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585250848,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/348511039/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/348511039/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果换了性别，大家会喜欢自己这样的人吗?",
+          "question_type": "normal",
+          "created": 1683337401,
+          "updated_time": 1683337401,
+          "url": "https://www.zhihu.com/api/v4/questions/599368370",
+          "answer_count": 27,
+          "comment_count": 0,
+          "follower_count": 32,
+          "relationship": {},
+          "id": "599368370"
+        },
+        {
+          "type": "question",
+          "title": "你们有没有被人错过性别？",
+          "question_type": "normal",
+          "created": 1557141876,
+          "updated_time": 1557141876,
+          "url": "https://www.zhihu.com/api/v4/questions/323185158",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "323185158"
+        },
+        {
+          "type": "question",
+          "title": "什么时候你突然认为你应该是另一个性别？",
+          "question_type": "normal",
+          "created": 1585293782,
+          "updated_time": 1585384603,
+          "url": "https://www.zhihu.com/api/v4/questions/382950078",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "382950078"
+        }
+      ]
+    }
+  }
+]

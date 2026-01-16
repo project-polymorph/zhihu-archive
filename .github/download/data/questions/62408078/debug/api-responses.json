@@ -1,0 +1,226 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/62408078/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585164764,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/62408078/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/62408078/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别平等真的存在吗？",
+          "question_type": "normal",
+          "created": 1569671360,
+          "updated_time": 1569671360,
+          "url": "https://www.zhihu.com/api/v4/questions/348262090",
+          "answer_count": 60,
+          "comment_count": 0,
+          "follower_count": 60,
+          "relationship": {},
+          "id": "348262090"
+        },
+        {
+          "type": "question",
+          "title": "你认为性别平等能实现吗？",
+          "question_type": "normal",
+          "created": 1573048517,
+          "updated_time": 1573048517,
+          "url": "https://www.zhihu.com/api/v4/questions/354511463",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "354511463"
+        },
+        {
+          "type": "question",
+          "title": "性别平等和性别平权的区别和联系是什么？",
+          "question_type": "normal",
+          "created": 1725356672,
+          "updated_time": 1725356672,
+          "url": "https://www.zhihu.com/api/v4/questions/666104067",
+          "answer_count": 1,
+          "comment_count": 2,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "666104067"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/62408078/feeds?cursor=6e30c813b82dd66fe133af6ee057b603&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768585161413785801&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768585164981,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxjDm4THASCOi+EdkgIkCgkxMDU5NjA1NjISCTQxNzQwMjMwNxgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-f4d80dbd02eb7e371d95d03e83024f58_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-f4d80dbd02eb7e371d95d03e83024f58.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-6da117205088242db9cd82e48b28640d_l.png?source=1def8aca",
+                "description": "被 1000 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-6da117205088242db9cd82e48b28640d_r.png?source=1def8aca"
+              },
+              "follower_count": 3026,
+              "gender": 0,
+              "headline": "平权 性教育&amp;性别教育 相关",
+              "id": "a16d64ed5530ec2930824af14c352512",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "棱镜光影",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/a16d64ed5530ec2930824af14c352512",
+              "url_token": "leng-jing-guang-ying",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"eNMT5wAO\">看到这个标题时，让我想起了Kimmel曾在ted上发表的演讲《为何性别平等对两性都有利》，他其中提到了个鲜明突出的观点</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"6YJm7BZz\">「鼓励男性支持性别平等的第一步，是要他们意识到他们正在享受的特权」</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"Yn8cxVBQ\">「因为如果我们不知道男性的优越感从何而来，我们就永远无法理解，为什么那么多男人都反对性别平等。」</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"3s1qUvpi\">在这个问题上，我觉得题主更需要明白我们追求的性别的平等究竟只的是什么。Chinmamanda Ngozi Adichie在Daily show上说：</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"va57-cbQ\">「有人问我：“你为什么偏要自称为一个女权主义者呢？你为什么不能就说是人文主义者，或者平权主义者呢？——可使这不就是女权吗？女权本来就是为了所有人的公正。但是我们必须要把问题讲清楚：问题就是。长久以来女性是被排除的群体。所以，我是一个女权主义。」</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"p39Js-FP\">女性是在努力追回本属于自己的权利，努力找回本应属于自己的机会，努力与那些享受特权却又不自知的男性追寻属于自己的公正与公平。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"rlCC5ZWt\">而对于题主的发问：“性别平等是否意味着男性不应该帮助女性？“</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"mCBKwmVP\">这样的问题与，男性应不应该帮助男性？女性应不应该帮助女性？我们彼此应该互相帮助吗？等类似这样的问题又多大的区别？乐于助人是人道德上的一种优秀品质，不应该划分至性别平等下进行讨论。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"4V50GZok\">当然，换一种思维角度。在特殊的情境，男性是否应该帮助女性这个问题，需要一定的分类。这种情况主要取决于女性。我们不可否认的是，在社会上，存在自尊自立，努力捍卫自己权利的女性，同时也存在着妄想侥幸利用女性优势从男性身上获得一定利益的人（比如说邪教教主ayawawa）。在体力活动中，男性优势确实远大于女性，但这并不意味着女性完全没有基本的力量去做好自己的事。所以，在这样的情况下，男性需要有个判断力。在这件事上，女性究竟是否有意愿自己完成，如果她认为自己有能力完成，那么在发展比较艰难的情况下，施于援手这是非常正常的行为。但如果女性完全没有评测自己是否有完成的能力，就一味用撒娇或者讨好的话来获取别人的免费劳力，这是非常不可取的。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"gacoK4fJ\">如何让男性支持性别平等，我想应该从小做起。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"duailUch\">无意在纽约时报上看到了这篇文章《how<br/>to raise a feminist son》，有兴趣可以点开链接查看：</p><a href=\"https://link.zhihu.com/?target=https%3A//www.nytimes.com/2017/06/02/upshot/how-to-raise-a-feminist-son.html%3F_r%3D0\" data-draft-node=\"block\" data-draft-type=\"link-card\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"><span class=\"invisible\">https://www.</span><span class=\"visible\">nytimes.com/2017/06/02/</span><span class=\"invisible\">upshot/how-to-raise-a-feminist-son.html?_r=0</span><span class=\"ellipsis\"></span></a><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"1WNA8OEo\">大家觉得有帮助的话点个赞或者关注支持一下哦~</p><p data-pid=\"OIzTNlz0\"><b>也可以微信公众号搜索“棱镜光影”关注一下我们定期更新的文章哦~</b></p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1528957895,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "看到这个标题时，让我想起了Kimmel曾在ted上发表的演讲《为何性别平等对两性都有利》，他其中提到了个鲜明突出的观点 「鼓励男性支持性别平等的第一步，是要他们意识到他们正在享受的特权」 「因为如果我们不知道男性的优越感从何而来，我们就永远无法理解，为什么那么多男人都反对性别平等。」 在这个问题上，我觉得题主更需要明白我们追求的性别的平等究竟只的是什么。Chinmamanda Ngozi Adichie在Daily show上说： 「有人问我…",
+            "extras": "",
+            "favlists_count": 16,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "417402307",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "25 赞同 · 16 收藏 · 4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1499965580,
+              "id": "62408078",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别平等是否意味着男性不该帮助女性？",
+              "type": "question",
+              "updated_time": 1499965580,
+              "url": "https://www.zhihu.com/api/v4/questions/62408078"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 6,
+                "like_count": 7
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 7,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1547553698,
+            "url": "https://www.zhihu.com/api/v4/answers/417402307",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 25
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "6e30c813b82dd66f556d9d66e057b603",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768585161413785801"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/62408078/feeds?cursor=6e30c813b82dd66f556d9d66e057b603&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768585161413785801&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

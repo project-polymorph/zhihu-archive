@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/31952423/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585514389,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/31952423/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/31952423/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别意识很淡漠的人是什么样的？",
+          "question_type": "normal",
+          "created": 1621252992,
+          "updated_time": 1621252992,
+          "url": "https://www.zhihu.com/api/v4/questions/459980152",
+          "answer_count": 17,
+          "comment_count": 0,
+          "follower_count": 66,
+          "relationship": {},
+          "id": "459980152"
+        },
+        {
+          "type": "question",
+          "title": "性别意识淡漠是一种什么体验？",
+          "question_type": "normal",
+          "created": 1537362085,
+          "updated_time": 1537362147,
+          "url": "https://www.zhihu.com/api/v4/questions/295321509",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "295321509"
+        }
+      ]
+    }
+  }
+]

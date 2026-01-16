@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/345743620/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586505643,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/345743620/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/345743620/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "请问如果一出生性别就是既定的，那么性别是不是绝对静止的？?",
+          "question_type": "normal",
+          "created": 1568176266,
+          "updated_time": 1568176266,
+          "url": "https://www.zhihu.com/api/v4/questions/345482736",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "345482736"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么不可以在成年之后根据各自意愿分化性别?（不是改变是分化）？",
+          "question_type": "normal",
+          "created": 1626200906,
+          "updated_time": 1626407768,
+          "url": "https://www.zhihu.com/api/v4/questions/472099285",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "472099285"
+        },
+        {
+          "type": "question",
+          "title": "有没有可能人类未来不需要性别?比如你看看解释啊？",
+          "question_type": "normal",
+          "created": 1575168083,
+          "updated_time": 1575606945,
+          "url": "https://www.zhihu.com/api/v4/questions/358689278",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "358689278"
+        },
+        {
+          "type": "question",
+          "title": "如果每个人出生前有选择性别的机会，你选择男生还是女生，为什么？",
+          "question_type": "normal",
+          "created": 1520308009,
+          "updated_time": 1520310135,
+          "url": "https://www.zhihu.com/api/v4/questions/268276579",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "268276579"
+        }
+      ]
+    }
+  }
+]

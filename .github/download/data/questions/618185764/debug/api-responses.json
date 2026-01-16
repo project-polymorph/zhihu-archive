@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/618185764/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586070194,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/618185764/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/618185764/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类为什么会有性别之分？",
+          "question_type": "normal",
+          "created": 1540828899,
+          "updated_time": 1540828899,
+          "url": "https://www.zhihu.com/api/v4/questions/300536306",
+          "answer_count": 2,
+          "comment_count": 4,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "300536306"
+        },
+        {
+          "type": "question",
+          "title": "为什么会有性别之分",
+          "question_type": "normal",
+          "created": 1481990077,
+          "updated_time": 1481990077,
+          "url": "https://www.zhihu.com/api/v4/questions/53749210",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "53749210"
+        }
+      ]
+    }
+  }
+]

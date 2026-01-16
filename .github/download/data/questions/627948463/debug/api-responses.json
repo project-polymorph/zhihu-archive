@@ -1,0 +1,889 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/627948463/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585088493,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/627948463/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/627948463/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你喜爱自己的性别吗？为什么？",
+          "question_type": "normal",
+          "created": 1604580966,
+          "updated_time": 1604580966,
+          "url": "https://www.zhihu.com/api/v4/questions/428965724",
+          "answer_count": 138,
+          "comment_count": 0,
+          "follower_count": 238,
+          "relationship": {},
+          "id": "428965724"
+        },
+        {
+          "type": "question",
+          "title": "男女性别之间的区别让我很困惑该怎么办？",
+          "question_type": "normal",
+          "created": 1749854790,
+          "updated_time": 1749854790,
+          "url": "https://www.zhihu.com/api/v4/questions/1917110622950252655",
+          "answer_count": 7,
+          "comment_count": 5,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "1917110622950252655"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/627948463/feeds?cursor=f1e4d8479dc249702a9d73ac93442668&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768585085344594612&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768585088627,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiE0ei1DCCv97arApICJQoJNjM2Mjc2ODEyEgozMzM0MDg4ODM2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-9572b4101f4cce10472201a84e58e5de_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-9572b4101f4cce10472201a84e58e5de.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-8fd9ecf5c5bdc63538431780023863a7_l.png?source=1def8aca",
+                "description": "受邀回答 15 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-8fd9ecf5c5bdc63538431780023863a7_r.png?source=1def8aca"
+              },
+              "follower_count": 22,
+              "gender": -1,
+              "headline": "",
+              "id": "4dbd99794eee91525a4d56dac9184b99",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "我想你",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4dbd99794eee91525a4d56dac9184b99",
+              "url_token": "yuan-ren-83-97",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"3TJCQAoC\">不喜欢，但很难改变什么，因为很多时候你可能无法承受改变带来的压力：你的责任、地位、身份、自己爱你的人，让你很难下决心去做改变，当然还有就是钱本身的事，然后还有健康问题。每个人的个性、出身和生活方式不一样，这这或许只是我个人的见解，但我想如我这样的人也很多。特别是独生子女，哪些爱自己父母的人们。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1703168877,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/2654d98fa9c98cb843c066e3e5965ba7",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @森系的萌妹纸",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "不喜欢，但很难改变什么，因为很多时候你可能无法承受改变带来的压力：你的责任、地位、身份、自己爱你的人，让你很难下决心去做改变，当然还有就是钱本身的事，然后还有健康问题。每个人的个性、出身和生活方式不一样，这这或许只是我个人的见解，但我想如我这样的人也很多。特别是独生子女，哪些爱自己父母的人们。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3334088836",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1698325599,
+              "id": "627948463",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "想问广大女性朋友们，你们喜欢自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1698325599,
+              "url": "https://www.zhihu.com/api/v4/questions/627948463"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1703168877,
+            "url": "https://www.zhihu.com/api/v4/answers/3334088836",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f1e4d8479dc2497051a9a8ac93442668",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiyxcSNDSCv97arApICJQoJNjY5NzE1NTEyEgozNTE4MDQ2ODk4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-8ad3d9f84724cb020a297138fcc89e82_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-8ad3d9f84724cb020a297138fcc89e82.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-666eaa783c5874dc9ce143ca5d9fb1fe_l.png?source=1def8aca",
+                "description": "回答 20 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-666eaa783c5874dc9ce143ca5d9fb1fe_r.png?source=1def8aca"
+              },
+              "follower_count": 24,
+              "gender": 0,
+              "headline": "",
+              "id": "0031421023f6b4569ad390c94a1ada82",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "小小",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0031421023f6b4569ad390c94a1ada82",
+              "url_token": "7-71-12-55-86",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"nVQslGrI\">不知道别人怎么想的，反正我特别喜欢自己是女生这个性别.(好吧...除了来姨妈的时候，疼的在床上打滚的时候，还有在网上看到的一些什么职场歧视，又或者是,恐婚恐孕的这种言论，再或者是女生的安全问题，婆媳关系，自由问题，舆论问题......真的能把我吓到,就在想，真的那么不美好吗? 有时真的想让自己成为男孩，但是吧，如果真成了男孩，我是接受不了的，因为我觉得一周时间还是可以接受的，再说了，以后的事情还说不定呢,说不定我嫁了一个对我很好，或者是我没有结婚,都不错,就凭我这个社交能力，婆婆还不是拿捏的死死的，哈哈哈，开个玩笑  我不是讨厌男生，我只是单纯喜欢女生这个性别，男生我也喜欢).</p><p data-pid=\"yQONvZjp\">并且我喜欢当女生，原因还有，是因为我很喜欢女生的身材，一直在练自己的身材，我的年龄可能有点小吧，十几岁左右，但是我个人觉得小时候把身材练好了，长大就能把事情放在别的事情上，不用把事情再放在练身材的身上.（我168.5的身高，真的很适合当女生，而且骨缝还没有闭合，预测身高173.5）爽啊！太爽了！</p><p data-pid=\"Df9WbMn0\">在谈到外貌上，男生外貌，我个人很喜欢，但是要是变成了我的脸，可能是不适应吧！反正不行.</p><p data-pid=\"3Akx86gI\">我家条件我个人觉得就是中产偏上，我不是北上广，我是山东青岛的，但是山东青岛，大家不要看山东，就光凭我个人了解，青岛应该是做到了真正的男女平等，家长们生男生女都无所谓，就比如说我妈妈生了一个男孩，生了一个女孩，女孩是我，男孩是我哥哥，所以我们家里没有重男轻女的思想,我还是比较幸运的.</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.gif?source=1def8aca\" data-rawwidth=\"240\" data-rawheight=\"240\" data-size=\"normal\" data-original-token=\"v2-228b8f1708b1e1beb59859df7e9fd0ce\" data-thumbnail=\"https://pica.zhimg.com/50/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"240\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;240&#39; height=&#39;240&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"240\" data-rawheight=\"240\" data-size=\"normal\" data-original-token=\"v2-228b8f1708b1e1beb59859df7e9fd0ce\" data-thumbnail=\"https://pica.zhimg.com/50/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"240\" data-actualsrc=\"https://pica.zhimg.com/50/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.gif?source=1def8aca\"/></figure><p data-pid=\"hKIJbiGt\">虽然我个人不太喜欢穿裙子，但我爸倒是经常给我买裙子，说女孩穿裙子特别好看，像小公主一样(可能不是因为不喜欢穿裙子吧，是因为以前的时候身材有点胖，穿裙子有点不太好看，但现在还好，现在减肥了)裤子裙子我觉得都一样好看，但我还是比较喜欢穿显腿长的裤子.</p><p data-pid=\"mfyAoRQS\">再加上可能是性格问题吧，我的性格就是外向，加上特别容易共情，外向的原因可能是我从小比较自信吧，容易共情，应该是与生俱来的，个人觉得男生很少会共情，所以男生有这种性格是很好加分项呀，但是我现在的体验感是觉得这个性格加上女生也是一个很不错的体验.</p><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-13f82dacb043341c8a1eeee04d89018d_720w.gif?source=1def8aca\" data-rawwidth=\"240\" data-rawheight=\"240\" data-size=\"normal\" data-original-token=\"v2-13f82dacb043341c8a1eeee04d89018d\" data-thumbnail=\"https://picx.zhimg.com/50/v2-13f82dacb043341c8a1eeee04d89018d_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-13f82dacb043341c8a1eeee04d89018d_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"240\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;240&#39; height=&#39;240&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"240\" data-rawheight=\"240\" data-size=\"normal\" data-original-token=\"v2-13f82dacb043341c8a1eeee04d89018d\" data-thumbnail=\"https://picx.zhimg.com/50/v2-13f82dacb043341c8a1eeee04d89018d_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-13f82dacb043341c8a1eeee04d89018d_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"240\" data-actualsrc=\"https://pica.zhimg.com/50/v2-13f82dacb043341c8a1eeee04d89018d_720w.gif?source=1def8aca\"/></figure><p data-pid=\"qPlKVYiU\">虽然不知道男生是不是也这样,但我觉得我妈宠我一点,这个是能感知到的,我爸常年出差,但是回来也会给我哥哥还有我带礼物，所以我爸爸对我们也是一视同仁的，除了有时候说女儿像小棉袄一样，但是我爸对我哥也一样好，他会陪我哥去打篮球.也喜欢跟我哥一起聊体育和军事之类的方面的问题.(其实我也喜欢，但是我不喜欢跟别人聊,比较喜欢自己的建议).</p><p data-pid=\"ttiURfvg\">而且兄妹关系超级好的好吧,哥哥宠着我,把他得到的奖励,分给我好多,有时候也会教我在世间上如何生存下去，只是说真的，有时候真的很想打他，虽然我不会打,而且说不定未来的嫂子也很喜欢我呢?真的太幸福了！！！</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.gif?source=1def8aca\" data-rawwidth=\"300\" data-rawheight=\"236\" data-size=\"normal\" data-original-token=\"v2-3b757c0f7ca2c3cd57d93d41077cc0c0\" data-thumbnail=\"https://pica.zhimg.com/50/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"300\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;300&#39; height=&#39;236&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"300\" data-rawheight=\"236\" data-size=\"normal\" data-original-token=\"v2-3b757c0f7ca2c3cd57d93d41077cc0c0\" data-thumbnail=\"https://pica.zhimg.com/50/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"300\" data-actualsrc=\"https://picx.zhimg.com/50/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.gif?source=1def8aca\"/></figure><p data-pid=\"_IZoA-jq\">我对男孩穷养女孩富养的这种话特别不支持,因为穷养的话，难道不会让小孩丧失自信心吗？不太了解，有专业人士回答一下吗？但我爸妈倒是喜欢,喜欢给我哥哥磨练意志，可能是因为想让我哥继承公司吧，哈哈哈！</p><p data-pid=\"q9ZQ6bhd\">在教育的这个方面，我爸妈对我哥还有我的期望一样，让我们上国际学校，希望我们考上好大学，自己买房，自给自足，说真的，可能是因为我爸妈的影响，每天放学的时候,坐在车里打开窗户,把头伸出去闻一闻新鲜空气,还有微风吹过,有时候是狂风，哈哈,看到街边的灯红酒绿，高楼大厦，真的有一种现实和未来都很美好的感觉，有种特别想奋斗努力的劲,而且晚上的空气很好闻,每天那个时候是最开心的时候.网上说变成女孩就可以嗯，不买房，不奋斗，不拼搏，直接嫁人就好的那种言论我特别不喜欢，就比如说你变成了女孩，你会想要这样平庸一生吗?</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-d01dd9493cccd6997ad87b4ec8f1e8b3_720w.jpg?source=1def8aca\" data-rawwidth=\"940\" data-rawheight=\"940\" data-size=\"normal\" data-original-token=\"v2-6bf20bb0c62cfcbee942a77d38d504f4\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2cc39cb7d0be6036329800fb7282b913_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"940\" data-original=\"https://pic1.zhimg.com/v2-d01dd9493cccd6997ad87b4ec8f1e8b3_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;940&#39; height=&#39;940&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"940\" data-rawheight=\"940\" data-size=\"normal\" data-original-token=\"v2-6bf20bb0c62cfcbee942a77d38d504f4\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-2cc39cb7d0be6036329800fb7282b913_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"940\" data-original=\"https://pic1.zhimg.com/v2-d01dd9493cccd6997ad87b4ec8f1e8b3_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-d01dd9493cccd6997ad87b4ec8f1e8b3_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"TKfIfLbJ\">人际关系，在我看来，我的人际关系不错，大家没有，因为我是一个女孩，不跟我玩，我感觉一个人喜欢跟另外一个人玩，应该是因为性格和共同话题吧，跟性别我感觉没有很大关系，我哥跟我性格差不多，但他自己一个人呆的时候比较内向（我哥哥也有好朋友，但是我没接触过，他们比较喜欢玩游戏，而且玩的游戏都不是我喜欢的，所以共同话题没有，但是我也会跟我哥跟他们聊会天，但我可能只能插上几句话）而我自己一个人呆的时候还是想找一个人陪我聊天，聊一些无关紧要的，或者是未来.（还可以跟漂亮小姐姐贴贴，我身边的女生身上都很香，不知道为什么，估计喷了香水吧，有人说我身上有股小孩的味道，哈哈哈，什么是小孩味？男生身上也很香，我以前学校的男生身上有股商场里的香味加上玫瑰香的味道，可能跟他妈妈待久了吧，因为他妈妈身上也有这种味道，现在班里的男生，好像用的都是一样的香水一样，都是那种草莓茉莉花香，说实话，闻久了很难闻，而且我们班一大半男生的是脚上有脚臭，不是我闻到的，是他们亲口说的，女生我不清楚，有的话也不好意思说吧，我们班人很少，就14个人，每个人的底细我都非常清楚的，嘻嘻）.</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-a2a8a574a689313495f1ef1d93b2a5b0_720w.gif?source=1def8aca\" data-rawwidth=\"112\" data-rawheight=\"112\" data-size=\"normal\" data-original-token=\"v2-a2a8a574a689313495f1ef1d93b2a5b0\" data-thumbnail=\"https://picx.zhimg.com/50/v2-a2a8a574a689313495f1ef1d93b2a5b0_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-a2a8a574a689313495f1ef1d93b2a5b0_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"112\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;112&#39; height=&#39;112&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"112\" data-rawheight=\"112\" data-size=\"normal\" data-original-token=\"v2-a2a8a574a689313495f1ef1d93b2a5b0\" data-thumbnail=\"https://picx.zhimg.com/50/v2-a2a8a574a689313495f1ef1d93b2a5b0_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-a2a8a574a689313495f1ef1d93b2a5b0_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"112\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-a2a8a574a689313495f1ef1d93b2a5b0_720w.gif?source=1def8aca\"/></figure><p data-pid=\"7HudulME\">还有就是我的爱好，我从小就喜欢公主，手帐文具，洛丽塔，JK（小时候经常缠我妈妈，想让她给我买一大堆放在房间里，但是妈妈就给我买了几件，说不常穿，所以给我买了一大堆裤子，但是裤子我也喜欢，所以也没嫌弃过Ծ‸Ծ）画画呀，唱歌（我个人觉得男音唱歌太沉闷了，不太喜欢，我喜欢，可以有攻击性，又可以婉转流畅，还可以，很甜美，唯一的缺点就是不能唱男音ԅ(¯ㅂ¯ԅ)而且唱高音也特别方便，低音男声，方便点吧）很多人说女生喜欢化妆，可能我是少部分吧，我不太喜欢化妆，化了妆，感觉很不自在，但确实，如果画的好，画的正确的话，确实会比以前好看很多(化妆品有点贵啊，我买了化妆品，一般的零用钱没了(｡•ˇ‸ˇ•｡))但是会有点假，我比较喜欢原生态，水光肌|ω・)但军事，政治科学，宇宙探索，人类极限，人类未来，科幻小说（我也喜欢看言情小说、大女主小说、仙侠小说）玄学之类的，我也超级喜欢，甚至胜过于我喜欢上面的那些爱好（喜欢到我以前还想做宇航员或者是科学家）可以说，我的爱好是多面的.</p><p data-pid=\"60Btz625\">忘说了，还有一点，我超级喜欢小孩，特别幸运自己有生育能力，我还觉得当母亲是一件很伟大，很有爱的事情，而且培养一个有才或者是平凡的小孩，真的很有成就感！好吧.</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-1785ac98931472fa31448c339db23483_720w.gif?source=1def8aca\" data-rawwidth=\"92\" data-rawheight=\"68\" data-size=\"normal\" data-original-token=\"v2-1785ac98931472fa31448c339db23483\" data-thumbnail=\"https://pic1.zhimg.com/50/v2-1785ac98931472fa31448c339db23483_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-1785ac98931472fa31448c339db23483_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"92\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;92&#39; height=&#39;68&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"92\" data-rawheight=\"68\" data-size=\"normal\" data-original-token=\"v2-1785ac98931472fa31448c339db23483\" data-thumbnail=\"https://pic1.zhimg.com/50/v2-1785ac98931472fa31448c339db23483_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-1785ac98931472fa31448c339db23483_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"92\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-1785ac98931472fa31448c339db23483_720w.gif?source=1def8aca\"/></figure><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"eUQaCkGT\">而且重要的是我长发短发都好看，但是如果变成男生的话，剪寸头或者是那种超短发，狼尾什么的，说真的，我都想象不到我是什么样子.</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-291dcf06e2020a21c160a4aa8d569195_720w.gif?source=1def8aca\" data-rawwidth=\"72\" data-rawheight=\"72\" data-size=\"normal\" data-original-token=\"v2-291dcf06e2020a21c160a4aa8d569195\" data-thumbnail=\"https://pic1.zhimg.com/50/v2-291dcf06e2020a21c160a4aa8d569195_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-291dcf06e2020a21c160a4aa8d569195_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"72\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;72&#39; height=&#39;72&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"72\" data-rawheight=\"72\" data-size=\"normal\" data-original-token=\"v2-291dcf06e2020a21c160a4aa8d569195\" data-thumbnail=\"https://pic1.zhimg.com/50/v2-291dcf06e2020a21c160a4aa8d569195_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-291dcf06e2020a21c160a4aa8d569195_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"72\" data-actualsrc=\"https://picx.zhimg.com/50/v2-291dcf06e2020a21c160a4aa8d569195_720w.gif?source=1def8aca\"/></figure><p data-pid=\"6MkXwQVv\">对我来说，当女孩的缺点就是力气和体力可能比男孩小很多,这点是真的存在,我们的副班主任是外教，练了78年吧,他是一个喜欢打排球，喜欢健身,喜欢旅游的女生,长的很高,年龄30几,但是跟我们班一个只健身了四年的一个男孩，比掰手腕还掰，不过那个男孩，而且那个男孩很轻松的，拜过了老师.而且对体力来说,我们体育课40分钟，有时候要打羽毛球,男生打一节课还能在操场上跑一圈,都不再坐一会儿的，我打了一节课，腰酸背疼,别说跑一圈,就是让我跑半圈，我都得瘫在地上,但是老师也很友好,给女生定的标准比较低,所以考试照样可以过.有人说，女生的智商比男生低,我们班最高分是女生,但我听说女生是比男生发育早,大脑也一样,虽然这是科学研究，但我感觉还是分人吧,因为科学家不乏有女生,当然，男生的贡献程度特别伟大,就比如说钱学森同志...而且女生比男生容易长胖，不容易练出肌肉,女生的皮肤很敏感，所以特别容易起皮,而且虽然我没有被歧视过，但是在网上了解到女生很容易被歧视,甚至造谣,所以女生的处境应该也没有很好吧.当然，男生遇到的处境肯定跟女生一样坏.</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-6a5da83b1a8e67efaabf7a0adc408d3c_720w.gif?source=1def8aca\" data-rawwidth=\"306\" data-rawheight=\"300\" data-size=\"normal\" data-original-token=\"v2-6a5da83b1a8e67efaabf7a0adc408d3c\" data-thumbnail=\"https://pic1.zhimg.com/50/v2-6a5da83b1a8e67efaabf7a0adc408d3c_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-6a5da83b1a8e67efaabf7a0adc408d3c_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"306\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;306&#39; height=&#39;300&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"306\" data-rawheight=\"300\" data-size=\"normal\" data-original-token=\"v2-6a5da83b1a8e67efaabf7a0adc408d3c\" data-thumbnail=\"https://pic1.zhimg.com/50/v2-6a5da83b1a8e67efaabf7a0adc408d3c_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-6a5da83b1a8e67efaabf7a0adc408d3c_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"306\" data-actualsrc=\"https://picx.zhimg.com/50/v2-6a5da83b1a8e67efaabf7a0adc408d3c_720w.gif?source=1def8aca\"/></figure><p data-pid=\"ASXQWMCF\">好了，大概也就能想到那么多吧，感觉这些原因已经够我喜欢自己的性别了，果还有，我再出一条文章（如果有下辈子，我可以当男孩试试，说不定比当女孩更好，更自由呢?）希望每个人不管男孩女孩都前程似锦,祝男孩可以追到女神，祝女孩可以和心仪的男孩在一起，走上自己的阳！光！大！道！ψ(｀∇´)ψ么么么，我爱知乎，我也爱你们！</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-57cdb079101802c1c336d47ff3b26f37_720w.jpg?source=1def8aca\" data-rawwidth=\"392\" data-rawheight=\"442\" data-size=\"normal\" data-original-token=\"v2-38b2ed43cb2cc79b56459f9eb152b8cf\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-78b6908bc1893dc19b5b77cfb4596fd0_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"392\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;392&#39; height=&#39;442&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"392\" data-rawheight=\"442\" data-size=\"normal\" data-original-token=\"v2-38b2ed43cb2cc79b56459f9eb152b8cf\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-78b6908bc1893dc19b5b77cfb4596fd0_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"392\" data-actualsrc=\"https://picx.zhimg.com/50/v2-57cdb079101802c1c336d47ff3b26f37_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"xKXsUp3l\">最后给大家分享一个很搞笑的动态表情包↓</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-3e404e9227407df3b977d9e3bbe1287b_720w.gif?source=1def8aca\" data-rawwidth=\"346\" data-rawheight=\"346\" data-size=\"normal\" data-original-token=\"v2-3e404e9227407df3b977d9e3bbe1287b\" data-thumbnail=\"https://pica.zhimg.com/50/v2-3e404e9227407df3b977d9e3bbe1287b_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-3e404e9227407df3b977d9e3bbe1287b_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"346\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;346&#39; height=&#39;346&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"346\" data-rawheight=\"346\" data-size=\"normal\" data-original-token=\"v2-3e404e9227407df3b977d9e3bbe1287b\" data-thumbnail=\"https://pica.zhimg.com/50/v2-3e404e9227407df3b977d9e3bbe1287b_720w.jpg?source=1def8aca\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-3e404e9227407df3b977d9e3bbe1287b_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"346\" data-actualsrc=\"https://picx.zhimg.com/50/v2-3e404e9227407df3b977d9e3bbe1287b_720w.gif?source=1def8aca\"/></figure><p data-pid=\"i6yJbM-S\">哈哈哈，很搞笑吧？燕子！燕子没有你！我怎么活？燕子...哈哈哈</p><p data-pid=\"AO1sGu2H\">心疼岳云鹏一秒钟   </p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1717333956,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不知道别人怎么想的，反正我特别喜欢自己是女生这个性别.(好吧...除了来姨妈的时候，疼的在床上打滚的时候，还有在网上看到的一些什么职场歧视，又或者是,恐婚恐孕的这种言论，再或者是女生的安全问题，婆媳关系，自由问题，舆论问题...真的能把我吓到,就在想，真的那么不美好吗? 有时真的想让自己成为男孩，但是吧，如果真成了男孩，我是接受不了的，因为我觉得一周时间还是可以接受的，再说了，以后的事情还说不定呢,说不定…",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3518046898",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "5 赞同 · 1 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1698325599,
+              "id": "627948463",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "想问广大女性朋友们，你们喜欢自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1698325599,
+              "url": "https://www.zhihu.com/api/v4/questions/627948463"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 240,
+                  "token": "v2-228b8f1708b1e1beb59859df7e9fd0ce",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-228b8f1708b1e1beb59859df7e9fd0ce_720w.jpg?source=1def8aca",
+                  "width": 240
+                },
+                {
+                  "height": 240,
+                  "token": "v2-13f82dacb043341c8a1eeee04d89018d",
+                  "type": "image",
+                  "url": "https://pica.zhimg.com/80/v2-13f82dacb043341c8a1eeee04d89018d_720w.jpg?source=1def8aca",
+                  "width": 240
+                },
+                {
+                  "height": 236,
+                  "token": "v2-3b757c0f7ca2c3cd57d93d41077cc0c0",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-3b757c0f7ca2c3cd57d93d41077cc0c0_720w.jpg?source=1def8aca",
+                  "width": 300
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1717429298,
+            "url": "https://www.zhihu.com/api/v4/answers/3518046898",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 5
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f1e4d8479dc249702575afae93442668",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi7v+qbDSCv97arApICJQoJNjc1MTY4NDAzEgozNTQ4MDI4ODU5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-f206e8072fa39249659e2f394df48f4c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-f206e8072fa39249659e2f394df48f4c.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 22,
+              "gender": -1,
+              "headline": "",
+              "id": "7e187eddaf21dfa987eab64c96f172c2",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "折呪",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7e187eddaf21dfa987eab64c96f172c2",
+              "url_token": "zhe-zhou-68-76",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"SdVIg_2C\">喜欢，可以买很多好看的衣服特别是lolita这类的，可以喜欢各种爱好，从女性向到一般向到男性向都可以涉猎，不会被人说你作为女的还玩这个（感觉男的就经常被说），但是每月的例假和体力力量不支会造成一定的烦恼。其他的应该和性别没太大关系，比如像催婚父母对你的偏爱还有交友这些…这些和经济条件家庭环境有关系。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1719821731,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "喜欢，可以买很多好看的衣服特别是lolita这类的，可以喜欢各种爱好，从女性向到一般向到男性向都可以涉猎，不会被人说你作为女的还玩这个（感觉男的就经常被说），但是每月的例假和体力力量不支会造成一定的烦恼。其他的应该和性别没太大关系，比如像催婚父母对你的偏爱还有交友这些…这些和经济条件家庭环境有关系。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3548028859",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1698325599,
+              "id": "627948463",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "想问广大女性朋友们，你们喜欢自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1698325599,
+              "url": "https://www.zhihu.com/api/v4/questions/627948463"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1719821731,
+            "url": "https://www.zhihu.com/api/v4/answers/3548028859",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f1e4d8479dc249708e397aa193442668",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxifm4e9DCCv97arApICJQoJNjM5MDM1OTIyEgozMzQ5MjY5OTE5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-b0891aa34dc3cf7d2e939c64b7a29a14_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-b0891aa34dc3cf7d2e939c64b7a29a14.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-c7e07b4d834217e9562ab38135351a19_l.png?source=1def8aca",
+                "description": "关注 50 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-c7e07b4d834217e9562ab38135351a19_r.png?source=1def8aca"
+              },
+              "follower_count": 9848,
+              "gender": 0,
+              "headline": "报纸编辑",
+              "id": "652cbf20260fd6f85237cb7ddef0d182",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "腰围一尺七",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/652cbf20260fd6f85237cb7ddef0d182",
+              "url_token": "tang-lao-shu-38",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://pica.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pic1.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"kHyjCj-k\">我是个快乐的女生，但我每个月都有那么几天不喜欢我的性别。</p><p data-pid=\"Ztop12Vn\">TMD，老娘痛经。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1704337788,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我是个快乐的女生，但我每个月都有那么几天不喜欢我的性别。 TMD，老娘痛经。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3349269919",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1698325599,
+              "id": "627948463",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "想问广大女性朋友们，你们喜欢自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1698325599,
+              "url": "https://www.zhihu.com/api/v4/questions/627948463"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 5
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 5,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1704337788,
+            "url": "https://www.zhihu.com/api/v4/answers/3349269919",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f1e4d8479dc249700f9352af93442668",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj2q9CWDCCv97arApICJQoJNjI0MzgzMjMyEgozMjY4Njc5MTU4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-a373f1e5ccec041cd9335ebe8b884555_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-a373f1e5ccec041cd9335ebe8b884555.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 48,
+              "gender": -1,
+              "headline": "野人",
+              "id": "bcc4711e006751c7d45e43c1358de227",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "江月待我",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/bcc4711e006751c7d45e43c1358de227",
+              "url_token": "zhu-sun-zuo",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"xbumlHsv\">当然啊</p><p data-pid=\"w15VnKUM\">第一性啊 </p><p data-pid=\"8xI9Lof5\"> 有创生大权啊</p><p data-pid=\"KImjWwhk\">从生理、心理、环境，全方位支持女性啊</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1698547284,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "当然啊 第一性啊 有创生大权啊 从生理、心理、环境，全方位支持女性啊",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3268679158",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1698325599,
+              "id": "627948463",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "想问广大女性朋友们，你们喜欢自己的性别吗？为什么？",
+              "type": "question",
+              "updated_time": 1698325599,
+              "url": "https://www.zhihu.com/api/v4/questions/627948463"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1698547284,
+            "url": "https://www.zhihu.com/api/v4/answers/3268679158",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "f1e4d8479dc249701d2c73ac93442668",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768585085344594612"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/627948463/feeds?cursor=f1e4d8479dc249701d2c73ac93442668&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768585085344594612&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

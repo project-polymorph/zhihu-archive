@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/23927465/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586884946,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/23927465/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/23927465/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有哪一个瞬间你想转换自己的性别？",
+          "question_type": "normal",
+          "created": 1581785695,
+          "updated_time": 1581785695,
+          "url": "https://www.zhihu.com/api/v4/questions/372203058",
+          "answer_count": 29,
+          "comment_count": 0,
+          "follower_count": 49,
+          "relationship": {},
+          "id": "372203058"
+        },
+        {
+          "type": "question",
+          "title": "嗯就是有一天突然想换个性别怎么办？",
+          "question_type": "normal",
+          "created": 1690794248,
+          "updated_time": 1690794248,
+          "url": "https://www.zhihu.com/api/v4/questions/614877760",
+          "answer_count": 9,
+          "comment_count": 3,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "614877760"
+        },
+        {
+          "type": "question",
+          "title": "什么时候会觉得“如果我是另一种性别就好了”？",
+          "question_type": "normal",
+          "created": 1543333206,
+          "updated_time": 1543333206,
+          "url": "https://www.zhihu.com/api/v4/questions/303876076",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "303876076"
+        }
+      ]
+    }
+  }
+]

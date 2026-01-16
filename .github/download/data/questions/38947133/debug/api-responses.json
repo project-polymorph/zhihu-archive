@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/38947133/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585632806,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/38947133/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/38947133/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "小时候有没有对自己的性别产生怀疑过？",
+          "question_type": "normal",
+          "created": 1582304277,
+          "updated_time": 1582305022,
+          "url": "https://www.zhihu.com/api/v4/questions/373674731",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "373674731"
+        },
+        {
+          "type": "question",
+          "title": "你有没有那一瞬间特别讨厌自己的性别？",
+          "question_type": "normal",
+          "created": 1615026039,
+          "updated_time": 1615026039,
+          "url": "https://www.zhihu.com/api/v4/questions/447931098",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "447931098"
+        },
+        {
+          "type": "question",
+          "title": "为什么总有些人要乱搞性别？",
+          "question_type": "normal",
+          "created": 1722871940,
+          "updated_time": 1722871940,
+          "url": "https://www.zhihu.com/api/v4/questions/663541860",
+          "answer_count": 2,
+          "comment_count": 4,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "663541860"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/371929189/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585330171,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/371929189/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/371929189/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有哪位大神能给我解释一下性别刻板印象是什么情况？",
+          "question_type": "normal",
+          "created": 1502930882,
+          "updated_time": 1502930882,
+          "url": "https://www.zhihu.com/api/v4/questions/64023455",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "64023455"
+        },
+        {
+          "type": "question",
+          "title": "性别刻板印象的弊端是什么？",
+          "question_type": "normal",
+          "created": 1637199605,
+          "updated_time": 1637199605,
+          "url": "https://www.zhihu.com/api/v4/questions/499723991",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "499723991"
+        },
+        {
+          "type": "question",
+          "title": "在生活中遇到过对性别的刻板印象的问题吗？会影响你的生活吗？",
+          "question_type": "normal",
+          "created": 1574904875,
+          "updated_time": 1574904875,
+          "url": "https://www.zhihu.com/api/v4/questions/358182354",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "358182354"
+        },
+        {
+          "type": "question",
+          "title": "你觉得性别的刻板印象对你现在的发展有什么影响？",
+          "question_type": "normal",
+          "created": 1575978751,
+          "updated_time": 1575978751,
+          "url": "https://www.zhihu.com/api/v4/questions/360294283",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "360294283"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/371929189/feeds?cursor=453d832367465f6525dc7c875aa54a71&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768585325866176444&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768585410703,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768585325866176444"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/371929189/feeds?cursor=453d832367465f6525dc7c875aa54a71&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768585325866176444&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

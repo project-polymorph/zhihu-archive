@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/392658742/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768584616364,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/392658742/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/392658742/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "当人类不在有社会性别时会怎么样？",
+          "question_type": "normal",
+          "created": 1496246136,
+          "updated_time": 1496246136,
+          "url": "https://www.zhihu.com/api/v4/questions/60522971",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "60522971"
+        },
+        {
+          "type": "question",
+          "title": "为什么有的女人会心安理得的享受性别带来的优势，而我们这些不去利用的人，坚持是为了什么？",
+          "question_type": "normal",
+          "created": 1541505037,
+          "updated_time": 1541505037,
+          "url": "https://www.zhihu.com/api/v4/questions/301520858",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "301520858"
+        }
+      ]
+    }
+  }
+]

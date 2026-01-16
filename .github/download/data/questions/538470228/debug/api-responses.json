@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/538470228/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768583948449,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/538470228/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/538470228/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你变成了异性，你会更倾向寻找哪种性别作为伴侣，或是干脆单身？",
+          "question_type": "normal",
+          "created": 1604323869,
+          "updated_time": 1605199468,
+          "url": "https://www.zhihu.com/api/v4/questions/428519063",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "428519063"
+        },
+        {
+          "type": "question",
+          "title": "性别限制了你多少次机会？",
+          "question_type": "normal",
+          "created": 1554770638,
+          "updated_time": 1554770638,
+          "url": "https://www.zhihu.com/api/v4/questions/319344446",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "319344446"
+        }
+      ]
+    }
+  }
+]

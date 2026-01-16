@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/275440718/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768585201410,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/275440718/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/275440718/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假设人类社会当中存在第三种生理性别？",
+          "question_type": "normal",
+          "created": 1587319990,
+          "updated_time": 1587320627,
+          "url": "https://www.zhihu.com/api/v4/questions/389129417",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "389129417"
+        },
+        {
+          "type": "question",
+          "title": "关于性别的思考?",
+          "question_type": "normal",
+          "created": 1750238854,
+          "updated_time": 1750238854,
+          "url": "https://www.zhihu.com/api/v4/questions/1918721503119257671",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1918721503119257671"
+        }
+      ]
+    }
+  }
+]

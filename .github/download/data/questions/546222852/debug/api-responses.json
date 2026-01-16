@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/546222852/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582771218,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/546222852/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/546222852/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "习惯于某一种性别，这属于性别认同吗？",
+          "question_type": "normal",
+          "created": 1721001583,
+          "updated_time": 1721001583,
+          "url": "https://www.zhihu.com/api/v4/questions/661638355",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "661638355"
+        }
+      ]
+    }
+  }
+]

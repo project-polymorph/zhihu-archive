@@ -1,0 +1,666 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/37061507/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586866049,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/37061507/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/37061507/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "HSD17B3有没有这类型基因缺失患者?",
+          "question_type": "normal",
+          "created": 1696779240,
+          "updated_time": 1696779240,
+          "url": "https://www.zhihu.com/api/v4/questions/625218759",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "625218759"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/37061507/feeds?cursor=199d2e846c7fb8450020fd6be90880bc&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768586862984592603&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768586866086,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxihjOQhIIOH1hGSAiIKCDIzNzU5MTI1Egg3MDg0NTk4NRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-13e8bede12ce27295364f82a9188e5f4_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-13e8bede12ce27295364f82a9188e5f4.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 47,
+              "gender": 0,
+              "headline": "设计狗 / 爱吃/ bi",
+              "id": "e0900309948404714d8c3bbd8662d3cd",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "UzloU",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/e0900309948404714d8c3bbd8662d3cd",
+              "url_token": "evelyn-losam",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Cb003kC5\">题主已经道歉 而且喵喵么么么并不是题主邀请 楼上开骂的答主们冷静啊喂 不过题主应该在提问前多思量多查资料而不是号称着学渣来知乎做伸手党</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1446661704,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "题主已经道歉 而且喵喵么么么并不是题主邀请 楼上开骂的答主们冷静啊喂 不过题主应该在提问前多思量多查资料而不是号称着学渣来知乎做伸手党",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "70845985",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1446300018,
+              "id": "37061507",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "苗勒管永存综合征患者有可能怀上自己的孩子吗？",
+              "type": "question",
+              "updated_time": 1521345782,
+              "url": "https://www.zhihu.com/api/v4/questions/37061507"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1446661704,
+            "url": "https://www.zhihu.com/api/v4/answers/70845985",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "199d2e846c7fb8454927fd6be90880bc",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxiIqqaMCCCDh9YRkgIlCgk0MjUyMjE4NTcSCjIxNzMyNzc0NDgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-546b34706b50b62c1278342e1926b2bf_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-546b34706b50b62c1278342e1926b2bf.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_l.png?source=1def8aca",
+                "description": "回答 100 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-c26a65592e2109d144bb55fecc48841a_r.png?source=1def8aca"
+              },
+              "follower_count": 117,
+              "gender": 1,
+              "headline": "",
+              "id": "620d608f9dc1dcbb052c4c01877a3e24",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "庄尼",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/620d608f9dc1dcbb052c4c01877a3e24",
+              "url_token": "wei-ai-zhu-huai-guan-xiang",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"vFKnbpH7\">苗勒管发育过程中变异而出现的先天性畸形，它导致子宫丧失、阴道上部发育不全。一些原发性病因闭经病症是苗勒管发育不全引发，包括子宫、宫颈和/或阴道缺失。</p><p data-pid=\"xsWzvqcI\">苗勒管发育不全的患者激素正常，意味着他们将有第二性征，包括乳房发育和肾上腺功能初现。染色体位置为46,XX。卵巢完整、排卵通常发生。</p><p data-pid=\"Gz-vpfxa\">如果没有子宫，患者将无法怀孕。如果卵巢存在，但是他们可以通过体外受精（IVF）和妊娠载体实现生殖目的。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1634352741,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "苗勒管发育过程中变异而出现的先天性畸形，它导致子宫丧失、阴道上部发育不全。一些原发性病因闭经病症是苗勒管发育不全引发，包括子宫、宫颈和/或阴道缺失。 苗勒管发育不全的患者激素正常，意味着他们将有第二性征，包括乳房发育和肾上腺功能初现。染色体位置为46,XX。卵巢完整、排卵通常发生。 如果没有子宫，患者将无法怀孕。如果卵巢存在，但是他们可以通过体外受精（IVF）和妊娠载体实现生殖目的。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2173277448",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1446300018,
+              "id": "37061507",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "苗勒管永存综合征患者有可能怀上自己的孩子吗？",
+              "type": "question",
+              "updated_time": 1521345782,
+              "url": "https://www.zhihu.com/api/v4/questions/37061507"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1634352741,
+            "url": "https://www.zhihu.com/api/v4/answers/2173277448",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "199d2e846c7fb845bdf0cf73e90880bc",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxjR1KUiIIOH1hGSAiIKCDI0MTg5NDQ2Egg3MTkyMDIwORgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/30c038dd3_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/30c038dd3.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 43,
+              "gender": 1,
+              "headline": "",
+              "id": "b5eee88b71910ee95ab3034f32ec5de9",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "kanerl",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/b5eee88b71910ee95ab3034f32ec5de9",
+              "url_token": "chen-zhi-yi-97-88",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 12,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"VbhInYQV\">先放结论，不可以，这答案算是抛个砖，毕竟我不是搞这个方向的，只是对这方面比较有兴趣，因而这答案里面难免会有一些错误或者遗漏，希望在这方面有研究的朋友再修正以及补充一下这方面的内容。</p><p data-pid=\"6MAx8RCm\">-----------------------------------分割线--------------------------------------</p><p data-pid=\"oW26NrIZ\">首先，搞懂苗勒管是个什么东东。</p><p data-pid=\"u9-21MVO\">一下是从wiki的 </p><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/w/index.php%3Ftitle%3DMullerian_ducts%26redirect%3Dno\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Mullerian ducts</a><p data-pid=\"tPemW8_S\"> 词条中直接摘录的定义，大概了解一下：</p><blockquote data-pid=\"B_20TRhZ\"><b>Paramesonephric ducts (or Müllerian ducts) are paired ducts of the embryo that run down the lateral sides of the urogenital ridge and terminate at the sinus tubercle in the primitive urogenital sinus. In the female, they will develop to form the uterine tubes, uterus, cervix, and the upper one-third of the vagina;[1] in the male, they are lost. These ducts are made of tissue of mesodermal origin.[2]<br/></b></blockquote><p data-pid=\"EbiaUN7S\">简单来说，苗勒管（Mullerian ducts）是胚胎分化前期的一个结构，也称中肾旁管，顾名思义，中肾管旁边的一个结构。国内的翻译也是五花八门，除了中肾旁管外，穆勒氏管，缪勒氏管等等乱七八糟的译名都是指的这个东西。</p><p data-pid=\"Wa9k0YrU\">它在胚胎的发育过程中是会发生变化的，它发生的变化如下图（图片来自张红卫.发育生物学[M].北京：高等教育出版社.2004.335-336）：</p><figure><noscript><img src=\"https://pic1.zhimg.com/50/71d16c1e76f43626da02dd318cb29dfd_720w.jpg?source=1def8aca\" data-rawwidth=\"734\" data-rawheight=\"840\" data-original-token=\"71d16c1e76f43626da02dd318cb29dfd\" class=\"origin_image zh-lightbox-thumb\" width=\"734\" data-original=\"https://pic1.zhimg.com/71d16c1e76f43626da02dd318cb29dfd_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;734&#39; height=&#39;840&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"734\" data-rawheight=\"840\" data-original-token=\"71d16c1e76f43626da02dd318cb29dfd\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"734\" data-original=\"https://pic1.zhimg.com/71d16c1e76f43626da02dd318cb29dfd_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/71d16c1e76f43626da02dd318cb29dfd_720w.jpg?source=1def8aca\"/></figure><figure><noscript><img src=\"https://picx.zhimg.com/50/6ff3db8cf7afee9945eff1bfa5c16b9a_720w.jpg?source=1def8aca\" data-rawwidth=\"698\" data-rawheight=\"649\" data-original-token=\"6ff3db8cf7afee9945eff1bfa5c16b9a\" class=\"origin_image zh-lightbox-thumb\" width=\"698\" data-original=\"https://picx.zhimg.com/6ff3db8cf7afee9945eff1bfa5c16b9a_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;698&#39; height=&#39;649&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"698\" data-rawheight=\"649\" data-original-token=\"6ff3db8cf7afee9945eff1bfa5c16b9a\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"698\" data-original=\"https://picx.zhimg.com/6ff3db8cf7afee9945eff1bfa5c16b9a_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/6ff3db8cf7afee9945eff1bfa5c16b9a_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"SGERPgol\">这两幅图是针对哺乳动物的，当然人类也是适用的。要表达的东西也相当的简单：性别分化过程中，雄性的苗勒氏管渐渐退化，而乌尔夫氏管（Wolffian ducts，也译作伍尔夫氏管、伍尔夫管等）逐渐分化；而雌性则相反。</p><p data-pid=\"i9Npp2Ku\">好了，搞懂了苗勒管是个什么东西，下面再来看苗勒管永存综合征是什么东西。</p><p data-pid=\"-6D-rfF8\">依然援引wiki，这次的词条是</p><a href=\"https://link.zhihu.com/?target=https%3A//en.wikipedia.org/wiki/Persistent_M%25C3%25BCllerian_duct_syndrome\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Persistent Mullerian duct syndrome</a><p data-pid=\"0g_FdLbM\">（即所谓的苗勒管永存综合征，顺带一提……国内关于这个东西的译名相当不统一……后面我统一使用PMDS来描述）：</p><blockquote data-pid=\"HfaNeJuM\">Persistent Müllerian duct syndrome (PMDS) is the presence of Müllerian duct derivatives (fallopian tubes, uterus, and/or the upper part of the vagina)[1] in a genetically male animal. In humans, PMDS typically is due to an autosomal recessive[2] congenital disorder and is considered by some to be a form of pseudohermaphroditism due to the presence of Müllerian derivatives.[1][3]<br/><br/>Typical features include undescended testes (cryptorchidism) and the presence of a small, underdeveloped uterus in an XY infant or adult. This condition is usually caused by deficiency of fetal anti-Müllerian hormone (AMH) effect due to mutations of the gene for AMH or the anti-Müllerian hormone receptor, but may also be as a result of insensitivity to AMH of the target organ.[1]</blockquote><p data-pid=\"gaP9JA4A\">同时国内的书籍上也有描述（吴宏飞主编.现代泌尿外科诊疗指南[ M] .南京:东南大学</p><p data-pid=\"xcczD3GQ\">出版社, 2005.341-342）：</p><blockquote data-pid=\"jDguSs5p\">PMDS是指<b>染色体核型为46, XY</b>、表型正常的<b>男性</b>, 体内同时具有<b>子宫和输卵管</b>的一种<b>男性假两性畸形</b>。患者第二性征多正常, 性心理倾向及生殖能力均表现为男性。</blockquote><p data-pid=\"cEffoMK5\">即PMDS本质为<b>男性假两性畸形</b>，胚胎发育过程中由于种种原因导致苗勒氏管没有退化，而且继续有分化，但是有一点可以确定，就是PMDS的患者不具有女性生殖性腺（卵巢），也就无法产生卵子。既然无法产生卵子，“自体受精”这也就无从谈起了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1447324237,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "先放结论，不可以，这答案算是抛个砖，毕竟我不是搞这个方向的，只是对这方面比较有兴趣，因而这答案里面难免会有一些错误或者遗漏，希望在这方面有研究的朋友再修正以及补充一下这方面的内容。 ---分割线--- 首先，搞懂苗勒管是个什么东东。 一下是从wiki的 Mullerian ducts 词条中直接摘录的定义，大概了解一下： Paramesonephric ducts (or Müllerian d…",
+            "extras": "",
+            "favlists_count": 89,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "71920209",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "72 赞同 · 89 收藏 · 12 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1446300018,
+              "id": "37061507",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "苗勒管永存综合征患者有可能怀上自己的孩子吗？",
+              "type": "question",
+              "updated_time": 1521345782,
+              "url": "https://www.zhihu.com/api/v4/questions/37061507"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 25
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 25,
+            "thumbnail_info": {
+              "count": 2,
+              "thumbnails": [
+                {
+                  "height": 840,
+                  "token": "71d16c1e76f43626da02dd318cb29dfd",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/71d16c1e76f43626da02dd318cb29dfd_720w.jpg?source=1def8aca",
+                  "width": 734
+                },
+                {
+                  "height": 649,
+                  "token": "6ff3db8cf7afee9945eff1bfa5c16b9a",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/6ff3db8cf7afee9945eff1bfa5c16b9a_720w.jpg?source=1def8aca",
+                  "width": 698
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1447330082,
+            "url": "https://www.zhihu.com/api/v4/answers/71920209",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 72
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "199d2e846c7fb8455ab4e66be90880bc",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxjD4e0hIIOH1hGSAiIKCDIzODIyNTcyEgg3MTAwNDM1NRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/02880b4ebc77e98749c55dc2dcc14eec_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/02880b4ebc77e98749c55dc2dcc14eec.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 101,
+              "gender": 0,
+              "headline": "战斗力五鹅，友善度半个心",
+              "id": "056a509bd57f6c8ad2d87bbc6dbce9f4",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "大大鹅鹅",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/056a509bd57f6c8ad2d87bbc6dbce9f4",
+              "url_token": "da-da-e-e",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"7AekAXoS\">个人感觉能，但是更容易自然流产。参考近亲繁殖的种种。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1446765774,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "个人感觉能，但是更容易自然流产。参考近亲繁殖的种种。",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "71004355",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1446300018,
+              "id": "37061507",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "苗勒管永存综合征患者有可能怀上自己的孩子吗？",
+              "type": "question",
+              "updated_time": 1521345782,
+              "url": "https://www.zhihu.com/api/v4/questions/37061507"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1446765774,
+            "url": "https://www.zhihu.com/api/v4/answers/71004355",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "199d2e846c7fb845b02efc6be90880bc",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768586862984592603"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/37061507/feeds?cursor=199d2e846c7fb845b02efc6be90880bc&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768586862984592603&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/424634124/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768586006161,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/424634124/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/424634124/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假如你从男性变成女性，持续24小时，你将做哪些事？",
+          "question_type": "normal",
+          "created": 1578442933,
+          "updated_time": 1664105099,
+          "url": "https://www.zhihu.com/api/v4/questions/365245123",
+          "answer_count": 644,
+          "comment_count": 16,
+          "follower_count": 1432,
+          "relationship": {},
+          "id": "365245123"
+        }
+      ]
+    }
+  }
+]

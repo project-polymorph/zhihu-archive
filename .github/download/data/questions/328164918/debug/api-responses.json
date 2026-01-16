@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/328164918/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768583324039,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/328164918/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/328164918/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果性别转换，你的人生又当如何？",
+          "question_type": "normal",
+          "created": 1617327424,
+          "updated_time": 1617327424,
+          "url": "https://www.zhihu.com/api/v4/questions/452499823",
+          "answer_count": 59,
+          "comment_count": 1,
+          "follower_count": 74,
+          "relationship": {},
+          "id": "452499823"
+        },
+        {
+          "type": "question",
+          "title": "如果你的性别转换了，你还爱上你自己吗？",
+          "question_type": "normal",
+          "created": 1515344548,
+          "updated_time": 1515344548,
+          "url": "https://www.zhihu.com/api/v4/questions/265253431",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 20,
+          "relationship": {},
+          "id": "265253431"
+        },
+        {
+          "type": "question",
+          "title": "如果你的性别转换了，你会选择和现在的自己在一起嘛？愿意或者不愿意，原因又如何。？",
+          "question_type": "normal",
+          "created": 1480350333,
+          "updated_time": 1480350333,
+          "url": "https://www.zhihu.com/api/v4/questions/53106843",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "53106843"
+        },
+        {
+          "type": "question",
+          "title": "如果性别可以转换，你会选择当男生还是做女生？",
+          "question_type": "normal",
+          "created": 1560652985,
+          "updated_time": 1560652985,
+          "url": "https://www.zhihu.com/api/v4/questions/329632119",
+          "answer_count": 16,
+          "comment_count": 0,
+          "follower_count": 20,
+          "relationship": {},
+          "id": "329632119"
+        }
+      ]
+    }
+  }
+]
