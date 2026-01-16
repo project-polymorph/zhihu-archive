@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1966781197054117383/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768587658129,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1966781197054117383/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1966781197054117383/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么现在搞性别对立的现象这么严重？",
+          "question_type": "normal",
+          "created": 1745844799,
+          "updated_time": 1745844799,
+          "url": "https://www.zhihu.com/api/v4/questions/1900291500455224189",
+          "answer_count": 16,
+          "comment_count": 0,
+          "follower_count": 22,
+          "relationship": {},
+          "id": "1900291500455224189"
+        },
+        {
+          "type": "question",
+          "title": "为什么现在性别对立这么多？",
+          "question_type": "normal",
+          "created": 1725199092,
+          "updated_time": 1725199092,
+          "url": "https://www.zhihu.com/api/v4/questions/665928741",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "665928741"
+        },
+        {
+          "type": "question",
+          "title": "你认为性别对立得以存在最主要的原因为何？",
+          "question_type": "normal",
+          "created": 1629959685,
+          "updated_time": 1629959685,
+          "url": "https://www.zhihu.com/api/v4/questions/482633451",
+          "answer_count": 69,
+          "comment_count": 0,
+          "follower_count": 89,
+          "relationship": {},
+          "id": "482633451"
+        }
+      ]
+    }
+  }
+]

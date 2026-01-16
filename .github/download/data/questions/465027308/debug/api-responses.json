@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/465027308/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588274055,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/465027308/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/465027308/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "遇到扶妹魔的老公该怎么平衡自己的心态?",
+          "question_type": "normal",
+          "created": 1619056135,
+          "updated_time": 1619056136,
+          "url": "https://www.zhihu.com/api/v4/questions/455911896",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "455911896"
+        },
+        {
+          "type": "question",
+          "title": "遇到扶妹魔的老公怎么办才好呢?",
+          "question_type": "normal",
+          "created": 1721277276,
+          "updated_time": 1721277276,
+          "url": "https://www.zhihu.com/api/v4/questions/661921182",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "661921182"
+        },
+        {
+          "type": "question",
+          "title": "疑是扶弟魔女友，要不要走入婚姻？",
+          "question_type": "normal",
+          "created": 1556268301,
+          "updated_time": 1556268301,
+          "url": "https://www.zhihu.com/api/v4/questions/321816366",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "321816366"
+        }
+      ]
+    }
+  }
+]

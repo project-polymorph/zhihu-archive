@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/605982517/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588311928,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/605982517/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/605982517/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "重生一次你能改变自己的命运吗?",
+          "question_type": "normal",
+          "created": 1649039292,
+          "updated_time": 1649039292,
+          "url": "https://www.zhihu.com/api/v4/questions/525918076",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "525918076"
+        },
+        {
+          "type": "question",
+          "title": "如果有重生一次的机会，你想改变什么?",
+          "question_type": "normal",
+          "created": 1663392698,
+          "updated_time": 1663392698,
+          "url": "https://www.zhihu.com/api/v4/questions/554086168",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "554086168"
+        },
+        {
+          "type": "question",
+          "title": "如果重生一次，你会怎么选择？",
+          "question_type": "normal",
+          "created": 1679122594,
+          "updated_time": 1679122594,
+          "url": "https://www.zhihu.com/api/v4/questions/590358875",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "590358875"
+        }
+      ]
+    }
+  }
+]

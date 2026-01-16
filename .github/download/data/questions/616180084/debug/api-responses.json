@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/616180084/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588185563,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/616180084/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/616180084/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "女假两性畸形手术之后力气会变小吗？",
+          "question_type": "normal",
+          "created": 1692364285,
+          "updated_time": 1692364285,
+          "url": "https://www.zhihu.com/api/v4/questions/618027441",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "618027441"
+        },
+        {
+          "type": "question",
+          "title": "女假两性畸形不做手术仍以男性身份生活是否拥有女性法律保护?",
+          "question_type": "normal",
+          "created": 1692364419,
+          "updated_time": 1692364419,
+          "url": "https://www.zhihu.com/api/v4/questions/618027633",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "618027633"
+        },
+        {
+          "type": "question",
+          "title": "想要知道是不是女假两性畸形去医院要挂哪个号？",
+          "question_type": "normal",
+          "created": 1691470015,
+          "updated_time": 1691470015,
+          "url": "https://www.zhihu.com/api/v4/questions/616209949",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "616209949"
+        }
+      ]
+    }
+  }
+]

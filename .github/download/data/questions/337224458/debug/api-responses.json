@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/337224458/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588093085,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/337224458/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/337224458/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "老公是扶全家魔，我该怎么办？",
+          "question_type": "normal",
+          "created": 1596212927,
+          "updated_time": 1596245514,
+          "url": "https://www.zhihu.com/api/v4/questions/411249361",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "411249361"
+        },
+        {
+          "type": "question",
+          "title": "老公是个扶哥魔和扶全家魔，怎么办？",
+          "question_type": "normal",
+          "created": 1673071194,
+          "updated_time": 1673071194,
+          "url": "https://www.zhihu.com/api/v4/questions/577308066",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "577308066"
+        },
+        {
+          "type": "question",
+          "title": "有「扶弟魔」的老婆是什么体验？为何扶弟魔老婆不怕离婚？",
+          "question_type": "normal",
+          "created": 1529047975,
+          "updated_time": 1598323345,
+          "url": "https://www.zhihu.com/api/v4/questions/281128220",
+          "answer_count": 1750,
+          "comment_count": 157,
+          "follower_count": 10176,
+          "relationship": {},
+          "id": "281128220"
+        },
+        {
+          "type": "question",
+          "title": "对于扶弟魔老公如何处理夫妻关系？",
+          "question_type": "normal",
+          "created": 1562501216,
+          "updated_time": 1562501216,
+          "url": "https://www.zhihu.com/api/v4/questions/333771233",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "333771233"
+        }
+      ]
+    }
+  }
+]

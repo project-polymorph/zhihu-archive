@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/320623460/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588255547,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/320623460/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/320623460/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何看待现在不敢做好人，不敢扶的现象？",
+          "question_type": "normal",
+          "created": 1622184558,
+          "updated_time": 1622184558,
+          "url": "https://www.zhihu.com/api/v4/questions/461860411",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "461860411"
+        },
+        {
+          "type": "question",
+          "title": "“人不是你撞得，你为什么要扶？”这句话的立场对吗？",
+          "question_type": "normal",
+          "created": 1688906041,
+          "updated_time": 1688906466,
+          "url": "https://www.zhihu.com/api/v4/questions/611223160",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "611223160"
+        },
+        {
+          "type": "question",
+          "title": "如何看待身边“扶不起来”的朋友？",
+          "question_type": "normal",
+          "created": 1587618576,
+          "updated_time": 1587618683,
+          "url": "https://www.zhihu.com/api/v4/questions/389995744",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "389995744"
+        },
+        {
+          "type": "question",
+          "title": "怎样反驳不是你撞的为什么要扶?",
+          "question_type": "normal",
+          "created": 1442142775,
+          "updated_time": 1442142775,
+          "url": "https://www.zhihu.com/api/v4/questions/35573103",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "35573103"
+        }
+      ]
+    }
+  }
+]

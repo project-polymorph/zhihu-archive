@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/343873033/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768587934757,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/343873033/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/343873033/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果以教养高低被安排到不同阶层，会不会和谐呢？",
+          "question_type": "normal",
+          "created": 1647931235,
+          "updated_time": 1647931235,
+          "url": "https://www.zhihu.com/api/v4/questions/523429205",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "523429205"
+        },
+        {
+          "type": "question",
+          "title": "人素质的高低，是与受教育程度相关？还是家教？",
+          "question_type": "normal",
+          "created": 1728559040,
+          "updated_time": 1728559040,
+          "url": "https://www.zhihu.com/api/v4/questions/807154740",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "807154740"
+        },
+        {
+          "type": "question",
+          "title": "人素质的高低，是与受教育程度相关？还是家教？",
+          "question_type": "normal",
+          "created": 1728559040,
+          "updated_time": 1728559040,
+          "url": "https://www.zhihu.com/api/v4/questions/807154739",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "807154739"
+        }
+      ]
+    }
+  }
+]

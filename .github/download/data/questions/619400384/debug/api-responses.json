@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/619400384/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768588292383,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/619400384/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/619400384/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你会介意伴侣身体有些畸形吗？",
+          "question_type": "normal",
+          "created": 1585815815,
+          "updated_time": 1585815815,
+          "url": "https://www.zhihu.com/api/v4/questions/384577215",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "384577215"
+        },
+        {
+          "type": "question",
+          "title": "伴X隐遗传和常隐怎么区分？",
+          "question_type": "normal",
+          "created": 1482694987,
+          "updated_time": 1482694987,
+          "url": "https://www.zhihu.com/api/v4/questions/54047204",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "54047204"
+        },
+        {
+          "type": "question",
+          "title": "畸形率活力都不好，备孕半年了也没见改善，要怎么办，只能试管了吗？",
+          "question_type": "normal",
+          "created": 1655201660,
+          "updated_time": 1655201660,
+          "url": "https://www.zhihu.com/api/v4/questions/537689844",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "537689844"
+        }
+      ]
+    }
+  }
+]
