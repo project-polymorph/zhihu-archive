@@ -562,7 +562,6 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
 
   const recommendations = [];
   const articleComments = [];
-  let addedToQueue = 0;
   let apiArticleData = null;  // 保存 API 返回的文章数据
   const apiResponses = [];    // 用于 debug 保存
 
@@ -593,7 +592,7 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
         }
       }
 
-      // 拦截推荐文章 API
+      // 拦截推荐文章 API（只收集，不立即加入队列）
       if (respUrl.includes(`/articles/${articleId}/recommendation`)) {
         const body = await response.json().catch(() => null);
         if (body && body.data && Array.isArray(body.data)) {
@@ -608,29 +607,10 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
                 voteupCount: article.voteup_count || 0,
                 topics: aTopics,
               });
-
-              // 检查是否匹配 topic 过滤器，加入队列
-              if (crawlConfig?.discovery?.fromRecommendations !== false) {
-                if (matchesTopicFilter(aTopics, crawlConfig?.topics)) {
-                  const visitKey = `article:${aId}`;
-                  if (!visited.has(visitKey)) {
-                    queue.add({
-                      type: 'article',
-                      id: aId,
-                      priority: 4,
-                      source: `recommend:${articleId}`,
-                      matchedTopics: aTopics.filter(t =>
-                        crawlConfig.topics.some(ct => t.includes(ct) || ct.includes(t))
-                      ),
-                    });
-                    addedToQueue++;
-                  }
-                }
-              }
             }
           }
           if (recommendations.length > 0) {
-            logger.info(`  [API] 发现 ${recommendations.length} 篇推荐文章, ${addedToQueue} 个匹配加入队列`);
+            logger.info(`  [API] 发现 ${recommendations.length} 篇推荐文章`);
           }
         }
       }
@@ -735,6 +715,35 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
     });
 
     logger.info(`  标题: ${articleInfo.title.slice(0, 40)}...`);
+
+    // 检查文章 topics 是否匹配过滤器
+    const isTopicMatch = matchesTopicFilter(articleInfo?.topics, crawlConfig?.topics);
+    if (isTopicMatch) {
+      logger.info(`  [TOPIC] 匹配过滤器，将加入推荐文章到队列`);
+
+      // 根据当前文章的 topics 匹配，将推荐文章加入队列
+      if (crawlConfig?.discovery?.fromRecommendations !== false && recommendations.length > 0) {
+        let addedToQueue = 0;
+        for (const rec of recommendations) {
+          const visitKey = `article:${rec.id}`;
+          if (!visited.has(visitKey)) {
+            queue.add({
+              type: 'article',
+              id: rec.id,
+              priority: 4,
+              source: `recommend:${articleId}`,
+              title: rec.title || '',
+            });
+            addedToQueue++;
+          }
+        }
+        if (addedToQueue > 0) {
+          logger.info(`  [QUEUE] 加入 ${addedToQueue} 篇推荐文章`);
+        }
+      }
+    } else {
+      logger.info(`  [TOPIC] 不匹配过滤器，跳过推荐文章`);
+    }
 
     // 滚动页面（模拟阅读）
     for (let i = 0; i < 3; i++) {
