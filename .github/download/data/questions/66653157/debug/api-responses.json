@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/66653157/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594583895,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/66653157/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/66653157/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你们怎么看待男性女性化问题？",
+          "question_type": "normal",
+          "created": 1611989172,
+          "updated_time": 1611989172,
+          "url": "https://www.zhihu.com/api/v4/questions/441997092",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "441997092"
+        },
+        {
+          "type": "question",
+          "title": "为什么越来越男性女性化?",
+          "question_type": "normal",
+          "created": 1561225562,
+          "updated_time": 1561225562,
+          "url": "https://www.zhihu.com/api/v4/questions/330744191",
+          "answer_count": 67,
+          "comment_count": 0,
+          "follower_count": 76,
+          "relationship": {},
+          "id": "330744191"
+        },
+        {
+          "type": "question",
+          "title": "该怎么看待男性逐渐女性化的现象？",
+          "question_type": "normal",
+          "created": 1538472463,
+          "updated_time": 1538472463,
+          "url": "https://www.zhihu.com/api/v4/questions/296927236",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "296927236"
+        },
+        {
+          "type": "question",
+          "title": "为什么越来越多的男性女性化。?",
+          "question_type": "normal",
+          "created": 1669121706,
+          "updated_time": 1669121706,
+          "url": "https://www.zhihu.com/api/v4/questions/568218927",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "568218927"
+        }
+      ]
+    }
+  }
+]

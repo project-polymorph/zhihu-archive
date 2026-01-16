@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/405046206/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593880399,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/405046206/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/405046206/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有多少女性能够接受供精？",
+          "question_type": "normal",
+          "created": 1569669481,
+          "updated_time": 1569669481,
+          "url": "https://www.zhihu.com/api/v4/questions/348258092",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "348258092"
+        },
+        {
+          "type": "question",
+          "title": "完全体外受精生长的人类，有没有思想？",
+          "question_type": "normal",
+          "created": 1586181356,
+          "updated_time": 1586181356,
+          "url": "https://www.zhihu.com/api/v4/questions/385698806",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "385698806"
+        },
+        {
+          "type": "question",
+          "title": "如果人类繁育变成体外受精会怎么样？",
+          "question_type": "normal",
+          "created": 1647154097,
+          "updated_time": 1647154097,
+          "url": "https://www.zhihu.com/api/v4/questions/521678995",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "521678995"
+        }
+      ]
+    }
+  }
+]

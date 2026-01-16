@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/2256667983/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593926199,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/2256667983/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/2256667983/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假如双性人自体受孕成功并产下一子的话，生下来的孩子DNA能和母体是100%吗？",
+          "question_type": "normal",
+          "created": 1671716046,
+          "updated_time": 1671716046,
+          "url": "https://www.zhihu.com/api/v4/questions/573874788",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "573874788"
+        },
+        {
+          "type": "question",
+          "title": "双性同体是人类最自然状态的回归吗？",
+          "question_type": "normal",
+          "created": 1493276003,
+          "updated_time": 1493276003,
+          "url": "https://www.zhihu.com/api/v4/questions/59084969",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "59084969"
+        }
+      ]
+    }
+  }
+]

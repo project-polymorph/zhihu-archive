@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/41690616/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594730276,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/41690616/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/41690616/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何看待性别差异？",
+          "question_type": "normal",
+          "created": 1457959083,
+          "updated_time": 1461724969,
+          "url": "https://www.zhihu.com/api/v4/questions/41374700",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "41374700"
+        },
+        {
+          "type": "question",
+          "title": "在哪一刻你体会到了真正的性别差异？",
+          "question_type": "normal",
+          "created": 1492539489,
+          "updated_time": 1508903707,
+          "url": "https://www.zhihu.com/api/v4/questions/58691074",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "58691074"
+        }
+      ]
+    }
+  }
+]

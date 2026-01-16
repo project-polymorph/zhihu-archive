@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/301191217/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594888240,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/301191217/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/301191217/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男性和女性各自都有哪些性别相关的缺点?",
+          "question_type": "normal",
+          "created": 1685375333,
+          "updated_time": 1685375333,
+          "url": "https://www.zhihu.com/api/v4/questions/603743400",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "603743400"
+        },
+        {
+          "type": "question",
+          "title": "男性的性别困境是什么?",
+          "question_type": "normal",
+          "created": 1764134660,
+          "updated_time": 1764134660,
+          "url": "https://www.zhihu.com/api/v4/questions/1977004738680750304",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1977004738680750304"
+        },
+        {
+          "type": "question",
+          "title": "为什么世界上只有男人和女人两种性别？",
+          "question_type": "normal",
+          "created": 1426908776,
+          "updated_time": 1426908776,
+          "url": "https://www.zhihu.com/api/v4/questions/28927691",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "28927691"
+        },
+        {
+          "type": "question",
+          "title": "为什么没有性别的神要创造男人女人，分性别？科学一点的话，生物是为什么有性别？",
+          "question_type": "normal",
+          "created": 1548920005,
+          "updated_time": 1548920005,
+          "url": "https://www.zhihu.com/api/v4/questions/310836123",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "310836123"
+        }
+      ]
+    }
+  }
+]

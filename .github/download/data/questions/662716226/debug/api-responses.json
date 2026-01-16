@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/662716226/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594617685,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/662716226/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/662716226/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "变性「女儿」公开抨击父亲马斯克，称其公然对数百万观众撒谎，马斯克要摧毁的「觉醒病毒」是什么?",
+          "question_type": "normal",
+          "created": 1721974031,
+          "updated_time": 1721974031,
+          "url": "https://www.zhihu.com/api/v4/questions/662631623",
+          "answer_count": 395,
+          "comment_count": 22,
+          "follower_count": 838,
+          "relationship": {},
+          "id": "662631623"
+        },
+        {
+          "type": "question",
+          "title": "你怎么看马斯克儿子想断绝父子关系？",
+          "question_type": "normal",
+          "created": 1655792984,
+          "updated_time": 1655792984,
+          "url": "https://www.zhihu.com/api/v4/questions/538774044",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "538774044"
+        }
+      ]
+    }
+  }
+]

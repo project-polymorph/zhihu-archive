@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/512793656/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594631601,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/512793656/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/512793656/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "这个是性别认知障碍吗?",
+          "question_type": "normal",
+          "created": 1746957358,
+          "updated_time": 1746957358,
+          "url": "https://www.zhihu.com/api/v4/questions/1904957913023353539",
+          "answer_count": 3,
+          "comment_count": 2,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1904957913023353539"
+        }
+      ]
+    }
+  }
+]

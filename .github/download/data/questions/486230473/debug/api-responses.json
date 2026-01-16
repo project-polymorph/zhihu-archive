@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/486230473/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594908786,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/486230473/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/486230473/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何解决我国的性别问题？",
+          "question_type": "normal",
+          "created": 1563342073,
+          "updated_time": 1563342073,
+          "url": "https://www.zhihu.com/api/v4/questions/335385789",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "335385789"
+        },
+        {
+          "type": "question",
+          "title": "为什么很多人要看重性别问题?",
+          "question_type": "normal",
+          "created": 1711671539,
+          "updated_time": 1711671539,
+          "url": "https://www.zhihu.com/api/v4/questions/650661294",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "650661294"
+        },
+        {
+          "type": "question",
+          "title": "是什么决定了我们的性别？",
+          "question_type": "normal",
+          "created": 1682026283,
+          "updated_time": 1682026283,
+          "url": "https://www.zhihu.com/api/v4/questions/596854722",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "596854722"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/486230473/feeds?cursor=141cad23ebc55fff133739d4fa80fe9e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768594904996968755&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768594987464,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768594904996968755"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/486230473/feeds?cursor=141cad23ebc55fff133739d4fa80fe9e&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768594904996968755&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

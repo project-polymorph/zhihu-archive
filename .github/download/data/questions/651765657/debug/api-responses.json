@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/651765657/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593706237,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/651765657/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/651765657/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果生育了一个两性畸形的孩子下一胎该如何备孕呢?",
+          "question_type": "normal",
+          "created": 1668822366,
+          "updated_time": 1668822366,
+          "url": "https://www.zhihu.com/api/v4/questions/567584621",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "567584621"
+        },
+        {
+          "type": "question",
+          "title": "如何避免自己生出来的孩子是两性畸形？",
+          "question_type": "normal",
+          "created": 1639134751,
+          "updated_time": 1639134751,
+          "url": "https://www.zhihu.com/api/v4/questions/505140830",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "505140830"
+        },
+        {
+          "type": "question",
+          "title": "新生儿两性畸形是两性人，要怎么办？",
+          "question_type": "normal",
+          "created": 1565799711,
+          "updated_time": 1565799711,
+          "url": "https://www.zhihu.com/api/v4/questions/340621553",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "340621553"
+        }
+      ]
+    }
+  }
+]

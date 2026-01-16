@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/558204546/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594713138,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/558204546/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/558204546/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人类为什么只有男女两个性别，没有第三种性别？",
+          "question_type": "normal",
+          "created": 1560932335,
+          "updated_time": 1560932336,
+          "url": "https://www.zhihu.com/api/v4/questions/330155561",
+          "answer_count": 12,
+          "comment_count": 1,
+          "follower_count": 25,
+          "relationship": {},
+          "id": "330155561"
+        },
+        {
+          "type": "question",
+          "title": "为什么世界只有男女两个性别，如果再出现一个性别会是什么?",
+          "question_type": "normal",
+          "created": 1586594539,
+          "updated_time": 1586594539,
+          "url": "https://www.zhihu.com/api/v4/questions/386954125",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "386954125"
+        },
+        {
+          "type": "question",
+          "title": "性别的形成到底单纯由男方决定，还是由男女双方共同（随机）决定？",
+          "question_type": "normal",
+          "created": 1408512890,
+          "updated_time": 1408543284,
+          "url": "https://www.zhihu.com/api/v4/questions/24920170",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 14,
+          "relationship": {},
+          "id": "24920170"
+        }
+      ]
+    }
+  }
+]

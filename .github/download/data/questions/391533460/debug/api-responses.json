@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/391533460/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594074125,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/391533460/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/391533460/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你知道什么好的翻译外文文献网站？",
+          "question_type": "normal",
+          "created": 1425346980,
+          "updated_time": 1425346980,
+          "url": "https://www.zhihu.com/api/v4/questions/28483687",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "28483687"
+        },
+        {
+          "type": "question",
+          "title": "在哪里可以找到专业点英文翻译文献（具体见说明）？",
+          "question_type": "normal",
+          "created": 1368940371,
+          "updated_time": 1368940371,
+          "url": "https://www.zhihu.com/api/v4/questions/21080168",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "21080168"
+        },
+        {
+          "type": "question",
+          "title": "哪些网站翻译英文文献性价比比较高？",
+          "question_type": "normal",
+          "created": 1394255543,
+          "updated_time": 1394255543,
+          "url": "https://www.zhihu.com/api/v4/questions/22969945",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "22969945"
+        }
+      ]
+    }
+  }
+]

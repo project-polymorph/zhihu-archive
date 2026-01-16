@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/576101278/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593796937,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/576101278/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/576101278/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "从生理的角度看，为什么女性比男性发育得更早？",
+          "question_type": "normal",
+          "created": 1633832693,
+          "updated_time": 1633832693,
+          "url": "https://www.zhihu.com/api/v4/questions/491544276",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "491544276"
+        },
+        {
+          "type": "question",
+          "title": "女性为什么比男性发育早？",
+          "question_type": "normal",
+          "created": 1418897540,
+          "updated_time": 1418897540,
+          "url": "https://www.zhihu.com/api/v4/questions/27141034",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "27141034"
+        },
+        {
+          "type": "question",
+          "title": "为什么大多数情况下，女人发育比男人早，死得却比男人晚？",
+          "question_type": "normal",
+          "created": 1428926609,
+          "updated_time": 1428926609,
+          "url": "https://www.zhihu.com/api/v4/questions/29534902",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "29534902"
+        }
+      ]
+    }
+  }
+]

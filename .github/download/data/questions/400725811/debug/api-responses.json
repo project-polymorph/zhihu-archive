@@ -1,0 +1,88 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/400725811/feeds?cursor=e93f7b4b5c80f805f310ab599db8483b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768594087246791056&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768594089964,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768594087246791056"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/400725811/feeds?cursor=e93f7b4b5c80f805f310ab599db8483b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768594087246791056&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/400725811/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594090340,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/400725811/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/400725811/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "假两性畸形是怎么引起的？",
+          "question_type": "normal",
+          "created": 1672724305,
+          "updated_time": 1672724305,
+          "url": "https://www.zhihu.com/api/v4/questions/576511014",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "576511014"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形的病人可以活多久?",
+          "question_type": "normal",
+          "created": 1666952711,
+          "updated_time": 1666952711,
+          "url": "https://www.zhihu.com/api/v4/questions/563121734",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "563121734"
+        },
+        {
+          "type": "question",
+          "title": "如何评价现在两性畸形患者确诊人数增加的问题？",
+          "question_type": "normal",
+          "created": 1505348984,
+          "updated_time": 1527251347,
+          "url": "https://www.zhihu.com/api/v4/questions/65319989",
+          "answer_count": 1,
+          "comment_count": 1,
+          "follower_count": 33,
+          "relationship": {},
+          "id": "65319989"
+        },
+        {
+          "type": "question",
+          "title": "好想确诊假两性畸形啊?",
+          "question_type": "normal",
+          "created": 1754794302,
+          "updated_time": 1754794302,
+          "url": "https://www.zhihu.com/api/v4/questions/1937828435511719137",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1937828435511719137"
+        }
+      ]
+    }
+  }
+]

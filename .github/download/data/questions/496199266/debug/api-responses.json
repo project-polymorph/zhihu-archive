@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/496199266/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768593671427,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/496199266/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/496199266/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么人类的生殖力（卵子精子数量）这么多，是为了什么？",
+          "question_type": "normal",
+          "created": 1622792448,
+          "updated_time": 1622792448,
+          "url": "https://www.zhihu.com/api/v4/questions/463120514",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "463120514"
+        },
+        {
+          "type": "question",
+          "title": "什么东西不受精直接发育成个体？",
+          "question_type": "normal",
+          "created": 1593875319,
+          "updated_time": 1593875319,
+          "url": "https://www.zhihu.com/api/v4/questions/405046206",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "405046206"
+        },
+        {
+          "type": "question",
+          "title": "在进化的角度，为什么人类女性发育比男性更早?",
+          "question_type": "normal",
+          "created": 1672554465,
+          "updated_time": 1672554465,
+          "url": "https://www.zhihu.com/api/v4/questions/576101278",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "576101278"
+        }
+      ]
+    }
+  }
+]

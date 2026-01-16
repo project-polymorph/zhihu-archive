@@ -1,0 +1,1155 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/482975759/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768594550607,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/482975759/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/482975759/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何看待男性女性化？",
+          "question_type": "normal",
+          "created": 1507988567,
+          "updated_time": 1507988567,
+          "url": "https://www.zhihu.com/api/v4/questions/66653157",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "66653157"
+        },
+        {
+          "type": "question",
+          "title": "怎样看待男性女性化?",
+          "question_type": "normal",
+          "created": 1606389062,
+          "updated_time": 1624155404,
+          "url": "https://www.zhihu.com/api/v4/questions/432131334",
+          "answer_count": 66,
+          "comment_count": 7,
+          "follower_count": 112,
+          "relationship": {},
+          "id": "432131334"
+        },
+        {
+          "type": "question",
+          "title": "男性女性化的原因是什么？",
+          "question_type": "normal",
+          "created": 1611963417,
+          "updated_time": 1611963417,
+          "url": "https://www.zhihu.com/api/v4/questions/441946894",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "441946894"
+        },
+        {
+          "type": "question",
+          "title": "如何看待男生“女性化”的现象呢？",
+          "question_type": "normal",
+          "created": 1658394041,
+          "updated_time": 1658394041,
+          "url": "https://www.zhihu.com/api/v4/questions/544563960",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "544563960"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/482975759/feeds?cursor=2daf5d6f351e689ebd731efadcb3dab4&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768594547043190523&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768594550611,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiUyI3kByCPwKbmAZICJQoJNDA5ODk2NjQ3EgoyMDg4OTg1NjIwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"m4FnpwAi\">首先女性化就有争议，何谓女性化？</p><p data-pid=\"01TT3C1D\">留长头发穿裙子不是女性的专属，谁都可以留，男的穿裙子留长头发他也是男的，他想变成女的是不可能的，移植子宫过去都不一定是。</p><p data-pid=\"VN5Z2zln\">我觉得只是部分人对少数群体的不认可，觉得这些人标新立异，看不得别人与众不同，俗称小心眼。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1630129326,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "首先女性化就有争议，何谓女性化？ 留长头发穿裙子不是女性的专属，谁都可以留，男的穿裙子留长头发他也是男的，他想变成女的是不可能的，移植子宫过去都不一定是。 我觉得只是部分人对少数群体的不认可，觉得这些人标新立异，看不得别人与众不同，俗称小心眼。",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2088985620",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1630129326,
+            "url": "https://www.zhihu.com/api/v4/answers/2088985620",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689e47221efadcb3dab4",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiDje3jByCPwKbmAZICJQoJNDA5Nzk5NTY0EgoyMDg4NDUzNzYzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-2666990ba7084b9cdaebb1d9a09bd586_l.png?source=1def8aca",
+                "description": "「在乎过大年」活动纪念徽章",
+                "medal_avatar_frame": "",
+                "medal_id": "1877327423126786050",
+                "medal_name": "在乎过大年 2025",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-2666990ba7084b9cdaebb1d9a09bd586_r.png?source=1def8aca"
+              },
+              "follower_count": 2553,
+              "gender": 0,
+              "headline": "健健康康快快乐乐的活着",
+              "id": "4e8e48aac3fc6b3fcdc7699aaa105a15",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "佳佳",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4e8e48aac3fc6b3fcdc7699aaa105a15",
+              "url_token": "jia-jia-88-81-28",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"oxQtl4sD\">不是接受不了男性女性化，而是接受不了将男性女性化作为风向标引导青少年男性女性化！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1630109428,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不是接受不了男性女性化，而是接受不了将男性女性化作为风向标引导青少年男性女性化！",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2088453763",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "6 赞同 · 1 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1630109428,
+            "url": "https://www.zhihu.com/api/v4/answers/2088453763",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 6
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689e0caf1dfadcb3dab4",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiFz8S4CiCPwKbmAZICJQoJNTM5NzA5NDQxEgoyODAyOTE5MzAxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-542e35529a11f9a5414c0fe97bc4f44e_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-542e35529a11f9a5414c0fe97bc4f44e.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-6bbfc05fc7a6d0c24a18da798fbeadea_l.png?source=1def8aca",
+                "description": "回答 1 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "1124316222665379840",
+                "medal_name": "首答",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-6bbfc05fc7a6d0c24a18da798fbeadea_r.png?source=1def8aca"
+              },
+              "follower_count": 0,
+              "gender": 0,
+              "headline": "",
+              "id": "3fd9b085519464b2cb71cdbb1eefbe3d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "ROBERT",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/3fd9b085519464b2cb71cdbb1eefbe3d",
+              "url_token": "robert-43-56-76",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"NGZkUtfx\">我不站在任何一边。对于问题，我认为提出这样的问题本身就是个错误。（客观的讲，男性女性化就是女性男性化。这本来是一个医学方面的，有用的，客观的术语。而现在词义却十分模糊，一度让我不想提出看法。这种模糊的词根本不应该被创造出来用于客观的讨论）对于许多观点，我认为凡是选择接受或者不接受都是错误的。我会在下文中给出我的分析和我认为正确的做法。</p><p data-pid=\"fqq7b9NK\">本质上还是社会不够先进（请看到最后，请别说我只是在高谈阔论，我会给出我认为合理的做法。）。假设人类全体进入共产主义高级阶段，没有国家，没有道德，没有法律，没有阶级，实行按需分配，每个人都在以集体发展为条件下独立地自由地发展，就很难有什么观念不能接受。到那时，女性和男性的界限早已消失，因为生产力已经先进到不需要两性分工了。也许，人类到那时早已没有了各种社会矛盾，他们根本不会提出这样不值得思考的问题。而社会主义社会正是共产主义社会的初级阶段，我们正不断的在向共产主义社会高级阶段过渡，男性与女性在一切方面迟早会拉平。本世纪内，我们必然看到人造子宫对两性生理差异的巨大削弱。</p><p data-pid=\"ScHhNPwl\">不能接受的原因中比较客观合理的大多是认为男性女性化会使男性失去在一些方面的优势（比如巩固国防力量等等）从而导致集体力量被削弱，在内部和外部干预下引起社会不稳定。我在这里先不谈这样的观点隐含了对于女性的贬低和刻板印象。这显然是一种具有时代特征的理由，也印证了我们当前的生产力并不够先进。但是我们有理由相信：未来打仗不需要靠大男子主义，而是科技装备的比拼和精神毅力。现实状况是：在当代的青年人中，正有越来越多的女性比绝大多数男性更有毅力。在生物学等许多科学领域，女性研究者的比重几乎占到一半（如果没有社会偏见并给予女生更多鼓励的话，超过男性占比也十分有可能）在未来，如果在一些方面女性对于男性有过之而无不及（仍以国防为例：外骨骼装甲拉平了士兵的体能和力量；组织性和精神意志实际上主要靠后天的学习和自我教育；未来战争需要的更多是机器和研究机器的人，一支由经历了大量训练的AI指挥的无人机编队可能比如今的任何空军编队都要强大）到那时，恐怕很多人不会接受女性男性化吧。不，那时的人一定能看的更加长远，而立刻采取明知的策略而不会讨论这样不值得思考的问题。</p><p data-pid=\"vYWszFU0\">以上都是从未来发展的角度看问题，目的就是指出这个问题以及对于这个问题许多的观点背后存在的问题。</p><p data-pid=\"oELLnrub\">从当今的角度来看问题，我们其实也不应该产生这样的矛盾。在我看来，人不应该给任何精神或特质贴上性别的标签。因为就目前来看，这样做仅仅限制了两性追求一些所谓的“异性才可以拥有的”优秀特质，反而加剧了逆反心理，使很多两性去追求所谓的“异性身上才有的”不良特质。如果划分男性和女性反而限制了生产力的发展，我们就不应该去划分两性，因为“社会主义的本质是解放生产力，发展生产力”--邓小平。</p><p data-pid=\"RwVRFMzk\">我们应该怎么做？我们应当抛弃文化中一切对性别刻板印象和偏见。鼓励男性追求温柔细致的力度要和鼓励他们追求勇敢坚强的力度一样大。鼓励女性追求勇敢坚强的力度要和鼓励他们追求温柔细致的力度一样大。谴责女性矫揉造作的力度要和谴责男性矫揉造作的力度一样大。谴责男性极端具有攻击性的力度要和谴责女性极端具有攻击性的力度一样大。我们要谴责只有阳刚或者只有阴柔，我们要鼓励所有人刚柔并济。我应当尽可能的抛弃两性身上的不良特质，尽可能且不受限制地学习两性身上优秀的品质。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1671107051,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我不站在任何一边。对于问题，我认为提出这样的问题本身就是个错误。（客观的讲，男性女性化就是女性男性化。这本来是一个医学方面的，有用的，客观的术语。而现在词义却十分模糊，一度让我不想提出看法。这种模糊的词根本不应该被创造出来用于客观的讨论）对于许多观点，我认为凡是选择接受或者不接受都是错误的。我会在下文中给出我的分析和我认为正确的做法。 本质上还是社会不够先进（请看到最后，请别说我只是在高谈阔论，…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2802919301",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 3
+              }
+            },
+            "reaction_instruction": {
+              "REACTION_CONTENT_SEGMENT_LIKE": "HIDE"
+            },
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 3,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1671107051,
+            "url": "https://www.zhihu.com/api/v4/answers/2802919301",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689e81f45bc2dcb3dab4",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjqn9HjByCPwKbmAZICJQoJNDA5NzE2Mzc4EgoyMDg3OTk3NDE4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-0b060f26e874ed5c14e7880d711117cf_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-0b060f26e874ed5c14e7880d711117cf.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 308,
+              "gender": 1,
+              "headline": "专怼娘炮谬论，拨乱反正",
+              "id": "416ec5d3c52e06dec03a9259070321f5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "吴国映画",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/416ec5d3c52e06dec03a9259070321f5",
+              "url_token": "fu-wo-yi-xia-21",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "你的评论将会由作者筛选后显示",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "censor",
+            "content": "<p data-pid=\"J3ACmS0p\">因为男性人女性化会带来很多未来隐患，这是一种迂腐的不正当风气，应该抵制</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1630072991,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "因为男性人女性化会带来很多未来隐患，这是一种迂腐的不正当风气，应该抵制",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2087997418",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1630072991,
+            "url": "https://www.zhihu.com/api/v4/answers/2087997418",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689e1a621bfadcb3dab4",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiZg/nnByCPwKbmAZICJQoJNDExMzYwNDc4EgoyMDk3MDM3NzIxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7dde52830f93cac4f2215cb11a69da1c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-7dde52830f93cac4f2215cb11a69da1c.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 57,
+              "gender": 0,
+              "headline": "有阳光才会有彩虹",
+              "id": "d12b8df3716abb2c8b845441d9777d49",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "Utopiosphere麻麻",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/d12b8df3716abb2c8b845441d9777d49",
+              "url_token": "xiao-quan-hua-yang-24-74",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"dz5A_V0p\">谁不接受呢？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1630483447,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "谁不接受呢？",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2097037721",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1630483447,
+            "url": "https://www.zhihu.com/api/v4/answers/2097037721",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689e5e78f4fadcb3dab4",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768594547043190523"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/482975759/feeds?cursor=2daf5d6f351e689e5e78f4fadcb3dab4&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768594547043190523&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/482975759/feeds?cursor=2daf5d6f351e689e5e78f4fadcb3dab4&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768594547043190523&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768594569836,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjvl97lByCPwKbmAZICJQoJNDEwNTE4Mjk1EgoyMDkyNDAzNjk1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "只有作者关注的人才可以评论",
+              "status": false
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "followee",
+            "content": "<p data-pid=\"gFF0fnCc\">因为这是女权社会对男人的压迫。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1630293290,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "因为这是女权社会对男人的压迫。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2092403695",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1630293290,
+            "url": "https://www.zhihu.com/api/v4/answers/2092403695",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689e97a708fadcb3dab4",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjavL/kByCPwKbmAZICJQoJNDEwMDQ1NTM1EgoyMDg5ODAzMzU0GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-15d95d4468e0770262fe0e1b17168b6b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-15d95d4468e0770262fe0e1b17168b6b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_l.png?source=1def8aca",
+                "description": "关注 20 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_r.png?source=1def8aca"
+              },
+              "follower_count": 1,
+              "gender": -1,
+              "headline": "",
+              "id": "112c628529af476b179b6d277b979bdf",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "路人",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/112c628529af476b179b6d277b979bdf",
+              "url_token": "lu-ren-98-71",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"kXT8MOvy\">        从实际上来讲，大家其实没那么在乎。</p><p data-pid=\"cAeUSV4x\">        首先，男人女性化并没有做出任何违反社会道德法律的问题，女性化就好比同性恋，刚出来的时候都会被倍受抵制，渐渐的大家也就不怎么管了。大家现在只是不希望这种女性化行为持续扩大到影响社会运作。</p><p data-pid=\"I3SXHat4\">        其次男人女性化的审美在我国的文化中一直都有，比如贾宝玉，以及文弱书生等，而现在人们喜爱的男性化更偏向于古代武将的硬汉形象。而两种喜好都有不同的受体，现在只不过舆论更喜欢认为硬汉才是男人的样子。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1630159154,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "从实际上来讲，大家其实没那么在乎。 首先，男人女性化并没有做出任何违反社会道德法律的问题，女性化就好比同性恋，刚出来的时候都会被倍受抵制，渐渐的大家也就不怎么管了。大家现在只是不希望这种女性化行为持续扩大到影响社会运作。 其次男人女性化的审美在我国的文化中一直都有，比如贾宝玉，以及文弱书生等，而现在人们喜爱的男性化更偏向于古代武将的硬汉形象。而两种喜好都有不同的受体，现在只不过舆论更喜欢认为硬汉才…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2089803354",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1630071893,
+              "id": "482975759",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么有人接受不了男性女性化？",
+              "type": "question",
+              "updated_time": 1630071893,
+              "url": "https://www.zhihu.com/api/v4/questions/482975759"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1630159154,
+            "url": "https://www.zhihu.com/api/v4/answers/2089803354",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "2daf5d6f351e689edf6800fadcb3dab4",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768594547043190523"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/482975759/feeds?cursor=2daf5d6f351e689edf6800fadcb3dab4&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768594547043190523&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]
