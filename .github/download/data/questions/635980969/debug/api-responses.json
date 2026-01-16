@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/635980969/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473462959,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/635980969/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/635980969/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "现在这个问题该怎么解决?算不算他们的过错?",
+          "question_type": "normal",
+          "created": 1578215443,
+          "updated_time": 1578215443,
+          "url": "https://www.zhihu.com/api/v4/questions/364821308",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "364821308"
+        },
+        {
+          "type": "question",
+          "title": "请问以下情况我的过错有多大？",
+          "question_type": "normal",
+          "created": 1596014005,
+          "updated_time": 1596014005,
+          "url": "https://www.zhihu.com/api/v4/questions/410643919",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "410643919"
+        }
+      ]
+    }
+  }
+]

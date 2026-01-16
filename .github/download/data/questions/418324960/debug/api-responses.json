@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/418324960/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768472751562,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/418324960/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/418324960/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你们遭遇过老观念对性别的刻板印象吗？",
+          "question_type": "normal",
+          "created": 1616256705,
+          "updated_time": 1616256705,
+          "url": "https://www.zhihu.com/api/v4/questions/450422903",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "450422903"
+        }
+      ]
+    }
+  }
+]

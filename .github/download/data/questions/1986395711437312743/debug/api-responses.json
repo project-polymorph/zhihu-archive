@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1986395711437312743/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473719581,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1986395711437312743/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1986395711437312743/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何帮助孩子更好地发展性别认同？",
+          "question_type": "normal",
+          "created": 1680779045,
+          "updated_time": 1680779045,
+          "url": "https://www.zhihu.com/api/v4/questions/594046375",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "594046375"
+        },
+        {
+          "type": "question",
+          "title": "如何克服对自己女性性别的不认同？",
+          "question_type": "normal",
+          "created": 1622135832,
+          "updated_time": 1622139281,
+          "url": "https://www.zhihu.com/api/v4/questions/461783905",
+          "answer_count": 30,
+          "comment_count": 1,
+          "follower_count": 73,
+          "relationship": {},
+          "id": "461783905"
+        },
+        {
+          "type": "question",
+          "title": "性别认同具备可证伪性吗？如果它不具备，那么它被认为是“社会科学”可以被视为对可证伪性本身的“证伪”吗？",
+          "question_type": "normal",
+          "created": 1748835032,
+          "updated_time": 1748835032,
+          "url": "https://www.zhihu.com/api/v4/questions/1912833446868399257",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1912833446868399257"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/265856609/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473857488,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/265856609/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/265856609/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "想关注菜花狐狗狸的漫画在哪里看？",
+          "question_type": "normal",
+          "created": 1520678948,
+          "updated_time": 1520678948,
+          "url": "https://www.zhihu.com/api/v4/questions/268522852",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "268522852"
+        },
+        {
+          "type": "question",
+          "title": "有个番剧跟漫画《捡到一只小狐狸》挺像的，但是主角是只狸猫好像，是个啥动漫？",
+          "question_type": "normal",
+          "created": 1540264191,
+          "updated_time": 1540264191,
+          "url": "https://www.zhihu.com/api/v4/questions/299646331",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "299646331"
+        },
+        {
+          "type": "question",
+          "title": "请问这来自什么动漫？橙色头发的女狐狸，男主像犬夜叉？",
+          "question_type": "normal",
+          "created": 1494183672,
+          "updated_time": 1494183672,
+          "url": "https://www.zhihu.com/api/v4/questions/59537695",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "59537695"
+        }
+      ]
+    }
+  }
+]

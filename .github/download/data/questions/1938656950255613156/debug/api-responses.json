@@ -1,0 +1,1031 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473610895,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1938656950255613156/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1938656950255613156/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "高智理性的主角以为这世上除了自己以外的所有人都是精神病，他们也以为主角是神经病，这样的小说该怎样写？",
+          "question_type": "normal",
+          "created": 1666988706,
+          "updated_time": 1666988849,
+          "url": "https://www.zhihu.com/api/v4/questions/563170292",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "563170292"
+        },
+        {
+          "type": "question",
+          "title": "假设一个人，他智力卓群并信奉绝对理性。那他的信奉是不是一种病态的心理？如果是，我们该怎么样纠正他。?",
+          "question_type": "normal",
+          "created": 1580978653,
+          "updated_time": 1580978653,
+          "url": "https://www.zhihu.com/api/v4/questions/370067954",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "370067954"
+        },
+        {
+          "type": "question",
+          "title": "精神病人是否具有理性？",
+          "question_type": "normal",
+          "created": 1525417990,
+          "updated_time": 1525417990,
+          "url": "https://www.zhihu.com/api/v4/questions/275852537",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "275852537"
+        },
+        {
+          "type": "question",
+          "title": "请问有没有在心理学上对立的观点？",
+          "question_type": "normal",
+          "created": 1533520957,
+          "updated_time": 1533520957,
+          "url": "https://www.zhihu.com/api/v4/questions/288643264",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "288643264"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156/feeds?cursor=a26f3c1c50c86dc47cc23b8eda599e9b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768473602261234075&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768473610897,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxj+gM7Uip3d+Bog5OnP6pjH3/MakgIuCgk3NDMwNjk2OTISEzE5NDE0NjE0NTcwMTY0MjI1MjYYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-458dd9bff005ec01a1536dd02b7de6e8_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-458dd9bff005ec01a1536dd02b7de6e8.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_l.png?source=1def8aca",
+                "description": "被 500 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_r.png?source=1def8aca"
+              },
+              "follower_count": 551,
+              "gender": 1,
+              "headline": "键政之于知乎就如同打拳之于红书",
+              "id": "70168e85b1e39431264f149bf41d0de4",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "普杰",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/70168e85b1e39431264f149bf41d0de4",
+              "url_token": "pu-jie-61-57",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"z1_7zKPf\">只要啊啊啊啊啊啊啊啊啊就有姐妹跟着冲，然后知心姐姐带着舆论将男的顷刻炼化</p><p data-pid=\"izjqlf36\">有任何理性思考的必要吗？</p><p data-pid=\"f5T0rRna\">或者说，如果按照经济学利益最大化的角度定义理性的话，那不理性思考恰恰是理性的</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1755660481,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "只要啊啊啊啊啊啊啊啊啊就有姐妹跟着冲，然后知心姐姐带着舆论将男的顷刻炼化 有任何理性思考的必要吗？ 或者说，如果按照经济学利益最大化的角度定义理性的话，那不理性思考恰恰是理性的",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1941461457016422526",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "22 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1754991835,
+              "id": "1938656950255613156",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么陷入性别问题会给人降智，使人难以理性思考？",
+              "type": "question",
+              "updated_time": 1754991835,
+              "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1755660481,
+            "url": "https://www.zhihu.com/api/v4/answers/1941461457016422526",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 22
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "a26f3c1c50c86dc406e9358eda599e9b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxjkrs66vffL9Rog5OnP6pjH3/MakgIuCgk3NDIzMjcxMjUSEzE5Mzk2OTY1NDgzMzExMDAwMDQYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-24fd6def96775321b61f10bc19981975_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-24fd6def96775321b61f10bc19981975.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-7eb0113df1a3e29ca8fa622aee259bfb_l.png?source=1def8aca",
+                "description": "回答 500 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972440607604559872",
+                "medal_name": "知无不言",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-7eb0113df1a3e29ca8fa622aee259bfb_r.png?source=1def8aca"
+              },
+              "follower_count": 1831,
+              "gender": -1,
+              "headline": "典型性incel男，黑丸理论，双相精神病，纳垢信徒，",
+              "id": "615a91c2354f1ffb3505bd4888e2ac8e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "何必诗债换酒钱",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/615a91c2354f1ffb3505bd4888e2ac8e",
+              "url_token": "wu-wei-de-liu-mang-wu-chan-zhe",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 7,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"w_lZ6jqA\">事实上</p><p data-pid=\"f2mXFxr_\">没人比我自己更希望我在知乎发的一切关于东大女性以及社会偏激的偏见理解是错误的。</p><p data-pid=\"shqtHQgH\">没人。我每天最痛苦的事情就是我立足于我的生活就无法反驳我绝望的思维，这也是我患上双相的根本原因</p><p data-pid=\"mvGIr-Fu\">你所谓的理性看待后的结果在我的生活中是几乎为0的出现概率。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1755239694,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/a957c21d31aec37912af2f2aa28581eb",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @神里绫清竹",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "事实上 没人比我自己更希望我在知乎发的一切关于东大女性以及社会偏激的偏见理解是错误的。 没人。我每天最痛苦的事情就是我立足于我的生活就无法反驳我绝望的思维，这也是我患上双相的根本原因 你所谓的理性看待后的结果在我的生活中是几乎为0的出现概率。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1939696548331100004",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "22 赞同 · 7 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1754991835,
+              "id": "1938656950255613156",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么陷入性别问题会给人降智，使人难以理性思考？",
+              "type": "question",
+              "updated_time": 1754991835,
+              "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1755414866,
+            "url": "https://www.zhihu.com/api/v4/answers/1939696548331100004",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 22
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "a26f3c1c50c86dc4afbd408eda599e9b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxjvyM+osqaT9xog5OnP6pjH3/MakgIuCgk3NDI2ODE0MDISEzE5NDA1NzMzNzE1MDM5OTM5NjcYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-47ef6c90e5b3cb6ecbb93c6ff6a9b6f8_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-47ef6c90e5b3cb6ecbb93c6ff6a9b6f8.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-0d030e65741ae92a979a6b07aa04b96b_l.png?source=1def8aca",
+                "description": "参与 2022「那年我高考」想法创作活动，或在高考领域下创作回答或文章",
+                "medal_avatar_frame": "",
+                "medal_id": "1512775127871311873",
+                "medal_name": "高考过来人 2022",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-0d030e65741ae92a979a6b07aa04b96b_r.png?source=1def8aca"
+              },
+              "follower_count": 677929,
+              "gender": 1,
+              "headline": "文明其精神，野蛮其意志。世故其言行，耿直其理想。",
+              "id": "00a69a0323d435435c7bbd0f1bd535e5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "墨苍离",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/00a69a0323d435435c7bbd0f1bd535e5",
+              "url_token": "canglimo",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://picx.zhimg.com/v2-aa8a1823abfc46f14136f01d55224925.jpg?source=88ceefae",
+                  "url": "https://picx.zhimg.com/v2-aa8a1823abfc46f14136f01d55224925.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 40,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"V80V_1Ll\">无论加害者是男是女，ta们敢侮辱你、诬陷你，敢指鹿为马，敢把你当成第三性，是因为理性的知道自己不会付出代价啊。</p><p data-pid=\"E33ejjS9\">被你们气笑了，真的。</p><p data-pid=\"iMO3ON5y\">你们这么多年都学了些什么了色啊。</p><p data-pid=\"NH-mhlz9\">都什么年代了，还有人认为社会热点的制造者和对他人的加害者，只是感性了，如果他们理性了，就不会做恶。</p><p data-pid=\"LmLSsMRi\">坏人都不是坏人，都是情绪上头一时没想清楚，所以冲动作恶了。</p><p data-pid=\"ljO1U_9s\">其实如果理性起来都是好人啊。</p><p data-pid=\"2vppLhSc\">典型的三流日漫番剧洗白混蛋boss的逻辑。</p><p data-pid=\"vPopeMav\">你这种，把理性等同于体面或者道德的思想钢印，是谁给你装进去的，是谁忽悠你的。</p><p data-pid=\"9FNJearu\">理性不涉及善恶，理性当然可以为恶，而且经常为恶。</p><p data-pid=\"BD6Jt8vY\">以题主提到的武汉大学杨女士事件而言，她在开始的过程性明确知道肖同学不构成性骚扰（因而报案是没用的），所以才去不断跟辅导员要求处分，不断闹，要求肖同学道歉，再利用这个书面道歉去扩大事端。</p><p data-pid=\"8MfETxcw\">她做的说的这些手腕，做的时候都算的很清楚很老道，很理性。</p><p data-pid=\"ug42-dGk\">不信的话你去听一下她跟辅导员的录音。</p><p data-pid=\"BFLE0so0\">有没有一种可能，正是因为她们这类人，理性的判断权衡之后，认为作恶对自己的利益和情绪价值有利，而且风险很小，对手很弱，所以才敢于作恶呢？</p><p data-pid=\"tCEJyd-X\">就杨同学这种如果面对一个200斤纹身大壮汉在图书馆，她敢去给人家拍视频吗，敢去闹事说人家性骚扰她吗？</p><p data-pid=\"KomK-8e0\">她早就理性的判断后，偃旗息鼓了。</p><p data-pid=\"4QyVMO69\">柿子捡软的捏，这个判断本身就是理性的。</p><p data-pid=\"Ygt-JOgn\">她理性的预判了肖同学的退让和必然道歉，并通过挑起是非的前期几句话的测试，就发现了肖同学必然怂（当然这种必然怂也是被肖同学的女强人母亲折磨出来的）。</p><p data-pid=\"VlFpAhVW\">发现以后，才乘胜追击的。</p><p data-pid=\"j4EzN1Hu\">如果碰上个正常男生，直接报警告她诬陷，甚至要动手揍她，跑她宿舍底下骂，哭，威胁自杀，跟学校不断闹，你看看杨女士还敢进行后续动作吗？</p><p data-pid=\"etE0jArp\">别逗了，这些人感性个鸡毛啊。</p><p data-pid=\"as76Ss3h\">感性都是借口，杨这种是在作恶的时候非常理性的，对风险评估极度谨慎的。</p><p data-pid=\"ywJWuQGW\">一直到现在，因为杨女士绑架或者说裹挟了当年武汉大学对肖同学的处分，造成了建制派不得不站队杨女士不然就会被追责，实际上杨女士还是p风险都没有。</p><p data-pid=\"92ikSRlI\">记住，任何人跟你说ta是因为感性做了恶行，你都要明白，ta们在伤害别人的战术上一定是理性的。</p><p data-pid=\"1f-lR9zT\">不然早被反杀了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1755448745,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "无论加害者是男是女，ta们敢侮辱你、诬陷你，敢指鹿为马，敢把你当成第三性，是因为理性的知道自己不会付出代价啊。 被你们气笑了，真的。 你们这么多年都学了些什么了色啊。 都什么年代了，还有人认为社会热点的制造者和对他人的加害者，只是感性了，如果他们理性了，就不会做恶。 坏人都不是坏人，都是情绪上头一时没想清楚，所以冲动作恶了。 其实如果理性起来都是好人啊。 典型的三流日漫番剧洗白混蛋boss的逻辑。 你这种，…",
+            "extras": "",
+            "favlists_count": 141,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1940573371503993967",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "536 赞同 · 141 收藏 · 40 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1754991835,
+              "id": "1938656950255613156",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么陷入性别问题会给人降智，使人难以理性思考？",
+              "type": "question",
+              "updated_time": 1754991835,
+              "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 21,
+                "like_count": 49
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": true,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": "真诚赞赏，手留余香"
+            },
+            "segment_infos": [
+              {
+                "marks": [
+                  {
+                    "end_index": 38,
+                    "seg_info": {
+                      "comment_count": 0,
+                      "is_like": false,
+                      "is_span": false,
+                      "like_count": 4,
+                      "my_comment_count": 0,
+                      "seg_ids": [
+                        "1991934521520715185"
+                      ]
+                    },
+                    "start_index": 0
+                  }
+                ],
+                "pid": "vPopeMav",
+                "text": "你这种，把理性等同于体面或者道德的思想钢印，是谁给你装进去的，是谁忽悠你的。"
+              },
+              {
+                "marks": [
+                  {
+                    "end_index": 53,
+                    "seg_info": {
+                      "comment_count": 0,
+                      "is_like": false,
+                      "is_span": false,
+                      "like_count": 2,
+                      "my_comment_count": 0,
+                      "seg_ids": [
+                        "1940697627181166853"
+                      ]
+                    },
+                    "start_index": 18
+                  }
+                ],
+                "pid": "BD6Jt8vY",
+                "text": "以题主提到的武汉大学杨女士事件而言，她在开始的过程性明确知道肖同学不构成性骚扰（因而报案是没用的），所以才去不断跟辅导员要求处分，不断闹，要求肖同学道歉，再利用这个书面道歉去扩大事端。"
+              },
+              {
+                "marks": [
+                  {
+                    "end_index": 67,
+                    "seg_info": {
+                      "comment_count": 0,
+                      "is_like": false,
+                      "is_span": false,
+                      "like_count": 2,
+                      "my_comment_count": 0,
+                      "seg_ids": [
+                        "1940697669589800942"
+                      ]
+                    },
+                    "start_index": 0
+                  }
+                ],
+                "pid": "BFLE0so0",
+                "text": "有没有一种可能，正是因为她们这类人，理性的判断权衡之后，认为作恶对自己的利益和情绪价值有利，而且风险很小，对手很弱，所以才敢于作恶呢？"
+              },
+              {
+                "marks": [
+                  {
+                    "end_index": 65,
+                    "seg_info": {
+                      "comment_count": 0,
+                      "is_like": false,
+                      "is_span": false,
+                      "like_count": 3,
+                      "my_comment_count": 0,
+                      "seg_ids": [
+                        "1940697819083145510"
+                      ]
+                    },
+                    "start_index": 0
+                  }
+                ],
+                "pid": "j4EzN1Hu",
+                "text": "如果碰上个正常男生，直接报警告她诬陷，甚至要动手揍她，跑她宿舍底下骂，哭，威胁自杀，跟学校不断闹，你看看杨女士还敢进行后续动作吗？"
+              },
+              {
+                "marks": [
+                  {
+                    "end_index": 46,
+                    "seg_info": {
+                      "comment_count": 0,
+                      "is_like": false,
+                      "is_span": false,
+                      "like_count": 13,
+                      "my_comment_count": 0,
+                      "seg_ids": [
+                        "1940600087689557443"
+                      ]
+                    },
+                    "start_index": 0
+                  }
+                ],
+                "pid": "92ikSRlI",
+                "text": "记住，任何人跟你说ta是因为感性做了恶行，你都要明白，ta们在伤害别人的战术上一定是理性的。"
+              }
+            ],
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 49,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1755450017,
+            "url": "https://www.zhihu.com/api/v4/answers/1940573371503993967",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 536
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "a26f3c1c50c86dc4c0d53b8eda599e9b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxi7pM6O7pmb9hog5OnP6pjH3/MakgIuCgk3NDI0NzIzNDMSEzE5NDAwNDUxNzUyOTc2NDMwNjcYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-5f9dd16f8ba664ae12831a63f345b7e9_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-5f9dd16f8ba664ae12831a63f345b7e9.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-90ce99c0bc9bf2d6c8ba0da548634f1a_l.png?source=1def8aca",
+                "description": "感谢你在 2025 高考活动中的创作",
+                "medal_avatar_frame": "",
+                "medal_id": "1928409999207568795",
+                "medal_name": "高考过来人 2025",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-90ce99c0bc9bf2d6c8ba0da548634f1a_r.png?source=1def8aca"
+              },
+              "follower_count": 752,
+              "gender": -1,
+              "headline": "慈悲为怀，科学理性，望能成长中的未来伟人",
+              "id": "7d869f2bd40373fe839c10ce81862fe3",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "在役情感分析家",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7d869f2bd40373fe839c10ce81862fe3",
+              "url_token": "najlaa-68",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"oWSaytgN\">因为只要陷入任何性别类似的问题（<b>把社会分为A类人和非A类人，也就是所谓的身份政治</b>），都很容易让人降智。</p><p data-pid=\"Ace7tMU9\">比如把人分为男和女，</p><p data-pid=\"BEGldCyl\">把人分为直的和不直的LGBTQ，</p><p data-pid=\"6fLUMCEo\">把人分为养宠物（境外资助动物权益保护人士）的和不养宠物的，</p><p data-pid=\"FPA3MxZH\">把人分为健身的（“自律的精英”）和不健身的，</p><p data-pid=\"2KHiVi6M\">把人分为喝咖啡的（某一线城市宣传咖啡店很多很洋气）和不喝咖啡的土鳖，</p><p data-pid=\"4rkQgdLr\">把人分为苹果产品粉丝（“用苹果彰显高端”）和非粉丝路人，</p><p data-pid=\"tvyjOd0p\">把人分为用爱马仕的和不用爱马仕的，</p><p data-pid=\"z2ApHnap\">只要一个人身份政治入脑，不管牛津剑桥哈佛耶鲁还是清华复旦，绝对变傻。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1755322814,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/a957c21d31aec37912af2f2aa28581eb",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @神里绫清竹",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "因为只要陷入任何性别类似的问题（ 把社会分为A类人和非A类人，也就是所谓的身份政治），都很容易让人降智。比如把人分为男和女， 把人分为直的和不直的LGBTQ， 把人分为养宠物（境外资助动物权益保护人士）的和不养宠物的， 把人分为健身的（“自律的精英”）和不健身的， 把人分为喝咖啡的（某一线城市宣传咖啡店很多很洋气）和不喝咖啡的土鳖， 把人分为苹果产品粉丝（“用苹果彰显高端”）和非粉丝路人， 把人分为用爱马仕的…",
+            "extras": "",
+            "favlists_count": 24,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1940045175297643067",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "17 赞同 · 24 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1754991835,
+              "id": "1938656950255613156",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么陷入性别问题会给人降智，使人难以理性思考？",
+              "type": "question",
+              "updated_time": 1754991835,
+              "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1755326530,
+            "url": "https://www.zhihu.com/api/v4/answers/1940045175297643067",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 17
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "a26f3c1c50c86dc46d843e8eda599e9b",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEYCAQQAxiwoNDg7pOl+Bog5OnP6pjH3/MakgIuCgk3NDI5NzU5MTgSEzE5NDEyMTQ4NDk2ODMxNjUyMzIYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-b18a8ff7fe7898d09417d1237fca4f52_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-b18a8ff7fe7898d09417d1237fca4f52.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-6da117205088242db9cd82e48b28640d_l.png?source=1def8aca",
+                "description": "被 1000 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-6da117205088242db9cd82e48b28640d_r.png?source=1def8aca"
+              },
+              "follower_count": 1643,
+              "gender": -1,
+              "headline": "资深金融狗和金融狗老师",
+              "id": "33c51f814ef2f0bcfaf55097fa4fff13",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Snake",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/33c51f814ef2f0bcfaf55097fa4fff13",
+              "url_token": "liu-shuo-26-31",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"SAKriegN\">先说结论：<b>不是“性别问题”给人降智，而是“标签化思维”给人降智</b>——性别是标签中的一种，只不过最近这几年这个标签相对比较突出罢了。</p><p data-pid=\"1hWoMvo-\">把视野放大，你会发现西方搞LGBTQ的那一批玩意一样非常抽象，美国国会听证，连女性是女性、男性是男性这样的回答都不敢说——看履历一个个名校毕业，张口全人类闭口公正平等，具体到问题上感觉还没我小时候养的京巴聪明。</p><p data-pid=\"6OVlzO9u\">为什么？因为<b>当人用“标签”思考问题的时候，就会脱离事实和逻辑，用“事实去适应自己的观点”。</b></p><p data-pid=\"03rssypo\">举个具体的例子：</p><p data-pid=\"liv1lt-J\">我有个下属这样一个人：刚毕业没几年、法律学、硕士、女性、四川人。好，现在工作中有件事，她处理的时候考虑的不周全，我看到她做的处理就提了点意见，其中涉及到她专业领域的部分批评了一句“这个地方是你的专业，你本来应该考虑到的哦，以后注意”。</p><p data-pid=\"SxHx7AX2\">好，就事儿说事儿没什么对吧？每个人工作中都有考虑不周的时候，工作经验少的时候被上级批评指点也很正常对吧。但是，如果你代入标签，就会出现下面这么几个话题：1、中年老登对职场新人指指点点；2、男性总是自以为可以指导女性；3、金融学出身的人自以为是居然在法律领域对法学生发表意见；4、北方人就是官僚气息重，到了南方人工作的环境也会摆出一副指点江山的态度教人做事。</p><p data-pid=\"_7Vwg3Rz\">从各自标签的角度看，上面四个说法每个都不能说是捏造，但是这样观察和分析的结果，恰恰是离现实越来越远。</p><p data-pid=\"3RwZO6o6\"><b>这就是为什么用标签思考就会让人降智——所谓降智，就是无法看清事实。</b></p><p data-pid=\"PMCFbG_M\">如果只到这里，也就不用我写这个答案了，关键的问题是：<b>标签化思维是有用的，我们怎么避免滥用这种标签化思维呢？</b></p><p data-pid=\"cMnEIIdV\">标签化思维为什么有用？因为它就是我们人脑的大数据，是自然选择留给我们的重要工具：当我们刚开始从非洲草原的树上下来的时候，看到周围的草突然动起来的时候，第一反应一定是跑，不经思考的跑。“周围草动起来就代表危险”就是一种对“草动起来”的标签化思维——没有这种标签化思维的同类都死了，在某次他们思考“这次草动起来后面是什么需要具体确认”的时候被草后面窜出来的狮子、豹子或者蛇咬死了。</p><p data-pid=\"TOIUwbfd\">现在它也有用，比如如果你仔细思考“缅北都是诈骗嘎腰子的么？”，当然不是，甚至我们可以大胆的说“缅北生活的大多数人也就是普通老百姓”——但是，对“缅北”的标签化印象，对于大多数普通人来说，就是防止该死的好奇心、冒险欲让他们去冒完全不必要风险的最好方法。</p><p data-pid=\"_vzh7eQc\">所以，<b>标签化思维对于我们有限的大脑处理能力和处理速度来说是必要的，不能丢弃的。</b>那么，紧跟着的问题就是：什么时候我们可以放任自己的大脑用标签化进行快速反应，什么时候则需要对我们大脑的快速反应进行有意识的“再处理”呢？</p><p data-pid=\"ma_ixO-3\">答案是：<b>越是靠近自己、属于自己具体生活、对自己生活直接影响越大的，越是要对大脑的标签化反应谨慎对待，尽可能使用自己的深度思考和具体分析能力。</b></p><p data-pid=\"M1f4WPhL\">以地域黑为例：前些年说河南人都是偷井盖的、温州人都是造假货的，再早些年说东北人都是黑社会——这些都是标签化思维。如果90年代你深夜一个走在路上，看到对面来了几个操着东北口音的大汉，你赶紧找了个小路转道快跑了，这就是标签的用处，你没必要为几个陌生人去冒风险开启“深度分析及辨析”模式；但是如果你在职场上遇见一个东北籍领导，你就肯定不能不假思索地当TA是黑老大。同样的，作为居民发现道路井盖没了不负责任的骂两句河南人不是什么大事，但是如果你的客户是胖东来，你肯定不会跟人家的采购经理说“我们这里井盖少了几个，肯定是你们河南人干的”。</p><p data-pid=\"0A5zaQJU\">其实这本来是符合我们人类的思维的——离我们越远的，越作为一个概念存在，离我们近的才是真实的人。为什么“宽容天边的敌人很容易，宽容身边的朋友却很难”？因为远在天边的敌人只是个概念。为什么“爱人，不要爱人类；爱生活，不要爱生活的意义”？因为脚踏实地的生活着的人、有自己思考能力的人，会具体的生活，不会用现实去削足适履自己头脑的概念。</p><p data-pid=\"_Qa-sVOc\">如果不能恰当的适用“标签化”思考模式，就会出现降智的效果，不止是性别标签，其他标签也一样。在上海工作生活了快二十年，我没见过一个混得还可以的上海人张口闭口“外地人如何如何”的，哪怕他们头脑中也有这样的标签，但是他们会知道在自己具体的工作生活中不能用这种标签；同样，对着屏幕吃千里之外的瓜时，你贴个性别标签打拳（无论哪边的拳）无所谓，但是真带着这套抽象进入自己的日常工作生活，我不信你能过得好。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1755601686,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "先说结论： 不是“性别问题”给人降智，而是“标签化思维”给人降智——性别是标签中的一种，只不过最近这几年这个标签相对比较突出罢了。把视野放大，你会发现西方搞LGBTQ的那一批玩意一样非常抽象，美国国会听证，连女性是女性、男性是男性这样的回答都不敢说——看履历一个个名校毕业，张口全人类闭口公正平等，具体到问题上感觉还没我小时候养的京巴聪明。 为什么？因为 当人用“标签”思考问题的时候，就会脱离事实和逻辑，…",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1941214849683165232",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "14 赞同 · 2 收藏 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1754991835,
+              "id": "1938656950255613156",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "为什么陷入性别问题会给人降智，使人难以理性思考？",
+              "type": "question",
+              "updated_time": 1754991835,
+              "url": "https://www.zhihu.com/api/v4/questions/1938656950255613156"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1755601686,
+            "url": "https://www.zhihu.com/api/v4/answers/1941214849683165232",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 14
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "a26f3c1c50c86dc45457378eda599e9b",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768473602261234075"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/1938656950255613156/feeds?cursor=a26f3c1c50c86dc45457378eda599e9b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768473602261234075&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

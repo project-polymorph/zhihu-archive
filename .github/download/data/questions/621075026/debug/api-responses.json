@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/621075026/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473481256,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/621075026/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/621075026/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你的性别构成了你自我的一个有机部分吗？",
+          "question_type": "normal",
+          "created": 1546836402,
+          "updated_time": 1546836402,
+          "url": "https://www.zhihu.com/api/v4/questions/308304054",
+          "answer_count": 4,
+          "comment_count": 1,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "308304054"
+        },
+        {
+          "type": "question",
+          "title": "社会性别认同能否脱离性别刻板印象存在？",
+          "question_type": "normal",
+          "created": 1595274487,
+          "updated_time": 1595274487,
+          "url": "https://www.zhihu.com/api/v4/questions/408084875",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "408084875"
+        },
+        {
+          "type": "question",
+          "title": "很多事情我觉得明明是人与人之间的关系，为什么最后都会变成性别之间的问题？",
+          "question_type": "normal",
+          "created": 1608255009,
+          "updated_time": 1608255009,
+          "url": "https://www.zhihu.com/api/v4/questions/435359436",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "435359436"
+        },
+        {
+          "type": "question",
+          "title": "性别是一种利益选择吗？",
+          "question_type": "normal",
+          "created": 1739507108,
+          "updated_time": 1739507108,
+          "url": "https://www.zhihu.com/api/v4/questions/12204268287",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "12204268287"
+        },
+        {
+          "type": "question",
+          "title": "自定义性别是对个体的尊重吗?",
+          "question_type": "normal",
+          "created": 1685334469,
+          "updated_time": 1685334469,
+          "url": "https://www.zhihu.com/api/v4/questions/603611267",
+          "answer_count": 10,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "603611267"
+        }
+      ]
+    }
+  }
+]

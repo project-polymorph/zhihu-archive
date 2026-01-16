@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/35928138/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473084747,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/35928138/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/35928138/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么世界上大部分生物都是两性繁殖？",
+          "question_type": "normal",
+          "created": 1526293028,
+          "updated_time": 1526293028,
+          "url": "https://www.zhihu.com/api/v4/questions/277145805",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "277145805"
+        },
+        {
+          "type": "question",
+          "title": "为什么人不可以单性繁殖？",
+          "question_type": "normal",
+          "created": 1616234624,
+          "updated_time": 1616234624,
+          "url": "https://www.zhihu.com/api/v4/questions/450361469",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "450361469"
+        },
+        {
+          "type": "question",
+          "title": "人类为什么通过两性来繁殖，同样大自然中大多数生物通过两性来繁殖？",
+          "question_type": "normal",
+          "created": 1463106354,
+          "updated_time": 1463106354,
+          "url": "https://www.zhihu.com/api/v4/questions/46264844",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "46264844"
+        }
+      ]
+    }
+  }
+]

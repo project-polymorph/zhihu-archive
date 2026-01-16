@@ -1,0 +1,62 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/295851672/feeds?cursor=16136af898224b92f2d9691ec8ab8f6b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768473259111876528&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768473264651,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768473259111876528"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/295851672/feeds?cursor=16136af898224b92f2d9691ec8ab8f6b&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768473259111876528&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/295851672/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473265368,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/295851672/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/295851672/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "我们是否根本没有资格讨论关于性别的话题？",
+          "question_type": "normal",
+          "created": 1720994248,
+          "updated_time": 1720994248,
+          "url": "https://www.zhihu.com/api/v4/questions/661629102",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "661629102"
+        },
+        {
+          "type": "question",
+          "title": "为什么会有性别？",
+          "question_type": "normal",
+          "created": 1547229970,
+          "updated_time": 1547229970,
+          "url": "https://www.zhihu.com/api/v4/questions/308834288",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "308834288"
+        }
+      ]
+    }
+  }
+]

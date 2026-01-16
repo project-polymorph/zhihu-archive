@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/379539210/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473066456,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/379539210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/379539210/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果某个人拥有完整的成熟的双性生殖系统，他可以自交吗（人工受孕）若行，那么遗传物质一模一样，算克隆吗?",
+          "question_type": "normal",
+          "created": 1452153906,
+          "updated_time": 1452153906,
+          "url": "https://www.zhihu.com/api/v4/questions/39255128",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "39255128"
+        },
+        {
+          "type": "question",
+          "title": "人为什么要双性繁殖？",
+          "question_type": "normal",
+          "created": 1443105741,
+          "updated_time": 1443157511,
+          "url": "https://www.zhihu.com/api/v4/questions/35928138",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "35928138"
+        }
+      ]
+    }
+  }
+]

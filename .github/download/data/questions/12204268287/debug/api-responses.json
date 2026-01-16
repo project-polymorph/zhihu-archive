@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/12204268287/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473515132,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/12204268287/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/12204268287/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "我认为性别不重要，财富重要，如果给我一个亿人民币，我可以接受性转？",
+          "question_type": "normal",
+          "created": 1745473890,
+          "updated_time": 1745473890,
+          "url": "https://www.zhihu.com/api/v4/questions/1898735797366162315",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "1898735797366162315"
+        },
+        {
+          "type": "question",
+          "title": "是心理上的性别重要，还是身体上的性别重要？",
+          "question_type": "normal",
+          "created": 1548444878,
+          "updated_time": 1548444878,
+          "url": "https://www.zhihu.com/api/v4/questions/310297876",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "310297876"
+        },
+        {
+          "type": "question",
+          "title": "如果可以有一次选择性别的权利，你会选什么？",
+          "question_type": "normal",
+          "created": 1589107450,
+          "updated_time": 1589107450,
+          "url": "https://www.zhihu.com/api/v4/questions/393935682",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "393935682"
+        }
+      ]
+    }
+  }
+]

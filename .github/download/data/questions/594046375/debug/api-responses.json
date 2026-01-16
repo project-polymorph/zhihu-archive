@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/594046375/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473784227,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/594046375/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/594046375/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "作为父母或教育者，如何引导孩子理解性别认知？",
+          "question_type": "normal",
+          "created": 1768360314,
+          "updated_time": 1768360314,
+          "url": "https://www.zhihu.com/api/v4/questions/1994728415035675935",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1994728415035675935"
+        },
+        {
+          "type": "question",
+          "title": "在当代社会，我们应该如何引导孩子正确理解和认识自己的性别？",
+          "question_type": "normal",
+          "created": 1766891937,
+          "updated_time": 1766891937,
+          "url": "https://www.zhihu.com/api/v4/questions/1988569595909521763",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1988569595909521763"
+        },
+        {
+          "type": "question",
+          "title": "家长应如何引导孩子形成正确的性别认识？",
+          "question_type": "normal",
+          "created": 1716672976,
+          "updated_time": 1716672976,
+          "url": "https://www.zhihu.com/api/v4/questions/657181179",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "657181179"
+        }
+      ]
+    }
+  }
+]

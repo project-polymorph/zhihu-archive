@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/305887264/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473105378,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/305887264/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/305887264/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "我们应该如何正确看待男性性别女性化？",
+          "question_type": "normal",
+          "created": 1629908636,
+          "updated_time": 1629908636,
+          "url": "https://www.zhihu.com/api/v4/questions/482510738",
+          "answer_count": 33,
+          "comment_count": 0,
+          "follower_count": 46,
+          "relationship": {},
+          "id": "482510738"
+        },
+        {
+          "type": "question",
+          "title": "为什么现在很多人都说男性如何，女性如何，却不说某个人如何而是宽泛地讨论性别？",
+          "question_type": "normal",
+          "created": 1630161393,
+          "updated_time": 1630161393,
+          "url": "https://www.zhihu.com/api/v4/questions/483206772",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "483206772"
+        },
+        {
+          "type": "question",
+          "title": "哪些是社会固有思想强加于男性/女性，最后被认为是性别的特性(优势/劣势)被普遍遵守的？",
+          "question_type": "normal",
+          "created": 1541289728,
+          "updated_time": 1541289728,
+          "url": "https://www.zhihu.com/api/v4/questions/301191217",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "301191217"
+        },
+        {
+          "type": "question",
+          "title": "现代社会中，男性是否也面临独特的性别困境？",
+          "question_type": "normal",
+          "created": 1761966904,
+          "updated_time": 1761966904,
+          "url": "https://www.zhihu.com/api/v4/questions/1967912511622840565",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "1967912511622840565"
+        }
+      ]
+    }
+  }
+]

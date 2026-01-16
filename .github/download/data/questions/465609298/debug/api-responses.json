@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/465609298/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473006851,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/465609298/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/465609298/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "双性人是什么样的特征？比如是不是有两种生殖器官？染色体怎样组成？会不会有乳房？会不会遗精和来月经？",
+          "question_type": "normal",
+          "created": 1422156628,
+          "updated_time": 1422156628,
+          "url": "https://www.zhihu.com/api/v4/questions/27774443",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "27774443"
+        },
+        {
+          "type": "question",
+          "title": "双性人会不会怀上自己的孩子?",
+          "question_type": "normal",
+          "created": 1581497792,
+          "updated_time": 1581497792,
+          "url": "https://www.zhihu.com/api/v4/questions/371402362",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "371402362"
+        }
+      ]
+    }
+  }
+]

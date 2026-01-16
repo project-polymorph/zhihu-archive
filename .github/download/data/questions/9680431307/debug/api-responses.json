@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/9680431307/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473447051,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/9680431307/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/9680431307/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么别人的过错却要我来承担后果。?",
+          "question_type": "normal",
+          "created": 1435041592,
+          "updated_time": 1435041592,
+          "url": "https://www.zhihu.com/api/v4/questions/31546255",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "31546255"
+        },
+        {
+          "type": "question",
+          "title": "怎么让朋友原谅自己的过错？",
+          "question_type": "normal",
+          "created": 1526540684,
+          "updated_time": 1526540684,
+          "url": "https://www.zhihu.com/api/v4/questions/277529876",
+          "answer_count": 7,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "277529876"
+        },
+        {
+          "type": "question",
+          "title": "总是无法原谅别人的过错怎么办？",
+          "question_type": "normal",
+          "created": 1686461071,
+          "updated_time": 1686461071,
+          "url": "https://www.zhihu.com/api/v4/questions/606000881",
+          "answer_count": 152,
+          "comment_count": 1,
+          "follower_count": 172,
+          "relationship": {},
+          "id": "606000881"
+        }
+      ]
+    }
+  }
+]

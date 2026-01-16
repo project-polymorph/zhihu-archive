@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1961393403079155836/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473668313,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1961393403079155836/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1961393403079155836/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何才能真正认识和接纳自己的性别认同？",
+          "question_type": "normal",
+          "created": 1766373643,
+          "updated_time": 1766373643,
+          "url": "https://www.zhihu.com/api/v4/questions/1986395711437312743",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "1986395711437312743"
+        },
+        {
+          "type": "question",
+          "title": "划分性别认同(gender identity)的标准是什么？",
+          "question_type": "normal",
+          "created": 1518181517,
+          "updated_time": 1518181660,
+          "url": "https://www.zhihu.com/api/v4/questions/266933657",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "266933657"
+        },
+        {
+          "type": "question",
+          "title": "怎样增加性别认同感？?",
+          "question_type": "normal",
+          "created": 1671237054,
+          "updated_time": 1671237054,
+          "url": "https://www.zhihu.com/api/v4/questions/572803637",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "572803637"
+        }
+      ]
+    }
+  }
+]

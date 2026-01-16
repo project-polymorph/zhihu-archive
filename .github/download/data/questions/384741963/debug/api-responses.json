@@ -1,0 +1,1719 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/384741963/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768472438445,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/384741963/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/384741963/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "什么是性别刻板印象，什么是男性刻板印象，什么叫做能打破性别刻板印象?",
+          "question_type": "normal",
+          "created": 1618286018,
+          "updated_time": 1618286018,
+          "url": "https://www.zhihu.com/api/v4/questions/454380292",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "454380292"
+        },
+        {
+          "type": "question",
+          "title": "为什么某些人说性别刻板印象就是为懦弱找理由?",
+          "question_type": "normal",
+          "created": 1598710323,
+          "updated_time": 1598713846,
+          "url": "https://www.zhihu.com/api/v4/questions/418324960",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "418324960"
+        },
+        {
+          "type": "question",
+          "title": "有性别刻板印像是好是坏？当人们说我讨厌男人应该有男人样，女孩应该有女孩样是在说什么吗？",
+          "question_type": "normal",
+          "created": 1470575444,
+          "updated_time": 1470610017,
+          "url": "https://www.zhihu.com/api/v4/questions/49354209",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "49354209"
+        },
+        {
+          "type": "question",
+          "title": "如何避免他人性别刻板印象带给自己的伤害？",
+          "question_type": "normal",
+          "created": 1627953943,
+          "updated_time": 1627953943,
+          "url": "https://www.zhihu.com/api/v4/questions/476892493",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "476892493"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/384741963/feeds?cursor=e1d349166f0149f27921392be841beb7&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768472435358199279&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768472532228,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjjxoiaBCDL5Lq3AZICJQoJMjM1MjM0OTA5EgoxMTI4NDA3OTA3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-f879f51fd2be20907c0f527f5b2b99de_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-f879f51fd2be20907c0f527f5b2b99de.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 11,
+              "gender": 0,
+              "headline": "编曲制作",
+              "id": "4f253f8ed90608b65a666f164a371155",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "一只小药药",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4f253f8ed90608b65a666f164a371155",
+              "url_token": "zi-yin-lming-shen-jian-er",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 35,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"s8GLL-LU\">为什么不能留长头发</p><p data-pid=\"HhOFEW-_\">为什么不能爱美化妆</p><p data-pid=\"wv8_M-ID\">为什么不能有男朋友</p><p data-pid=\"x-mGcnUr\">为什么不能撒娇卖萌</p><p data-pid=\"wG4tpn1b\">为什么   我   不是女生</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1585999792,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "为什么不能留长头发 为什么不能爱美化妆 为什么不能有男朋友 为什么不能撒娇卖萌 为什么 我 不是女生",
+            "extras": "",
+            "favlists_count": 10,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1128407907",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "84 赞同 · 10 收藏 · 35 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 4,
+                "like_count": 14
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 14,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1586340556,
+            "url": "https://www.zhihu.com/api/v4/answers/1128407907",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 84
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2b4647631e841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi62Pi+BiDL5Lq3AZICJQoJMzQ2OTE4OTc0EgoxNzQyNjEzNTYyGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-35d24fe148186f4c2ab1694e3fe2f3e6_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-35d24fe148186f4c2ab1694e3fe2f3e6.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-431120b3fe5feeabe1492d124b33317e_l.png?source=1def8aca",
+                "description": "参与「我的知乎 2021」即可获得",
+                "medal_avatar_frame": "",
+                "medal_id": "1454099125259759616",
+                "medal_name": "我的知乎 2021",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-431120b3fe5feeabe1492d124b33317e_r.png?source=1def8aca"
+              },
+              "follower_count": 2410,
+              "gender": 1,
+              "headline": "亦余心之所善兮，虽九死其犹未悔。博士延毕目前较少上知乎。",
+              "id": "521226ab73a3080291ad1ed2c100d5f5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "打算退网净心",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/521226ab73a3080291ad1ed2c100d5f5",
+              "url_token": "chastitykeeper",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 32,
+            "comment_permission": "all",
+            "content": "<h2>非典型直男的自我认知</h2><p data-pid=\"fCGYviGJ\">我是顺性别异性恋男性，简称直男(不指性格)，但不符合社会主流对男性的印象。</p><p data-pid=\"k-DVSTGq\"><a href=\"https://www.zhihu.com/answer/2660785891\" class=\"internal\" target=\"_blank\">我发布的一个测试题，适合中国大陆18-32岁，非贫困的，性别男爱好女的广义直男群体，探究内在性别特质差异，并非探究女性化，而是非典型化。</a> </p><h2>1 三个阶段</h2><p data-pid=\"TBZYhwVD\">①由于幼年遭到霸凌身体严重受伤，不参与对抗运动，只一个人跑步、游泳等，此后也没玩过lol等热门网游，从小到大的爱好都相对小众，渴望融入大众但发现和他们缺乏共同语言，不仅是和男生没有共同语言，和女生也没有共同语言，<b>与其说我女性化，不如说我&#34;非典型&#34;。</b></p><p data-pid=\"jjUE6Zoj\">②2014年开始喜欢听温柔甜美的歌，2017年上网讨论被人说成gay、娘炮、变态，后来建立了柔美女歌手直男歌迷群，结识了不少有过同样困惑的朋友，也发现了我们的共性。</p><p data-pid=\"Ta2MIJEm\">③22年5月，随着&#34;王心凌男孩&#34;大量出现，击倒了我最后一点死面子活受罪的心态，从此我不仅唱过甜歌<sup data-text=\"(母单非典型直男)再次和同学去ktv唱甜歌(230609)\" data-url=\"https://zhuanlan.zhihu.com/p/628529089\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"1\">[1]</sup>，而且还买了一些以前不敢用的东西，比如唯美的鼠标垫、彩色的收纳箱等。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-da67a2538ffa9785f71f9d241f6fa17a_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"656\" data-rawheight=\"300\" data-original-token=\"v2-da67a2538ffa9785f71f9d241f6fa17a\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-b88de2ccc1c8ddf37a271e60c8738c72_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"656\" data-original=\"https://picx.zhimg.com/v2-da67a2538ffa9785f71f9d241f6fa17a_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;656&#39; height=&#39;300&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"656\" data-rawheight=\"300\" data-original-token=\"v2-da67a2538ffa9785f71f9d241f6fa17a\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-b88de2ccc1c8ddf37a271e60c8738c72_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"656\" data-original=\"https://picx.zhimg.com/v2-da67a2538ffa9785f71f9d241f6fa17a_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-da67a2538ffa9785f71f9d241f6fa17a_720w.jpg?source=1def8aca\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-a59904b06a1087d759fc14a680130c8b_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"309\" data-rawheight=\"543\" data-original-token=\"v2-a59904b06a1087d759fc14a680130c8b\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-67e8513996f4c392a698fb05119635c1_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"309\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;309&#39; height=&#39;543&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"309\" data-rawheight=\"543\" data-original-token=\"v2-a59904b06a1087d759fc14a680130c8b\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-67e8513996f4c392a698fb05119635c1_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"309\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-a59904b06a1087d759fc14a680130c8b_720w.jpg?source=1def8aca\"/></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-7243a7e8451f0fefa325d377e89c78f8_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"397\" data-rawheight=\"394\" data-original-token=\"v2-7243a7e8451f0fefa325d377e89c78f8\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-fc5fc721b2634159e2d116d73ae822ba_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"397\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;397&#39; height=&#39;394&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"397\" data-rawheight=\"394\" data-original-token=\"v2-7243a7e8451f0fefa325d377e89c78f8\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-fc5fc721b2634159e2d116d73ae822ba_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"397\" data-actualsrc=\"https://picx.zhimg.com/50/v2-7243a7e8451f0fefa325d377e89c78f8_720w.jpg?source=1def8aca\"/><figcaption>贴纸我可没敢贴。</figcaption></figure><h2>2 刻板男性是什么样的？</h2><ol><li data-pid=\"XUZ1miQO\">性格：活泼、外向、阳刚、不流泪。</li><li data-pid=\"65-jGU0-\">言谈：有时会说脏话、讲黄段子。</li><li data-pid=\"P6DhTH3J\">体育：至少参与一项身体对抗型运动，打篮球、看足球等。</li><li data-pid=\"rzS-d3rz\">游戏：喜欢lol、吃鸡、dota等大型对战网游。</li><li data-pid=\"CltsoRo3\">电影、动漫、文学偏好：偏好热血、武打、悬疑侦探、科幻灾难、历史纪实。</li><li data-pid=\"PUMfuB8J\">音乐偏好：金属、摇滚、说唱、民谣、嘻哈风，周杰伦、陈奕迅。拒绝柔美型女歌手。</li><li data-pid=\"hKhx5FPB\">其他爱好：军事、时政、财经、电子产品。</li><li data-pid=\"P71m08a_\">生活习惯：抽烟、和哥们时不时出去喝酒、吃烧烤。</li><li data-pid=\"s0IvXXGC\">对待女性：喜欢大胸长腿性感类型；主动追求现实中的女性；好色不能控制。希望和多个女性有某种关系。</li><li data-pid=\"gfPWL3km\">刻板直男据点：虎扑(常被女性和Igbt较多的娱乐论坛以偏概全作为异性恋男性的风向标)、各大篮球足球贴吧；斗鱼、虎牙等直播平台、抗压吧、孙笑川吧、各大lol比赛队伍吧；印度吧、李毅吧、wow吧等综合性贴吧；图拉丁吧、显卡吧、各大手机品牌话题(电子产品圈)。</li></ol><p data-pid=\"HHxyKn0p\"><a href=\"https://www.zhihu.com/question/25157309/answer/2247684663\" class=\"internal\" target=\"_blank\">性别刻板印象的可能来源</a></p><h2>3 我与大众、与部分男性的不同</h2><h3>3.1 温和、内向</h3><p data-pid=\"P0wuXHuo\">温和、内向、从小因为遭到霸凌，身体受伤养伤很长时间，不能像其他人那样追追打打。小时候泪点低，因此也被说过娘炮。朋友也少。但这也让我有更多的机会，思考自己的内心，小时候围棋、绘画、钢琴都或多或少学过一些。</p><h3>3.2 九型人格4号浪漫型</h3><p data-pid=\"oO_Y9ZQ2\">感性、细腻。容易被感人的故事打动得流泪。2014年2月测出，至今还是4号。</p><p data-pid=\"3P8MGZRL\">但在2014年2月以前，由于青春期叛逆等因素，我的性格并不都是温和的、细腻的，而有很多不拘小节的因素。从这往后，我的心思越来越细腻、越来越温和，在同学中也渐渐收到了斯文的评价。</p><h3>3.3 拒绝烟酒</h3><p data-pid=\"K6MjGbbo\">不抽烟，非礼仪需要不喝酒。</p><h3>3.4 不参与对抗型运动</h3><p data-pid=\"n-hPA1mr\">内向朋友少，只选择跑步、游泳等单人运动。</p><h3>3.5 不玩热门网游</h3><p data-pid=\"Xv0DbvUP\">从没玩过lol、吃鸡、dota、王者，少年时玩过植物大战僵尸、宝可梦、魔塔、铁路运营类单机游戏。</p><h3>3.6 喜欢温柔甜美女声歌曲</h3><p data-pid=\"m-hm9aZF\">我最喜欢的华语女歌手是张韶涵、郭静、王心凌、金海心、梁静茹，而且刻板印象里gay喜欢的蔡依林有一部分歌我也喜欢听。</p><p data-pid=\"TkVvAJtE\">2017.11.17我在知乎写了《<a href=\"https://www.zhihu.com/question/24886493/answer/261412475\" class=\"internal\" target=\"_blank\">东亚直男偏好女性歌手及其柔美歌曲的原因、困惑与实例</a>》，还建立了一个群组-温柔甜美女歌手直男歌迷群<sup data-text=\"\" data-url=\"https://zhuanlan.zhihu.com/p/531449883\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"2\">[2]</sup>，我也正是在这个群里觉醒自己的很多方面与大众不同，群里兄弟也普遍性格温和，发现彼此不仅仅是音乐偏好在男性群体或直男群体中小众，而且在三观层面也偏向小众。</p><p data-pid=\"YIuAMl-L\">直男喜欢温柔甜美女声歌曲的主要困惑包括：</p><p data-pid=\"hPgTznwW\">(1)温柔细腻的曲风或者音色与从小被教育&#34;要阳刚&#34;的冲突；<br/>(2)一部分女歌手支持Igbt、打扮大女主等因素吸引了一些g粉，然后有人以偏概全贴标签导致直男粉被误解；<br/>(3)以前听歌存在鄙视链，过去很长一段时间听乐队的鄙视听周杰伦的，听周杰伦的鄙视听孙燕姿之外的其他偶像女歌手的。不过现在的话，似乎很多人更喜欢听网络歌曲，所以这个因素不如以前严重……</p><p data-pid=\"F8mmY2Wo\">直到2018年4月29日，我发现花泽香菜，第一次松了一口气，相信有许许多多爷们喜欢甜歌，从此不怎么看动漫的我也开始听日语歌，后来又听了perfume、西野加奈、田村由加莉。2022年5月22日，王心凌的翻红则击碎了我最后一点死面子活受罪的心态。</p><h3>3.7 知识型小众爱好</h3><p data-pid=\"sq2p3X-v\">气象、语言等。这俩爱好圈虽然男性占比较高，但大多也是温和型直男以及Igbt，并不男性化。</p><p data-pid=\"MfU-UHqU\">我的专栏：<a href=\"https://www.zhihu.com/column/c_1406891379197267968\" class=\"internal\" target=\"_blank\">语言文字、词源、汉日韩语</a></p><p data-pid=\"nDOsCin4\">我的专栏：<a href=\"https://www.zhihu.com/column/c_1406903111079968768\" class=\"internal\" target=\"_blank\">地理、气象、时区时差</a></p><h3>3.8 写字</h3><p data-pid=\"_UXZePLl\">我写的字比较小、间距也小，虽然不是很好看，但分不出性别，感觉大多男生上大学之后字体就放飞自我了。</p><h3>3.9 保守的婚恋观</h3><p data-pid=\"bfy8JhME\">和传统、宗教无关，而是青春期见闻形成的一生一世一双人的执念。今年25岁仍然母胎单身、长期在外求学工作未定、男多女少环境，我已经没有喜欢的人了，但还是不急着找对象。高中那会，我有喜欢的女生，也有女生喜欢我，但我知道那不是一个轻易许诺和谈婚论嫁的年龄。</p><p data-pid=\"HGlbnsrV\"><a href=\"https://link.zhihu.com/?target=https%3A//tieba.baidu.com/p/7591065856\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">大龄双处婚案例收集</a></p><p data-pid=\"URchSD60\">我16岁那年，读到《挪威的森林》男主上了两个妹子之后又分开的麻木、迷惘心理，也见到了一些情杀新闻与前任有关，从此观念是不接受婚前同居和婚前性行为。高中、大学同学讨论到这个话题的时候，我遭遇了不解甚至一部分人的耻笑。</p><p data-pid=\"rVUUF4gX\">男权的观念是劝人多玩几个女生，我注定不可能认同，而提到将来要找同样观念的女性结婚(仅择偶标准，并未攻击其他人)又遭到女拳的无差别扫射，所以很尴尬。</p><p data-pid=\"_U45gDAz\">而自从我婚恋观树立，我对于&#34;喜欢一个人&#34;的定义也发生了变化。在我后来的世界观中，有生理冲动不等于喜欢。但也因为对灵魂契合的诉求较高，就这样一直单身到今年25岁了。</p><h3>3.10 喜欢的动物——企鹅</h3><p data-pid=\"QYbFSgqm\">我最喜欢的动物是企鹅，养不起真的就买一个毛绒玩具啊。</p><figure data-size=\"small\"><noscript><img src=\"https://picx.zhimg.com/50/v2-7b8d41f52d8d78484294aa3022fc651e_720w.jpg?source=1def8aca\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"720\" data-rawheight=\"960\" data-original-token=\"v2-7b8d41f52d8d78484294aa3022fc651e\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-1ec57ffd13fc9b7bf542f6f1839c71b0_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-7b8d41f52d8d78484294aa3022fc651e_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;720&#39; height=&#39;960&#39;&gt;&lt;/svg&gt;\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"720\" data-rawheight=\"960\" data-original-token=\"v2-7b8d41f52d8d78484294aa3022fc651e\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-1ec57ffd13fc9b7bf542f6f1839c71b0_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"720\" data-original=\"https://picx.zhimg.com/v2-7b8d41f52d8d78484294aa3022fc651e_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-7b8d41f52d8d78484294aa3022fc651e_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"7A6TclYu\">三次元的：<a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1Jf4y1b7Cu\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">鹿儿岛的王企鹅(1987-1996)</a></p><p data-pid=\"yhRZlhnS\">二次元的：<a href=\"https://link.zhihu.com/?target=https%3A//www.bilibili.com/video/BV1xt411C7yL\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">二次元小帝企鹅&#34;千岁酱&#34;</a></p><p data-pid=\"Po7FTTJA\">不过网络社群，讨论企鹅的，喜欢企鹅玩偶的，年轻女孩比较多。我一大老爷们25了还喜欢，估计这辈子都会喜欢。</p><h3>3.11 关于动漫</h3><p data-pid=\"0JjXTQsq\">我很多特点虽然不符合刻板直男，但还是符合一部分刻板宅男/草食萌豚的形象，比方说了解一点日语，喜欢一些声优(虽然我是歌迷不是动漫粉)，玩过宝可梦游戏，当然没怎么看动漫。我最喜欢的动漫是《你的名字》，事实上很多有感情洁癖的单身人士也喜欢，因为这给予了浪漫憧憬。</p><h2>4 与Igbt的交集及误会</h2><p data-pid=\"qdhjqjOH\">2017年前后，我几乎同时从多个渠道接收到了和Igbt相关的信息，而当时，网上常说的&#34;直男&#34;含义已经渐渐从异性恋转变为了偏贬义的&#34;性格阳刚、审美粗糙、不尊重女性&#34;<sup data-text=\"什么人会强调「我是直男」？\" data-url=\"https://www.zhihu.com/question/21826788/answer/2158301468\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"3\">[3]</sup>，原来还被叫做直男癌或钢铁直男，后来很多人把前后缀都省了，导致这个词成了多义词。</p><h3>4.1 不近女色</h3><p data-pid=\"7d-7eKto\">参考2.9。大龄母胎单身、不讲黄段子、拒绝婚前性这三点，还被不少女性网友(资料如此)误解取向。</p><h3>4.2 现实中的相关见闻</h3><p data-pid=\"FNWyPzRY\">刚上大学不久，有人在图书馆里发关于Igbt的问卷调查，没想到网络舆论居然也出现在现实了。</p><p data-pid=\"NGADf3L0\">出生在华中小城市的我在上大学之前根本不知道这个群体存在，顶多只是偶尔看到新闻说国外有这种情况。</p><h3>4.3 诡异的气象爱好群</h3><p data-pid=\"5waaxkAo\">我从小爱好天文地理，看天气预报。直到2017年加入某个气象群，场景惊呆了。刚加群，就被几个人加好友，并且问我住哪、长什么样，起初以为他们只是很热情，直到后来他们发男性器官图、直接在群里&#34;找男友&#34;，我才意识到不对劲，退掉了一部分群。</p><p data-pid=\"NLFXm2Nl\">当然我也不认为所有g都这么奔放。就像我是异性恋，但完全不认同网上常见的，以冲动作为欣赏女性的主要动机。(2.6、2.9)</p><p data-pid=\"jVOAGLPW\">后来我发现，千万粉丝的博主&#34;中国气象爱好者&#34;频繁发布&#34;淋语&#34;内容，这或许是国内气象迷里gay偏多的原因。如果不是因为我关注过流行音乐和台湾女歌手圈，可能至今发现不了这个华点。</p><h3>4.4 喜欢非对抗型运动</h3><p data-pid=\"5oWCA0EW\">加入气象群那段时间，他们经常说&#34;直男喜欢打篮球看足球，喜欢非对抗型运动的是gay&#34;，包括我喜欢的游泳等也中枪了。网上一搜还真有很多类似说法。</p><h3>4.5 语言爱好</h3><p data-pid=\"83hhMj-Y\">以我观察，虽然网络上的泛语言爱好者(把历史文化纳入进来)男性多于女性，但男性基本不是Igbt就是温和型直男。</p><p data-pid=\"q-tMS70w\">分析：喜欢语言的人，一方面愿意去了解多样的文化，一方面善于用细腻的内心去思考表达世界的方式。哪怕是游戏迷、体育迷里的语言爱好者，都很少是刻板钢铁。<sup data-text=\"语言及语言学相关的兴趣爱好是否和性少数有一定程度上的关联？\" data-url=\"https://www.zhihu.com/question/419770720/answer/2586467231\" data-draft-node=\"inline\" data-draft-type=\"reference\" data-numero=\"4\">[4]</sup></p><p data-pid=\"g9Xi_OOS\">我见过有人说，除了工作以外，学韩语的男人是gay(不确定是否与他们较多关注综艺韩流文化有关)，然而我是东亚文化(包括汉字)爱好者，所以虽然说不上会，但对韩语有一定了解。</p><p data-pid=\"B2QdRrjx\">随着朝鲜军歌在B站的传播，以及韩国《第五共和国》在国内火了一阵子，了解一些韩语/朝鲜语的直男才有所增多。</p><h3>4.6 流行音乐和台音圈女歌手</h3><p data-pid=\"s7Tl6-QK\"><a href=\"https://www.zhihu.com/question/37769439/answer/1461948886\" class=\"internal\" target=\"_blank\">流行女歌手男歌迷性取向刻板印象剖析</a>。</p><p data-pid=\"dRJ9hVh0\">其他见3.6节。</p><h3>4.7 认为彩色很美</h3><p data-pid=\"WqF_b0KF\">小时候就很喜欢彩虹(自然现象)，后来才知道是Igbt代表色...</p><p data-pid=\"_Yjv9J-k\">现在也喜欢亮色。</p><h2>5 我和刻板直男/宅男的共性</h2><p data-pid=\"mPRS_CgZ\">虽然和主流认为的直男群体有诸多不同，但我还是有些方面，在方向上和他们有共性。</p><h3>5.1 普通理工男的脸</h3><p data-pid=\"XeOqF_ek\">长相很普通，并不特别粗糙或者精致。我是工科学生，不是文科和艺术生。</p><h3>5.2 MBTI是ISTJ</h3><p data-pid=\"maYODGja\">MBTI是ISTJ，检查员型，喜欢结构化的数据，善于发现和排除不确定性。话说我日常生活很多时候并不符合这个，反而有些感性。</p><h3>5.3 外观审美-甜美可爱</h3><p data-pid=\"so-YOVuL\">和择偶无关，因为我观念特殊且希望终身伴侣，择偶方面颜值肯定得往后排。</p><p data-pid=\"2PJsYNdQ\">但如果单论外表，大方向上还是比较符合甜美可爱的宅男审美。</p><p data-pid=\"x1NaKKbv\">我没啥大众爱好，不喜欢网红，不了解演员，只能说说女歌手了，虽然我都是听歌认识的，但既然提到这个，我也来评价下比较漂亮的形象。</p><p data-pid=\"y732ky9r\">特征是：大眼睛、长发、流海遮额头剩下部分为圆脸，感觉有些二次元宅男也喜欢这种设定吧。我觉得最漂亮的是金海心。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-8c0e3f8b3db07f14e39026a9a811f627_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"750\" data-original-token=\"v2-8c0e3f8b3db07f14e39026a9a811f627\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-85f5a3765cbc364fd5a0280eeed4657b_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"500\" data-original=\"https://pic1.zhimg.com/v2-8c0e3f8b3db07f14e39026a9a811f627_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;500&#39; height=&#39;750&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"500\" data-rawheight=\"750\" data-original-token=\"v2-8c0e3f8b3db07f14e39026a9a811f627\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-85f5a3765cbc364fd5a0280eeed4657b_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"500\" data-original=\"https://pic1.zhimg.com/v2-8c0e3f8b3db07f14e39026a9a811f627_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-8c0e3f8b3db07f14e39026a9a811f627_720w.jpg?source=1def8aca\"/><figcaption>金海心</figcaption></figure><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-be04b97ceaaf1458330a8bfe09eefcf6_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"421\" data-rawheight=\"750\" data-original-token=\"v2-be04b97ceaaf1458330a8bfe09eefcf6\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-07c92eb57938d892db08082aef6929f4_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"421\" data-original=\"https://picx.zhimg.com/v2-be04b97ceaaf1458330a8bfe09eefcf6_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;421&#39; height=&#39;750&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"421\" data-rawheight=\"750\" data-original-token=\"v2-be04b97ceaaf1458330a8bfe09eefcf6\" data-default-watermark-src=\"https://pic1.zhimg.com/50/v2-07c92eb57938d892db08082aef6929f4_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"421\" data-original=\"https://picx.zhimg.com/v2-be04b97ceaaf1458330a8bfe09eefcf6_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-be04b97ceaaf1458330a8bfe09eefcf6_720w.jpg?source=1def8aca\"/><figcaption>刘惜君</figcaption></figure><figure data-size=\"normal\"><noscript><img src=\"https://pica.zhimg.com/50/v2-a661a6ee2450f16623d26547f694960e_720w.jpg?source=1def8aca\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"600\" data-original-token=\"v2-a661a6ee2450f16623d26547f694960e\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-82e5041752211280b08f0f7270c24c53_720w.jpg?source=1def8aca\" class=\"content_image\" width=\"400\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;400&#39; height=&#39;600&#39;&gt;&lt;/svg&gt;\" data-size=\"normal\" data-rawwidth=\"400\" data-rawheight=\"600\" data-original-token=\"v2-a661a6ee2450f16623d26547f694960e\" data-default-watermark-src=\"https://pica.zhimg.com/50/v2-82e5041752211280b08f0f7270c24c53_720w.jpg?source=1def8aca\" class=\"content_image lazy\" width=\"400\" data-actualsrc=\"https://pica.zhimg.com/50/v2-a661a6ee2450f16623d26547f694960e_720w.jpg?source=1def8aca\"/><figcaption>郭静</figcaption></figure><p data-pid=\"WAyNu-Kv\">也有不是这种类型的，比方说张韶涵就有一些大女主的成分，打扮更时尚一些，女粉远多于男粉，但我觉得她唱得好、打动人心，而且我2005年就开始听她的歌，所以完全不在乎外观。</p><h3>5.5 关注时政</h3><p data-pid=\"VsqQS_UT\"><a href=\"https://www.zhihu.com/question/383880468/answer/1924067814\" class=\"internal\" target=\"_blank\">如何看待今天的日本及其形象？(2021年回答)</a></p><p data-pid=\"J5RAefBO\">看波士顿圆脸日常讲解国外新闻。</p><h3>5.6 电脑</h3><p data-pid=\"6H9lsh_p\">对计算机软硬件有一定的了解，不过也和专业需求有关。</p><h3>5.7 联系的思维</h3><p data-pid=\"VXlX0wYv\">我和其他许多男性语言爱好者都不仅喜欢语言，也以此为窗口了解背后的政治、文化影响力、人类迁徙历史等宏观背景。</p><h3>5.8 发言并不女性化</h3><p data-pid=\"ztylSId7\">较少使用卖萌表情包和颜文字，也不用嘤嘤嘤么么哒这种字眼。</p><h3>5.9 唱歌风格热血</h3><p data-pid=\"9Mnubr3i\">唱歌还是比较热血。毕竟以前有段时间练过唱军歌，21年底实验室宴会表演，我还领唱了某励志歌曲，这也是平时不爱抛头露面的我，得到的为数不多的表扬。</p><p data-pid=\"i4GO8u3-\">柔美的歌我能唱，但是唱得一般般。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1613955744,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/column/c_1406908532901560320",
+                "background_color": {
+                  "alpha": 0.08,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "image_key": "zhicon_icon_24_column_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "收录于 · 非典型直男的树洞",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "font_size": 13,
+                    "is_bold": false,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  },
+                  {
+                    "height": 12,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL01A"
+                    },
+                    "image_key": "zhicon_icon_16_arrow_right",
+                    "type": "IMAGE",
+                    "width": 12
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "Column",
+                  "text": "收录于 · 非典型直男的树洞",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "非典型直男的自我认知我是顺性别异性恋男性，简称直男(不指性格)，但不符合社会主流对男性的印象。 我发布的一个测试题，适合中国大陆18-32岁，非贫困的，性别男爱好女的广义直男群体，探究内在性别特质差异，并非探究女性化，而是非典型化。 1 三个阶段①由于幼年遭到霸凌身体严重受伤，不参与对抗运动，只一个人跑步、游泳等，此后也没玩过lol等热门网游，从小到大的爱好都相对小众，渴望融入大众但发现和他们缺乏共同语言，不…",
+            "extras": "",
+            "favlists_count": 37,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1742613562",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "54 赞同 · 37 收藏 · 32 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 13
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": true
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 13,
+            "thumbnail_info": {
+              "count": 3,
+              "thumbnails": [
+                {
+                  "height": 300,
+                  "token": "v2-da67a2538ffa9785f71f9d241f6fa17a",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-da67a2538ffa9785f71f9d241f6fa17a_720w.jpg?source=1def8aca",
+                  "width": 656
+                },
+                {
+                  "height": 543,
+                  "token": "v2-a59904b06a1087d759fc14a680130c8b",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-a59904b06a1087d759fc14a680130c8b_720w.jpg?source=1def8aca",
+                  "width": 309
+                },
+                {
+                  "height": 394,
+                  "token": "v2-7243a7e8451f0fefa325d377e89c78f8",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-7243a7e8451f0fefa325d377e89c78f8_720w.jpg?source=1def8aca",
+                  "width": 397
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1690676572,
+            "url": "https://www.zhihu.com/api/v4/answers/1742613562",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 54
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2d792de2be841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi79ZvLByDL5Lq3AZICJQoJNDAwNDA3OTU0EgoyMDM2NzkxOTk1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 805,
+              "gender": 0,
+              "headline": "",
+              "id": "7f4b4c5893586b90daca137f768fc5ae",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户SMYCA8",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7f4b4c5893586b90daca137f768fc5ae",
+              "url_token": "miao-lang-ren-saos",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 9,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"_f05m9Ho\"><b>&#34;男生就应该和男生一起玩，和女生在一块儿会变成娘炮，像什么样子？&#34;</b></p><p data-pid=\"OIUx8vw1\">那时候我才二年级，我和我同桌的女生玩得特别好，所以那段时间都没有和死党一起玩，他就去我家告状去了，说我不和男生在一起玩。</p><p data-pid=\"1Mi1fb0W\">那天晚上我家里人呵斥我以后不准再和女生在一块儿玩，可是，当初让我在学校里和同桌友好相处的也是家里人啊，虽然我不理解，但我还是没有和她一起玩了，和她渐疏渐远。</p><p data-pid=\"cUvsvv6_\"><b>&#34;两个男生在一起不会很基佬吗？&#34;</b></p><p data-pid=\"ZeLUapBN\">这时我初一刚放假回老家找发小一起玩的时候，他拒绝了和我一起出门玩，并说出了那句话。</p><p data-pid=\"IkhzT0p1\">原本我以为我和他是一辈子的好朋友，但这句话和原本从小听话的我，对性别开始产生了疑惑和不解。</p><p data-pid=\"zJs3Uvne\">我不和男生玩也不和女生玩，那我和谁玩？</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"qgieFYV5\"><b>&#34;男人要顶天立地，流血流汗不流泪！&#34;</b></p><p data-pid=\"3_EZWGCN\">从小听话的我直到大学以前都是这么做的，但是直到大学以来我才发现我蠢的像根木头，我总是在掩藏自己的情感，压抑自己的不快，身边也没有可诉说的朋友，家里总说我听话懂事，但是从没有人关心过我的不快。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"2O2WSIsi\"><b>&#34;你看看你那头发，有男生留那样吗？&#34;</b></p><p data-pid=\"3jjWTU5E\">大学回来后，我想留个长发看看，等来的不是家里人留长发的指导，而是挖苦和嘲讽，顺便带着我从小陪到大的妹妹一起嘲笑我，以便能让我把头发剪短，我屈服了。</p><p class=\"ztext-empty-paragraph\"><br/></p><p data-pid=\"67pQtkJm\">一些其他原因再综上，我成为了跨儿。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1627981224,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "&#34;男生就应该和男生一起玩，和女生在一块儿会变成娘炮，像什么样子？&#34;那时候我才二年级，我和我同桌的女生玩得特别好，所以那段时间都没有和死党一起玩，他就去我家告状去了，说我不和男生在一起玩。 那天晚上我家里人呵斥我以后不准再和女生在一块儿玩，可是，当初让我在学校里和同桌友好相处的也是家里人啊，虽然我不理解，但我还是没有和她一起玩了，和她渐疏渐远。 &#34;两个男生在一起不会很基佬吗？&#34;这时我初一刚放假回老家找发…",
+            "extras": "",
+            "favlists_count": 6,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2036791995",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "32 赞同 · 6 收藏 · 9 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 4,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1627981224,
+            "url": "https://www.zhihu.com/api/v4/answers/2036791995",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 32
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f27bbfae28e841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjs6PfGByDL5Lq3AZICJQoJMzk4Nzc1ODYzEgoyMDI3ODExOTQ4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"lTJ023vF\">我不爱自己</p><p data-pid=\"zh8KjIZX\">我要成为男子汉，所以我不能哭</p><p data-pid=\"as8slg27\">我要成为男子汉，所以我不能撒娇</p><p data-pid=\"CftXSrX6\">我要成为男子汉，所以我不能拒绝别人的请求</p><p data-pid=\"7Jnscbqd\">我要成为男子汉，所以我不能去求人要学会自己解决问题</p><p data-pid=\"HXCwRkDs\">我要成为男子汉，所以不能怯懦不能逃避不能拒绝不能情绪化</p><p data-pid=\"GtGGK05C\">我要成为男子汉，所以我不能有弱点不能有瑕疵</p><p data-pid=\"wwxRNBiz\">我要成为男子汉，所以我不能伤春悲秋不能强说愁不能心思敏感不能矫情</p><p data-pid=\"M1q0PtAk\">所以我的内心早已坚如磐石，不会脆弱不会受伤，一个连痛都感受不到的人又怎么会感受到爱呢</p><p data-pid=\"lL9XIlaV\">一个连自己都不爱的人又怎么去爱上别人呢</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1627572350,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我不爱自己 我要成为男子汉，所以我不能哭 我要成为男子汉，所以我不能撒娇 我要成为男子汉，所以我不能拒绝别人的请求 我要成为男子汉，所以我不能去求人要学会自己解决问题 我要成为男子汉，所以不能怯懦不能逃避不能拒绝不能情绪化 我要成为男子汉，所以我不能有弱点不能有瑕疵 我要成为男子汉，所以我不能伤春悲秋不能强说愁不能心思敏感不能矫情 所以我的内心早已坚如磐石，不会脆弱不会受伤，一个连痛都感受不到的人又怎么…",
+            "extras": "",
+            "favlists_count": 8,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2027811948",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "20 赞同 · 8 收藏 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 5
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 5,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1627572350,
+            "url": "https://www.zhihu.com/api/v4/answers/2027811948",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 20
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2ded4b728e841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi5ofXNByDL5Lq3AZICJQoJNDAxNDM2MjcxEgoyMDQyNDUwMTA1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-5d5ceada2f12e6da4c8d0bc2aa9b2f2f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-5d5ceada2f12e6da4c8d0bc2aa9b2f2f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-388966b5f4af924b2610a8f9e9001dc4_l.png?source=1def8aca",
+                "description": "连续答题 15 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-388966b5f4af924b2610a8f9e9001dc4_r.png?source=1def8aca"
+              },
+              "follower_count": 4969,
+              "gender": 1,
+              "headline": "",
+              "id": "782b897207f48300a45ac93c6dc0c7ac",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "我直接一个滑铲",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/782b897207f48300a45ac93c6dc0c7ac",
+              "url_token": "wo-zhi-jie-yi-ge-hua-chan",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 17,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"a1N8WcQf\">男人必须坚强，不能哭，男的要让着女孩，我不知道为什么不能哭，明明男姓也会有情绪，为什么不能表达？为什么男的必须让着女孩，有了问题第一时间想的不是解决问题，而是想着男的就应该让着女孩，为什么必须让着女性？以及对女性的，女的就是不讲理，为什么？为什么女的就是不讲理？又为什么女孩就可以不讲理？彩礼问题和重男轻女，在重男轻女家庭下长大的男孩，那些说男孩没房没车没彩礼结不了婚所以房车财产没有女孩的份的男孩，会因为享受更多的资源去找一个什么都没有的女孩并且不会因为这个觉得女孩欠他们家的？会出房车彩礼吗？这些女孩要房要车要彩礼又找谁要？而我们这些在男女平等的环境下长大的男性，没有享受到重男轻女的好处，又为什么要去为那些重男轻女家庭下长大的人背锅？为什么？为什么？</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1628221671,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "男人必须坚强，不能哭，男的要让着女孩，我不知道为什么不能哭，明明男姓也会有情绪，为什么不能表达？为什么男的必须让着女孩，有了问题第一时间想的不是解决问题，而是想着男的就应该让着女孩，为什么必须让着女性？以及对女性的，女的就是不讲理，为什么？为什么女的就是不讲理？又为什么女孩就可以不讲理？彩礼问题和重男轻女，在重男轻女家庭下长大的男孩，那些说男孩没房没车没彩礼结不了婚所以房车财产没有女孩的份的男孩…",
+            "extras": "",
+            "favlists_count": 6,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2042450105",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "22 赞同 · 6 收藏 · 17 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 8
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 8,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1628221671,
+            "url": "https://www.zhihu.com/api/v4/answers/2042450105",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 22
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2866c9e28e841beb7",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768472435358199279"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/384741963/feeds?cursor=e1d349166f0149f2866c9e28e841beb7&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768472435358199279&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/384741963/feeds?cursor=e1d349166f0149f2866c9e28e841beb7&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768472435358199279&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768472536520,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj7tNTFByDL5Lq3AZICJQoJMzk4Mjg4OTM4EgoyMDI1MTM0NzE1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 516,
+              "gender": 0,
+              "headline": "",
+              "id": "299575cfec730a9157bfc00e8d91459d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "知乎用户49hbGt",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/299575cfec730a9157bfc00e8d91459d",
+              "url_token": "mo-yu-da-sai-guan-jun",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"pLmo9E6q\">男人结婚要买房买车，怕老婆的男人才是好男人，男人工资卡要上交给女人，男人只能下娶不能上嫁，男人都喜欢白瘦幼，最后还要被说一句：中国男人配不上中国女人，你在打男拳。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1627463483,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "男人结婚要买房买车，怕老婆的男人才是好男人，男人工资卡要上交给女人，男人只能下娶不能上嫁，男人都喜欢白瘦幼，最后还要被说一句：中国男人配不上中国女人，你在打男拳。",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2025134715",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "19 赞同 · 2 收藏",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1627463724,
+            "url": "https://www.zhihu.com/api/v4/answers/2025134715",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 19
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2c36ace28e841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiWtN6xBCDL5Lq3AZICJQoJMjQ0MjYxODA5EgoxMTc4MDQ5MDQ2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-8f6dfb2ed93e6a5a378f6a4548dd1b77_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-8f6dfb2ed93e6a5a378f6a4548dd1b77.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 8,
+              "gender": 1,
+              "headline": "",
+              "id": "452e0fac6861827cff0f79f698f730b3",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "sss",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/452e0fac6861827cff0f79f698f730b3",
+              "url_token": "sss-30-11-13",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 5,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"chi_CaAy\">男的都是“下流生物”，男的都喜欢日系AV的女主……什么的吧。</p><p data-pid=\"Z8aN2LD_\">刷知乎首页推荐到了，简单说一下吧。</p><p data-pid=\"A8BIyvdY\">有的男的发现这么做好像可以给自己的恶心行为洗地，所以就老这么挂嘴上。应该把他自己的臭袜子塞他自己嘴里。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1587749161,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "男的都是“下流生物”，男的都喜欢日系AV的女主…什么的吧。 刷知乎首页推荐到了，简单说一下吧。 有的男的发现这么做好像可以给自己的恶心行为洗地，所以就老这么挂嘴上。应该把他自己的臭袜子塞他自己嘴里。",
+            "extras": "",
+            "favlists_count": 4,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1178049046",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "25 赞同 · 4 收藏 · 5 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 6,
+                "like_count": 8
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 8,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1587749161,
+            "url": "https://www.zhihu.com/api/v4/answers/1178049046",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 25
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f25821fc31e841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxi/1PCaBCDL5Lq3AZICJQoJMjM1NTQ1MTY1EgoxMTMwMTEzNTk5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-7265c6f1d3538ce875a6a1189ae2d25b_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-7265c6f1d3538ce875a6a1189ae2d25b.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 2747,
+              "gender": 1,
+              "headline": "用吴越的财富为吴越人开拓生存空间",
+              "id": "7d45817c5a9bb245ac933a77c2ecb4f4",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "秋水",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/7d45817c5a9bb245ac933a77c2ecb4f4",
+              "url_token": "jun-zi-bu-qi-ai-xue-xi",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 8,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"gXv_CDhb\">一般情况下是没有的，但是偶尔当我想做某些打破默认规则时会有很大影响。</p><p data-pid=\"-yBq8-9I\">我大一的时候留长发，经常被人说，家人也反对我。</p><p data-pid=\"SplzUJdI\">其实当时我头发长了以后，我也觉得麻烦，不想留了，但是我看这么多人觉得我不能这样做，那我就不服了，然后我就坚持蓄发，直到没有人再对此有意见，我才主动把头发剃了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1586064902,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "一般情况下是没有的，但是偶尔当我想做某些打破默认规则时会有很大影响。 我大一的时候留长发，经常被人说，家人也反对我。 其实当时我头发长了以后，我也觉得麻烦，不想留了，但是我看这么多人觉得我不能这样做，那我就不服了，然后我就坚持蓄发，直到没有人再对此有意见，我才主动把头发剃了。",
+            "extras": "",
+            "favlists_count": 2,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1130113599",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "22 赞同 · 2 收藏 · 8 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 3,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1586064902,
+            "url": "https://www.zhihu.com/api/v4/answers/1130113599",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 22
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2a4207931e841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiyi6bmCyDL5Lq3AZICJQoJNjA1OTYxNTMwEgozMTY3MzIzNTcwGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-82431fd1336a57f9d753c2e11c0b4f51_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-82431fd1336a57f9d753c2e11c0b4f51.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_l.png?source=1def8aca",
+                "description": "获得 300 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-3fc138243615ec84e052fa0f66c0e1a4_r.png?source=1def8aca"
+              },
+              "follower_count": 36,
+              "gender": 0,
+              "headline": "人",
+              "id": "54d35720a84265526da6369f7d0f00cd",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "Li Tsaipin",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/54d35720a84265526da6369f7d0f00cd",
+              "url_token": "yue-ye-fu-zhou",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 8,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ev9guLig\"><b><i>我知道，有一些人，打死也不会相信这种情况的。在他们的花岗岩脑袋里，只有男人强奸女人，甚至每个男人都在强奸每个女人，而且永远如此……</i></b></p><p data-pid=\"gVq09Yq_\"><b><i>——潘绥铭《给“全性”留下历史记忆》香港1908出版社 第132页</i></b></p><p data-pid=\"w1Wgcopx\">    因为你是男性，就好像做什么都是恶意的，你的行为都被预设了具有“攻击性”的属性。你多看一眼就是不怀好意，对别人的善意会被当成图谋不轨。蝻蛆本来只是用来形容猥琐男的，直到后来扩列墙上出现了“生理蝻”这样的用法，而且我就好奇，蝻就蝻吧，为什么要强调生理，这总让人嗅到一股本质主义排跨激女的味道，就好像在说木桶饭和非二元性别也永永远远摆脱不了指派性别的诅咒，对这两个弱势群体太具有冒犯性了。表现出女性特质，比如卖萌撒娇示弱会被人说恶心，更让我难以理解的是这么说的几个都是女生……</p><p data-pid=\"f1ASDnwJ\">    更可怕的是，在一个刻板印象被主流叙事逐渐固化的环境下，同情女性的男生和同情男生的女性都很难在极化的舆论中自处。我见过女权因为拒绝仇男就被网暴的，甚至早在第二波女性主义的时候就有这样的例子。而作为男性，我感受到的是，哪怕你用心研究女性主义，你仍然无法改变你被人防备的现状，甚至有一些犬儒心态极强的女性会觉得你别有用心，想借女性主义钓妹子，在他们眼里，男人注定不会和女性共情，男人注定是女性的敌人。这让我感觉到一切试图理解女性经验的努力都没有任何意义，他们就是这么把你的善意踩在脚底下摩擦的。而与此同时，（有可能）男性群体还会觉得你很变态，甚至某些进步男权组织还会觉得你是龟男（但实际上我没遇到过来自男性和男权组织的恶意，我身边有一个玩军服的男生还蛮爱听我讲女性主义的）。不知道怎么组织语言，不说了，分享一段我最近读的书的节选吧。</p><figure data-size=\"normal\"><noscript><img src=\"https://picx.zhimg.com/50/v2-af7a07a537d2ecab392d4e648e7916ba_720w.jpg?source=1def8aca\" data-rawwidth=\"1080\" data-rawheight=\"2340\" data-size=\"normal\" data-original-token=\"v2-0ac4fd68f735a6b6a717ee723c16dab6\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-03d8ff1221be52bbccede9ee156872ee_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-af7a07a537d2ecab392d4e648e7916ba_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;2340&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1080\" data-rawheight=\"2340\" data-size=\"normal\" data-original-token=\"v2-0ac4fd68f735a6b6a717ee723c16dab6\" data-default-watermark-src=\"https://picx.zhimg.com/50/v2-03d8ff1221be52bbccede9ee156872ee_720w.jpg?source=1def8aca\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-af7a07a537d2ecab392d4e648e7916ba_r.jpg?source=1def8aca\" data-actualsrc=\"https://picx.zhimg.com/50/v2-af7a07a537d2ecab392d4e648e7916ba_720w.jpg?source=1def8aca\"/></figure><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1692128873,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我知道，有一些人，打死也不会相信这种情况的。在他们的花岗岩脑袋里，只有男人强奸女人，甚至每个男人都在强奸每个女人，而且永远如此… ——潘绥铭《给“全性”留下历史记忆》香港1908出版社 第132页 因为你是男性，就好像做什么都是恶意的，你的行为都被预设了具有“攻击性”的属性。你多看一眼就是不怀好意，对别人的善意会被当成图谋不轨。蝻蛆本来只是用来形容猥琐男的，直到后来扩列墙上出现了“生理蝻”这样的用法，而…",
+            "extras": "",
+            "favlists_count": 25,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3167323570",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "67 赞同 · 25 收藏 · 8 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 26
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 26,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 2340,
+                  "token": "v2-0ac4fd68f735a6b6a717ee723c16dab6",
+                  "type": "image",
+                  "url": "https://pic1.zhimg.com/80/v2-0ac4fd68f735a6b6a717ee723c16dab6_720w.jpg?source=1def8aca",
+                  "width": 1080
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1692170451,
+            "url": "https://www.zhihu.com/api/v4/answers/3167323570",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 67
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2d33f6d1be841beb7",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjA+YKuBiDL5Lq3AZICJQoJMzQwNDY1NzQwEgoxNzA3MTMwMDQ4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-82b6a1ee8cecf77d028c5a654d851c0c_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-82b6a1ee8cecf77d028c5a654d851c0c.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "教师资格证持证人",
+                  "topics": [],
+                  "type": "identity"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "教师资格证持证人",
+                    "detail_type": "identity_people",
+                    "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "sources": [],
+                    "title": "已认证的个人",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "教师资格证持证人",
+                    "detail_type": "identity_people",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [],
+                    "title": "认证",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "title": "教师资格证持证人"
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-b745dab79c957a541eb72381ece4438d_l.png?source=1def8aca",
+                "description": "获得 10000 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-b745dab79c957a541eb72381ece4438d_r.png?source=1def8aca"
+              },
+              "follower_count": 194,
+              "gender": 1,
+              "headline": "赵元任我偶像～",
+              "id": "3af14546dc53dd860e293d0f37d3fd94",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "LangLandLord",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/3af14546dc53dd860e293d0f37d3fd94",
+              "url_token": "wu-he-lin-88",
+              "user_type": "people",
+              "vip_info": {
+                "is_vip": true,
+                "vip_icon": {
+                  "night_mode_url": "https://picx.zhimg.com/v2-c9686ff064ea3579730756ac6c289978.jpg?source=88ceefae",
+                  "url": "https://pica.zhimg.com/v2-4812630bc27d642f7cafcd6cdeca3d7a.jpg?source=88ceefae"
+                }
+              }
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"mJX-4CvR\">其实有些事情我觉得还挺好玩的。大一的时候我加了我们学校的江南诗社，然后招新那天，她们要撑一个帐篷，没错是她们，本身师范类学校，而且社团挂靠的文学院。几个女同学身高不够，看到我虽然不高，但觉得我是男生，蹦起来能够到，然后我试着蹦了几下，还没她们蹦的高（有点小尴尬）。后来好不容易够到了，展开那个折叠帐篷需要一点力气，又让我去试，然后我我我，还没有那几个女生打开得多。然后我也觉得很尴尬，就直接去找旁边计算机爱好者协会的帮忙了。感觉还是有点，同学们开始的想法是WOW，我们社团有一个男孩子诶(可以有人干体力活了)，后来估计内心活动&#34;???&#34;。</p><p data-pid=\"LUxrX5xj\">还有我注意到个事情，体测挂掉的男生比女生多，男生满分的标准我不知道是谁定出来的，总之就挺反人类的。</p><p data-pid=\"J23g9RtY\">“你成年了，男孩子到年龄去学个开车吧。”</p><p data-pid=\"j8VdFCOB\">“搬东西了，男生都去。”（高中和大学都会讲这一句话，但是因为大学比例过于极端了，这句话一般就是意思意思，女生们从来都是很勇敢地把自己当汉子用哈哈）</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1612058554,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "其实有些事情我觉得还挺好玩的。大一的时候我加了我们学校的江南诗社，然后招新那天，她们要撑一个帐篷，没错是她们，本身师范类学校，而且社团挂靠的文学院。几个女同学身高不够，看到我虽然不高，但觉得我是男生，蹦起来能够到，然后我试着蹦了几下，还没她们蹦的高（有点小尴尬）。后来好不容易够到了，展开那个折叠帐篷需要一点力气，又让我去试，然后我我我，还没有那几个女生打开得多。然后我也觉得很尴尬，就直接去找旁边…",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "1707130048",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "15 赞同 · 1 收藏 · 1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1585877846,
+              "id": "384741963",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "作为男性，哪些性别刻板印象对你造成了伤害或带来困扰?",
+              "type": "question",
+              "updated_time": 1627529358,
+              "url": "https://www.zhihu.com/api/v4/questions/384741963"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 2,
+                "like_count": 4
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": true,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": "真诚赞赏，手留余香"
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 4,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1612148368,
+            "url": "https://www.zhihu.com/api/v4/answers/1707130048",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 15
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "e1d349166f0149f2a51a382be841beb7",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768472435358199279"
+      },
+      "paging": {
+        "page": 3,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/384741963/feeds?cursor=e1d349166f0149f2a51a382be841beb7&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=3&order=default&platform=desktop&session_id=1768472435358199279&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/28932149/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768473583262,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/28932149/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/28932149/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人是如何逐渐认识并确认自己性别认同的？",
+          "question_type": "normal",
+          "created": 1760412628,
+          "updated_time": 1760412628,
+          "url": "https://www.zhihu.com/api/v4/questions/1961393403079155836",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1961393403079155836"
+        },
+        {
+          "type": "question",
+          "title": "我为什么不太愿意承认我的性别?",
+          "question_type": "normal",
+          "created": 1659233782,
+          "updated_time": 1659314957,
+          "url": "https://www.zhihu.com/api/v4/questions/546222852",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "546222852"
+        },
+        {
+          "type": "question",
+          "title": "当你发现自己的性别认同与生理性别不符时，会有怎样的内心体验？",
+          "question_type": "normal",
+          "created": 1760410978,
+          "updated_time": 1760410978,
+          "url": "https://www.zhihu.com/api/v4/questions/1961386482351702869",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1961386482351702869"
+        }
+      ]
+    }
+  }
+]

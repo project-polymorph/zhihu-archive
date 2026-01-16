@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/476892493/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768472708335,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/476892493/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/476892493/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别刻板印象的弊端是什么？",
+          "question_type": "normal",
+          "created": 1637199605,
+          "updated_time": 1637199605,
+          "url": "https://www.zhihu.com/api/v4/questions/499723991",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "499723991"
+        },
+        {
+          "type": "question",
+          "title": "如果性别刻板印象消失，社会会变得更好吗？",
+          "question_type": "normal",
+          "created": 1628913999,
+          "updated_time": 1628913999,
+          "url": "https://www.zhihu.com/api/v4/questions/479676505",
+          "answer_count": 4,
+          "comment_count": 4,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "479676505"
+        },
+        {
+          "type": "question",
+          "title": "如何回击对性别有刻版印象的人？",
+          "question_type": "normal",
+          "created": 1541791431,
+          "updated_time": 1541791431,
+          "url": "https://www.zhihu.com/api/v4/questions/301910102",
+          "answer_count": 9,
+          "comment_count": 1,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "301910102"
+        }
+      ]
+    }
+  }
+]
