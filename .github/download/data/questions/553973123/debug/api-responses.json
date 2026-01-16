@@ -1,0 +1,860 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/553973123/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582210829,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/553973123/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/553973123/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你对“性别”的定义是什么？",
+          "question_type": "normal",
+          "created": 1632148919,
+          "updated_time": 1632148919,
+          "url": "https://www.zhihu.com/api/v4/questions/488023918",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "488023918"
+        },
+        {
+          "type": "question",
+          "title": "为什么人要分性别？",
+          "question_type": "normal",
+          "created": 1666428290,
+          "updated_time": 1666428290,
+          "url": "https://www.zhihu.com/api/v4/questions/561540855",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "561540855"
+        },
+        {
+          "type": "question",
+          "title": "该不该有性别定义呢?",
+          "question_type": "normal",
+          "created": 1588002346,
+          "updated_time": 1588002346,
+          "url": "https://www.zhihu.com/api/v4/questions/391079758",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "391079758"
+        },
+        {
+          "type": "question",
+          "title": "为什么不取消“社会性别”这一概念，只保留生理性别？",
+          "question_type": "normal",
+          "created": 1754624923,
+          "updated_time": 1754626818,
+          "url": "https://www.zhihu.com/api/v4/questions/1937118011199820150",
+          "answer_count": 17,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "1937118011199820150"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/553973123/feeds?cursor=4a03a7b4f19411a4d36922acea73dc82&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768582203965247582&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768582210995,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjWpMOICiCD65OIApICJQoJNTIxNDAwOTcxEgoyNzAyMjM0MTk4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-dcb18d856a3692f5508c6dfdeaefb9b7_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-dcb18d856a3692f5508c6dfdeaefb9b7.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_l.png?source=1def8aca",
+                "description": "被 500 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-a4a733d68844ff22956ae0ada4bd9d6c_r.png?source=1def8aca"
+              },
+              "follower_count": 901,
+              "gender": -1,
+              "headline": "宏观经济、微观经济、地缘政治、技术发展",
+              "id": "25ea7eb0bde7826c792fcb53a3bf9f6d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "乐团的汤姆猫",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/25ea7eb0bde7826c792fcb53a3bf9f6d",
+              "url_token": "di-zi-zheng-zong",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"3FAQTS2H\">泻药，大公鸡，澡堂。</p><p data-pid=\"9OcGEKc6\">你的想法前半部分理论层面是对的，后面行动层面出现了谬误，即取消性别划分不切实际。</p><p data-pid=\"3yMe_-L6\">两性之间生理构造、社会角色定位有区别是客观存在的，不以人的意志和期待为转移，</p><p data-pid=\"_Ua7fKcZ\">但追求人的“本质精神”是没有任何问题的，因为现在性别的划分已经成了人们自由发展的约束，而不是自由发展的助力，</p><p data-pid=\"LeQIeu1B\">性别观念走向灭亡是早晚的事，但不是通过取消性别划分来实现的，</p><p data-pid=\"yYkREE0h\">恰恰相反，应该在生理构造两性的的基础上，引入基于生理构造、心理认同、个人意愿、社会期待的更多种性别划分，才是合理的性别政策。</p><p></p><p></p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1664947268,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "泻药，大公鸡，澡堂。 你的想法前半部分理论层面是对的，后面行动层面出现了谬误，即取消性别划分不切实际。 两性之间生理构造、社会角色定位有区别是客观存在的，不以人的意志和期待为转移， 但追求人的“本质精神”是没有任何问题的，因为现在性别的划分已经成了人们自由发展的约束，而不是自由发展的助力， 性别观念走向灭亡是早晚的事，但不是通过取消性别划分来实现的， 恰恰相反，应该在生理构造两性的的基础上，引入基于…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2702234198",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1663323720,
+              "id": "553973123",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+              "type": "question",
+              "updated_time": 1663323720,
+              "url": "https://www.zhihu.com/api/v4/questions/553973123"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 1862,
+                  "token": "v2-006b5ced3b616ccae60fd404a1921566",
+                  "type": "image",
+                  "url": "https://pica.zhimg.com/80/v2-006b5ced3b616ccae60fd404a1921566_720w.jpg?source=1def8aca",
+                  "width": 1183
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1664947268,
+            "url": "https://www.zhihu.com/api/v4/answers/2702234198",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4a03a7b4f19411a4b7b922acea73dc82",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjIp6b8CSCD65OIApICJQoJNTE2NzQwNTA1EgoyNjc2NTkzNjA4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-582431225c6bdd6216a5d41fe6d8ceb2_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-582431225c6bdd6216a5d41fe6d8ceb2.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-ef2b573cb63e7775da93fbed57c78496_l.png?source=1def8aca",
+                "description": "评论 50 次",
+                "medal_avatar_frame": "",
+                "medal_id": "972462538273792000",
+                "medal_name": "乐于交流",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-ef2b573cb63e7775da93fbed57c78496_r.png?source=1def8aca"
+              },
+              "follower_count": 16,
+              "gender": 0,
+              "headline": "喜欢心理学、画画、摄影、看书",
+              "id": "9310945912aefcb4779c56cbf755988d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "啊哈",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/9310945912aefcb4779c56cbf755988d",
+              "url_token": "xiao-xie-4-9",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"omUXO4ea\">………………，这个问题是怎么想出来的？</p><p data-pid=\"0gJWzD9u\">那叫人类、植物、动物合适吗？</p><p data-pid=\"2XEO7hKD\">那个长头发的人只吃植物，不吃动物……</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1663328149,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "…，这个问题是怎么想出来的？ 那叫人类、植物、动物合适吗？ 那个长头发的人只吃植物，不吃动物…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2676593608",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1663323720,
+              "id": "553973123",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+              "type": "question",
+              "updated_time": 1663323720,
+              "url": "https://www.zhihu.com/api/v4/questions/553973123"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1663328149,
+            "url": "https://www.zhihu.com/api/v4/answers/2676593608",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4a03a7b4f19411a4a59efdadea73dc82",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjo+MX9CSCD65OIApICJQoJNTE3MjE3MDk4EgoyNjc5MjA5MDY0GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-4a21abc7a344abe59bfa452bd9386e15_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-4a21abc7a344abe59bfa452bd9386e15.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-1607ab617c9cbaf0c75cb00d0c42292c_l.png?source=1def8aca",
+                "description": "已完善全部个人资料",
+                "medal_avatar_frame": "",
+                "medal_id": "972465637922213888",
+                "medal_name": "给自己证明",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-1607ab617c9cbaf0c75cb00d0c42292c_r.png?source=1def8aca"
+              },
+              "follower_count": 375,
+              "gender": 1,
+              "headline": "不着调的通信工程师",
+              "id": "b8691070651feabe8f82fe003de8339c",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "玳霓的帅爸爸",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/b8691070651feabe8f82fe003de8339c",
+              "url_token": "yang-huang-yun-cheng",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"ru_mhNEu\">原问题:人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分</p><p data-pid=\"Dj3w4qYV\">定义性别的根本依据是生理结构差异，是基于客观存在的主观认知。</p><p data-pid=\"dwmn37Pf\">取消定义，也无法填补生理结构上的差别，主观变化并不会影响客观存在。</p><p data-pid=\"ZLSG8EWz\">如果按照题主论点的逻辑，人类可以不被定义为两性、男女性别可以取消划分，阉割了主观就能改变客观的话，那么人畜又有什么分别？</p><p data-pid=\"C9EoVfdq\">真特朗普“只要我不测，它就没新增”了！</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1663501985,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "原问题:人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分 定义性别的根本依据是生理结构差异，是基于客观存在的主观认知。 取消定义，也无法填补生理结构上的差别，主观变化并不会影响客观存在。 如果按照题主论点的逻辑，人类可以不被定义为两性、男女性别可以取消划分，阉割了主观就能改变客观的话，那么人畜又有什么分别？ 真特朗普“只要我不测，它就没新增”了！",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2679209064",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1663323720,
+              "id": "553973123",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+              "type": "question",
+              "updated_time": 1663323720,
+              "url": "https://www.zhihu.com/api/v4/questions/553973123"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1663501985,
+            "url": "https://www.zhihu.com/api/v4/answers/2679209064",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4a03a7b4f19411a47650e5adea73dc82",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjT05f+CSCD65OIApICJQoJNTE3NDYwMzMwEgoyNjgwNTQ3Nzk1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 32,
+              "gender": -1,
+              "headline": "",
+              "id": "dc3462e99306974e922fd5b35c055c9e",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "以利沙",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/dc3462e99306974e922fd5b35c055c9e",
+              "url_token": "yi-li-sha-28-82",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"qMkiJO_Q\">为什么一男一女，只有男人产精子，只有女人产卵子。你可以回答男人为何不能产卵子，女人不能产精子，那么就不需要区分男女了。倘若无需区分男女，人就应该一样，为何男人女人结构不同？你若能回答，就可以统一人类了。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1663578356,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "为什么一男一女，只有男人产精子，只有女人产卵子。你可以回答男人为何不能产卵子，女人不能产精子，那么就不需要区分男女了。倘若无需区分男女，人就应该一样，为何男人女人结构不同？你若能回答，就可以统一人类了。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2680547795",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1663323720,
+              "id": "553973123",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+              "type": "question",
+              "updated_time": 1663323720,
+              "url": "https://www.zhihu.com/api/v4/questions/553973123"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1663578356,
+            "url": "https://www.zhihu.com/api/v4/answers/2680547795",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4a03a7b4f19411a4569ae6adea73dc82",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxj7+5iBCiCD65OIApICJQoJNTE4NjA3NDQzEgoyNjg2ODYwNzk1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-dcbfd11e0e16cae694014b1ed853390e_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-dcbfd11e0e16cae694014b1ed853390e.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-90ce99c0bc9bf2d6c8ba0da548634f1a_l.png?source=1def8aca",
+                "description": "感谢你在 2025 高考活动中的创作",
+                "medal_avatar_frame": "",
+                "medal_id": "1928409999207568795",
+                "medal_name": "高考过来人 2025",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-90ce99c0bc9bf2d6c8ba0da548634f1a_r.png?source=1def8aca"
+              },
+              "follower_count": 1761,
+              "gender": -1,
+              "headline": "奋战在抗击女泉蟹脚的第一线",
+              "id": "cb539bebbfb37335a1a91e59cc687e4b",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "郭赧",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/cb539bebbfb37335a1a91e59cc687e4b",
+              "url_token": "shu-yu-97-41",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"kO8KyVlH\">何来被定义性别？</p><p data-pid=\"dzPBnCIj\">动物不是天生就有性别吗？</p><p data-pid=\"UbyAhqPy\">两性是天生存在的，不需要被定义，</p><p data-pid=\"936YRUvK\">天生有两套性器官或者做了变性手术的人，才需要后天去定义性别</p><p data-pid=\"qNyhwXk4\">你的性别，我的性别，都不是谁定义的，而是在我们成为受精卵那一刻就已经成型的事</p><p data-pid=\"rsmUvEch\">只要是自然孕育的人，我们的性别，不是由人定义的，是上天的安排</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1663939734,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "何来被定义性别？ 动物不是天生就有性别吗？ 两性是天生存在的，不需要被定义， 天生有两套性器官或者做了变性手术的人，才需要后天去定义性别 你的性别，我的性别，都不是谁定义的，而是在我们成为受精卵那一刻就已经成型的事 只要是自然孕育的人，我们的性别，不是由人定义的，是上天的安排",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2686860795",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1663323720,
+              "id": "553973123",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+              "type": "question",
+              "updated_time": 1663323720,
+              "url": "https://www.zhihu.com/api/v4/questions/553973123"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1663939734,
+            "url": "https://www.zhihu.com/api/v4/answers/2686860795",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "4a03a7b4f19411a46f19d8adea73dc82",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768582203965247582"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/553973123/feeds?cursor=4a03a7b4f19411a46f19d8adea73dc82&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768582203965247582&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

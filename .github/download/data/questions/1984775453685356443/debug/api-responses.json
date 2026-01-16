@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1984775453685356443/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580945307,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1984775453685356443/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1984775453685356443/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么现在疾病种类如此之多，而且不孕不育的男性和女性也普遍较多，小孩的抵抗力似乎也在普遍减弱？",
+          "question_type": "normal",
+          "created": 1552653603,
+          "updated_time": 1552653603,
+          "url": "https://www.zhihu.com/api/v4/questions/316078992",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "316078992"
+        },
+        {
+          "type": "question",
+          "title": "有什么疾病是有可能需要终身药物治疗且不能生育的？",
+          "question_type": "normal",
+          "created": 1544872056,
+          "updated_time": 1544872056,
+          "url": "https://www.zhihu.com/api/v4/questions/305829737",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "305829737"
+        },
+        {
+          "type": "question",
+          "title": "有没有和生孩子痛苦相媲美的男性疾病？",
+          "question_type": "normal",
+          "created": 1689991965,
+          "updated_time": 1689991965,
+          "url": "https://www.zhihu.com/api/v4/questions/613415267",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "613415267"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/381900299/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582297558,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/381900299/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/381900299/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何区分性别主义和社会性别？",
+          "question_type": "normal",
+          "created": 1671281176,
+          "updated_time": 1671281176,
+          "url": "https://www.zhihu.com/api/v4/questions/572915152",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "572915152"
+        },
+        {
+          "type": "question",
+          "title": "社会对于不同性别是否有不同要求?",
+          "question_type": "normal",
+          "created": 1521087482,
+          "updated_time": 1521087482,
+          "url": "https://www.zhihu.com/api/v4/questions/268825810",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "268825810"
+        },
+        {
+          "type": "question",
+          "title": "为什么现在有的人一涉及性别很偏激？",
+          "question_type": "normal",
+          "created": 1663822759,
+          "updated_time": 1663822759,
+          "url": "https://www.zhihu.com/api/v4/questions/554898932",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "554898932"
+        },
+        {
+          "type": "question",
+          "title": "不同的性别决定了不同的思考方式吗？",
+          "question_type": "normal",
+          "created": 1748359245,
+          "updated_time": 1748359245,
+          "url": "https://www.zhihu.com/api/v4/questions/1910837851672801618",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "1910837851672801618"
+        }
+      ]
+    }
+  }
+]

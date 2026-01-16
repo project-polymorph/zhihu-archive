@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/424285904/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581117771,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/424285904/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/424285904/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "男女住一起要注意什么？",
+          "question_type": "normal",
+          "created": 1566197679,
+          "updated_time": 1566197679,
+          "url": "https://www.zhihu.com/api/v4/questions/341399518",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "341399518"
+        },
+        {
+          "type": "question",
+          "title": "出去玩不是男女朋友住一间房间，两张床，会出问题吗？",
+          "question_type": "normal",
+          "created": 1406687948,
+          "updated_time": 1406687948,
+          "url": "https://www.zhihu.com/api/v4/questions/24667906",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "24667906"
+        },
+        {
+          "type": "question",
+          "title": "出去玩和很好的男性朋友住一间房可以吗？",
+          "question_type": "normal",
+          "created": 1404391899,
+          "updated_time": 1404391899,
+          "url": "https://www.zhihu.com/api/v4/questions/24364592",
+          "answer_count": 1,
+          "comment_count": 1,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "24364592"
+        },
+        {
+          "type": "question",
+          "title": "异性朋友住标间正常吗?",
+          "question_type": "normal",
+          "created": 1564301235,
+          "updated_time": 1564392213,
+          "url": "https://www.zhihu.com/api/v4/questions/337371096",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "337371096"
+        },
+        {
+          "type": "question",
+          "title": "一个女生跟两个男生住一个标间合适吗？",
+          "question_type": "normal",
+          "created": 1754741938,
+          "updated_time": 1754741938,
+          "url": "https://www.zhihu.com/api/v4/questions/1937608805576849201",
+          "answer_count": 7,
+          "comment_count": 2,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "1937608805576849201"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/305829737/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580980675,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/305829737/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/305829737/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果有一种药吃了长生不老但不能生育，你会吃吗？",
+          "question_type": "normal",
+          "created": 1485814883,
+          "updated_time": 1485814883,
+          "url": "https://www.zhihu.com/api/v4/questions/55254762",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "55254762"
+        },
+        {
+          "type": "question",
+          "title": "为什么没有使人失去生育功能的遗传疾病？",
+          "question_type": "normal",
+          "created": 1637506357,
+          "updated_time": 1637506357,
+          "url": "https://www.zhihu.com/api/v4/questions/500613641",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "500613641"
+        },
+        {
+          "type": "question",
+          "title": "生育并发症包括哪些疾病？",
+          "question_type": "normal",
+          "created": 1728358639,
+          "updated_time": 1728358639,
+          "url": "https://www.zhihu.com/api/v4/questions/778552403",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "778552403"
+        }
+      ]
+    }
+  }
+]

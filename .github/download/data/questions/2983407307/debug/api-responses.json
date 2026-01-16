@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/2983407307/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581074690,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/2983407307/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/2983407307/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "随着社会发展，我们对「性别」的传统认知是否正在被重塑？",
+          "question_type": "normal",
+          "created": 1767755217,
+          "updated_time": 1767755217,
+          "url": "https://www.zhihu.com/api/v4/questions/1992190453920052312",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1992190453920052312"
+        },
+        {
+          "type": "question",
+          "title": "人类性别可能合并的趋势下，对人类未来是好事还是坏事？",
+          "question_type": "normal",
+          "created": 1552527441,
+          "updated_time": 1552527441,
+          "url": "https://www.zhihu.com/api/v4/questions/315849837",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "315849837"
+        }
+      ]
+    }
+  }
+]

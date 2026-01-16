@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/318702153/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581320618,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/318702153/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/318702153/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么越长大越不喜欢自己的性别？",
+          "question_type": "normal",
+          "created": 1694541412,
+          "updated_time": 1694541412,
+          "url": "https://www.zhihu.com/api/v4/questions/621767726",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "621767726"
+        },
+        {
+          "type": "question",
+          "title": "真的是性别决定喜好吗？",
+          "question_type": "normal",
+          "created": 1703397698,
+          "updated_time": 1703397698,
+          "url": "https://www.zhihu.com/api/v4/questions/636419501",
+          "answer_count": 1,
+          "comment_count": 1,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "636419501"
+        }
+      ]
+    }
+  }
+]

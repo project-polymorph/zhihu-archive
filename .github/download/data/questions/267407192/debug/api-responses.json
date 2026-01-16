@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/267407192/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581596058,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/267407192/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/267407192/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "两性畸形怀孕是什么体验?",
+          "question_type": "normal",
+          "created": 1670206239,
+          "updated_time": 1670903675,
+          "url": "https://www.zhihu.com/api/v4/questions/570424439",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "570424439"
+        },
+        {
+          "type": "question",
+          "title": "请问下两性畸形治疗费用能否走保险？",
+          "question_type": "normal",
+          "created": 1448714644,
+          "updated_time": 1448719571,
+          "url": "https://www.zhihu.com/api/v4/questions/37977737",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "37977737"
+        },
+        {
+          "type": "question",
+          "title": "真两性畸形青春期会出现男生的生理反应还是女生的生理反应?",
+          "question_type": "normal",
+          "created": 1730529203,
+          "updated_time": 1730529203,
+          "url": "https://www.zhihu.com/api/v4/questions/2891926631",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "2891926631"
+        }
+      ]
+    }
+  }
+]

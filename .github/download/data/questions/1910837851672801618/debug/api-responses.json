@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1910837851672801618/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582391982,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1910837851672801618/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1910837851672801618/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别可以作为区分思维方式的一条标准吗？",
+          "question_type": "normal",
+          "created": 1523879380,
+          "updated_time": 1523879471,
+          "url": "https://www.zhihu.com/api/v4/questions/273540551",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "273540551"
+        },
+        {
+          "type": "question",
+          "title": "感情生活中，双方理解性别不同带来的思维方式的差异真的很困难吗？",
+          "question_type": "normal",
+          "created": 1541431304,
+          "updated_time": 1541650307,
+          "url": "https://www.zhihu.com/api/v4/questions/301417827",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "301417827"
+        },
+        {
+          "type": "question",
+          "title": "怎样给一个单一性别的世界一个科学合理的解释？",
+          "question_type": "normal",
+          "created": 1733565644,
+          "updated_time": 1733565644,
+          "url": "https://www.zhihu.com/api/v4/questions/6221974876",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "6221974876"
+        }
+      ]
+    }
+  }
+]

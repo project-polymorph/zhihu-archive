@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/340621553/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582556672,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/340621553/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/340621553/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么会得小儿两性畸形？",
+          "question_type": "normal",
+          "created": 1637586399,
+          "updated_time": 1637586399,
+          "url": "https://www.zhihu.com/api/v4/questions/500847717",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "500847717"
+        },
+        {
+          "type": "question",
+          "title": "如何避免自己生出来的孩子是两性畸形？",
+          "question_type": "normal",
+          "created": 1639134751,
+          "updated_time": 1639134751,
+          "url": "https://www.zhihu.com/api/v4/questions/505140830",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "505140830"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形的婴儿该如何抉择性别？",
+          "question_type": "normal",
+          "created": 1581593661,
+          "updated_time": 1597502337,
+          "url": "https://www.zhihu.com/api/v4/questions/371675618",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "371675618"
+        },
+        {
+          "type": "question",
+          "title": "真两性畸形能否一个人完全生育？",
+          "question_type": "normal",
+          "created": 1386573815,
+          "updated_time": 1386573815,
+          "url": "https://www.zhihu.com/api/v4/questions/22229175",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 23,
+          "relationship": {},
+          "id": "22229175"
+        }
+      ]
+    }
+  }
+]

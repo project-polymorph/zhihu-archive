@@ -1,0 +1,278 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/662702553/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581773841,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/662702553/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/662702553/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人就应该是人，为什么要被定义成不同的性别，是否应该取消性别划分？",
+          "question_type": "normal",
+          "created": 1663323720,
+          "updated_time": 1663323720,
+          "url": "https://www.zhihu.com/api/v4/questions/553973123",
+          "answer_count": 28,
+          "comment_count": 2,
+          "follower_count": 35,
+          "relationship": {},
+          "id": "553973123"
+        },
+        {
+          "type": "question",
+          "title": "什么是真正的性别？",
+          "question_type": "normal",
+          "created": 1570185873,
+          "updated_time": 1570185873,
+          "url": "https://www.zhihu.com/api/v4/questions/349123517",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "349123517"
+        },
+        {
+          "type": "question",
+          "title": "性别究竟是什么？",
+          "question_type": "normal",
+          "created": 1554641506,
+          "updated_time": 1554641506,
+          "url": "https://www.zhihu.com/api/v4/questions/319168975",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "319168975"
+        },
+        {
+          "type": "question",
+          "title": "人为什么要区分性别？",
+          "question_type": "normal",
+          "created": 1457019974,
+          "updated_time": 1457019974,
+          "url": "https://www.zhihu.com/api/v4/questions/40996423",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "40996423"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/662702553/feeds?cursor=b7d9d3554612dbaaa4eddad44b221eef&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768581765546547626&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768581773894,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxiQtKSpDSDZk4C8ApICJQoJNjgwMjk1NzQ4EgozNTc2MjQwNjU2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/v2-4531718aa7cc0c49d596fbfa48a1bd71_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-4531718aa7cc0c49d596fbfa48a1bd71.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pica.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 78,
+              "gender": -1,
+              "headline": "",
+              "id": "c2598a91b9fed60519cfa0fe31555a72",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "橙子",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/c2598a91b9fed60519cfa0fe31555a72",
+              "url_token": "18-67-94-17",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"J_r40RWD\">自从喜欢过一位异性恋女生以后，我对我自己的性别认知变得非常二椅子</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1722154980,
+            "decorative_labels": [],
+            "editable_content": "",
+            "endorsements": [
+              {
+                "action_url": "https://www.zhihu.com/people/d4fc5662b786aa0c9e3a1467d7ef2804",
+                "background_color": {
+                  "alpha": 0.1,
+                  "group": "GBL01A"
+                },
+                "elements": [
+                  {
+                    "height": 16,
+                    "image_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "image_key": "zhicon_icon_24_crab_fill",
+                    "type": "IMAGE",
+                    "width": 16
+                  },
+                  {
+                    "content": "谢邀 @ai降临派",
+                    "font_color": {
+                      "alpha": 1,
+                      "group": "GBL07A"
+                    },
+                    "font_size": 13,
+                    "is_bold": true,
+                    "max_line": 1,
+                    "type": "TEXT"
+                  }
+                ],
+                "sub_elements": [],
+                "sub_elements_type": "DESCRIPTION",
+                "za": {
+                  "block_text": "ThanksForInvitingLabel",
+                  "text": "",
+                  "type": "text"
+                }
+              }
+            ],
+            "excerpt": "自从喜欢过一位异性恋女生以后，我对我自己的性别认知变得非常二椅子",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3576240656",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1722043759,
+              "id": "662702553",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "人的性别究竟是习惯性别还是认同性别？人们对于性别的认知是清晰的还是模糊的？",
+              "type": "question",
+              "updated_time": 1722043759,
+              "url": "https://www.zhihu.com/api/v4/questions/662702553"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1722154980,
+            "url": "https://www.zhihu.com/api/v4/answers/3576240656",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "b7d9d3554612dbaac51fdcd44b221eef",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768581765546547626"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/662702553/feeds?cursor=b7d9d3554612dbaac51fdcd44b221eef&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768581765546547626&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

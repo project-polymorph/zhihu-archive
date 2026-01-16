@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/57655794/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581570393,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/57655794/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/57655794/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "两性畸形的人，该怎样自信而幸福的继续自己的人生？",
+          "question_type": "normal",
+          "created": 1405936724,
+          "updated_time": 1405936724,
+          "url": "https://www.zhihu.com/api/v4/questions/24563551",
+          "answer_count": 39,
+          "comment_count": 8,
+          "follower_count": 278,
+          "relationship": {},
+          "id": "24563551"
+        }
+      ]
+    }
+  }
+]

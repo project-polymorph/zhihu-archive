@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/435359436/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580414097,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/435359436/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/435359436/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人做和性别没有必要关系的事情时，该被打上性别标签吗?",
+          "question_type": "normal",
+          "created": 1694150427,
+          "updated_time": 1694150427,
+          "url": "https://www.zhihu.com/api/v4/questions/621075026",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "621075026"
+        },
+        {
+          "type": "question",
+          "title": "情感上的问题，回答的时候麻烦先说明一下性别再说自己的看法好吗？",
+          "question_type": "normal",
+          "created": 1559049304,
+          "updated_time": 1559049304,
+          "url": "https://www.zhihu.com/api/v4/questions/326668201",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "326668201"
+        },
+        {
+          "type": "question",
+          "title": "为什么喜欢要和性别联系到一起？",
+          "question_type": "normal",
+          "created": 1554305222,
+          "updated_time": 1554305222,
+          "url": "https://www.zhihu.com/api/v4/questions/318702153",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "318702153"
+        }
+      ]
+    }
+  }
+]

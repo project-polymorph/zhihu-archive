@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/29885871/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581197204,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/29885871/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/29885871/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "和男友出去旅游我不想开一间房，他执意开一间，最后说要开双人床，但我有点后悔了，怎么办？",
+          "question_type": "normal",
+          "created": 1528532435,
+          "updated_time": 1528532435,
+          "url": "https://www.zhihu.com/api/v4/questions/280387408",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "280387408"
+        },
+        {
+          "type": "question",
+          "title": "大学女生，男友提出要去酒店同住一晚，应该同意吗？",
+          "question_type": "normal",
+          "created": 1644641790,
+          "updated_time": 1644641790,
+          "url": "https://www.zhihu.com/api/v4/questions/516133790",
+          "answer_count": 10,
+          "comment_count": 1,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "516133790"
+        },
+        {
+          "type": "question",
+          "title": "去外地旅游，女朋友非要开两间房？",
+          "question_type": "normal",
+          "created": 1529848653,
+          "updated_time": 1529848653,
+          "url": "https://www.zhihu.com/api/v4/questions/282362258",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "282362258"
+        }
+      ]
+    }
+  }
+]

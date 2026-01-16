@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/275511166/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580999240,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/275511166/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/275511166/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别观念对一个人来说重要吗？",
+          "question_type": "normal",
+          "created": 1558280209,
+          "updated_time": 1558280209,
+          "url": "https://www.zhihu.com/api/v4/questions/325152112",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "325152112"
+        },
+        {
+          "type": "question",
+          "title": "我们的性别真的是自己想要的么？",
+          "question_type": "normal",
+          "created": 1600960085,
+          "updated_time": 1600960085,
+          "url": "https://www.zhihu.com/api/v4/questions/422768265",
+          "answer_count": 31,
+          "comment_count": 0,
+          "follower_count": 39,
+          "relationship": {},
+          "id": "422768265"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/461783905/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581277897,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/461783905/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/461783905/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何取得性别认同？",
+          "question_type": "normal",
+          "created": 1460041342,
+          "updated_time": 1460429919,
+          "url": "https://www.zhihu.com/api/v4/questions/42258156",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "42258156"
+        },
+        {
+          "type": "question",
+          "title": "当身边有人探索自己的性别认同时，我们该如何提供恰当的支持？",
+          "question_type": "normal",
+          "created": 1759547610,
+          "updated_time": 1759547610,
+          "url": "https://www.zhihu.com/api/v4/questions/1957765256232297947",
+          "answer_count": 3,
+          "comment_count": 1,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1957765256232297947"
+        },
+        {
+          "type": "question",
+          "title": "人的性别认同是如何形成的？",
+          "question_type": "normal",
+          "created": 1714735570,
+          "updated_time": 1714735570,
+          "url": "https://www.zhihu.com/api/v4/questions/654877791",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "654877791"
+        },
+        {
+          "type": "question",
+          "title": "我接受并认同我是一个女孩，但我接受不了自己是一个女人，这是性别认同障碍吗？这是什么问题？",
+          "question_type": "normal",
+          "created": 1609674054,
+          "updated_time": 1609674054,
+          "url": "https://www.zhihu.com/api/v4/questions/437712308",
+          "answer_count": 16,
+          "comment_count": 2,
+          "follower_count": 31,
+          "relationship": {},
+          "id": "437712308"
+        }
+      ]
+    }
+  }
+]

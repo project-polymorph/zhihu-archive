@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/341210044/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581440940,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/341210044/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/341210044/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "作为父母或教育者，如何引导孩子理解性别认知？",
+          "question_type": "normal",
+          "created": 1768360314,
+          "updated_time": 1768360314,
+          "url": "https://www.zhihu.com/api/v4/questions/1994728415035675935",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1994728415035675935"
+        },
+        {
+          "type": "question",
+          "title": "怎样培养孩子的性别意识？父母该怎么教育？",
+          "question_type": "normal",
+          "created": 1600438871,
+          "updated_time": 1600438871,
+          "url": "https://www.zhihu.com/api/v4/questions/421801321",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "421801321"
+        },
+        {
+          "type": "question",
+          "title": "怎样培养孩子的性别意识？父母应该怎样做？",
+          "question_type": "normal",
+          "created": 1601129898,
+          "updated_time": 1601129898,
+          "url": "https://www.zhihu.com/api/v4/questions/423063578",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "423063578"
+        }
+      ]
+    }
+  }
+]

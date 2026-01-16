@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/649934616/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582369928,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/649934616/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/649934616/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人该如何清晰地探索和确定自己的性别认知？",
+          "question_type": "normal",
+          "created": 1767755123,
+          "updated_time": 1767755123,
+          "url": "https://www.zhihu.com/api/v4/questions/1992190059361887810",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1992190059361887810"
+        },
+        {
+          "type": "question",
+          "title": "在日常生活中我们是如何辨别性别的？同时有好几个特征点的话，对其认知的优先顺序是什么呢？",
+          "question_type": "normal",
+          "created": 1625933881,
+          "updated_time": 1625959704,
+          "url": "https://www.zhihu.com/api/v4/questions/471467162",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "471467162"
+        },
+        {
+          "type": "question",
+          "title": "我该如何正确认识自己的性别？",
+          "question_type": "normal",
+          "created": 1538716633,
+          "updated_time": 1538716633,
+          "url": "https://www.zhihu.com/api/v4/questions/297262798",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "297262798"
+        },
+        {
+          "type": "question",
+          "title": "如何接受自己的性别？",
+          "question_type": "normal",
+          "created": 1513656357,
+          "updated_time": 1513656357,
+          "url": "https://www.zhihu.com/api/v4/questions/264296259",
+          "answer_count": 4,
+          "comment_count": 1,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "264296259"
+        }
+      ]
+    }
+  }
+]

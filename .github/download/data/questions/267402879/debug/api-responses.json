@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/267402879/feeds?cursor=1e9bea463282a538ae209c6932bb95b6&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768581529038153813&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768581537603,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768581529038153813"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/267402879/feeds?cursor=1e9bea463282a538ae209c6932bb95b6&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768581529038153813&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/267402879/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581538428,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/267402879/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/267402879/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "为什么会得小儿两性畸形？",
+          "question_type": "normal",
+          "created": 1637586399,
+          "updated_time": 1637586399,
+          "url": "https://www.zhihu.com/api/v4/questions/500847717",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "500847717"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形的人，该如何自信的面对自己的后半生呢？",
+          "question_type": "normal",
+          "created": 1490541219,
+          "updated_time": 1490575884,
+          "url": "https://www.zhihu.com/api/v4/questions/57655794",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "57655794"
+        },
+        {
+          "type": "question",
+          "title": "新生儿两性畸形是两性人，要怎么办？",
+          "question_type": "normal",
+          "created": 1565799711,
+          "updated_time": 1565799711,
+          "url": "https://www.zhihu.com/api/v4/questions/340621553",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "340621553"
+        }
+      ]
+    }
+  }
+]

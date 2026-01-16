@@ -1,0 +1,508 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/266933657/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580294744,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/266933657/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/266933657/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "一个人是如何逐渐认识并确认自己性别认同的？",
+          "question_type": "normal",
+          "created": 1760412628,
+          "updated_time": 1760412628,
+          "url": "https://www.zhihu.com/api/v4/questions/1961393403079155836",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1961393403079155836"
+        },
+        {
+          "type": "question",
+          "title": "性别认同障碍是基因决定的还是后天形成的？或者是后天影响基因是否表现？",
+          "question_type": "normal",
+          "created": 1404470851,
+          "updated_time": 1404470851,
+          "url": "https://www.zhihu.com/api/v4/questions/24375050",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "24375050"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/266933657/feeds?cursor=5b20028c22f6f2644002269f3000ce87&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768580289806447503&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768580295090,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxj52NeWASCZq6R/kgIjCgg4NzUyMzY5OBIJMzE2MDA5NTkzGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-fe5b060c9d7623264a966d74e02b6e93_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-fe5b060c9d7623264a966d74e02b6e93.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-eb9f18ea3399517802e9daea829df626_l.png?source=1def8aca",
+                "description": "受邀回答 3 个问题",
+                "medal_avatar_frame": "",
+                "medal_id": "972473506181627904",
+                "medal_name": "有求必应",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-eb9f18ea3399517802e9daea829df626_r.png?source=1def8aca"
+              },
+              "follower_count": 379,
+              "gender": -1,
+              "headline": "创客 / Selkier / 我要出去玩！",
+              "id": "2e74bf9d01adabd21c81fe2737aa631d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "喵枫糖",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/2e74bf9d01adabd21c81fe2737aa631d",
+              "url_token": "maposyra",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"UAfZJ49l\">你觉得自己是什么，那就是什么，句号。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1518236961,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "你觉得自己是什么，那就是什么，句号。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "316009593",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "6 赞同 · 4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1518181517,
+              "id": "266933657",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "划分性别认同(gender identity)的标准是什么？",
+              "type": "question",
+              "updated_time": 1518181660,
+              "url": "https://www.zhihu.com/api/v4/questions/266933657"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 2
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 2,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1518236962,
+            "url": "https://www.zhihu.com/api/v4/answers/316009593",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 6
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5b20028c22f6f264f42f6c9f3000ce87",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxie2pioAiCZq6R/kgIkCgkxNDMwMDYxMDMSCTYyMTE2MTc1OBgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Rn0FCIk3\">学界暂时还没有统一的标准</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1552422840,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "学界暂时还没有统一的标准",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "621161758",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1518181517,
+              "id": "266933657",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "划分性别认同(gender identity)的标准是什么？",
+              "type": "question",
+              "updated_time": 1518181660,
+              "url": "https://www.zhihu.com/api/v4/questions/266933657"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1552422840,
+            "url": "https://www.zhihu.com/api/v4/answers/621161758",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5b20028c22f6f26411b7dd923000ce87",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxiMrdiWASCZq6R/kgIjCgg4NzUyNTY1NxIJMzE2MDIwMzY0GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-f31633ba274fc0504babcfe7961662a0_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-f31633ba274fc0504babcfe7961662a0.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pica.zhimg.com/v2-218f146a9ef6ae04d5b1e426f16f1010_l.png?source=1def8aca",
+                "description": "连续答题 10 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-218f146a9ef6ae04d5b1e426f16f1010_r.png?source=1def8aca"
+              },
+              "follower_count": 144,
+              "gender": 0,
+              "headline": "工具人罢了",
+              "id": "207ddc2dc3995e0bbbbd2e69cc91a6de",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "金钊",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/207ddc2dc3995e0bbbbd2e69cc91a6de",
+              "url_token": "jin-zhao-88-52",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 1,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"vpUJRe0W\">mf mmpi吧，但也不是标准，只能是一个参考</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1518237909,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "mf mmpi吧，但也不是标准，只能是一个参考",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "316020364",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1518181517,
+              "id": "266933657",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "划分性别认同(gender identity)的标准是什么？",
+              "type": "question",
+              "updated_time": 1518181660,
+              "url": "https://www.zhihu.com/api/v4/questions/266933657"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 1,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1518237909,
+            "url": "https://www.zhihu.com/api/v4/answers/316020364",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "5b20028c22f6f2649f276c9f3000ce87",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768580289806447503"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/266933657/feeds?cursor=5b20028c22f6f2649f276c9f3000ce87&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768580289806447503&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/615949499/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581157004,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/615949499/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/615949499/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "和异性朋友开两间房男票会介意吗？",
+          "question_type": "normal",
+          "created": 1564639437,
+          "updated_time": 1564639437,
+          "url": "https://www.zhihu.com/api/v4/questions/338132589",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "338132589"
+        },
+        {
+          "type": "question",
+          "title": "在旅馆跟公公同住一间双人床是不是尴尬？",
+          "question_type": "normal",
+          "created": 1646839473,
+          "updated_time": 1646839473,
+          "url": "https://www.zhihu.com/api/v4/questions/521020412",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "521020412"
+        },
+        {
+          "type": "question",
+          "title": "亲眼目睹同学妻子跟别的男人在酒店开房，我要不要告诉同学？",
+          "question_type": "normal",
+          "created": 1755088887,
+          "updated_time": 1755088887,
+          "url": "https://www.zhihu.com/api/v4/questions/1939064014803043556",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "1939064014803043556"
+        }
+      ]
+    }
+  }
+]

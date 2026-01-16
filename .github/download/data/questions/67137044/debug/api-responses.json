@@ -1,0 +1,500 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/67137044/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581237864,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/67137044/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/67137044/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何预防性别认同障碍？",
+          "question_type": "normal",
+          "created": 1630914543,
+          "updated_time": 1630914543,
+          "url": "https://www.zhihu.com/api/v4/questions/485078726",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "485078726"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/67137044/feeds?cursor=0bfeea8e7e5bca9624c1aee971fe0cab&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768581232977896311&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768581238160,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxjimKN3IJTcgSCSAiMKCDc1NTUwMDkyEgkyNTAxMzc2OTgYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://pica.zhimg.com/8ac5e5ab86ba6d99c52757bf3db0900d_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/8ac5e5ab86ba6d99c52757bf3db0900d.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_l.png?source=1def8aca",
+                "description": "获得 50 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-eb56655cce39587eedeacb2824f6a116_r.png?source=1def8aca"
+              },
+              "follower_count": 13,
+              "gender": -1,
+              "headline": "",
+              "id": "88c6da2b03d5e8d4958d8ff1d3d83c68",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "木石町",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/88c6da2b03d5e8d4958d8ff1d3d83c68",
+              "url_token": "mu-shi-ting",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"Xf6ja7-b\">然后所有单性人都会反复感染mtf和ftm，双性人或成最大赢家，成为最佳人种)</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1508957393,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "然后所有单性人都会反复感染mtf和ftm，双性人或成最大赢家，成为最佳人种)",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "250137698",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1508852674,
+              "id": "67137044",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果性别认同障碍会传染，会发生什么样的事？",
+              "type": "question",
+              "updated_time": 1508937547,
+              "url": "https://www.zhihu.com/api/v4/questions/67137044"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1508957430,
+            "url": "https://www.zhihu.com/api/v4/answers/250137698",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "0bfeea8e7e5bca96c44a51e971fe0cab",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEOCAQQAxiZ26x4IJTcgSCSAiMKCDc1OTU5MzMwEgkyNTIzOTA4MDkYBCIKSU1BR0VfVEVYVA==",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d4a3e568bed25169e9fe7fd48d2b8581_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-d4a3e568bed25169e9fe7fd48d2b8581.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_l.png?source=1def8aca",
+                "description": "被 50 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-f64540a83905e891c2a0756a33fc9521_r.png?source=1def8aca"
+              },
+              "follower_count": 92,
+              "gender": 0,
+              "headline": "想要更好的生活，健康的身体，学更多知识，做更多事。",
+              "id": "a7d03fc831a13839378d915b44c27350",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": true,
+              "name": "行稳致远",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/a7d03fc831a13839378d915b44c27350",
+              "url_token": "yu-yu-88-01-01",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"HdMv6DVR\">不会传染，起码你得先制造这种病毒。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1509354770,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "不会传染，起码你得先制造这种病毒。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "252390809",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1508852674,
+              "id": "67137044",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果性别认同障碍会传染，会发生什么样的事？",
+              "type": "question",
+              "updated_time": 1508937547,
+              "url": "https://www.zhihu.com/api/v4/questions/67137044"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1509354771,
+            "url": "https://www.zhihu.com/api/v4/answers/252390809",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "0bfeea8e7e5bca966a8b56e971fe0cab",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEPCAQQAxioi4mcASCU3IEgkgIjCgg4OTU3NzA5NxIJMzI3MzA0NjE2GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-78d04d325604c2733fd93335e57800bd_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-78d04d325604c2733fd93335e57800bd.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://pic1.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_l.png?source=1def8aca",
+                "description": "被 100 个人关注",
+                "medal_avatar_frame": "",
+                "medal_id": "972477022068568064",
+                "medal_name": "备受瞩目",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-7565d834d652a9960da0cedd8d7952ee_r.png?source=1def8aca"
+              },
+              "follower_count": 130,
+              "gender": 1,
+              "headline": "既然是带着不甘心的表情来到这里\n我也不愿带着同样的表情离开这里",
+              "id": "68ba0a1fd8b0d7460c3d39e04519e1b5",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "YAN",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/68ba0a1fd8b0d7460c3d39e04519e1b5",
+              "url_token": "yan-60-90",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"NML6h9-I\">所有人都被交叉传染再传染变成酷儿</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1519481621,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "所有人都被交叉传染再传染变成酷儿",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "327304616",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1508852674,
+              "id": "67137044",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "如果性别认同障碍会传染，会发生什么样的事？",
+              "type": "question",
+              "updated_time": 1508937547,
+              "url": "https://www.zhihu.com/api/v4/questions/67137044"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1519481621,
+            "url": "https://www.zhihu.com/api/v4/answers/327304616",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "0bfeea8e7e5bca96c15187e871fe0cab",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768581232977896311"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/67137044/feeds?cursor=0bfeea8e7e5bca96c15187e871fe0cab&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768581232977896311&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

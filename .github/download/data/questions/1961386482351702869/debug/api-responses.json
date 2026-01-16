@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1961386482351702869/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580213882,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1961386482351702869/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1961386482351702869/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别认同是天生的吗？",
+          "question_type": "normal",
+          "created": 1469085762,
+          "updated_time": 1469085762,
+          "url": "https://www.zhihu.com/api/v4/questions/48736688",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "48736688"
+        },
+        {
+          "type": "question",
+          "title": "当发现自己的性别认知与生理性别不符时，我应该如何面对和探索？",
+          "question_type": "normal",
+          "created": 1758770021,
+          "updated_time": 1758770021,
+          "url": "https://www.zhihu.com/api/v4/questions/1954503811482773366",
+          "answer_count": 12,
+          "comment_count": 0,
+          "follower_count": 17,
+          "relationship": {},
+          "id": "1954503811482773366"
+        },
+        {
+          "type": "question",
+          "title": "一个人在什么样的情况下才能清晰的意识到自己的性别认同？",
+          "question_type": "normal",
+          "created": 1729614398,
+          "updated_time": 1729614398,
+          "url": "https://www.zhihu.com/api/v4/questions/1744583596",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1744583596"
+        }
+      ]
+    }
+  }
+]

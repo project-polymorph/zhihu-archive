@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/389587967/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581751699,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/389587967/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/389587967/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人的性别是由心理决定的还是生理决定的？",
+          "question_type": "normal",
+          "created": 1499165145,
+          "updated_time": 1499165145,
+          "url": "https://www.zhihu.com/api/v4/questions/62006373",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "62006373"
+        }
+      ]
+    }
+  }
+]

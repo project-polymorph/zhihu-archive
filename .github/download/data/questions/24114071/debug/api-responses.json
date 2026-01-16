@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/24114071/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582276073,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/24114071/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/24114071/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人为什么会出现生理性别与心理性别不符的情况，是否会是刻板印象造成的自我认知偏差，如果不是是为什么？",
+          "question_type": "normal",
+          "created": 1745697639,
+          "updated_time": 1745697881,
+          "url": "https://www.zhihu.com/api/v4/questions/1899674266649233231",
+          "answer_count": 7,
+          "comment_count": 1,
+          "follower_count": 12,
+          "relationship": {},
+          "id": "1899674266649233231"
+        },
+        {
+          "type": "question",
+          "title": "如何面对【生理性别】与【心理性别】不一致？",
+          "question_type": "normal",
+          "created": 1443802955,
+          "updated_time": 1443802955,
+          "url": "https://www.zhihu.com/api/v4/questions/36137205",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "36137205"
+        },
+        {
+          "type": "question",
+          "title": "如果不看生理性别，而看心理性别，那全社会是心理男性多还是心理女性多？",
+          "question_type": "normal",
+          "created": 1687937867,
+          "updated_time": 1687937867,
+          "url": "https://www.zhihu.com/api/v4/questions/609177198",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "609177198"
+        }
+      ]
+    }
+  }
+]

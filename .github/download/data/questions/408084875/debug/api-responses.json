@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/408084875/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581297703,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/408084875/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/408084875/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别认同是天生的吗？性别认同水平有高低之分吗？",
+          "question_type": "normal",
+          "created": 1615103484,
+          "updated_time": 1615103484,
+          "url": "https://www.zhihu.com/api/v4/questions/448079412",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 11,
+          "relationship": {},
+          "id": "448079412"
+        },
+        {
+          "type": "question",
+          "title": "什么是「性别认同」，影响其形成的因素有哪些？",
+          "question_type": "normal",
+          "created": 1591243600,
+          "updated_time": 1591243600,
+          "url": "https://www.zhihu.com/api/v4/questions/399352775",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 25,
+          "relationship": {},
+          "id": "399352775"
+        },
+        {
+          "type": "question",
+          "title": "什么是性别认知?",
+          "question_type": "normal",
+          "created": 1667375143,
+          "updated_time": 1667375143,
+          "url": "https://www.zhihu.com/api/v4/questions/564213483",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "564213483"
+        },
+        {
+          "type": "question",
+          "title": "后天形成的性别认同有可能改变吗？",
+          "question_type": "normal",
+          "created": 1605006968,
+          "updated_time": 1605006968,
+          "url": "https://www.zhihu.com/api/v4/questions/429679746",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "429679746"
+        }
+      ]
+    }
+  }
+]

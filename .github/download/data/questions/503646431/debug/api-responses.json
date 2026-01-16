@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/503646431/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581486585,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/503646431/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/503646431/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "两性畸形的所有症状和类别？",
+          "question_type": "normal",
+          "created": 1519114037,
+          "updated_time": 1519114037,
+          "url": "https://www.zhihu.com/api/v4/questions/267402879",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "267402879"
+        },
+        {
+          "type": "question",
+          "title": "两性畸形该怎么迈出第一步？",
+          "question_type": "normal",
+          "created": 1519119659,
+          "updated_time": 1519119659,
+          "url": "https://www.zhihu.com/api/v4/questions/267407192",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "267407192"
+        }
+      ]
+    }
+  }
+]

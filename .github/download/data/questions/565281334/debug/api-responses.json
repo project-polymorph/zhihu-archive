@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/565281334/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581217210,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/565281334/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/565281334/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "谈恋爱时女生花钱较多正常吗？",
+          "question_type": "normal",
+          "created": 1583973281,
+          "updated_time": 1583973281,
+          "url": "https://www.zhihu.com/api/v4/questions/378735163",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "378735163"
+        },
+        {
+          "type": "question",
+          "title": "关于在谈恋爱的时候花钱这个怎么看？",
+          "question_type": "normal",
+          "created": 1579019207,
+          "updated_time": 1579019207,
+          "url": "https://www.zhihu.com/api/v4/questions/366333988",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "366333988"
+        },
+        {
+          "type": "question",
+          "title": "谈恋爱就一定得男生花钱吗？",
+          "question_type": "normal",
+          "created": 1738956924,
+          "updated_time": 1738956924,
+          "url": "https://www.zhihu.com/api/v4/questions/11582970569",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "11582970569"
+        },
+        {
+          "type": "question",
+          "title": "谈恋爱的时候，女生花钱比男生多正常吗？",
+          "question_type": "normal",
+          "created": 1520984477,
+          "updated_time": 1520984477,
+          "url": "https://www.zhihu.com/api/v4/questions/268738819",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "268738819"
+        }
+      ]
+    }
+  }
+]

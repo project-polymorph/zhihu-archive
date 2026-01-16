@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/654744957/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582511282,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/654744957/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/654744957/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "弱化性别差异是不是都是好事?",
+          "question_type": "normal",
+          "created": 1569565160,
+          "updated_time": 1569565160,
+          "url": "https://www.zhihu.com/api/v4/questions/348052284",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "348052284"
+        }
+      ]
+    }
+  }
+]

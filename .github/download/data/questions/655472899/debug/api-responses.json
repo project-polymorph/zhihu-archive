@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/655472899/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768580394185,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/655472899/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/655472899/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "决定性别认同的是生理性别还是心理性别又或者是社会性别？",
+          "question_type": "normal",
+          "created": 1729443163,
+          "updated_time": 1729443163,
+          "url": "https://www.zhihu.com/api/v4/questions/1516709032",
+          "answer_count": 15,
+          "comment_count": 1,
+          "follower_count": 21,
+          "relationship": {},
+          "id": "1516709032"
+        },
+        {
+          "type": "question",
+          "title": "看了“John/Joan实验”,我困惑了：性别认同究竟有多少来自先天？",
+          "question_type": "normal",
+          "created": 1457346959,
+          "updated_time": 1457353022,
+          "url": "https://www.zhihu.com/api/v4/questions/41118107",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "41118107"
+        }
+      ]
+    }
+  }
+]

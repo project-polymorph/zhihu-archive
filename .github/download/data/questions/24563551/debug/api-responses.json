@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/24563551/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768581648409,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/24563551/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/24563551/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "器质性性功能障碍和非器质性性功能障碍有什么区别，分别怎么对待？",
+          "question_type": "normal",
+          "created": 1603442695,
+          "updated_time": 1603442695,
+          "url": "https://www.zhihu.com/api/v4/questions/427004646",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "427004646"
+        },
+        {
+          "type": "question",
+          "title": "孩子刚上小学，体检说可能有性早熟，要怎么办？",
+          "question_type": "normal",
+          "created": 1759160418,
+          "updated_time": 1759160418,
+          "url": "https://www.zhihu.com/api/v4/questions/1956141253688263456",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "1956141253688263456"
+        },
+        {
+          "type": "question",
+          "title": "性情会遗传吗？",
+          "question_type": "normal",
+          "created": 1492177252,
+          "updated_time": 1492179027,
+          "url": "https://www.zhihu.com/api/v4/questions/58501193",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "58501193"
+        }
+      ]
+    }
+  }
+]

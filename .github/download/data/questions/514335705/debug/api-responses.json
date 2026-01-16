@@ -1,0 +1,83 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/514335705/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768582408833,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/514335705/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/514335705/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 5
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果可以选择性别，你会选择自己是男生还是女生?",
+          "question_type": "normal",
+          "created": 1656589538,
+          "updated_time": 1656589538,
+          "url": "https://www.zhihu.com/api/v4/questions/540817395",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "540817395"
+        },
+        {
+          "type": "question",
+          "title": "如果再给你一次选择性别的机会，你会选择做男生还是女生？",
+          "question_type": "normal",
+          "created": 1577691396,
+          "updated_time": 1577691396,
+          "url": "https://www.zhihu.com/api/v4/questions/363804012",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 5,
+          "relationship": {},
+          "id": "363804012"
+        },
+        {
+          "type": "question",
+          "title": "如果能让你再选一次性别，你会选男还是选女？为什么？",
+          "question_type": "normal",
+          "created": 1714933912,
+          "updated_time": 1714933912,
+          "url": "https://www.zhihu.com/api/v4/questions/655076235",
+          "answer_count": 60,
+          "comment_count": 1,
+          "follower_count": 103,
+          "relationship": {},
+          "id": "655076235"
+        },
+        {
+          "type": "question",
+          "title": "如果性别有选择的机会，你会选择男生还是女生？",
+          "question_type": "normal",
+          "created": 1583456323,
+          "updated_time": 1583457931,
+          "url": "https://www.zhihu.com/api/v4/questions/377136652",
+          "answer_count": 92,
+          "comment_count": 0,
+          "follower_count": 129,
+          "relationship": {},
+          "id": "377136652"
+        },
+        {
+          "type": "question",
+          "title": "如果让你选择性别，你想当男生还是女生？",
+          "question_type": "normal",
+          "created": 1587050019,
+          "updated_time": 1587050019,
+          "url": "https://www.zhihu.com/api/v4/questions/388368863",
+          "answer_count": 18,
+          "comment_count": 0,
+          "follower_count": 43,
+          "relationship": {},
+          "id": "388368863"
+        }
+      ]
+    }
+  }
+]
