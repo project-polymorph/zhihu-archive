@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1929177177288578566/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768595475671,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1929177177288578566/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1929177177288578566/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "你班上最漂亮的女孩子后来怎么样了？",
+          "question_type": "normal",
+          "created": 1591455847,
+          "updated_time": 1591455847,
+          "url": "https://www.zhihu.com/api/v4/questions/399871446",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "399871446"
+        },
+        {
+          "type": "question",
+          "title": "你们班上最漂亮的女生现在过的怎么样了？",
+          "question_type": "normal",
+          "created": 1525087188,
+          "updated_time": 1525087188,
+          "url": "https://www.zhihu.com/api/v4/questions/275414736",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "275414736"
+        },
+        {
+          "type": "question",
+          "title": "有没有觉得多年后曾经校内那些绝对漂亮的女生很多都变得越来越路人了？",
+          "question_type": "normal",
+          "created": 1526910770,
+          "updated_time": 1526910770,
+          "url": "https://www.zhihu.com/api/v4/questions/278094019",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "278094019"
+        },
+        {
+          "type": "question",
+          "title": "一个漂亮的女生从小到大会遭遇些什么？",
+          "question_type": "normal",
+          "created": 1642182082,
+          "updated_time": 1642182082,
+          "url": "https://www.zhihu.com/api/v4/questions/511599391",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "511599391"
+        }
+      ]
+    }
+  }
+]

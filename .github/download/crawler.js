@@ -671,49 +671,66 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
 
     // 提取文章信息
     articleInfo = await page.evaluate(() => {
-      // 尝试从 DOM 提取时间
-      let createdTime = null;
-      let updatedTime = null;
-
-      // 查找时间元素 - 知乎文章通常有 ContentItem-time 或类似元素
-      const timeEl = document.querySelector('.ContentItem-time') ||
-                     document.querySelector('.Post-Header time') ||
-                     document.querySelector('[data-time]');
-      if (timeEl) {
-        const timeText = timeEl.innerText || timeEl.getAttribute('data-time') || '';
-        // 匹配 "发布于 YYYY-MM-DD HH:mm" 或 "编辑于 YYYY-MM-DD HH:mm"
-        const publishMatch = timeText.match(/发布于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
-        const editMatch = timeText.match(/编辑于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
-        if (publishMatch) createdTime = publishMatch[1];
-        if (editMatch) updatedTime = editMatch[1];
+      // 优先从 js-initialData 提取完整数据
+      let initialData = null;
+      const scriptEl = document.querySelector('script#js-initialData');
+      if (scriptEl) {
+        try {
+          initialData = JSON.parse(scriptEl.textContent);
+        } catch (e) {}
       }
 
-      // 也检查文章内容末尾是否有时间（一些旧文章）
-      const contentEl = document.querySelector('.Post-RichTextContainer');
-      if (contentEl && !createdTime) {
-        const contentText = contentEl.innerText || '';
-        const publishMatch = contentText.match(/发布于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
-        const editMatch = contentText.match(/编辑于\s*(\d{4}-\d{2}-\d{2}\s*\d{2}:\d{2})/);
-        if (publishMatch) createdTime = publishMatch[1];
-        if (editMatch) updatedTime = editMatch[1];
+      // 从 initialData 获取文章数据
+      let articleData = null;
+      if (initialData?.initialState?.entities?.articles) {
+        const articles = initialData.initialState.entities.articles;
+        const articleId = Object.keys(articles)[0];
+        if (articleId) {
+          articleData = articles[articleId];
+        }
       }
+
+      // 获取基本信息（优先用 initialData，fallback 到 DOM）
+      const title = articleData?.title ||
+                    document.querySelector('.Post-Title')?.innerText?.trim() || '';
+      const content = document.querySelector('.Post-RichTextContainer')?.innerHTML || '';
+      const rawHtml = document.documentElement.outerHTML;
+
+      // 作者信息
+      const author = articleData?.author ? {
+        id: articleData.author.id || '',
+        name: articleData.author.name || '',
+        url: articleData.author.url || '',
+        avatarUrl: articleData.author.avatar_url || articleData.author.avatarUrl || '',
+        headline: articleData.author.headline || '',
+      } : {
+        name: document.querySelector('.AuthorInfo-name')?.innerText?.trim() || '',
+        headline: document.querySelector('.AuthorInfo-detail')?.innerText?.trim() || '',
+      };
+
+      // 数值信息
+      const voteupCount = articleData?.voteupCount ?? articleData?.voteup_count ??
+        parseInt(document.querySelector('.VoteButton--up')?.innerText?.replace(/[^\d]/g, '') || '0');
+      const commentCount = articleData?.commentCount ?? articleData?.comment_count ??
+        parseInt(document.querySelector('.Comments-titleText')?.innerText?.replace(/[^\d]/g, '') || '0');
+
+      // 话题
+      const topics = articleData?.topics?.map(t => t.name || t) || [];
+
+      // 时间戳（返回原始 Unix 时间戳，外部格式化）
+      const created = articleData?.created || null;
+      const updated = articleData?.updated || null;
 
       return {
-        title: document.querySelector('.Post-Title')?.innerText?.trim() || '',
-        content: document.querySelector('.Post-RichTextContainer')?.innerHTML || '',
-        rawHtml: document.documentElement.outerHTML,  // 保存完整 raw HTML
-        author: {
-          name: document.querySelector('.AuthorInfo-name')?.innerText?.trim() || '',
-          headline: document.querySelector('.AuthorInfo-detail')?.innerText?.trim() || '',
-        },
-        voteupCount: parseInt(
-          document.querySelector('.VoteButton--up')?.innerText?.replace(/[^\d]/g, '') || '0'
-        ),
-        commentCount: parseInt(
-          document.querySelector('.Comments-titleText')?.innerText?.replace(/[^\d]/g, '') || '0'
-        ),
-        createdTime,
-        updatedTime,
+        title,
+        content,
+        rawHtml,
+        author,
+        voteupCount,
+        commentCount,
+        topics,
+        created,
+        updated,
       };
     });
 
@@ -731,36 +748,20 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
   // 保存文章
   const visitKey = `article:${articleId}`;
   if (visited.add(visitKey)) {
-    // 优先使用 API 数据的时间戳，否则用 DOM 提取的
-    let createdTime = apiArticleData?.created
-      ? formatTimestamp(apiArticleData.created)
-      : (articleInfo?.createdTime || null);
-    let updatedTime = apiArticleData?.updated
-      ? formatTimestamp(apiArticleData.updated)
-      : (articleInfo?.updatedTime || null);
-
-    // 从 API 获取更完整的作者信息
-    const author = apiArticleData?.author ? {
-      id: apiArticleData.author.id || '',
-      name: apiArticleData.author.name || articleInfo?.author?.name || '',
-      url: apiArticleData.author.url || '',
-      avatarUrl: apiArticleData.author.avatar_url || '',
-      headline: apiArticleData.author.headline || articleInfo?.author?.headline || '',
-    } : (articleInfo?.author || {});
-
-    // 从 API 获取话题
-    const topics = apiArticleData?.topics?.map(t => t.name || t) || [];
+    // 格式化时间戳（articleInfo 已从 js-initialData 提取）
+    const createdTime = formatTimestamp(articleInfo?.created) || null;
+    const updatedTime = formatTimestamp(articleInfo?.updated) || null;
 
     Storage.saveArticle(articleId, {
-      title: articleInfo?.title || apiArticleData?.title || '',
+      title: articleInfo?.title || '',
       content: articleInfo?.content || '',
       rawHtml: articleInfo?.rawHtml || '',  // 保存完整 raw HTML
-      voteupCount: apiArticleData?.voteup_count || articleInfo?.voteupCount || 0,
-      commentCount: apiArticleData?.comment_count || articleInfo?.commentCount || 0,
+      voteupCount: articleInfo?.voteupCount || 0,
+      commentCount: articleInfo?.commentCount || 0,
       createdTime,
       updatedTime,
-      author,
-      topics,
+      author: articleInfo?.author || {},
+      topics: articleInfo?.topics || [],
       url: url,
       // 保存评论（如果有）
       topComments: articleComments.length > 0 ? articleComments : undefined,
@@ -768,7 +769,8 @@ async function crawlArticle(page, articleId, visited, queue, human, crawlConfig)
       recommendations: recommendations.length > 0 ? recommendations.slice(0, 5) : undefined,
     });
 
-    // 记录时间提取情况
+    // 记录提取情况
+    logger.info(`  [META] 赞 ${articleInfo?.voteupCount || 0}, 评论 ${articleInfo?.commentCount || 0}, 话题 ${(articleInfo?.topics || []).length}`);
     if (createdTime || updatedTime) {
       logger.info(`  [TIME] 发布: ${createdTime || '未知'}, 编辑: ${updatedTime || '未知'}`);
     }
