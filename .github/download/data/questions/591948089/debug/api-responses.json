@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/591948089/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768634223772,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/591948089/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/591948089/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别意识很淡漠的人是什么样的？",
+          "question_type": "normal",
+          "created": 1621252992,
+          "updated_time": 1621252992,
+          "url": "https://www.zhihu.com/api/v4/questions/459980152",
+          "answer_count": 17,
+          "comment_count": 0,
+          "follower_count": 66,
+          "relationship": {},
+          "id": "459980152"
+        },
+        {
+          "type": "question",
+          "title": "如何建立性别意识？尤其是在成长过后?",
+          "question_type": "normal",
+          "created": 1755957468,
+          "updated_time": 1755957468,
+          "url": "https://www.zhihu.com/api/v4/questions/1942707110027699725",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "1942707110027699725"
+        },
+        {
+          "type": "question",
+          "title": "性别意识淡薄是不是不正常？",
+          "question_type": "normal",
+          "created": 1436153942,
+          "updated_time": 1436153942,
+          "url": "https://www.zhihu.com/api/v4/questions/31952423",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "31952423"
+        }
+      ]
+    }
+  }
+]
