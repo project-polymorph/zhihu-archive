@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/268399258/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768637505771,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/268399258/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/268399258/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "人的性别是由心理决定的还是生理决定的？",
+          "question_type": "normal",
+          "created": 1499165145,
+          "updated_time": 1499165145,
+          "url": "https://www.zhihu.com/api/v4/questions/62006373",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "62006373"
+        },
+        {
+          "type": "question",
+          "title": "男女是否有基于性别本身的特质和思考问题的方式差异？如果有，社会规训对这部分的特质会有影响吗?",
+          "question_type": "normal",
+          "created": 1619688339,
+          "updated_time": 1619688619,
+          "url": "https://www.zhihu.com/api/v4/questions/457164709",
+          "answer_count": 12,
+          "comment_count": 1,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "457164709"
+        },
+        {
+          "type": "question",
+          "title": "男性和女性各自都有哪些性别相关的缺点?",
+          "question_type": "normal",
+          "created": 1685375333,
+          "updated_time": 1685375333,
+          "url": "https://www.zhihu.com/api/v4/questions/603743400",
+          "answer_count": 13,
+          "comment_count": 0,
+          "follower_count": 19,
+          "relationship": {},
+          "id": "603743400"
+        },
+        {
+          "type": "question",
+          "title": "为什么男性比女性往往更提倡性别差异化？",
+          "question_type": "normal",
+          "created": 1624440226,
+          "updated_time": 1624440226,
+          "url": "https://www.zhihu.com/api/v4/questions/466829754",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 8,
+          "relationship": {},
+          "id": "466829754"
+        }
+      ]
+    }
+  }
+]
