@@ -1,0 +1,396 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/274313814/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768621827018,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/274313814/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/274313814/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如何帮助性别认同障碍的人？",
+          "question_type": "normal",
+          "created": 1703493872,
+          "updated_time": 1703493872,
+          "url": "https://www.zhihu.com/api/v4/questions/636534573",
+          "answer_count": 25,
+          "comment_count": 2,
+          "follower_count": 52,
+          "relationship": {},
+          "id": "636534573"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/274313814/feeds?cursor=ed63d9c2b0706aab997993ba47bd9ba2&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768621823813884756&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768621827295,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjDv421ASDW5OaCAZICIwoIOTkxMjMwNzMSCTM3OTgwNTYzNRgEIgpJTUFHRV9URVhU",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-690f9d23eb338827d1d4d0428e6ee094_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-690f9d23eb338827d1d4d0428e6ee094.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_l.png?source=1def8aca",
+                "description": "获得 1000 个赞同",
+                "medal_avatar_frame": "",
+                "medal_id": "972475023013875712",
+                "medal_name": "有口皆碑",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-13cd44de0025e34576038008bf13e26f_r.png?source=1def8aca"
+              },
+              "follower_count": 467,
+              "gender": 0,
+              "headline": "批判亚洲的封建世俗和西方垄断资本主义，殖民主义思想。",
+              "id": "0f4bbd25dc171af441387304ab01e469",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "聚判兆忾",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0f4bbd25dc171af441387304ab01e469",
+              "url_token": "shennilin",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"7U4cfqWU\">那不是你的幻想那是你前世的记忆和人格 建议你进行前世催眠，找回自我。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1525073197,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "那不是你的幻想那是你前世的记忆和人格 建议你进行前世催眠，找回自我。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "379805635",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1524412168,
+              "id": "274313814",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "我算是性别认同障碍吗？",
+              "type": "question",
+              "updated_time": 1524412168,
+              "url": "https://www.zhihu.com/api/v4/questions/274313814"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1525073197,
+            "url": "https://www.zhihu.com/api/v4/answers/379805635",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "ed63d9c2b0706aab834ca2ba47bd9ba2",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxing7n/CyDW5OaCAZICIAoJNjE1NTQ4MDcxEgozMjIwMDYyNjMxGAQiBVZJREVP",
+            "attachment": {
+              "attachment_id": "1686034669647388673",
+              "type": "video",
+              "video": {
+                "end_time": 90488,
+                "parent_video_id": "1686034669647388673",
+                "play_count": 30,
+                "start_time": 0,
+                "sub_video_id": "1686034669647388673",
+                "title": "如果发现自己是跨性别者，并且有改变的需求，怎么办？#西安辅仁心理教育",
+                "video_info": {
+                  "duration": 90.488,
+                  "height": 848,
+                  "is_paid": false,
+                  "is_trial": false,
+                  "play_count": 4,
+                  "playlist": {
+                    "ld": {
+                      "bitrate": 259,
+                      "height": 848,
+                      "url": "https://vdn3.vzuu.com/SD/53909722-5397-11ee-9fcd-62334d98e8ab-v8_f2_t1_7Yzh0ttF.mp4?auth_key=1768625425-0-0-e79f2e9446c949f2f17c6f0e4032586b&bu=4e83193b&c=avc.8.0&disable_local_cache=1&expiration=1768625425&f=mp4&pu=1513c7c2&v=tx",
+                      "width": 478
+                    },
+                    "sd": {
+                      "bitrate": 259,
+                      "height": 848,
+                      "url": "https://vdn3.vzuu.com/SD/53909722-5397-11ee-9fcd-62334d98e8ab-v8_f2_t1_7Yzh0ttF.mp4?auth_key=1768625425-0-0-e79f2e9446c949f2f17c6f0e4032586b&bu=4e83193b&c=avc.8.0&disable_local_cache=1&expiration=1768625425&f=mp4&pu=1513c7c2&v=tx",
+                      "width": 478
+                    }
+                  },
+                  "thumbnail": "https://picx.zhimg.com/v2-0980d2fec60620326fa0e483af6ee635.jpg?source=25ab7b06",
+                  "type": "video",
+                  "video_id": 1686034669647388700,
+                  "width": 478
+                },
+                "voteup_count": 0,
+                "zvideo_id": "1686034686965633024"
+              }
+            },
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-c43202d22f7928c4d23df659f4a432b6_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-c43202d22f7928c4d23df659f4a432b6.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 133,
+              "gender": 0,
+              "headline": "",
+              "id": "4ce3b724b60ca542b67239dcd94f1b4d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "是思彦呀",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4ce3b724b60ca542b67239dcd94f1b4d",
+              "url_token": "53-91-82-70",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1695251921,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3220062631",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1524412168,
+              "id": "274313814",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "我算是性别认同障碍吗？",
+              "type": "question",
+              "updated_time": 1524412168,
+              "url": "https://www.zhihu.com/api/v4/questions/274313814"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "attached_info": "1686034669647388673",
+                  "height": 848,
+                  "token": "v2-0980d2fec60620326fa0e483af6ee635",
+                  "type": "video",
+                  "url": "https://pic1.zhimg.com/80/v2-0980d2fec60620326fa0e483af6ee635_720w.jpg?source=1def8aca",
+                  "width": 478
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1695251921,
+            "url": "https://www.zhihu.com/api/v4/answers/3220062631",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "ed63d9c2b0706aaba5b7fa9b47bd9ba2",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768621823813884756"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/274313814/feeds?cursor=ed63d9c2b0706aaba5b7fa9b47bd9ba2&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768621823813884756&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]
