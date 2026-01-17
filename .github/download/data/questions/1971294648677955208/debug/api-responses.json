@@ -1,0 +1,75 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1971294648677955208/feeds?cursor=a34c37aef90175f72dddbca194eb34d6&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768656620947475103&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768656624415,
+    "data": {
+      "data": [],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768656620947475103"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1971294648677955208/feeds?cursor=a34c37aef90175f72dddbca194eb34d6&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768656620947475103&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/1971294648677955208/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768656624676,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/1971294648677955208/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/1971294648677955208/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果人类只有一种性别 会怎么样？",
+          "question_type": "normal",
+          "created": 1388538747,
+          "updated_time": 1388538747,
+          "url": "https://www.zhihu.com/api/v4/questions/22417707",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "22417707"
+        },
+        {
+          "type": "question",
+          "title": "为什么总有些人要乱搞性别？",
+          "question_type": "normal",
+          "created": 1722871940,
+          "updated_time": 1722871940,
+          "url": "https://www.zhihu.com/api/v4/questions/663541860",
+          "answer_count": 2,
+          "comment_count": 4,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "663541860"
+        },
+        {
+          "type": "question",
+          "title": "你喜欢现在的性别吗？",
+          "question_type": "normal",
+          "created": 1759196726,
+          "updated_time": 1759196726,
+          "url": "https://www.zhihu.com/api/v4/questions/1956293539894887731",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "1956293539894887731"
+        }
+      ]
+    }
+  }
+]

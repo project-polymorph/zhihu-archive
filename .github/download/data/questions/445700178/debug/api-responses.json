@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/445700178/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768658222657,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/445700178/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/445700178/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有人跟我一样对自己的性别不够满意吗？",
+          "question_type": "normal",
+          "created": 1557036916,
+          "updated_time": 1557036916,
+          "url": "https://www.zhihu.com/api/v4/questions/322994020",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "322994020"
+        },
+        {
+          "type": "question",
+          "title": "你对“性别”的定义是什么？",
+          "question_type": "normal",
+          "created": 1632148919,
+          "updated_time": 1632148919,
+          "url": "https://www.zhihu.com/api/v4/questions/488023918",
+          "answer_count": 9,
+          "comment_count": 0,
+          "follower_count": 13,
+          "relationship": {},
+          "id": "488023918"
+        },
+        {
+          "type": "question",
+          "title": "在和性别不同的人交谈和性别一样的交谈你们的口气会变得不一样嘛？",
+          "question_type": "normal",
+          "created": 1416458953,
+          "updated_time": 1416458953,
+          "url": "https://www.zhihu.com/api/v4/questions/26698866",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "26698866"
+        },
+        {
+          "type": "question",
+          "title": "社会对于不同性别是否有不同要求?",
+          "question_type": "normal",
+          "created": 1521087482,
+          "updated_time": 1521087482,
+          "url": "https://www.zhihu.com/api/v4/questions/268825810",
+          "answer_count": 3,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "268825810"
+        }
+      ]
+    }
+  }
+]

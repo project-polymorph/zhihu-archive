@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/563624528/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768643894364,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/563624528/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/563624528/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果只能活10亿人，哪些人应该留下来？",
+          "question_type": "normal",
+          "created": 1486436098,
+          "updated_time": 1551094194,
+          "url": "https://www.zhihu.com/api/v4/questions/55507769",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "55507769"
+        },
+        {
+          "type": "question",
+          "title": "一亿人是个什么概念?",
+          "question_type": "normal",
+          "created": 1445252583,
+          "updated_time": 1445252583,
+          "url": "https://www.zhihu.com/api/v4/questions/36657322",
+          "answer_count": 6,
+          "comment_count": 0,
+          "follower_count": 10,
+          "relationship": {},
+          "id": "36657322"
+        },
+        {
+          "type": "question",
+          "title": "人类从几万到几十亿，是不是现代意味着大家伙都是亲戚？",
+          "question_type": "normal",
+          "created": 1588604072,
+          "updated_time": 1588604072,
+          "url": "https://www.zhihu.com/api/v4/questions/392635656",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "392635656"
+        }
+      ]
+    }
+  }
+]

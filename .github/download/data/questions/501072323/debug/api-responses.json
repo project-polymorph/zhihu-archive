@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/501072323/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768654268401,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/501072323/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/501072323/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 2
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "随着科技的进步，性别会在未来消失吗？",
+          "question_type": "normal",
+          "created": 1521228104,
+          "updated_time": 1549958429,
+          "url": "https://www.zhihu.com/api/v4/questions/268938389",
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 31,
+          "relationship": {},
+          "id": "268938389"
+        },
+        {
+          "type": "question",
+          "title": "人类的未来为什么不用技术取消性别？",
+          "question_type": "normal",
+          "created": 1516617465,
+          "updated_time": 1539676238,
+          "url": "https://www.zhihu.com/api/v4/questions/265996063",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 4,
+          "relationship": {},
+          "id": "265996063"
+        }
+      ]
+    }
+  }
+]
