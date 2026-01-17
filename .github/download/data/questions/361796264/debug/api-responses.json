@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/361796264/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768627214667,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/361796264/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/361796264/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你可以换性别，你愿意换吗？为什么？",
+          "question_type": "normal",
+          "created": 1547788085,
+          "updated_time": 1547788085,
+          "url": "https://www.zhihu.com/api/v4/questions/309503456",
+          "answer_count": 15,
+          "comment_count": 0,
+          "follower_count": 16,
+          "relationship": {},
+          "id": "309503456"
+        },
+        {
+          "type": "question",
+          "title": "如果可以更换性别，你会做什么？",
+          "question_type": "normal",
+          "created": 1574318064,
+          "updated_time": 1574318225,
+          "url": "https://www.zhihu.com/api/v4/questions/356988825",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "356988825"
+        },
+        {
+          "type": "question",
+          "title": "如果给你一次换性别的机会?",
+          "question_type": "normal",
+          "created": 1764035357,
+          "updated_time": 1764035357,
+          "url": "https://www.zhihu.com/api/v4/questions/1976588232058769710",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "1976588232058769710"
+        },
+        {
+          "type": "question",
+          "title": "如果给你一个机会，可以由内而外的100%的转换性别，你是否愿意尝试一次？",
+          "question_type": "normal",
+          "created": 1759289617,
+          "updated_time": 1759289617,
+          "url": "https://www.zhihu.com/api/v4/questions/1956683155156240047",
+          "answer_count": 33,
+          "comment_count": 0,
+          "follower_count": 39,
+          "relationship": {},
+          "id": "1956683155156240047"
+        }
+      ]
+    }
+  }
+]
