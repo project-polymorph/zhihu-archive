@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/21651953/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768599155917,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/21651953/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/21651953/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "有什么事情是你见过或者自己做过的最漂亮的事？",
+          "question_type": "normal",
+          "created": 1467564552,
+          "updated_time": 1467564597,
+          "url": "https://www.zhihu.com/api/v4/questions/48121127",
+          "answer_count": 5,
+          "comment_count": 0,
+          "follower_count": 7,
+          "relationship": {},
+          "id": "48121127"
+        },
+        {
+          "type": "question",
+          "title": "你做过的最漂亮的事情是什么？",
+          "question_type": "normal",
+          "created": 1380032097,
+          "updated_time": 1380032097,
+          "url": "https://www.zhihu.com/api/v4/questions/21700239",
+          "answer_count": 60,
+          "comment_count": 6,
+          "follower_count": 874,
+          "relationship": {},
+          "id": "21700239"
+        },
+        {
+          "type": "question",
+          "title": "你做过的最漂亮的事是什么？",
+          "question_type": "normal",
+          "created": 1380003429,
+          "updated_time": 1380003429,
+          "url": "https://www.zhihu.com/api/v4/questions/21697632",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "21697632"
+        }
+      ]
+    }
+  }
+]

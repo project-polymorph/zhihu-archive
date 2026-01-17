@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/35180682/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768601896501,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/35180682/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/35180682/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果一天醒来你发现自己变性了，你会怎么办？",
+          "question_type": "normal",
+          "created": 1528563412,
+          "updated_time": 1528563412,
+          "url": "https://www.zhihu.com/api/v4/questions/280441154",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "280441154"
+        },
+        {
+          "type": "question",
+          "title": "如果有一天睡觉醒了你发觉自己变性了，你的第一反应是？",
+          "question_type": "normal",
+          "created": 1577757410,
+          "updated_time": 1577757410,
+          "url": "https://www.zhihu.com/api/v4/questions/363915194",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 3,
+          "relationship": {},
+          "id": "363915194"
+        },
+        {
+          "type": "question",
+          "title": "如果有天你醒来忽然发现自己变性了，你会怎么做?",
+          "question_type": "normal",
+          "created": 1565232692,
+          "updated_time": 1565232692,
+          "url": "https://www.zhihu.com/api/v4/questions/339308346",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "339308346"
+        }
+      ]
+    }
+  }
+]

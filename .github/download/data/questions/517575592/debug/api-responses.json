@@ -1,0 +1,834 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/517575592/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768612382834,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/517575592/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/517575592/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别认知障碍的人知道自己是性别认知障碍吗?",
+          "question_type": "normal",
+          "created": 1606631684,
+          "updated_time": 1606631684,
+          "url": "https://www.zhihu.com/api/v4/questions/432528099",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "432528099"
+        }
+      ]
+    }
+  },
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/517575592/feeds?cursor=1e883b4b87bb1b9e3f5ef12eef5bdde2&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=1&order=default&platform=desktop&session_id=1768612379332602814&ws_qiangzhisafe=0",
+    "type": "answers",
+    "timestamp": 1768612382936,
+    "data": {
+      "data": [
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjvkLaOCSCop+b2AZICJQoJNDc0ODQxNTAyEgoyNDQ2MTY2MTI3GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-e76513f042f913892d2a07c3c2870e10_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-e76513f042f913892d2a07c3c2870e10.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_l.png?source=1def8aca",
+                "description": "关注 20 个人",
+                "medal_avatar_frame": "",
+                "medal_id": "972464154808860672",
+                "medal_name": "社交达人",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-ae36c51958f702b493a67358c851aa6f_r.png?source=1def8aca"
+              },
+              "follower_count": 9,
+              "gender": -1,
+              "headline": "",
+              "id": "4e0a6836b01383965d210d8d500b2a41",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "全幼儿园最阔耐无之一",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/4e0a6836b01383965d210d8d500b2a41",
+              "url_token": "quan-you-er-yuan-zui-kuo-nai-wu-zhi-yi",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"UzVC6vzm\">应该是先天的</p><p data-pid=\"_PeuKyGE\">所以我们应该要好好接受自己，而不是违背内心去做不喜欢的事情</p><p data-pid=\"tFZhmGMY\">（因为自我否定觉得跨性别不好然后找了个直男男朋友想“纠正”性向……现在每天都觉得很无语……千万不要学我）</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1650296418,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "应该是先天的 所以我们应该要好好接受自己，而不是违背内心去做不喜欢的事情 （因为自我否定觉得跨性别不好然后找了个直男男朋友想“纠正”性向…现在每天都觉得很无语…千万不要学我）",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2446166127",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "1 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1645289957,
+              "id": "517575592",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别认知障碍一定是先天的吗？",
+              "type": "question",
+              "updated_time": 1658503785,
+              "url": "https://www.zhihu.com/api/v4/questions/517575592"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1650296418,
+            "url": "https://www.zhihu.com/api/v4/answers/2446166127",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 1
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "1e883b4b87bb1b9ecd4e6d29ef5bdde2",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjdgdfjCCCop+b2AZICJQoJNDU4NTQyNDAxEgoyMzU2NTI3MzI1GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-0af212bfc9c4faa8ec007b4cfb067080_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pic1.zhimg.com/v2-0af212bfc9c4faa8ec007b4cfb067080.jpg?source=1def8aca",
+              "badge": [
+                {
+                  "description": "心理咨询师基础培训合格证书持证人",
+                  "topics": [],
+                  "type": "identity"
+                }
+              ],
+              "badge_v2": {
+                "detail_badges": [
+                  {
+                    "description": "心理咨询师基础培训合格证书持证人",
+                    "detail_type": "identity_people",
+                    "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                    "sources": [],
+                    "title": "已认证的个人",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "merged_badges": [
+                  {
+                    "description": "心理咨询师基础培训合格证书持证人",
+                    "detail_type": "identity_people",
+                    "icon": "",
+                    "night_icon": "",
+                    "sources": [],
+                    "title": "认证",
+                    "type": "identity",
+                    "url": "https://zhuanlan.zhihu.com/p/96956163"
+                  }
+                ],
+                "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "title": "心理咨询师基础培训合格证书持证人"
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-e6115bcddf09266eb0bf8044bbd998a1_l.png?source=1def8aca",
+                "description": "连续答题 30 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972481762269622272",
+                "medal_name": "笔耕不辍",
+                "mini_avatar_url": "https://picx.zhimg.com/v2-e6115bcddf09266eb0bf8044bbd998a1_r.png?source=1def8aca"
+              },
+              "follower_count": 46,
+              "gender": 1,
+              "headline": "擅长：情感，恋爱，婚姻，心理分析，提供问题的整体解决方案。",
+              "id": "71768c779a97afbcdc0c73aa75c12d8d",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "走小运咨询",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/71768c779a97afbcdc0c73aa75c12d8d",
+              "url_token": "ai-lu-xing-de-xiao-ge-ge",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 4,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"q8ZuNlVd\">是否有后天影响可回忆儿时场景（父母，周围，以及自己）最初对自己性别的判断。任何事都有因，去源头找。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1645356792,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "是否有后天影响可回忆儿时场景（父母，周围，以及自己）最初对自己性别的判断。任何事都有因，去源头找。",
+            "extras": "",
+            "favlists_count": 1,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2356527325",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "3 赞同 · 1 收藏 · 4 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1645289957,
+              "id": "517575592",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别认知障碍一定是先天的吗？",
+              "type": "question",
+              "updated_time": 1658503785,
+              "url": "https://www.zhihu.com/api/v4/questions/517575592"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 1
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 1,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1645356792,
+            "url": "https://www.zhihu.com/api/v4/answers/2356527325",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 3
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "1e883b4b87bb1b9e1202742eef5bdde2",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjf9IahDSCop+b2AZICJQoJNjc3MTU4NTgxEgozNTU4OTgwMTkxGAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-558886b8e78907a14ae67e7d704c11af_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-558886b8e78907a14ae67e7d704c11af.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "https://picx.zhimg.com/v2-f1d0fdf28da5f40f9ba21fb773ff7bdf_l.png?source=1def8aca",
+                "description": "累计登录 30 天",
+                "medal_avatar_frame": "",
+                "medal_id": "972480281613197312",
+                "medal_name": "每天逛逛",
+                "mini_avatar_url": "https://pic1.zhimg.com/v2-f1d0fdf28da5f40f9ba21fb773ff7bdf_r.png?source=1def8aca"
+              },
+              "follower_count": 1,
+              "gender": 0,
+              "headline": "一个喜欢研究心理学的审计人",
+              "id": "3dbf015e39a2c424407ef84228aa0170",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "加米小姐",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/3dbf015e39a2c424407ef84228aa0170",
+              "url_token": "jasmine-88-29-94",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"OcIWp83j\">“安能辨我是雄雌”</p><figure data-size=\"normal\"><noscript><img src=\"https://pic1.zhimg.com/50/v2-5eb0ae115259d591305e1c8b584cdab4_720w.jpg?source=1def8aca\" data-rawwidth=\"1080\" data-rawheight=\"1338\" data-size=\"normal\" data-original-token=\"v2-fca90bd15f05303e0916be0f42bf5675\" class=\"origin_image zh-lightbox-thumb\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-5eb0ae115259d591305e1c8b584cdab4_r.jpg?source=1def8aca\"/></noscript><img src=\"data:image/svg+xml;utf8,&lt;svg xmlns=&#39;http://www.w3.org/2000/svg&#39; width=&#39;1080&#39; height=&#39;1338&#39;&gt;&lt;/svg&gt;\" data-rawwidth=\"1080\" data-rawheight=\"1338\" data-size=\"normal\" data-original-token=\"v2-fca90bd15f05303e0916be0f42bf5675\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1080\" data-original=\"https://picx.zhimg.com/v2-5eb0ae115259d591305e1c8b584cdab4_r.jpg?source=1def8aca\" data-actualsrc=\"https://pic1.zhimg.com/50/v2-5eb0ae115259d591305e1c8b584cdab4_720w.jpg?source=1def8aca\"/></figure><p data-pid=\"ZVwDwD0j\">         如果一个人的生理性别和他的心理性别不一致，就会造成性别认定障碍。</p><p data-pid=\"uprm1AgE\">         那么又何为性别认定呢？其实能够判断我们性别上的东西，不是性唤起模式，也不全是常规认为的心理结构，说到底是一种深层的个人感觉，这种感觉就叫做性别认定。 </p><p data-pid=\"TKEfwu_g\">         性别认定障碍是相对比较罕见的，注意是罕见！男性的发病率会因为所处地区的不同而不同，通常是三万分之一，而女性就更少了，只有10-15万分之一左右。</p><p data-pid=\"yX10rgmG\">          性别认定障碍的主要目的并不在于性欲方面，而是希望公开地完全性地以异性的身份生活。</p><p data-pid=\"5VSDR5pW\">         这里要和生活中目前已经常见的两种行为做出区别——同性恋和异装癖。</p><p data-pid=\"rIVSB0__\">          异装癖属于恋物癖的一种，是由于性欲倒错引起的，指人（男性居多）通过穿戴异性的衣物饰品来产生性唤起的行为。</p><p data-pid=\"EOb1yJU6\">         而同性恋行为指的是性取向上的一种变化。对于引起这种转变的原因我们会在下一期具体介绍。</p><p data-pid=\"izCA8SiR\">          至于引起性别认定障碍的原因目前并没有答案，目前主要有以下几种猜测：</p><p data-pid=\"N394xwws\">        1、生物学因素：学过生物的朋友们大概都知道，个体基因性别是由从父母那里获得的染色体决定的，Y染色体存在，性腺就会分泌雄性激素从而发展为男性；Y染色体不存在，性腺就会分泌雌性激素从而发育为女性。但是在胎儿的某些特定时期，会出现激素的不正常波动，这些波动可能是自然产生的， 也可能与怀孕期间孕妇的饮食或服用某种药物有关。</p><p data-pid=\"qNtEEvzE\">        2、“强化理论”：该理论来自行为主义学派，认为人的行为之所以会发生变化是因为强化的作用。（这里的强化可以指正强化，也可能是负强化，比如消极强化也是一种强化）</p><p data-pid=\"GY08Y31f\">         当性别认定障碍患者真的认为他们生错了性别，经常会感到唯一的解决方法就是在生理上变得和心理上一致。因此治疗这种性别障碍适用得最广泛的方法就是性别再造术！（比如金星老师的手术）但需要注意的是，性别再造术是不可逆转的，所以一定要深思熟虑以后再做决定。</p><p data-pid=\"bWVXOaOx\">         如果发现你周围的家属或朋友出现心理问题，一定不要忽视！及时带领就医！不要忽视不要忽视！！！</p><p data-pid=\"xZi5TYCs\">         我是加米小姐，每天和你一起了解心理学，发现生活中的心理学现象和知识。❤️</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1720704926,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "“安能辨我是雄雌” [图片] 如果一个人的生理性别和他的心理性别不一致，就会造成性别认定障碍。 那么又何为性别认定呢？其实能够判断我们性别上的东西，不是性唤起模式，也不全是常规认为的心理结构，说到底是一种深层的个人感觉，这种感觉就叫做性别认定。 性别认定障碍是相对比较罕见的，注意是罕见！男性的发病率会因为所处地区的不同而不同，通常是三万分之一，而女性就更少了，只有10-15万分之一左右。 性别认定障碍的主要目的并…",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "3558980191",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1645289957,
+              "id": "517575592",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别认知障碍一定是先天的吗？",
+              "type": "question",
+              "updated_time": 1658503785,
+              "url": "https://www.zhihu.com/api/v4/questions/517575592"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 1,
+              "thumbnails": [
+                {
+                  "height": 1338,
+                  "token": "v2-fca90bd15f05303e0916be0f42bf5675",
+                  "type": "image",
+                  "url": "https://picx.zhimg.com/80/v2-fca90bd15f05303e0916be0f42bf5675_720w.jpg?source=1def8aca",
+                  "width": 1080
+                }
+              ],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1720704926,
+            "url": "https://www.zhihu.com/api/v4/answers/3558980191",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "1e883b4b87bb1b9ee6517c1def5bdde2",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjlu6WRCSCop+b2AZICJQoJNDc1OTM1MzM1EgoyNDUyMTg0NTQ5GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://pic1.zhimg.com/v2-c9fb4172440d9d45435e8308127c24a6_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://pica.zhimg.com/v2-c9fb4172440d9d45435e8308127c24a6.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "exposed_medal": {
+                "avatar_url": "",
+                "description": "",
+                "medal_id": "0",
+                "medal_name": ""
+              },
+              "follower_count": 146,
+              "gender": -1,
+              "headline": "",
+              "id": "6ae8e983d02f0c3af3c5dcfa9a4a3a65",
+              "is_advertiser": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "东尼森林原人",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/6ae8e983d02f0c3af3c5dcfa9a4a3a65",
+              "url_token": "deng-chen-xin-40",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 2,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"TkhZASFe\">从上海女同性侵案那个女方女友的态度就能看出，女同流氓在面对同性的时候有多狠，很多细节都能看出女同对同伴的控制欲特别强，直接跟警察吼 她不可能对男性有感觉。我早觉得这些事应该揭露一下，绝对不是什么正常的事情，硬让对方改变性取向的感觉。女同也会强奸女性，当然是手动挡；女同也会精神控制女性；一个非女性同性恋在长时间被摩擦敏感部位，也可能有感觉被迫性转，剩下的自己琢磨女人对女人的pua更很。</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1650614990,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "从上海女同性侵案那个女方女友的态度就能看出，女同流氓在面对同性的时候有多狠，很多细节都能看出女同对同伴的控制欲特别强，直接跟警察吼 她不可能对男性有感觉。我早觉得这些事应该揭露一下，绝对不是什么正常的事情，硬让对方改变性取向的感觉。女同也会强奸女性，当然是手动挡；女同也会精神控制女性；一个非女性同性恋在长时间被摩擦敏感部位，也可能有感觉被迫性转，剩下的自己琢磨女人对女人的pua更很。",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2452184549",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": false,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "2 赞同 · 2 评论",
+            "navigator_vote": false,
+            "question": {
+              "created": 1645289957,
+              "id": "517575592",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别认知障碍一定是先天的吗？",
+              "type": "question",
+              "updated_time": 1658503785,
+              "url": "https://www.zhihu.com/api/v4/questions/517575592"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "disallowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "settings": {
+              "table_of_contents": {
+                "enabled": false
+              }
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1650718734,
+            "url": "https://www.zhihu.com/api/v4/answers/2452184549",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 2
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "1e883b4b87bb1b9e34fd7e29ef5bdde2",
+          "is_jump_native": false
+        },
+        {
+          "type": "question_feed_card",
+          "target_type": "answer",
+          "target": {
+            "admin_closed_comment": false,
+            "allow_segment_interaction": 1,
+            "annotation_action": null,
+            "answer_type": "normal",
+            "attached_info": "ogEQCAQQAxjkg4vTCSCop+b2AZICJQoJNTAxMDIzNDk4EgoyNTkwMTYzNDI4GAQiCklNQUdFX1RFWFQ=",
+            "author": {
+              "avatar_url": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f_l.jpg?source=1def8aca",
+              "avatar_url_template": "https://picx.zhimg.com/v2-d41c2ceaed8f51999522f903672a521f.jpg?source=1def8aca",
+              "badge": [],
+              "badge_v2": {
+                "detail_badges": [],
+                "icon": "",
+                "merged_badges": [],
+                "night_icon": "",
+                "title": ""
+              },
+              "follower_count": 0,
+              "gender": 1,
+              "headline": "",
+              "id": "0",
+              "is_advertiser": false,
+              "is_blocked": false,
+              "is_blocking": false,
+              "is_celebrity": false,
+              "is_followed": false,
+              "is_following": false,
+              "is_org": false,
+              "is_privacy": false,
+              "name": "匿名用户",
+              "type": "people",
+              "url": "https://www.zhihu.com/api/v4/people/0",
+              "url_token": "",
+              "user_type": "people"
+            },
+            "business_type": "normal",
+            "can_comment": {
+              "reason": "",
+              "status": true
+            },
+            "collapse_reason": "",
+            "collapsed_by": "nobody",
+            "comment_count": 0,
+            "comment_permission": "all",
+            "content": "<p data-pid=\"g--0-QpT\">我俩仨岁去偷穿我妈睡裙</p><p data-pid=\"v6dty-n_\">我居然还懵懵懂懂感觉我妈要是知道肯定会揍我</p><p data-pid=\"cdohEtJI\">这怎么说嘛，我那时候有个屁的性别意识，但是我觉得我就是喜欢裙子，但我却又知道会被揍，就离谱</p><p data-pid=\"Y3RHyuhO\">太丢人就匿了</p>",
+            "content_mark": {},
+            "content_need_truncated": false,
+            "created_time": 1658643514,
+            "decorative_labels": [],
+            "editable_content": "",
+            "excerpt": "我俩仨岁去偷穿我妈睡裙 我居然还懵懵懂懂感觉我妈要是知道肯定会揍我 这怎么说嘛，我那时候有个屁的性别意识，但是我觉得我就是喜欢裙子，但我却又知道会被揍，就离谱 太丢人就匿了",
+            "extras": "",
+            "favlists_count": 0,
+            "force_login_when_click_read_more": false,
+            "has_publishing_draft": false,
+            "id": "2590163428",
+            "is_collapsed": false,
+            "is_contain_ai_content": false,
+            "is_copyable": true,
+            "is_jump_native": false,
+            "is_mine": false,
+            "is_navigator": false,
+            "is_normal": true,
+            "is_sticky": false,
+            "is_visible": true,
+            "matrix_tips": "0 赞同",
+            "navigator_vote": false,
+            "question": {
+              "created": 1645289957,
+              "id": "517575592",
+              "question_type": "normal",
+              "relationship": null,
+              "title": "性别认知障碍一定是先天的吗？",
+              "type": "question",
+              "updated_time": 1658503785,
+              "url": "https://www.zhihu.com/api/v4/questions/517575592"
+            },
+            "reaction": {
+              "relation": {
+                "liked": false
+              },
+              "statistics": {
+                "down_vote_count": 0,
+                "like_count": 0
+              }
+            },
+            "reaction_instruction": {},
+            "relationship": {
+              "is_author": false,
+              "is_authorized": false,
+              "is_favorited": false,
+              "is_nothelp": false,
+              "is_thanked": false,
+              "upvoted_followees": [],
+              "voting": 0
+            },
+            "relevant_info": {
+              "is_relevant": false,
+              "relevant_text": "",
+              "relevant_type": ""
+            },
+            "reshipment_settings": "allowed",
+            "reward_info": {
+              "can_open_reward": false,
+              "is_rewardable": false,
+              "reward_member_count": 0,
+              "reward_total_money": 0,
+              "tagline": ""
+            },
+            "sticky_info": "",
+            "suggest_edit": {
+              "reason": "",
+              "status": false,
+              "tip": "",
+              "title": "",
+              "unnormal_details": {
+                "description": "",
+                "note": "",
+                "reason": "",
+                "reason_id": 0,
+                "status": ""
+              },
+              "url": ""
+            },
+            "thanks_count": 0,
+            "thumbnail_info": {
+              "count": 0,
+              "thumbnails": [],
+              "type": "thumbnail_info"
+            },
+            "type": "answer",
+            "updated_time": 1658643514,
+            "url": "https://www.zhihu.com/api/v4/answers/2590163428",
+            "visible_only_to_author": false,
+            "vote_next_step": "vote",
+            "voteup_count": 0
+          },
+          "skip_count": false,
+          "position": 0,
+          "cursor": "1e883b4b87bb1b9e59ccfd28ef5bdde2",
+          "is_jump_native": false
+        }
+      ],
+      "finished_reading_filtered_count": 0,
+      "session": {
+        "id": "1768612379332602814"
+      },
+      "paging": {
+        "page": 2,
+        "is_end": false,
+        "next": "https://www.zhihu.com/api/v4/questions/517575592/feeds?cursor=1e883b4b87bb1b9e59ccfd28ef5bdde2&include=data%5B%2A%5D.is_normal%2Cadmin_closed_comment%2Creward_info%2Cis_collapsed%2Cannotation_action%2Cannotation_detail%2Ccollapse_reason%2Cis_sticky%2Ccollapsed_by%2Csuggest_edit%2Ccomment_count%2Ccan_comment%2Ccontent%2Ceditable_content%2Cattachment%2Cvoteup_count%2Creshipment_settings%2Ccomment_permission%2Ccreated_time%2Cupdated_time%2Creview_info%2Crelevant_info%2Cquestion%2Cexcerpt%2Cis_labeled%2Cpaid_info%2Cpaid_info_content%2Creaction_instruction%2Csegment_infos%2Callow_segment_interaction%2Chot_comment%2Crelationship.is_authorized%2Cis_author%2Cvoting%2Cis_thanked%2Cis_nothelp%3Bdata%5B%2A%5D.author.follower_count%2Cvip_info%2Ckvip_info%2Cbadge%5B%2A%5D.topics%3Bdata%5B%2A%5D.settings.table_of_content.enabled&limit=5&offset=2&order=default&platform=desktop&session_id=1768612379332602814&ws_qiangzhisafe=0",
+        "need_force_login": false
+      }
+    }
+  }
+]

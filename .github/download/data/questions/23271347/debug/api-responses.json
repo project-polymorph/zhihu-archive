@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/23271347/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768607682343,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/23271347/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/23271347/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别对人重要吗，为什么？",
+          "question_type": "normal",
+          "created": 1587731468,
+          "updated_time": 1587731468,
+          "url": "https://www.zhihu.com/api/v4/questions/390338242",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 6,
+          "relationship": {},
+          "id": "390338242"
+        },
+        {
+          "type": "question",
+          "title": "我们的性别真的是自己想要的么？",
+          "question_type": "normal",
+          "created": 1600960085,
+          "updated_time": 1600960085,
+          "url": "https://www.zhihu.com/api/v4/questions/422768265",
+          "answer_count": 31,
+          "comment_count": 0,
+          "follower_count": 39,
+          "relationship": {},
+          "id": "422768265"
+        },
+        {
+          "type": "question",
+          "title": "性别对人的重要性有哪些？",
+          "question_type": "normal",
+          "created": 1573833103,
+          "updated_time": 1573833103,
+          "url": "https://www.zhihu.com/api/v4/questions/356057071",
+          "answer_count": 2,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "356057071"
+        }
+      ]
+    }
+  }
+]

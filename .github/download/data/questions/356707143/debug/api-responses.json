@@ -1,0 +1,31 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/356707143/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768597012022,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/356707143/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/356707143/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 1
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "做变性手术是什么感觉？效果怎么样，有图吗？",
+          "question_type": "normal",
+          "created": 1737740356,
+          "updated_time": 1737740356,
+          "url": "https://www.zhihu.com/api/v4/questions/10489893141",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 70,
+          "relationship": {},
+          "id": "10489893141"
+        }
+      ]
+    }
+  }
+]

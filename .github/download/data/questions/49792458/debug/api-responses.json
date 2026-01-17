@@ -1,0 +1,57 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/49792458/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768598017003,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/49792458/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/49792458/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 3
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果你是另外一个性别你会发生什么思想变化？",
+          "question_type": "normal",
+          "created": 1639539950,
+          "updated_time": 1639539950,
+          "url": "https://www.zhihu.com/api/v4/questions/506172321",
+          "answer_count": 247,
+          "comment_count": 12,
+          "follower_count": 444,
+          "relationship": {},
+          "id": "506172321"
+        },
+        {
+          "type": "question",
+          "title": "人为什么只有两种性别？",
+          "question_type": "normal",
+          "created": 1389525064,
+          "updated_time": 1389525064,
+          "url": "https://www.zhihu.com/api/v4/questions/22509401",
+          "answer_count": 2,
+          "comment_count": 1,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "22509401"
+        },
+        {
+          "type": "question",
+          "title": "极度厌恶自己的性别真的没救了吗？",
+          "question_type": "normal",
+          "created": 1732457254,
+          "updated_time": 1732457254,
+          "url": "https://www.zhihu.com/api/v4/questions/5030186180",
+          "answer_count": 30,
+          "comment_count": 1,
+          "follower_count": 46,
+          "relationship": {},
+          "id": "5030186180"
+        }
+      ]
+    }
+  }
+]

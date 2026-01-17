@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/39991671/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768602717810,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/39991671/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/39991671/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "性别真的很重要吗？",
+          "question_type": "normal",
+          "created": 1681014260,
+          "updated_time": 1681014260,
+          "url": "https://www.zhihu.com/api/v4/questions/594530404",
+          "answer_count": 39,
+          "comment_count": 0,
+          "follower_count": 43,
+          "relationship": {},
+          "id": "594530404"
+        },
+        {
+          "type": "question",
+          "title": "为什么总有人觉得性别很重要？",
+          "question_type": "normal",
+          "created": 1624347351,
+          "updated_time": 1624347351,
+          "url": "https://www.zhihu.com/api/v4/questions/466558709",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 2,
+          "relationship": {},
+          "id": "466558709"
+        },
+        {
+          "type": "question",
+          "title": "性别真的很重要吗?",
+          "question_type": "normal",
+          "created": 1693713486,
+          "updated_time": 1693713486,
+          "url": "https://www.zhihu.com/api/v4/questions/620363528",
+          "answer_count": 41,
+          "comment_count": 3,
+          "follower_count": 64,
+          "relationship": {},
+          "id": "620363528"
+        },
+        {
+          "type": "question",
+          "title": "为什么常常感觉性别不是那么重要~但最好不要有变化就好？",
+          "question_type": "normal",
+          "created": 1596046897,
+          "updated_time": 1596046897,
+          "url": "https://www.zhihu.com/api/v4/questions/410768437",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 1,
+          "relationship": {},
+          "id": "410768437"
+        }
+      ]
+    }
+  }
+]
