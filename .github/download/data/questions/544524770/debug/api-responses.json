@@ -1,0 +1,70 @@
+[
+  {
+    "url": "https://www.zhihu.com/api/v4/questions/544524770/similar-questions?include=data%5B*%5D.answer_count%2Cauthor%2Cfollower_count&limit=5",
+    "type": "similar-questions",
+    "timestamp": 1768632280073,
+    "data": {
+      "paging": {
+        "is_end": true,
+        "is_start": true,
+        "next": "https://www.zhihu.com/api/v4/questions/544524770/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=10",
+        "previous": "https://www.zhihu.com/api/v4/questions/544524770/similar-questions?include=data%5B%2A%5D.answer_count%2Cauthor%2Cfollower_count&limit=10&offset=0",
+        "totals": 4
+      },
+      "data": [
+        {
+          "type": "question",
+          "title": "如果性别转换，你的人生又当如何？",
+          "question_type": "normal",
+          "created": 1617327424,
+          "updated_time": 1617327424,
+          "url": "https://www.zhihu.com/api/v4/questions/452499823",
+          "answer_count": 59,
+          "comment_count": 1,
+          "follower_count": 74,
+          "relationship": {},
+          "id": "452499823"
+        },
+        {
+          "type": "question",
+          "title": "假如性别转换，你憧憬的事物会因此而改变吗?",
+          "question_type": "normal",
+          "created": 1715346033,
+          "updated_time": 1715346033,
+          "url": "https://www.zhihu.com/api/v4/questions/655606039",
+          "answer_count": 8,
+          "comment_count": 0,
+          "follower_count": 15,
+          "relationship": {},
+          "id": "655606039"
+        },
+        {
+          "type": "question",
+          "title": "假想自己性别转换是一种怎么样的体验？",
+          "question_type": "normal",
+          "created": 1620054064,
+          "updated_time": 1620054064,
+          "url": "https://www.zhihu.com/api/v4/questions/457711006",
+          "answer_count": 1,
+          "comment_count": 0,
+          "follower_count": 0,
+          "relationship": {},
+          "id": "457711006"
+        },
+        {
+          "type": "question",
+          "title": "如果性别发生转变，你们会做什么？",
+          "question_type": "normal",
+          "created": 1512488431,
+          "updated_time": 1512488431,
+          "url": "https://www.zhihu.com/api/v4/questions/263654429",
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 9,
+          "relationship": {},
+          "id": "263654429"
+        }
+      ]
+    }
+  }
+]
